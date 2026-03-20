@@ -1537,7 +1537,7 @@ def batch_process():
             base_url_obj = getattr(processor.client, "base_url", "")
             base_url_str = str(base_url_obj) if base_url_obj else ""
             is_openrouter = bool(base_url_str) and "openrouter" in base_url_str.lower()
-
+            logger.info(f"is_openrouter = {is_openrouter} at {base_url_str}")
             if len(all_prompts) > batch_size:
                 # Process in mini-batches
                 logger.info(f"Processing {len(all_prompts)} prompts in mini-batches of {batch_size}")
@@ -1705,7 +1705,7 @@ if __name__ == '__main__':
                       help='Host to bind the server to (default: 0.0.0.0)')
     parser.add_argument('--model_name',
                       help='Model name to use for API calls',
-                      default=None)
+                      default="qwen3-32b")
 
     args = parser.parse_args()
 

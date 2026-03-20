@@ -25,6 +25,10 @@ class ConversationCreator():
             self.data = pd.read_parquet('data/memalpha/test.parquet')
             print(np.unique(self.data['data_source'].tolist(), return_counts=True))
 
+        elif dataset == 'mytest':
+            self.data = pd.read_parquet('data/mytest/test.parquet')
+            print(np.unique(self.data['data_source'].tolist(), return_counts=True))
+
         elif dataset == 'memalpha_sample':
             self.data = pd.read_parquet('data/memalpha_sample/train.parquet')
             print(np.unique(self.data['data_source'].tolist(), return_counts=True))
@@ -133,7 +137,7 @@ class ConversationCreator():
         nltk.download('punkt', quiet=True)
         nltk.download('punkt_tab')
 
-        if self.dataset_name == 'memalpha' or self.dataset_name == 'memalpha_train' or self.dataset_name == 'memalpha_sample':
+        if self.dataset_name == 'memalpha' or self.dataset_name == 'memalpha_train' or self.dataset_name == 'memalpha_sample' or self.dataset_name == 'mytest':
 
             all_chunks = []
             for idx, row in tqdm(self.data.iterrows(), desc=f"Processing {self.dataset_name} chunks", unit="item", total=len(self.data)):
@@ -186,7 +190,7 @@ class ConversationCreator():
 
         all_queries_and_answers = []
 
-        if self.dataset_name == 'memalpha' or self.dataset_name == 'memalpha_train' or self.dataset_name == 'memalpha_sample' or self.dataset_name == 'memoryagentbench' or self.dataset_name == 'accurate_retrieval' or self.dataset_name == 'test_time_learning' or self.dataset_name == 'long_range_understanding':
+        if self.dataset_name == 'memalpha' or self.dataset_name == 'memalpha_train' or self.dataset_name == 'memalpha_sample' or self.dataset_name == 'memoryagentbench' or self.dataset_name == 'accurate_retrieval' or self.dataset_name == 'test_time_learning' or self.dataset_name == 'long_range_understanding' or self.dataset_name == 'mytest':
 
             for idx, row in tqdm(self.data.iterrows(), desc=f"Processing {self.dataset_name} Q&A", unit="item", total=len(self.data)):
                 # Parse questions and answers - they're stored as JSON strings in the parquet file
@@ -205,6 +209,8 @@ class ConversationCreator():
                     data_source = 'memalpha_train'
                 elif self.dataset_name == 'memalpha_sample':
                     data_source = 'memalpha_sample'
+                elif self.dataset_name == 'mytest':
+                    data_source = 'mytest'
                 else:
                     data_source = 'memalpha'
 

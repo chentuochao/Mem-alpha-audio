@@ -1,4 +1,8 @@
 import os
+
+os.environ['HF_HOME'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+os.environ['HF_HUB_CACHE'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+
 from datetime import datetime
 import json
 import vllm
@@ -103,7 +107,7 @@ def process_chunk_with_gpt4_mini(chunk_data):
 def parse_args():
     parser = argparse.ArgumentParser(description="Minimal Memory Agent Evaluation")
     parser.add_argument("--agent_config", type=str, required=True, help="Path to agent configuration YAML file")
-    parser.add_argument("--dataset", type=str, default="LOCOMO", choices=['squad', 'squad_test', 'hotpotqa', 'booksum', 'friends', 'wos46985', 'pubmed-rct', 'arxiv-classification', 'eurlex', 'accurate_retrieval', 'long_range_understanding', 'conflict_resolution', 'test_time_learning', "LOCOMO", "LongMemEval", "MemAgent_Bench", "memalpha", "memalpha_train", 'memalpha_sample', "detectiveqa", 'memoryagentbench', 'perltqa', 'narrativeqa', 'accurate_retrieval', 'test_time_learning', 'cr_train']) # Restricted choices
+    parser.add_argument("--dataset", type=str, default="LOCOMO", choices=['squad', 'mytest', 'squad_test', 'hotpotqa', 'booksum', 'friends', 'wos46985', 'pubmed-rct', 'arxiv-classification', 'eurlex', 'accurate_retrieval', 'long_range_understanding', 'conflict_resolution', 'test_time_learning', "LOCOMO", "LongMemEval", "MemAgent_Bench", "memalpha", "memalpha_train", 'memalpha_sample', "detectiveqa", 'memoryagentbench', 'perltqa', 'narrativeqa', 'accurate_retrieval', 'test_time_learning', 'cr_train']) # Restricted choices
     parser.add_argument("--load_db_from", type=str, default=None) # Memory databse
     parser.add_argument("--chunk_size", type=int, default=4096, help="Chunk size for MemAgent_Bench dataset")  # add parameter chunk_size
     parser.add_argument("--save_process", action="store_true", help="Enable process tracking for Qwen models (saves detailed logs)")
@@ -471,7 +475,7 @@ def run_with_chunks_and_questions_batch(
             # Only save core memory if it's available
             if memory.including_core and memory.core is not None:
                 state['core'] = memory.core
-
+            print("store memory ", f"{out_dir}/agent_state.json")
             with open(f"{out_dir}/agent_state.json", "w") as f:
                 json.dump(state, f, indent=2)
 
