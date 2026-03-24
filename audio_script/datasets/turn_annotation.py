@@ -16,11 +16,6 @@ import string
 
 from itertools import zip_longest
 
-AUDIO_SILENCE_CODES = torch.tensor([
-    153,  14, 819,  15, 713, 220, 855,  42, 975, 865, 460, 815, 487, 221, 800, 100
-]).unsqueeze(1) # [num_codebooks, 1]
-from src.data.tokenizer import Llama3Tokenizer, SLMCodecSpecialTokens
-from src.data.iterator.diag_base import Turn, TurnEndType, TurnType
 
 def normalize_string(input_string):
     result = input_string
@@ -565,24 +560,17 @@ def handle_channel(
 
 class AlignedProcess():
     def __init__(self,
-                tokenizer,
-                special_tokens,
                 transcriptA,
                 transcriptB,
+                speakerA,
+                speakerB,
                 trp_separated_by = 1,
                 pre_silence=0.5,
                 post_silence=0.5,
                 bc_duration=3,
                 yield_int_thresh = 0.2,
                 include_backchannels = True,
-                include_overlap = True,
-                use_same_token = True,
-                code_freq = 25,
-                dont_cat = False,
-                dont_cat2 = False,
-                different_silence = False,
-                remove_word = False,
-                use_end_token = False
+                include_overlap = True,                
             ):
 
         self.trp_separated_by = trp_separated_by
@@ -590,44 +578,24 @@ class AlignedProcess():
         self.post_silence = post_silence
         self.bc_duration = bc_duration
         self.yield_int_thresh = yield_int_thresh
-        self.tokenizer = tokenizer
-        self.special_tokens = special_tokens
+
         self.include_backchannels = include_backchannels
         self.include_overlap = include_overlap
-        self.use_same_token = use_same_token
-        self.code_freq = code_freq
-        self.dont_cat = dont_cat
-        self.remove_word = remove_word
+        self.dont_cat = False
+        self.remove_word = False
+        dont_cat2 = True
 
         ### split the trasnscriptions into small segments
-        if dont_cat2:
-            annoA = self.split_trans2(transcriptA, "A")
-            annoB = self.split_trans2(transcriptB, "B")
-        else:
-            annoA = self.split_trans(transcriptA, "A")
-            annoB = self.split_trans(transcriptB, "B")
+        annoA = self.split_trans(transcriptA, speakerA)
+        annoB = self.split_trans(transcriptB, speakerB)
 
-        if dont_cat2:
-            self.turn_start = special_tokens.spk_tags[0]
-            self.overlap_start = special_tokens.spk_tags[0]
-        else:
-            self.turn_start = special_tokens.spk_tags[2]
-            self.overlap_start = special_tokens.spk_tags[2]
+        self.turn_start = "<SOT>"
+        self.overlap_start =  "<SOT>"
+        self.backchannel_start =  "<BC>"
 
-        self.backchannel_start = special_tokens.spk_tags[3]
+        self.inter_silence = "<SILENCE>"
+        self.intra_silence = "<SILENCE>"
 
-        self.use_end_token = use_end_token
-        self.turn_end_token = None
-        # if self.use_end_token:
-        self.turn_end_token = special_tokens.spk_tags[4]
-        assert(different_silence == False)
-
-        if different_silence:
-            self.inter_silence = special_tokens.spk_tags[4]
-            self.intra_silence = special_tokens.text_pad
-        else:
-            self.inter_silence = special_tokens.text_pad
-            self.intra_silence = special_tokens.text_pad
 
         self.max_len = max([annoA[-1]["end"], annoB[-1]["end"]])
         dialog = [annoA, annoB]
@@ -644,6 +612,31 @@ class AlignedProcess():
         # print()
         # self.print_turn(turnsA)
         # self.print_turn(turnsB)
+    def get_parsed_dialog(self):
+        dialogs = self.dialog["dialog"]["speakerA"]
+        backchannel = self.dialog["backchannel"]["speakerA"]
+        overlap = self.dialog["overlap"]["speakerA"]
+
+        temp_dialogs = [x | {"dialog_type": "dialog"} for x in dialogs]
+        temp_bc = [x | {"dialog_type": "backchannel"} for x in backchannel]
+        temp_overlaps = [x | {"dialog_type": "overlap"} for x in overlap]
+
+        dialogs2 = self.dialog["dialog"]["speakerB"]
+        backchannel2 = self.dialog["backchannel"]["speakerB"]
+        overlap2 = self.dialog["overlap"]["speakerB"]
+
+        temp_dialogs2 = [x | {"dialog_type": "dialog"} for x in dialogs2]
+        temp_bc2 = [x | {"dialog_type": "backchannel"} for x in backchannel2]
+        temp_overlaps2 = [x | {"dialog_type": "overlap"} for x in overlap2]
+        
+        temp_dialogs = temp_dialogs + temp_bc + temp_overlaps
+        temp_dialogs.sort(key=lambda key: (key['start'], -key['end']))
+        
+        temp_dialogs2 = temp_dialogs2 + temp_bc2 + temp_overlaps2
+        temp_dialogs2.sort(key=lambda key: (key['start'], -key['end']))
+        
+        return temp_dialogs, temp_dialogs2
+
     def print_final_diag(self):
         dialogs = self.dialog["dialog"]["speakerA"]
         backchannel = self.dialog["backchannel"]["speakerA"]
@@ -797,199 +790,6 @@ class AlignedProcess():
 
         return turnsA, turnsB
 
-    def tokenize_diag(self, tokens, spk, offset_idx = 0, predict_sot = True):
-        # add the text tokens to the first stream for agent side
-        # Obtain segments
-        if spk == 0:
-            spk_id = "speakerA" # speaker A is user
-        else:
-            spk_id = "speakerB"
-
-
-        tokens = torch.full_like(tokens, fill_value=self.inter_silence)
-
-        dialogs = self.dialog["dialog"][spk_id]
-        backchannel = self.dialog["backchannel"][spk_id]
-        overlap = self.dialog["overlap"][spk_id]
-
-        temp_dialogs = [x | {"dialog_type": "dialog"} for x in dialogs]
-        temp_bc = [x | {"dialog_type": "backchannel"} for x in backchannel]
-        temp_overlaps = [x | {"dialog_type": "overlap"} for x in overlap]
-        temp_dialogs = temp_dialogs + temp_bc + temp_overlaps
-        temp_dialogs.sort(key=lambda key: (key['start'], -key['end']))
-        assert(len(temp_dialogs) > 0), "Error: diaglogue is empty, it cannot be tokenized!!!!!"
-        # print()
-        # print("-----------------------------")
-        # segments = []
-        # for n, seg in enumerate(temp_dialogs):
-        #     for word in seg['wfeats']:
-        #         _seg = word.copy()
-        #         _seg['text'] = _seg.pop('word')
-        #         segments.append(_seg)
-        # print(segments)
-        prev_end = -1
-        for sno, sent in enumerate(temp_dialogs):
-            # print(sent["dialog_type"], sent["start"], sent["end"], sent["speaker"], sent["text"])
-            # insert intra silence tokens
-            if len(sent["wfeats"]) == 0:
-                continue
-            turn_start = math.floor(sent["start"] * self.code_freq)
-            turn_end = math.floor(sent["wfeats"][-1]["start"] * self.code_freq)
-            tokens[0, turn_start:turn_end] = self.intra_silence
-
-            for wn0, word in enumerate(sent["wfeats"]):
-                text_tokens = self.tokenizer.encode(word['word'] + ' ', bos=False, eos=False)
-                if self.remove_word:
-                    text_tokens = [ self.intra_silence for _ in text_tokens]
-
-                if wn0 == 0:
-                    if sent["dialog_type"] == "backchannel" and (not self.use_same_token):
-                        start_token = self.backchannel_start
-                    elif sent["dialog_type"] == "overlap" and (not self.use_same_token):
-                        start_token = self.overlap_start
-                    else:
-                        start_token = self.turn_start
-                    text_tokens2 = [start_token]
-                    for w in text_tokens:
-                        text_tokens2.append(w)
-                    text_tokens = text_tokens2
-
-                if wn0 == len(sent["wfeats"]) - 1 and self.use_end_token:
-                    text_tokens.append(self.turn_end_token)
-
-                start_idx = math.floor(word['start'] * self.code_freq) - len(text_tokens) - offset_idx
-
-                if start_idx <= prev_end:
-                    if start_idx > prev_end - 5: ### cannot be more than 5 tokens
-                        start_idx = prev_end + 1
-                    else:
-                        print("Overlap warning", start_idx, prev_end, word['word'])
-
-                for i in range(len(text_tokens)):
-                    idx = start_idx + i
-                    if idx >= 0 and idx < tokens.shape[-1]:
-                        tokens[0, idx] = text_tokens[i]
-
-                prev_end = start_idx + len(text_tokens) - 1
-        return tokens
-
-    def tokenize_user_side(self, tokens, spk, offset_idx = 0, predict_sot = False, predict_eot = True, remove = True):
-        # add the text tokens to the first stream for user side
-        # Obtain segments
-        if spk == 0:
-            spk_id = "speakerA" # speaker A is user
-        else:
-            spk_id = "speakerB" # speaker B is agent
-
-
-        tokens = torch.full_like(tokens, fill_value=self.inter_silence)
-
-        dialogs = self.dialog["dialog"][spk_id]
-        backchannel = self.dialog["backchannel"][spk_id]
-        overlap = self.dialog["overlap"][spk_id]
-
-        temp_dialogs = [x | {"dialog_type": "dialog"} for x in dialogs]
-        temp_bc = [x | {"dialog_type": "backchannel"} for x in backchannel]
-        temp_overlaps = [x | {"dialog_type": "overlap"} for x in overlap]
-        temp_dialogs = temp_dialogs + temp_bc + temp_overlaps
-        temp_dialogs.sort(key=lambda key: (key['start'], -key['end']))
-        assert(len(temp_dialogs) > 0), "Error: diaglogue is empty, it cannot be tokenized!!!!!"
-        # print()
-        # print("-----------------------------")
-        # segments = []
-        # for n, seg in enumerate(temp_dialogs):
-        #     for word in seg['wfeats']:
-        #         _seg = word.copy()
-        #         _seg['text'] = _seg.pop('word')
-        #         segments.append(_seg)
-        # print(segments)
-        prev_end = -1
-        for sno, sent in enumerate(temp_dialogs):
-            # print(sent["dialog_type"], sent["start"], sent["end"], sent["speaker"], sent["text"])
-            # insert intra silence tokens
-            if len(sent["wfeats"]) == 0:
-                continue
-            turn_start = math.floor(sent["start"] * self.code_freq)
-            turn_end = math.floor(sent["wfeats"][-1]["start"] * self.code_freq)
-            tokens[0, turn_start:turn_end] = self.intra_silence
-
-            for wn0, word in enumerate(sent["wfeats"]):
-                text_tokens = self.tokenizer.encode(word['word'] + ' ', bos=False, eos=False)
-                if remove:
-                    text_tokens = [ self.intra_silence for _ in text_tokens]
-
-                if wn0 == 0 and predict_sot:
-                    start_token = self.turn_end_token
-                    text_tokens2 = [start_token]
-                    for w in text_tokens:
-                        text_tokens2.append(w)
-                    text_tokens = text_tokens2
-
-                if wn0 == len(sent["wfeats"]) - 1 and predict_eot:
-                    # print(sent["dialog_type"], word)
-                    if sent["dialog_type"] == "backchannel" and (not self.use_same_token):
-                        end_token = self.backchannel_start
-                    elif sent["dialog_type"] == "overlap" and (not self.use_same_token):
-                        end_token = self.overlap_start
-                    else:
-                        end_token = self.turn_start
-
-                    text_tokens.append(end_token)
-
-                # start_idx = math.floor(word['start'] * self.code_freq) - len(text_tokens) - offset_idx
-                start_idx = math.ceil(word['end'] * self.code_freq)
-
-                if start_idx <= prev_end:
-                    if start_idx > prev_end - 5: ### cannot be more than 5 tokens
-                        start_idx = prev_end + 1
-                    else:
-                        print("Overlap warning", start_idx, prev_end, word['word'])
-
-                for i in range(len(text_tokens)):
-                    idx = start_idx + i
-                    if idx >= 0 and idx < tokens.shape[-1]:
-                        tokens[0, idx] = text_tokens[i]
-
-                prev_end = start_idx + len(text_tokens) - 1
-        return tokens
-
-    def tokenize_diag_vad(self, tokens, spk, offset_idx = 0):
-        # add the text tokens to the first stream
-        # Obtain segments
-        if spk == 0:
-            spk_id = "speakerA"
-        else:
-            spk_id = "speakerB"
-
-
-        tokens = torch.full_like(tokens, fill_value=self.special_tokens.text_pad)
-
-        dialogs = self.dialog["dialog"][spk_id]
-        backchannel = self.dialog["backchannel"][spk_id]
-        overlap = self.dialog["overlap"][spk_id]
-
-        temp_dialogs = [x | {"dialog_type": "dialog"} for x in dialogs]
-        temp_bc = [x | {"dialog_type": "backchannel"} for x in backchannel]
-        temp_overlaps = [x | {"dialog_type": "overlap"} for x in overlap]
-        temp_dialogs = temp_dialogs + temp_bc + temp_overlaps
-        temp_dialogs.sort(key=lambda key: (key['start'], -key['end']))
-        assert(len(temp_dialogs) > 0), "Error: diaglogue is empty, it cannot be tokenized!!!!!"
-
-        for sno, sent in enumerate(temp_dialogs):
-            # insert intra silence tokens
-            # for w in sent["wfeats"]:
-            #     print(sno, w["start"], w["end"], w["word"])
-            if len(sent["wfeats"]) == 0:
-                continue
-            for wn0, word in enumerate(sent["wfeats"]):
-                # print(sno, word["start"], word["end"], word["word"])
-                start_idx = math.floor((word['start'] - 0.4)* self.code_freq)
-                end_idx = math.ceil((word['end'] +  0.4) * self.code_freq)
-
-                for idx in range(start_idx, end_idx):
-                    if idx >= 0 and idx < tokens.shape[-1]:
-                        tokens[0, idx] = self.turn_start
-        return tokens
 
     def print_diag(self, diag):
         for utt in diag:
@@ -999,53 +799,16 @@ class AlignedProcess():
         for turn in turns:
             print(turn.turn_index, turn.speaker, turn.start, turn.end, turn.speaker, turn.word, turn.turn_type, turn.turn_end_type)
 
+
     def split_trans(self, transcript, speaker):
         anno = []
         for n, seg in enumerate(transcript):
-            key = f"{speaker}{n}"
+            key = f"{speaker}_{n}"
             segments = []
             prev_end = None
             for word in seg['words']:
                 _seg = word.copy()
                 _seg['word'] = _seg.pop('word')
-                # if prev_end is not None:
-                #     print(_seg['start'] - prev_end, _seg['word'])
-                # prev_end = _seg['end']
-                _seg['speaker'] = speaker
-                segments.append(_seg)
-
-            segments = self.fix_invalid_segments(segments)
-
-
-            if len(segments) == 0:
-                continue
-
-            anno.append({
-                "start": segments[0]["start"],
-                "end": segments[-1]["end"],
-                "wfeats": segments,
-                "text": " ".join([x["word"] for x in segments]),
-                "speaker": speaker
-            })
-
-        # Obtain valid segments
-
-        return anno
-
-
-
-    def split_trans2(self, transcript, speaker):
-        anno = []
-        for n, seg in enumerate(transcript):
-            key = f"{speaker}{n}"
-            segments = []
-            prev_end = None
-            for word in seg['words']:
-                _seg = word.copy()
-                _seg['word'] = _seg.pop('word')
-                # if prev_end is not None:
-                #     print(_seg['start'] - prev_end, _seg['word'])
-                # prev_end = _seg['end']
                 _seg['speaker'] = speaker
                 segments.append(_seg)
 
@@ -1055,29 +818,7 @@ class AlignedProcess():
 
             new_segments = []
             temp_segs = []
-            # prev_end = 9999
-            # for wi, w in enumerate(segments):
-            #     if (w["end"] - w["start"]) > 6: ## large than 6 second it is impossible
-            #         print("Warning!!!! whisper aligment inaccurate!!!!", wi, len(segments), w)
-            #         if wi == 0:
-            #             w["start"] = w["end"] - 0.2
-            #             temp_segs.append(w)
-            #         elif wi == len(segments) - 1:
-            #             w["end"] = w["start"] + 0.2
-            #             temp_segs.append(w)
-            #         else:
-            #             w["end"] = w["start"] + 0.2
-            #             temp_segs.append(w)
-            #             new_segments.append(temp_segs)
-            #             temp_segs = []
-            #     elif (w["start"] - prev_end) > 6:
-            #         print("Warning!!!! whisper aligment inaccurate!!!!", wi, len(segments), prev_end, w, segments[wi - 1])
-            #         new_segments.append(temp_segs)
-            #         temp_segs = []
-            #         temp_segs.append(w)
-            #     else:
-            #         temp_segs.append(w)
-            #     prev_end = w["end"]
+
             for wi in range(len(segments)):
                 w = segments[wi]
                 if (w["end"] - w["start"]) > 6: ## large than 7 second it is impossible
@@ -1213,198 +954,3 @@ class AlignedProcess():
         concatenated_df.to_csv(file_path, index=True)
 
 
-
-def _encode_speech_with_turntaking(
-    tokenizer: Llama3Tokenizer, special_tokens: SLMCodecSpecialTokens,
-    processor: AlignedProcess, audio_codes: list, speech_codes: list,
-    num_audio_codebooks: int, semantic_stream: bool = True,
-    num_speech_codebooks: int = 1, code_freq: int = 25,
-    delay_codes: bool = False
-):
-    if num_speech_codebooks != 1:
-        raise NotImplementedError
-
-    # Audio codes - only functional when delay_codes = True
-    a_codes = torch.tensor(audio_codes)[:num_audio_codebooks]
-    audio_silence = AUDIO_SILENCE_CODES.repeat( # - 1s silence
-        (1, code_freq)
-    )[:num_audio_codebooks] # [num_codebooks, code_freq]
-    a_codes = torch.cat([audio_silence, a_codes], dim=-1)
-    for k in range(num_audio_codebooks):
-        if delay_codes:
-            a_codes[k] = torch.roll(a_codes[k], k + 1) # additional +1 means current audio condition on the previous speech tokens
-        a_codes[k] += special_tokens.codec_offsets[k]
-    a_codes = a_codes[:, code_freq:]
-    # Silence
-    _silence = AUDIO_SILENCE_CODES.repeat( # 2s silence
-        (1, 2 * code_freq)
-    )[:num_audio_codebooks] # [num_codebooks, code_freq]
-    for k in range(num_audio_codebooks):
-        if delay_codes:
-            _silence[k] = torch.roll(_silence[k], k + 1)
-        _silence[k] += special_tokens.codec_offsets[k]
-    _silence = _silence[:, code_freq:]
-    _silence = torch.cat([
-        torch.full_like(_silence[:2], fill_value=special_tokens.null_id),
-        _silence
-    ], dim=0)
-    # print("_silence", _silence.shape)
-    if num_audio_codebooks < 16:
-        a_codes = F.pad(a_codes, (0, 0, 0, 16 - num_audio_codebooks), mode='constant', value=special_tokens.null_id)
-        _silence = F.pad(_silence, (0, 0, 0, 16 - num_audio_codebooks), mode='constant', value=special_tokens.null_id)
-
-    # Speech codes
-    s_codes = torch.tensor(speech_codes) + special_tokens.speech_offset
-    s_pad = a_codes.shape[-1] - s_codes.shape[-1]
-    # print(s_pad)
-    if s_pad > 0:
-        s_codes = torch.cat([
-            s_codes,
-            torch.full_like(s_codes[:s_pad], fill_value=s_codes[-1])
-        ], dim=-1)
-    else:
-        s_codes = s_codes[:a_codes.shape[-1]]
-    s_codes = s_codes.unsqueeze(0)
-    # print("s_codes", s_codes.shape)
-
-    if not semantic_stream:
-        s_codes = torch.full_like(s_codes, fill_value=special_tokens.null_id)
-
-    text_tokens = torch.full_like(a_codes[0:1], fill_value=special_tokens.text_pad)
-    tokens = torch.cat([text_tokens, s_codes, a_codes], dim=0)
-
-    # agent
-    # The end of the Text corresponding word_i is present $delay_speech$ timesteps before the start of first speech token of word_{i}
-    # decide padding or remove the beginning of speech/audio stream
-    tokens[0:1] = processor.tokenize_diag(tokens[0:1], 1, offset_idx = 0)
-    tokens = tokens.permute(1, 0)
-
-    return tokens
-
-
-def _encode_user_with_turntaking(
-    tokenizer: Llama3Tokenizer, special_tokens: SLMCodecSpecialTokens,
-    processor: AlignedProcess, audio_codes: list, speech_codes: list,
-    num_audio_codebooks: int, semantic_stream: bool = True,
-    num_speech_codebooks: int = 1, code_freq: int = 25,
-    delay_codes: bool = False, predict_sot = False, predict_eot = True, remove = True
-):
-    if num_speech_codebooks != 1:
-        raise NotImplementedError
-
-    # Audio codes - only functional when delay_codes = True
-    a_codes = torch.tensor(audio_codes)[:num_audio_codebooks]
-    audio_silence = AUDIO_SILENCE_CODES.repeat( # - 1s silence
-        (1, code_freq)
-    )[:num_audio_codebooks] # [num_codebooks, code_freq]
-    a_codes = torch.cat([audio_silence, a_codes], dim=-1)
-    for k in range(num_audio_codebooks):
-        if delay_codes:
-            a_codes[k] = torch.roll(a_codes[k], k + 1) # additional +1 means current audio condition on the previous speech tokens
-        a_codes[k] += special_tokens.codec_offsets[k]
-    a_codes = a_codes[:, code_freq:]
-    # Silence
-    _silence = AUDIO_SILENCE_CODES.repeat( # 2s silence
-        (1, 2 * code_freq)
-    )[:num_audio_codebooks] # [num_codebooks, code_freq]
-    for k in range(num_audio_codebooks):
-        if delay_codes:
-            _silence[k] = torch.roll(_silence[k], k + 1)
-        _silence[k] += special_tokens.codec_offsets[k]
-    _silence = _silence[:, code_freq:]
-    _silence = torch.cat([
-        torch.full_like(_silence[:2], fill_value=special_tokens.null_id),
-        _silence
-    ], dim=0)
-    # print("_silence", _silence.shape)
-
-    # Speech codes
-    s_codes = torch.tensor(speech_codes) + special_tokens.speech_offset
-    s_pad = a_codes.shape[-1] - s_codes.shape[-1]
-    # print(s_pad)
-    if s_pad > 0:
-        s_codes = torch.cat([
-            s_codes,
-            torch.full_like(s_codes[:s_pad], fill_value=s_codes[-1])
-        ], dim=-1)
-    else:
-        s_codes = s_codes[:a_codes.shape[-1]]
-    s_codes = s_codes.unsqueeze(0)
-
-    if not semantic_stream:
-        s_codes = torch.full_like(s_codes, fill_value=special_tokens.null_id)
-
-    text_tokens = torch.full_like(a_codes[0:1], fill_value=special_tokens.text_pad)
-    tokens = torch.cat([text_tokens, s_codes, a_codes], dim=0)
-
-    # agent
-    # The end of the Text corresponding word_i is present $delay_speech$ timesteps before the start of first speech token of word_{i}
-    # decide padding or remove the beginning of speech/audio stream
-    tokens[0:1] = processor.tokenize_user_side(tokens[0:1], 0, offset_idx = 0, predict_sot = predict_sot, predict_eot = predict_eot, remove = remove)
-    tokens = tokens.permute(1, 0)
-
-    return tokens
-
-def _encode_speech_with_vad(
-    tokenizer: Llama3Tokenizer, special_tokens: SLMCodecSpecialTokens,
-    processor: AlignedProcess, audio_codes: list, speech_codes: list,
-    num_audio_codebooks: int, semantic_stream: bool = True,
-    num_speech_codebooks: int = 1, code_freq: int = 25,
-    delay_codes: bool = False
-):
-    if num_speech_codebooks != 1:
-        raise NotImplementedError
-
-    # Audio codes - only functional when delay_codes = True
-    a_codes = torch.tensor(audio_codes)[:num_audio_codebooks]
-    audio_silence = AUDIO_SILENCE_CODES.repeat( # - 1s silence
-        (1, code_freq)
-    )[:num_audio_codebooks] # [num_codebooks, code_freq]
-    a_codes = torch.cat([audio_silence, a_codes], dim=-1)
-    for k in range(num_audio_codebooks):
-        if delay_codes:
-            a_codes[k] = torch.roll(a_codes[k], k + 1) # additional +1 means current audio condition on the previous speech tokens
-        a_codes[k] += special_tokens.codec_offsets[k]
-    a_codes = a_codes[:, code_freq:]
-    # Silence
-    _silence = AUDIO_SILENCE_CODES.repeat( # 2s silence
-        (1, 2 * code_freq)
-    )[:num_audio_codebooks] # [num_codebooks, code_freq]
-    for k in range(num_audio_codebooks):
-        if delay_codes:
-            _silence[k] = torch.roll(_silence[k], k + 1)
-        _silence[k] += special_tokens.codec_offsets[k]
-    _silence = _silence[:, code_freq:]
-    _silence = torch.cat([
-        torch.full_like(_silence[:2], fill_value=special_tokens.null_id),
-        _silence
-    ], dim=0)
-    # print("_silence", _silence.shape)
-
-    # Speech codes
-    s_codes = torch.tensor(speech_codes) + special_tokens.speech_offset
-    s_pad = a_codes.shape[-1] - s_codes.shape[-1]
-    # print(s_pad)
-    if s_pad > 0:
-        s_codes = torch.cat([
-            s_codes,
-            torch.full_like(s_codes[:s_pad], fill_value=s_codes[-1])
-        ], dim=-1)
-    else:
-        s_codes = s_codes[:a_codes.shape[-1]]
-    s_codes = s_codes.unsqueeze(0)
-    # print("s_codes", s_codes.shape)
-
-    if not semantic_stream:
-        s_codes = torch.full_like(s_codes, fill_value=special_tokens.null_id)
-
-    text_tokens = torch.full_like(a_codes[0:1], fill_value=special_tokens.text_pad)
-    tokens = torch.cat([text_tokens, s_codes, a_codes], dim=0)
-
-    # agent
-    # The end of the Text corresponding word_i is present $delay_speech$ timesteps before the start of first speech token of word_{i}
-    # decide padding or remove the beginning of speech/audio stream
-    tokens[0:1] = processor.tokenize_diag_vad(tokens[0:1], 0, offset_idx = 0)
-    tokens = tokens.permute(1, 0)
-
-    return tokens
