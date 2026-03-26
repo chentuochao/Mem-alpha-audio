@@ -153,6 +153,8 @@ class InterActDataset(object):
         transcript1 = sample['transcripts'][0]
         transcript2 = sample['transcripts'][1]
         # parse the transcript for turn annotation
+        if len(transcript1) == 0 or len(transcript2) == 0:
+            return None
         aligned_process = AlignedProcess(transcript1, transcript2, sample['speaker_id'][0], sample['speaker_id'][1])
         transA, transB = aligned_process.get_parsed_dialog()
 
@@ -164,10 +166,6 @@ class InterActDataset(object):
         # parse the diarization result
         vad1 = sample['vad'][0]
         vad2 = sample['vad'][1]
-        print("VAD=", len(vad1), len(vad2))
-        print(vad1, vad2)
-
-
         parsed_sample = {
             "conv_id": sample['conv_id'],
             "id": sample['id'],
@@ -188,6 +186,7 @@ class InterActDataset(object):
         # audio1 = audio1[np.newaxis, :]
         audio2, sr = librosa.load(audiof2, sr=self.sample_rate, mono=True)
         # audio2 = audio2[np.newaxis, :]
+        print(s1, s2, audio1.shape, audio2.shape)
 
         transcriptf1, transcriptf2 = self.transcript_files[idx]
         transcript1 = load_jsonl_file(transcriptf1)
@@ -198,6 +197,13 @@ class InterActDataset(object):
         vad2 = load_jsonl_file(vadf2)
 
         s1_speaker_id, s2_speaker_id = self.speaker_data[idx]
+
+        if s1 > s2:
+            s1, s2 = s2, s1
+            audio1, audio2 = audio2, audio1
+            transcript1, transcript2 = transcript2, transcript1
+            vad1, vad2 = vad2, vad1
+            s1_speaker_id, s2_speaker_id = s2_speaker_id, s1_speaker_id
 
         sample0 = {
             "id": [s1, s2],

@@ -596,9 +596,13 @@ class AlignedProcess():
 
         self.inter_silence = "<SILENCE>"
         self.intra_silence = "<SILENCE>"
-
-
-        self.max_len = max([annoA[-1]["end"], annoB[-1]["end"]])
+        assert len(annoA) > 0 or len(annoB) > 0, "Empty annotation at A and B"
+        durations = []
+        if len(annoA) > 0:
+            durations.append(annoA[-1]["end"])
+        if len(annoB) > 0:
+            durations.append(annoB[-1]["end"])
+        self.max_len = max(durations)
         dialog = [annoA, annoB]
         # self.print_diag(annoA)
         # self.print_diag(annoB)

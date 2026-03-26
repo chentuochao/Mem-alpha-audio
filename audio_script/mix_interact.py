@@ -12,7 +12,9 @@ import string
 import logging
 import traceback
 import shutil
-
+from audio_script.datasets.SeamlessInteraction_loader import (
+    InterActDataset,
+)
 
 # output_folder = "mix_conversation_dataset"
 # audios = [
@@ -56,7 +58,7 @@ def main():
     data_path = "/checkpoint/seamless/data/Mosaic"
     diag_format = "naturalistic"
     split = "test"
-    output_path = "/checkpoint/seamless/tuochao/data/Mix_Mosaic/{diag_format}/{split}/"
+    output_path = f"/checkpoint/seamless/tuochao/data/Mix_Mosaic/{diag_format}/{split}/"
     os.makedirs(output_path, exist_ok=True)
     ds = InterActDataset(
             data_path=data_path,
@@ -67,15 +69,23 @@ def main():
     print(f"  Valid pairs:    {len(ds.valid_data)}")
 
     for i in range(len(ds)):
-        sample = ds.load_sample(i)
-        print(f"  Keys: {list(sample.keys())}")
-        print(f"  IDs:  {conv_id['id']}")
-        print(f"  Speaker IDs: {sample['speaker_id']}")
+        try:
+            sample = ds.load_sample(i)
+        except Exception as e:
+            print(f"Failed to load sample {i}: {e}")
+            continue
+        if sample is None:
+            continue
         sub_folder = os.path.join(output_path, sample['speaker_id'][0] + "_" + sample['speaker_id'][1])
         sample_folder = os.path.join(sub_folder, sample['conv_id'])
         os.makedirs(sub_folder, exist_ok=True)
         os.makedirs(sample_folder, exist_ok=True)
-        sf.write(os.path.join(sample_folder, f"mixed_conv.wav"), sample['audio'], sample['sr'])
+
+        print(f"  Keys: {list(sample.keys())}")
+        print(f"  IDs:  {sample['conv_id']}")
+        print(f"  Speaker IDs: {sample['speaker_id']}")
+
+        sf.write(os.path.join(sample_folder, f"mixed_conv.wav"), sample['audios'], 16000)
         # store transcript files
         transcript1 = sample['transcripts'][0]
         transcript2 = sample['transcripts'][1]
