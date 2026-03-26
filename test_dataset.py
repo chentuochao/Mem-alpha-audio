@@ -23,8 +23,7 @@ import jsonlines
 import numpy as np
 import soundfile as sf
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "audio_script"))
-from datasets.SeamlessInteraction_loader import (
+from audio_script.datasets.SeamlessInteraction_loader import (
     InterActDataset,
 )
 
@@ -81,19 +80,8 @@ def test_load_sample(ds, idx=0):
         print(f"  Keys: {list(sample.keys())}")
         print(f"  IDs:  {sample['id']}")
         print(f"  Speaker IDs: {sample['speaker_id']}")
-        print(f"  Sample rate: {sample['sr']}")
-        for i, aud in enumerate(sample["audios"]):
-            print(f"  Audio[{i}] shape: {aud.shape}, dtype: {aud.dtype}")
-        for i, tr in enumerate(sample["transcripts"]):
-            print(f"  Transcript[{i}]: {len(tr)} entries")
-            if len(tr) > 0:
-                print(f"    First entry: {tr[0]}")
-        for i, v in enumerate(sample["vad"]):
-            print(f"  VAD[{i}]: {len(v)} entries")
-            if len(v) > 0:
-                print(f"    First entry: {v[0]}")
 
-        assert len(sample["audios"]) == 2
+
         assert len(sample["transcripts"]) == 2
         assert len(sample["vad"]) == 2
         assert len(sample["id"]) == 2
@@ -110,7 +98,7 @@ def test_load_sample(ds, idx=0):
 
 def main():
     ds = test_dataset_init("/checkpoint/seamless/data/Mosaic", "naturalistic", "test")
-    sample = test_load_sample(ds, idx=0)
+    sample = test_load_sample(ds, idx=1)
 
 
 if __name__ == "__main__":

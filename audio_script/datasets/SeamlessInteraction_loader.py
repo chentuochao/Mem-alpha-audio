@@ -15,9 +15,8 @@ import jsonlines
 import librosa
 import numpy as np
 import torch
-from airstore.blobstore import BlobStore
 from torch.utils.data import DataLoader, Dataset
-from turn_annotation import AlignedProcess
+from .turn_annotation import AlignedProcess
 # ==================================================================================================== #
 # Constants
 # ==================================================================================================== #
@@ -25,7 +24,6 @@ ANNOTATION_LABEL = "annotation"
 ANNOTATION_TYPE_LABEL = "annotation_type"
 INTERACT_BENCHMARK_PATH = "/checkpoint/seamless/data/InterAct_benchmark/"
 SAMPLE_ID_LABEL = "sample_id"
-BLOBSTORE_RGB_BUCKET = "seamless"
 
 DYADIC_JSONL_KEY_ID_0 = "id_0"
 DYADIC_JSONL_KEY_ID_1 = "id_1"
@@ -47,38 +45,6 @@ def load_annotation(sample_id, benchmark_dataset_path, version, annotation_type)
     with open(path) as f:
         annotation = json.load(f)[ANNOTATION_LABEL]
     return annotation
-
-
-def _fetch_blobs(
-    blobstore: BlobStore,
-    bucket: str,
-    path: str,
-) -> Optional[bytes]:
-    fetched = blobstore.list_objects(bucket=bucket, path=path)
-    if len(fetched.blobs) != 1:
-        return None
-    fetched_bytes = blobstore.get(bucket=bucket, key=path)
-    return fetched_bytes
-
-
-def _get_video_from_blobstore(video_id, blobstore, out_path) -> None:
-    video_blob = None
-    candidate_subpaths = {
-        "naturalistic/train",
-        "naturalistic/test",
-        "naturalistic/dev",
-        "acted/train",
-    }
-    for candidate_subpath in candidate_subpaths:
-        video_path = (
-            f"/InterAct/v1_3_0/{candidate_subpath}/video/v1.3.0f/{video_id}.mp4"
-        )
-        video_blob = _fetch_blobs(blobstore, BLOBSTORE_RGB_BUCKET, video_path)
-        if video_blob is not None:
-            break
-    assert video_blob is not None, f"Found no blobs for identifier: {video_id}"
-    with open(out_path, "wb") as f:
-        f.write(video_blob)
 
 
 def load_jsonl_file(file_path):
@@ -121,14 +87,14 @@ class InterActDataset(object):
         sample_rate=16000,
     ):
         self.sample_rate = sample_rate
-        
+
         VAD_PATH = os.path.join(data_path, diag_format, split, "metadata", "vad")
         transcript_PATH = os.path.join(data_path, diag_format, split, "metadata", "transcript")
         audio_PATH = os.path.join(data_path, diag_format, split, "audio")
-    
+
         files = glob.glob(transcript_PATH + "/*.jsonl")
         self.all_data = pair_files(files)
-        
+
 
 
         self.transcript_files = []
@@ -170,9 +136,8 @@ class InterActDataset(object):
 
     def parse_conversation(self, sample):
         amplitude_range = [0.5, 0.95]
-
-        audio1, sr = librosa.load(sample['audios'][0], sr=self.sample_rate, mono=True)
-        audio2, sr = librosa.load(sample['audios'][1], sr=self.sample_rate, mono=True)
+        audio1 = sample['audios'][0]
+        audio2 = sample['audios'][1]
         min_len = min([len(audio1), len(audio2)])
         audio1 = audio1[:min_len]
         audio2 = audio2[:min_len]
@@ -191,12 +156,13 @@ class InterActDataset(object):
         temp_dialogs = transA + transB
         temp_dialogs.sort(key=lambda key: (key['start'], -key['end']))
         for utt in temp_dialogs:
-            print(utt["dialog_type"], utt["start"], utt["end"], utt["speaker"], utt["text"] )
+            print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
 
-        # parse the diarization result 
+        # parse the diarization result
         vad1 = sample['vad'][0]
         vad2 = sample['vad'][1]
-        print(vad1.shape, vad2.shape)
+        print("VAD=", len(vad1), len(vad2))
+        print(vad1, vad2)
 
 
         parsed_sample = {
@@ -214,10 +180,10 @@ class InterActDataset(object):
     def load_sample(self, idx) -> Dict[str, Any]:
         s1, s2 = self.valid_data[idx]
         audiof1, audiof2 = self.audio_files[idx]
-        audio1, sr = librosa.load(audiof1, sr=None, mono=False)
-        audio1 = audio1[np.newaxis, :]
-        audio2, sr = librosa.load(audiof2, sr=None, mono=False)
-        audio2 = audio2[np.newaxis, :]
+        audio1, sr = librosa.load(audiof1, sr=self.sample_rate, mono=True)
+        # audio1 = audio1[np.newaxis, :]
+        audio2, sr = librosa.load(audiof2, sr=self.sample_rate, mono=True)
+        # audio2 = audio2[np.newaxis, :]
 
         transcriptf1, transcriptf2 = self.transcript_files[idx]
         transcript1 = load_jsonl_file(transcriptf1)
@@ -238,14 +204,3 @@ class InterActDataset(object):
             "vad": [vad1, vad2],
         }
         return self.parse_conversation(sample0)
-
-
-
-
-if __name__ == "__main__":
-    blobstore = BlobStore()
-    blobstore.start()
-    _get_video_from_blobstore(
-        "B17_0030_00000025_0045", blobstore, "/home/tuochao/temp.mp4"
-    )
-    blobstore.stop()
