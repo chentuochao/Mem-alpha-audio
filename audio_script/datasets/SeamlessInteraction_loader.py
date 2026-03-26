@@ -237,7 +237,7 @@ class InterActDataset(object):
             "transcripts": [transcript1, transcript2],
             "vad": [vad1, vad2],
         }
-        return self.parse_conversation(sample0)
+        return sample0
 
 
 
