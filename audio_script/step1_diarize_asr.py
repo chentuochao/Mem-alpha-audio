@@ -1,14 +1,23 @@
 """
 Step 1: Multi-talker diarization + ASR  (runs in env1 — NeMo environment)
 
-For each audio file, run streaming diarization + ASR and save:
-  - {basename}_seglst.json   (speaker-tagged transcript segments)
-  - {basename}_diar.npy      (binary diarization matrix, num_frames x num_speakers)
+Input: data directory produced by mix_interact.py with the structure:
+  data_dir/
+    {spk1}_{spk2}/
+      {conv_id}/
+        mixed_conv.wav
+        transcript1.json  transcript2.json
+        vad1.json         vad2.json
+
+For each conversation, run streaming diarization + ASR and save:
+  - seglst.json   (speaker-tagged transcript segments)
+  - diar.npy      (binary diarization matrix, num_frames x num_speakers)
 
 A manifest file (step1_manifest.json) is written so Step 2 knows what to load.
 """
 
 import argparse
+import glob
 import json
 import os
 from pprint import pprint
@@ -166,16 +175,49 @@ def run_diarization_asr(
 
     return seglst_dict_list, diar_result
 
+def discover_conversations(data_dir: str) -> List[Dict]:
+    """
+    Walk the directory tree produced by mix_interact.py and return a list of
+    conversation dicts, each containing paths to the wav / transcript / vad files.
+
+    Expected layout:
+        data_dir/{spk_pair}/{conv_id}/mixed_conv.wav
+    """
+    conversations = []
+    for spk_pair_dir in sorted(glob.glob(os.path.join(data_dir, "*"))):
+        if not os.path.isdir(spk_pair_dir):
+            continue
+        spk_pair = os.path.basename(spk_pair_dir)
+        for conv_dir in sorted(glob.glob(os.path.join(spk_pair_dir, "*"))):
+            if not os.path.isdir(conv_dir):
+                continue
+            audio_path = os.path.join(conv_dir, "mixed_conv.wav")
+            if not os.path.exists(audio_path):
+                continue
+            conv_id = os.path.basename(conv_dir)
+            conversations.append({
+                "spk_pair": spk_pair,
+                "conv_id": conv_id,
+                "conv_dir": conv_dir,
+                "audio_path": audio_path,
+                "transcript1_path": os.path.join(conv_dir, "transcript1.json"),
+                "transcript2_path": os.path.join(conv_dir, "transcript2.json"),
+                "vad1_path": os.path.join(conv_dir, "vad1.json"),
+                "vad2_path": os.path.join(conv_dir, "vad2.json"),
+            })
+    return conversations
+
 
 def main():
     parser = argparse.ArgumentParser(
         description="Step 1: Run multi-talker diarization + ASR (NeMo env)"
     )
     parser.add_argument(
-        "--audio_files",
-        nargs="+",
+        "--data_dir",
+        type=str,
         required=True,
-        help="Audio files to process",
+        help="Root directory produced by mix_interact.py "
+             "(contains {spk_pair}/{conv_id}/ sub-folders)",
     )
     parser.add_argument(
         "--diar_model_path",
@@ -198,12 +240,21 @@ def main():
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="./demo_output",
-        help="Directory to save intermediate results",
+        default=None,
+        help="Directory to save results. Defaults to writing inside each "
+             "conversation folder under data_dir.",
     )
     args = parser.parse_args()
 
-    os.makedirs(args.output_dir, exist_ok=True)
+    if args.output_dir is not None:
+        os.makedirs(args.output_dir, exist_ok=True)
+
+    # ── Discover conversations ────────────────────────────────────────
+    conversations = discover_conversations(args.data_dir)
+    print(f"Found {len(conversations)} conversations under {args.data_dir}")
+    if not conversations:
+        print("No conversations found. Check your --data_dir path.")
+        return
 
     # ── Load models ──────────────────────────────────────────────────
     print("Loading diarization model...")
@@ -242,19 +293,19 @@ def main():
 
     print("Configuration complete.")
 
-    # ── Process each audio file ──────────────────────────────────────
+    # ── Process each conversation ─────────────────────────────────────
     manifest_entries = []
 
-    for audio_file in args.audio_files:
+    for conv in conversations:
         print(f"\n{'=' * 70}")
-        print(f"Processing: {audio_file}")
+        print(f"Processing: {conv['spk_pair']} / {conv['conv_id']}")
+        print(f"  Audio: {conv['audio_path']}")
         print(f"{'=' * 70}")
 
         seglst_dict_list, diar_result = run_diarization_asr(
-            audio_file, asr_model, diar_model, cfg
+            conv["audio_path"], asr_model, diar_model, cfg
         )
 
-        # Print transcript preview
         for seg in seglst_dict_list:
             speaker = seg.get("speaker", "Unknown")
             st = seg.get("start_time", 0.0)
@@ -262,10 +313,17 @@ def main():
             words = seg.get("words", "")
             print(f"  [{speaker}] ({st:.2f}s - {et:.2f}s): {words}")
 
-        # Save intermediate outputs
-        basename = os.path.splitext(os.path.basename(audio_file))[0]
-        seglst_path = os.path.join(args.output_dir, f"{basename}_seglst.json")
-        diar_path = os.path.join(args.output_dir, f"{basename}_diar.npy")
+        # Decide where to save: per-conversation folder or central output_dir
+        if args.output_dir is not None:
+            save_dir = os.path.join(
+                args.output_dir, conv["spk_pair"], conv["conv_id"]
+            )
+            os.makedirs(save_dir, exist_ok=True)
+        else:
+            save_dir = conv["conv_dir"]
+
+        seglst_path = os.path.join(save_dir, "seglst.json")
+        diar_path = os.path.join(save_dir, "diar.npy")
 
         with open(seglst_path, "w") as f:
             json.dump(seglst_dict_list, f, indent=2)
@@ -274,19 +332,27 @@ def main():
         print(f"  Saved: {seglst_path}")
         print(f"  Saved: {diar_path}  shape={diar_result.shape}")
 
-        manifest_entries.append(
-            {
-                "audio_file": audio_file,
-                "seglst_path": seglst_path,
-                "diar_path": diar_path,
-            }
-        )
+        manifest_entries.append({
+            "spk_pair": conv["spk_pair"],
+            "conv_id": conv["conv_id"],
+            "conv_dir": save_dir,
+            "audio_file": conv["audio_path"],
+            "transcript1_path": conv["transcript1_path"],
+            "transcript2_path": conv["transcript2_path"],
+            "vad1_path": conv["vad1_path"],
+            "vad2_path": conv["vad2_path"],
+            "seglst_path": seglst_path,
+            "diar_path": diar_path,
+            "feat_len_sec": cfg.feat_len_sec,
+        })
 
     # ── Write manifest for Step 2 ────────────────────────────────────
-    manifest_path = os.path.join(args.output_dir, "step1_manifest.json")
+    manifest_dir = args.output_dir if args.output_dir else args.data_dir
+    manifest_path = os.path.join(manifest_dir, "step1_manifest.json")
     with open(manifest_path, "w") as f:
         json.dump(manifest_entries, f, indent=2)
-    print(f"\nStep 1 complete. Manifest saved to {manifest_path}")
+    print(f"\nStep 1 complete. Processed {len(manifest_entries)} conversations.")
+    print(f"Manifest saved to {manifest_path}")
 
 
 if __name__ == "__main__":

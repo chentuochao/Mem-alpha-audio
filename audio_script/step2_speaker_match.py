@@ -258,11 +258,16 @@ def process_single_audio(
     diar_result: np.ndarray,
     embedding_backend: EmbeddingBackend,
     temp_dir: str,
+    unique_id: str = "",
 ) -> Dict:
     """
     Given pre-computed diarization + ASR results for one audio file:
       1. Segment audio by diarization result
       2. Extract speaker embedding per local speaker
+
+    Args:
+        unique_id: used to disambiguate temp files when multiple conversations
+                   share the same audio filename (e.g. mixed_conv.wav).
 
     Returns:
         local_speaker_id -> {
@@ -275,7 +280,6 @@ def process_single_audio(
     print(f"Processing embeddings: {audio_file}")
     print(f"{'=' * 70}")
 
-    # Collect per-speaker transcript segments from ASR output
     speaker_texts: Dict[str, List[Tuple[float, float, str]]] = defaultdict(list)
     for seg in seglst_dict_list:
         speaker = seg.get("speaker", "Unknown")
@@ -284,23 +288,20 @@ def process_single_audio(
         words = seg.get("words", "")
         speaker_texts[speaker].append((start_time, end_time, words))
 
-    # Segment audio using binary diarization output
     speaker_segments = segment_audio_by_diarization(diar_result)
 
-    # Extract embedding per local speaker
     local_speakers: Dict[str, Dict] = {}
-    basename = os.path.splitext(os.path.basename(audio_file))[0]
+    prefix = unique_id if unique_id else os.path.splitext(os.path.basename(audio_file))[0]
 
     for spk_idx, segments in speaker_segments.items():
         local_id = f"speaker_{spk_idx}"
 
-        # Skip if the segment total duraion is less than 4 second
         total_dur = segment_duration(segments)
         if total_dur < 4:
             print("  Skip short segment: ", total_dur, "s")
             continue
 
-        spk_audio_path = os.path.join(temp_dir, f"{basename}_{local_id}.wav")
+        spk_audio_path = os.path.join(temp_dir, f"{prefix}_{local_id}.wav")
         result_path = extract_speaker_audio(audio_file, segments, spk_audio_path)
         if result_path is None:
             continue
@@ -315,7 +316,6 @@ def process_single_audio(
             "text": full_text,
             "segments": text_segs,
         }
-
 
         print(
             f"  {local_id}: {len(segments)} segment(s), "
@@ -381,35 +381,43 @@ def main():
         similarity_threshold=args.similarity_threshold,
     )
 
-    # ── Process each audio file sequentially ─────────────────────────
+    # ── Process each conversation sequentially ──────────────────────
     all_results: Dict[str, Dict] = {}
 
     for entry in manifest:
-        print("processing entry.....")
+        spk_pair = entry.get("spk_pair", "")
+        conv_id = entry.get("conv_id", "")
         audio_file = entry["audio_file"]
         seglst_path = entry["seglst_path"]
         diar_path = entry["diar_path"]
 
-        # Load Step 1 outputs
+        result_key = f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
+        unique_id = f"{spk_pair}_{conv_id}" if spk_pair and conv_id else ""
+
+        print(f"\nProcessing entry: {result_key}")
+
         with open(seglst_path, "r") as f:
             seglst_dict_list = json.load(f)
         diar_result = np.load(diar_path)
         print("diar_result = ", diar_result.shape)
-        # Segment audio + extract embeddings
+
         local_speakers = process_single_audio(
             audio_file,
             seglst_dict_list,
             diar_result[0],
             embedding_backend,
             temp_dir,
+            unique_id=unique_id,
         )
 
-        # Register into global pool
         local_to_global = global_pool.register_audio_speakers(
-            audio_file, local_speakers
+            result_key, local_speakers
         )
 
-        all_results[audio_file] = {
+        all_results[result_key] = {
+            "spk_pair": spk_pair,
+            "conv_id": conv_id,
+            "audio_file": audio_file,
             "local_speakers": {
                 k: {"text": v["text"], "segments": v["segments"]}
                 for k, v in local_speakers.items()
@@ -421,10 +429,13 @@ def main():
     global_pool.summary()
 
     # ── Save JSON results ────────────────────────────────────────────
-    output = {"per_audio_results": {}, "global_speakers": {}}
+    output = {"per_conversation_results": {}, "global_speakers": {}}
 
-    for audio_file, result in all_results.items():
-        output["per_audio_results"][audio_file] = {
+    for result_key, result in all_results.items():
+        output["per_conversation_results"][result_key] = {
+            "spk_pair": result.get("spk_pair", ""),
+            "conv_id": result.get("conv_id", ""),
+            "audio_file": result.get("audio_file", ""),
             "local_to_global": result["local_to_global_mapping"],
             "local_speakers": {
                 k: {
