@@ -15,6 +15,7 @@ import torch.nn.functional as F
 import string
 
 from itertools import zip_longest
+from .diag_base import Turn, TurnEndType, TurnType
 
 
 def normalize_string(input_string):
@@ -570,7 +571,7 @@ class AlignedProcess():
                 bc_duration=3,
                 yield_int_thresh = 0.2,
                 include_backchannels = True,
-                include_overlap = True,                
+                include_overlap = True,
             ):
 
         self.trp_separated_by = trp_separated_by
@@ -582,12 +583,12 @@ class AlignedProcess():
         self.include_backchannels = include_backchannels
         self.include_overlap = include_overlap
         self.dont_cat = False
-        self.remove_word = False
-        dont_cat2 = True
 
         ### split the trasnscriptions into small segments
-        annoA = self.split_trans(transcriptA, speakerA)
-        annoB = self.split_trans(transcriptB, speakerB)
+        annoA = self.split_trans(transcriptA, "A")
+        annoB = self.split_trans(transcriptB, "B")
+        self.speakerA = speakerA
+        self.speakerB = speakerB
 
         self.turn_start = "<SOT>"
         self.overlap_start =  "<SOT>"
@@ -628,13 +629,28 @@ class AlignedProcess():
         temp_dialogs2 = [x | {"dialog_type": "dialog"} for x in dialogs2]
         temp_bc2 = [x | {"dialog_type": "backchannel"} for x in backchannel2]
         temp_overlaps2 = [x | {"dialog_type": "overlap"} for x in overlap2]
-        
+
+
         temp_dialogs = temp_dialogs + temp_bc + temp_overlaps
         temp_dialogs.sort(key=lambda key: (key['start'], -key['end']))
-        
+        for idx, utt in enumerate(temp_dialogs):
+            if utt['speaker'] == 'A':
+                temp_dialogs[idx]['speaker'] = self.speakerA
+            elif utt['speaker'] == 'B':
+                temp_dialogs[idx]['speaker'] = self.speakerB
+            else:
+                raise ValueError(f"Unknown speaker {utt['speaker']}")
+
         temp_dialogs2 = temp_dialogs2 + temp_bc2 + temp_overlaps2
         temp_dialogs2.sort(key=lambda key: (key['start'], -key['end']))
-        
+        for idx, utt in enumerate(temp_dialogs2):
+            if utt['speaker'] == 'A':
+                temp_dialogs2[idx]['speaker'] = self.speakerA
+            elif utt['speaker'] == 'B':
+                temp_dialogs2[idx]['speaker'] = self.speakerB
+            else:
+                raise ValueError(f"Unknown speaker {utt['speaker']}")
+
         return temp_dialogs, temp_dialogs2
 
     def print_final_diag(self):
@@ -952,5 +968,3 @@ class AlignedProcess():
         # concatenated_df.reset_index(drop=True, inplace=True)
         # Save to CSV
         concatenated_df.to_csv(file_path, index=True)
-
-
