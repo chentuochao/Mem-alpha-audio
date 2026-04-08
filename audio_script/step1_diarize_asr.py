@@ -33,6 +33,7 @@ from nemo.collections.asr.parts.utils.streaming_utils import (
 from omegaconf import OmegaConf
 
 from dataclasses import dataclass, field, is_dataclass
+from audio_script.datasets.turn_annotation import AlignedProcess
 
 
 # Use the pre-defined dataclass template `MultitalkerTranscriptionConfig` from `multitalker_transcript_config.py`.
@@ -314,9 +315,75 @@ def main():
         seglst_dict_list, word_list, diar_result = run_diarization_asr(
             conv["audio_path"], asr_model, diar_model, cfg
         )
+        # temp_words = word_list['speaker_0'] + word_list['speaker_1']
+        # temp_words = sorted(temp_words, key=lambda x: x['start'])
+        # for w in temp_words:
+        #     print(w["start"], w['end'], w['speaker'], "|" + w['word'] + "|")
 
+        speaker_transcripts = {}
+        valid_speakers = []
         transcripts = []
-        for speaker in word_list.keys()
+        for speaker in word_list.keys():
+            words = word_list[speaker]
+            if len(words) == 0:
+                continue
+            # sorted the words by "start" time
+            words = sorted(words, key=lambda x: x['start'])
+            transcript = ""
+            for word in words:
+                transcript += word["word"]
+            transcripts.append(transcript)
+            valid_speakers.append(speaker)
+            speaker_transcripts[speaker] = [{
+                "speaker": speaker,
+                "start": words[0]['start'],
+                "end": words[-1]['end'],
+                "words": words
+            }]
+
+
+
+        # check the speaker number
+        speaker_aware_turn = []
+        if len(valid_speakers) == 0:
+            print(f"No valid speakers found for {conv['spk_pair']} / {conv['conv_id']}")
+            continue
+        elif len(valid_speakers) == 1:
+            print(f"Only one valid speaker found for {conv['spk_pair']} / {conv['conv_id']}")
+            words = speaker_transcripts[valid_speakers[0]]["words"]
+            transcript = transcripts[0]
+            speaker_aware_turn = [{
+                "dialog_type": "dialog",
+                "speaker": valid_speakers[0],
+                "start": words[0]['start'],
+                "end": words[-1]['end'],
+                "text": transcript,
+                "wfeats": words
+            }]
+        elif len(valid_speakers) == 2:
+            speaker0 = valid_speakers[0]
+            speaker1 = valid_speakers[1]
+            aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = 2)
+            transA, transB = aligned_process.get_parsed_dialog()
+            speaker_aware_turn = transA + transB
+            speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
+
+        else:
+            # find the top2 speaker with longest transcript
+            # sort the valid_speakers by the length of transcripts
+            valid_speakers = sorted(valid_speakers, key=lambda x: len(transcripts[x]), reverse=True)
+            valid_speakers = valid_speakers[:2]
+            speaker0 = valid_speakers[0]
+            speaker1 = valid_speakers[1]
+            aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = 2)
+            transA, transB = aligned_process.get_parsed_dialog()
+            speaker_aware_turn = transA + transB
+            speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
+
+        # print(speaker_aware_turn)
+        for utt in speaker_aware_turn:
+            print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
+
         # for si, seg in enumerate(seglst_dict_list):
         #     speaker = seg.get("speaker", "Unknown")
         #     st = seg.get("start_time", 0.0)

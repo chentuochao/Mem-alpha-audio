@@ -45,30 +45,6 @@ def _is_valid_seg(seg):
     return True
 
 
-def _get_valid_segments(segments):
-    _segments = []
-    prev_seg_valid = True
-    for _, seg in enumerate(segments):
-        if len(_segments) == 0:
-            # Continue until we find first valid segment
-            if _is_valid_seg(seg):
-                _seg = seg.copy()
-                _segments.append(_seg)
-            continue
-
-        if _is_valid_seg(seg):
-            if not prev_seg_valid:
-                _segments[-1]['end'] = seg['end']
-            _seg = seg.copy()
-            _segments.append(_seg)
-            prev_seg_valid = True
-        else:
-            _segments[-1]['text'] = ' '.join(
-                [_segments[-1]['text'], seg['text']]
-            )
-            prev_seg_valid = False
-
-    return _segments
 
 BACKCHANNELS = [
     "yeah",
@@ -512,50 +488,6 @@ def separate_by_speaker(dialog_ord):
 
 
 
-### post-process
-def handle_channel(
-    turnA ,
-    curr_turnA ,
-    turnB ,
-    curr_turnB,
-    yield_int_thresh=0.1,
-) -> tuple[Turn, Turn]:
-    if turnA is None:
-        raise ValueError("turnA is None")
-    if turnB is None:
-        raise ValueError("turnB is None")
-
-    if turnB["start"] < turnA["end"] - yield_int_thresh:
-        # turnB overlapped by turnA
-        if turnB["end"] < turnA["end"]:
-            pass
-
-        curr_turnA.update(
-            word=curr_turnA.word + " " + turnA["text"],
-            turn_end_type=TurnEndType.YIELD,
-            start=turnA["start"],
-            end=turnA["end"],
-            other_next_id=curr_turnB.id,
-        )
-
-        curr_turnB.update(turn_type=TurnType.INTERRUPT, other_prev_id=curr_turnA.id)
-    else:
-        new_turn_type = (
-            TurnType.NORMAL
-            if curr_turnA.turn_type == TurnType.NONE
-            else curr_turnA.turn_type
-        )
-        curr_turnA.update(
-            word=curr_turnA.word + " " + turnA["text"],
-            turn_type=new_turn_type,
-            start=turnA["start"],
-            end=turnA["end"],
-            other_next_id=curr_turnB.id,
-        )
-        curr_turnB.update(other_prev_id=curr_turnA.id)
-
-    return curr_turnA, curr_turnB
-
 
 
 
@@ -572,8 +504,11 @@ class AlignedProcess():
                 yield_int_thresh = 0.2,
                 include_backchannels = True,
                 include_overlap = True,
+                interval_character = ' ',
+                turn_gap_threshold = 6,
             ):
-
+        self.interval_character = interval_character
+        self.turn_gap_threshold = turn_gap_threshold
         self.trp_separated_by = trp_separated_by
         self.pre_silence = pre_silence
         self.post_silence = post_silence
@@ -584,9 +519,7 @@ class AlignedProcess():
         self.include_overlap = include_overlap
         self.dont_cat = False
 
-        ### split the trasnscriptions into small segments
-        annoA = self.split_trans(transcriptA, "A")
-        annoB = self.split_trans(transcriptB, "B")
+
         self.speakerA = speakerA
         self.speakerB = speakerB
 
@@ -596,6 +529,10 @@ class AlignedProcess():
 
         self.inter_silence = "<SILENCE>"
         self.intra_silence = "<SILENCE>"
+
+        ### split the trasnscriptions into small segments
+        annoA = self.split_trans(transcriptA, "A")
+        annoB = self.split_trans(transcriptB, "B")
         assert len(annoA) > 0 or len(annoB) > 0, "Empty annotation at A and B"
         durations = []
         if len(annoA) > 0:
@@ -606,6 +543,8 @@ class AlignedProcess():
         dialog = [annoA, annoB]
         # self.print_diag(annoA)
         # self.print_diag(annoB)
+
+
         dialog = self.preprocess_diag(dialog)
 
         diagA = dialog["dialog"]["speakerA"]
@@ -731,86 +670,6 @@ class AlignedProcess():
 
         return new_dialog
 
-    def postprocess_diag(
-        self, dialogA, dialogB
-    ) -> tuple[list[Turn], list[Turn]]:
-        """
-        Helper function to extract tokens from each speaker's dialog
-        """
-
-        turnsA = []
-        turnsB = []
-        conv_id = 0
-
-        curr_turnA = Turn.default("A", conv_id)
-        curr_turnB = Turn.default("B", conv_id)
-
-        dialogs = list(zip_longest(dialogA + [None], dialogB + [None], fillvalue=None))
-        # print("dialogs", len(dialogs))
-        idxA, idxB = 0, 0
-        while idxA < len(dialogs) and idxB < len(dialogs):
-            turnA, turnB = dialogs[idxA][0], dialogs[idxB][1]
-            # print(idxA, idxB, len(turnsA), len(turnsB))
-            if turnA is None and turnB is not None:
-                curr_turnB.update(
-                    start=turnB["start"],
-                    end=turnB["end"],
-                    word=curr_turnB.word + " " + turnB["text"],
-                    speaker="B",
-                    turn_index=idxA + idxB,
-                )
-                turnsB.append(curr_turnB)
-                idxB += 1
-                curr_turnB = Turn.default("B", conv_id)
-                continue
-
-            if turnB is None and turnA is not None:
-                curr_turnA.update(
-                    start=turnA["start"],
-                    end=turnA["start"],
-                    word=curr_turnA.word + " " + turnA["text"],
-                    speaker="A",
-                    turn_index=idxA + idxB,
-                )
-                turnsA.append(curr_turnA)
-                idxA += 1
-
-                curr_turnA = Turn.default("A", conv_id)
-                continue
-
-            if turnA is None and turnB is None:
-                idxA += 1
-                idxB += 1
-                continue
-
-            if turnA["start"] < turnB["start"]:
-                curr_turnA, curr_turnB = handle_channel(
-                    turnA,
-                    curr_turnA,
-                    turnB,
-                    curr_turnB,
-                    yield_int_thresh=self.yield_int_thresh,
-                )
-                curr_turnA.update(turn_index=idxA + idxB)
-                turnsA.append(curr_turnA)
-                curr_turnA = Turn.default("A", conv_id)
-                idxA += 1
-            else:
-                curr_turnB, curr_turnA = handle_channel(
-                    turnB,
-                    curr_turnB,
-                    turnA,
-                    curr_turnA,
-                    yield_int_thresh=self.yield_int_thresh,
-                )
-                curr_turnB.update(turn_index=idxA + idxB)
-                turnsB.append(curr_turnB)
-                curr_turnB = Turn.default("B", conv_id)
-                idxB += 1
-
-        return turnsA, turnsB
-
-
     def print_diag(self, diag):
         for utt in diag:
             print(utt["start"], utt["end"], utt["speaker"], utt["text"])
@@ -841,6 +700,7 @@ class AlignedProcess():
 
             for wi in range(len(segments)):
                 w = segments[wi]
+
                 if (w["end"] - w["start"]) > 6: ## large than 7 second it is impossible
                     # print("Warning!!!! whisper aligment inaccurate!!!!", wi, len(segments), w)
                     if wi == 0:
@@ -861,7 +721,8 @@ class AlignedProcess():
                     continue
 
                 next_w = segments[wi + 1]
-                if (next_w["start"] - w["end"]) > 6:
+                # split to turn when it is larger than 6 second
+                if (next_w["start"] - w["end"]) > self.turn_gap_threshold :
                     # print("Warning!!!! whisper aligment inaccurate!!!!", wi, len(segments), w, next_w)
                     if wi == 0:
                         w["start"] = next_w["start"] - 0.2
@@ -892,7 +753,7 @@ class AlignedProcess():
                     "start": segments[0]["start"],
                     "end": segments[-1]["end"],
                     "wfeats": segments,
-                    "text": " ".join([x["word"] for x in segments]),
+                    "text": self.interval_character.join([x["word"] for x in segments]),
                     "speaker": speaker
                 })
 
@@ -923,7 +784,7 @@ class AlignedProcess():
                 _segments.append(_seg)
                 prev_seg_valid = True
             else:
-                _segments[-1]['word'] = ' '.join(
+                _segments[-1]['word'] = fix_invalid_segments.join(
                     [_segments[-1]['word'], seg['word']]
                 )
                 prev_seg_valid = False
@@ -957,7 +818,7 @@ class AlignedProcess():
                     chunk1 += [''] * (chunk_size - len(chunk1))
                     chunk2 += [''] * (chunk_size - len(chunk2))
 
-                chunk3 = [" " for _ in chunk1]
+                chunk3 = [' ' for _ in chunk1]
                 df = pd.DataFrame([chunk1, chunk2, chunk3])
                 df.index = ['SpeakerA', 'SpeakerB', ' ']
                 yield df

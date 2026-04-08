@@ -44,7 +44,7 @@ echo "  Step 1: Diarization + ASR  (conda env: ${ENV1})"
 echo "============================================================"
 
 conda activate "${ENV1}"
-
+export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
 python "${SCRIPT_DIR}/step1_diarize_asr.py" \
     --data_dir "${DATA_PATH}" \
     --diar_model_path "${DIAR_MODEL_PATH}" \
