@@ -34,6 +34,7 @@ from omegaconf import OmegaConf
 
 from dataclasses import dataclass, field, is_dataclass
 from audio_script.datasets.turn_annotation import AlignedProcess
+from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER
 
 
 # Use the pre-defined dataclass template `MultitalkerTranscriptionConfig` from `multitalker_transcript_config.py`.
@@ -218,6 +219,51 @@ def discover_conversations(data_dir: str) -> List[Dict]:
     return conversations
 
 
+def load_vad_json(path: str) -> List[Dict]:
+    """Load a VAD file (plain JSON array or JSONL) → [{start, end}, ...]"""
+    with open(path, "r") as f:
+        text = f.read().strip()
+    try:
+        data = json.loads(text)
+        if isinstance(data, list):
+            return data
+        return [data]
+    except json.JSONDecodeError:
+        pass
+    entries = []
+    for line in text.splitlines():
+        line = line.strip()
+        if line:
+            entries.append(json.loads(line))
+    return entries
+
+
+def vad_segments_to_binary(vad_segments: List[Dict], total_frames: int,
+                           frame_duration: float = 0.01) -> np.ndarray:
+    """Convert a list of {start, end} VAD segments to a binary vector."""
+    binary = np.zeros(total_frames, dtype=np.float32)
+    for seg in vad_segments:
+        s = int(seg["start"] / frame_duration)
+        e = int(seg["end"] / frame_duration)
+        e = min(e, total_frames)
+        if s < total_frames:
+            binary[s:e] = 1.0
+    return binary
+
+
+def extract_text_from_transcript(transcript_path: str) -> str:
+    """Load a transcript JSON and return concatenated word-level text."""
+    with open(transcript_path, "r") as f:
+        transcript = json.load(f)
+    words = []
+    for seg in transcript:
+        for w in seg.get("words", []):
+            word_text = w.get("word", "").strip()
+            if word_text:
+                words.append(word_text)
+    return " ".join(words)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Step 1: Run multi-talker diarization + ASR (NeMo env)"
@@ -305,6 +351,8 @@ def main():
 
     # ── Process each conversation ─────────────────────────────────────
     manifest_entries = []
+    all_ders = []
+    all_cpwers = []
 
     for conv in conversations:
         print(f"\n{'=' * 70}")
@@ -345,6 +393,7 @@ def main():
 
         # check the speaker number
         speaker_aware_turn = []
+        transA, transB = None, None
         if len(valid_speakers) == 0:
             print(f"No valid speakers found for {conv['spk_pair']} / {conv['conv_id']}")
             continue
@@ -384,16 +433,34 @@ def main():
         for utt in speaker_aware_turn:
             print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
 
-        # for si, seg in enumerate(seglst_dict_list):
-        #     speaker = seg.get("speaker", "Unknown")
-        #     st = seg.get("start_time", 0.0)
-        #     et = seg.get("end_time", 0.0)
-        #     words = seg.get("words", "")
-        #     print(f"  [{speaker}] ({st:.2f}s - {et:.2f}s): {words}")
-        #     seg =""
-        #     for w in word_list[speaker]:
-        #         seg += w["word"]
-        #     print(seg)
+        # ── Evaluate DER ──────────────────────────────────────────────
+        frame_duration = 0.08  # 0.01s per frame
+        total_frames = diar_result.shape[0]
+        vad1 = load_vad_json(conv["vad1_path"])
+        vad2 = load_vad_json(conv["vad2_path"])
+        gt_spk1 = vad_segments_to_binary(vad1, total_frames, frame_duration)
+        gt_spk2 = vad_segments_to_binary(vad2, total_frames, frame_duration)
+        gt_matrix = np.stack([gt_spk1, gt_spk2], axis=0)  # (2, T)
+        pred_matrix = diar_result.T  # (num_speakers, T)
+
+        der, der_details = compute_der(pred_matrix, gt_matrix, frame_duration=frame_duration)
+        print(f"  DER: {der:.4f}  "
+              f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
+              f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")
+        all_ders.append({"spk_pair": conv["spk_pair"], "conv_id": conv["conv_id"],
+                         "der": der, **der_details})
+
+        # ── Evaluate cpWER ────────────────────────────────────────────
+        ref_text1 = extract_text_from_transcript(conv["transcript1_path"])
+        ref_text2 = extract_text_from_transcript(conv["transcript2_path"])
+        spk_reference = [ref_text1, ref_text2]
+
+        spk_hypothesis = transcripts
+
+        cpwer, _, _ = calculate_session_cpWER(spk_hypothesis, spk_reference)
+        print(f"  cpWER: {cpwer:.4f}")
+        all_cpwers.append({"spk_pair": conv["spk_pair"], "conv_id": conv["conv_id"],
+                            "cpwer": cpwer})
 
         exit(0)
         # Decide where to save: per-conversation folder or central output_dir
@@ -436,6 +503,23 @@ def main():
         json.dump(manifest_entries, f, indent=2)
     print(f"\nStep 1 complete. Processed {len(manifest_entries)} conversations.")
     print(f"Manifest saved to {manifest_path}")
+
+    # ── Print evaluation summary ──────────────────────────────────────
+    if all_ders:
+        avg_der = np.mean([d["der"] for d in all_ders])
+        avg_miss = np.mean([d["miss"] for d in all_ders])
+        avg_fa = np.mean([d["fa"] for d in all_ders])
+        avg_conf = np.mean([d["conf"] for d in all_ders])
+        print(f"\n{'=' * 70}")
+        print(f"DER Summary ({len(all_ders)} sessions)")
+        print(f"  Avg DER:  {avg_der:.4f}")
+        print(f"  Avg Miss: {avg_miss:.2f}s  |  Avg FA: {avg_fa:.2f}s  |  Avg Conf: {avg_conf:.2f}s")
+
+    if all_cpwers:
+        avg_cpwer = np.mean([c["cpwer"] for c in all_cpwers])
+        print(f"\ncpWER Summary ({len(all_cpwers)} sessions)")
+        print(f"  Avg cpWER: {avg_cpwer:.4f}")
+        print(f"{'=' * 70}")
 
 
 if __name__ == "__main__":
