@@ -133,21 +133,25 @@ def run_diarization_asr(
     cfg.audio_file = audio_file
     samples = [{"audio_filepath": audio_file}]
 
+
     streaming_buffer = CacheAwareStreamingAudioBuffer(
         model=asr_model,
         online_normalization=cfg.online_normalization,
         pad_and_drop_preencoded=cfg.pad_and_drop_preencoded,
     )
+    # here first run melspect, each featuers size is 128, each features represents 10ms, sampling rate is 16000Hz
     streaming_buffer.append_audio_file(audio_filepath=audio_file, stream_id=-1)
     streaming_buffer_iter = iter(streaming_buffer)
     multispk_asr_streamer = SpeakerTaggedASR(cfg, asr_model, diar_model)
 
+    # here each step the CacheAwareStreamingAudioBuffer will return audio with step size 112 mel frames, i.e., 1.12s, pre-encode cache is 0.09s, so. the chunk size is 1.21s
     for step_num, (chunk_audio, chunk_lengths) in enumerate(streaming_buffer_iter):
         drop_extra_pre_encoded = (
             0
             if step_num == 0 and not cfg.pad_and_drop_preencoded
             else asr_model.encoder.streaming_cfg.drop_extra_pre_encoded
         )
+        print(f"------------ step {step_num}", chunk_audio.shape, chunk_lengths)
         with torch.inference_mode():
             with torch.amp.autocast(diar_model.device.type, enabled=True):
                 with torch.no_grad():
@@ -162,7 +166,11 @@ def run_diarization_asr(
     multispk_asr_streamer.generate_seglst_dicts_from_parallel_streaming(
         samples=samples
     )
+    multispk_asr_streamer.generate_words_list_from_parallel_streaming(
+        samples=samples
+    )
     seglst_dict_list = multispk_asr_streamer.instance_manager.seglst_dict_list
+    word_list = multispk_asr_streamer.instance_manager.words_list
 
     diar_result = (
         (
@@ -173,7 +181,8 @@ def run_diarization_asr(
         .numpy()
     )
 
-    return seglst_dict_list, diar_result
+    print("diar_result shape = ", diar_result.shape)
+    return seglst_dict_list, word_list, diar_result
 
 def discover_conversations(data_dir: str) -> List[Dict]:
     """
@@ -271,7 +280,7 @@ def main():
 
     # ── Configure ────────────────────────────────────────────────────
     cfg = OmegaConf.structured(MultitalkerTranscriptionConfig())
-    cfg.att_context_size = [70, 13]
+    cfg.att_context_size = [70, 13] # 80ms frames
     cfg.max_num_of_spks = args.max_num_of_spks
     diar_model._cfg.max_num_of_spks = args.max_num_of_spks
 
@@ -302,17 +311,24 @@ def main():
         print(f"  Audio: {conv['audio_path']}")
         print(f"{'=' * 70}")
 
-        seglst_dict_list, diar_result = run_diarization_asr(
+        seglst_dict_list, word_list, diar_result = run_diarization_asr(
             conv["audio_path"], asr_model, diar_model, cfg
         )
 
-        for seg in seglst_dict_list:
-            speaker = seg.get("speaker", "Unknown")
-            st = seg.get("start_time", 0.0)
-            et = seg.get("end_time", 0.0)
-            words = seg.get("words", "")
-            print(f"  [{speaker}] ({st:.2f}s - {et:.2f}s): {words}")
+        transcripts = []
+        for speaker in word_list.keys()
+        # for si, seg in enumerate(seglst_dict_list):
+        #     speaker = seg.get("speaker", "Unknown")
+        #     st = seg.get("start_time", 0.0)
+        #     et = seg.get("end_time", 0.0)
+        #     words = seg.get("words", "")
+        #     print(f"  [{speaker}] ({st:.2f}s - {et:.2f}s): {words}")
+        #     seg =""
+        #     for w in word_list[speaker]:
+        #         seg += w["word"]
+        #     print(seg)
 
+        exit(0)
         # Decide where to save: per-conversation folder or central output_dir
         if args.output_dir is not None:
             save_dir = os.path.join(
