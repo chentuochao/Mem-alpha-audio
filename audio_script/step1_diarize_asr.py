@@ -36,7 +36,10 @@ from omegaconf import OmegaConf
 from dataclasses import dataclass, field, is_dataclass
 from audio_script.datasets.turn_annotation import AlignedProcess
 
+from tqdm import tqdm
 
+
+TURN_GAP_TH = 1.5
 @dataclass
 class MultitalkerTranscriptionConfig:
     """
@@ -59,7 +62,7 @@ class MultitalkerTranscriptionConfig:
     session_len_sec: float = -1
     num_workers: int = 8
     random_seed: Optional[int] = None
-    log: bool = True
+    log: bool = False
 
     # Streaming diarization configs
     streaming_mode: bool = True
@@ -149,7 +152,7 @@ def run_diarization_asr(
             if step_num == 0 and not cfg.pad_and_drop_preencoded
             else asr_model.encoder.streaming_cfg.drop_extra_pre_encoded
         )
-        print(f"------------ step {step_num}", chunk_audio.shape, chunk_lengths)
+        # print(f"------------ step {step_num}", chunk_audio.shape, chunk_lengths)
         with torch.inference_mode():
             with torch.amp.autocast(diar_model.device.type, enabled=True):
                 with torch.no_grad():
@@ -217,7 +220,7 @@ def discover_conversations(data_dir: str) -> List[Dict]:
 
 
 def parse_transcript(word_list: Dict) -> List[Dict]:
-    # parse the output of words list 
+    # parse the output of words list
     # check the speaker number
     speaker_transcripts = {}
     valid_speakers = []
@@ -244,7 +247,8 @@ def parse_transcript(word_list: Dict) -> List[Dict]:
     transA, transB = None, None
     if len(valid_speakers) == 0:
         print(f"No valid speakers found for {conv['spk_pair']} / {conv['conv_id']}")
-        continue
+        return []
+
     elif len(valid_speakers) == 1:
         print(f"Only one valid speaker found for {conv['spk_pair']} / {conv['conv_id']}")
         words = speaker_transcripts[valid_speakers[0]]["words"]
@@ -260,7 +264,7 @@ def parse_transcript(word_list: Dict) -> List[Dict]:
     elif len(valid_speakers) == 2:
         speaker0 = valid_speakers[0]
         speaker1 = valid_speakers[1]
-        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = 2)
+        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = TURN_GAP_TH)
         transA, transB = aligned_process.get_parsed_dialog()
         speaker_aware_turn = transA + transB
         speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
@@ -268,11 +272,17 @@ def parse_transcript(word_list: Dict) -> List[Dict]:
     else:
         # find the top2 speaker with longest transcript
         # sort the valid_speakers by the length of transcripts
-        valid_speakers = sorted(valid_speakers, key=lambda x: len(transcripts[x]), reverse=True)
+        # print(transcripts)
+        # print(valid_speakers)
+        lengths = [len(t) for t in transcripts]
+        sorted_pairs = sorted(zip(lengths, valid_speakers), reverse=True)  # longer first
+        valid_speakers = [speaker for length, speaker in sorted_pairs]
         valid_speakers = valid_speakers[:2]
         speaker0 = valid_speakers[0]
         speaker1 = valid_speakers[1]
-        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = 2)
+        # print(valid_speakers)
+        # exit(0)
+        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = TURN_GAP_TH)
         transA, transB = aligned_process.get_parsed_dialog()
         speaker_aware_turn = transA + transB
         speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
@@ -371,7 +381,7 @@ def main():
     # ── Process each conversation ─────────────────────────────────────
     manifest_entries = []
 
-    for conv in conversations:
+    for conv in tqdm(conversations):
         print(f"\n{'=' * 70}")
         print(f"Processing: {conv['spk_pair']} / {conv['conv_id']}")
         print(f"  Audio: {conv['audio_path']}")
