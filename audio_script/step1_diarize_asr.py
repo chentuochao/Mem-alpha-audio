@@ -183,8 +183,7 @@ def run_diarization_asr(
         .numpy()
     )
 
-    print("diar_result shape = ", diar_result.shape)
-    return seglst_dict_list, word_list, diar_result
+    return seglst_dict_list, word_list, diar_result.squeeze(0)
 
 def discover_conversations(data_dir: str) -> List[Dict]:
     """
@@ -257,10 +256,7 @@ def extract_text_from_transcript(transcript_path: str) -> str:
         transcript = json.load(f)
     words = []
     for seg in transcript:
-        for w in seg.get("words", []):
-            word_text = w.get("word", "").strip()
-            if word_text:
-                words.append(word_text)
+        words.append(seg["text"])
     return " ".join(words)
 
 
@@ -442,7 +438,7 @@ def main():
         gt_spk2 = vad_segments_to_binary(vad2, total_frames, frame_duration)
         gt_matrix = np.stack([gt_spk1, gt_spk2], axis=0)  # (2, T)
         pred_matrix = diar_result.T  # (num_speakers, T)
-
+        print(pred_matrix.shape, gt_matrix.shape)
         der, der_details = compute_der(pred_matrix, gt_matrix, frame_duration=frame_duration)
         print(f"  DER: {der:.4f}  "
               f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
@@ -456,9 +452,11 @@ def main():
         spk_reference = [ref_text1, ref_text2]
 
         spk_hypothesis = transcripts
+        print("Hypo", spk_hypothesis)
+        print("spk_reference", spk_reference)
 
-        cpwer, _, _ = calculate_session_cpWER(spk_hypothesis, spk_reference)
-        print(f"  cpWER: {cpwer:.4f}")
+        cpwer, best_perm, _ = calculate_session_cpWER(spk_hypothesis, spk_reference)
+        print(f"  cpWER: {cpwer:.4f}, at best perm {best_perm}")
         all_cpwers.append({"spk_pair": conv["spk_pair"], "conv_id": conv["conv_id"],
                             "cpwer": cpwer})
 

@@ -39,7 +39,7 @@ def compute_der(pred, gt, frame_duration=0.04, collar_frames=0):
     conf = np.sum(speech_both & (speaker_err > 0))
 
     acc_err = np.sum(gt != pred_aligned)/(gt.shape[0]*gt.shape[1])
-    
+
     total_ref = ref_speech.sum()
     miss_sec = miss * frame_duration
     fa_sec = fa * frame_duration
@@ -71,9 +71,9 @@ def plot_diarout(gts, preds, figname):
 
     yticklabels = ["spk0", "spk1", "spk2", "spk3"]
     yticks = np.arange(len(yticklabels))
-    fig, axs = plt.subplots(2, 1, figsize=(100, 2)) 
+    fig, axs = plt.subplots(2, 1, figsize=(100, 2))
 
-    axs[0].imshow(gts_mat, cmap=cmap_str, interpolation='nearest') 
+    axs[0].imshow(gts_mat, cmap=cmap_str, interpolation='nearest')
     axs[0].set_title('GTs', fontsize=FS)
     axs[0].set_xticks(np.arange(-.5, gts_mat.shape[1], 1), minor=True)
     axs[0].set_yticks(yticks)
@@ -82,7 +82,7 @@ def plot_diarout(gts, preds, figname):
     # axs[0].set_xlabel(f"40 ms Frames", fontsize=FS)
     axs[0].grid(which='minor', color=grid_color_p, linestyle='-', linewidth=LW)
 
-    axs[1].imshow(preds_mat, cmap=cmap_str, interpolation='nearest') 
+    axs[1].imshow(preds_mat, cmap=cmap_str, interpolation='nearest')
     axs[1].set_title('Predictions', fontsize=FS)
     axs[1].set_xticks(np.arange(-.5, preds_mat.shape[1], 1), minor=True)
     axs[1].set_yticks(yticks)
@@ -90,8 +90,8 @@ def plot_diarout(gts, preds, figname):
     # axs[1].set_xticklabels(np.arange(-.5, preds_mat.shape[1], 1)/25.0)
     axs[1].set_xlabel(f"40 ms Frames", fontsize=FS)
     axs[1].grid(which='minor', color=grid_color_p, linestyle='-', linewidth=LW)
-    
-    plt.savefig(figname, dpi=300) 
+
+    plt.savefig(figname, dpi=300)
     plt.show()
 
 
