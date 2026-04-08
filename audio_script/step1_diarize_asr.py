@@ -10,10 +10,11 @@ Input: data directory produced by mix_interact.py with the structure:
         vad1.json         vad2.json
 
 For each conversation, run streaming diarization + ASR and save:
-  - seglst.json   (speaker-tagged transcript segments)
-  - diar.npy      (binary diarization matrix, num_frames x num_speakers)
+  - seglst.json     (speaker-tagged transcript segments)
+  - diar.npy        (binary diarization matrix, num_frames x num_speakers)
+  - word_list.json  (per-speaker word-level predictions)
 
-A manifest file (step1_manifest.json) is written so Step 2 knows what to load.
+A manifest file (step1_manifest.json) is written so Step 2 / evaluation knows what to load.
 """
 
 import argparse
@@ -34,12 +35,8 @@ from omegaconf import OmegaConf
 
 from dataclasses import dataclass, field, is_dataclass
 from audio_script.datasets.turn_annotation import AlignedProcess
-from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER
 
 
-# Use the pre-defined dataclass template `MultitalkerTranscriptionConfig` from `multitalker_transcript_config.py`.
-# Configure the diarization model using streaming parameters:
-# from multitalker_transcript_config import MultitalkerTranscriptionConfig
 @dataclass
 class MultitalkerTranscriptionConfig:
     """
@@ -135,7 +132,6 @@ def run_diarization_asr(
     cfg.audio_file = audio_file
     samples = [{"audio_filepath": audio_file}]
 
-
     streaming_buffer = CacheAwareStreamingAudioBuffer(
         model=asr_model,
         online_normalization=cfg.online_normalization,
@@ -185,6 +181,7 @@ def run_diarization_asr(
 
     return seglst_dict_list, word_list, diar_result.squeeze(0)
 
+
 def discover_conversations(data_dir: str) -> List[Dict]:
     """
     Walk the directory tree produced by mix_interact.py and return a list of
@@ -218,47 +215,73 @@ def discover_conversations(data_dir: str) -> List[Dict]:
     return conversations
 
 
-def load_vad_json(path: str) -> List[Dict]:
-    """Load a VAD file (plain JSON array or JSONL) → [{start, end}, ...]"""
-    with open(path, "r") as f:
-        text = f.read().strip()
-    try:
-        data = json.loads(text)
-        if isinstance(data, list):
-            return data
-        return [data]
-    except json.JSONDecodeError:
-        pass
-    entries = []
-    for line in text.splitlines():
-        line = line.strip()
-        if line:
-            entries.append(json.loads(line))
-    return entries
 
+def parse_transcript(word_list: Dict) -> List[Dict]:
+    # parse the output of words list 
+    # check the speaker number
+    speaker_transcripts = {}
+    valid_speakers = []
+    transcripts = []
+    for speaker in word_list.keys():
+        words = word_list[speaker]
+        if len(words) == 0:
+            continue
+        # sorted the words by "start" time
+        words = sorted(words, key=lambda x: x['start'])
+        transcript = ""
+        for word in words:
+            transcript += word["word"]
+        transcripts.append(transcript)
+        valid_speakers.append(speaker)
+        speaker_transcripts[speaker] = [{
+            "speaker": speaker,
+            "start": words[0]['start'],
+            "end": words[-1]['end'],
+            "words": words
+        }]
 
-def vad_segments_to_binary(vad_segments: List[Dict], total_frames: int,
-                           frame_duration: float = 0.01) -> np.ndarray:
-    """Convert a list of {start, end} VAD segments to a binary vector."""
-    binary = np.zeros(total_frames, dtype=np.float32)
-    for seg in vad_segments:
-        s = int(seg["start"] / frame_duration)
-        e = int(seg["end"] / frame_duration)
-        e = min(e, total_frames)
-        if s < total_frames:
-            binary[s:e] = 1.0
-    return binary
+    speaker_aware_turn = []
+    transA, transB = None, None
+    if len(valid_speakers) == 0:
+        print(f"No valid speakers found for {conv['spk_pair']} / {conv['conv_id']}")
+        continue
+    elif len(valid_speakers) == 1:
+        print(f"Only one valid speaker found for {conv['spk_pair']} / {conv['conv_id']}")
+        words = speaker_transcripts[valid_speakers[0]]["words"]
+        transcript = transcripts[0]
+        speaker_aware_turn = [{
+            "dialog_type": "dialog",
+            "speaker": valid_speakers[0],
+            "start": words[0]['start'],
+            "end": words[-1]['end'],
+            "text": transcript,
+            "wfeats": words
+        }]
+    elif len(valid_speakers) == 2:
+        speaker0 = valid_speakers[0]
+        speaker1 = valid_speakers[1]
+        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = 2)
+        transA, transB = aligned_process.get_parsed_dialog()
+        speaker_aware_turn = transA + transB
+        speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
 
+    else:
+        # find the top2 speaker with longest transcript
+        # sort the valid_speakers by the length of transcripts
+        valid_speakers = sorted(valid_speakers, key=lambda x: len(transcripts[x]), reverse=True)
+        valid_speakers = valid_speakers[:2]
+        speaker0 = valid_speakers[0]
+        speaker1 = valid_speakers[1]
+        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = 2)
+        transA, transB = aligned_process.get_parsed_dialog()
+        speaker_aware_turn = transA + transB
+        speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
 
-def extract_text_from_transcript(transcript_path: str) -> str:
-    """Load a transcript JSON and return concatenated word-level text."""
-    with open(transcript_path, "r") as f:
-        transcript = json.load(f)
-    words = []
-    for seg in transcript:
-        words.append(seg["text"])
-    return " ".join(words)
+    # print(speaker_aware_turn)
+    for utt in speaker_aware_turn:
+        print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
 
+    return speaker_aware_turn
 
 def main():
     parser = argparse.ArgumentParser(
@@ -343,12 +366,10 @@ def main():
     diar_model.sortformer_modules.log = cfg.log
     diar_model.sortformer_modules.spkcache_refresh_rate = cfg.spkcache_refresh_rate
 
-    print("Configuration complete.")
+    print("Configuration complete:", cfg)
 
     # ── Process each conversation ─────────────────────────────────────
     manifest_entries = []
-    all_ders = []
-    all_cpwers = []
 
     for conv in conversations:
         print(f"\n{'=' * 70}")
@@ -359,109 +380,8 @@ def main():
         seglst_dict_list, word_list, diar_result = run_diarization_asr(
             conv["audio_path"], asr_model, diar_model, cfg
         )
-        # temp_words = word_list['speaker_0'] + word_list['speaker_1']
-        # temp_words = sorted(temp_words, key=lambda x: x['start'])
-        # for w in temp_words:
-        #     print(w["start"], w['end'], w['speaker'], "|" + w['word'] + "|")
-
-        speaker_transcripts = {}
-        valid_speakers = []
-        transcripts = []
-        for speaker in word_list.keys():
-            words = word_list[speaker]
-            if len(words) == 0:
-                continue
-            # sorted the words by "start" time
-            words = sorted(words, key=lambda x: x['start'])
-            transcript = ""
-            for word in words:
-                transcript += word["word"]
-            transcripts.append(transcript)
-            valid_speakers.append(speaker)
-            speaker_transcripts[speaker] = [{
-                "speaker": speaker,
-                "start": words[0]['start'],
-                "end": words[-1]['end'],
-                "words": words
-            }]
-
-
-
-        # check the speaker number
-        speaker_aware_turn = []
-        transA, transB = None, None
-        if len(valid_speakers) == 0:
-            print(f"No valid speakers found for {conv['spk_pair']} / {conv['conv_id']}")
-            continue
-        elif len(valid_speakers) == 1:
-            print(f"Only one valid speaker found for {conv['spk_pair']} / {conv['conv_id']}")
-            words = speaker_transcripts[valid_speakers[0]]["words"]
-            transcript = transcripts[0]
-            speaker_aware_turn = [{
-                "dialog_type": "dialog",
-                "speaker": valid_speakers[0],
-                "start": words[0]['start'],
-                "end": words[-1]['end'],
-                "text": transcript,
-                "wfeats": words
-            }]
-        elif len(valid_speakers) == 2:
-            speaker0 = valid_speakers[0]
-            speaker1 = valid_speakers[1]
-            aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = 2)
-            transA, transB = aligned_process.get_parsed_dialog()
-            speaker_aware_turn = transA + transB
-            speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
-
-        else:
-            # find the top2 speaker with longest transcript
-            # sort the valid_speakers by the length of transcripts
-            valid_speakers = sorted(valid_speakers, key=lambda x: len(transcripts[x]), reverse=True)
-            valid_speakers = valid_speakers[:2]
-            speaker0 = valid_speakers[0]
-            speaker1 = valid_speakers[1]
-            aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = 2)
-            transA, transB = aligned_process.get_parsed_dialog()
-            speaker_aware_turn = transA + transB
-            speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
-
-        # print(speaker_aware_turn)
-        for utt in speaker_aware_turn:
-            print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
-
-        # ── Evaluate DER ──────────────────────────────────────────────
-        frame_duration = 0.08  # 0.01s per frame
-        total_frames = diar_result.shape[0]
-        vad1 = load_vad_json(conv["vad1_path"])
-        vad2 = load_vad_json(conv["vad2_path"])
-        gt_spk1 = vad_segments_to_binary(vad1, total_frames, frame_duration)
-        gt_spk2 = vad_segments_to_binary(vad2, total_frames, frame_duration)
-        gt_matrix = np.stack([gt_spk1, gt_spk2], axis=0)  # (2, T)
-        pred_matrix = diar_result.T  # (num_speakers, T)
-        print(pred_matrix.shape, gt_matrix.shape)
-        der, der_details = compute_der(pred_matrix, gt_matrix, frame_duration=frame_duration)
-        print(f"  DER: {der:.4f}  "
-              f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
-              f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")
-        all_ders.append({"spk_pair": conv["spk_pair"], "conv_id": conv["conv_id"],
-                         "der": der, **der_details})
-
-        # ── Evaluate cpWER ────────────────────────────────────────────
-        ref_text1 = extract_text_from_transcript(conv["transcript1_path"])
-        ref_text2 = extract_text_from_transcript(conv["transcript2_path"])
-        spk_reference = [ref_text1, ref_text2]
-
-        spk_hypothesis = transcripts
-        print("Hypo", spk_hypothesis)
-        print("spk_reference", spk_reference)
-
-        cpwer, best_perm, _ = calculate_session_cpWER(spk_hypothesis, spk_reference)
-        print(f"  cpWER: {cpwer:.4f}, at best perm {best_perm}")
-        all_cpwers.append({"spk_pair": conv["spk_pair"], "conv_id": conv["conv_id"],
-                            "cpwer": cpwer})
-
-        exit(0)
-        # Decide where to save: per-conversation folder or central output_dir
+        speaker_aware_turn = parse_transcript(word_list)
+        # Decide where to save
         if args.output_dir is not None:
             save_dir = os.path.join(
                 args.output_dir, conv["spk_pair"], conv["conv_id"]
@@ -470,15 +390,15 @@ def main():
         else:
             save_dir = conv["conv_dir"]
 
-        seglst_path = os.path.join(save_dir, "seglst.json")
-        diar_path = os.path.join(save_dir, "diar.npy")
+        diar_path = os.path.join(save_dir, "diart_pred.npy")
+        word_list_path = os.path.join(save_dir, "transcript_pred.json")
 
-        with open(seglst_path, "w") as f:
-            json.dump(seglst_dict_list, f, indent=2)
         np.save(diar_path, diar_result)
+        with open(word_list_path, "w") as f:
+            json.dump(word_list, f, indent=2)
 
-        print(f"  Saved: {seglst_path}")
         print(f"  Saved: {diar_path}  shape={diar_result.shape}")
+        print(f"  Saved: {word_list_path}")
 
         manifest_entries.append({
             "spk_pair": conv["spk_pair"],
@@ -489,35 +409,18 @@ def main():
             "transcript2_path": conv["transcript2_path"],
             "vad1_path": conv["vad1_path"],
             "vad2_path": conv["vad2_path"],
-            "seglst_path": seglst_path,
-            "diar_path": diar_path,
+            "diart_path": diar_path,
+            "transcript_path": word_list_path,
             "feat_len_sec": cfg.feat_len_sec,
         })
 
-    # ── Write manifest for Step 2 ────────────────────────────────────
+    # ── Write manifest for Step 2 / evaluation ────────────────────────
     manifest_dir = args.output_dir if args.output_dir else args.data_dir
     manifest_path = os.path.join(manifest_dir, "step1_manifest.json")
     with open(manifest_path, "w") as f:
         json.dump(manifest_entries, f, indent=2)
     print(f"\nStep 1 complete. Processed {len(manifest_entries)} conversations.")
     print(f"Manifest saved to {manifest_path}")
-
-    # ── Print evaluation summary ──────────────────────────────────────
-    if all_ders:
-        avg_der = np.mean([d["der"] for d in all_ders])
-        avg_miss = np.mean([d["miss"] for d in all_ders])
-        avg_fa = np.mean([d["fa"] for d in all_ders])
-        avg_conf = np.mean([d["conf"] for d in all_ders])
-        print(f"\n{'=' * 70}")
-        print(f"DER Summary ({len(all_ders)} sessions)")
-        print(f"  Avg DER:  {avg_der:.4f}")
-        print(f"  Avg Miss: {avg_miss:.2f}s  |  Avg FA: {avg_fa:.2f}s  |  Avg Conf: {avg_conf:.2f}s")
-
-    if all_cpwers:
-        avg_cpwer = np.mean([c["cpwer"] for c in all_cpwers])
-        print(f"\ncpWER Summary ({len(all_cpwers)} sessions)")
-        print(f"  Avg cpWER: {avg_cpwer:.4f}")
-        print(f"{'=' * 70}")
 
 
 if __name__ == "__main__":

@@ -36,11 +36,11 @@ else
 fi
 
 # ──────────────────────────────────────────────────────────────────────
-#  Step 1: Diarization + ASR  (env1)
+#  Step 1a: Diarization + ASR inference  (env1 — NeMo, needs GPU)
 # ──────────────────────────────────────────────────────────────────────
 
 echo "============================================================"
-echo "  Step 1: Diarization + ASR  (conda env: ${ENV1})"
+echo "  Step 1a: Diarization + ASR inference  (conda env: ${ENV1})"
 echo "============================================================"
 
 conda activate "${ENV1}"
@@ -51,5 +51,17 @@ python "${SCRIPT_DIR}/step1_diarize_asr.py" \
     --asr_model_path  "${ASR_MODEL_PATH}" \
     --max_num_of_spks "${MAX_NUM_OF_SPKS}" \
     --output_dir      "${OUTPUT_DIR}"
+
+# ──────────────────────────────────────────────────────────────────────
+#  Step 1b: Evaluate DER + cpWER  (same env, no GPU needed)
+# ──────────────────────────────────────────────────────────────────────
+
+echo ""
+echo "============================================================"
+echo "  Step 1b: Evaluate DER + cpWER"
+echo "============================================================"
+
+python "${SCRIPT_DIR}/step1_eval.py" \
+    --manifest "${OUTPUT_DIR}/step1_manifest.json"
 
 conda deactivate
