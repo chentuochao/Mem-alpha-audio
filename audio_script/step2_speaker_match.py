@@ -339,10 +339,17 @@ def discover_samples(data_dir: str) -> List[Dict]:
     Walk the directory tree and find all sample folders containing
     sample_info.json produced by Step 1.
 
-    Returns a list of entry dicts, each augmented with ``sample_dir``,
-    ``diart_path``, and ``transcript_path``.
+    First-level sub-folder names are expected to be speaker-pair IDs joined
+    by ``_`` (e.g. ``P0043_P0108``).  Sub-folders that share any speaker ID
+    are transitively clustered together.
+
+    Returns a list of cluster dicts, each with:
+      - ``speaker_ids``: sorted list of all unique speaker IDs in the cluster
+      - ``samples``: list of entry dicts (augmented with ``sample_dir``,
+        ``diart_path``, ``transcript_path``)
     """
-    samples = []
+    # ── 1. Collect samples grouped by first-level sub-folder ─────────
+    subfolder_samples: Dict[str, List[Dict]] = defaultdict(list)
     for info_path in sorted(glob.glob(os.path.join(data_dir, "*", "*", "sample_info.json"))):
         sample_dir = os.path.dirname(info_path)
         diar_path = os.path.join(sample_dir, "diart_pred.npy")
@@ -354,8 +361,45 @@ def discover_samples(data_dir: str) -> List[Dict]:
         info["sample_dir"] = sample_dir
         info["diart_path"] = diar_path
         info["transcript_path"] = transcript_path
-        samples.append(info)
-    return samples
+        group_key = os.path.basename(os.path.dirname(sample_dir))
+        subfolder_samples[group_key].append(info)
+
+    # ── 2. Union-Find to cluster sub-folders sharing a speaker ID ────
+    parent: Dict[str, str] = {}
+
+    def find(x: str) -> str:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a: str, b: str) -> None:
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    subfolder_speakers: Dict[str, List[str]] = {}
+    for folder_name in subfolder_samples:
+        spk_ids = folder_name.split("_")
+        subfolder_speakers[folder_name] = spk_ids
+        for sid in spk_ids:
+            parent.setdefault(sid, sid)
+        for i in range(1, len(spk_ids)):
+            union(spk_ids[0], spk_ids[i])
+
+    # ── 3. Group sub-folders by their cluster root ───────────────────
+    cluster_map: Dict[str, Dict] = defaultdict(
+        lambda: {"speaker_ids": set(), "samples": []}
+    )
+    for folder_name, entries in subfolder_samples.items():
+        root = find(subfolder_speakers[folder_name][0])
+        cluster_map[root]["speaker_ids"].update(subfolder_speakers[folder_name])
+        cluster_map[root]["samples"].extend(entries)
+
+    return [
+        {"speaker_ids": sorted(v["speaker_ids"]), "samples": v["samples"]}
+        for v in cluster_map.values()
+    ]
 
 
 # ─── Main ─────────────────────────────────────────────────────────────
@@ -402,9 +446,10 @@ def main():
     os.makedirs(temp_dir, exist_ok=True)
 
     # ── Discover samples from Step 1 output ──────────────────────────
-    samples = discover_samples(args.data_dir)
-    print(f"Found {len(samples)} sample(s) under {args.data_dir}")
-    if not samples:
+    clusters = discover_samples(args.data_dir)
+    total_samples = sum(len(c["samples"]) for c in clusters)
+    print(f"Found {total_samples} sample(s) in {len(clusters)} speaker cluster(s) under {args.data_dir}")
+    if not clusters:
         print("No samples found. Check your --data_dir path.")
         return
 
@@ -413,57 +458,61 @@ def main():
     embedding_backend = WeSpeakerBackend(
         model_dir=args.embedding_model_dir, device=args.embedding_device
     )
-    # ── Initialize global speaker pool ───────────────────────────────
-    global_pool = GlobalSpeakerPool(
-        similarity_threshold=args.similarity_threshold,
-    )
 
-    # ── Process each conversation sequentially ──────────────────────
-    all_results: Dict[str, Dict] = {}
-
-    for entry in samples:
-        spk_pair = entry.get("spk_pair", "")
-        conv_id = entry.get("conv_id", "")
-        audio_file = entry["audio_file"]
-        diar_path = entry["diart_path"]
-        transcript_path = entry["transcript_path"]
-
-        result_key = f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
-        unique_id = f"{spk_pair}_{conv_id}" if spk_pair and conv_id else ""
-
-        print(f"\nProcessing entry: {result_key}")
-
-        with open(transcript_path, "r") as f:
-            word_list = json.load(f)
-        diar_result = np.load(diar_path)
-        print("diar_result = ", diar_result.shape)
-
-        local_speakers = process_single_audio(
-            audio_file,
-            word_list,
-            diar_result,
-            embedding_backend,
-            temp_dir,
-            unique_id=unique_id,
+    for cluster in clusters:
+        # EACH cluster use one global speaker pool
+        # ── Process each conversation sequentially ──────────────────────
+        all_results: Dict[str, Dict] = {}
+        global_pool = GlobalSpeakerPool(
+            similarity_threshold=args.similarity_threshold,
         )
+        speaker_ids = cluster["speaker_ids"]
+        samples = cluster["samples"]
+        print(f"\n{'='*60}")
+        print(f"Cluster speakers: {speaker_ids}  ({len(samples)} sample(s))")
+        print(f"{'='*60}")
+        for entry in samples:
+            spk_pair = entry.get("spk_pair", "")
+            conv_id = entry.get("conv_id", "")
+            audio_file = entry["audio_file"]
+            diar_path = entry["diart_path"]
+            transcript_path = entry["transcript_path"]
 
-        local_to_global = global_pool.register_audio_speakers(
-            result_key, local_speakers
-        )
+            result_key = f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
+            unique_id = f"{spk_pair}_{conv_id}" if spk_pair and conv_id else ""
 
-        all_results[result_key] = {
-            "spk_pair": spk_pair,
-            "conv_id": conv_id,
-            "audio_file": audio_file,
-            "local_speakers": {
-                k: {"text": v["text"], "segments": v["segments"]}
-                for k, v in local_speakers.items()
-            },
-            "local_to_global_mapping": local_to_global,
-        }
+            print(f"\nProcessing entry: {result_key}")
 
-    # ── Summary ──────────────────────────────────────────────────────
-    global_pool.summary()
+            with open(transcript_path, "r") as f:
+                word_list = json.load(f)
+            diar_result = np.load(diar_path)
+            print("diar_result = ", diar_result.shape)
+
+            local_speakers = process_single_audio(
+                audio_file,
+                word_list,
+                diar_result,
+                embedding_backend,
+                temp_dir,
+                unique_id=unique_id,
+            )
+
+            local_to_global = global_pool.register_audio_speakers(
+                result_key, local_speakers
+            )
+
+            all_results[result_key] = {
+                "spk_pair": spk_pair,
+                "conv_id": conv_id,
+                "audio_file": audio_file,
+                "local_speakers": {
+                    k: {"text": v["text"], "segments": v["segments"]}
+                    for k, v in local_speakers.items()
+                },
+                "local_to_global_mapping": local_to_global,
+            }
+        # ── Summary ──────────────────────────────────────────────────────
+        global_pool.summary()
 
     # ── Save JSON results ────────────────────────────────────────────
     output = {"per_conversation_results": {}, "global_speakers": {}}
