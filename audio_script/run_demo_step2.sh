@@ -48,11 +48,10 @@ echo "============================================================"
 conda activate "${ENV2}"
 
 python "${SCRIPT_DIR}/step2_speaker_match.py" \
-    --manifest            "${OUTPUT_DIR}/step1_manifest.json" \
+    --data_dir            "${OUTPUT_DIR}" \
     --embedding_model_dir "${EMBEDDING_MODEL_DIR}" \
     --similarity_threshold "${SIMILARITY_THRESHOLD}" \
-    --embedding_device    "${EMBEDDING_DEVICE}" \
-    --output_dir          "${OUTPUT_DIR}"
+    --embedding_device    "${EMBEDDING_DEVICE}"
 
 conda deactivate
 

@@ -62,6 +62,6 @@ echo "  Step 1b: Evaluate DER + cpWER"
 echo "============================================================"
 
 python "${SCRIPT_DIR}/step1_eval.py" \
-    --manifest "${OUTPUT_DIR}/step1_manifest.json"
+    --data_dir "${OUTPUT_DIR}"
 
 conda deactivate

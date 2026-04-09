@@ -246,11 +246,11 @@ def parse_transcript(word_list: Dict) -> List[Dict]:
     speaker_aware_turn = []
     transA, transB = None, None
     if len(valid_speakers) == 0:
-        print(f"No valid speakers found for {conv['spk_pair']} / {conv['conv_id']}")
+        print(f"No valid speakers found for!")
         return []
 
     elif len(valid_speakers) == 1:
-        print(f"Only one valid speaker found for {conv['spk_pair']} / {conv['conv_id']}")
+        print(f"Only one valid speaker found for")
         words = speaker_transcripts[valid_speakers[0]]["words"]
         transcript = transcripts[0]
         speaker_aware_turn = [{
@@ -379,7 +379,8 @@ def main():
     print("Configuration complete:", cfg)
 
     # ── Process each conversation ─────────────────────────────────────
-    manifest_entries = []
+    num_processed = 0
+    num_skipped = 0
 
     for conv in tqdm(conversations):
         print(f"\n{'=' * 70}")
@@ -387,33 +388,40 @@ def main():
         print(f"  Audio: {conv['audio_path']}")
         print(f"{'=' * 70}")
 
-        seglst_dict_list, word_list, diar_result = run_diarization_asr(
-            conv["audio_path"], asr_model, diar_model, cfg
-        )
-        speaker_aware_turn = parse_transcript(word_list)
         # Decide where to save
         if args.output_dir is not None:
             save_dir = os.path.join(
                 args.output_dir, conv["spk_pair"], conv["conv_id"]
             )
-            os.makedirs(save_dir, exist_ok=True)
         else:
             save_dir = conv["conv_dir"]
 
         diar_path = os.path.join(save_dir, "diart_pred.npy")
         word_list_path = os.path.join(save_dir, "transcript_pred.json")
+        info_path = os.path.join(save_dir, "sample_info.json")
 
+        if os.path.exists(diar_path) and os.path.exists(word_list_path) and os.path.exists(info_path):
+            print(f"  Skipping (already exists): {save_dir}")
+            num_skipped += 1
+            continue
+
+        try:
+            seglst_dict_list, word_list, diar_result = run_diarization_asr(
+                conv["audio_path"], asr_model, diar_model, cfg
+            )
+            speaker_aware_turn = parse_transcript(word_list, conv)
+        except Exception as e:
+            print(f"  Error: {e}")
+            continue
+
+        os.makedirs(save_dir, exist_ok=True)
         np.save(diar_path, diar_result)
         with open(word_list_path, "w") as f:
             json.dump(word_list, f, indent=2)
 
-        print(f"  Saved: {diar_path}  shape={diar_result.shape}")
-        print(f"  Saved: {word_list_path}")
-
-        manifest_entries.append({
+        sample_info = {
             "spk_pair": conv["spk_pair"],
             "conv_id": conv["conv_id"],
-            "conv_dir": save_dir,
             "audio_file": conv["audio_path"],
             "transcript1_path": conv["transcript1_path"],
             "transcript2_path": conv["transcript2_path"],
@@ -422,15 +430,16 @@ def main():
             "diart_path": diar_path,
             "transcript_path": word_list_path,
             "feat_len_sec": cfg.feat_len_sec,
-        })
+        }
+        with open(info_path, "w") as f:
+            json.dump(sample_info, f, indent=2)
 
-    # ── Write manifest for Step 2 / evaluation ────────────────────────
-    manifest_dir = args.output_dir if args.output_dir else args.data_dir
-    manifest_path = os.path.join(manifest_dir, "step1_manifest.json")
-    with open(manifest_path, "w") as f:
-        json.dump(manifest_entries, f, indent=2)
-    print(f"\nStep 1 complete. Processed {len(manifest_entries)} conversations.")
-    print(f"Manifest saved to {manifest_path}")
+        print(f"  Saved: {diar_path}  shape={diar_result.shape}")
+        print(f"  Saved: {word_list_path}")
+        print(f"  Saved: {info_path}")
+        num_processed += 1
+
+    print(f"\nStep 1 complete. Processed {num_processed}, skipped {num_skipped} conversations.")
 
 
 if __name__ == "__main__":

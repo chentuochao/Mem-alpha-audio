@@ -1,7 +1,8 @@
 """
 Step 2: Speaker embedding extraction + cross-file matching  (runs in env2)
 
-Reads intermediate outputs from Step 1 (seglst JSON + diarization .npy).
+Walks the output directory produced by Step 1 and loads per-sample results
+(sample_info.json + diart_pred.npy + transcript_pred.json).
 For each audio file:
   1. Segments audio by diarization result
   2. Extracts speaker embedding per local speaker
@@ -13,6 +14,7 @@ Produces:
 """
 
 import argparse
+import glob
 import json
 import os
 from collections import defaultdict
@@ -85,7 +87,7 @@ class GlobalSpeakerPool:
         spk = GlobalSpeaker(
             global_id=self._next_id,
             name=f"GLOBAL_SPK_{self._next_id}",
-            embedding=embedding.clone(),
+            embedding=embedding.copy(),
             weight=1,
             transcriptions=[transcription],
         )
@@ -254,7 +256,7 @@ def segment_duration(segments: List[Tuple[float, float]]) -> float:
 
 def process_single_audio(
     audio_file: str,
-    seglst_dict_list: List[Dict],
+    word_list: List[Dict],
     diar_result: np.ndarray,
     embedding_backend: EmbeddingBackend,
     temp_dir: str,
@@ -266,6 +268,8 @@ def process_single_audio(
       2. Extract speaker embedding per local speaker
 
     Args:
+        word_list: per-speaker word-level predictions from step1, e.g.
+            {"speaker_0": [{"word": "hi", "start": 0.1, "end": 0.3}, ...]}
         unique_id: used to disambiguate temp files when multiple conversations
                    share the same audio filename (e.g. mixed_conv.wav).
 
@@ -281,12 +285,17 @@ def process_single_audio(
     print(f"{'=' * 70}")
 
     speaker_texts: Dict[str, List[Tuple[float, float, str]]] = defaultdict(list)
-    for seg in seglst_dict_list:
-        speaker = seg.get("speaker", "Unknown")
-        start_time = seg.get("start_time", 0.0)
-        end_time = seg.get("end_time", 0.0)
-        words = seg.get("words", "")
-        speaker_texts[speaker].append((start_time, end_time, words))
+
+    for segment in word_list:
+        speaker = segment["speaker"]
+        start_time = segment["start"]
+        end_time = segment["end"]
+        full_text = segment["text"]
+        if speaker not in speaker_texts:
+            speaker_texts[speaker] = []
+
+        speaker_texts[speaker].append((start_time, end_time, full_text))
+        
 
     speaker_segments = segment_audio_by_diarization(diar_result)
 
@@ -325,16 +334,41 @@ def process_single_audio(
     return local_speakers
 
 
+def discover_samples(data_dir: str) -> List[Dict]:
+    """
+    Walk the directory tree and find all sample folders containing
+    sample_info.json produced by Step 1.
+
+    Returns a list of entry dicts, each augmented with ``sample_dir``,
+    ``diart_path``, and ``transcript_path``.
+    """
+    samples = []
+    for info_path in sorted(glob.glob(os.path.join(data_dir, "*", "*", "sample_info.json"))):
+        sample_dir = os.path.dirname(info_path)
+        diar_path = os.path.join(sample_dir, "diart_pred.npy")
+        transcript_path = os.path.join(sample_dir, "transcript_pred.json")
+        if not os.path.exists(diar_path) or not os.path.exists(transcript_path):
+            continue
+        with open(info_path, "r") as f:
+            info = json.load(f)
+        info["sample_dir"] = sample_dir
+        info["diart_path"] = diar_path
+        info["transcript_path"] = transcript_path
+        samples.append(info)
+    return samples
+
+
 # ─── Main ─────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(
         description="Step 2: Speaker embedding extraction + cross-file matching (env2)"
     )
     parser.add_argument(
-        "--manifest",
+        "--data_dir",
         type=str,
         required=True,
-        help="Path to step1_manifest.json produced by Step 1",
+        help="Root output directory from Step 1 containing "
+             "{spk_pair}/{conv_id}/sample_info.json sub-folders",
     )
     parser.add_argument(
         "--embedding_model_dir",
@@ -351,8 +385,8 @@ def main():
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="./demo_output",
-        help="Directory to save final results",
+        default=None,
+        help="Directory to save final results. Defaults to --data_dir.",
     )
     parser.add_argument(
         "--embedding_device",
@@ -362,14 +396,17 @@ def main():
     )
     args = parser.parse_args()
 
-    os.makedirs(args.output_dir, exist_ok=True)
-    temp_dir = os.path.join(args.output_dir, "speaker_segments")
+    output_dir = args.output_dir or args.data_dir
+    os.makedirs(output_dir, exist_ok=True)
+    temp_dir = os.path.join(output_dir, "speaker_segments")
     os.makedirs(temp_dir, exist_ok=True)
 
-    # ── Load manifest from Step 1 ────────────────────────────────────
-    with open(args.manifest, "r") as f:
-        manifest = json.load(f)
-    print(f"Loaded manifest with {len(manifest)} audio file(s)")
+    # ── Discover samples from Step 1 output ──────────────────────────
+    samples = discover_samples(args.data_dir)
+    print(f"Found {len(samples)} sample(s) under {args.data_dir}")
+    if not samples:
+        print("No samples found. Check your --data_dir path.")
+        return
 
     # ── Load embedding model ─────────────────────────────────────────
     print("Loading speaker embedding model...")
@@ -384,27 +421,27 @@ def main():
     # ── Process each conversation sequentially ──────────────────────
     all_results: Dict[str, Dict] = {}
 
-    for entry in manifest:
+    for entry in samples:
         spk_pair = entry.get("spk_pair", "")
         conv_id = entry.get("conv_id", "")
         audio_file = entry["audio_file"]
-        seglst_path = entry["seglst_path"]
-        diar_path = entry["diar_path"]
+        diar_path = entry["diart_path"]
+        transcript_path = entry["transcript_path"]
 
         result_key = f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
         unique_id = f"{spk_pair}_{conv_id}" if spk_pair and conv_id else ""
 
         print(f"\nProcessing entry: {result_key}")
 
-        with open(seglst_path, "r") as f:
-            seglst_dict_list = json.load(f)
+        with open(transcript_path, "r") as f:
+            word_list = json.load(f)
         diar_result = np.load(diar_path)
         print("diar_result = ", diar_result.shape)
 
         local_speakers = process_single_audio(
             audio_file,
-            seglst_dict_list,
-            diar_result[0],
+            word_list,
+            diar_result,
             embedding_backend,
             temp_dir,
             unique_id=unique_id,
@@ -456,7 +493,7 @@ def main():
             "transcriptions": spk.transcriptions,
         }
 
-    output_path = os.path.join(args.output_dir, "global_speaker_results.json")
+    output_path = os.path.join(output_dir, "global_speaker_results.json")
     with open(output_path, "w") as f:
         json.dump(output, f, indent=2, default=str)
     print(f"\nResults saved to {output_path}")

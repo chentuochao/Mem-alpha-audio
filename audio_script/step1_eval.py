@@ -11,6 +11,7 @@ Metrics:
 """
 
 import argparse
+import glob
 import json
 import os
 from typing import Dict, List
@@ -79,13 +80,36 @@ def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
             transcripts[speaker] = trans
         else:
             transcripts[speaker] += trans
-
+    
     transcripts_plain = []
     for speaker, transcript in transcripts.items():
         if len(transcript) == 0:
             continue
         transcripts_plain.append(transcript)
     return transcripts_plain
+
+def discover_samples(data_dir: str) -> List[Dict]:
+    """
+    Walk the directory tree and find all sample folders containing
+    sample_info.json produced by Step 1.
+
+    Returns a list of entry dicts, each augmented with ``sample_dir``,
+    ``diart_path``, and ``transcript_path``.
+    """
+    samples = []
+    for info_path in sorted(glob.glob(os.path.join(data_dir, "*", "*", "sample_info.json"))):
+        sample_dir = os.path.dirname(info_path)
+        diar_path = os.path.join(sample_dir, "diart_pred.npy")
+        transcript_path = os.path.join(sample_dir, "transcript_pred.json")
+        if not os.path.exists(diar_path) or not os.path.exists(transcript_path):
+            continue
+        with open(info_path, "r") as f:
+            info = json.load(f)
+        info["sample_dir"] = sample_dir
+        info["diart_path"] = diar_path
+        info["transcript_path"] = transcript_path
+        samples.append(info)
+    return samples
 
 
 # ── Main ─────────────────────────────────────────────────────────────────
@@ -96,29 +120,31 @@ def main():
         description="Step 1 Evaluation: DER and cpWER from saved inference results"
     )
     parser.add_argument(
-        "--manifest",
+        "--data_dir",
         type=str,
         required=True,
-        help="Path to step1_manifest.json produced by step1_diarize_asr.py",
+        help="Root output directory from Step 1 containing "
+             "{spk_pair}/{conv_id}/sample_info.json sub-folders",
     )
     parser.add_argument(
         "--frame_duration",
         type=float,
         default=None,
         help="Override frame duration (seconds) for DER. "
-             "If not set, uses feat_len_sec from manifest.",
+             "If not set, uses feat_len_sec from sample_info.",
     )
     args = parser.parse_args()
 
-    with open(args.manifest, "r") as f:
-        manifest = json.load(f)
-
-    print(f"Loaded manifest with {len(manifest)} conversations.")
+    samples = discover_samples(args.data_dir)
+    print(f"Found {len(samples)} samples under {args.data_dir}")
+    if not samples:
+        print("No samples found. Check your --data_dir path.")
+        return
 
     all_ders = []
     all_cpwers = []
 
-    for entry in manifest:
+    for entry in samples:
         spk_pair = entry["spk_pair"]
         conv_id = entry["conv_id"]
         print(f"\n{'=' * 70}")
@@ -126,8 +152,8 @@ def main():
         print(f"{'=' * 70}")
 
         # ── Load predictions ──────────────────────────────────────────
-        diar_result = np.load(entry["diar_path"])
-        with open(entry["word_list_path"], "r") as f:
+        diar_result = np.load(entry["diart_path"])
+        with open(entry["transcript_path"], "r") as f:
             word_list = json.load(f)
 
         frame_duration = args.frame_duration or entry.get("feat_len_sec", 0.08)
