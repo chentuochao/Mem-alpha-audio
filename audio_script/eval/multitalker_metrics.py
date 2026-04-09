@@ -59,6 +59,50 @@ def compute_der(pred, gt, frame_duration=0.04, collar_frames=0):
     return der, {"col_ind": col_ind, 'miss': miss_sec, 'fa': fa_sec, 'conf': conf_sec, 'total': total_sec, "acc_err": acc_err}
 
 
+def _der_for_permutation(pred_aligned, gt, frame_duration):
+    """Shared DER arithmetic given an already-aligned prediction matrix."""
+    ref_speech = gt.sum(axis=0) > 0
+    sys_speech = pred_aligned.sum(axis=0) > 0
+    miss = np.logical_and(ref_speech, ~sys_speech).sum()
+    fa = np.logical_and(~ref_speech, sys_speech).sum()
+    speech_both = np.logical_and(ref_speech, sys_speech)
+    speaker_err = np.sum(gt != pred_aligned, axis=0)
+    conf = np.sum(speech_both & (speaker_err > 0))
+    acc_err = np.sum(gt != pred_aligned) / (gt.shape[0] * gt.shape[1])
+    total_ref = ref_speech.sum()
+    miss_sec = miss * frame_duration
+    fa_sec = fa * frame_duration
+    conf_sec = conf * frame_duration
+    total_sec = total_ref * frame_duration
+    der = (miss_sec + fa_sec + conf_sec) / total_sec if total_sec > 0 else 0.0
+    return der, {'miss': miss_sec, 'fa': fa_sec, 'conf': conf_sec, 'total': total_sec, 'acc_err': acc_err}
+
+
+def compute_der_bruteforce(pred, gt, frame_duration=0.04, collar_frames=0):
+    """
+    Compute DER by exhaustively searching all permutations of pred rows.
+
+    Picks the permutation that minimises DER.  Complexity is O(N! * T) so
+    this should only be used when the number of speakers N is small.
+
+    Args / Returns: same as ``compute_der``. also return the best permutation index
+    """
+    N_pred = pred.shape[0]
+    N_gt = gt.shape[0]
+    best_der = float('inf')
+    best_details = None
+
+    for perm in permutations(range(N_pred), N_gt):
+        pred_aligned = pred[list(perm)]
+        der, details = _der_for_permutation(pred_aligned, gt, frame_duration)
+        if der < best_der:
+            best_der = der
+            best_details = details
+            best_details["col_ind"] = np.array(perm)
+
+    return best_der, best_details
+
+
 def permutation_invariant_accuracy(x, y):
     # x and y: shape (M, T)
     M, T = x.shape
@@ -548,7 +592,7 @@ def calculate_session_cpWER_bruteforce(
         ref_trans (str):
             Reference transcript in an arbitrary permutation. Words are separated by spaces.
     """
-    p_wer_list, permed_hyp_lists = [], []
+    p_wer_list, permed_hyp_lists, perm_indices = [], [], []
     ref_word_list = []
 
     # Concatenate the hypothesis transcripts into a list
@@ -557,9 +601,10 @@ def calculate_session_cpWER_bruteforce(
     ref_trans = " ".join(ref_word_list)
 
     # Calculate WER for every permutation
-    for hyp_word_list in permutations(spk_hypothesis):
-        hyp_trans = " ".join(hyp_word_list)
+    for hyp_perm in permutations(range(len(spk_hypothesis))):
+        hyp_trans = " ".join(spk_hypothesis[i] for i in hyp_perm)
         permed_hyp_lists.append(hyp_trans)
+        perm_indices.append(hyp_perm)
 
         # Calculate a WER value of the permuted and concatenated transcripts
         p_wer = word_error_rate(hypotheses=[hyp_trans], references=[ref_trans])
@@ -569,7 +614,8 @@ def calculate_session_cpWER_bruteforce(
     argmin_idx = np.argmin(p_wer_list)
     min_perm_hyp_trans = permed_hyp_lists[argmin_idx]
     cpWER = p_wer_list[argmin_idx]
-    return cpWER, min_perm_hyp_trans, ref_trans
+    best_perm = perm_indices[argmin_idx]
+    return cpWER, min_perm_hyp_trans, ref_trans, best_perm
 
 
 def calculate_session_cpWER(
@@ -645,7 +691,7 @@ def calculate_session_cpWER(
 
     if not use_lsa_only and num_ref_spks < num_hyp_spks:
         # Brute force algorithm when there are more speakers in the hypothesis
-        cpWER, min_perm_hyp_trans, ref_trans = calculate_session_cpWER_bruteforce(
+        cpWER, min_perm_hyp_trans, ref_trans, best_perm = calculate_session_cpWER_bruteforce(
             spk_hypothesis, spk_reference
         )
     else:
@@ -665,8 +711,9 @@ def calculate_session_cpWER(
         )
         row_hyp_ind, col_ref_ind = linear_sum_assignment(cost_wer)
 
-        # In case where hypothesis has more speakers, add words from residual speakers
-        hyp_permed = [spk_hypothesis[k] for k in np.argsort(col_ref_ind)]
+        # best_perm[i] = hyp speaker index assigned to ref speaker i
+        best_perm = tuple(np.argsort(col_ref_ind).tolist())
+        hyp_permed = [spk_hypothesis[k] for k in best_perm]
         min_perm_hyp_trans = " ".join(hyp_permed)
 
         # Concatenate the reference transcripts into a string variable
@@ -675,7 +722,7 @@ def calculate_session_cpWER(
         # Calculate a WER value from the permutation that yields the lowest WER.
         cpWER = word_error_rate(hypotheses=[min_perm_hyp_trans], references=[ref_trans])
 
-    return cpWER, min_perm_hyp_trans, ref_trans
+    return cpWER, min_perm_hyp_trans, ref_trans, best_perm
 
 
 if __name__ == "__main__":

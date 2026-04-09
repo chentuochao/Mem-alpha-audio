@@ -36,7 +36,7 @@ from omegaconf import OmegaConf
 from dataclasses import dataclass, field, is_dataclass
 from audio_script.datasets.turn_annotation import AlignedProcess
 from audio_script.step1_eval import load_vad_json, vad_segments_to_binary
-from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER
+from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER, compute_der_bruteforce
 from tqdm import tqdm
 
 
@@ -425,7 +425,7 @@ def main():
         gt_matrix = np.stack([gt_spk1, gt_spk2], axis=0)  # (2, T)
         pred_matrix = diar_result.T  # (num_speakers, T)
         print(pred_matrix.shape, gt_matrix.shape)
-        der, der_details = compute_der(pred_matrix, gt_matrix, frame_duration=frame_duration)
+        der, der_details = compute_der_bruteforce(pred_matrix, gt_matrix, frame_duration=frame_duration)
         print(f"  DER: {der:.4f}  "
               f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
               f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")

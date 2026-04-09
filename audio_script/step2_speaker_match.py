@@ -87,7 +87,7 @@ class GlobalSpeakerPool:
         spk = GlobalSpeaker(
             global_id=self._next_id,
             name=f"GLOBAL_SPK_{self._next_id}",
-            embedding=embedding.copy(),
+            embedding=embedding.clone(),
             weight=1,
             transcriptions=[transcription],
         )
@@ -261,6 +261,7 @@ def process_single_audio(
     embedding_backend: EmbeddingBackend,
     temp_dir: str,
     unique_id: str = "",
+    frame_duration: float = 0.08
 ) -> Dict:
     """
     Given pre-computed diarization + ASR results for one audio file:
@@ -295,9 +296,9 @@ def process_single_audio(
             speaker_texts[speaker] = []
 
         speaker_texts[speaker].append((start_time, end_time, full_text))
-        
 
-    speaker_segments = segment_audio_by_diarization(diar_result)
+
+    speaker_segments = segment_audio_by_diarization(diar_result, frame_duration = frame_duration)
 
     local_speakers: Dict[str, Dict] = {}
     prefix = unique_id if unique_id else os.path.splitext(os.path.basename(audio_file))[0]
@@ -447,6 +448,9 @@ def main():
 
     # ── Discover samples from Step 1 output ──────────────────────────
     clusters = discover_samples(args.data_dir)
+    for cluster in clusters:
+        print(f"Processing cluster: {cluster['speaker_ids']}")
+
     total_samples = sum(len(c["samples"]) for c in clusters)
     print(f"Found {total_samples} sample(s) in {len(clusters)} speaker cluster(s) under {args.data_dir}")
     if not clusters:
@@ -477,6 +481,7 @@ def main():
             audio_file = entry["audio_file"]
             diar_path = entry["diart_path"]
             transcript_path = entry["transcript_path"]
+            frame_duration = entry.get("feat_len_sec", 0.08)
 
             result_key = f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
             unique_id = f"{spk_pair}_{conv_id}" if spk_pair and conv_id else ""
@@ -495,6 +500,7 @@ def main():
                 embedding_backend,
                 temp_dir,
                 unique_id=unique_id,
+                frame_duration = frame_duration
             )
 
             local_to_global = global_pool.register_audio_speakers(
@@ -513,6 +519,7 @@ def main():
             }
         # ── Summary ──────────────────────────────────────────────────────
         global_pool.summary()
+        exit(0)
 
     # ── Save JSON results ────────────────────────────────────────────
     output = {"per_conversation_results": {}, "global_speakers": {}}

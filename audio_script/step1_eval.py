@@ -19,7 +19,7 @@ from typing import Dict, List
 import numpy as np
 
 from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
-
+import matplotlib.pyplot as plt
 
 # ── Helpers ──────────────────────────────────────────────────────────────
 
@@ -63,7 +63,10 @@ def extract_text_from_transcript(transcript_path: str) -> str:
     words = []
     for seg in transcript:
         words.append(seg["text"])
-    return " ".join(words)
+    trans = " ".join(words)
+    # trans = trans.lower()
+    trans = normalize_string(trans)
+    return trans
 
 
 def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
@@ -74,7 +77,6 @@ def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
     transcripts = {}
 
     for segment in word_list:
-        print(segment)
         trans = segment["text"]
         speaker = segment["speaker"]
         if speaker not in transcripts:
@@ -83,12 +85,17 @@ def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
             transcripts[speaker] += trans
 
     transcripts_plain = []
-    for speaker, transcript in transcripts.items():
-        if len(transcript) == 0:
+    speakers_list = []
+    # sort by speaker index from speaker0 to speakerN
+    for speaker in sorted(transcripts.keys()):
+        if len(transcripts[speaker]) == 0:
             continue
-        # transcript = normalize_string(transcript)
-        transcripts_plain.append(transcript)
-    return transcripts_plain
+        # tras = transcripts[speaker].lower()
+        tras = normalize_string(transcripts[speaker])
+        transcripts_plain.append(tras)
+        speakers_list.append(speaker)
+    return transcripts_plain, speakers_list
+
 
 def discover_samples(data_dir: str) -> List[Dict]:
     """
@@ -157,7 +164,7 @@ def main():
         diar_result = np.load(entry["diart_path"])
         with open(entry["transcript_path"], "r") as f:
             word_list = json.load(f)
-        print(word_list)
+        # print(word_list)
         frame_duration = args.frame_duration or entry.get("feat_len_sec", 0.08)
 
         # ── Evaluate DER ──────────────────────────────────────────────
@@ -172,6 +179,8 @@ def main():
         print(f"  pred shape: {pred_matrix.shape}, gt shape: {gt_matrix.shape}")
         der, der_details = compute_der(pred_matrix, gt_matrix,
                                        frame_duration=frame_duration)
+        best_perm = der_details["col_ind"]
+        print(f"best perm: {best_perm}")
         print(f"  DER: {der:.4f}  "
               f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
               f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")
@@ -181,7 +190,7 @@ def main():
         })
 
         # ── Evaluate cpWER ────────────────────────────────────────────
-        spk_hypothesis = build_speaker_transcripts(word_list)
+        spk_hypothesis, speakers_list = build_speaker_transcripts(word_list)
         if len(spk_hypothesis) < 1:
             print("  [SKIP cpWER] no valid speaker transcripts")
             continue
@@ -194,11 +203,26 @@ def main():
               f"{[t[:80] + '...' for t in spk_hypothesis]}")
         print(f"  Reference: {[t[:80] + '...' for t in spk_reference]}")
 
-        cpwer, best_perm, _ = calculate_session_cpWER(spk_hypothesis, spk_reference)
+        cpwer, _, _, best_perm = calculate_session_cpWER(spk_hypothesis, spk_reference)
+        best_perm = [speakers_list[i] for i in best_perm]
+        print(f"  Best permutation: {best_perm}")
         print(f"  cpWER: {cpwer:.4f}")
         all_cpwers.append({
             "spk_pair": spk_pair, "conv_id": conv_id, "cpwer": cpwer,
         })
+        # if der > 2.0:
+        #     print("  [SKIP cpWER] DER too high")
+        #     exit(0)
+
+        perm_index = []
+        for i in range(2):
+            pred_id = best_perm[i]
+            gt_index = i
+            perm_index.append({"gt_idx": i, "pred_idx": pred_id })
+
+        perm_index_file = entry["diart_path"].replace("diart_pred.npy", "perm_index.json")
+        with open(perm_index_file, "w") as f:
+            json.dump(perm_index, f, indent=2)
 
     # ── Summary ───────────────────────────────────────────────────────
     print(f"\n{'=' * 70}")
@@ -206,23 +230,41 @@ def main():
     print(f"{'=' * 70}")
 
     if all_ders:
+
         avg_der = np.mean([d["der"] for d in all_ders])
         avg_miss = np.mean([d["miss"] for d in all_ders])
         avg_fa = np.mean([d["fa"] for d in all_ders])
         avg_conf = np.mean([d["conf"] for d in all_ders])
+        # median value
+        median_der = np.median([d["der"] for d in all_ders])
         print(f"\nDER ({len(all_ders)} sessions)")
         print(f"  Avg DER:  {avg_der:.4f}")
+        print(f"  Median DER: {median_der:.4f}")
         print(f"  Avg Miss: {avg_miss:.2f}s  |  Avg FA: {avg_fa:.2f}s  |  Avg Conf: {avg_conf:.2f}s")
-        for d in all_ders:
-            print(f"    {d['spk_pair']}/{d['conv_id']}: DER={d['der']:.4f}")
+        # for d in all_ders:
+        #     print(f"    {d['spk_pair']}/{d['conv_id']}: DER={d['der']:.4f}")
 
     if all_cpwers:
         avg_cpwer = np.mean([c["cpwer"] for c in all_cpwers])
+        median_cpwer = np.median([c["cpwer"] for c in all_cpwers])
         print(f"\ncpWER ({len(all_cpwers)} sessions)")
         print(f"  Avg cpWER: {avg_cpwer:.4f}")
-        for c in all_cpwers:
-            print(f"    {c['spk_pair']}/{c['conv_id']}: cpWER={c['cpwer']:.4f}")
+        print(f"  Median cpWER: {median_cpwer:.4f}")
+        # for c in all_cpwers:
+        #     print(f"    {c['spk_pair']}/{c['conv_id']}: cpWER={c['cpwer']:.4f}")
 
+
+    # plot the distribution of DER and cpWER
+    ders = [d["der"] for d in all_ders]
+    ders = [d for d in ders if d <= 2]
+    plt.hist(ders, bins=100)
+    plt.savefig( os.path.join(args.data_dir, "der_distribution.png"))
+    plt.close()
+
+    cpuers = [c["cpwer"] for c in all_cpwers]
+    plt.hist(cpuers, bins=100)
+    plt.savefig( os.path.join(args.data_dir, "cpwer_distribution.png"))
+    plt.close()
     print(f"\n{'=' * 70}")
 
 
