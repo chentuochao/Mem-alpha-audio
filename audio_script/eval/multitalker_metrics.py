@@ -7,6 +7,16 @@ import jiwer
 import numpy as np
 import pandas as pd
 import torch
+import string
+
+def normalize_string(input_string):
+    result = input_string.lower()
+    # return result
+    for char in string.punctuation:
+        result = result.replace(char, "")
+    return result
+
+
 
 
 def compute_der(pred, gt, frame_duration=0.04, collar_frames=0):
@@ -250,6 +260,7 @@ class LinearSumAssignmentSolver(object):
         else:
             return 0  # Go to step 0 (Done state)
 
+
     def _step4(self, bypass: bool = False) -> int:
         """
         Step 4
@@ -271,29 +282,70 @@ class LinearSumAssignmentSolver(object):
         row_len, col_len = self.cost_mat.shape
         if not bypass:
             while True:
-                urv = unravel_index(
-                    torch.argmax(covered_cost_mat).item(),
-                    torch.tensor([col_len, row_len]),
-                )
+                flat_idx = torch.argmax(covered_cost_mat).item()
+                urv = unravel_index(flat_idx, torch.tensor([row_len, col_len]))
                 row, col = int(urv[0].item()), int(urv[1].item())
                 if covered_cost_mat[row, col] == 0:
                     return 6
+                self.marked[row, col] = 2  # prime
+                mark_col = torch.argmax((self.marked[row] == 1).int())
+                if self.marked[row, mark_col] != 1:
+                    self.zero_row = torch.tensor(row)
+                    self.zero_col = torch.tensor(col)
+                    return 5
                 else:
-                    self.marked[row, col] = (
-                        2  # Find the first marked element in the row
-                    )
-                    mark_col = torch.argmax((self.marked[row] == 1).int())
-                    if self.marked[row, mark_col] != 1:  # No marked element in the row
-                        self.zero_row = torch.tensor(row)
-                        self.zero_col = torch.tensor(col)
-                        return 5
-                    else:
-                        col = mark_col
-                        self.row_uncovered[row] = False
-                        self.col_uncovered[col] = True
-                        covered_cost_mat[:, col] = cost_mat[:, col] * self.row_uncovered
-                        covered_cost_mat[row] = 0
+                    col = int(mark_col.item())
+                    self.row_uncovered[row] = False
+                    self.col_uncovered[col] = True
+                    covered_cost_mat[:, col] = cost_mat[:, col] * self.row_uncovered
+                    covered_cost_mat[row] = 0
         return 0
+
+
+    # def _step4(self, bypass: bool = False) -> int:
+    #     """
+    #     Step 4
+
+    #     Goal: Cover all columns containing a marked zero.
+
+    #     Procedure:
+    #     - Find a non-covered zero and put a prime mark on it.
+    #         - If there is no marked zero in the row containing this primed zero, Go to Step 5.
+    #         - Otherwise, cover this row and uncover the column containing the marked zero.
+    #     - Continue in this manner until there are no uncovered zeros left.
+    #     - Save the smallest uncovered value.
+    #     - Go to Step 6.
+    #     """
+    #     # We convert to int as numpy operations are faster on int
+    #     cost_mat = (self.cost_mat == 0).int()
+    #     covered_cost_mat = cost_mat * self.row_uncovered.unsqueeze(1)
+    #     covered_cost_mat *= self.col_uncovered.long()
+    #     row_len, col_len = self.cost_mat.shape
+    #     if not bypass:
+    #         while True:
+    #             urv = unravel_index(
+    #                 torch.argmax(covered_cost_mat).item(),
+    #                 torch.tensor([col_len, row_len]),
+    #             )
+    #             row, col = int(urv[0].item()), int(urv[1].item())
+    #             if covered_cost_mat[row, col] == 0:
+    #                 return 6
+    #             else:
+    #                 self.marked[row, col] = (
+    #                     2  # Find the first marked element in the row
+    #                 )
+    #                 mark_col = torch.argmax((self.marked[row] == 1).int())
+    #                 if self.marked[row, mark_col] != 1:  # No marked element in the row
+    #                     self.zero_row = torch.tensor(row)
+    #                     self.zero_col = torch.tensor(col)
+    #                     return 5
+    #                 else:
+    #                     col = mark_col
+    #                     self.row_uncovered[row] = False
+    #                     self.col_uncovered[col] = True
+    #                     covered_cost_mat[:, col] = cost_mat[:, col] * self.row_uncovered
+    #                     covered_cost_mat[row] = 0
+    #     return 0
 
     def _step5(self) -> int:
         """
@@ -382,6 +434,7 @@ def linear_sum_assignment(cost_matrix: torch.Tensor, max_size: int = 100):
     """
     cost_matrix = cost_matrix.clone().detach()
 
+
     if len(cost_matrix.shape) != 2:
         raise ValueError(f"2-d tensor is expected but got a {cost_matrix.shape} tensor")
     if max(cost_matrix.shape) > max_size:
@@ -398,7 +451,6 @@ def linear_sum_assignment(cost_matrix: torch.Tensor, max_size: int = 100):
 
     lap_solver = LinearSumAssignmentSolver(cost_matrix)
     f_int: int = 0 if 0 in cost_matrix.shape else 1
-
     # while step is not Done (step 0):
     # NOTE: torch.jit.scipt does not support getattr with string argument.
     # Do not use getattr(lap_solver, f"_step{f_int}")()

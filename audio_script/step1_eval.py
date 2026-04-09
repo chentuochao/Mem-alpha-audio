@@ -18,7 +18,7 @@ from typing import Dict, List
 
 import numpy as np
 
-from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER
+from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
 
 
 # ── Helpers ──────────────────────────────────────────────────────────────
@@ -74,17 +74,19 @@ def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
     transcripts = {}
 
     for segment in word_list:
+        print(segment)
         trans = segment["text"]
         speaker = segment["speaker"]
         if speaker not in transcripts:
             transcripts[speaker] = trans
         else:
             transcripts[speaker] += trans
-    
+
     transcripts_plain = []
     for speaker, transcript in transcripts.items():
         if len(transcript) == 0:
             continue
+        # transcript = normalize_string(transcript)
         transcripts_plain.append(transcript)
     return transcripts_plain
 
@@ -155,7 +157,7 @@ def main():
         diar_result = np.load(entry["diart_path"])
         with open(entry["transcript_path"], "r") as f:
             word_list = json.load(f)
-
+        print(word_list)
         frame_duration = args.frame_duration or entry.get("feat_len_sec", 0.08)
 
         # ── Evaluate DER ──────────────────────────────────────────────
