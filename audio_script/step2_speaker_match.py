@@ -287,15 +287,15 @@ def process_single_audio(
 
     speaker_texts: Dict[str, List[Tuple[float, float, str]]] = defaultdict(list)
 
-    for segment in word_list:
-        speaker = segment["speaker"]
-        start_time = segment["start"]
-        end_time = segment["end"]
-        full_text = segment["text"]
-        if speaker not in speaker_texts:
-            speaker_texts[speaker] = []
-
-        speaker_texts[speaker].append((start_time, end_time, full_text))
+    for speaker, segments in word_list.items():
+        speaker_texts[speaker] = []
+        for segment in segments:
+            start_time = segment["start"]
+            end_time = segment["end"]
+            full_text = segment["word"]
+            if speaker not in speaker_texts:
+                speaker_texts[speaker] = []
+            speaker_texts[speaker].append((start_time, end_time, full_text))
 
 
     speaker_segments = segment_audio_by_diarization(diar_result, frame_duration = frame_duration)
@@ -307,7 +307,7 @@ def process_single_audio(
         local_id = f"speaker_{spk_idx}"
 
         total_dur = segment_duration(segments)
-        if total_dur < 4:
+        if total_dur < 3.0:
             print("  Skip short segment: ", total_dur, "s")
             continue
 
@@ -333,6 +333,75 @@ def process_single_audio(
         )
 
     return local_speakers
+
+
+def merge_speakers_by_global(
+    diar_result: np.ndarray,
+    word_list: List[Dict],
+    local_to_global: Dict[str, str],
+) -> Tuple[np.ndarray, List[Dict], Dict[str, str]]:
+    """
+    Merge local speakers that map to the same global speaker.
+
+    OR-merges diarization columns and reassigns speaker labels in word_list.
+
+    Returns:
+        (merged_diar, merged_word_list, old_to_new_speaker_map)
+    """
+    global_to_local_cols: Dict[str, List[int]] = defaultdict(list)
+    for local_id, global_name in local_to_global.items():
+        spk_idx = int(local_id.split("_")[-1])
+        global_to_local_cols[global_name].append(spk_idx)
+
+    mapped_cols = {c for cols in global_to_local_cols.values() for c in cols}
+
+    print("global_to_local_cols: ", global_to_local_cols, mapped_cols)
+    num_frames, num_speakers = diar_result.shape
+
+    merged_columns = []
+    old_to_new: Dict[str, str] = {}
+    new_idx = 0
+
+    # merge diarization columns
+    # add the globale id columns to old_to_new
+    for global_name in sorted(global_to_local_cols):
+        col_indices = global_to_local_cols[global_name]
+        new_label = f"speaker_{new_idx}"
+        if len(col_indices) > 1:
+            merged_col = diar_result[:, col_indices].max(axis=1)
+        else:
+            merged_col = diar_result[:, col_indices[0]]
+        merged_columns.append(merged_col)
+        for ci in col_indices:
+            old_to_new[f"speaker_{ci}"] = new_label
+        new_idx += 1
+
+    # add the non-mapped columns to old_to_new
+    for spk_idx in range(num_speakers):
+        if spk_idx not in mapped_cols:
+            new_label = f"speaker_{new_idx}"
+            merged_columns.append(diar_result[:, spk_idx])
+            old_to_new[f"speaker_{spk_idx}"] = new_label
+            new_idx += 1
+
+    if merged_columns:
+        merged_diar = np.column_stack(merged_columns)
+    else:
+        merged_diar = diar_result
+
+    print("merged_diar = ", old_to_new, merged_diar.shape)
+
+    # merge transcriptions
+    merged_word_list: Dict[str, List] = defaultdict(list)
+    for speaker, segments in word_list.items():
+        new_speaker = old_to_new[speaker]
+        merged_word_list[new_speaker].extend(segments)
+
+    # sort the merged_word_list by start time for each speaker
+    for speaker, segments in merged_word_list.items():
+        segments.sort(key=lambda x: x["start"])
+
+    return merged_diar, merged_word_list, old_to_new
 
 
 def discover_samples(data_dir: str) -> List[Dict]:
@@ -478,6 +547,8 @@ def main():
         for entry in samples:
             spk_pair = entry.get("spk_pair", "")
             conv_id = entry.get("conv_id", "")
+            if not conv_id == "V03_S0033_I00000130":
+                continue
             audio_file = entry["audio_file"]
             diar_path = entry["diart_path"]
             transcript_path = entry["transcript_path"]
@@ -507,6 +578,29 @@ def main():
                 result_key, local_speakers
             )
 
+            # Merge local speakers that were matched to the same global speaker
+            diar_result, word_list, old_to_new = merge_speakers_by_global(
+                diar_result, word_list, local_to_global
+            )
+            local_to_global = {
+                old_to_new.get(k, k): v for k, v in local_to_global.items()
+            }
+            merged_local_speakers: Dict[str, Dict] = {}
+            for old_id, info in local_speakers.items():
+                new_id = old_to_new.get(old_id, old_id)
+                if new_id in merged_local_speakers:
+                    existing = merged_local_speakers[new_id]
+                    existing["text"] += " " + info["text"]
+                    existing["segments"].extend(info["segments"])
+                else:
+                    merged_local_speakers[new_id] = {
+                        "text": info["text"],
+                        "segments": list(info["segments"]),
+                    }
+            local_speakers = merged_local_speakers
+
+            print(f"  After global-speaker merge: {len(old_to_new)} -> "
+                  f"{len(set(old_to_new.values()))} local speaker(s)")
             all_results[result_key] = {
                 "spk_pair": spk_pair,
                 "conv_id": conv_id,
@@ -518,8 +612,7 @@ def main():
                 "local_to_global_mapping": local_to_global,
             }
         # ── Summary ──────────────────────────────────────────────────────
-        global_pool.summary()
-        exit(0)
+        # global_pool.summary()
 
     # ── Save JSON results ────────────────────────────────────────────
     output = {"per_conversation_results": {}, "global_speakers": {}}
