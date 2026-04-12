@@ -47,6 +47,7 @@ echo "  Step 2: Speaker matching  (conda env: ${ENV2})"
 echo "============================================================"
 
 conda activate "${ENV2}"
+export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
 
 python "${SCRIPT_DIR}/step2_speaker_match.py" \
     --data_dir            "${DATA_DIR}" \

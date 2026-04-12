@@ -24,6 +24,7 @@ from abc import ABC, abstractmethod
 
 import numpy as np
 import soundfile as sf
+from audio_script.eval.eval_utils import eval_der_seamlessinteraction, eval_cpwer_seamlessinteraction, parse_transcript
 
 
 # ─── Embedding backends ──────────────────────────────────────────────
@@ -337,13 +338,25 @@ def process_single_audio(
 
 def merge_speakers_by_global(
     diar_result: np.ndarray,
-    word_list: List[Dict],
+    word_list: Dict[str, List],
     local_to_global: Dict[str, str],
-) -> Tuple[np.ndarray, List[Dict], Dict[str, str]]:
+) -> Tuple[np.ndarray, Dict[str, List], Dict[str, str]]:
     """
+    diar_result - shape (num_frames, num_speakers)
+    word_list - {
+        "speaker_0": [{"word": "hello", "start": 0.0, "end": 1.0}, ...],
+        "speaker_1": [{"word": "world", "start": 1.0, "end": 2.0}, ...],
+    }
+    local_to_global - {
+        "speaker_0": "global_speaker_0",
+        "speaker_1": "global_speaker_1",
+    }
     Merge local speakers that map to the same global speaker.
 
     OR-merges diarization columns and reassigns speaker labels in word_list.
+    For merged groups, the speaker ID with the longest diarization duration
+    is kept as the representative label.  Unmerged speakers keep their
+    original label.
 
     Returns:
         (merged_diar, merged_word_list, old_to_new_speaker_map)
@@ -354,54 +367,43 @@ def merge_speakers_by_global(
         global_to_local_cols[global_name].append(spk_idx)
 
     mapped_cols = {c for cols in global_to_local_cols.values() for c in cols}
-
-    print("global_to_local_cols: ", global_to_local_cols, mapped_cols)
     num_frames, num_speakers = diar_result.shape
+    col_durations = diar_result.sum(axis=0) # frame number
 
     merged_columns = []
     old_to_new: Dict[str, str] = {}
-    new_idx = 0
 
-    # merge diarization columns
-    # add the globale id columns to old_to_new
     for global_name in sorted(global_to_local_cols):
         col_indices = global_to_local_cols[global_name]
-        new_label = f"speaker_{new_idx}"
+        best_col = max(col_indices, key=lambda c: col_durations[c])
+        representative = f"speaker_{best_col}"
+
         if len(col_indices) > 1:
             merged_col = diar_result[:, col_indices].max(axis=1)
         else:
             merged_col = diar_result[:, col_indices[0]]
         merged_columns.append(merged_col)
-        for ci in col_indices:
-            old_to_new[f"speaker_{ci}"] = new_label
-        new_idx += 1
 
-    # add the non-mapped columns to old_to_new
+        for ci in col_indices:
+            old_to_new[f"speaker_{ci}"] = representative
+
     for spk_idx in range(num_speakers):
         if spk_idx not in mapped_cols:
-            new_label = f"speaker_{new_idx}"
+            label = f"speaker_{spk_idx}"
             merged_columns.append(diar_result[:, spk_idx])
-            old_to_new[f"speaker_{spk_idx}"] = new_label
-            new_idx += 1
+            old_to_new[label] = label
 
     if merged_columns:
         merged_diar = np.column_stack(merged_columns)
     else:
         merged_diar = diar_result
 
-    print("merged_diar = ", old_to_new, merged_diar.shape)
-
-    # merge transcriptions
     merged_word_list: Dict[str, List] = defaultdict(list)
     for speaker, segments in word_list.items():
-        new_speaker = old_to_new[speaker]
+        new_speaker = old_to_new.get(speaker, speaker)
         merged_word_list[new_speaker].extend(segments)
 
-    # sort the merged_word_list by start time for each speaker
-    for speaker, segments in merged_word_list.items():
-        segments.sort(key=lambda x: x["start"])
-
-    return merged_diar, merged_word_list, old_to_new
+    return merged_diar, dict(merged_word_list), old_to_new
 
 
 def discover_samples(data_dir: str) -> List[Dict]:
@@ -472,6 +474,42 @@ def discover_samples(data_dir: str) -> List[Dict]:
     ]
 
 
+
+def eval_der_cpwer(entry, word_list, diar_result):
+    """
+        entry - sample_info.json
+        word_list - transcript_pred.json
+        diar_result - diart_pred.npy
+    """
+    spk_pair = entry.get("spk_pair", "")
+    conv_id = entry.get("conv_id", "")
+    frame_duration = entry.get("feat_len_sec", 0.08)
+
+    speaker0, speaker1 = spk_pair.split("_", 1)
+    gt_vad_files = {
+        speaker0: entry["vad1_path"],
+        speaker1: entry["vad2_path"],
+    }
+    der, best_perm_der, der_details = eval_der_seamlessinteraction(
+        diar_result, gt_vad_files, frame_duration
+    )
+    gt_trans_files = {
+        speaker0: entry["transcript1_path"],
+        speaker1: entry["transcript2_path"],
+    }
+    cpwer, best_perm_cpwer = eval_cpwer_seamlessinteraction(
+        word_list, gt_trans_files
+        )
+
+    print(f"  DER: {der:.4f}  "
+          f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
+          f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")
+    print(f"  cpWER: {cpwer:.4f}")
+    print(f"  Best permutation: DER = {best_perm_der}, cpWER = {best_perm_cpwer}")
+
+    return der, cpwer, best_perm_der, best_perm_cpwer
+
+
 # ─── Main ─────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(
@@ -532,13 +570,14 @@ def main():
         model_dir=args.embedding_model_dir, device=args.embedding_device
     )
 
+    all_results: Dict[str, Dict] = {}
+    global_pool = GlobalSpeakerPool(
+        similarity_threshold=args.similarity_threshold,
+    )
+
     for cluster in clusters:
         # EACH cluster use one global speaker pool
         # ── Process each conversation sequentially ──────────────────────
-        all_results: Dict[str, Dict] = {}
-        global_pool = GlobalSpeakerPool(
-            similarity_threshold=args.similarity_threshold,
-        )
         speaker_ids = cluster["speaker_ids"]
         samples = cluster["samples"]
         print(f"\n{'='*60}")
@@ -551,7 +590,7 @@ def main():
                 continue
             audio_file = entry["audio_file"]
             diar_path = entry["diart_path"]
-            transcript_path = entry["transcript_path"]
+            pred_transcript_path = entry["pred_transcript_path"]
             frame_duration = entry.get("feat_len_sec", 0.08)
 
             result_key = f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
@@ -559,10 +598,9 @@ def main():
 
             print(f"\nProcessing entry: {result_key}")
 
-            with open(transcript_path, "r") as f:
+            with open(pred_transcript_path, "r") as f:
                 word_list = json.load(f)
             diar_result = np.load(diar_path)
-            print("diar_result = ", diar_result.shape)
 
             local_speakers = process_single_audio(
                 audio_file,
@@ -577,6 +615,38 @@ def main():
             local_to_global = global_pool.register_audio_speakers(
                 result_key, local_speakers
             )
+            ## evaluation the diarization and transcript results
+            der, cpwer, best_perm_der, best_perm_cpwer = eval_der_cpwer(entry, word_list, diar_result)
+            # Merge local speakers that were matched to the same global speaker
+            diar_result, word_list, old_to_new = merge_speakers_by_global(
+                diar_result, word_list, local_to_global,
+                frame_duration=frame_duration,
+            )
+            print(f"  After global-speaker merge: {len(old_to_new)} -> "
+                  f"{len(set(old_to_new.values()))} local speaker(s)")
+            der, cpwer, best_perm_der, best_perm_cpwer = eval_der_cpwer(entry, word_list, diar_result)
+
+            local_to_global = {
+                old_to_new.get(k, k): v for k, v in local_to_global.items()
+            }
+            merged_local_speakers: Dict[str, Dict] = {}
+            for old_id, info in local_speakers.items():
+                new_id = old_to_new.get(old_id, old_id)
+                if new_id in merged_local_speakers:
+                    existing = merged_local_speakers[new_id]
+                    existing["text"] += " " + info["text"]
+                    existing["segments"].extend(info["segments"])
+                else:
+                    merged_local_speakers[new_id] = {
+                        "text": info["text"],
+                        "segments": list(info["segments"]),
+                    }
+            local_speakers = merged_local_speakers
+
+            print(f"  After global-speaker merge: {len(old_to_new)} -> "
+                  f"{len(set(old_to_new.values()))} local speaker(s)")
+
+            # ── Evaluate DER & cpWER after merge ─────────────────────────
 
             # Merge local speakers that were matched to the same global speaker
             diar_result, word_list, old_to_new = merge_speakers_by_global(
@@ -611,8 +681,10 @@ def main():
                 },
                 "local_to_global_mapping": local_to_global,
             }
+            exit(0)
         # ── Summary ──────────────────────────────────────────────────────
         # global_pool.summary()
+        exit(0)
 
     # ── Save JSON results ────────────────────────────────────────────
     output = {"per_conversation_results": {}, "global_speakers": {}}

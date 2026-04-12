@@ -18,153 +18,14 @@ from typing import Dict, List
 
 import numpy as np
 
-from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
 import matplotlib.pyplot as plt
 from audio_script.datasets.turn_annotation import AlignedProcess
-
+from audio_script.eval.eval_utils import eval_der_seamlessinteraction, eval_cpwer_seamlessinteraction
 # ── Helpers ──────────────────────────────────────────────────────────────
 TURN_GAP_TH = 1.5
 
 
-def parse_transcript(word_list: Dict) -> List[Dict]:
-    # parse the output of words list
-    # check the speaker number
-    speaker_transcripts = {}
-    valid_speakers = []
-    transcripts = []
-    for speaker in word_list.keys():
-        words = word_list[speaker]
-        if len(words) == 0:
-            continue
-        # sorted the words by "start" time
-        words = sorted(words, key=lambda x: x['start'])
-        transcript = ""
-        for word in words:
-            transcript += word["word"]
-        transcripts.append(transcript)
-        valid_speakers.append(speaker)
-        speaker_transcripts[speaker] = [{
-            "speaker": speaker,
-            "start": words[0]['start'],
-            "end": words[-1]['end'],
-            "words": words
-        }]
 
-    speaker_aware_turn = []
-    transA, transB = None, None
-    if len(valid_speakers) == 0:
-        print(f"No valid speakers found for!")
-        return []
-
-    elif len(valid_speakers) == 1:
-        print(f"Only one valid speaker found for")
-        words = speaker_transcripts[valid_speakers[0]]["words"]
-        transcript = transcripts[0]
-        speaker_aware_turn = [{
-            "dialog_type": "dialog",
-            "speaker": valid_speakers[0],
-            "start": words[0]['start'],
-            "end": words[-1]['end'],
-            "text": transcript,
-            "wfeats": words
-        }]
-    elif len(valid_speakers) == 2:
-        speaker0 = valid_speakers[0]
-        speaker1 = valid_speakers[1]
-        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = TURN_GAP_TH)
-        transA, transB = aligned_process.get_parsed_dialog()
-        speaker_aware_turn = transA + transB
-        speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
-
-    else:
-        # find the top2 speaker with longest transcript
-        # sort the valid_speakers by the length of transcripts
-        # print(transcripts)
-        # print(valid_speakers)
-        lengths = [len(t) for t in transcripts]
-        sorted_pairs = sorted(zip(lengths, valid_speakers), reverse=True)  # longer first
-        valid_speakers = [speaker for length, speaker in sorted_pairs]
-        valid_speakers = valid_speakers[:2]
-        speaker0 = valid_speakers[0]
-        speaker1 = valid_speakers[1]
-        # print(valid_speakers)
-        # exit(0)
-        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = TURN_GAP_TH)
-        transA, transB = aligned_process.get_parsed_dialog()
-        speaker_aware_turn = transA + transB
-        speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
-
-    # print(speaker_aware_turn)
-    # for utt in speaker_aware_turn:
-    #     print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
-
-    return speaker_aware_turn
-
-
-def load_vad_json(path: str) -> List[Dict]:
-    """Load a VAD file (plain JSON array or JSONL) → [{start, end}, ...]"""
-    with open(path, "r") as f:
-        text = f.read().strip()
-    try:
-        data = json.loads(text)
-        if isinstance(data, list):
-            return data
-        return [data]
-    except json.JSONDecodeError:
-        pass
-    entries = []
-    for line in text.splitlines():
-        line = line.strip()
-        if line:
-            entries.append(json.loads(line))
-    return entries
-
-
-def vad_segments_to_binary(vad_segments: List[Dict], total_frames: int,
-                           frame_duration: float = 0.01) -> np.ndarray:
-    """Convert a list of {start, end} VAD segments to a binary vector."""
-    binary = np.zeros(total_frames, dtype=np.float32)
-    for seg in vad_segments:
-        s = int(seg["start"] / frame_duration)
-        e = int(seg["end"] / frame_duration)
-        e = min(e, total_frames)
-        if s < total_frames:
-            binary[s:e] = 1.0
-    return binary
-
-
-def extract_text_from_transcript(transcript) -> str:
-    """Load a transcript JSON and return concatenated segment-level text."""
-
-    words = []
-    for seg in transcript:
-        words.append(seg["text"])
-    trans = " ".join(words)
-    # trans = trans.lower()
-    trans = normalize_string(trans)
-    return trans
-
-
-def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
-    """
-    From a word_list dict {speaker_id: [{word, start, end, ...}, ...]},
-    return a list of concatenated text strings for each non-empty speaker.
-    """
-    speakers_list = sorted(list(word_list.keys()))
-    transcripts_plain = []
-    valid_speakers = []
-    for speaker in speakers_list:
-        if len(word_list[speaker]) == 0:
-            continue
-        trans = ""
-        for word in word_list[speaker]:
-            trans += word["word"]
-
-        trans = normalize_string(trans)
-        transcripts_plain.append(trans)
-        valid_speakers.append(speaker)
-
-    return transcripts_plain, valid_speakers
 
 
 def discover_samples(data_dir: str) -> List[Dict]:
@@ -191,16 +52,7 @@ def discover_samples(data_dir: str) -> List[Dict]:
     return samples
 
 
-def print_turns(turns):
-    for utt in turns:
-        # print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
-        speaker = utt["speaker"]
-        start = utt["start"]
-        end = utt["end"]
-        text = utt["text"]
-        print(f"{speaker}[{start:.1f}-{end:.1f}]: {text }")
-
-# ── Main ─────────────────────────────────────────────────────────────────
+# ── Main ────
 def main():
     parser = argparse.ArgumentParser(
         description="Step 1 Evaluation: DER and cpWER from saved inference results"
@@ -232,6 +84,7 @@ def main():
 
     for entry in samples:
         spk_pair = entry["spk_pair"]
+        speaker0, speaker1 = spk_pair.split("_")
         conv_id = entry["conv_id"]
 
         if not conv_id == "V03_S0033_I00000130":
@@ -248,51 +101,22 @@ def main():
         frame_duration = args.frame_duration or entry.get("feat_len_sec", 0.08)
 
         # ── Evaluate DER ──────────────────────────────────────────────
-        total_frames = diar_result.shape[0]
-        vad1 = load_vad_json(entry["vad1_path"])
-        vad2 = load_vad_json(entry["vad2_path"])
-        gt_spk1 = vad_segments_to_binary(vad1, total_frames, frame_duration)
-        gt_spk2 = vad_segments_to_binary(vad2, total_frames, frame_duration)
-        gt_matrix = np.stack([gt_spk1, gt_spk2], axis=0)  # (2, T)
-        pred_matrix = diar_result.T  # (num_speakers, T)
-
-        print(f"  pred shape: {pred_matrix.shape}, gt shape: {gt_matrix.shape}")
-        der, der_details = compute_der(pred_matrix, gt_matrix,
-                                       frame_duration=frame_duration)
-        best_perm = der_details["col_ind"]
-        print(f"best perm: {best_perm}")
-        print(f"  DER: {der:.4f}  "
-              f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
-              f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")
+        diart_gt_files = {
+            speaker0: entry["vad1_path"],
+            speaker1: entry["vad2_path"],
+        }
+        der, best_perm, der_details = eval_der_seamlessinteraction(diar_result, diart_gt_files, frame_duration)
         all_ders.append({
-            "spk_pair": spk_pair, "conv_id": conv_id,
+            "conv_id": conv_id,
             "der": der, **der_details,
         })
 
         # ── Evaluate cpWER ────────────────────────────────────────────
-
-        spk_hypothesis, speakers_list = build_speaker_transcripts(word_list)
-        if len(spk_hypothesis) < 1:
-            print("  [SKIP cpWER] no valid speaker transcripts")
-            continue
-        with open(entry["transcript1_path"], "r") as f:
-            gt_trans1 = json.load(f)
-
-        with open(entry["transcript2_path"], "r") as f:
-            gt_trans2 = json.load(f)
-
-        ref_text1 = extract_text_from_transcript(gt_trans1)
-        ref_text2 = extract_text_from_transcript(gt_trans2)
-        spk_reference = [ref_text1, ref_text2]
-
-        print(f"  Hypothesis ({len(spk_hypothesis)} speakers): "
-              f"{[t[:80] + '...' for t in spk_hypothesis]}")
-        print(f"  Reference: {[t[:80] + '...' for t in spk_reference]}")
-
-        cpwer, _, _, best_perm = calculate_session_cpWER(spk_hypothesis, spk_reference)
-        best_perm = [speakers_list[i] for i in best_perm]
-        print(f"  Best permutation: {best_perm}")
-        print(f"  cpWER: {cpwer:.4f}")
+        trans_gt_files = {
+            speaker0: entry["transcript1_path"],
+            speaker1: entry["transcript2_path"],
+        }
+        cpwer, best_perm = eval_cpwer_seamlessinteraction(word_list, trans_gt_files)
         all_cpwers.append({
             "spk_pair": spk_pair, "conv_id": conv_id, "cpwer": cpwer,
         })
