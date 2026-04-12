@@ -20,8 +20,85 @@ import numpy as np
 
 from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
 import matplotlib.pyplot as plt
+from audio_script.datasets.turn_annotation import AlignedProcess
 
 # ── Helpers ──────────────────────────────────────────────────────────────
+TURN_GAP_TH = 1.5
+
+
+def parse_transcript(word_list: Dict) -> List[Dict]:
+    # parse the output of words list
+    # check the speaker number
+    speaker_transcripts = {}
+    valid_speakers = []
+    transcripts = []
+    for speaker in word_list.keys():
+        words = word_list[speaker]
+        if len(words) == 0:
+            continue
+        # sorted the words by "start" time
+        words = sorted(words, key=lambda x: x['start'])
+        transcript = ""
+        for word in words:
+            transcript += word["word"]
+        transcripts.append(transcript)
+        valid_speakers.append(speaker)
+        speaker_transcripts[speaker] = [{
+            "speaker": speaker,
+            "start": words[0]['start'],
+            "end": words[-1]['end'],
+            "words": words
+        }]
+
+    speaker_aware_turn = []
+    transA, transB = None, None
+    if len(valid_speakers) == 0:
+        print(f"No valid speakers found for!")
+        return []
+
+    elif len(valid_speakers) == 1:
+        print(f"Only one valid speaker found for")
+        words = speaker_transcripts[valid_speakers[0]]["words"]
+        transcript = transcripts[0]
+        speaker_aware_turn = [{
+            "dialog_type": "dialog",
+            "speaker": valid_speakers[0],
+            "start": words[0]['start'],
+            "end": words[-1]['end'],
+            "text": transcript,
+            "wfeats": words
+        }]
+    elif len(valid_speakers) == 2:
+        speaker0 = valid_speakers[0]
+        speaker1 = valid_speakers[1]
+        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = TURN_GAP_TH)
+        transA, transB = aligned_process.get_parsed_dialog()
+        speaker_aware_turn = transA + transB
+        speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
+
+    else:
+        # find the top2 speaker with longest transcript
+        # sort the valid_speakers by the length of transcripts
+        # print(transcripts)
+        # print(valid_speakers)
+        lengths = [len(t) for t in transcripts]
+        sorted_pairs = sorted(zip(lengths, valid_speakers), reverse=True)  # longer first
+        valid_speakers = [speaker for length, speaker in sorted_pairs]
+        valid_speakers = valid_speakers[:2]
+        speaker0 = valid_speakers[0]
+        speaker1 = valid_speakers[1]
+        # print(valid_speakers)
+        # exit(0)
+        aligned_process = AlignedProcess(speaker_transcripts[speaker0], speaker_transcripts[speaker1], speaker0, speaker1, interval_character='', turn_gap_threshold = TURN_GAP_TH)
+        transA, transB = aligned_process.get_parsed_dialog()
+        speaker_aware_turn = transA + transB
+        speaker_aware_turn.sort(key=lambda key: (key['start'], -key['end']))
+
+    # print(speaker_aware_turn)
+    # for utt in speaker_aware_turn:
+    #     print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
+
+    return speaker_aware_turn
 
 
 def load_vad_json(path: str) -> List[Dict]:
@@ -56,10 +133,9 @@ def vad_segments_to_binary(vad_segments: List[Dict], total_frames: int,
     return binary
 
 
-def extract_text_from_transcript(transcript_path: str) -> str:
+def extract_text_from_transcript(transcript) -> str:
     """Load a transcript JSON and return concatenated segment-level text."""
-    with open(transcript_path, "r") as f:
-        transcript = json.load(f)
+
     words = []
     for seg in transcript:
         words.append(seg["text"])
@@ -74,27 +150,21 @@ def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
     From a word_list dict {speaker_id: [{word, start, end, ...}, ...]},
     return a list of concatenated text strings for each non-empty speaker.
     """
-    transcripts = {}
-
-    for segment in word_list:
-        trans = segment["text"]
-        speaker = segment["speaker"]
-        if speaker not in transcripts:
-            transcripts[speaker] = trans
-        else:
-            transcripts[speaker] += trans
-
+    speakers_list = sorted(list(word_list.keys()))
     transcripts_plain = []
-    speakers_list = []
-    # sort by speaker index from speaker0 to speakerN
-    for speaker in sorted(transcripts.keys()):
-        if len(transcripts[speaker]) == 0:
+    valid_speakers = []
+    for speaker in speakers_list:
+        if len(word_list[speaker]) == 0:
             continue
-        # tras = transcripts[speaker].lower()
-        tras = normalize_string(transcripts[speaker])
-        transcripts_plain.append(tras)
-        speakers_list.append(speaker)
-    return transcripts_plain, speakers_list
+        trans = ""
+        for word in word_list[speaker]:
+            trans += word["word"]
+
+        trans = normalize_string(trans)
+        transcripts_plain.append(trans)
+        valid_speakers.append(speaker)
+
+    return transcripts_plain, valid_speakers
 
 
 def discover_samples(data_dir: str) -> List[Dict]:
@@ -121,9 +191,16 @@ def discover_samples(data_dir: str) -> List[Dict]:
     return samples
 
 
+def print_turns(turns):
+    for utt in turns:
+        # print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
+        speaker = utt["speaker"]
+        start = utt["start"]
+        end = utt["end"]
+        text = utt["text"]
+        print(f"{speaker}[{start:.1f}-{end:.1f}]: {text }")
+
 # ── Main ─────────────────────────────────────────────────────────────────
-
-
 def main():
     parser = argparse.ArgumentParser(
         description="Step 1 Evaluation: DER and cpWER from saved inference results"
@@ -156,13 +233,16 @@ def main():
     for entry in samples:
         spk_pair = entry["spk_pair"]
         conv_id = entry["conv_id"]
+
+        if not conv_id == "V03_S0033_I00000130":
+            continue
         print(f"\n{'=' * 70}")
         print(f"Evaluating: {spk_pair} / {conv_id}")
         print(f"{'=' * 70}")
 
         # ── Load predictions ──────────────────────────────────────────
         diar_result = np.load(entry["diart_path"])
-        with open(entry["transcript_path"], "r") as f:
+        with open(entry["pred_transcript_path"], "r") as f:
             word_list = json.load(f)
         # print(word_list)
         frame_duration = args.frame_duration or entry.get("feat_len_sec", 0.08)
@@ -190,13 +270,19 @@ def main():
         })
 
         # ── Evaluate cpWER ────────────────────────────────────────────
+
         spk_hypothesis, speakers_list = build_speaker_transcripts(word_list)
         if len(spk_hypothesis) < 1:
             print("  [SKIP cpWER] no valid speaker transcripts")
             continue
+        with open(entry["transcript1_path"], "r") as f:
+            gt_trans1 = json.load(f)
 
-        ref_text1 = extract_text_from_transcript(entry["transcript1_path"])
-        ref_text2 = extract_text_from_transcript(entry["transcript2_path"])
+        with open(entry["transcript2_path"], "r") as f:
+            gt_trans2 = json.load(f)
+
+        ref_text1 = extract_text_from_transcript(gt_trans1)
+        ref_text2 = extract_text_from_transcript(gt_trans2)
         spk_reference = [ref_text1, ref_text2]
 
         print(f"  Hypothesis ({len(spk_hypothesis)} speakers): "
@@ -215,7 +301,8 @@ def main():
         #     exit(0)
 
         perm_index = []
-        for i in range(2):
+        match_num = min([len(best_perm), 2])
+        for i in range(match_num):
             pred_id = best_perm[i]
             gt_index = i
             perm_index.append({"gt_idx": i, "pred_idx": pred_id })
@@ -223,6 +310,26 @@ def main():
         perm_index_file = entry["diart_path"].replace("diart_pred.npy", "perm_index.json")
         with open(perm_index_file, "w") as f:
             json.dump(perm_index, f, indent=2)
+
+        ### visualize the speaker turn
+        speaker_aware_turn = parse_transcript(word_list)
+        print("-"*20)
+        print("Prediction turn")
+        print("-"*20)
+        print_turns(speaker_aware_turn)
+
+
+        print("-"*20)
+        print("GT turn")
+        print("-"*20)
+        turns_gt = []
+        for turn in gt_trans1:
+            turns_gt.append(turn)
+        for turn in gt_trans2:
+            turns_gt.append(turn)
+        # sort the turns by start time
+        turns_gt.sort(key=lambda key: (key['start'], -key['end']))
+        print_turns(turns_gt)
 
     # ── Summary ───────────────────────────────────────────────────────
     print(f"\n{'=' * 70}")

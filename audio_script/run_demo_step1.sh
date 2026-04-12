@@ -56,12 +56,12 @@ python "${SCRIPT_DIR}/step1_diarize_asr.py" \
 #  Step 1b: Evaluate DER + cpWER  (same env, no GPU needed)
 # ──────────────────────────────────────────────────────────────────────
 
-echo ""
-echo "============================================================"
-echo "  Step 1b: Evaluate DER + cpWER"
-echo "============================================================"
+# echo ""
+# echo "============================================================"
+# echo "  Step 1b: Evaluate DER + cpWER"
+# echo "============================================================"
 
-python "${SCRIPT_DIR}/step1_eval.py" \
-    --data_dir "${OUTPUT_DIR}"
+# python "${SCRIPT_DIR}/step1_eval.py" \
+#     --data_dir "${OUTPUT_DIR}"
 
-conda deactivate
+# conda deactivate

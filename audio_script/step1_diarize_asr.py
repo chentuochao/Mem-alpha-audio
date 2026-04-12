@@ -410,30 +410,30 @@ def main():
             seglst_dict_list, word_list, diar_result = run_diarization_asr(
                 conv["audio_path"], asr_model, diar_model, cfg
             )
-            speaker_aware_turn = parse_transcript(word_list)
+            # speaker_aware_turn = parse_transcript(word_list)
         except Exception as e:
             print(f"  Error: {e}")
             continue
 
         # ── Evaluate DER ──────────────────────────────────────────────
-        frame_duration = 0.08  # 0.01s per frame
-        total_frames = diar_result.shape[0]
-        vad1 = load_vad_json(conv["vad1_path"])
-        vad2 = load_vad_json(conv["vad2_path"])
-        gt_spk1 = vad_segments_to_binary(vad1, total_frames, frame_duration)
-        gt_spk2 = vad_segments_to_binary(vad2, total_frames, frame_duration)
-        gt_matrix = np.stack([gt_spk1, gt_spk2], axis=0)  # (2, T)
-        pred_matrix = diar_result.T  # (num_speakers, T)
-        print(pred_matrix.shape, gt_matrix.shape)
-        der, der_details = compute_der_bruteforce(pred_matrix, gt_matrix, frame_duration=frame_duration)
-        print(f"  DER: {der:.4f}  "
-              f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
-              f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")
+        # frame_duration = 0.08  # 0.01s per frame
+        # total_frames = diar_result.shape[0]
+        # vad1 = load_vad_json(conv["vad1_path"])
+        # vad2 = load_vad_json(conv["vad2_path"])
+        # gt_spk1 = vad_segments_to_binary(vad1, total_frames, frame_duration)
+        # gt_spk2 = vad_segments_to_binary(vad2, total_frames, frame_duration)
+        # gt_matrix = np.stack([gt_spk1, gt_spk2], axis=0)  # (2, T)
+        # pred_matrix = diar_result.T  # (num_speakers, T)
+        # print(pred_matrix.shape, gt_matrix.shape)
+        # der, der_details = compute_der_bruteforce(pred_matrix, gt_matrix, frame_duration=frame_duration)
+        # print(f"  DER: {der:.4f}  "
+        #       f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
+        #       f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")
 
         os.makedirs(save_dir, exist_ok=True)
         np.save(diar_path, diar_result)
         with open(word_list_path, "w") as f:
-            json.dump(speaker_aware_turn, f, indent=2)
+            json.dump(word_list, f, indent=2)
 
         sample_info = {
             "spk_pair": conv["spk_pair"],
@@ -444,7 +444,7 @@ def main():
             "vad1_path": conv["vad1_path"],
             "vad2_path": conv["vad2_path"],
             "diart_path": diar_path,
-            "transcript_path": word_list_path,
+            "pred_transcript_path": word_list_path,
             "feat_len_sec": 0.08,
         }
         with open(info_path, "w") as f:

@@ -15,7 +15,8 @@ EMBEDDING_MODEL_DIR="/checkpoint/seamless/tuochao/Models/huggingface//wespeaker-
 MAX_NUM_OF_SPKS=4
 SIMILARITY_THRESHOLD=0.65
 EMBEDDING_DEVICE="cuda:0"
-OUTPUT_DIR="/storage/home/tuochao/mem_projects/demo_output/"
+DATA_DIR="/storage/home/tuochao/mem_projects/demo_output/"
+OUTPUT_DIR="/storage/home/tuochao/mem_projects/demo_output_step2/"
 
 # Working directory (where the python scripts live)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -48,10 +49,11 @@ echo "============================================================"
 conda activate "${ENV2}"
 
 python "${SCRIPT_DIR}/step2_speaker_match.py" \
-    --data_dir            "${OUTPUT_DIR}" \
+    --data_dir            "${DATA_DIR}" \
     --embedding_model_dir "${EMBEDDING_MODEL_DIR}" \
     --similarity_threshold "${SIMILARITY_THRESHOLD}" \
-    --embedding_device    "${EMBEDDING_DEVICE}"
+    --embedding_device    "${EMBEDDING_DEVICE}" \
+    --output_dir "${OUTPUT_DIR}"
 
 conda deactivate
 
