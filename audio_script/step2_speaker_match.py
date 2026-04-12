@@ -586,8 +586,8 @@ def main():
         for entry in samples:
             spk_pair = entry.get("spk_pair", "")
             conv_id = entry.get("conv_id", "")
-            if not conv_id == "V03_S0033_I00000130":
-                continue
+            # if not conv_id == "V03_S0033_I00000130":
+            #     continue
             audio_file = entry["audio_file"]
             diar_path = entry["diart_path"]
             pred_transcript_path = entry["pred_transcript_path"]
@@ -620,7 +620,6 @@ def main():
             # Merge local speakers that were matched to the same global speaker
             diar_result, word_list, old_to_new = merge_speakers_by_global(
                 diar_result, word_list, local_to_global,
-                frame_duration=frame_duration,
             )
             print(f"  After global-speaker merge: {len(old_to_new)} -> "
                   f"{len(set(old_to_new.values()))} local speaker(s)")
@@ -681,7 +680,7 @@ def main():
                 },
                 "local_to_global_mapping": local_to_global,
             }
-            exit(0)
+            # exit(0)
         # ── Summary ──────────────────────────────────────────────────────
         # global_pool.summary()
         exit(0)

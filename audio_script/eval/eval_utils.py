@@ -4,7 +4,7 @@ from typing import List, Dict
 import numpy as np
 from .multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
 
-## print function 
+## print function
 def print_turns(turns):
     for utt in turns:
         # print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
@@ -69,13 +69,13 @@ def eval_der_seamlessinteraction(pred, gt_files, frame_duration=0.08):
     pred_matrix = pred.T  # (num_speakers, T)
 
     der, der_details = compute_der(pred_matrix, gt_matrix, frame_duration=frame_duration)
-   
+
     best_perm = der_details["col_ind"]
     der_details["speaker_gt"] = speaker_gt
-    print(f"best perm: {best_perm}")
-    print(f"  DER: {der:.4f}  "
-            f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
-            f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")
+    # print(f"best perm: {best_perm}")
+    # print(f"  DER: {der:.4f}  "
+    #         f"(miss={der_details['miss']:.2f}s, fa={der_details['fa']:.2f}s, "
+    #         f"conf={der_details['conf']:.2f}s, total={der_details['total']:.2f}s)")
 
     return der, best_perm, der_details
 
@@ -209,10 +209,10 @@ def eval_cpwer_seamlessinteraction(pred_transcripts, gt_files):
         ref_text = extract_text_from_transcript(gt_trans)
         spk_reference.append(ref_text)
         speaker_gt.append(spk)
-    
+
     cpwer, _, _, best_perm = calculate_session_cpWER(spk_hypothesis, spk_reference)
     best_perm = [speakers_pred[i] for i in best_perm]
-    print(f"  Best permutation: {best_perm}")
-    print(f"  cpWER: {cpwer:.4f}")
+    # print(f"  Best permutation: {best_perm}")
+    # print(f"  cpWER: {cpwer:.4f}")
 
     return cpwer, best_perm
