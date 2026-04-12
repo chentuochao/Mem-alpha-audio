@@ -41,7 +41,9 @@ def compute_der(pred, gt, frame_duration=0.04, collar_frames=0):
     # Compute errors
     ref_speech = gt.sum(axis=0) > 0
     sys_speech = pred_aligned.sum(axis=0) > 0
+    # miss: Missed Detection, speaker in the ground truth but not predicted as active
     miss = np.logical_and(ref_speech, ~sys_speech).sum()
+    # fa: False Alarm, no speaker in the ground truth but predicted as active
     fa = np.logical_and(~ref_speech, sys_speech).sum()
     # Confusion: frames where both are active, but speaker assignment is wrong
     speech_both = np.logical_and(ref_speech, sys_speech)
