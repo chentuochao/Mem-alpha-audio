@@ -4,6 +4,10 @@ from typing import List, Dict
 import numpy as np
 from .multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
 
+from collections import Counter
+import numpy as np
+from scipy.optimize import linear_sum_assignment
+
 ## print function
 def print_turns(turns):
     for utt in turns:
@@ -13,6 +17,44 @@ def print_turns(turns):
         end = utt["end"]
         text = utt["text"]
         print(f"{speaker}[{start:.1f}-{end:.1f}]: {text }")
+
+
+
+
+def best_match_tp_fp_fn(pred_speakers, gt_speakers):
+    n_pred, n_gt = len(pred_speakers), len(gt_speakers)
+    gt_ids = [g[0] for g in gt_speakers]
+    score = np.zeros((n_pred, n_gt), dtype=int)
+    for i, p in enumerate(pred_speakers):
+        c = Counter(p)
+        for j, gt_id in enumerate(gt_ids):
+            score[i, j] = c.get(gt_id, 0)
+    m = max(n_pred, n_gt)
+    cost = np.zeros((m, m), dtype=int)
+    cost[:n_pred, :n_gt] = -score
+    row_ind, col_ind = linear_sum_assignment(cost)
+    matched_pred = set()
+    matched_gt = set()
+    tp_total = 0
+    fp_total = 0
+    fn_total = 0
+    for r, c in zip(row_ind, col_ind):
+        if r < n_pred and c < n_gt:
+            matched_pred.add(r)
+            matched_gt.add(c)
+            tp = score[r, c]
+            tp_total += tp
+            fp_total += len(pred_speakers[r]) - tp
+            fn_total += len(gt_speakers[c]) - tp
+    # unmatched pred => FP
+    for i in range(n_pred):
+        if i not in matched_pred:
+            fp_total += len(pred_speakers[i])
+    # unmatched gt => FN
+    for j in range(n_gt):
+        if j not in matched_gt:
+            fn_total += len(gt_speakers[j])
+    return tp_total, fp_total, fn_total
 
 
 ### evaluation functions for SeamlessInteraction dataset
