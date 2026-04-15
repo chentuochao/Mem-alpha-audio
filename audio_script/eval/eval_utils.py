@@ -3,10 +3,12 @@ import json
 from typing import List, Dict
 import numpy as np
 from .multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
+from audio_script.datasets.turn_annotation import AlignedProcess
 
 from collections import Counter
 import numpy as np
 from scipy.optimize import linear_sum_assignment
+TURN_GAP_TH = 1.5
 
 ## print function
 def print_turns(turns):
@@ -17,6 +19,7 @@ def print_turns(turns):
         end = utt["end"]
         text = utt["text"]
         print(f"{speaker}[{start:.1f}-{end:.1f}]: {text }")
+
 
 
 
@@ -233,7 +236,7 @@ def parse_transcript(word_list: Dict) -> List[Dict]:
     return speaker_aware_turn
 
 
-def eval_cpwer_seamlessinteraction(pred_transcripts, gt_files):
+def eval_cpwer_seamlessinteraction(pred_transcripts, gt_files, limit_hypo_number = False):
     """
         pred_transcripts - {
             "SPEAK0": [{"word": "hello", "start": 0.0, "end": 1.0}, ...],
@@ -252,7 +255,7 @@ def eval_cpwer_seamlessinteraction(pred_transcripts, gt_files):
         spk_reference.append(ref_text)
         speaker_gt.append(spk)
 
-    cpwer, _, _, best_perm = calculate_session_cpWER(spk_hypothesis, spk_reference)
+    cpwer, _, _, best_perm = calculate_session_cpWER(spk_hypothesis, spk_reference, limit_hypo_number = limit_hypo_number)
     best_perm = [speakers_pred[i] for i in best_perm]
     # print(f"  Best permutation: {best_perm}")
     # print(f"  cpWER: {cpwer:.4f}")

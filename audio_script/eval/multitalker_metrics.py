@@ -566,7 +566,7 @@ def word_error_rate(
 
 
 def calculate_session_cpWER_bruteforce(
-    spk_hypothesis: List[str], spk_reference: List[str]
+    spk_hypothesis: List[str], spk_reference: List[str], limit_hypo_number: bool = False
 ) -> Tuple[float, str, str]:
     """
     Calculate cpWER with actual permutations in brute-force way when LSA algorithm cannot deliver the correct result.
@@ -604,6 +604,9 @@ def calculate_session_cpWER_bruteforce(
 
     # Calculate WER for every permutation
     for hyp_perm in permutations(range(len(spk_hypothesis))):
+        if limit_hypo_number:
+            hyp_perm = hyp_perm[: len(spk_reference)]
+
         hyp_trans = " ".join(spk_hypothesis[i] for i in hyp_perm)
         permed_hyp_lists.append(hyp_trans)
         perm_indices.append(hyp_perm)
@@ -621,7 +624,7 @@ def calculate_session_cpWER_bruteforce(
 
 
 def calculate_session_cpWER(
-    spk_hypothesis: List[str], spk_reference: List[str], use_lsa_only: bool = False
+    spk_hypothesis: List[str], spk_reference: List[str], use_lsa_only: bool = False, limit_hypo_number: bool = False
 ) -> Tuple[float, str, str]:
     """
     Calculate a session-level concatenated minimum-permutation word error rate (cpWER) value. cpWER is
@@ -694,7 +697,7 @@ def calculate_session_cpWER(
     if not use_lsa_only and num_ref_spks < num_hyp_spks:
         # Brute force algorithm when there are more speakers in the hypothesis
         cpWER, min_perm_hyp_trans, ref_trans, best_perm = calculate_session_cpWER_bruteforce(
-            spk_hypothesis, spk_reference
+            spk_hypothesis, spk_reference, limit_hypo_number = limit_hypo_number
         )
     else:
         # Calculate WER for each speaker in hypothesis with reference
