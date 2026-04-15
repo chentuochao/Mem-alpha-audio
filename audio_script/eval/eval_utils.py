@@ -20,6 +20,32 @@ def print_turns(turns):
 
 
 
+def parse_turn(turns):
+    dialog = ""
+    for utt in turns:
+        speaker = utt["speaker"]
+        start = utt["start"]
+        end = utt["end"]
+        text = utt["text"]
+        dialog += f"{speaker}: {text }\n"
+    return dialog
+        
+
+def parse_turn(turns):
+    dialog = []
+    for utt in turns:
+        start = utt["start"]
+        end = utt["end"]
+        text = utt["text"]
+        dialog.append({
+            "speaker": speake_id,
+            "start": start,
+            "end": end,
+            "text": text
+        })
+    return dialog
+        
+
 
 def best_match_tp_fp_fn(pred_speakers, gt_speakers):
     n_pred, n_gt = len(pred_speakers), len(gt_speakers)
