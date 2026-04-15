@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "GLOBAL_SPK_1",
+    "start": 1.12,
+    "end": 5.6000000000000005,
+    "text": "Richard, would you rather speak in rhyme or sing everything you say"
+  },
+  {
+    "speaker": "GLOBAL_SPK_0",
+    "start": 8.96,
+    "end": 19.040000000000003,
+    "text": "I'd rather speak in rhyme. So why I got to be all that? Is that rhyme?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_1",
+    "start": 11.200000000000001,
+    "end": 12.32,
+    "text": "You like that, honk?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_1",
+    "start": 20.16,
+    "end": 25.76,
+    "text": "That's pretty cheesy . Goofy"
+  },
+  {
+    "speaker": "GLOBAL_SPK_0",
+    "start": 24.64,
+    "end": 26.88,
+    "text": "Mary had a little lamb"
+  },
+  {
+    "speaker": "GLOBAL_SPK_1",
+    "start": 28.0,
+    "end": 35.84,
+    "text": "I'm going to stay away from those. Oh, that's right. I forgot you're deaf."
+  },
+  {
+    "speaker": "GLOBAL_SPK_0",
+    "start": 30.240000000000002,
+    "end": 35.84,
+    "text": "Talk a little louder when you talk to me. I'm a musician. I can't hear you. Oh, that's right."
+  },
+  {
+    "speaker": "GLOBAL_SPK_0",
+    "start": 41.44,
+    "end": 47.04,
+    "text": "What would you do? Would you sing, would you talk or would you sing?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_1",
+    "start": 47.04,
+    "end": 57.120000000000005,
+    "text": "I'd probably like to sing it. Like a rock start. No, I can't do that right now."
+  },
+  {
+    "speaker": "GLOBAL_SPK_0",
+    "start": 52.64,
+    "end": 54.879999999999995,
+    "text": "Demonstrate, please."
+  },
+  {
+    "speaker": "GLOBAL_SPK_0",
+    "start": 57.120000000000005,
+    "end": 60.480000000000004,
+    "text": "You said sing, man. You should have said rhyme."
+  },
+  {
+    "speaker": "GLOBAL_SPK_0",
+    "start": 67.2,
+    "end": 71.68,
+    "text": "Oh, let me see. How about born in the USA"
+  },
+  {
+    "speaker": "GLOBAL_SPK_1",
+    "start": 71.68,
+    "end": 73.92,
+    "text": "Oh, come on now."
+  }
+]

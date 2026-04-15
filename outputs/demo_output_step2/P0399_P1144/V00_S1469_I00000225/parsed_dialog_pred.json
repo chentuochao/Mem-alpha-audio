@@ -1,0 +1,194 @@
+[
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 4.48,
+    "end": 7.840000000000001,
+    "text": "The dog crawled under the bed."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 8.96,
+    "end": 12.32,
+    "text": "Oh wait. I'm supposed to respond."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 11.200000000000001,
+    "end": 12.32,
+    "text": "I don't think so."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 24.64,
+    "end": 35.84,
+    "text": "Okay, okay. Okay.  The lamp is next to the sofa"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 35.84,
+    "end": 39.2,
+    "text": "I think you should move the lamp over there"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 45.92,
+    "end": 49.28,
+    "text": "The elephant is large"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 49.28,
+    "end": 53.76,
+    "text": "Oh, but did you see the elephant's little baby?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 53.76,
+    "end": 54.879999999999995,
+    "text": ""
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 56.0,
+    "end": 63.84,
+    "text": "That's so cute.  The mouse is small"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 63.84,
+    "end": 66.08,
+    "text": "Ew, a mouse"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 72.8,
+    "end": 75.04,
+    "text": "The beach is far away"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 75.04,
+    "end": 86.24000000000001,
+    "text": "Please let's go. It's worth it.  The store is really close by."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 85.12,
+    "end": 95.2,
+    "text": "I want some chips. Let's go . The bottle is empty"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 95.2,
+    "end": 101.92,
+    "text": "Really, it looks full to me.  I need more time"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 101.92,
+    "end": 113.12,
+    "text": "Well, girl, we gotta go. You're late already.  We have eight plates."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 112.0,
+    "end": 114.24000000000001,
+    "text": "What about cups"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 122.08000000000001,
+    "end": 123.20000000000002,
+    "text": "There are nine birds"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 124.32000000000001,
+    "end": 128.8,
+    "text": "Oh my god, look at them. They're flying."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 134.4,
+    "end": 142.24,
+    "text": "Can you repeat that? Sorry.  This scarf is feather light"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 142.24,
+    "end": 145.6,
+    "text": "Oh, that's so cute."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 153.44,
+    "end": 154.56,
+    "text": "They walked along the river"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 155.68,
+    "end": 157.92,
+    "text": "I love the sound of the river"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 164.64,
+    "end": 169.12,
+    "text": "The buildings are adjacent to each other."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 169.12,
+    "end": 180.32000000000002,
+    "text": "Which building should we go to first?  He is knitting a scarf."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 178.08,
+    "end": 190.4,
+    "text": "Oh my god, can he make a beanie for me?  They're clapping. They're clapping, they're clapping their hands."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 190.4,
+    "end": 193.76,
+    "text": "And they're also cheering someone else"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 200.48000000000002,
+    "end": 203.84,
+    "text": "He is jogging at the park and"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 202.72,
+    "end": 207.20000000000002,
+    "text": "I need to jog as well, but I'm too lazy here."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 212.8,
+    "end": 217.28,
+    "text": "She's pouring juice into the glass."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 216.16,
+    "end": 219.51999999999998,
+    "text": "what is she gonna eat with that?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 229.59999999999997,
+    "end": 232.96,
+    "text": "So the chapter is at the beginning of the book"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 232.96,
+    "end": 237.44,
+    "text": "I can't wait to get to the end of it."
+  }
+]

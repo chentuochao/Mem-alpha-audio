@@ -19,13 +19,8 @@ from typing import Dict, List
 import numpy as np
 
 import matplotlib.pyplot as plt
-from audio_script.datasets.turn_annotation import AlignedProcess
 from audio_script.eval.eval_utils import eval_der_seamlessinteraction, eval_cpwer_seamlessinteraction
 # ── Helpers ──────────────────────────────────────────────────────────────
-TURN_GAP_TH = 1.5
-
-
-
 
 
 def discover_samples(data_dir: str) -> List[Dict]:

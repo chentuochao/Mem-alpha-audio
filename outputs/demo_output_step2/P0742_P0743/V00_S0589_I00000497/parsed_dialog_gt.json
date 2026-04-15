@@ -1,0 +1,266 @@
+[
+  {
+    "speaker": "P0742",
+    "start": 9.116999999999962,
+    "end": 11.57899999999995,
+    "text": "I'm dancing to my favorite song."
+  },
+  {
+    "speaker": "P0743",
+    "start": 13.567000000000007,
+    "end": 14.446999999999889,
+    "text": "What song is that?"
+  },
+  {
+    "speaker": "P0742",
+    "start": 15.601000000000113,
+    "end": 16.3420000000001,
+    "text": "Stumbling in."
+  },
+  {
+    "speaker": "P0743",
+    "start": 35.672000000000025,
+    "end": 38.212999999999965,
+    "text": "The house is big and spacious."
+  },
+  {
+    "speaker": "P0742",
+    "start": 39.358999999999924,
+    "end": 40.33999999999992,
+    "text": "But how big is big?"
+  },
+  {
+    "speaker": "P0743",
+    "start": 42.013999999999896,
+    "end": 42.55400000000009,
+    "text": "Too big."
+  },
+  {
+    "speaker": "P0742",
+    "start": 44.309999999999945,
+    "end": 49.011999999999944,
+    "text": "It never can be big enough. I mean, we'll hire a maid."
+  },
+  {
+    "speaker": "P0743",
+    "start": 45.77500000000009,
+    "end": 47.335000000000036,
+    "text": "Who wants to clean this big house?"
+  },
+  {
+    "speaker": "P0743",
+    "start": 50.47600000000011,
+    "end": 51.15599999999995,
+    "text": "Give me the money."
+  },
+  {
+    "speaker": "P0742",
+    "start": 71.04099999999994,
+    "end": 72.74199999999996,
+    "text": "That is the wrong answer."
+  },
+  {
+    "speaker": "P0743",
+    "start": 74.05999999999995,
+    "end": 74.57999999999993,
+    "text": "What do you mean?"
+  },
+  {
+    "speaker": "P0742",
+    "start": 75.70299999999997,
+    "end": 76.66399999999999,
+    "text": "You know what I mean."
+  },
+  {
+    "speaker": "P0743",
+    "start": 77.72800000000007,
+    "end": 79.08999999999992,
+    "text": "I don't know what you're talking about."
+  },
+  {
+    "speaker": "P0742",
+    "start": 80.42599999999993,
+    "end": 85.46900000000005,
+    "text": "You are... Mm."
+  },
+  {
+    "speaker": "P0743",
+    "start": 80.47299999999996,
+    "end": 81.95499999999993,
+    "text": "There's no wrong answer."
+  },
+  {
+    "speaker": "P0743",
+    "start": 105.3900000000001,
+    "end": 107.79099999999994,
+    "text": "I'm counting the number of people in this room."
+  },
+  {
+    "speaker": "P0742",
+    "start": 109.56799999999998,
+    "end": 112.22900000000004,
+    "text": "What does it mean though? What was the point of counting the people in the room?"
+  },
+  {
+    "speaker": "P0743",
+    "start": 112.65200000000004,
+    "end": 117.0920000000001,
+    "text": "Maybe there's too many. You only can have so many people in the room."
+  },
+  {
+    "speaker": "P0743",
+    "start": 126.654,
+    "end": 127.47499999999991,
+    "text": "I'm role-playing."
+  },
+  {
+    "speaker": "P0742",
+    "start": 140.72000000000003,
+    "end": 143.00099999999998,
+    "text": "The Earth is a round planet."
+  },
+  {
+    "speaker": "P0743",
+    "start": 144.56099999999992,
+    "end": 146.0809999999999,
+    "text": "Who said the Earth is round?"
+  },
+  {
+    "speaker": "P0742",
+    "start": 149.58400000000006,
+    "end": 157.12699999999995,
+    "text": "Explorers, I mean, come on. They sailed around the entire world. If it was flat, boats would be falling off, right?"
+  },
+  {
+    "speaker": "P0743",
+    "start": 154.56400000000008,
+    "end": 160.606,
+    "text": "Mmm. I'll go home and ask Alexa."
+  },
+  {
+    "speaker": "P0743",
+    "start": 175.87699999999995,
+    "end": 176.9179999999999,
+    "text": "I'm afraid of heights."
+  },
+  {
+    "speaker": "P0742",
+    "start": 178.9849999999999,
+    "end": 182.30600000000004,
+    "text": "Since when? You worked on the 30th floor. No."
+  },
+  {
+    "speaker": "P0742",
+    "start": 216.8320000000001,
+    "end": 219.01299999999992,
+    "text": "I love spending time with my family."
+  },
+  {
+    "speaker": "P0743",
+    "start": 221.0139999999999,
+    "end": 221.414,
+    "text": "You do?"
+  },
+  {
+    "speaker": "P0742",
+    "start": 222.29500000000007,
+    "end": 222.89499999999998,
+    "text": "You know I do."
+  },
+  {
+    "speaker": "P0743",
+    "start": 223.7349999999999,
+    "end": 228.33799999999997,
+    "text": "Well, we love it. We love you, too. Your grandchildren miss you when you go away. Oh."
+  },
+  {
+    "speaker": "P0742",
+    "start": 229.01800000000003,
+    "end": 231.57899999999995,
+    "text": "I know, I miss them too, and you."
+  },
+  {
+    "speaker": "P0743",
+    "start": 235.8209999999999,
+    "end": 236.5820000000001,
+    "text": "I miss you more."
+  },
+  {
+    "speaker": "P0742",
+    "start": 238.18200000000002,
+    "end": 239.183,
+    "text": "Not as much as I miss you."
+  },
+  {
+    "speaker": "P0743",
+    "start": 243.14499999999998,
+    "end": 245.76600000000008,
+    "text": "I don't have anybody to tell you and go over in the bed."
+  },
+  {
+    "speaker": "P0742",
+    "start": 246.904,
+    "end": 248.0250000000001,
+    "text": "You're in your glory, that's why."
+  },
+  {
+    "speaker": "P0743",
+    "start": 266.9369999999999,
+    "end": 268.69900000000007,
+    "text": "Oh, it's so hot outside today."
+  },
+  {
+    "speaker": "P0742",
+    "start": 270.1120000000001,
+    "end": 274.7739999999999,
+    "text": "It's 50 degrees out. Did you ever talk to the doctor about those half lashes?"
+  },
+  {
+    "speaker": "P0743",
+    "start": 275.047,
+    "end": 277.951,
+    "text": "It's too hot. I should've wore a sweater."
+  },
+  {
+    "speaker": "P0742",
+    "start": 279.2629999999999,
+    "end": 279.88300000000004,
+    "text": "I'm freezing."
+  },
+  {
+    "speaker": "P0742",
+    "start": 297.37200000000007,
+    "end": 299.433,
+    "text": "I am shocked by the news."
+  },
+  {
+    "speaker": "P0743",
+    "start": 301.11300000000006,
+    "end": 303.15599999999995,
+    "text": "What news? What happened?"
+  },
+  {
+    "speaker": "P0742",
+    "start": 304.31600000000003,
+    "end": 306.35699999999997,
+    "text": "Didn't you hear? It's been all over the radio, the TV."
+  },
+  {
+    "speaker": "P0743",
+    "start": 308.22299999999996,
+    "end": 308.7439999999999,
+    "text": "I didn't hear."
+  },
+  {
+    "speaker": "P0743",
+    "start": 331.03999999999996,
+    "end": 333.49800000000005,
+    "text": "The chef is chapping vegetables for dinner."
+  },
+  {
+    "speaker": "P0742",
+    "start": 335.11299999999983,
+    "end": 339.2840000000001,
+    "text": "Well, how else do you expect them to get the vegetables prepared? You have to chop them."
+  }
+]

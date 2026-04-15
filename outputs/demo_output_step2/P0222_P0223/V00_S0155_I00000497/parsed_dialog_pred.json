@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "GLOBAL_SPK_5",
+    "start": 1.12,
+    "end": 5.6000000000000005,
+    "text": "Hey, that looks like a lot of fun."
+  },
+  {
+    "speaker": "GLOBAL_SPK_5",
+    "start": 23.52,
+    "end": 28.0,
+    "text": "Now, the sports car is fast and powerful."
+  },
+  {
+    "speaker": "GLOBAL_SPK_4",
+    "start": 28.92,
+    "end": 31.360000000000003,
+    "text": "Yes, it's powerful."
+  },
+  {
+    "speaker": "GLOBAL_SPK_4",
+    "start": 52.64,
+    "end": 54.879999999999995,
+    "text": "The child is scared of the dark"
+  },
+  {
+    "speaker": "GLOBAL_SPK_5",
+    "start": 56.0,
+    "end": 57.120000000000005,
+    "text": "Maybe you should give him a blanket"
+  },
+  {
+    "speaker": "GLOBAL_SPK_5",
+    "start": 72.8,
+    "end": 77.28,
+    "text": "I am amazed by your talent."
+  },
+  {
+    "speaker": "GLOBAL_SPK_4",
+    "start": 77.28,
+    "end": 81.75999999999999,
+    "text": "Wow, thank you so much. I really appreciate it"
+  },
+  {
+    "speaker": "GLOBAL_SPK_4",
+    "start": 91.84,
+    "end": 95.2,
+    "text": "We did it! Victory!"
+  },
+  {
+    "speaker": "GLOBAL_SPK_5",
+    "start": 95.2,
+    "end": 97.44,
+    "text": "Woohoo!"
+  },
+  {
+    "speaker": "GLOBAL_SPK_5",
+    "start": 113.12,
+    "end": 116.48,
+    "text": "The road is flat and even"
+  },
+  {
+    "speaker": "GLOBAL_SPK_4",
+    "start": 118.72,
+    "end": 122.08000000000001,
+    "text": "What are we gonna do? How are we going to drive on it?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_5",
+    "start": 123.20000000000002,
+    "end": 125.44000000000001,
+    "text": "I imagine, pretty easily."
+  },
+  {
+    "speaker": "GLOBAL_SPK_4",
+    "start": 140.0,
+    "end": 143.36,
+    "text": "He is reluctant to try new foods"
+  },
+  {
+    "speaker": "GLOBAL_SPK_5",
+    "start": 143.36,
+    "end": 146.72,
+    "text": "Maybe he's afraid of getting sick"
+  },
+  {
+    "speaker": "GLOBAL_SPK_5",
+    "start": 163.51999999999998,
+    "end": 165.76,
+    "text": "I was agitated about the delay"
+  },
+  {
+    "speaker": "GLOBAL_SPK_4",
+    "start": 166.88,
+    "end": 174.72,
+    "text": "Oh no, we better run.  Thanks."
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 3.36,
+    "end": 6.72,
+    "text": "The traffic is slow due to construction"
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 6.72,
+    "end": 16.8,
+    "text": "My goodness, it's very, very slow because after four o'clock on OK, OK, OK."
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 22.400000000000002,
+    "end": 24.64,
+    "text": "The river is wide and deep"
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 25.76,
+    "end": 29.12,
+    "text": "The river is wide indeed"
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 34.72,
+    "end": 39.2,
+    "text": "The ice cream is cold but delicious"
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 40.32,
+    "end": 43.68,
+    "text": "Very good. The ice cream is very good. And"
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 50.4,
+    "end": 54.879999999999995,
+    "text": "you probably pull the curtain close. Pull the curtain"
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 53.76,
+    "end": 56.0,
+    "text": "Hold the curtain closed"
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 62.720000000000006,
+    "end": 67.2,
+    "text": "He's hesitant to make a decision"
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 64.96,
+    "end": 66.08,
+    "text": ""
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 70.56,
+    "end": 72.8,
+    "text": "I'm undecisive"
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 81.75999999999999,
+    "end": 85.12,
+    "text": "I feel guilty for not helping my friend"
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 85.12,
+    "end": 87.36,
+    "text": "I feel guilty for not helping my friend"
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 95.2,
+    "end": 99.68,
+    "text": "The car's small but fuel efficient."
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 99.68,
+    "end": 101.92,
+    "text": "tiny but good on gas"
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 108.64,
+    "end": 113.12,
+    "text": "The athlete is strong and muscular."
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 110.88,
+    "end": 114.24000000000001,
+    "text": "The athlete's strong and muscular"
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 126.56000000000002,
+    "end": 129.92,
+    "text": "I feel guilty for not helping my friend"
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 129.92,
+    "end": 133.28,
+    "text": "I feel guilty for not helping my friend."
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 141.12,
+    "end": 144.48000000000002,
+    "text": "I am irritated by the constant interruptions"
+  },
+  {
+    "speaker": "GLOBAL_SPK_27",
+    "start": 144.48000000000002,
+    "end": 156.8,
+    "text": "I am upset because you're always interrupting me.  I'm happy to see you."
+  },
+  {
+    "speaker": "GLOBAL_SPK_28",
+    "start": 155.68,
+    "end": 162.4,
+    "text": "Happy to see you too.  Yeah"
+  }
+]

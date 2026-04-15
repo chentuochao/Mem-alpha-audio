@@ -1,0 +1,140 @@
+[
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 2.24,
+    "end": 5.6000000000000005,
+    "text": "The cat hid below a table"
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 6.72,
+    "end": 15.680000000000001,
+    "text": "The cat was probably scared,  the bird flew above my head."
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 15.680000000000001,
+    "end": 23.52,
+    "text": "He might have dropped the log. She was among the crowd"
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 25.76,
+    "end": 34.72,
+    "text": "The crowd was probably thick.  The ball is between my shoes"
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 34.72,
+    "end": 42.56,
+    "text": "Did you bounce it? The pencil is short."
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 42.56,
+    "end": 50.4,
+    "text": "Was it optimized?  The building is tall"
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 52.64,
+    "end": 61.60000000000001,
+    "text": "Taller than Hayden.  The book is within reach"
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 62.720000000000006,
+    "end": 71.68,
+    "text": "Could you not reach it because your short arms?  The star is distant"
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 75.04,
+    "end": 85.12,
+    "text": "like my father.  I have one apple"
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 86.24000000000001,
+    "end": 89.60000000000001,
+    "text": "Good thing you don't have to."
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 95.2,
+    "end": 98.56,
+    "text": "If you use less sugar,"
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 99.68,
+    "end": 108.64,
+    "text": "or you'll be fat.  The conversation is hushed"
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 110.88,
+    "end": 119.84,
+    "text": "probably because she was scared , the street is noisy."
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 119.84,
+    "end": 129.92,
+    "text": "Noisy figure-sensitive ears . The sauce is tangy"
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 131.04,
+    "end": 133.28,
+    "text": "Probably because you're in an Indian restaurant"
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 140.0,
+    "end": 143.36,
+    "text": "The curry is spicy."
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 143.36,
+    "end": 155.68,
+    "text": "Probably because Rangy cooked it . The bird is gliding through the sky"
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 157.92,
+    "end": 165.76,
+    "text": "Hopefully it doesn't fall.  The baby is crawling on the floor."
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 165.76,
+    "end": 173.6,
+    "text": "because it can't stand. The ball is bouncing on the ground"
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 175.84,
+    "end": 184.8,
+    "text": "Did you bounce it?  He is climbing the ladder"
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 187.04,
+    "end": 198.24,
+    "text": "Hopefully he doesn't fall.  Her creativity is inspiring."
+  },
+  {
+    "speaker": "GLOBAL_SPK_160",
+    "start": 198.24,
+    "end": 206.08,
+    "text": "She must have gone through a lot.  He had a sudden realization"
+  },
+  {
+    "speaker": "GLOBAL_SPK_161",
+    "start": 208.32000000000002,
+    "end": 210.56,
+    "text": "Maybe he wasn't lightened."
+  }
+]

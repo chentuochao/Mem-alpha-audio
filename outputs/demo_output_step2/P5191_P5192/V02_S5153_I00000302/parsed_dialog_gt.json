@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "P5191",
+    "start": 0.027999999999792635,
+    "end": 64.60500000000002,
+    "text": "I felt stuck in a rut or at a dead end was during my latest math exam. There's a question that I had absolutely no idea how to solve. I looked at the numbers as if it was a foreign language. I looked at the prompt as if it was an alien communicating with me. With no idea how to solve a problem, I thought, I am not solving it whatsoever. But I reminded myself, at some point, somebody made the formula to solve that problem. Why can't I figure it out? So I thought long and hard about what that person could have been thinking when they thought of the formula and what solution I could possibly get with the factors I was given. And like the genius I am, I solved the problem. I invented the formula myself without even knowing it."
+  },
+  {
+    "speaker": "P5192",
+    "start": 66.42900000000009,
+    "end": 67.20899999999983,
+    "text": "Can you tell me the formula?"
+  },
+  {
+    "speaker": "P5191",
+    "start": 68.45699999999988,
+    "end": 120.27700000000004,
+    "text": "okay so the question was about oh no no no no what's the formula for that no the it wasn't a formula necessarily but it was a way of solving the problem it was differentiating a problem with the natural log in it, or where you had to use the natural log in order to differentiate it. So that's exactly what I did. Once I figured out that I had to use the natural log, the rest of it came easy. But I only figured it out because of my genius tendencies."
+  },
+  {
+    "speaker": "P5192",
+    "start": 75.654,
+    "end": 84.75799999999981,
+    "text": "How many bowls of curry did Baozhi eat? And I didn't give it much of an explanation."
+  },
+  {
+    "speaker": "P5192",
+    "start": 101.70100000000002,
+    "end": 102.08100000000013,
+    "text": "OK."
+  },
+  {
+    "speaker": "P5192",
+    "start": 120.75700000000006,
+    "end": 123.5,
+    "text": "What is the derivative of the natural log of x?"
+  },
+  {
+    "speaker": "P5191",
+    "start": 125.45800000000008,
+    "end": 133.58199999999988,
+    "text": "The derivative of the natural log of x is 1 over x. Do you know the derivative of tangent?"
+  },
+  {
+    "speaker": "P5192",
+    "start": 128.98500000000013,
+    "end": 129.30499999999984,
+    "text": "Well done."
+  },
+  {
+    "speaker": "P5192",
+    "start": 136.28499999999985,
+    "end": 146.68899999999985,
+    "text": "That's not a thing. The root of tangent? A tangent line? How about you tell me, and I'll tell you if it's right or not?"
+  },
+  {
+    "speaker": "P5191",
+    "start": 140.68600000000015,
+    "end": 145.0680000000002,
+    "text": "No, tangent. Tangent of x. What is the derivative of tangent of x?"
+  },
+  {
+    "speaker": "P5191",
+    "start": 146.78900000000021,
+    "end": 154.47299999999996,
+    "text": "Okay, I don't think your professor is doing a great job at teaching you if you don't know the derivative of tangent of x, which is secant squared x."
+  },
+  {
+    "speaker": "P5192",
+    "start": 156.433,
+    "end": 160.89499999999998,
+    "text": "You must be in a sped calculus class. I don't know."
+  },
+  {
+    "speaker": "P5191",
+    "start": 161.4319999999998,
+    "end": 163.37300000000005,
+    "text": "Could you elaborate on the term spit?"
+  },
+  {
+    "speaker": "P5192",
+    "start": 164.11400000000003,
+    "end": 175.52100000000019,
+    "text": "I just think you're in a special education course for calculus. Because maybe it's taught at a lower level. My calculus is just far beyond yours."
+  },
+  {
+    "speaker": "P5191",
+    "start": 167.99699999999984,
+    "end": 169.35699999999997,
+    "text": "Why, if I know something you don't?"
+  }
+]

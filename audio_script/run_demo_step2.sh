@@ -57,8 +57,3 @@ python "${SCRIPT_DIR}/step2_speaker_match.py" \
     --output_dir "${OUTPUT_DIR}"
 
 conda deactivate
-
-echo ""
-echo "============================================================"
-echo "  Done! Results in: ${OUTPUT_DIR}/global_speaker_results.json"
-echo "============================================================"

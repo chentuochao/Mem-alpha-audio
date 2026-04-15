@@ -1,0 +1,314 @@
+[
+  {
+    "speaker": "P0108",
+    "start": 0.8530000000000655,
+    "end": 3.1749999999999545,
+    "text": "I'm so angry about the situation."
+  },
+  {
+    "speaker": "P0043",
+    "start": 3.9960000000000946,
+    "end": 5.017000000000053,
+    "text": "But what happened?"
+  },
+  {
+    "speaker": "P0108",
+    "start": 6.597999999999956,
+    "end": 7.038000000000011,
+    "text": "No work."
+  },
+  {
+    "speaker": "P0043",
+    "start": 7.598999999999933,
+    "end": 10.601000000000113,
+    "text": "What are you angry about? What are you angry about?"
+  },
+  {
+    "speaker": "P0043",
+    "start": 21.66999999999989,
+    "end": 25.353000000000065,
+    "text": "I am so relieved that this test is over."
+  },
+  {
+    "speaker": "P0108",
+    "start": 28.690000000000055,
+    "end": 29.070999999999913,
+    "text": "Test."
+  },
+  {
+    "speaker": "P0108",
+    "start": 43.26700000000005,
+    "end": 45.30899999999997,
+    "text": "She's terrified of spiders."
+  },
+  {
+    "speaker": "P0043",
+    "start": 46.65300000000002,
+    "end": 47.794000000000096,
+    "text": "Are you talking about your girlfriend again?"
+  },
+  {
+    "speaker": "P0043",
+    "start": 60.67100000000005,
+    "end": 62.91399999999999,
+    "text": "This room is so empty and quiet."
+  },
+  {
+    "speaker": "P0108",
+    "start": 64.63400000000001,
+    "end": 69.41499999999996,
+    "text": "Yeah, I know, it's very quiet. I kind of like quiet spaces like that."
+  },
+  {
+    "speaker": "P0108",
+    "start": 82.83799999999997,
+    "end": 86.39899999999989,
+    "text": "The skyscraper is tall and impressive."
+  },
+  {
+    "speaker": "P0043",
+    "start": 88.32300000000009,
+    "end": 89.2639999999999,
+    "text": "We must be in New York."
+  },
+  {
+    "speaker": "P0043",
+    "start": 100.05300000000011,
+    "end": 101.79500000000007,
+    "text": "I am so bored with this movie."
+  },
+  {
+    "speaker": "P0108",
+    "start": 103.21299999999997,
+    "end": 109.13499999999999,
+    "text": "I know what you mean. It just doesn't have a plot. There's no storyline. I mean, what can you do?"
+  },
+  {
+    "speaker": "P0043",
+    "start": 106.1389999999999,
+    "end": 106.98000000000002,
+    "text": "It's horrible."
+  },
+  {
+    "speaker": "P0043",
+    "start": 109.26199999999994,
+    "end": 111.5440000000001,
+    "text": "It sucks. I'm never going to get that five minutes back."
+  },
+  {
+    "speaker": "P0108",
+    "start": 110.41499999999996,
+    "end": 110.81500000000005,
+    "text": "You know."
+  },
+  {
+    "speaker": "P0108",
+    "start": 123.31899999999996,
+    "end": 124.89899999999989,
+    "text": "I am filled with joy."
+  },
+  {
+    "speaker": "P0043",
+    "start": 127.58999999999992,
+    "end": 134.61200000000008,
+    "text": "Oh, you're filled all right."
+  },
+  {
+    "speaker": "P0043",
+    "start": 149.577,
+    "end": 153.85799999999995,
+    "text": "Stirring the soup with a spoon is so important."
+  },
+  {
+    "speaker": "P0108",
+    "start": 155.894,
+    "end": 157.615,
+    "text": "Yes, but it's a very aggravating."
+  },
+  {
+    "speaker": "P0108",
+    "start": 170.29899999999998,
+    "end": 172.6400000000001,
+    "text": "The mountain is high and challenging to climb."
+  },
+  {
+    "speaker": "P0043",
+    "start": 173.8800000000001,
+    "end": 174.98000000000002,
+    "text": "Are you looking at Mount Whitney?"
+  },
+  {
+    "speaker": "P0108",
+    "start": 176.961,
+    "end": 183.14300000000003,
+    "text": "Could be, could be Mount Whitney, Everest, any high mountain."
+  },
+  {
+    "speaker": "P0043",
+    "start": 185.50299999999993,
+    "end": 186.5039999999999,
+    "text": "Or being high on a mountain?"
+  },
+  {
+    "speaker": "P0108",
+    "start": 186.7750000000001,
+    "end": 187.03500000000008,
+    "text": "Yeah?"
+  },
+  {
+    "speaker": "P0043",
+    "start": 198.40699999999993,
+    "end": 200.4670000000001,
+    "text": "The teacher has a stern expression"
+  },
+  {
+    "speaker": "P0108",
+    "start": 204.3510000000001,
+    "end": 206.413,
+    "text": "Yeah, I know. She's very uptight."
+  },
+  {
+    "speaker": "P0043",
+    "start": 209.1010000000001,
+    "end": 210.8230000000001,
+    "text": "I was going to say something else, but I'm not going to."
+  },
+  {
+    "speaker": "P0108",
+    "start": 221.47000000000003,
+    "end": 223.8710000000001,
+    "text": "I'm worried about my sick family member."
+  },
+  {
+    "speaker": "P0043",
+    "start": 225.0150000000001,
+    "end": 225.61599999999999,
+    "text": "Which one is it?"
+  },
+  {
+    "speaker": "P0108",
+    "start": 227.73299999999995,
+    "end": 231.03500000000008,
+    "text": "The one with the roving eye."
+  },
+  {
+    "speaker": "P0043",
+    "start": 231.8610000000001,
+    "end": 233.3030000000001,
+    "text": "The roving eye."
+  },
+  {
+    "speaker": "P0043",
+    "start": 251.81099999999992,
+    "end": 256.9369999999999,
+    "text": "Richard, please push the door open slowly."
+  },
+  {
+    "speaker": "P0108",
+    "start": 257.8219999999999,
+    "end": 258.14200000000005,
+    "text": "Sure."
+  },
+  {
+    "speaker": "P0108",
+    "start": 275.086,
+    "end": 277.346,
+    "text": "I'm writing a letter to my pen pal."
+  },
+  {
+    "speaker": "P0043",
+    "start": 278.52199999999993,
+    "end": 279.38200000000006,
+    "text": "Who, Santa Claus?"
+  },
+  {
+    "speaker": "P0108",
+    "start": 282.067,
+    "end": 286.308,
+    "text": "How'd you know? I got a long list."
+  },
+  {
+    "speaker": "P0043",
+    "start": 284.3230000000001,
+    "end": 285.0239999999999,
+    "text": "Tis the season."
+  },
+  {
+    "speaker": "P0043",
+    "start": 299.7270000000001,
+    "end": 302.048,
+    "text": "I'm so proud of my accomplishments."
+  },
+  {
+    "speaker": "P0108",
+    "start": 303.5440000000001,
+    "end": 306.326,
+    "text": "Well, you should be proud of your accomplishments. You've done a lot."
+  },
+  {
+    "speaker": "P0043",
+    "start": 306.5,
+    "end": 308.52199999999993,
+    "text": "Thank you, 60 years in."
+  },
+  {
+    "speaker": "P0108",
+    "start": 319.576,
+    "end": 321.9179999999999,
+    "text": "The line is long. I guess we're going to have to wait."
+  },
+  {
+    "speaker": "P0043",
+    "start": 322.694,
+    "end": 323.7349999999999,
+    "text": "Where are you at, in and out?"
+  },
+  {
+    "speaker": "P0108",
+    "start": 326.8409999999999,
+    "end": 327.66200000000003,
+    "text": "Anywhere where there's a..."
+  },
+  {
+    "speaker": "P0043",
+    "start": 338.009,
+    "end": 340.54999999999995,
+    "text": "I'm so ashamed of my mistake."
+  },
+  {
+    "speaker": "P0108",
+    "start": 341.98800000000006,
+    "end": 344.991,
+    "text": "You really should be. It was really a bad mistake."
+  },
+  {
+    "speaker": "P0108",
+    "start": 356.92100000000005,
+    "end": 359.3430000000001,
+    "text": "She's drinking water to stay hydrated."
+  },
+  {
+    "speaker": "P0043",
+    "start": 360.817,
+    "end": 361.9169999999999,
+    "text": "Oh, did your dog go on a hike?"
+  },
+  {
+    "speaker": "P0043",
+    "start": 375.366,
+    "end": 377.8879999999999,
+    "text": "She made air quotes with her fingers."
+  },
+  {
+    "speaker": "P0108",
+    "start": 379.10300000000007,
+    "end": 382.7639999999999,
+    "text": "Wow, how do you do that? Finger like that, wow."
+  },
+  {
+    "speaker": "P0043",
+    "start": 380.991,
+    "end": 381.43100000000004,
+    "text": "Like this. Oh,"
+  }
+]

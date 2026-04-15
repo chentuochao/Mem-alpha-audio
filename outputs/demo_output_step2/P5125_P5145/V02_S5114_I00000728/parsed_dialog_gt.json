@@ -1,0 +1,218 @@
+[
+  {
+    "speaker": "P5145",
+    "start": 1.2989999999999782,
+    "end": 2.9600000000000364,
+    "text": "The plane flew over the city."
+  },
+  {
+    "speaker": "P5125",
+    "start": 3.872000000000071,
+    "end": 4.7719999999999345,
+    "text": "That's usually what they do."
+  },
+  {
+    "speaker": "P5145",
+    "start": 5.663000000000011,
+    "end": 7.644999999999982,
+    "text": "I mean, unless they're Boeings."
+  },
+  {
+    "speaker": "P5125",
+    "start": 10.813000000000102,
+    "end": 11.673000000000002,
+    "text": "The store's on the right."
+  },
+  {
+    "speaker": "P5145",
+    "start": 12.829999999999927,
+    "end": 19.636999999999944,
+    "text": "Are you sure it's not the left? These roads are perpendicular."
+  },
+  {
+    "speaker": "P5125",
+    "start": 21.476000000000113,
+    "end": 26.7170000000001,
+    "text": "Perpendicular. Interesting. Not parallel?"
+  },
+  {
+    "speaker": "P5145",
+    "start": 27.613000000000056,
+    "end": 27.91300000000001,
+    "text": "Same thing."
+  },
+  {
+    "speaker": "P5125",
+    "start": 30.898999999999887,
+    "end": 32.118999999999915,
+    "text": "The lines are parallel."
+  },
+  {
+    "speaker": "P5145",
+    "start": 34.51700000000005,
+    "end": 41.06099999999992,
+    "text": "Well, good. Otherwise it'd be crossed. The park is near my house."
+  },
+  {
+    "speaker": "P5125",
+    "start": 42.960000000000036,
+    "end": 43.460000000000036,
+    "text": "How close?"
+  },
+  {
+    "speaker": "P5145",
+    "start": 44.0630000000001,
+    "end": 44.58300000000004,
+    "text": "It is my house."
+  },
+  {
+    "speaker": "P5125",
+    "start": 49.26099999999997,
+    "end": 50.98199999999997,
+    "text": "The model is miniature."
+  },
+  {
+    "speaker": "P5145",
+    "start": 52.468000000000075,
+    "end": 58.958000000000084,
+    "text": "Micromachines miniature or Hot Wheels miniature? The glass is full."
+  },
+  {
+    "speaker": "P5125",
+    "start": 60.86400000000003,
+    "end": 61.503999999999905,
+    "text": "Half or full."
+  },
+  {
+    "speaker": "P5145",
+    "start": 61.799999999999955,
+    "end": 62.01999999999998,
+    "text": "Full."
+  },
+  {
+    "speaker": "P5125",
+    "start": 67.7460000000001,
+    "end": 68.62599999999998,
+    "text": "None of the lights are on."
+  },
+  {
+    "speaker": "P5145",
+    "start": 70.625,
+    "end": 76.58799999999997,
+    "text": "That's true. She has a number seven pencil."
+  },
+  {
+    "speaker": "P5125",
+    "start": 77.89100000000008,
+    "end": 78.57099999999991,
+    "text": "Do they have those?"
+  },
+  {
+    "speaker": "P5145",
+    "start": 79.20900000000006,
+    "end": 79.70900000000006,
+    "text": "Yeah, there's neither."
+  },
+  {
+    "speaker": "P5125",
+    "start": 85.61599999999999,
+    "end": 86.93599999999992,
+    "text": "There are six cookies."
+  },
+  {
+    "speaker": "P5145",
+    "start": 88.4380000000001,
+    "end": 94.16300000000001,
+    "text": "No, there's not anymore. The bag is hefty."
+  },
+  {
+    "speaker": "P5125",
+    "start": 96.22199999999998,
+    "end": 97.00199999999995,
+    "text": "Is it a hefty bag?"
+  },
+  {
+    "speaker": "P5145",
+    "start": 97.22600000000011,
+    "end": 97.846,
+    "text": "It's a hefty bag."
+  },
+  {
+    "speaker": "P5125",
+    "start": 101.80500000000006,
+    "end": 102.7059999999999,
+    "text": "The jacket is lightweight."
+  },
+  {
+    "speaker": "P5145",
+    "start": 103.83200000000011,
+    "end": 109.65699999999993,
+    "text": "It's a leather coat. The bank is opposite the store."
+  },
+  {
+    "speaker": "P5125",
+    "start": 111.53999999999996,
+    "end": 111.96000000000004,
+    "text": "That's good."
+  },
+  {
+    "speaker": "P5145",
+    "start": 112.279,
+    "end": 112.98000000000002,
+    "text": "They give stuff away for free."
+  },
+  {
+    "speaker": "P5125",
+    "start": 116.96199999999999,
+    "end": 118.24199999999996,
+    "text": "The forest is beyond the hill."
+  },
+  {
+    "speaker": "P5145",
+    "start": 119.6400000000001,
+    "end": 126.14699999999993,
+    "text": "You can't see the forest from the trees. He is building a sandcastle."
+  },
+  {
+    "speaker": "P5125",
+    "start": 127.28600000000006,
+    "end": 127.846,
+    "text": "Well, that's fun."
+  },
+  {
+    "speaker": "P5125",
+    "start": 132.86799999999994,
+    "end": 133.88799999999992,
+    "text": "He's driving the car."
+  },
+  {
+    "speaker": "P5145",
+    "start": 135.87799999999993,
+    "end": 140.62300000000005,
+    "text": "That's debatable. She is catching the ball."
+  },
+  {
+    "speaker": "P5125",
+    "start": 143.09899999999993,
+    "end": 149.10300000000007,
+    "text": "That's good. She is cutting the paper."
+  },
+  {
+    "speaker": "P5145",
+    "start": 150.35799999999995,
+    "end": 157.48399999999992,
+    "text": "And cutting the cheese too. He is reflecting on the past."
+  },
+  {
+    "speaker": "P5125",
+    "start": 158.88999999999993,
+    "end": 165.33500000000004,
+    "text": "It's a good thing to do. The hours are passing slowly."
+  },
+  {
+    "speaker": "P5145",
+    "start": 165.93100000000004,
+    "end": 167.5920000000001,
+    "text": "My God, they are. Jesus."
+  }
+]

@@ -4,11 +4,19 @@ from typing import List, Dict
 import numpy as np
 from .multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
 from audio_script.datasets.turn_annotation import AlignedProcess
-
+import string
 from collections import Counter
 import numpy as np
 from scipy.optimize import linear_sum_assignment
 TURN_GAP_TH = 1.5
+
+
+def normalize_string(input_string):
+    result = input_string.lower()
+    # return result
+    for char in string.punctuation:
+        result = result.replace(char, "")
+    return result
 
 ## print function
 def print_turns(turns):
@@ -20,6 +28,27 @@ def print_turns(turns):
         text = utt["text"]
         print(f"{speaker}[{start:.1f}-{end:.1f}]: {text }")
 
+
+def remove_first_punction(text):
+    for char in string.punctuation:
+        if text.startswith(char):
+            text = text[1:]
+    return text.strip()
+
+def parse_turn(turns):
+    dialog = []
+    for utt in turns:
+        start = utt["start"]
+        end = utt["end"]
+        text = utt["text"]
+        text = remove_first_punction(text.strip())
+        dialog.append({
+            "speaker": utt["speaker"],
+            "start": start,
+            "end": end,
+            "text": text
+        })
+    return dialog
 
 
 
@@ -187,14 +216,18 @@ def parse_transcript(word_list: Dict) -> List[Dict]:
 
     speaker_aware_turn = []
     transA, transB = None, None
+    # print(speaker_transcripts, valid_speakers)
+
     if len(valid_speakers) == 0:
         print(f"No valid speakers found for!")
         return []
 
     elif len(valid_speakers) == 1:
         print(f"Only one valid speaker found for")
-        words = speaker_transcripts[valid_speakers[0]]["words"]
-        transcript = transcripts[0]
+        words = speaker_transcripts[valid_speakers[0]][0]["words"]
+        transcript = ""
+        for w in words:
+            transcript += w["word"]
         speaker_aware_turn = [{
             "dialog_type": "dialog",
             "speaker": valid_speakers[0],

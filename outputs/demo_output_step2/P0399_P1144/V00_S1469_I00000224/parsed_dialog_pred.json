@@ -1,0 +1,212 @@
+[
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 2.24,
+    "end": 5.6000000000000005,
+    "text": "Am I able to step aside to drink water?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 5.6000000000000005,
+    "end": 8.96,
+    "text": "Okay, the store is on the right"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 10.08,
+    "end": 12.32,
+    "text": "I thought the store was on the left"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 13.44,
+    "end": 15.680000000000001,
+    "text": "No, it's on the right."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 24.64,
+    "end": 28.0,
+    "text": "The plane flew over the city"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 29.12,
+    "end": 30.240000000000002,
+    "text": "What city"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 36.96,
+    "end": 40.32,
+    "text": "are you? The lines are parallel."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 41.44,
+    "end": 48.16,
+    "text": "I thought they were perpendicular ."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 50.4,
+    "end": 52.64,
+    "text": "So I probably should have done this parallel"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 64.96,
+    "end": 68.32,
+    "text": "The park is near my house"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 73.92,
+    "end": 87.36,
+    "text": "how big is the park . The model , the model is miniature"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 88.48,
+    "end": 90.72,
+    "text": "So you're telling me it's not big"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 99.68,
+    "end": 101.92,
+    "text": "The glass is full"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 103.04,
+    "end": 104.16000000000001,
+    "text": "What is it full of"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 110.88,
+    "end": 113.12,
+    "text": "none of the lights are on"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 114.24000000000001,
+    "end": 118.72,
+    "text": "Are you blind? I feel like all of the lights are on"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 126.56000000000002,
+    "end": 131.04,
+    "text": "She has seven pencils"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 132.16,
+    "end": 136.64,
+    "text": "And well, I'm going to take one. So she'll have six."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 142.24,
+    "end": 143.36,
+    "text": "There are six cookies"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 146.72,
+    "end": 150.08,
+    "text": "Can you help pour some milk for the cookies"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 155.68,
+    "end": 157.92,
+    "text": "The bag is hefty"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 159.04,
+    "end": 161.28,
+    "text": "Not for me, is it?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 166.88,
+    "end": 170.24,
+    "text": "The jacket is lightweight."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 172.48000000000002,
+    "end": 174.72,
+    "text": "Okay, but I have a coat"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 180.32000000000002,
+    "end": 184.8,
+    "text": "The bank is opposite of the store."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 184.8,
+    "end": 192.64,
+    "text": "Okay, which one should we go to first ? He is driving the car"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 193.76,
+    "end": 198.24,
+    "text": "Okay, well, there's someone skating past him."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 203.84,
+    "end": 206.08,
+    "text": "He is building a sand castle"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 206.08,
+    "end": 208.32000000000002,
+    "text": "Well, I'm gonna knock it over"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 215.04,
+    "end": 217.28,
+    "text": "She's cutting the paper"
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 218.4,
+    "end": 228.48000000000002,
+    "text": "Are you sure you don't want to use a knife instead?  She is catching the ball"
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 229.59999999999997,
+    "end": 232.96,
+    "text": "Make sure it doesn't hit your face."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 239.68,
+    "end": 244.16000000000003,
+    "text": "The hours are passing slowly."
+  },
+  {
+    "speaker": "GLOBAL_SPK_12",
+    "start": 243.04,
+    "end": 255.36,
+    "text": "Actually, I feel like time is going by super fast.  He is reflecting on the past."
+  },
+  {
+    "speaker": "GLOBAL_SPK_11",
+    "start": 256.48,
+    "end": 260.96000000000004,
+    "text": "He definitely should. He's done a lot of weird stuff."
+  }
+]

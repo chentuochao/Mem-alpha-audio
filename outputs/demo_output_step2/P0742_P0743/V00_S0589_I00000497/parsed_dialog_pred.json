@@ -1,0 +1,266 @@
+[
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 8.96,
+    "end": 12.32,
+    "text": "I'm dancing to my favorite song"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 13.44,
+    "end": 15.680000000000001,
+    "text": "What song is that?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 15.680000000000001,
+    "end": 17.92,
+    "text": "stumbling in"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 35.84,
+    "end": 39.2,
+    "text": "The house is big and spacious"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 39.2,
+    "end": 41.44,
+    "text": "But how big is big?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 41.44,
+    "end": 43.68,
+    "text": "Too big"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 44.800000000000004,
+    "end": 47.04,
+    "text": "It never can be big enough."
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 45.92,
+    "end": 48.16,
+    "text": "Who wants to clean this big house"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 49.28,
+    "end": 50.4,
+    "text": "Here a maid."
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 50.4,
+    "end": 52.64,
+    "text": "Give me the money"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 71.68,
+    "end": 78.4,
+    "text": "That is the wrong answer. You know what I mean?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 73.92,
+    "end": 76.16000000000001,
+    "text": "What do you mean?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 78.4,
+    "end": 82.88,
+    "text": "I don't know what you're talking about. There's no wrong answer"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 80.64,
+    "end": 81.75999999999999,
+    "text": "You heard"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 105.28,
+    "end": 108.64,
+    "text": "I'm counting the number of people in this room"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 109.75999999999999,
+    "end": 113.12,
+    "text": "of it? What does it mean though? What's the point of counting the people in the room?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 112.0,
+    "end": 117.60000000000001,
+    "text": "Maybe there's too many. You only can have so many people in the room"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 126.56000000000002,
+    "end": 128.8,
+    "text": "and roleplay"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 141.12,
+    "end": 144.48000000000002,
+    "text": "The earth is a round planet"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 144.48000000000002,
+    "end": 147.84,
+    "text": "Who said the earth is round?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 150.08,
+    "end": 157.92,
+    "text": "Explorers. I mean, come on. They sailed around the entire world. If it was flat, boats would be falling off, right?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 159.04,
+    "end": 161.28,
+    "text": "I'll go home and ask Alexa"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 175.84,
+    "end": 178.08,
+    "text": "I'm afraid of heights"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 179.20000000000002,
+    "end": 183.68,
+    "text": "Since when? You worked on the 30th floor"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 188.16,
+    "end": 189.28,
+    "text": ""
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 192.64,
+    "end": 194.88,
+    "text": "No,"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 217.28,
+    "end": 219.51999999999998,
+    "text": "I love spending time with my family"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 221.76,
+    "end": 228.48000000000002,
+    "text": "You do? We love it. We love you too. Your grandchildren miss you when you go away"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 221.76,
+    "end": 224.0,
+    "text": "You know I do."
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 229.59999999999997,
+    "end": 232.96,
+    "text": "I know. I miss them too. And you"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 232.96,
+    "end": 238.56,
+    "text": "I miss you more."
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 238.56,
+    "end": 240.79999999999998,
+    "text": "miss you, not as much as I miss you."
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 243.04,
+    "end": 246.40000000000003,
+    "text": "I don't have anybody to tell you in the bed"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 246.40000000000003,
+    "end": 248.64000000000001,
+    "text": "You're in your glory. That's why"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 266.56,
+    "end": 269.92,
+    "text": "Oh, it's so hot outside today"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 269.92,
+    "end": 276.64000000000004,
+    "text": "It's 50 degrees out. Did you ever talk to the doctor about those half-lashes?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 274.40000000000003,
+    "end": 278.88,
+    "text": "It's too hot. I should have wore a sweater"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 278.88,
+    "end": 281.12,
+    "text": "I'm freezing."
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 297.92,
+    "end": 301.28,
+    "text": "I am shocked by the news."
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 301.28,
+    "end": 304.64000000000004,
+    "text": "What news? What happened?"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 304.64000000000004,
+    "end": 306.88,
+    "text": "Didn't you hear? It's been all over the radio, the TV"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 308.0,
+    "end": 310.24,
+    "text": "I didn't hear"
+  },
+  {
+    "speaker": "GLOBAL_SPK_26",
+    "start": 331.52,
+    "end": 334.88,
+    "text": "the chef is chopping vegetables for dinner"
+  },
+  {
+    "speaker": "GLOBAL_SPK_25",
+    "start": 334.88,
+    "end": 340.48,
+    "text": "Well, how else do you expect them to get the vegetables prepared? You have to chop them."
+  }
+]

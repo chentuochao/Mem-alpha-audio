@@ -1,0 +1,164 @@
+[
+  {
+    "speaker": "P1124",
+    "start": 1.5260000000000673,
+    "end": 3.48700000000008,
+    "text": "The house is big and spacious."
+  },
+  {
+    "speaker": "P1125",
+    "start": 4.2309999999999945,
+    "end": 11.493999999999915,
+    "text": "I do enjoy large houses. I'm thinking about dinner options."
+  },
+  {
+    "speaker": "P1124",
+    "start": 13.009999999999991,
+    "end": 20.172000000000025,
+    "text": "Lasagna sounds good. The sports car is fast and powerful."
+  },
+  {
+    "speaker": "P1125",
+    "start": 21.35899999999997,
+    "end": 26.04099999999994,
+    "text": "Sports cars are fun. I'm feeling confused."
+  },
+  {
+    "speaker": "P1124",
+    "start": 27.422000000000025,
+    "end": 35.52399999999989,
+    "text": "Oh, what's the wrong? Sorry. It's hot outside."
+  },
+  {
+    "speaker": "P1125",
+    "start": 36.805000000000064,
+    "end": 45.108999999999924,
+    "text": "It is. I don't mind the heat, though. I'm dancing to my favorite song."
+  },
+  {
+    "speaker": "P1124",
+    "start": 47.08700000000003,
+    "end": 48.00700000000006,
+    "text": "Cool, I can see the beat."
+  },
+  {
+    "speaker": "P1124",
+    "start": 53.30799999999999,
+    "end": 56.08899999999994,
+    "text": "I feel sad when I think about my lost pet."
+  },
+  {
+    "speaker": "P1125",
+    "start": 57.10799999999995,
+    "end": 58.388999999999896,
+    "text": "Oh, what was your pet?"
+  },
+  {
+    "speaker": "P1124",
+    "start": 59.67800000000011,
+    "end": 60.11799999999994,
+    "text": "It's gone."
+  },
+  {
+    "speaker": "P1125",
+    "start": 63.71199999999999,
+    "end": 65.75299999999993,
+    "text": "I love spending time with my family."
+  },
+  {
+    "speaker": "P1124",
+    "start": 67.08200000000011,
+    "end": 73.88599999999997,
+    "text": "That's really nice. I was surprised by the news."
+  },
+  {
+    "speaker": "P1125",
+    "start": 75.779,
+    "end": 79.72199999999998,
+    "text": "It was surprising. Please stop talking."
+  },
+  {
+    "speaker": "P1124",
+    "start": 81.30899999999997,
+    "end": 87.79299999999989,
+    "text": "Whatever. The road is flat and even."
+  },
+  {
+    "speaker": "P1125",
+    "start": 89.02999999999997,
+    "end": 95.4960000000001,
+    "text": "I thought it was bumpy on the way here. We did it!"
+  },
+  {
+    "speaker": "P1124",
+    "start": 95.35500000000002,
+    "end": 96.91599999999994,
+    "text": "Oh my God, yay."
+  },
+  {
+    "speaker": "P1124",
+    "start": 102.26099999999997,
+    "end": 103.16200000000003,
+    "text": "I'm afraid of heights."
+  },
+  {
+    "speaker": "P1125",
+    "start": 104.32400000000007,
+    "end": 110.91000000000008,
+    "text": "Me too. The Earth is a round planet."
+  },
+  {
+    "speaker": "P1124",
+    "start": 112.65000000000009,
+    "end": 121.19800000000009,
+    "text": "It's not what everyone says. I was agitated about the delay."
+  },
+  {
+    "speaker": "P1125",
+    "start": 122.62200000000007,
+    "end": 131.3040000000001,
+    "text": "You know, I'd be too. He's very reluctant to try new foods."
+  },
+  {
+    "speaker": "P1124",
+    "start": 132.30500000000006,
+    "end": 140.64699999999993,
+    "text": "That's too bad because so much food is so good. The chef is chopping vegetables for dinner."
+  },
+  {
+    "speaker": "P1125",
+    "start": 141.4659999999999,
+    "end": 145.4469999999999,
+    "text": "Sounds good. I'm satisfied with the service."
+  },
+  {
+    "speaker": "P1124",
+    "start": 146.34799999999996,
+    "end": 151.8499999999999,
+    "text": "It was good service. I'm amazed by your talent."
+  },
+  {
+    "speaker": "P1125",
+    "start": 152.9770000000001,
+    "end": 159.64200000000005,
+    "text": "Thank you. The child is scared in the dark."
+  },
+  {
+    "speaker": "P1124",
+    "start": 160.0540000000001,
+    "end": 166.51700000000005,
+    "text": "Oh no. I'm annoyed by the constant noises."
+  },
+  {
+    "speaker": "P1125",
+    "start": 168.60899999999992,
+    "end": 184.4380000000001,
+    "text": "I don't hear anything. I am shocked by the news. You got one more now. That is the wrong answer."
+  },
+  {
+    "speaker": "P1124",
+    "start": 173.9400000000001,
+    "end": 174.46000000000004,
+    "text": "Yikes. Aw."
+  }
+]
