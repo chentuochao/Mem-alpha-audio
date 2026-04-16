@@ -1,0 +1,5 @@
+{"question": "What prize did P0695 win after collecting the most cans in elementary school?", "answer": "an overnight zoo trip", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000125/parsed_dialog_gt.json", "evidence_turns": [3]}}
+{"question": "What unusual thing did P0695 say they saw during that zoo experience?", "answer": "frozen mice", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000125/parsed_dialog_gt.json", "evidence_turns": [3, 10]}}
+{"question": "What kind of challenge did P0694 suggest for the community fitness event?", "answer": "a mall scavenger hunt", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000126/parsed_dialog_gt.json", "evidence_turns": [9]}}
+{"question": "What type of exercise did P0695 propose instead of just walking around the mall?", "answer": "a dance party", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000126/parsed_dialog_gt.json", "evidence_turns": [19]}}
+{"question": "What test did P0694 say they needed a certain score on for grad school?", "answer": "the GRE", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000134/parsed_dialog_gt.json", "evidence_turns": [3]}}
