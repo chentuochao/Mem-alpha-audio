@@ -25,8 +25,12 @@ class ConversationCreator():
             self.data = pd.read_parquet('data/memalpha/test.parquet')
             print(np.unique(self.data['data_source'].tolist(), return_counts=True))
 
-        elif dataset == 'mytest':
-            self.data = pd.read_parquet('data/mytest/test.parquet')
+        elif dataset == 'seamlessinteraction_gt':
+            self.data = pd.read_parquet('outputs/test_gt.parquet')
+            print(np.unique(self.data['data_source'].tolist(), return_counts=True))
+        
+        elif dataset == 'seamlessinteraction_pred':
+            self.data = pd.read_parquet('outputs/test_pred.parquet')
             print(np.unique(self.data['data_source'].tolist(), return_counts=True))
 
         elif dataset == 'memalpha_sample':
