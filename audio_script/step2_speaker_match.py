@@ -601,7 +601,7 @@ def main():
     all_cpwers_merged = []
 
     err_info = []
-    for cluster in clusters:
+    for cluster in clusters[-10:]:
         # EACH cluster use one global speaker pool
         # ── Process each conversation sequentially ──────────────────────
         speaker_ids = cluster["speaker_ids"]
@@ -752,8 +752,8 @@ def main():
             # exit(0)
         # ── Summary ──────────────────────────────────────────────────────
         # global_pool.summary()
-    print(speaker_cluster_pred)
-    print(speaker_cluster_gt)
+    # print(speaker_cluster_pred)
+    # print(speaker_cluster_gt)
 
     # build the speaker map from the  speaker_cluster_pred
     speaker_map = {}
@@ -762,7 +762,7 @@ def main():
         most_speaker = counter.most_common(1)
         most_speaker_id = most_speaker[0][0]
 
-        speaker_map[most_speaker_id] = global_spk
+        speaker_map[global_spk] = most_speaker_id
     print(speaker_map)
     with open(os.path.join(output_dir, "speaker_map.json"), "w") as f:
         json.dump(speaker_map, f, indent=2)
