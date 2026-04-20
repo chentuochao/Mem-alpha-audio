@@ -1,0 +1,5 @@
+{"question": "Who said they won an elementary-school can collection competition?", "answer": "P0695", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000125/parsed_dialog_gt.json", "evidence_turns": [1]}}
+{"question": "Who described a recurring childhood memory of dressing in buckskins and living in a teepee?", "answer": "P0694", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000125/parsed_dialog_gt.json", "evidence_turns": [13]}}
+{"question": "Who said they want to spend their time doing something that makes society better?", "answer": "P0694", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000128/parsed_dialog_gt.json", "evidence_turns": [1, 9]}}
+{"question": "Who said they would rather talk to their future self?", "answer": "P0694", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000307/parsed_dialog_gt.json", "evidence_turns": [1]}}
+{"question": "Who said they consult their partner about everything?", "answer": "P4105", "gt_source": {"file": "P4104_P4105/V03_S1417_I00000427/parsed_dialog_gt.json", "evidence_turns": [1]}}

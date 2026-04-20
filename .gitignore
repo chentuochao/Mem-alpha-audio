@@ -4,4 +4,5 @@ __pycache__
 .env
 results
 data/memalpha
-data/memoryagentbench
+data/memoryagentbench.DS_Store
+**/.DS_Store
