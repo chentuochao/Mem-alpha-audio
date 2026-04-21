@@ -7,17 +7,19 @@ import jsonlines
 
 data_folder = "outputs/demo_output_step2"
 qa_folder = "outputs/QA_pairs_generated"
-dialog = "parsed_dialog_pred.json"
+time_folder = "outputs/timeline_and_QA"
+split = "pred" # "pred"
+dialog = f"parsed_dialog_{split}.json"
 
-if dialog == "parsed_dialog_gt.json":
+if split == "gt":
     speaker_map = None
 else:
     with open(os.path.join(data_folder, "speaker_map.json"), "r") as f:
         speaker_map = json.load(f)
+output_path = os.path.join(f"outputs/test_{split}.parquet")
 
-
-output_path = os.path.join("outputs/test_pred.parquet")
-
+with jsonlines.open(os.path.join(time_folder, "longmemeval_style_session_timeline.jsonl"), "r") as reader:
+    time_info = [line for line in reader]
 
 ## list all the json files in the qa_folder
 qa_files = sorted(
@@ -79,9 +81,18 @@ print(f"Found {len(json_files)} {dialog} files")
 
 chunks = []
 for idx, json_file in enumerate(json_files):
+    conv_id = json_file.split("/")[-2]
+    speaker_pair = json_file.split("/")[-3]
+    timestamp = None 
+    for time_info_item in time_info:
+        if time_info_item["clip_id"] == conv_id and time_info_item["pair_id"] == speaker_pair:
+            timestamp = time_info_item["session_timeline_date"]
+            break
+    assert timestamp is not None, f"Timestamp is not found for {conv_id} {speaker_pair}"
     with open(json_file, "r") as f:
         dialog = json.load(f)
-    dialog_chunk = ""
+    speaker1, speaker2 = speaker_pair.split("_")
+    dialog_chunk = f"[Dialogue between {speaker1} and {speaker2} on {timestamp}]\n"
     for turn in dialog:
         if speaker_map is None:
             speaker = turn['speaker']
