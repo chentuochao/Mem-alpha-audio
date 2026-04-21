@@ -233,3 +233,17 @@ The output root is automatically derived from the agent config and CLI flags:
 ```
 
 Example: `./agents/memalpha_Qwen_Qwen3-4B_seamlessinteraction_gt_tokens_2048/0/`
+
+
+
+## Step D — Metrics Evaluation
+
+QA accuracy
+```
+python evaluate_agent_results.py --base_dir /storage/home/tuochao/Mem-alpha-audio/agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048 --output /storage/home/tuochao/Mem-alpha-audio/agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048/evaluation_metrics.json
+```
+
+Compression Ratio
+```
+python evaluate_compression_ratio.py --base_dir ./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048 --dataset memalpha
+```
