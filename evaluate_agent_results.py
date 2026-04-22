@@ -2,11 +2,14 @@ import re
 import os
 import json
 import logging
+import argparse
 import numpy as np
+import pandas as pd
 from dotenv import load_dotenv
 from rouge_score import rouge_scorer
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from openai import OpenAI
+from transformers import AutoTokenizer
 
 from memalpha.llm_agent.metrics import evaluate_wrt_source, _extract_answer_from_response
 
@@ -16,20 +19,86 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+
+# ---------------------------------------------------------------------------
+# Token-counting helpers (shared with compression-ratio evaluation)
+# ---------------------------------------------------------------------------
+
+def count_memory_tokens(memory_state: dict, tokenizer) -> int:
+    """Count total tokens in a memory state (core + semantic + episodic)."""
+    total = 0
+    if 'core' in memory_state and memory_state['core']:
+        core = memory_state['core']
+        if isinstance(core, str):
+            total += len(tokenizer(core).input_ids)
+        elif isinstance(core, list):
+            for item in core:
+                if isinstance(item, str):
+                    total += len(tokenizer(item).input_ids)
+    for mem_type in ('semantic', 'episodic'):
+        for item in memory_state.get(mem_type) or []:
+            total += len(tokenizer(list(item.values())[0]).input_ids)
+    return total
+
+
+def count_input_tokens(chunks: list, tokenizer) -> int:
+    """Count total tokens across all input chunks."""
+    return sum(len(tokenizer(c).input_ids) for c in chunks if isinstance(c, str))
+
+
+def load_parquet_data(dataset: str) -> pd.DataFrame:
+    """Load the parquet dataset used during memory construction."""
+    dataset_to_path = {
+        'memalpha': 'data/memalpha/test.parquet',
+        'memalpha_train': 'data/memalpha/train.parquet',
+        'memalpha_sample': 'data/memalpha_sample/train.parquet',
+        'memoryagentbench': 'data/memoryagentbench/test.parquet',
+        'accurate_retrieval': 'data/memoryagentbench/test.parquet',
+        'test_time_learning': 'data/memoryagentbench/test.parquet',
+        'long_range_understanding': 'data/memoryagentbench/test.parquet',
+        'booksum': 'data/memalpha/test.parquet',
+        'perltqa': 'data/memalpha/test.parquet',
+        'pubmed-rct': 'data/memalpha/test.parquet',
+        'squad': 'data/memalpha/processed_squad_data_filtered.parquet',
+        'seamlessinteraction_gt': 'outputs/test_gt.parquet',
+        'seamlessinteraction_pred': 'outputs/test_pred.parquet',
+    }
+    if dataset not in dataset_to_path:
+        raise ValueError(f"Unknown dataset: {dataset}. Supported: {list(dataset_to_path.keys())}")
+
+    data = pd.read_parquet(dataset_to_path[dataset])
+
+    source_filters = {
+        'accurate_retrieval': ['ruler_qa1_197K', 'ruler_qa2_421K', 'longmemeval_s*'],
+        'test_time_learning': [
+            'icl_banking77_5900shot_balance', 'icl_clinic150_7050shot_balance',
+            'icl_nlu_8296shot_balance', 'icl_trec_coarse_6600shot_balance',
+            'icl_trec_fine_6400shot_balance',
+        ],
+        'long_range_understanding': ['infbench_sum_eng_shots2'],
+        'booksum': ['booksum'],
+        'perltqa': ['perltqa'],
+        'pubmed-rct': ['pubmed-rct'],
+    }
+    if dataset in source_filters:
+        data = data[data['data_source'].isin(source_filters[dataset])]
+
+    return data
+
 class AgentResultsEvaluator:
     """
     Evaluator for agent results that uses data source specific evaluation methods
     borrowed from long_context_eval.py
     """
 
-    def __init__(self):
-        # Initialize ROUGE scorer for booksum evaluation
+    def __init__(self, tokenizer_name: str = "Qwen/Qwen3-32B"):
         self.rouge_scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
         self.client = OpenAI(
             base_url=os.getenv("QWEN_URL"),
             api_key=os.getenv("OPENROUTER_API_KEY", "EMPTY")
         )
         self.qwen_model = os.getenv("QWEN_MODEL_NAME")
+        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
 
     def _compute_rouge_score(self, prediction: str, reference: str) -> float:
         """Compute ROUGE score between prediction and reference text."""
@@ -160,15 +229,23 @@ class AgentResultsEvaluator:
             # memory agent bench
             return evaluate_wrt_source({'output': predicted_answer}, gold_answer, data_source)
 
-    def evaluate_agent_results(self, agent_dir: str) -> Dict[str, Any]:
+    def evaluate_agent_results(
+        self,
+        agent_dir: str,
+        parquet_data: Optional[pd.DataFrame] = None,
+    ) -> Dict[str, Any]:
         """
-        Evaluate results for a single agent directory
+        Evaluate results for a single agent directory.
 
         Args:
-            agent_dir: Path to agent results directory containing data_instance_info.json and results.json
+            agent_dir: Path to agent results directory containing
+                       data_instance_info.json and results.json.
+            parquet_data: Optional pre-loaded parquet DataFrame used to compute
+                          compression ratio.  When *None* the compression metrics
+                          are omitted from the returned dict.
 
         Returns:
-            Dictionary containing evaluation metrics
+            Dictionary containing evaluation metrics.
         """
         # Load data source info
         data_instance_info_path = os.path.join(agent_dir, "data_instance_info.json")
@@ -184,40 +261,32 @@ class AgentResultsEvaluator:
         with open(results_path, 'r') as f:
             results = json.load(f)
 
-        # Load memory state if it exists
+        # Load memory state and count memory tokens
         memory_state_path = os.path.join(agent_dir, "agent_state.json")
         total_memory_length = 0
+        memory_state = None
         if os.path.exists(memory_state_path):
             try:
                 with open(memory_state_path, 'r') as f:
                     memory_state = json.load(f)
-
-                # Calculate total memory length
-                from transformers import AutoTokenizer
-                tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-32B")
-
-                # Count tokens in core memory if exists
-                if 'core' in memory_state and memory_state['core']:
-                    if isinstance(memory_state['core'], str):
-                        total_memory_length += len(tokenizer(memory_state['core']).input_ids)
-                    elif isinstance(memory_state['core'], list):
-                        for item in memory_state['core']:
-                            if isinstance(item, str):
-                                total_memory_length += len(tokenizer(item).input_ids)
-
-                # Count tokens in semantic memory
-                if 'semantic' in memory_state and memory_state['semantic']:
-                    for item in memory_state['semantic']:
-                        total_memory_length += len(tokenizer(list(item.values())[0]).input_ids)
-
-                # Count tokens in episodic memory
-                if 'episodic' in memory_state and memory_state['episodic']:
-                    for item in memory_state['episodic']:
-                        total_memory_length += len(tokenizer(list(item.values())[0]).input_ids)
-
+                total_memory_length = count_memory_tokens(memory_state, self.tokenizer)
             except Exception as e:
                 logger.warning(f"Could not load memory state from {memory_state_path}: {e}")
-                total_memory_length = 0
+
+        # Optionally compute compression ratio from parquet data
+        input_tokens = None
+        compression_ratio = None
+        if parquet_data is not None and memory_state is not None:
+            global_idx = data_instance_info.get('global_idx')
+            if global_idx is not None and global_idx < len(parquet_data):
+                row = parquet_data.iloc[global_idx]
+                chunks = json.loads(row['chunks']) if isinstance(row['chunks'], str) else row['chunks']
+                input_tokens = count_input_tokens(chunks, self.tokenizer)
+                compression_ratio = (
+                    input_tokens / total_memory_length if total_memory_length > 0 else float('inf')
+                )
+            else:
+                logger.warning(f"global_idx {global_idx} out of range for {agent_dir}")
 
         if not results:
             logger.warning(f"No results found in {results_path}")
@@ -281,6 +350,9 @@ class AgentResultsEvaluator:
             "max_instance_score": np.max(scores) if scores else 0.0,
             "std_instance_score": np.std(scores) if scores else 0.0,
             "total_memory_length": total_memory_length,
+            # Compression metrics (present only when --dataset is supplied)
+            "input_tokens": input_tokens,
+            "compression_ratio": compression_ratio,
             # Keep backward compatibility
             "num_questions": len(instance_scores),
             "avg_score": np.mean(scores) if scores else 0.0,
@@ -301,91 +373,125 @@ class AgentResultsEvaluator:
 
         return metrics
 
-def evaluate_all_agents(base_dir: str) -> List[Dict[str, Any]]:
+def evaluate_all_agents(
+    base_dir: str,
+    dataset: Optional[str] = None,
+    tokenizer_name: str = "Qwen/Qwen3-32B",
+) -> List[Dict[str, Any]]:
     """
-    Evaluate results for all agent directories under the base directory
+    Evaluate results for all agent directories under the base directory.
 
     Args:
-        base_dir: Base directory containing agent result directories
+        base_dir: Base directory containing agent result directories.
+        dataset: Optional dataset name used during memory construction.
+                 When provided, compression ratio is computed for each agent.
+        tokenizer_name: HuggingFace tokenizer for token counting.
 
     Returns:
-        List of evaluation metrics for each agent
+        List of evaluation metrics for each agent.
     """
-    evaluator = AgentResultsEvaluator()
+    evaluator = AgentResultsEvaluator(tokenizer_name=tokenizer_name)
     all_metrics = []
 
-    # Walk through all subdirectories
+    parquet_data: Optional[pd.DataFrame] = None
+    if dataset is not None:
+        print(f"Loading parquet data for dataset '{dataset}' ...")
+        parquet_data = load_parquet_data(dataset)
+
     for root, dirs, files in os.walk(base_dir):
         if 'data_instance_info.json' in files and 'results.json' in files:
-            metrics = evaluator.evaluate_agent_results(root)
+            metrics = evaluator.evaluate_agent_results(root, parquet_data=parquet_data)
             metrics['agent_dir'] = root
             all_metrics.append(metrics)
     return all_metrics
 
 def main():
-    """Main function to run the evaluation"""
-    import argparse
-
-    parser = argparse.ArgumentParser(description='Evaluate agent results')
+    """Main function to run the evaluation."""
+    parser = argparse.ArgumentParser(description='Evaluate agent results (QA + optional compression ratio)')
     parser.add_argument('--base_dir', type=str, required=True,
-                       help='Base directory containing agent results')
+                        help='Base directory containing agent results')
     parser.add_argument('--output', type=str, default='evaluation_metrics.json',
-                       help='Output file to save metrics')
+                        help='Output file to save metrics (written inside base_dir)')
+    parser.add_argument('--dataset', type=str, default=None,
+                        choices=[
+                            'memalpha', 'memalpha_train', 'memalpha_sample',
+                            'memoryagentbench', 'accurate_retrieval',
+                            'test_time_learning', 'long_range_understanding',
+                            'booksum', 'perltqa', 'pubmed-rct', 'squad',
+                            'seamlessinteraction_gt', 'seamlessinteraction_pred',
+                        ],
+                        help='Dataset used during memory construction (enables compression ratio)')
+    parser.add_argument('--tokenizer', type=str, default='Qwen/Qwen3-32B',
+                        help='HuggingFace tokenizer for token counting')
 
     args = parser.parse_args()
 
-    # Run evaluation
-    all_metrics = evaluate_all_agents(args.base_dir)
+    all_metrics = evaluate_all_agents(
+        args.base_dir,
+        dataset=args.dataset,
+        tokenizer_name=args.tokenizer,
+    )
 
-    # Save metrics to base_dir
     output_path = os.path.join(args.base_dir, args.output)
     with open(output_path, 'w') as f:
         json.dump(all_metrics, f, indent=2)
 
     # Group metrics by data source
-    grouped_metrics = {}
+    grouped_metrics: Dict[str, list] = {}
     for metrics in all_metrics:
-        data_source = metrics['data_source']
-        if data_source not in grouped_metrics:
-            grouped_metrics[data_source] = []
-        grouped_metrics[data_source].append(metrics)
+        src = metrics['data_source']
+        grouped_metrics.setdefault(src, []).append(metrics)
 
-    # Print summary grouped by data source
+    compute_compression = args.dataset is not None
+
+    # Header
+    col_w = 100 if compute_compression else 70
     print("\nEvaluation Summary by Data Source:")
-    print("=" * 50)
+    print("=" * col_w)
 
     for data_source, metrics_list in grouped_metrics.items():
         print(f"\nData Source: {data_source}")
-        print("-" * 30)
+        print("-" * 40)
 
-        # Calculate aggregate statistics for this data source
         total_instances = sum(m['num_instances'] for m in metrics_list)
-        avg_scores_per_instance = [m['avg_score_per_instance'] for m in metrics_list]
-        overall_avg = np.mean(avg_scores_per_instance) if avg_scores_per_instance else 0.0
+        avg_scores = [m['avg_score_per_instance'] for m in metrics_list]
+        overall_avg = np.mean(avg_scores) if avg_scores else 0.0
         overall_min = min(m['min_instance_score'] for m in metrics_list)
         overall_max = max(m['max_instance_score'] for m in metrics_list)
-        overall_std = np.std(avg_scores_per_instance) if len(avg_scores_per_instance) > 1 else 0.0
+        overall_std = np.std(avg_scores) if len(avg_scores) > 1 else 0.0
 
-        # Calculate average memory length
         memory_lengths = [m.get('total_memory_length', 0) for m in metrics_list]
         avg_memory_length = np.mean(memory_lengths) if memory_lengths else 0.0
 
-        print(f"Total agents: {len(metrics_list)}")
-        print(f"Total instances: {total_instances}")
-        print(f"Overall average score per instance: {overall_avg:.3f}")
-        print(f"Overall min/max instance score: {overall_min:.3f}/{overall_max:.3f}")
-        print(f"Standard deviation across agents: {overall_std:.3f}")
-        print(f"Average total memory length: {avg_memory_length:.0f} tokens")
+        print(f"  Total agents:                     {len(metrics_list)}")
+        print(f"  Total instances:                  {total_instances}")
+        print(f"  Avg score per instance:           {overall_avg:.3f}")
+        print(f"  Min/Max instance score:           {overall_min:.3f} / {overall_max:.3f}")
+        print(f"  Std across agents:                {overall_std:.3f}")
+        print(f"  Avg memory tokens:                {avg_memory_length:.0f}")
+
+        if compute_compression:
+            ratios = [
+                m['compression_ratio'] for m in metrics_list
+                if m.get('compression_ratio') not in (None, float('inf'))
+            ]
+            input_tkns = [m['input_tokens'] for m in metrics_list if m.get('input_tokens') is not None]
+            avg_input = np.mean(input_tkns) if input_tkns else float('nan')
+            avg_ratio = np.mean(ratios) if ratios else float('nan')
+            std_ratio = np.std(ratios) if len(ratios) > 1 else 0.0
+            print(f"  Avg input tokens:                 {avg_input:.0f}")
+            print(f"  Avg compression ratio:            {avg_ratio:.2f}x  (std {std_ratio:.2f})")
 
         if "seamless" in data_source:
             total_correct = sum(m.get('num_correct', 0) for m in metrics_list)
             total_not_sure = sum(m.get('num_not_sure', 0) for m in metrics_list)
             total_wrong = sum(m.get('num_wrong', 0) for m in metrics_list)
             total_q = total_correct + total_not_sure + total_wrong
-            print(f"  Judgment breakdown ({total_q} questions):")
-            print(f"    correct:  {total_correct:>5} ({total_correct/total_q*100:.1f}%)" if total_q else "")
-            print(f"    not_sure: {total_not_sure:>5} ({total_not_sure/total_q*100:.1f}%)" if total_q else "")
-            print(f"    wrong:    {total_wrong:>5} ({total_wrong/total_q*100:.1f}%)" if total_q else "")
+            if total_q:
+                print(f"  Judgment breakdown ({total_q} questions):")
+                print(f"    correct:  {total_correct:>5} ({total_correct/total_q*100:.1f}%)")
+                print(f"    not_sure: {total_not_sure:>5} ({total_not_sure/total_q*100:.1f}%)")
+                print(f"    wrong:    {total_wrong:>5} ({total_wrong/total_q*100:.1f}%)")
 
     print("\nMetrics saved to:", output_path)
 
