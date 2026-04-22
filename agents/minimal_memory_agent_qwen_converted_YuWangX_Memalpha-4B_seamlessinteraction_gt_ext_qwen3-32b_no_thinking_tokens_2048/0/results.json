@@ -1,0 +1,352 @@
+[
+  {
+    "question": "What prize did P0695 win after collecting the most cans in elementary school?",
+    "response": "Based on the information provided in the memory, P0695 won a trip to the zoo with overnight stays and behind-the-scenes tours after collecting the most cans in an elementary school recycling competition.",
+    "answer": "an overnight zoo trip",
+    "step_info": {
+      "step": 96,
+      "final_response": "Based on the information provided in the memory, P0695 won a trip to the zoo with overnight stays and behind-the-scenes tours after collecting the most cans in an elementary school recycling competition.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "What unusual thing did P0695 say they saw during that zoo experience?",
+    "response": "Based on the information provided in the memory, there is no direct mention of P0695 seeing anything unusual during a zoo experience. The memories referenced do not specifically describe such an event or observation by P0695 at the zoo. If there is additional context or details you can provide, I would be happy to assist further.",
+    "answer": "frozen mice",
+    "step_info": {
+      "step": 96,
+      "final_response": "Based on the information provided in the memory, there is no direct mention of P0695 seeing anything unusual during a zoo experience. The memories referenced do not specifically describe such an event or observation by P0695 at the zoo. If there is additional context or details you can provide, I would be happy to assist further.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 0.5,
+    "judgment": "not_sure"
+  },
+  {
+    "question": "What kind of challenge did P0694 suggest for the community fitness event?",
+    "response": "P0694 suggested putting together a community fitness challenge that would engage everyone, including those who are not typically interested in fitness or health. The goal was to make the challenge appealing and fun enough to motivate participation from even the most reluctant individuals. The specific type of challenge proposed was an **obstacle course**, as suggested by P1299. P1299 described it as an engaging and physically active activity, referencing childhood memories and examples like those seen in elementary school and on TV shows such as *The Brady Bunch*. The idea was to set up a course in a backyard or open space, incorporating elements like monkey bars, swings, and other fun, physically demanding tasks similar to those used in military training. This approach aimed to make physical activity enjoyable and accessible while fostering community participation and bonding.",
+    "answer": "a mall scavenger hunt",
+    "step_info": {
+      "step": 96,
+      "final_response": "P0694 suggested putting together a community fitness challenge that would engage everyone, including those who are not typically interested in fitness or health. The goal was to make the challenge appealing and fun enough to motivate participation from even the most reluctant individuals. The specific type of challenge proposed was an **obstacle course**, as suggested by P1299. P1299 described it as an engaging and physically active activity, referencing childhood memories and examples like those seen in elementary school and on TV shows such as *The Brady Bunch*. The idea was to set up a course in a backyard or open space, incorporating elements like monkey bars, swings, and other fun, physically demanding tasks similar to those used in military training. This approach aimed to make physical activity enjoyable and accessible while fostering community participation and bonding.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 0.0,
+    "judgment": "wrong"
+  },
+  {
+    "question": "What type of exercise did P0695 propose instead of just walking around the mall?",
+    "response": "Based on the information available in the provided memory, P0695 proposed a more engaging and varied form of exercise instead of just walking around the mall. Specifically, P0695 suggested setting up a series of fun and interactive stations. These stations could include using everyday household items such as an old tire or a kiddie pool for activities. One idea was to create a \"limbo thing,\" implying a game or physical challenge that would be entertaining and physically engaging. This approach would make the workout more enjoyable and could be suitable for a range of fitness levels, from someone who is very active to someone who is less active.",
+    "answer": "a dance party",
+    "step_info": {
+      "step": 96,
+      "final_response": "Based on the information available in the provided memory, P0695 proposed a more engaging and varied form of exercise instead of just walking around the mall. Specifically, P0695 suggested setting up a series of fun and interactive stations. These stations could include using everyday household items such as an old tire or a kiddie pool for activities. One idea was to create a \"limbo thing,\" implying a game or physical challenge that would be entertaining and physically engaging. This approach would make the workout more enjoyable and could be suitable for a range of fitness levels, from someone who is very active to someone who is less active.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 0.0,
+    "judgment": "wrong"
+  },
+  {
+    "question": "What test did P0694 say they needed a certain score on for grad school?",
+    "response": "P0694 mentioned that they needed a certain score on the GRE (Graduate Record Examination) for grad school.",
+    "answer": "the GRE",
+    "step_info": {
+      "step": 96,
+      "final_response": "P0694 mentioned that they needed a certain score on the GRE (Graduate Record Examination) for grad school.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "By the end of the empathy discussion, which age group did P4104 say was actually easier to deal with?",
+    "response": "By the end of the empathy discussion, P4104 said that the younger kids were actually easier to deal with. They emphasized that with younger kids, all you have to do is make sure they're having fun, and they'll get comfortable and start acting appropriately. In contrast, older kids were described as more challenging because they might deliberately test boundaries or trigger certain reactions for their entertainment.",
+    "answer": "younger kids",
+    "step_info": {
+      "step": 96,
+      "final_response": "By the end of the empathy discussion, P4104 said that the younger kids were actually easier to deal with. They emphasized that with younger kids, all you have to do is make sure they're having fun, and they'll get comfortable and start acting appropriately. In contrast, older kids were described as more challenging because they might deliberately test boundaries or trigger certain reactions for their entertainment.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "In the watch discussion, which watch was ultimately identified as the one P0695 positively associated with P0694?",
+    "response": "Based on the information provided in the watch discussion, the watch that P0695 positively associated with P0694 was the one that P0694 got for P0695 for their birthday.",
+    "answer": "the wooden watch",
+    "step_info": {
+      "step": 96,
+      "final_response": "Based on the information provided in the watch discussion, the watch that P0695 positively associated with P0694 was the one that P0694 got for P0695 for their birthday.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 0.0,
+    "judgment": "wrong"
+  },
+  {
+    "question": "In the 'hurt my feelings' discussion, did P0694 ultimately say the shoe comment was offensive?",
+    "response": "In the \"hurt my feelings\" discussion, P0694 did not say that the shoe comment was offensive. Instead, P0694 responded to P0695's apology by stating, \"I do disagree with you, although I'm not really offended by that. I think you can do better than that.\" This indicates that while P0694 disagreed with P0695's opinion about the shoes, they did not find the comment offensive.",
+    "answer": "no",
+    "step_info": {
+      "step": 96,
+      "final_response": "In the \"hurt my feelings\" discussion, P0694 did not say that the shoe comment was offensive. Instead, P0694 responded to P0695's apology by stating, \"I do disagree with you, although I'm not really offended by that. I think you can do better than that.\" This indicates that while P0694 disagreed with P0695's opinion about the shoes, they did not find the comment offensive.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "In that same discussion, did P0694 accept the jacket criticism as genuinely hurtful?",
+    "response": "Based on the available memory, P0694 did not seem to accept the jacket criticism (or the scenario constructed by P0695) as genuinely hurtful. In the conversation from 2023-06-26, P0694 responded to P0695's apology about the shoes and outfit by stating, \"I think you can do better than that,\" suggesting that P0694 was not truly offended and found the situation somewhat humorous or not particularly serious. Additionally, P0694 remarked, \"I am somewhat hard to offend,\" indicating a general perspective that they are not easily hurt by such comments. Thus, it appears the criticism was not perceived as genuinely hurtful.",
+    "answer": "no",
+    "step_info": {
+      "step": 96,
+      "final_response": "Based on the available memory, P0694 did not seem to accept the jacket criticism (or the scenario constructed by P0695) as genuinely hurtful. In the conversation from 2023-06-26, P0694 responded to P0695's apology about the shoes and outfit by stating, \"I think you can do better than that,\" suggesting that P0694 was not truly offended and found the situation somewhat humorous or not particularly serious. Additionally, P0694 remarked, \"I am somewhat hard to offend,\" indicating a general perspective that they are not easily hurt by such comments. Thus, it appears the criticism was not perceived as genuinely hurtful.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "In the future-vs-past discussion, did P0694 change their final preference after being challenged about bad future news?",
+    "response": "Based on the available information in the episodic memory, P0694 did not change their final preference after being challenged about bad future news. On 2023-06-12, P0694 expressed a preference for speaking to their future self in order to gain insights that could improve their future. On 2023-08-21, P1299 mentioned being surprised by \"the news,\" which P1297 responded to with \"I can't help it. I was surprised by the news.\" However, there is no direct evidence in the memory provided to indicate that this news affected or changed P0694's preference regarding speaking to the future or past.",
+    "answer": "no, still future self",
+    "step_info": {
+      "step": 96,
+      "final_response": "Based on the available information in the episodic memory, P0694 did not change their final preference after being challenged about bad future news. On 2023-06-12, P0694 expressed a preference for speaking to their future self in order to gain insights that could improve their future. On 2023-08-21, P1299 mentioned being surprised by \"the news,\" which P1297 responded to with \"I can't help it. I was surprised by the news.\" However, there is no direct evidence in the memory provided to indicate that this news affected or changed P0694's preference regarding speaking to the future or past.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "Who said they won an elementary-school can collection competition?",
+    "response": "P0695 said they won an elementary-school can collection competition. They collected the most cans and won a trip to the zoo with overnight stays and behind-the-scenes tours.",
+    "answer": "P0695",
+    "step_info": {
+      "step": 96,
+      "final_response": "P0695 said they won an elementary-school can collection competition. They collected the most cans and won a trip to the zoo with overnight stays and behind-the-scenes tours.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "Who described a recurring childhood memory of dressing in buckskins and living in a teepee?",
+    "response": "The person who described a recurring childhood memory of dressing in buckskins and living in a teepee is P0694. This memory was shared on 2023-05-01, where they mentioned dressing up as a mountain man in the summertime, going live in a teepee with others, and experiencing a sense of freedom and imagination.",
+    "answer": "P0694",
+    "step_info": {
+      "step": 96,
+      "final_response": "The person who described a recurring childhood memory of dressing in buckskins and living in a teepee is P0694. This memory was shared on 2023-05-01, where they mentioned dressing up as a mountain man in the summertime, going live in a teepee with others, and experiencing a sense of freedom and imagination.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "Who said they want to spend their time doing something that makes society better?",
+    "response": "P0694 said they want to spend their time doing something that makes society better, specifically focusing on people-to-people impact and improving the well-being of humans.",
+    "answer": "P0694",
+    "step_info": {
+      "step": 96,
+      "final_response": "P0694 said they want to spend their time doing something that makes society better, specifically focusing on people-to-people impact and improving the well-being of humans.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "Who said they would rather talk to their future self?",
+    "response": "P0694 said they would rather talk to their future self. They expressed this preference on 2023-06-12, explaining that they want to gain insights from their future self to improve their present actions and shape a better future.",
+    "answer": "P0694",
+    "step_info": {
+      "step": 96,
+      "final_response": "P0694 said they would rather talk to their future self. They expressed this preference on 2023-06-12, explaining that they want to gain insights from their future self to improve their present actions and shape a better future.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "Who said they consult their partner about everything?",
+    "response": "P4105 said they consult their partner (\"my nexo\") about everything. This was mentioned on 2023-06-26.",
+    "answer": "P4105",
+    "step_info": {
+      "step": 96,
+      "final_response": "P4105 said they consult their partner (\"my nexo\") about everything. This was mentioned on 2023-06-26.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "In the grad-school story, what came first: getting rejected or having hope restored by someone else's help?",
+    "response": "In the grad-school story, **rejection came first**, followed by **hope being restored by someone else's help**. P0694 described the emotional journey of initially being crushed by rejection after putting in effort (such as achieving a certain GRE score and writing the required letter). Only after the rejection did someone else step in and help, which led to the restoration of hope.",
+    "answer": "getting rejected first",
+    "step_info": {
+      "step": 96,
+      "final_response": "In the grad-school story, **rejection came first**, followed by **hope being restored by someone else's help**. P0694 described the emotional journey of initially being crushed by rejection after putting in effort (such as achieving a certain GRE score and writing the required letter). Only after the rejection did someone else step in and help, which led to the restoration of hope.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "In the time-travel conversation, did P0694 first choose the past or the future?",
+    "response": "In the time-travel conversation, P0694 first chose to speak to their future self. They expressed a preference for talking to their future self to gain insights that could help improve their present actions. This discussion took place on 2023-06-12.",
+    "answer": "the future",
+    "step_info": {
+      "step": 96,
+      "final_response": "In the time-travel conversation, P0694 first chose to speak to their future self. They expressed a preference for talking to their future self to gain insights that could help improve their present actions. This discussion took place on 2023-06-12.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "In that same conversation, who stated their preference second?",
+    "response": "In the same conversation about the preference for being able to speak all foreign languages or being able to speak to animals, P1297 stated their preference second. P1299 initially expressed their preference for speaking to animals, and P1297 agreed with them, indicating their own preference aligned with that choice.",
+    "answer": "P0695",
+    "step_info": {
+      "step": 96,
+      "final_response": "In the same conversation about the preference for being able to speak all foreign languages or being able to speak to animals, P1297 stated their preference second. P1299 initially expressed their preference for speaking to animals, and P1297 agreed with them, indicating their own preference aligned with that choice.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 0.0,
+    "judgment": "wrong"
+  },
+  {
+    "question": "In the empathy discussion, after first saying it 'should be easier' to talk to older kids, which group did P4104 finally say was easier?",
+    "response": "In the empathy discussion, after initially saying it \"should be easier\" to talk to older kids, P4104 ultimately clarified that **the younger kids are easier** to talk to. They explained that with younger kids, all it takes is making them comfortable and having fun, whereas older kids can be more challenging because they may act out or test boundaries.",
+    "answer": "younger kids",
+    "step_info": {
+      "step": 96,
+      "final_response": "In the empathy discussion, after initially saying it \"should be easier\" to talk to older kids, P4104 ultimately clarified that **the younger kids are easier** to talk to. They explained that with younger kids, all it takes is making them comfortable and having fun, whereas older kids can be more challenging because they may act out or test boundaries.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "In the positive-association discussion, which watch did P0695 first identify before the conversation clarified it further?",
+    "response": "In the positive-association discussion, P0695 first identified \"the watch you got me for my birthday\" as a positive association. This was mentioned on 2023-07-03. No further clarification was provided in the memory about the specific watch.",
+    "answer": "the wooden watch",
+    "step_info": {
+      "step": 96,
+      "final_response": "In the positive-association discussion, P0695 first identified \"the watch you got me for my birthday\" as a positive association. This was mentioned on 2023-07-03. No further clarification was provided in the memory about the specific watch.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 0.0,
+    "judgment": "wrong"
+  },
+  {
+    "question": "In the conversation about speaking to animals versus speaking all foreign languages, what would P0740 choose?",
+    "response": "Based on the information in the memory, P0740 would choose to speak all foreign languages. They provided reasons such as being able to communicate with family members who don't speak English well, building closer relationships with in-laws in Korea, and the potential for better financial opportunities as an interpreter.",
+    "answer": "speak all foreign languages",
+    "step_info": {
+      "step": 96,
+      "final_response": "Based on the information in the memory, P0740 would choose to speak all foreign languages. They provided reasons such as being able to communicate with family members who don't speak English well, building closer relationships with in-laws in Korea, and the potential for better financial opportunities as an interpreter.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "In that same conversation, what would P0739 choose?",
+    "response": "In the same conversation on 2023-06-12, P0695 asked, \"Dalen, would you rather have the ability to speak to yourself in the past or speak to your future self?\" P0739 (Dalen) responded by saying they would rather talk to themselves in the future. They explained that while they know what happened in the past and might like to fix things, they are happy with parts of their present and don't want to mess that up. They expressed interest in speaking to their future self to gain insights that could help improve their future.",
+    "answer": "speak to animals",
+    "step_info": {
+      "step": 96,
+      "final_response": "In the same conversation on 2023-06-12, P0695 asked, \"Dalen, would you rather have the ability to speak to yourself in the past or speak to your future self?\" P0739 (Dalen) responded by saying they would rather talk to themselves in the future. They explained that while they know what happened in the past and might like to fix things, they are happy with parts of their present and don't want to mess that up. They expressed interest in speaking to their future self to gain insights that could help improve their future.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 0.0,
+    "judgment": "wrong"
+  },
+  {
+    "question": "In the discussion about talking to a past self or a future self, what would P0694 prefer?",
+    "response": "Based on the memory provided, P0694 would prefer to talk to their future self. On 2023-06-12, P0694 stated that they would rather speak to themselves in the future because they already know what happened in the past and, while they might want to fix some things, they are concerned about not messing up the present. They expressed interest in gaining insight from their future self to make better decisions in the present.",
+    "answer": "future self",
+    "step_info": {
+      "step": 96,
+      "final_response": "Based on the memory provided, P0694 would prefer to talk to their future self. On 2023-06-12, P0694 stated that they would rather speak to themselves in the future because they already know what happened in the past and, while they might want to fix some things, they are concerned about not messing up the present. They expressed interest in gaining insight from their future self to make better decisions in the present.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 1.0,
+    "judgment": "correct"
+  },
+  {
+    "question": "In that same past-versus-future conversation, what would P0695 prefer?",
+    "response": "Based on the available information, in the same past-versus-future conversation, P0695 would likely prefer to send messages to the past, as this was the choice expressed by others in similar discussions. However, no direct statement from P0695 on this specific preference is recorded in the memory.",
+    "answer": "past self",
+    "step_info": {
+      "step": 96,
+      "final_response": "Based on the available information, in the same past-versus-future conversation, P0695 would likely prefer to send messages to the past, as this was the choice expressed by others in similar discussions. However, no direct statement from P0695 on this specific preference is recorded in the memory.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 0.5,
+    "judgment": "not_sure"
+  },
+  {
+    "question": "In the conversation about scary movies and sports, how does P0740 feel about sports?",
+    "response": "In the conversation about scary movies and sports, P0740 feels positively about sports, especially football. P0740 explicitly states, \"But you love sports, though, a lot, especially football,\" and reaffirms this sentiment with \"Yeah, I'm a scaredy cat to my core... Football and horror movies, big no for me,\" which indicates a clear preference for sports over scary movies.",
+    "answer": "boring",
+    "step_info": {
+      "step": 96,
+      "final_response": "In the conversation about scary movies and sports, P0740 feels positively about sports, especially football. P0740 explicitly states, \"But you love sports, though, a lot, especially football,\" and reaffirms this sentiment with \"Yeah, I'm a scaredy cat to my core... Football and horror movies, big no for me,\" which indicates a clear preference for sports over scary movies.",
+      "memory_server_used": true,
+      "batch_processed": true,
+      "agentic_search_used": false
+    },
+    "score": 0.0,
+    "judgment": "wrong"
+  }
+]
