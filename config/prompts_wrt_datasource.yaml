@@ -20,6 +20,18 @@ pubmed-rct:
     query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
     including_core: true
 
+my_custom_source:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
+seamlessinteraction_gt:
+    query_prompt: null
+    including_core: true
+
+seamlessinteraction_pred:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
 ttl_train:
     query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Your semantic memory likely includes example labels. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
     including_core: true

@@ -10,8 +10,6 @@ import yaml
 import argparse
 import numpy as np
 import time
-from concurrent.futures import ThreadPoolExecutor
-from tqdm import tqdm
 from conversation_creator import ConversationCreator
 from agent import MemoryAgent
 from memory import Memory
@@ -65,70 +63,6 @@ def get_out_dir(agent_config, args, batch_idx):
     out_dir += f"/{batch_idx}"
     return out_dir
 
-
-def process_chunk_with_gpt4_mini(chunk_data):
-    """Process a single chunk using GPT-4.1-mini via OpenAI API"""
-    chunk, memory, agent_config, memory_agent_template = chunk_data
-
-    # Build messages similar to process_text_with_qwen_pipeline but for chat.completions
-    messages = []
-
-    # Add memory system prompt if available
-    if memory is not None:
-        query = chunk[:100] + "..." if len(chunk) > 100 else chunk
-        max_num_of_recent_chunks = getattr(MemoryAgent, 'MAX_MEMORY_ITEMS', 10)
-        messages = memory.render_system_prompt(status='memorie', query=query, max_num_of_recent_chunks=max_num_of_recent_chunks)
-
-    # Add user message with the chunk content
-    messages.append({"role": "user", "content": chunk})
-
-    # Get memory tools directly
-    tools = get_memory_tool_schemas(memory)
-
-    # Initialize Azure OpenAI client
-    from openai import AzureOpenAI
-    client = AzureOpenAI(
-        api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-        api_version="2025-01-01-preview",
-        azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
-    )
-
-    # Generate response using GPT-4.1-mini with tools
-    response = client.chat.completions.create(
-        model="gpt-4.1-mini",
-        messages=messages,
-        tools=tools,
-        tool_choice="auto",
-        max_tokens=agent_config.get('max_new_tokens', 2048),
-        temperature=0.6
-    )
-
-    message = response.choices[0].message
-    final_response = message.content or ""
-
-    # Parse function calls directly from the structured response
-    function_calls = []
-    if message.tool_calls:
-        for tool_call in message.tool_calls:
-            if tool_call.type == "function":
-                function_call = {
-                    "name": tool_call.function.name,
-                    "arguments": tool_call.function.arguments
-                }
-
-                # Execute the function call immediately
-                tool_result = memory_agent_template._run_tool_from_function_call(
-                    function_call,
-                    memory
-                )
-
-                function_calls.append({
-                    'function_call': function_call,
-                    'tool_result': tool_result,
-                    'timestamp': time.time()
-                })
-
-    return final_response, function_calls
 
 
 def parse_args():
@@ -206,11 +140,9 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
     batch_function_calls_log = [[] for _ in range(batch_size)]
     batch_final_responses = {i: [] for i in range(batch_size)}
 
-    # Check if we're using gpt-4.1-mini (detected by model_name containing "4.1-mini")
-    use_gpt4_mini = agent_config.get('model_name', '').lower().find('4.1-mini') != -1
-
+    print("max_chunks = ", max_chunks)
     for chunk_idx in range(max_chunks):
-
+        # pass chunk by chunk
         print(f"[DEBUG] Processing chunk {chunk_idx + 1}/{max_chunks}")
 
         max_new_tokens = agent_config.get('max_new_tokens', 2048)
@@ -219,168 +151,127 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
         current_chunks = []
         for i, chunk_list in enumerate(batch_chunks):
             if chunk_idx < len(chunk_list):
-                # current_chunks.append(f"\n\nHere is new information to process:\n{chunk_list[chunk_idx]}\n\nPlease analyze this information and decide what memory operations to perform. Maximum response length is {max_new_tokens}, the above chunk has {len(memory_agent_template.tokenizer(chunk_list[chunk_idx]))} tokens.")
-                # current_chunks.append(prompts_wrt_datasource[batch_sources[i]]['prompt'].format(context=chunk_list[chunk_idx], max_new_tokens=int(max_new_tokens * 0.8)))
                 current_chunks.append(prompts_wrt_datasource['unified_prompt'].format(context=chunk_list[chunk_idx], max_new_tokens=int(max_new_tokens * 0.8)))
-                # current_chunks.append(prompts_wrt_datasource['unified_prompt'].format(timestamp=datetime.now().strftime("%Y-%m-%d %H:%M:%S"), context=chunk_list[chunk_idx],
-                            # max_new_tokens=int(max_new_tokens * 0.8)))
                 remaining_indices.append(i)
 
         if len(remaining_indices) == 0:
             break
 
-        if use_gpt4_mini:
+        prompts = []
+        for chunk, memory in zip(current_chunks, [batch_memories[i] for i in remaining_indices]):
+            processed_text = MemoryAgent.process_text_with_qwen_pipeline(
+                text=chunk,
+                tokenizer=memory_agent_template.tokenizer,
+                functions=[tool["function"] for tool in get_memory_tool_schemas(memory)],
+                status='memorie',
+                enable_thinking=agent_config['enable_thinking'],
+                return_text=True,
+                memory=memory
+            )
+            prompts.append(processed_text)
+        assert agent_config['vllm']
 
-            print(f"[DEBUG] Using GPT-4.1-mini with fake batch processing (multiprocessing) for chunk {chunk_idx + 1}")
+        # Import SamplingParams from vLLM for batch processing
+        from vllm import SamplingParams
 
-            # Prepare data for multiprocessing
-            chunk_data_list = []
-            for i, chunk in enumerate(current_chunks):
-                memory_idx = remaining_indices[i]
-                memory = batch_memories[memory_idx]
-                chunk_data_list.append((chunk, memory, agent_config, memory_agent_template))
+        if agent_config['enable_thinking']:
+            # First generation until thinking budget
+            thinking_budget = agent_config.get('thinking_budget', 1024)
+            max_new_tokens = agent_config.get('max_new_tokens', 2048)
 
-            # Use ThreadPoolExecutor for fake batch processing (simulating multiprocessing)
-            final_responses = []
-            gpt4_function_calls_list = []
-            with ThreadPoolExecutor(max_workers=min(len(chunk_data_list), 16)) as executor:
-                futures = [executor.submit(process_chunk_with_gpt4_mini, data) for data in chunk_data_list]
-                for future in tqdm(futures, desc="Processing chunks", unit="chunk", total=len(futures)):
-                    response, function_calls = future.result()
-                    final_responses.append(response)
-                    gpt4_function_calls_list.append(function_calls)
+            thinking_sampling_params = SamplingParams(
+                temperature=0.7,
+                max_tokens=thinking_budget,
+                stop_token_ids=[memory_agent_template.tokenizer.eos_token_id]
+            )
 
-        else:
+            outputs = memory_agent_template.model.generate(prompts, thinking_sampling_params)
+            first_responses = [output.outputs[0].text for output in outputs]
 
-            prompts = []
-            for chunk, memory in zip(current_chunks, [batch_memories[i] for i in remaining_indices]):
-                processed_text = MemoryAgent.process_text_with_qwen_pipeline(
-                    text=chunk,
-                    tokenizer=memory_agent_template.tokenizer,
-                    functions=[tool["function"] for tool in get_memory_tool_schemas(memory)],
-                    status='memorie',
-                    enable_thinking=agent_config['enable_thinking'],
-                    return_text=True,
-                    memory=memory
-                )
-                prompts.append(processed_text)
+            # Collect all texts that need second generation
+            second_gen_indices = []
+            second_gen_texts = []
+            has_early_stopping = []  # Track which ones have early stopping text
+            finished_indices = []
 
-            assert agent_config['vllm']
+            early_stopping_text = "\n\nConsidering the limited time by the user, I have to give the solution based on the thinking directly now.\n</think>\n\n"
 
-            # Import SamplingParams from vLLM for batch processing
-            from vllm import SamplingParams
+            for i, (first_response, prompt) in enumerate(zip(first_responses, prompts)):
+                # Check if the generation has already finished or thinking process is complete
+                if (memory_agent_template.tokenizer.eos_token_id not in memory_agent_template.tokenizer(first_response).input_ids
+                    and "</think>" not in first_response):
+                    print(f"thinking budget is reached for prompt {i}")
+                    # Add early stopping text and prepare for batch second generation
+                    continued_text = prompt + first_response + early_stopping_text
+                    second_gen_indices.append(i)
+                    second_gen_texts.append(continued_text)
+                    has_early_stopping.append(True)
+                elif ("</think>" in first_response
+                      and memory_agent_template.tokenizer.eos_token_id not in memory_agent_template.tokenizer(first_response).input_ids):
+                    # Thinking completed, continue generation after thinking
+                    continued_text = prompt + first_response
+                    second_gen_indices.append(i)
+                    second_gen_texts.append(continued_text)
+                    has_early_stopping.append(False)
+                else:
+                    # Generation finished or no continuation needed
+                    finished_indices.append(i)
 
-            if agent_config['enable_thinking']:
-                # First generation until thinking budget
-                thinking_budget = agent_config.get('thinking_budget', 1024)
-                max_new_tokens = agent_config.get('max_new_tokens', 2048)
-
-                thinking_sampling_params = SamplingParams(
+            # Batch second generation for all texts that need it
+            second_gen_responses = []
+            if second_gen_texts:
+                remaining_sampling_params = SamplingParams(
                     temperature=0.7,
-                    max_tokens=thinking_budget,
+                    max_tokens=max_new_tokens - thinking_budget,
                     stop_token_ids=[memory_agent_template.tokenizer.eos_token_id]
                 )
+                second_outputs = memory_agent_template.model.generate(second_gen_texts, remaining_sampling_params)
+                second_gen_responses = [output.outputs[0].text.strip() for output in second_outputs]
 
-                outputs = memory_agent_template.model.generate(prompts, thinking_sampling_params)
-                first_responses = [output.outputs[0].text for output in outputs]
+            # Combine all responses in correct order
+            final_responses = [None] * len(first_responses)
 
-                # Collect all texts that need second generation
-                second_gen_indices = []
-                second_gen_texts = []
-                has_early_stopping = []  # Track which ones have early stopping text
-                finished_indices = []
+            # Fill in second generation responses
+            for i, idx in enumerate(second_gen_indices):
+                if has_early_stopping[i]:
+                    # Budget reached case: include early stopping text
+                    final_responses[idx] = first_responses[idx] + early_stopping_text + second_gen_responses[i]
+                else:
+                    # Thinking complete case: no early stopping text
+                    final_responses[idx] = first_responses[idx] + second_gen_responses[i]
 
-                early_stopping_text = "\n\nConsidering the limited time by the user, I have to give the solution based on the thinking directly now.\n</think>\n\n"
-
-                for i, (first_response, prompt) in enumerate(zip(first_responses, prompts)):
-                    # Check if the generation has already finished or thinking process is complete
-                    if (memory_agent_template.tokenizer.eos_token_id not in memory_agent_template.tokenizer(first_response).input_ids
-                        and "</think>" not in first_response):
-                        print(f"thinking budget is reached for prompt {i}")
-                        # Add early stopping text and prepare for batch second generation
-                        continued_text = prompt + first_response + early_stopping_text
-                        second_gen_indices.append(i)
-                        second_gen_texts.append(continued_text)
-                        has_early_stopping.append(True)
-                    elif ("</think>" in first_response
-                          and memory_agent_template.tokenizer.eos_token_id not in memory_agent_template.tokenizer(first_response).input_ids):
-                        # Thinking completed, continue generation after thinking
-                        continued_text = prompt + first_response
-                        second_gen_indices.append(i)
-                        second_gen_texts.append(continued_text)
-                        has_early_stopping.append(False)
-                    else:
-                        # Generation finished or no continuation needed
-                        finished_indices.append(i)
-
-                # Batch second generation for all texts that need it
-                second_gen_responses = []
-                if second_gen_texts:
-                    remaining_sampling_params = SamplingParams(
-                        temperature=0.7,
-                        max_tokens=max_new_tokens - thinking_budget,
-                        stop_token_ids=[memory_agent_template.tokenizer.eos_token_id]
-                    )
-                    second_outputs = memory_agent_template.model.generate(second_gen_texts, remaining_sampling_params)
-                    second_gen_responses = [output.outputs[0].text.strip() for output in second_outputs]
-
-                # Combine all responses in correct order
-                final_responses = [None] * len(first_responses)
-
-                # Fill in second generation responses
-                for i, idx in enumerate(second_gen_indices):
-                    if has_early_stopping[i]:
-                        # Budget reached case: include early stopping text
-                        final_responses[idx] = first_responses[idx] + early_stopping_text + second_gen_responses[i]
-                    else:
-                        # Thinking complete case: no early stopping text
-                        final_responses[idx] = first_responses[idx] + second_gen_responses[i]
-
-                # Fill in finished responses
-                for idx in finished_indices:
-                    final_responses[idx] = first_responses[idx].strip()
-            else:
-                # Single generation without thinking budget
-                max_new_tokens = agent_config.get('max_new_tokens', 2048)
-                sampling_params = SamplingParams(
-                    temperature=0.0,
-                    max_tokens=max_new_tokens,
-                    stop_token_ids=[memory_agent_template.tokenizer.eos_token_id]
-                )
-                outputs = memory_agent_template.model.generate(prompts, sampling_params)
-                final_responses = [output.outputs[0].text.strip() for output in outputs]
+            # Fill in finished responses
+            for idx in finished_indices:
+                final_responses[idx] = first_responses[idx].strip()
+        else:
+            # Single generation without thinking budget
+            max_new_tokens = agent_config.get('max_new_tokens', 2048)
+            sampling_params = SamplingParams(
+                temperature=0.0,
+                max_tokens=max_new_tokens,
+                stop_token_ids=[memory_agent_template.tokenizer.eos_token_id]
+            )
+            outputs = memory_agent_template.model.generate(prompts, sampling_params)
+            final_responses = [output.outputs[0].text.strip() for output in outputs]
 
         # Batch process responses and execute function calls
         batch_assistant_messages = []
         batch_function_calls = []
 
         # Parse all responses in batch
-        if use_gpt4_mini:
-            # For GPT-4.1-mini, function calls are already executed, just store them
-            for i, (response, memory_idx) in enumerate(zip(final_responses, remaining_indices)):
-                batch_final_responses[memory_idx].append(response)
+        for i, (response, memory_idx) in enumerate(zip(final_responses, remaining_indices)):
+            assistant_messages = memory_agent_template._parse_response(response)
+            batch_assistant_messages.append((assistant_messages, memory_idx))
+            batch_final_responses[memory_idx].append(response)
 
-                # Store the already executed function calls
-                function_calls = gpt4_function_calls_list[i]
-                for function_call_record in function_calls:
-                    function_call_record['chunk_idx'] = chunk_idx
-                    batch_function_calls_log[memory_idx].append(function_call_record)
+            # Collect function calls for batch execution
+            function_calls_messages = [msg for msg in assistant_messages if msg.get("function_call")]
+            if function_calls_messages:
+                for assistant_msg in function_calls_messages:
+                    batch_function_calls.append((assistant_msg["function_call"], memory_idx))
 
-        else:
-            # For qwen, parse responses and execute function calls
-            for i, (response, memory_idx) in enumerate(zip(final_responses, remaining_indices)):
-                assistant_messages = memory_agent_template._parse_response(response)
-                batch_assistant_messages.append((assistant_messages, memory_idx))
-                batch_final_responses[memory_idx].append(response)
-
-                # Collect function calls for batch execution
-                function_calls_messages = [msg for msg in assistant_messages if msg.get("function_call")]
-                if function_calls_messages:
-                    for assistant_msg in function_calls_messages:
-                        batch_function_calls.append((assistant_msg["function_call"], memory_idx))
-
-        # Execute function calls in batch and collect results (only for qwen)
-        if batch_function_calls and not use_gpt4_mini:
+        # Execute function calls in batch and update memory
+        if batch_function_calls:
             for function_call, memory_idx in batch_function_calls:
                 tool_result = memory_agent_template._run_tool_from_function_call(
                     function_call,

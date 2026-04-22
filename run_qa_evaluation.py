@@ -174,12 +174,11 @@ def run_qa_evaluation_batch(
     ]
 
     batch_out_dirs = [get_out_dir(agent_config, args, batch_indices[i]) for i in range(batch_size)]
-
-    max_chunks = max(len(chunk_list) for chunk_list in batch_chunks) if len(batch_chunks) > 0 else 0
-
     print(f"[DEBUG] Loading existing agent states for all batch items, skipping chunk processing...")
     for i in range(batch_size):
         load_memory_state(batch_memories[i], batch_out_dirs[i])
+
+    max_chunks = max(len(chunk_list) for chunk_list in batch_chunks) if len(batch_chunks) > 0 else 0
     print(f"[DEBUG] Loaded existing states, proceeding directly to question answering...")
 
     # TODO: check if the results file exists for all batch items
@@ -247,7 +246,6 @@ def run_qa_evaluation_batch(
     # Collect all questions for batch processing
     all_questions = []
     question_metadata = []  # Store metadata for each question
-
     for i in range(batch_size):
         batch_idx = batch_indices[i]
         queries_and_answers = batch_queries_and_answers[i]
@@ -293,6 +291,7 @@ def run_qa_evaluation_batch(
     question_step_infos = []
 
     # Check if we should use external model for batch inference
+    print("number of question_metadata", len(question_metadata))
     if agent_config.get('infer_with_full_memory', False) and agent_config.get('external_model_url'):
 
         # Prepare questions grouped by memory (batch item)
@@ -307,6 +306,7 @@ def run_qa_evaluation_batch(
                 if query_prompt is not None:
                     question = query_prompt + "\n\n" + question
 
+            # print(i, question)
             if memory_idx not in questions_by_memory:
                 questions_by_memory[memory_idx] = []
             questions_by_memory[memory_idx].append({'question': question, 'metadata_idx': i})
