@@ -102,6 +102,43 @@ class AgentResultsEvaluator:
             else:
                 return 1.0 if gold_answer.lower() in predicted_answer.lower() else 0.0
 
+        elif "seamless" in data_source:
+            template = (
+                "You are an evaluation judge. Given a question, a reference answer, and a model's response, "
+                "classify the model's response into exactly one of three categories:\n\n"
+                "1. **correct**: The model's response contains the key information from the reference answer. "
+                "Paraphrasing, elaboration, or additional details are acceptable as long as the core answer is correct.\n"
+                "2. **not_sure**: The model does not give a specific answer, hedges, express it is not sure, "
+                " states that the information is not available in its memory/context, or require more information to answer the question.\n"
+                "3. **wrong**: The model gives a specific, concrete answer, but it is factually incorrect "
+                "compared to the reference answer.\n\n"
+                "Question: {question}\n\n"
+                "Reference Answer: {gold_answer}\n\n"
+                "Model Response: {predicted_answer}\n\n"
+                "Respond with ONLY one word: correct, not_sure, or wrong."
+            )
+            prompt = template.format(
+                question=question,
+                gold_answer=gold_answer,
+                predicted_answer=predicted_answer
+            )
+
+            response = self.client.chat.completions.create(
+                model=self.qwen_model,
+                messages=[{"role": "user", "content": prompt}],
+                extra_body={
+                    "chat_template_kwargs": {"enable_thinking": False},
+                }
+            )
+
+            judgment = response.choices[0].message.content.strip().lower()
+            if "correct" in judgment and "not_sure" not in judgment and "wrong" not in judgment:
+                return 1.0
+            elif "not_sure" in judgment:
+                return 0.5
+            else:
+                return 0.0
+
         elif data_source == 'lme_train' or data_source == 'longmemeval_s*':
             template = "I will give you a question, a rubric for desired personalized response, and a response from a model. Please answer yes if the response satisfies the desired response. Otherwise, answer no. The model does not need to reflect all the points in the rubric. The response is correct as long as it recalls and utilizes the user's personal information correctly.\n\nQuestion: {}\n\nRubric: {}\n\nModel Response: {}\n\nIs the model response correct? Answer yes or no only."
             prompt = template.format(question, gold_answer, predicted_answer)
@@ -208,6 +245,14 @@ class AgentResultsEvaluator:
 
             result['score'] = score
 
+            if "seamless" in data_source:
+                if score == 1.0:
+                    result['judgment'] = 'correct'
+                elif score == 0.5:
+                    result['judgment'] = 'not_sure'
+                else:
+                    result['judgment'] = 'wrong'
+
             # Group scores by instance
             if instance_id not in instance_scores:
                 instance_scores[instance_id] = []
@@ -243,6 +288,16 @@ class AgentResultsEvaluator:
             "max_score": np.max(scores) if scores else 0.0,
             "std_score": np.std(scores) if scores else 0.0
         }
+
+        if "seamless" in data_source:
+            judgments = [r.get('judgment', '') for r in results]
+            total = len(judgments)
+            metrics["num_correct"] = judgments.count('correct')
+            metrics["num_not_sure"] = judgments.count('not_sure')
+            metrics["num_wrong"] = judgments.count('wrong')
+            metrics["pct_correct"] = metrics["num_correct"] / total if total else 0.0
+            metrics["pct_not_sure"] = metrics["num_not_sure"] / total if total else 0.0
+            metrics["pct_wrong"] = metrics["num_wrong"] / total if total else 0.0
 
         return metrics
 
@@ -321,6 +376,16 @@ def main():
         print(f"Overall min/max instance score: {overall_min:.3f}/{overall_max:.3f}")
         print(f"Standard deviation across agents: {overall_std:.3f}")
         print(f"Average total memory length: {avg_memory_length:.0f} tokens")
+
+        if "seamless" in data_source:
+            total_correct = sum(m.get('num_correct', 0) for m in metrics_list)
+            total_not_sure = sum(m.get('num_not_sure', 0) for m in metrics_list)
+            total_wrong = sum(m.get('num_wrong', 0) for m in metrics_list)
+            total_q = total_correct + total_not_sure + total_wrong
+            print(f"  Judgment breakdown ({total_q} questions):")
+            print(f"    correct:  {total_correct:>5} ({total_correct/total_q*100:.1f}%)" if total_q else "")
+            print(f"    not_sure: {total_not_sure:>5} ({total_not_sure/total_q*100:.1f}%)" if total_q else "")
+            print(f"    wrong:    {total_wrong:>5} ({total_wrong/total_q*100:.1f}%)" if total_q else "")
 
     print("\nMetrics saved to:", output_path)
 
