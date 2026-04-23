@@ -1,0 +1,38 @@
+[
+  {
+    "agent_dir": "./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048/1",
+    "global_idx": 1,
+    "data_source": "pubmed-rct",
+    "input_tokens": 16140,
+    "memory_tokens": 8612,
+    "num_chunks": 10,
+    "num_semantic": 10,
+    "num_episodic": 6,
+    "has_core": true,
+    "compression_ratio": 1.8741291221551324
+  },
+  {
+    "agent_dir": "./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048/2",
+    "global_idx": 2,
+    "data_source": "pubmed-rct",
+    "input_tokens": 17385,
+    "memory_tokens": 9540,
+    "num_chunks": 10,
+    "num_semantic": 10,
+    "num_episodic": 6,
+    "has_core": true,
+    "compression_ratio": 1.8223270440251573
+  },
+  {
+    "agent_dir": "./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048/0",
+    "global_idx": 0,
+    "data_source": "pubmed-rct",
+    "input_tokens": 16069,
+    "memory_tokens": 12247,
+    "num_chunks": 10,
+    "num_semantic": 10,
+    "num_episodic": 7,
+    "has_core": true,
+    "compression_ratio": 1.3120764268800522
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "data_source": "pubmed-rct",
+    "num_instances": 100,
+    "num_total_results": 100,
+    "avg_score_per_instance": 0.6,
+    "min_instance_score": 0.0,
+    "max_instance_score": 1.0,
+    "std_instance_score": 0.48989794855663565,
+    "total_memory_length": 8612,
+    "num_questions": 100,
+    "avg_score": 0.6,
+    "min_score": 0.0,
+    "max_score": 1.0,
+    "std_score": 0.48989794855663565,
+    "agent_dir": "/storage/home/tuochao/Mem-alpha-audio/agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048/1"
+  },
+  {
+    "data_source": "pubmed-rct",
+    "num_instances": 100,
+    "num_total_results": 100,
+    "avg_score_per_instance": 0.58,
+    "min_instance_score": 0.0,
+    "max_instance_score": 1.0,
+    "std_instance_score": 0.49355850717012273,
+    "total_memory_length": 9540,
+    "num_questions": 100,
+    "avg_score": 0.58,
+    "min_score": 0.0,
+    "max_score": 1.0,
+    "std_score": 0.49355850717012273,
+    "agent_dir": "/storage/home/tuochao/Mem-alpha-audio/agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048/2"
+  },
+  {
+    "data_source": "pubmed-rct",
+    "num_instances": 100,
+    "num_total_results": 100,
+    "avg_score_per_instance": 0.7,
+    "min_instance_score": 0.0,
+    "max_instance_score": 1.0,
+    "std_instance_score": 0.45825756949558394,
+    "total_memory_length": 12247,
+    "num_questions": 100,
+    "avg_score": 0.7,
+    "min_score": 0.0,
+    "max_score": 1.0,
+    "std_score": 0.45825756949558394,
+    "agent_dir": "/storage/home/tuochao/Mem-alpha-audio/agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048/0"
+  }
+]
