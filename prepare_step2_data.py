@@ -32,6 +32,7 @@ speaker_pairs = []
 for qa_file in qa_files:
     question_type = os.path.basename(qa_file).replace(".jsonl", "")
     # read jsonl file
+    print(qa_file)
     with jsonlines.open(qa_file) as reader:
         qa = [line for line in reader]
     
@@ -42,7 +43,7 @@ for qa_file in qa_files:
             "type": question_type,
             "gt_source": qa_item["gt_source"],
         })
-        # print(qa_item["gt_source"])
+        print(qa_item["gt_source"])
         pair_id = qa_item["gt_source"]["file"]#.split("/")[0]
         if pair_id.startswith("P"):
             spk1, spk2 = pair_id.split("/")[0].split("_")
