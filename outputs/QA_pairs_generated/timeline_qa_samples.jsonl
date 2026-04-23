@@ -1,0 +1,60 @@
+{"category": "Factual Retrieval", "question": "On the 2023-05-01 clip, what prize did P0695 win after collecting the most cans in elementary school?", "answer": "an overnight zoo trip with a behind-the-scenes tour", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000125/parsed_dialog_gt.json", "evidence_turns": [4]}}
+{"category": "Factual Retrieval", "question": "On the 2023-05-22 clip, what standardized test did P0694 say they had to score well on for grad school?", "answer": "the GRE", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000134/parsed_dialog_gt.json", "evidence_turns": [4]}}
+{"category": "Factual Retrieval", "question": "On the 2023-05-01 clip, what pastry did P1124's grandma make at Christmas?", "answer": "butter horns", "gt_source": {"file": "P1124_P1125/V01_S0066_I00000125/parsed_dialog_gt.json", "evidence_turns": [1]}}
+{"category": "Factual Retrieval", "question": "On the 2023-05-15 clip, who did P1009 name as a favorite music artist?", "answer": "Bruno Mars", "gt_source": {"file": "P1007_P1009/V00_S0908_I00000374/parsed_dialog_gt.json", "evidence_turns": [2]}}
+{"category": "Factual Retrieval", "question": "On the 2023-05-22 clip, what new hobby did P1247 say they wanted to get into?", "answer": "sewing", "gt_source": {"file": "P0399_P1247/V00_S1997_I00000184/parsed_dialog_gt.json", "evidence_turns": [2]}}
+{"category": "Temporal Reasoning QA", "question": "Which came earlier on the session timeline in P0694_P0695: the grad school obstacle story or the black watch Christmas jacket discussion?", "answer": "the grad school obstacle story came earlier", "gt_source": {"sources": [{"file": "P0694_P0695/V00_S0548_I00000134/parsed_dialog_gt.json", "evidence_turns": [2]}, {"file": "P0694_P0695/V00_S0548_I00000461/parsed_dialog_gt.json", "evidence_turns": [9]}]}}
+{"category": "Temporal Reasoning QA", "question": "What year did P0223 say they quit the job they later regretted leaving?", "answer": "2015", "gt_source": {"file": "P0222_P0223/V00_S0155_I00000130/parsed_dialog_gt.json", "evidence_turns": [4]}}
+{"category": "Temporal Reasoning QA", "question": "What future year did P1247 say 'we're doing it' about?", "answer": "2026", "gt_source": {"file": "P0399_P1247/V00_S1997_I00000184/parsed_dialog_gt.json", "evidence_turns": [49]}}
+{"category": "Temporal Reasoning QA", "question": "What year did P0832 say they would time travel to for the Los Angeles Lakers era?", "answer": "1988", "gt_source": {"file": "P0831_P0832/V00_S0675_I00000371/parsed_dialog_gt.json", "evidence_turns": [20]}}
+{"category": "Temporal Reasoning QA", "question": "Which clip comes later on the session timeline for P1124_P1125: the Christmas childhood memory clip or the documentary-premiere clip about P1124's dad?", "answer": "the documentary-premiere clip comes later", "gt_source": {"sources": [{"file": "P1124_P1125/V01_S0066_I00000125/parsed_dialog_gt.json", "evidence_turns": [1]}, {"file": "P1124_P1125/V01_S0066_I00000131/parsed_dialog_gt.json", "evidence_turns": [1]}]}}
+{"category": "Knowledge Update QA", "question": "On the 2023-07-10 clip, when P0694 asked whether P0695 meant the most recent watch, which watch did P0695 ultimately clarify she meant?", "answer": "the wooden watch", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000462/parsed_dialog_gt.json", "evidence_turns": [2, 3, 5, 6, 8]}}
+{"category": "Knowledge Update QA", "question": "After first saying they regretted quitting Adam's company, what was P0223's final stance by the end of the clip?", "answer": "they said they do not really regret anything because life’s twists and turns led them to where they are now", "gt_source": {"file": "P0222_P0223/V00_S0155_I00000130/parsed_dialog_gt.json", "evidence_turns": [4, 17, 19]}}
+{"category": "Knowledge Update QA", "question": "After first calling the McDonald's worker's action messed up, what position did P5060 finally accept by the end of the clip?", "answer": "that you have to view every side of the story and that P5061 had a good point", "gt_source": {"file": "P5060_P5061/V03_S1755_I00000218/parsed_dialog_gt.json", "evidence_turns": [18, 22, 23]}}
+{"category": "Knowledge Update QA", "question": "After first inventing a fake example about shoes not matching an outfit, what real recurring example did P0695 later give for hurting P0694's feelings?", "answer": "criticizing the black watch Christmas jacket", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000461/parsed_dialog_gt.json", "evidence_turns": [2, 9]}}
+{"category": "Knowledge Update QA", "question": "According to P0694's later clarification in the grad-school clip, did they overcome the obstacle alone?", "answer": "no; someone else helped them over the obstacle", "gt_source": {"file": "P0694_P0695/V00_S0548_I00000134/parsed_dialog_gt.json", "evidence_turns": [2, 4]}}
+{
+"category": "Speaker-Attributed Factual QA",
+"question": "On the 2023-05-08 clip, which ability did P0832 choose: teleportation or time travel?",
+"answer": "time travel",
+"gt_source": {
+    "file": "P0831_P0832/V00_S0675_I00000371/parsed_dialog_gt.json",
+    "evidence_turns": [2, 13]
+}
+}
+{
+"category": "Speaker-Attributed Factual QA",
+"question": "On the 2023-05-01 session-timeline clip, which holiday did P1124 identify as the favorite: Halloween or Christmas?",
+"answer": "Halloween",
+"gt_source": {
+    "file": "P1124_P1125/V01_S0066_I00000125/parsed_dialog_gt.json",
+    "evidence_turns": [12, 13]
+}
+}
+{
+"category": "Speaker-Attributed Factual QA",
+"question": "On the 2023-05-22 session-timeline clip, which creative direction did P0399 want to pursue through classes: photography or sewing?",
+"answer": "photography",
+"gt_source": {
+    "file": "P0399_P1247/V00_S1997_I00000184/parsed_dialog_gt.json",
+    "evidence_turns": [2, 7]
+}
+}
+{
+"category": "Speaker-Attributed Factual QA",
+"question": "On the 2023-07-10 session-timeline clip, which option did P0739 choose: speaking to animals or speaking all foreign languages?",
+"answer": "speaking to animals",
+"gt_source": {
+    "file": "P0739_P0740/V00_S0586_I00000139/parsed_dialog_gt.json",
+    "evidence_turns": [2, 10]
+}
+}
+{
+"category": "Speaker-Attributed Factual QA",
+"question": "On the 2023-07-10 session-timeline clip, which option did P1075 choose: speaking all languages or communicating with animals?",
+"answer": "communicating with animals",
+"gt_source": {
+    "file": "P1074_P1075/V01_S0039_I00000139/parsed_dialog_gt.json",
+    "evidence_turns": [2, 3, 18, 21]
+}
+}
