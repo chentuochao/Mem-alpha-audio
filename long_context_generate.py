@@ -127,6 +127,7 @@ def main():
         default="memalpha",
         choices=[
             "memalpha", "pubmed-rct", "booksum", "perltqa",
+            "seamlessinteraction_gt", "seamlessinteraction_pred",
             "long_range_understanding", "accurate_retrieval",
             "test_time_learning", "longmemeval", "memoryagentbench",
             "squad", "hotpotqa",

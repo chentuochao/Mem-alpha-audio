@@ -155,8 +155,8 @@ Your answer:
                 base_url=self.qwen_base_url,
                 api_key=self.openrouter_api_key if self.qwen_is_openrouter else "EMPTY",
             )
-            self.model_name = os.getenv("QWEN_MODEL_NAME", "qwen3-32b")  # The actual model name for API calls
-
+            # self.model_name = os.getenv("QWEN_MODEL_NAME", "qwen3-32b")  # The actual model name for API calls
+            self.model_name = os.getenv("QWEN_MODEL_NAME")
             # Initialize tokenizer for prompt conversion
             self.tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-32B", trust_remote_code=True)
             print("Initialized Qwen model client")
@@ -728,13 +728,23 @@ Your answer:
             self.test_data = pd.read_parquet('data/memalpha/test.parquet')
             print(f"Loaded {len(self.train_data)} train samples, {len(self.test_data)} test samples")
 
+        elif dataset == "seamlessinteraction_gt":
+            self.train_data = pd.read_parquet('outputs/test_gt.parquet')
+            self.test_data = pd.read_parquet('outputs/test_gt.parquet')
+            print(f"Loaded {len(self.train_data)} train samples, {len(self.test_data)} test samples")
+
+        elif dataset == "seamlessinteraction_pred":
+            self.train_data = pd.read_parquet('outputs/test_pred.parquet')
+            self.test_data = pd.read_parquet('outputs/test_pred.parquet')
+            print(f"Loaded {len(self.train_data)} train samples, {len(self.test_data)} test samples")
+
         elif dataset == 'squad':
             self.train_data = pd.read_parquet('data/memalpha/train.parquet')
             self.test_data = pd.read_parquet('data/memalpha/test.parquet')
             self.train_data = self.train_data[self.train_data['data_source'] == 'squad']
             self.test_data = self.test_data[self.test_data['data_source'] == 'squad']
             print(f"Loaded Squad dataset: {len(self.train_data)} train samples, {len(self.test_data)} test samples")
-        
+
         elif dataset == 'hotpotqa':
             self.train_data = pd.read_parquet('data/memalpha/train.parquet')
             self.test_data = pd.read_parquet('data/memalpha/test.parquet')
@@ -961,8 +971,12 @@ Your answer:
             base_url_str = str(base_url_obj) if base_url_obj else ""
             is_openrouter = self.qwen_is_openrouter or ("openrouter" in base_url_str.lower())
             openrouter_api_key = self.openrouter_api_key or os.getenv("OPENROUTER_API_KEY", "EMPTY")
+            idx = 0
 
+            ### format the prompt format for QA generation
             for messages in tqdm(all_messages, total=len(all_messages)):
+                print(f"Processing {len(messages)} messages {idx}/{len(all_messages)}")
+                idx += 1
                 prompt = self.tokenizer.apply_chat_template(
                     messages,
                     tokenize=False,
