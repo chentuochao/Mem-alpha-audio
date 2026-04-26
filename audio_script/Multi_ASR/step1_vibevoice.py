@@ -162,6 +162,7 @@ def segments_to_word_list(
             "word": seg.get("text", "").strip(),
             "start": float(seg.get("start_time", 0.0)),
             "end": float(seg.get("end_time", 0.0)),
+            "score": 1.0,  # placeholder
         }
         word_list.setdefault(key, []).append(entry)
 
@@ -364,6 +365,9 @@ def main():
         print(f"  Audio: {conv['audio_path']}")
         print(f"{'=' * 70}")
 
+        if num_processed > 10:
+            exit(0)
+
         if args.output_dir is not None:
             save_dir = os.path.join(
                 args.output_dir, conv["spk_pair"], conv["conv_id"]
@@ -398,15 +402,14 @@ def main():
 
         # Print preview
         print(f"  Got {len(segments)} segment(s) from VibeVoice:")
-        for seg in segments[:10]:
+        for seg in segments[:5]:
             spk = seg.get("speaker_id", "N/A")
             start = seg.get("start_time", 0.0)
             end = seg.get("end_time", 0.0)
             text = seg.get("text", "")[:80]
             print(f"    [{start} - {end}] Speaker {spk}: {text}...")
-        if len(segments) > 10:
-            print(f"    ... and {len(segments) - 10} more segment(s)")
-
+        if len(segments) > 5:
+            print(f"    ... and {len(segments) - 5} more segment(s)")
         # Convert to step1-compatible outputs
         word_list = segments_to_word_list(segments)
         diar_result = segments_to_diar_matrix(segments, frame_duration=FRAME_DURATION)
@@ -435,7 +438,6 @@ def main():
         print(f"  Saved: {word_list_path}  ({len(word_list)} speaker(s))")
         print(f"  Saved: {info_path}")
         num_processed += 1
-
     print(
         f"\nStep 1 (VibeVoice) complete. "
         f"Processed {num_processed}, skipped {num_skipped} conversations."

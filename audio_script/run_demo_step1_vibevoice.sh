@@ -9,9 +9,7 @@ set -euo pipefail
 ENV1="vibevoice"   # VibeVoice environment (diarization + ASR)
 
 DATA_PATH="/checkpoint/seamless/tuochao/data/Mix_Mosaic/naturalistic/test/"
-
-# Model path (single combined VibeVoice checkpoint)
-MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/vibevoice"
+MODEL_PATH="microsoft/VibeVoice-ASR"
 
 # Options
 DEVICE="cuda"
@@ -22,7 +20,6 @@ NUM_BEAMS=1
 ATTN_IMPL="auto"   # auto | flash_attention_2 | sdpa | eager
 
 OUTPUT_DIR="/storage/home/tuochao/mem_projects/demo_output_vibevoice/"
-
 # Working directory (where the python scripts live)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -51,7 +48,7 @@ echo "============================================================"
 
 conda activate "${ENV1}"
 export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
-python "${SCRIPT_DIR}/step1_vibevoice.py" \
+python "${SCRIPT_DIR}/Multi_ASR/step1_vibevoice.py" \
     --data_dir         "${DATA_PATH}" \
     --model_path       "${MODEL_PATH}" \
     --device           "${DEVICE}" \

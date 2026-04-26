@@ -15,8 +15,8 @@ EMBEDDING_MODEL_DIR="/checkpoint/seamless/tuochao/Models/huggingface//wespeaker-
 MAX_NUM_OF_SPKS=4
 SIMILARITY_THRESHOLD=0.65
 EMBEDDING_DEVICE="cuda:0"
-DATA_DIR="/storage/home/tuochao/mem_projects/demo_output/"
-OUTPUT_DIR="/storage/home/tuochao/mem_projects/demo_output_step2/"
+DATA_DIR="/storage/home/tuochao/mem_projects/demo_output_vibevoice/"
+OUTPUT_DIR="/storage/home/tuochao/mem_projects/demo_output_vibevoice_step2/"
 
 # Working directory (where the python scripts live)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -49,7 +49,7 @@ echo "============================================================"
 conda activate "${ENV2}"
 export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
 
-python "${SCRIPT_DIR}/step2_speaker_match.py" \
+python "${SCRIPT_DIR}/Speaker_Track/step2_speaker_match.py" \
     --data_dir            "${DATA_DIR}" \
     --embedding_model_dir "${EMBEDDING_MODEL_DIR}" \
     --similarity_threshold "${SIMILARITY_THRESHOLD}" \
