@@ -365,9 +365,6 @@ def main():
         print(f"  Audio: {conv['audio_path']}")
         print(f"{'=' * 70}")
 
-        if num_processed > 10:
-            exit(0)
-
         if args.output_dir is not None:
             save_dir = os.path.join(
                 args.output_dir, conv["spk_pair"], conv["conv_id"]

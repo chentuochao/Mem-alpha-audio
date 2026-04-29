@@ -212,13 +212,13 @@ def plot_and_eval(pred_npy: str,
 
     n_rows = gt_mat.shape[0]
     fig_h = max(4, 1.2 * max(n_rows, N_pred))
-    fig, axes = plt.subplots(3, 1, figsize=(20, fig_h),
+    fig, axes = plt.subplots(2, 1, figsize=(20, fig_h),
                              constrained_layout=True)
 
     _raster_ax(axes[0], gt_mat, "Ground Truth", frame_duration, gt_labels)
-    _raster_ax(axes[1], pred_bin, "Prediction (raw)", frame_duration,
-               pred_raw_labels)
-    _raster_ax(axes[2], pred_aligned,
+    # _raster_ax(axes[1], pred_bin, "Prediction (raw)", frame_duration,
+    #            pred_raw_labels)
+    _raster_ax(axes[1], pred_aligned,
                f"Prediction (aligned to GT)  —  DER = {der * 100:.2f}%",
                frame_duration, pred_aligned_labels)
 
@@ -238,7 +238,7 @@ def plot_and_eval(pred_npy: str,
         fontsize=11, fontweight="bold", y=1.02,
     )
 
-    plt.savefig(output_path, dpi=150, bbox_inches="tight")
+    plt.savefig(os.path.join(output_path, "diart.png"), dpi=150, bbox_inches="tight")
     print(f"\nFigure saved → {output_path}")
     return der, details
 

@@ -601,7 +601,7 @@ def main():
     all_cpwers_merged = []
 
     err_info = []
-    for cluster in clusters[-10:]:
+    for cluster in clusters:
         # EACH cluster use one global speaker pool
         # ── Process each conversation sequentially ──────────────────────
         speaker_ids = cluster["speaker_ids"]
