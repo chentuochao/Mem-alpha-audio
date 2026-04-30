@@ -270,15 +270,15 @@ class BazingaDataset:
         transcripts, raw_transcript = parse_bazinga_txt(txt_path)
         speakers = list(transcripts.keys())
 
-        transcript_gt_path = os.path.join(self.data_dir, episode_id + "_gt_transcript.json")
-        with open(transcript_gt_path, "w", encoding="utf-8") as fh:
-            json.dump(transcripts, fh, indent=2)
-        ## convert transcription to VAD array for diarization gt
-        vad_gt = transcription_to_vad(transcripts)
-        # save vad_gt to json file
-        vad_gt_path = os.path.join(self.data_dir, episode_id + "_gt_vad.json")
-        with open(vad_gt_path, "w", encoding="utf-8") as fh:
-            json.dump(vad_gt, fh, indent=2)
+        # transcript_gt_path = os.path.join(self.data_dir, episode_id + "_gt_transcript.json")
+        # with open(transcript_gt_path, "w", encoding="utf-8") as fh:
+        #     json.dump(transcripts, fh, indent=2)
+        # ## convert transcription to VAD array for diarization gt
+        # vad_gt = transcription_to_vad(transcripts)
+        # # save vad_gt to json file
+        # vad_gt_path = os.path.join(self.data_dir, episode_id + "_gt_vad.json")
+        # with open(vad_gt_path, "w", encoding="utf-8") as fh:
+        #     json.dump(vad_gt, fh, indent=2)
 
 
         # Re-build flat word lists from the cached segment data
@@ -289,7 +289,5 @@ class BazingaDataset:
             "audio_path": audio_path,
             "txt_path": txt_path,
             "sr": sr,
-            "speakers": speakers,
-            "transcript_path": transcript_gt_path,
-            "vad_path": vad_gt_path,
+            "speakers": speakers
         }

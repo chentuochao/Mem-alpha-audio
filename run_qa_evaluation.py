@@ -65,6 +65,35 @@ def get_out_dir(agent_config, args, batch_idx):
     return out_dir
 
 
+def load_custom_qa_from_dir(qa_dir, data_source='seamlessinteraction_gt'):
+    """Load custom QA pairs from all JSON/JSONL files in a directory.
+
+    Each file is treated as newline-delimited JSON (one object per line).
+    Returns a flat list of [q_idx, question, answer, data_source] tuples.
+    """
+    qa_items = []
+    q_idx = 0
+    for filename in sorted(os.listdir(qa_dir)):
+        filepath = os.path.join(qa_dir, filename)
+        if not os.path.isfile(filepath):
+            continue
+        if not (filename.endswith('.json') or filename.endswith('.jsonl')):
+            continue
+        with open(filepath, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                item = json.loads(line)
+                question = item.get('question', '')
+                answer = item.get('answer', '')
+                if question:
+                    qa_items.append([q_idx, question, answer, data_source])
+                    q_idx += 1
+    print(f"Loaded {len(qa_items)} custom QA items from {qa_dir}")
+    return qa_items
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description="QA Evaluation Step")
     parser.add_argument("--agent_config", type=str, required=True, help="Path to agent configuration YAML file")
@@ -74,6 +103,9 @@ def parse_args():
     parser.add_argument("--agentic_search", action="store_true", help="Use agentic memory search instead of simple batch processing")
     parser.add_argument("--rollout_label", type=str, default=None, help="Label to append to output directory path, e.g., rollout_1")
     parser.add_argument("--force_reanswer_questions", action="store_true", help="Force reanswering all questions even if results file already exists")
+    parser.add_argument("--custom_qa_dir", type=str, default=None,
+                        help="Directory containing custom QA JSON/JSONL files to use instead of dataset QA. "
+                             "All items are loaded into the first (and only) conversation instance.")
     parser.add_argument(
         "--exclude_memory",
         nargs='*',
@@ -457,6 +489,12 @@ def main():
     all_chunks = conversation_creator.chunks() # TODO: Note we don't skip already completed conversations in chunking process of conversation_creator.py since it's easy to mess up the index sequence in eval.py, but we can fix it later (return empty chunks instead of skipping)
 
     all_queries_and_answers = conversation_creator.get_query_and_answer()
+
+    # Override QA with custom files if --custom_qa_dir is specified.
+    # Assumes a single conversation instance (batch_size=1, chunk_count=1).
+    if args.custom_qa_dir:
+        custom_qa = load_custom_qa_from_dir(args.custom_qa_dir, data_source=args.dataset)
+        all_queries_and_answers = [custom_qa] * len(all_chunks)
 
     # Handle cases where some instances might have empty Q&A lists
     all_sources = []

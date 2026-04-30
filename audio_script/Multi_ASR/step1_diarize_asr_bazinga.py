@@ -176,6 +176,33 @@ def run_diarization_asr(
     return seglst_dict_list, word_list, diar_result.squeeze(0)
 
 
+
+def transcription_to_vad(transcripts: Dict[str, List[Dict]]) -> Dict[str, List[Dict]]:
+    """
+    Convert per-speaker segment dicts into per-speaker VAD dicts
+    (the format accepted by AlignedProcess as vad1 / vad2).
+    """
+    return {spk: [{"start": seg["start"], "end": seg["end"]} for seg in segs] for spk, segs in transcripts.items()}
+
+
+def get_chunked_transcript(transcript: List[Dict], start_time: int, end_time: int) -> List[Dict]:
+    """
+    Get the chunked transcript for a given time range.
+    """
+
+    speaker_words: Dict[str, List[Dict]] = defaultdict(list)
+    chunked_transcript = []
+
+    for seg in transcript:
+        if seg["start"] >= start_time and seg["end"] <= end_time:
+            chunked_transcript.append(seg)
+            speaker_words[seg["speaker"]].append(seg)
+
+    vad = transcription_to_vad(speaker_words)
+    return speaker_words, chunked_transcript, vad
+    
+
+
 # ──────────────────────────────────────────────────────────────────────────────
 # Entry point
 # ──────────────────────────────────────────────────────────────────────────────
@@ -287,8 +314,9 @@ def main():
         os.makedirs(save_dir, exist_ok=True)
         raw_audio = sample['audio']
         T = raw_audio.shape[0]
-
+        raw_transcript = sample['raw_transcript']
         chunk_id = 0
+
         for t in range(0, T, audio_chunk):
             start_time = t
             end_time = t + audio_chunk
@@ -296,15 +324,25 @@ def main():
                 end_time = T
             audio = raw_audio[start_time:end_time]
 
+            speaker_transcripts, chunked_transcript, vad_gt = get_chunked_transcript(raw_transcript, start_time/SR, end_time/SR)
+
             diar_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "diart_pred.npy")
             word_list_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "transcript_pred.json")
+            word_list_path_gt = os.path.join(save_dir, f"CHUNK_{chunk_id}", "transcript_gt.json")
             info_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "sample_info.json")
+            vad_gt_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "vad_gt.json")
+
+            with open(word_list_path_gt, "w", encoding="utf-8") as fh:
+                json.dump(speaker_transcripts, fh, indent=2)
+            ## convert transcription to VAD array for diarization gt
+            vad_gt_path = os.path.join(self.data_dir, episode_id + "_gt_vad.json")
+            with open(vad_gt_path, "w", encoding="utf-8") as fh:
+                json.dump(vad_gt, fh, indent=2)
 
             if os.path.exists(diar_path) and os.path.exists(word_list_path) and os.path.exists(info_path):
                 print(f"  Skipping (already exists): {diar_path}")
                 num_skipped += 1
                 continue
-            print(audio.shape)
             try:
                 seglst_dict_list, word_list, diar_result = run_diarization_asr(
                     audio, sample["audio_path"], asr_model, diar_model, cfg
@@ -328,7 +366,8 @@ def main():
                 "audio_file": sample["audio_path"],
                 "txt_path": sample["txt_path"],
                 "speakers": sample["speakers"],
-                "gt_transcript_path": sample["transcript_path"],
+                "transcript_path": word_list_path_gt,
+                "vad_path": vad_gt_path,
                 "diart_path": diar_path,
                 "pred_transcript_path": word_list_path,
                 "feat_len_sec": 0.08,
