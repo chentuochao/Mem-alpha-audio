@@ -35,7 +35,7 @@ from nemo.collections.asr.parts.utils.streaming_utils import (
 from omegaconf import OmegaConf
 from tqdm import tqdm
 
-from audio_script.datasets.Bazinga_loader import discover_conversations
+from audio_script.datasets.Bazinga_loader import BazingaDataset
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -118,7 +118,7 @@ class MultitalkerTranscriptionConfig:
 # ──────────────────────────────────────────────────────────────────────────────
 
 def run_diarization_asr(
-    audio_file: str,
+    audio: np.ndarray,
     asr_model,
     diar_model,
     cfg,
@@ -131,7 +131,7 @@ def run_diarization_asr(
         word_list         – per-speaker word-level predictions
         diar_result       – binary numpy array (num_frames, num_speakers)
     """
-    cfg.audio_file = audio_file
+    # cfg.audio_file = audio_file
     samples = [{"audio_filepath": audio_file}]
 
     streaming_buffer = CacheAwareStreamingAudioBuffer(
@@ -139,7 +139,8 @@ def run_diarization_asr(
         online_normalization=cfg.online_normalization,
         pad_and_drop_preencoded=cfg.pad_and_drop_preencoded,
     )
-    streaming_buffer.append_audio_file(audio_filepath=audio_file, stream_id=-1)
+    # streaming_buffer.append_audio_file(audio_filepath=audio_file, stream_id=-1)
+    streaming_buffer.append_audio(audio=audio, stream_id=-1)
     streaming_buffer_iter = iter(streaming_buffer)
     multispk_asr_streamer = SpeakerTaggedASR(cfg, asr_model, diar_model)
 
@@ -226,15 +227,11 @@ def main():
         os.makedirs(args.output_dir, exist_ok=True)
 
     # ── Discover episodes via Bazinga loader ─────────────────────────
-    conversations = discover_conversations(
+    dataset = BazingaDataset(
         args.data_dir,
-        transcript_cache_dir=args.output_dir,
-        turn_gap=args.turn_gap,
+        sample_rate=16000,
     )
-    print(f"Found {len(conversations)} episodes under {args.data_dir}")
-    if not conversations:
-        print("No episodes found. Check that *.en.wav and *.txt files exist.")
-        return
+    print(f"Found {len(dataset)} episodes under {args.data_dir}")
 
     # ── Load models ──────────────────────────────────────────────────
     print("Loading diarization model...")
@@ -275,19 +272,16 @@ def main():
     num_processed = 0
     num_skipped = 0
 
-    for conv in tqdm(conversations):
+    for sample in tqdm(dataset):
         print(f"\n{'=' * 70}")
-        print(f"Processing episode: {conv['conv_id']}")
-        print(f"  Speakers : {conv['speakers']}")
-        print(f"  Audio    : {conv['audio_path']}")
+        print(f"Processing episode: {sample['conv_id']}")
+        print(f"  Speakers : {sample['speakers']}")
+        print(f"  Audio    : {sample['audio_path']}")
         print(f"{'=' * 70}")
 
+        conv_id = sample["conv_id"]
         # Where to save outputs
-        if args.output_dir is not None:
-            save_dir = os.path.join(args.output_dir, conv["conv_id"])
-        else:
-            save_dir = os.path.join(conv["conv_dir"], "bazinga_step1", conv["conv_id"])
-
+        save_dir = os.path.join(args.output_dir, conv_id)
         diar_path = os.path.join(save_dir, "diart_pred.npy")
         word_list_path = os.path.join(save_dir, "transcript_pred.json")
         info_path = os.path.join(save_dir, "sample_info.json")
@@ -296,14 +290,17 @@ def main():
             print(f"  Skipping (already exists): {save_dir}")
             num_skipped += 1
             continue
-
+        print(f"  Running diarization + ASR for {conv_id}")
+        print(f"  Audio shape: {sample['audio'].shape}")
+        exit(0)
         try:
             seglst_dict_list, word_list, diar_result = run_diarization_asr(
-                conv["audio_path"], asr_model, diar_model, cfg
+                sample["audio"], asr_model, diar_model, cfg
             )
         except Exception as e:
-            print(f"  Error processing {conv['conv_id']}: {e}")
+            print(f"  Error processing {conv_id}: {e}")
             continue
+        
 
         os.makedirs(save_dir, exist_ok=True)
         np.save(diar_path, diar_result)

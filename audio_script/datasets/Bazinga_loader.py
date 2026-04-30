@@ -50,6 +50,7 @@ def parse_bazinga_txt(txt_path: str) -> Dict[str, List[Dict]]:
                 continue
             parts = line.split()
             if len(parts) < 6:
+                print("Warning: Malformed line in Bazinga txt file: ", line)
                 continue  # malformed line
 
             # file_id speaker start end word confidence [listener] [scene] [misc]
@@ -138,6 +139,14 @@ def speaker_words_to_transcript(
     }
 
 
+def transcription_to_vad(transcripts: Dict[str, List[Dict]]) -> Dict[str, List[Dict]]:
+    """
+    Convert per-speaker segment dicts into per-speaker VAD dicts
+    (the format accepted by AlignedProcess as vad1 / vad2).
+    """
+    return {spk: [{"start": seg["start"], "end": seg["end"]} for seg in segs] for spk, segs in transcripts.items()}
+
+
 # ──────────────────────────────────────────────────────────────────────────────
 # File discovery
 # ──────────────────────────────────────────────────────────────────────────────
@@ -175,61 +184,6 @@ def _find_episodes(data_dir: str) -> List[Tuple[str, str, str]]:
 # Pipeline-compatible discover_conversations
 # ──────────────────────────────────────────────────────────────────────────────
 
-def discover_conversations(
-    data_dir: str,
-    transcript_cache_dir: Optional[str] = None,
-    turn_gap: float = 1.5,
-) -> List[Dict]:
-    """
-    Discover all Bazinga episodes under *data_dir* and return a list of
-    conversation dicts compatible with step1_diarize_asr.py.
-
-    Each dict contains:
-        conv_id        – episode name, e.g. "Friends.Season01.Episode01"
-        spk_pair       – "bazinga"
-        conv_dir       – directory that owns the wav/txt (data_dir)
-        audio_path     – absolute path to the mixed-audio wav
-        txt_path       – absolute path to the annotation txt
-        speakers       – sorted list of unique speaker names
-        gt_transcript_path  – path to the exported per-speaker JSON transcript
-                              (written to transcript_cache_dir or conv_dir)
-
-    The gt_transcript_path JSON has the schema:
-        { speaker_name: [ { start, end, text, words: [...] } ] }
-    """
-    if transcript_cache_dir is not None:
-        os.makedirs(transcript_cache_dir, exist_ok=True)
-
-    conversations: List[Dict] = []
-
-    for episode_id, wav_path, txt_path in _find_episodes(data_dir):
-        # Determine where to cache the parsed ground-truth transcript
-        cache_dir = transcript_cache_dir if transcript_cache_dir else data_dir
-        gt_path = os.path.join(cache_dir, episode_id + "_gt_transcript.json")
-
-        # Parse and cache if not already done
-        if not os.path.exists(gt_path):
-            speaker_words = parse_bazinga_txt(txt_path)
-            gt_transcript = speaker_words_to_transcript(speaker_words, turn_gap=turn_gap)
-            with open(gt_path, "w", encoding="utf-8") as fh:
-                json.dump(gt_transcript, fh, indent=2)
-        else:
-            with open(gt_path, "r", encoding="utf-8") as fh:
-                gt_transcript = json.load(fh)
-
-        speakers = sorted(gt_transcript.keys())
-
-        conversations.append({
-            "conv_id": episode_id,
-            "spk_pair": "bazinga",
-            "conv_dir": data_dir,
-            "audio_path": wav_path,
-            "txt_path": txt_path,
-            "speakers": speakers,
-            "gt_transcript_path": gt_path,
-        })
-
-    return conversations
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -257,18 +211,11 @@ class BazingaDataset:
         self,
         data_dir: str,
         sample_rate: int = 16000,
-        transcript_cache_dir: Optional[str] = None,
-        turn_gap: float = 1.5,
     ):
         self.data_dir = data_dir
         self.sample_rate = sample_rate
-        self.turn_gap = turn_gap
 
-        self.conversations = discover_conversations(
-            data_dir,
-            transcript_cache_dir=transcript_cache_dir,
-            turn_gap=turn_gap,
-        )
+        self.conversations = _find_episodes(data_dir)
 
         if not self.conversations:
             raise ValueError(
@@ -307,62 +254,32 @@ class BazingaDataset:
             txt_path    – path to the annotation txt file
         """
         conv = self.conversations[idx]
+        episode_id, audio_path, txt_path = conv
 
-        audio, sr = librosa.load(conv["audio_path"], sr=self.sample_rate, mono=True)
+        audio, sr = librosa.load(audio_path, sr=self.sample_rate, mono=True)
         audio = audio.astype(np.float32)
 
-        with open(conv["gt_transcript_path"], "r", encoding="utf-8") as fh:
-            transcripts = json.load(fh)
+        transcripts = parse_bazinga_txt(txt_path)
+        speakers = list(transcripts.keys()) 
+
+        transcript_gt_path = os.path.join(self.data_dir, episode_id + "_gt_transcript.json")
+        with open(transcript_gt_path, "w", encoding="utf-8") as fh:
+            json.dump(transcripts, fh, indent=2)
+        ## convert transcription to VAD array for diarization gt
+        vad_gt = transcription_to_vad(transcripts)
+        # save vad_gt to json file
+        vad_gt_path = os.path.join(self.data_dir, episode_id + "_gt_vad.json")
+        with open(vad_gt_path, "w", encoding="utf-8") as fh:
+            json.dump(vad_gt, fh, indent=2)
+
 
         # Re-build flat word lists from the cached segment data
-        word_lists: Dict[str, List[Dict]] = {}
-        for spk, segs in transcripts.items():
-            word_lists[spk] = [w for seg in segs for w in seg["words"]]
-
         return {
-            "conv_id": conv["conv_id"],
+            "conv_id": episode_id,
             "audio": audio,
+            "audio_path": audio_path,
             "sr": sr,
-            "speakers": conv["speakers"],
-            "transcripts": transcripts,
-            "word_lists": word_lists,
-            "audio_path": conv["audio_path"],
-            "txt_path": conv["txt_path"],
-        }
-
-    def get_speaker_pair_sample(
-        self,
-        idx: int,
-        speaker_a: str,
-        speaker_b: str,
-    ) -> Optional[Dict[str, Any]]:
-        """
-        Return a 2-speaker slice of episode *idx*, formatted to match the
-        InterActDataset / AlignedProcess interface:
-
-            id          – [speaker_a, speaker_b]
-            conv_id     – episode identifier
-            speaker_id  – [speaker_a, speaker_b]
-            audios      – mixed episode audio (same array twice, for API compat)
-            sr          – sample rate
-            transcripts – [segments_A, segments_B]
-            vad         – [None, None]  (not available for Bazinga)
-
-        Returns None if either speaker is not found in the episode.
-        """
-        sample = self.load_sample(idx)
-        transcripts = sample["transcripts"]
-
-        if speaker_a not in transcripts or speaker_b not in transcripts:
-            return None
-
-        audio = sample["audio"]
-        return {
-            "id": [speaker_a, speaker_b],
-            "conv_id": sample["conv_id"],
-            "speaker_id": [speaker_a, speaker_b],
-            "audios": [audio, audio],
-            "sr": sample["sr"],
-            "transcripts": [transcripts[speaker_a], transcripts[speaker_b]],
-            "vad": [None, None],
+            "speakers": speakers,
+            "transcript_path": transcript_gt_path,
+            "vad_path": vad_gt_path,
         }
