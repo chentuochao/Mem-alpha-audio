@@ -7,7 +7,6 @@ set -euo pipefail
 
 # Conda environments
 ENV1="nemo"   # NeMo environment (diarization + ASR)
-DATA_PATH="/checkpoint/seamless/tuochao/data/Mix_Mosaic/naturalistic/test/"
 # Model paths
 DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/diar_streaming_sortformer_4spk-v2.1/diar_streaming_sortformer_4spk-v2.1.nemo"
 ASR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/multitalker-parakeet-streaming-0.6b-v1/multitalker-parakeet-streaming-0.6b-v1.nemo"
@@ -15,7 +14,7 @@ EMBEDDING_MODEL_DIR="/checkpoint/seamless/tuochao/Models/huggingface//wespeaker-
 
 # Options
 MAX_NUM_OF_SPKS=4
-OUTPUT_DIR="/storage/home/tuochao/mem_projects/demo_output/"
+
 
 # Working directory (where the python scripts live)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -36,8 +35,31 @@ else
 fi
 
 # ──────────────────────────────────────────────────────────────────────
-#  Step 1a: Diarization + ASR inference  (env1 — NeMo, needs GPU)
+#  Step 1a: Diarization + ASR inference  (env1 — NeMo, needs GPU) for Seamless Interaction dataset
 # ──────────────────────────────────────────────────────────────────────
+# DATA_PATH="/checkpoint/seamless/tuochao/data/Mix_Mosaic/naturalistic/test/"
+# OUTPUT_DIR="/storage/home/tuochao/mem_projects/demo_output/"
+
+# echo "============================================================"
+# echo "  Step 1a: Diarization + ASR inference  (conda env: ${ENV1})"
+# echo "============================================================"
+
+# conda activate "${ENV1}"
+# export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
+
+# python "${SCRIPT_DIR}/Multi_ASR/step1_diarize_asr.py" \
+#     --data_dir "${DATA_PATH}" \
+#     --diar_model_path "${DIAR_MODEL_PATH}" \
+#     --asr_model_path  "${ASR_MODEL_PATH}" \
+#     --max_num_of_spks "${MAX_NUM_OF_SPKS}" \
+#     --output_dir      "${OUTPUT_DIR}"
+
+
+# ──────────────────────────────────────────────────────────────────────
+#  Step 1a: Diarization + ASR inference  (env1 — NeMo, needs GPU) for Bazinga! dataset
+# ──────────────────────────────────────────────────────────────────────
+DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory/"
+OUTPUT_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step1/"
 
 echo "============================================================"
 echo "  Step 1a: Diarization + ASR inference  (conda env: ${ENV1})"
@@ -45,23 +67,10 @@ echo "============================================================"
 
 conda activate "${ENV1}"
 export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
-python "${SCRIPT_DIR}/Multi_ASR/step1_diarize_asr.py" \
-    --data_dir "${DATA_PATH}" \
+
+python -m audio_script.Multi_ASR.step1_diarize_asr_bazinga \
+    --data_dir   "${DATA_PATH}" \
     --diar_model_path "${DIAR_MODEL_PATH}" \
     --asr_model_path  "${ASR_MODEL_PATH}" \
-    --max_num_of_spks "${MAX_NUM_OF_SPKS}" \
+    --max_num_of_spks  "${MAX_NUM_OF_SPKS}" \
     --output_dir      "${OUTPUT_DIR}"
-
-# ──────────────────────────────────────────────────────────────────────
-#  Step 1b: Evaluate DER + cpWER  (same env, no GPU needed)
-# ──────────────────────────────────────────────────────────────────────
-
-# echo ""
-# echo "============================================================"
-# echo "  Step 1b: Evaluate DER + cpWER"
-# echo "============================================================"
-
-# python "${SCRIPT_DIR}/step1_eval.py" \
-#     --data_dir "${OUTPUT_DIR}"
-
-# conda deactivate

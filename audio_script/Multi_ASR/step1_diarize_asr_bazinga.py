@@ -37,7 +37,7 @@ from tqdm import tqdm
 
 from audio_script.datasets.Bazinga_loader import BazingaDataset
 
-
+SR = 16000
 # ──────────────────────────────────────────────────────────────────────────────
 # Model config  (identical to the original step1_diarize_asr.py)
 # ──────────────────────────────────────────────────────────────────────────────
@@ -119,6 +119,7 @@ class MultitalkerTranscriptionConfig:
 
 def run_diarization_asr(
     audio: np.ndarray,
+    audio_file: str,
     asr_model,
     diar_model,
     cfg,
@@ -131,7 +132,7 @@ def run_diarization_asr(
         word_list         – per-speaker word-level predictions
         diar_result       – binary numpy array (num_frames, num_speakers)
     """
-    # cfg.audio_file = audio_file
+    cfg.audio_file = audio_file
     samples = [{"audio_filepath": audio_file}]
 
     streaming_buffer = CacheAwareStreamingAudioBuffer(
@@ -229,7 +230,7 @@ def main():
     # ── Discover episodes via Bazinga loader ─────────────────────────
     dataset = BazingaDataset(
         args.data_dir,
-        sample_rate=16000,
+        sample_rate=SR,
     )
     print(f"Found {len(dataset)} episodes under {args.data_dir}")
 
@@ -266,12 +267,13 @@ def main():
     diar_model.sortformer_modules.log = cfg.log
     diar_model.sortformer_modules.spkcache_refresh_rate = cfg.spkcache_refresh_rate
 
-    print("Configuration complete:", cfg)
+    # print("Configuration complete:", cfg)
 
     # ── Process each episode ─────────────────────────────────────────
     num_processed = 0
     num_skipped = 0
-
+    num_fail = 0
+    audio_chunk = SR*120
     for sample in tqdm(dataset):
         print(f"\n{'=' * 70}")
         print(f"Processing episode: {sample['conv_id']}")
@@ -282,55 +284,69 @@ def main():
         conv_id = sample["conv_id"]
         # Where to save outputs
         save_dir = os.path.join(args.output_dir, conv_id)
-        diar_path = os.path.join(save_dir, "diart_pred.npy")
-        word_list_path = os.path.join(save_dir, "transcript_pred.json")
-        info_path = os.path.join(save_dir, "sample_info.json")
-
-        if os.path.exists(diar_path) and os.path.exists(word_list_path) and os.path.exists(info_path):
-            print(f"  Skipping (already exists): {save_dir}")
-            num_skipped += 1
-            continue
-        print(f"  Running diarization + ASR for {conv_id}")
-        print(f"  Audio shape: {sample['audio'].shape}")
-        exit(0)
-        try:
-            seglst_dict_list, word_list, diar_result = run_diarization_asr(
-                sample["audio"], asr_model, diar_model, cfg
-            )
-        except Exception as e:
-            print(f"  Error processing {conv_id}: {e}")
-            continue
-        
-
         os.makedirs(save_dir, exist_ok=True)
-        np.save(diar_path, diar_result)
-        with open(word_list_path, "w") as fh:
-            json.dump(word_list, fh, indent=2)
+        raw_audio = sample['audio']
+        T = raw_audio.shape[0]
 
-        # Manifest entry — uses Bazinga-specific fields instead of
-        # transcript1/2_path + vad1/2_path from the InterAct pipeline
-        sample_info = {
-            "dataset": "bazinga",
-            "conv_id": conv["conv_id"],
-            "audio_file": conv["audio_path"],
-            "txt_path": conv["txt_path"],
-            "speakers": conv["speakers"],
-            "gt_transcript_path": conv["gt_transcript_path"],
-            "diart_path": diar_path,
-            "pred_transcript_path": word_list_path,
-            "feat_len_sec": 0.08,
-        }
-        with open(info_path, "w") as fh:
-            json.dump(sample_info, fh, indent=2)
+        chunk_id = 0
+        for t in range(0, T, audio_chunk):
+            start_time = t
+            end_time = t + audio_chunk
+            if end_time > T:
+                end_time = T
+            audio = raw_audio[start_time:end_time]
 
-        print(f"  Saved: {diar_path}  shape={diar_result.shape}")
-        print(f"  Saved: {word_list_path}")
-        print(f"  Saved: {info_path}")
-        num_processed += 1
+            diar_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "diart_pred.npy")
+            word_list_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "transcript_pred.json")
+            info_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "sample_info.json")
+
+            if os.path.exists(diar_path) and os.path.exists(word_list_path) and os.path.exists(info_path):
+                print(f"  Skipping (already exists): {diar_path}")
+                num_skipped += 1
+                continue
+            print(audio.shape)
+            try:
+                seglst_dict_list, word_list, diar_result = run_diarization_asr(
+                    audio, sample["audio_path"], asr_model, diar_model, cfg
+                )
+            except Exception as e:
+                print(f"  Error processing {conv_id}: {e}")
+                num_fail += 1
+                continue
+
+            os.makedirs(os.path.join(save_dir, f"CHUNK_{chunk_id}"), exist_ok=True)
+            np.save(diar_path, diar_result)
+            with open(word_list_path, "w") as fh:
+                json.dump(word_list, fh, indent=2)
+
+            # Manifest entry — uses Bazinga-specific fields instead of
+            # transcript1/2_path + vad1/2_path from the InterAct pipeline
+            sample_info = {
+                "dataset": "bazinga",
+                "conv_id": sample["conv_id"],
+                "chunk_id": chunk_id,
+                "audio_file": sample["audio_path"],
+                "txt_path": sample["txt_path"],
+                "speakers": sample["speakers"],
+                "gt_transcript_path": sample["transcript_path"],
+                "diart_path": diar_path,
+                "pred_transcript_path": word_list_path,
+                "feat_len_sec": 0.08,
+                "time_stamp": [start_time, end_time],
+            }
+            with open(info_path, "w") as fh:
+                json.dump(sample_info, fh, indent=2)
+
+            print(f"  Saved: {diar_path}  shape={diar_result.shape}")
+            print(f"  Saved: {word_list_path}")
+            print(f"  Saved: {info_path}")
+            num_processed += 1
+            chunk_id += 1
+        break
 
     print(
         f"\nStep 1 (Bazinga) complete. "
-        f"Processed {num_processed}, skipped {num_skipped} episodes."
+        f"Processed {num_processed}, skipped {num_skipped} episodes, failes chunk {num_fail}."
     )
 
 

@@ -42,6 +42,7 @@ def parse_bazinga_txt(txt_path: str) -> Dict[str, List[Dict]]:
         { speaker_name: [word_dict, ...] }  (words sorted by start time)
     """
     speaker_words: Dict[str, List[Dict]] = defaultdict(list)
+    raw_transcript = []
 
     with open(txt_path, "r", encoding="utf-8") as fh:
         for line in fh:
@@ -68,7 +69,14 @@ def parse_bazinga_txt(txt_path: str) -> Dict[str, List[Dict]]:
 
             listener = parts[6] if len(parts) > 6 else "_"
             scene_context = parts[7] if len(parts) > 7 else "_"
-
+            raw_transcript.append({
+                "word": word,
+                "start": start,
+                "end": end,
+                "score": score,
+                "listener": listener,
+                "scene_context": scene_context,
+            })
             speaker_words[speaker].append({
                 "word": word,
                 "start": start,
@@ -82,7 +90,7 @@ def parse_bazinga_txt(txt_path: str) -> Dict[str, List[Dict]]:
     for spk in speaker_words:
         speaker_words[spk].sort(key=lambda w: w["start"])
 
-    return dict(speaker_words)
+    return dict(speaker_words), raw_transcript
 
 
 def words_to_segments(
@@ -235,7 +243,7 @@ class BazingaDataset:
     # Core access
     # ------------------------------------------------------------------
 
-    def load_sample(self, idx: int) -> Dict[str, Any]:
+    def __getitem__(self, idx: int) -> Dict[str, Any]:
         """
         Load one episode by index.
 
@@ -259,8 +267,8 @@ class BazingaDataset:
         audio, sr = librosa.load(audio_path, sr=self.sample_rate, mono=True)
         audio = audio.astype(np.float32)
 
-        transcripts = parse_bazinga_txt(txt_path)
-        speakers = list(transcripts.keys()) 
+        transcripts, raw_transcript = parse_bazinga_txt(txt_path)
+        speakers = list(transcripts.keys())
 
         transcript_gt_path = os.path.join(self.data_dir, episode_id + "_gt_transcript.json")
         with open(transcript_gt_path, "w", encoding="utf-8") as fh:
@@ -277,7 +285,9 @@ class BazingaDataset:
         return {
             "conv_id": episode_id,
             "audio": audio,
+            "raw_transcript": raw_transcript,
             "audio_path": audio_path,
+            "txt_path": txt_path,
             "sr": sr,
             "speakers": speakers,
             "transcript_path": transcript_gt_path,
