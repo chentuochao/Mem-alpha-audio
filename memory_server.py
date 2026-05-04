@@ -575,7 +575,7 @@ INSTRUCTIONS:
 
     def agentic_search_and_respond(self, memory_data: Dict[str, Any], question: str,
                                   max_iterations: int = 5, temperature: float = 0.7,
-                                  max_tokens: int = 2048) -> Tuple[str, List[Dict[str, Any]]]:
+                                  max_tokens: int = 2048) -> Tuple[str, List[Dict[str, Any]], Dict[str, Any]]:
         """
         Perform iterative memory search using function calling to find the best answer.
 
@@ -587,8 +587,9 @@ INSTRUCTIONS:
             max_tokens: Maximum tokens for response
 
         Returns:
-            Tuple of (final_response, search_history) where search_history contains details
-            of each search iteration
+            Tuple of (final_response, search_history, retrieved_memory) where
+            retrieved_memory is a dict with the accumulated 'semantic' and 'episodic'
+            memory items (plus 'core') that were seen by the model.
         """
         search_history = []
 
@@ -596,6 +597,10 @@ INSTRUCTIONS:
         initial_top_k = 2
         filtered_memory_data = self.search_memories(memory_data, question, top_k=initial_top_k)
         system_prompt = self.construct_system_prompt(filtered_memory_data, memory_data)
+
+        # Accumulated retrieved memory items (keyed by memory_id to avoid duplicates)
+        accumulated_semantic = {list(m.keys())[0]: m for m in filtered_memory_data.get('semantic', [])}
+        accumulated_episodic = {list(m.keys())[0]: m for m in filtered_memory_data.get('episodic', [])}
 
         # Define available functions for memory search
         memory_search_tool = {
@@ -658,7 +663,12 @@ INSTRUCTIONS:
                         'action': 'final_answer',
                         'message': 'Agent provided final answer'
                     })
-                    return assistant_message.content, search_history
+                    retrieved_memory = {
+                        'core': memory_data.get('core', None),
+                        'semantic': list(accumulated_semantic.values()),
+                        'episodic': list(accumulated_episodic.values()),
+                    }
+                    return assistant_message.content, search_history, retrieved_memory
 
                 # Add assistant message to conversation
                 messages.append({
@@ -700,10 +710,14 @@ INSTRUCTIONS:
                                     if len(new_memories) >= final_top_k:
                                         break
 
-                            # Add the selected new memories to retrieved set
+                            # Add the selected new memories to retrieved set and accumulator
                             for mem in new_memories:
                                 mem_id = list(mem.keys())[0]
                                 retrieved_ids.add(mem_id)
+                                if memory_type == 'semantic':
+                                    accumulated_semantic[mem_id] = mem
+                                else:
+                                    accumulated_episodic[mem_id] = mem
 
                             # Format search results for tool return
                             if new_memories:
@@ -746,6 +760,12 @@ INSTRUCTIONS:
         # If we've reached max iterations, get final response
         logger.info(f"Reached max iterations ({max_iterations}), generating final response")
 
+        retrieved_memory = {
+            'core': memory_data.get('core', None),
+            'semantic': list(accumulated_semantic.values()),
+            'episodic': list(accumulated_episodic.values()),
+        }
+
         try:
             final_response = self.client.chat.completions.create(
                 model=self.model_name,
@@ -760,11 +780,11 @@ INSTRUCTIONS:
                 'message': 'Generated final response after reaching max iterations'
             })
 
-            return final_response.choices[0].message.content, search_history
+            return final_response.choices[0].message.content, search_history, retrieved_memory
 
         except Exception as e:
             logger.error(f"Error generating final response: {str(e)}")
-            return f"Error generating response: {str(e)}", search_history
+            return f"Error generating response: {str(e)}", search_history, retrieved_memory
 
 # Global processor and processor variables
 processor = None
@@ -1370,18 +1390,20 @@ def agentic_process():
         # Process each memory-question pair
         results = []
         all_search_iterations = []
+        all_retrieved_memories = []
 
         for mem_idx, (memory_data, question_list) in enumerate(zip(memories, questions)):
             logger.info(f"Processing memory set {mem_idx+1}/{len(memories)} with {len(question_list)} questions")
 
             batch_results = []
             batch_iterations = []
+            batch_retrieved = []
 
             for q_idx, question in enumerate(question_list):
                 logger.info(f"  Processing question {q_idx+1}/{len(question_list)}: {question[:50]}...")
 
                 # Perform agentic search for this question
-                response, search_history = processor.agentic_search_and_respond(
+                response, search_history, retrieved_memory = processor.agentic_search_and_respond(
                     memory_data=memory_data,
                     question=question,
                     max_iterations=max_iterations,
@@ -1391,14 +1413,17 @@ def agentic_process():
 
                 batch_results.append(response)
                 batch_iterations.append(search_history)
+                batch_retrieved.append(retrieved_memory)
 
             results.append(batch_results)
             all_search_iterations.append(batch_iterations)
+            all_retrieved_memories.append(batch_retrieved)
 
         logger.info(f"Successfully completed agentic processing for {len(memories)} memory sets")
 
         return jsonify({
             "result": results,
+            "retrieved_memories": all_retrieved_memories,
             "status": "success",
             "processed_count": sum(len(r) for r in results),
             "search_iterations": all_search_iterations
@@ -1480,6 +1505,7 @@ def batch_process():
         # Create prompts for all memory/question combinations and track structure
         all_prompts = []
         structure_info = []  # Track which memory and question index each prompt belongs to
+        all_filtered_memories = []  # Track retrieved memories for each prompt
 
         for mem_idx, (memory_data, question_list) in enumerate(zip(memories, questions)):
             for q_idx, question in enumerate(question_list):
@@ -1526,6 +1552,7 @@ def batch_process():
 
                 # Track which memory and question this prompt belongs to
                 structure_info.append((mem_idx, q_idx))
+                all_filtered_memories.append(filtered_memory_data)
 
         # Perform batch inference
         if "qwen3-32b" in processor.model and processor.tokenizer is not None:
@@ -1663,15 +1690,18 @@ def batch_process():
                         logger.error(f"Error processing individual prompt: {str(e)}")
                         all_results.append(f"Error: {str(e)}")
 
-        # Reshape results to match input structure using structure_info
-        # Pre-allocate results with correct sizes for each memory's question list
+        # Reshape results and retrieved memories to match input structure using structure_info
+        # Pre-allocate with correct sizes for each memory's question list
         results = []
+        retrieved_memories = []
         for question_list in questions:
-            results.append([None] * len(question_list))  # Pre-allocate with correct size
+            results.append([None] * len(question_list))
+            retrieved_memories.append([None] * len(question_list))
 
-        # Place results in correct positions
+        # Place results and retrieved memories in correct positions
         for result_idx, (mem_idx, q_idx) in enumerate(structure_info):
             results[mem_idx][q_idx] = all_results[result_idx]
+            retrieved_memories[mem_idx][q_idx] = all_filtered_memories[result_idx]
 
         # Assert no None values exist in results
         for mem_idx, result_list in enumerate(results):
@@ -1682,6 +1712,7 @@ def batch_process():
 
         return jsonify({
             "result": results,
+            "retrieved_memories": retrieved_memories,
             "status": "success",
             "processed_count": len(all_results)
         })

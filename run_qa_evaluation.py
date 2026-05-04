@@ -382,7 +382,9 @@ def run_qa_evaluation_batch(
         if response.status_code != 200:
             raise Exception(f"Memory server request failed with status {response.status_code}: {response.text}")
 
-        server_results = response.json().get('result', [])
+        server_response_json = response.json()
+        server_results = server_response_json.get('result', [])
+        server_retrieved_memories = server_response_json.get('retrieved_memories', [])
 
         # Process server results and map back to original question order
         question_responses = [None] * len(all_questions)
@@ -392,10 +394,12 @@ def run_qa_evaluation_batch(
         for memory_idx in sorted(questions_by_memory.keys()):
             memory_questions = questions_by_memory[memory_idx]
             memory_results = server_results[result_idx] if result_idx < len(server_results) else []
+            memory_retrieved = server_retrieved_memories[result_idx] if result_idx < len(server_retrieved_memories) else []
 
             for i, q_info in enumerate(memory_questions):
                 metadata_idx = q_info['metadata_idx']
                 response_text = memory_results[i] if i < len(memory_results) else "No response from server"
+                retrieved_mem = memory_retrieved[i] if i < len(memory_retrieved) else None
 
                 question_responses[metadata_idx] = response_text
                 step_info = {
@@ -403,7 +407,8 @@ def run_qa_evaluation_batch(
                     "final_response": response_text,
                     "memory_server_used": True,
                     "batch_processed": True,
-                    "agentic_search_used": args.agentic_search
+                    "agentic_search_used": args.agentic_search,
+                    "retrieved_memory": retrieved_mem,
                 }
                 question_step_infos[metadata_idx] = step_info
 
@@ -425,13 +430,16 @@ def run_qa_evaluation_batch(
             batch_results_dict[batch_idx] = []
 
         # Format result based on dataset type
+        step_info = question_step_infos[i] or {}
+        retrieved_memory = step_info.get('retrieved_memory')
         if meta['dataset_type'] == 'LOCOMO':
             result = {
                 'question': meta['question'],
                 'response': question_responses[i],
                 'answer': meta['answer'],
                 'category': meta['category'],
-                'step_info': question_step_infos[i]
+                'retrieved_memory': retrieved_memory,
+                'step_info': step_info,
             }
         elif meta['dataset_type'] == 'MemAgent_Bench':
             result = {
@@ -440,14 +448,16 @@ def run_qa_evaluation_batch(
                 'answer': meta['answer'],
                 'category': meta['category'],
                 'source': meta['source'],
-                'step_info': question_step_infos[i]
+                'retrieved_memory': retrieved_memory,
+                'step_info': step_info,
             }
         else:
             result = {
                 'question': meta['question'],
                 'response': question_responses[i],
                 'answer': meta['answer'],
-                'step_info': question_step_infos[i]
+                'retrieved_memory': retrieved_memory,
+                'step_info': step_info,
             }
 
         batch_results_dict[batch_idx].append(result)

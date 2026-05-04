@@ -70,6 +70,7 @@ def parse_bazinga_txt(txt_path: str) -> Dict[str, List[Dict]]:
             listener = parts[6] if len(parts) > 6 else "_"
             scene_context = parts[7] if len(parts) > 7 else "_"
             raw_transcript.append({
+                "speaker": speaker,
                 "word": word,
                 "start": start,
                 "end": end,

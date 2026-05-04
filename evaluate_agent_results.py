@@ -321,7 +321,7 @@ class AgentResultsEvaluator:
                     result['judgment'] = 'not_sure'
                 else:
                     result['judgment'] = 'wrong'
-
+            print(result['question'], result['judgment'] )
             # Group scores by instance
             if instance_id not in instance_scores:
                 instance_scores[instance_id] = []

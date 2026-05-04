@@ -240,10 +240,10 @@ Example: `./agents/memalpha_Qwen_Qwen3-4B_seamlessinteraction_gt_tokens_2048/0/`
 
 QA accuracy
 ```
-python evaluate_agent_results.py --base_dir /storage/home/tuochao/Mem-alpha-audio/agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048 --output /storage/home/tuochao/Mem-alpha-audio/agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048/evaluation_metrics.json
+QWEN_URL="http://localhost:8002/v1"  python evaluate_agent_results.py --base_dir ./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_seamlessinteraction_gt_ext_qwen3-32b_no_thinking_tokens_2048
 ```
 
 Compression Ratio
 ```
-python evaluate_compression_ratio.py --base_dir ./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_memalpha_ext_qwen3-32b_no_thinking_tokens_2048 --dataset memalpha
+QWEN_URL="http://localhost:8002/v1"  python evaluate_agent_results.py --base_dir ./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_seamlessinteraction_gt_ext_qwen3-32b_no_thinking_tokens_2048 --dataset seamlessinteraction_gt
 ```

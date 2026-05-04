@@ -34,6 +34,7 @@ from nemo.collections.asr.parts.utils.streaming_utils import (
 )
 from omegaconf import OmegaConf
 from tqdm import tqdm
+from collections import defaultdict
 
 from audio_script.datasets.Bazinga_loader import BazingaDataset
 
@@ -200,7 +201,7 @@ def get_chunked_transcript(transcript: List[Dict], start_time: int, end_time: in
 
     vad = transcription_to_vad(speaker_words)
     return speaker_words, chunked_transcript, vad
-    
+
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -332,17 +333,14 @@ def main():
             info_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "sample_info.json")
             vad_gt_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "vad_gt.json")
 
-            with open(word_list_path_gt, "w", encoding="utf-8") as fh:
-                json.dump(speaker_transcripts, fh, indent=2)
-            ## convert transcription to VAD array for diarization gt
-            vad_gt_path = os.path.join(self.data_dir, episode_id + "_gt_vad.json")
-            with open(vad_gt_path, "w", encoding="utf-8") as fh:
-                json.dump(vad_gt, fh, indent=2)
 
             if os.path.exists(diar_path) and os.path.exists(word_list_path) and os.path.exists(info_path):
                 print(f"  Skipping (already exists): {diar_path}")
                 num_skipped += 1
+                chunk_id += 1
                 continue
+
+
             try:
                 seglst_dict_list, word_list, diar_result = run_diarization_asr(
                     audio, sample["audio_path"], asr_model, diar_model, cfg
@@ -350,9 +348,18 @@ def main():
             except Exception as e:
                 print(f"  Error processing {conv_id}: {e}")
                 num_fail += 1
+                chunk_id += 1
                 continue
 
             os.makedirs(os.path.join(save_dir, f"CHUNK_{chunk_id}"), exist_ok=True)
+
+            with open(word_list_path_gt, "w", encoding="utf-8") as fh:
+                json.dump(speaker_transcripts, fh, indent=2)
+            ## convert transcription to VAD array for diarization gt
+            with open(vad_gt_path, "w", encoding="utf-8") as fh:
+                json.dump(vad_gt, fh, indent=2)
+
+
             np.save(diar_path, diar_result)
             with open(word_list_path, "w") as fh:
                 json.dump(word_list, fh, indent=2)
@@ -365,7 +372,7 @@ def main():
                 "chunk_id": chunk_id,
                 "audio_file": sample["audio_path"],
                 "txt_path": sample["txt_path"],
-                "speakers": sample["speakers"],
+                "speakers": speaker_transcripts.keys(),
                 "transcript_path": word_list_path_gt,
                 "vad_path": vad_gt_path,
                 "diart_path": diar_path,

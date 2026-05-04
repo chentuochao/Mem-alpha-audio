@@ -192,6 +192,10 @@ def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
 
 def parse_transcript(word_list: Dict) -> List[Dict]:
     # parse the output of words list
+    """
+        From a word_list dict {speaker_id: [{word, start, end, ...}, ...]},
+        return a list of concatenated text strings for each non-empty speaker.
+    """
     # check the speaker number
     speaker_transcripts = {}
     valid_speakers = []
@@ -266,6 +270,90 @@ def parse_transcript(word_list: Dict) -> List[Dict]:
     # for utt in speaker_aware_turn:
     #     print(utt["dialog_type"], utt["speaker"], utt["start"], utt["end"], utt["text"] )
 
+    return speaker_aware_turn
+
+
+
+def parse_transcript_morespeakers(word_list: Dict) -> List[Dict]:
+    """Parse a word-list dict into speaker-aware turns for 1–8 speakers.
+
+    Takes the output format of transcript_gt.json:
+        {speaker_id: [{word, start, end, score, ...}, ...], ...}
+
+    and returns a sorted list of turn dicts, each with keys:
+        dialog_type, speaker, start, end, text, wfeats.
+
+    Steps:
+        1. Filter out speakers with no words.
+        2. Sort each speaker's words by start time.
+        3. Wrap each speaker's word list into a single segment dict
+           (the format AlignedProcess expects).
+        4. For 0 speakers  -> return empty list.
+           For 1 speaker   -> return one turn covering all words.
+           For 2+ speakers -> use AlignedProcess_Morespeakers to detect
+                              turns, backchannels, and overlaps.
+
+    Args:
+        word_list: dict mapping speaker names to lists of word dicts.
+                   Each word dict must have at least: word, start, end, score.
+
+    Returns:
+        List of turn dicts sorted by (start, -end), with dialog_type labels.
+    """
+    # --- Step 1 & 2: Collect valid speakers and sort their words ---
+    speaker_transcripts = {}
+    valid_speakers = []
+    for speaker in word_list.keys():
+        words = word_list[speaker]
+        if len(words) == 0:
+            continue
+        # Sort words by start time to ensure chronological order.
+        words = sorted(words, key=lambda x: x['start'])
+        valid_speakers.append(speaker)
+        # Wrap the flat word list into a single-segment list,
+        # which is the format AlignedProcess / AlignedProcess_Morespeakers
+        # expects as input per speaker.
+        speaker_transcripts[speaker] = [{
+            "speaker": speaker,
+            "start": words[0]['start'],
+            "end": words[-1]['end'],
+            "words": words,
+        }]
+
+    # --- Step 3: Handle based on number of valid speakers ---
+    if len(valid_speakers) == 0:
+        print("No valid speakers found!")
+        return []
+
+    if len(valid_speakers) == 1:
+        # Only one speaker: no turn-taking to detect, just return one turn.
+        print(f"Only one valid speaker found: {valid_speakers[0]}")
+        words = speaker_transcripts[valid_speakers[0]][0]["words"]
+        transcript = "".join(w["word"] for w in words)
+        return [{
+            "dialog_type": "dialog",
+            "speaker": valid_speakers[0],
+            "start": words[0]['start'],
+            "end": words[-1]['end'],
+            "text": transcript,
+            "wfeats": words,
+        }]
+
+    # --- 2+ speakers: use AlignedProcess_Morespeakers ---
+    # Build the ordered lists that the constructor expects.
+    transcripts_list = [speaker_transcripts[spk] for spk in valid_speakers]
+
+    aligned_process = AlignedProcess_Morespeakers(
+        transcripts=transcripts_list,
+        speaker_names=valid_speakers,
+        interval_character=' ',
+        turn_gap_threshold=TURN_GAP_TH,
+    )
+
+    # get_parsed_dialog_combined returns all speakers' turns in one
+    # sorted list, already tagged with dialog_type and human-readable
+    # speaker names.
+    speaker_aware_turn = aligned_process.get_parsed_dialog_combined()
     return speaker_aware_turn
 
 
