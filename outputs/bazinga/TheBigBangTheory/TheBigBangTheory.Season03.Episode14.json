@@ -1,0 +1,1220 @@
+[
+  {
+    "start": 16.53,
+    "end": 16.8,
+    "text": "Whatcha doing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 17.61,
+    "end": 22.86,
+    "text": "I'm attempting to view my work as a fleeting peripheral image so as to engage the superior colliculus of my brain .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 26.57,
+    "end": 33.07,
+    "text": "Interesting . I usually just have coffee . You've been up all night ? Yes .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 31.52,
+    "end": 34.0,
+    "text": "Is it morning ? Then I've been up all night .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 37.67,
+    "end": 38.46,
+    "text": "And you're stuck ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 38.78,
+    "end": 41.57,
+    "text": "Why else would a person try to engage their superior colliculus ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 41.61,
+    "end": 45.25,
+    "text": "Oh , sorry , sweetie , I can't help you till I've had my coffee .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 53.42,
+    "end": 56.7,
+    "text": "Penny , I told you if you don't put him in his crate at night he just runs around the apartment .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.84,
+    "end": 62.3,
+    "text": "What is he doing now ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 63.12,
+    "end": 73.09,
+    "text": "Mmm , he's either isolating the terms of his formula and examining them individually , or looking for the alligator that swallowed his hand after Peter Pan cut it off .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 75.53,
+    "end": 81.65,
+    "text": "Captain Hook's hand was eaten by a crocodile , not an alligator . If you're going to mock me , at least get your facts straight .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.83,
+    "end": 84.08,
+    "text": "Aye , aye , Captain .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 86.38,
+    "end": 89.27,
+    "text": "I can't see it ! It just won't coalesce .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 89.61,
+    "end": 90.8,
+    "text": "Maybe you need a fresh start .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 92.12,
+    "end": 92.76,
+    "text": "You're right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 104.76,
+    "end": 106.02,
+    "text": "It's a great idea , Leonard . Thank you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 133.31,
+    "end": 136.25,
+    "text": "Electrons move through graphene , act as if they have no mass ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 139.22,
+    "end": 140.48,
+    "text": "How long has he been stuck ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 141.34,
+    "end": 144.21,
+    "text": "Intellectually about 30 hours . Emotionally about 29 years .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 145.68,
+    "end": 150.59,
+    "text": "Unit cell contains two carbon atoms . Interior angle of a hexagon is 120 degrees .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 154.45,
+    "end": 155.79,
+    "text": "Have you tried rebooting him ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 160.37,
+    "end": 161.81,
+    "text": "No , I think it's a firmware problem .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.85,
+    "end": 168.33,
+    "text": "Hey , it's Disco Night at the Moonlight Roller Rink in Glendale tonight . Who's up for getting down ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 169.38,
+    "end": 173.44,
+    "text": "Oh , that's perfect . Bernadette's been hocking me to take her roller skating .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 173.81,
+    "end": 176.11,
+    "text": "I think Penny likes to skate . The four of us could double .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 176.29,
+    "end": 177.28,
+    "text": "What could be better ? We're in .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 177.67,
+    "end": 180.42,
+    "text": "Great . It's not like I brought it up because I wanted to go .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 183.71,
+    "end": 185.01,
+    "text": "You can come with us .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.09,
+    "end": 191.46,
+    "text": "No , it's okay . I don't have to go . I'm happy just to guide you and your ladies to suitable entertainment choices . I'm a walking brown Yelp.com .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 194.47,
+    "end": 196.31,
+    "text": "Structure , constant structure . One atom ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.81,
+    "end": 199.03,
+    "text": "Boy , he's really gone , isn't he ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 199.92,
+    "end": 202.46,
+    "text": "Yeah , this morning he used a stick of butter as deodorant .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 203.56,
+    "end": 205.97,
+    "text": "I thought I smelled popcorn .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.31,
+    "end": 212.45,
+    "text": "Pattern is the same as fermions , travels on the pathways , hexagonal , it's always hexagonal ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 213.17,
+    "end": 216.46,
+    "text": "I haven't seen him this stuck since he tried to figure out the third Matrix movie .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 220.32,
+    "end": 221.95,
+    "text": "Hey , those are my lima beans !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 221.98,
+    "end": 223.87,
+    "text": "Not lima beans , carbon atoms .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 224.81,
+    "end": 227.35,
+    "text": "But if I don't eat my lima beans , I can't have my cookie .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 229.05,
+    "end": 229.8,
+    "text": "Here , you want my peas ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 230.04,
+    "end": 231.78,
+    "text": "Peas ! Perfect , they can be electrons .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.4,
+    "end": 233.42,
+    "text": "Want my corn ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 234.11,
+    "end": 238.13,
+    "text": "Don't be ridiculous . What would I do with corn ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 239.98,
+    "end": 242.3,
+    "text": "So roller skating , should we all grab a bite to eat first ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 242.42,
+    "end": 244.7,
+    "text": "Good . P.F . Chang's ? My mom has coupons .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 245.9,
+    "end": 248.24,
+    "text": "Great . Your mom's not coming , right ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 248.63,
+    "end": 249.71,
+    "text": "Not this time , I promise .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 251.71,
+    "end": 259.19,
+    "text": "Okay , just to be clear , roller skating was my idea , and I'm very unhappy that you turned it into a double date , and I hope you both fall on your asses and break your coccyxes .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 262.2,
+    "end": 264.06,
+    "text": "The plural of coccyx is coccyges .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 265.82,
+    "end": 267.36,
+    "text": "Screw you . Give me back my lima beans .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 270.65,
+    "end": 277.58,
+    "text": "Oh , my God , have you ever been so embarrassed ? I don't know which was lamer , their roller-skating or their disco dancing .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 272.96,
+    "end": 273.85,
+    "text": "Not recently .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 278.12,
+    "end": 280.96,
+    "text": "For me , the worst part was when people saw us leave with them .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 282.26,
+    "end": 285.54,
+    "text": "You had some nice moves out there , Howard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 286.72,
+    "end": 287.41,
+    "text": "Thanks . You , too .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 287.68,
+    "end": 289.86,
+    "text": "Yeah . Did you notice all the people looking at us ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 291.17,
+    "end": 293.11,
+    "text": "Not really . I was in my boogie zone .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 294.99,
+    "end": 297.38,
+    "text": "When Howard tried to do the splits ...",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 298.09,
+    "end": 298.44,
+    "text": "Shh .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 299.15,
+    "end": 302.25,
+    "text": "Sorry . I'm moving a little slow . I think I bruised my coccyx .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.68,
+    "end": 303.9,
+    "text": "Oh , poor baby .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 304.31,
+    "end": 306.31,
+    "text": "Don't tell Koothrappali . After you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 307.09,
+    "end": 309.8,
+    "text": "Oh , what a gentleman . Hey , Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 310.58,
+    "end": 312.9,
+    "text": "Oh , my God ! Are you ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 313.68,
+    "end": 316.38,
+    "text": "Good Lord ! You're ruining everything !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 316.71,
+    "end": 319.49,
+    "text": "Oh , damn . Do I look okay ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 317.71,
+    "end": 318.18,
+    "text": "Are you okay ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 319.96,
+    "end": 321.34,
+    "text": "Don't bark at me . I fell , too .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 321.44,
+    "end": 324.08,
+    "text": "Oh , you've been falling all night . You're used to it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 325.62,
+    "end": 327.07,
+    "text": "Sheldon , what the hell are you doing ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 327.23,
+    "end": 337.0,
+    "text": "The same thing I've been doing for three days . Trying to figure out why electrons behave as if they have no mass when travelling through a graphene sheet . Well , I needed something bigger than peas , now , didn't I ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 333.82,
+    "end": 334.75,
+    "text": "With marbles ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 338.86,
+    "end": 341.0,
+    "text": "Sheldon , when was the last time you got any sleep ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 341.5,
+    "end": 352.09,
+    "text": "I don't know , two , three days . Not important . I don't need sleep , I need answers . I need to determine where in this swamp of unbalanced formulas squatteth the toad of truth .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 354.98,
+    "end": 357.08,
+    "text": "Toad of truth ? Is that a physics thing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 357.23,
+    "end": 358.84,
+    "text": "No , that's a crazy thing .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 360.67,
+    "end": 366.43,
+    "text": "Okay , Sheldon . What happens to our neuroreceptors when we don't get enough REM sleep ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.21,
+    "end": 374.75,
+    "text": "They lose their sensitivity to serotonin and norepinephrine . Impaired cognitive function .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 371.21,
+    "end": 372.05,
+    "text": "Which leads to ... ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 375.8,
+    "end": 379.42,
+    "text": "Right , so march in there , brush your teeth and go to bed .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 380.32,
+    "end": 381.37,
+    "text": "But I don't want to go to bed .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 384.23,
+    "end": 386.05,
+    "text": "I'm going to count to three . One ...",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 387.7,
+    "end": 390.19,
+    "text": "Oh , all right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 391.84,
+    "end": 393.93,
+    "text": "That was amazing how you handled him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 394.17,
+    "end": 399.15,
+    "text": "I know how to deal with stubborn children . My mother used to run an illegal day care centre in our basement .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 412.39,
+    "end": 414.64,
+    "text": "Leonard , you're ... you're giggling in your sleep .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 415.45,
+    "end": 419.84,
+    "text": "It's not me , it's my new ringtone . The Joker from Batman .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 420.75,
+    "end": 422.57,
+    "text": "Well , it creeps me out .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 422.95,
+    "end": 424.94,
+    "text": "Me , too , but I paid three bucks for it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 426.83,
+    "end": 430.62,
+    "text": "Just answer the phone .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 432.51,
+    "end": 446.71,
+    "text": "Hello . Yeah , I'm Leonard Hofstadter . Yeah , yeah , he's my roommate . Oh , God , is he okay ? Yeah , alright , alright , I'll be right there .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.6,
+    "end": 448.35,
+    "text": "What happened ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 448.94,
+    "end": 451.05,
+    "text": "Sheldon's escaped and is terrorizing the village .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 453.49,
+    "end": 453.85,
+    "text": "Okay .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 455.94,
+    "end": 456.66,
+    "text": "Have fun .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 459.1,
+    "end": 461.04,
+    "text": "Hi . I'm Dr . Hofstadter . Where is he ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 466.24,
+    "end": 479.88,
+    "text": "Thanks for not calling the cops . Yeah , well , he's extra special . Hey , Shelly . What you doing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 480.33,
+    "end": 484.29,
+    "text": "Size ratio was all wrong . Couldn't visualize it . Needed bigger carbon atoms .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 486.06,
+    "end": 486.88,
+    "text": "Sure , sure .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 489.17,
+    "end": 490.94,
+    "text": "How did you get into this place ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 491.6,
+    "end": 501.11,
+    "text": "Back door has a five-pin tumbler system , single-circuit alarm . Child's play . You can start sorting protons and neutrons while I build carbon atoms .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 501.99,
+    "end": 504.48,
+    "text": "No , I don't think so . We need to go home now .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 505.7,
+    "end": 506.55,
+    "text": "But I'm still working .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 507.33,
+    "end": 510.22,
+    "text": "If you don't come out of there , I'm going to have to drag you out .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 511.16,
+    "end": 513.77,
+    "text": "You can try , but you'll never catch me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 515.51,
+    "end": 521.62,
+    "text": "For God's sakes . Sheldon , come here !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 523.36,
+    "end": 539.06,
+    "text": "Bazinga . Bazinga . Bazinga . Bazinga . Bazinga . Leonard and Penny . Leonard and Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 540.8,
+    "end": 545.16,
+    "text": "What ! What , what , what ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 546.91,
+    "end": 548.38,
+    "text": "Leonard and Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 559.07,
+    "end": 559.54,
+    "text": "What ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 560.21,
+    "end": 561.23,
+    "text": "I have good news .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 561.26,
+    "end": 564.23,
+    "text": "And you had to barge in here and wake us up in the middle of the night ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 564.38,
+    "end": 565.47,
+    "text": "Your cell phone was off .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 566.45,
+    "end": 568.25,
+    "text": "Because we didn't want to be disturbed .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 569.28,
+    "end": 570.27,
+    "text": "And that didn't work out , did it ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 571.95,
+    "end": 573.5,
+    "text": "Sheldon , what do you want ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 573.78,
+    "end": 576.6,
+    "text": "I came to tell you I've got the answer .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 577.82,
+    "end": 580.6,
+    "text": "Really ? You figured out the graphene problem ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.38,
+    "end": 585.79,
+    "text": "No , no , I'm still hopelessly stuck on that , but I figured out how to figure it out .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 586.23,
+    "end": 589.93,
+    "text": "Hey , you know what , Leonard , I know I said I could handle your roommate , but I was wrong . We're going to have to break up .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 590.7,
+    "end": 592.68,
+    "text": "What are you talking about ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 592.68,
+    "end": 592.8,
+    "text": "Oh .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 597.38,
+    "end": 598.1,
+    "text": "Einstein .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 599.3,
+    "end": 600.5,
+    "text": "Yeah , I'm going to need a little more .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.02,
+    "end": 602.87,
+    "text": "Albert Einstein .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 606.56,
+    "end": 607.14,
+    "text": "Keep going .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 607.86,
+    "end": 612.44,
+    "text": "When Albert Einstein came up with special relativity , he was working at the patent office .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 612.8,
+    "end": 614.9,
+    "text": "So , you're going to go work at the patent office ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 615.31,
+    "end": 632.26,
+    "text": "Don't be absurd . That's in Washington . You know I could never live in a city whose streets are laid out in a wheel-and-spoke pattern . No . I'm going to find a similarly menial job where my basal ganglia are occupied with a routine task , freeing my prefrontal cortex to work quietly in the background on my problem .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 633.68,
+    "end": 634.59,
+    "text": "Sounds like a great plan .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 634.75,
+    "end": 639.6,
+    "text": "Of course it is . Even talking to you is sufficiently menial that I can feel the proverbial juices starting to flow .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 640.67,
+    "end": 644.11,
+    "text": "Okay , well , thanks for sharing with us . Good night .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 644.25,
+    "end": 653.52,
+    "text": "You're welcome . Good night to you , too . Oh , by the way , I was watching you sleep for a moment , and I noticed that your snoring seems to be worse when you're on your back .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 654.15,
+    "end": 655.41,
+    "text": "Leonard doesn't snore .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.92,
+    "end": 657.0,
+    "text": "No , I wasn't talking to Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 660.75,
+    "end": 661.0,
+    "text": "Told you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 667.33,
+    "end": 670.8,
+    "text": "A menial job . Like yours .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 683.16,
+    "end": 705.26,
+    "text": "I do . For thousands of years , the lowest classes of the human race have spent their lives labouring to erect monuments under the lash of their betters , until finally they dropped down and became one with the dust through which they trudged . Do you have anything like that ? Shouldn't you check your database ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 712.42,
+    "end": 713.46,
+    "text": "You didn't really type .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 719.68,
+    "end": 730.32,
+    "text": "Oh , that would be good ! Sawing , hammering , eating out of a lunch pail as my working-class fellows and I sit perched precariously on a girder high above the metropolis .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 737.71,
+    "end": 741.22,
+    "text": "I could do that . One question . What's sheetrock ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 748.39,
+    "end": 751.47,
+    "text": "That seems acceptable . I don't drive .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 760.19,
+    "end": 765.72,
+    "text": "Senior theoretical particle physicist at CalTech , focusing on M theory , or , in layman's terms , string theory .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 781.45,
+    "end": 783.44,
+    "text": "Okay , I'll get those drinks started for you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 785.18,
+    "end": 785.65,
+    "text": "Behind you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 787.43,
+    "end": 789.59,
+    "text": "Sheldon , what the hell are you doing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 790.09,
+    "end": 792.23,
+    "text": "I'm trying to get these tables cleared . We're slammed .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 794.18,
+    "end": 796.31,
+    "text": "wait , wait , no , wait . Wh. . what are you doing here ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 797.1,
+    "end": 820.73,
+    "text": "A reasonable question . I asked myself , what is the most mind-numbing , pedestrian job conceivable , and three answers came to mind , uh , toll booth attendant , an Apple Store genius , and what Penny does . Now , since I don't like touching other people's coins , and I refuse to contribute to the devaluation of the word genius , here I am .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 822.39,
+    "end": 824.96,
+    "text": "You just , you just walked in and they hired you , just like that ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 825.33,
+    "end": 835.36,
+    "text": "Oh , heavens , no . Since I don't need to be paid , I didn't need to be hired . I simply came in , picked up a tray , and started working for the man . Let me get that plate out of your way .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 836.12,
+    "end": 837.68,
+    "text": "Sheldon , this is ridiculous .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 837.94,
+    "end": 847.8,
+    "text": "Is it ? Just a moment ago I had a minor epiphany regarding the polymer degradation phenomenon while scraping congealed nachos off a plate . Bernadette , table 10 wants their check .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 847.92,
+    "end": 848.56,
+    "text": "Thanks , Sheldon .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 849.17,
+    "end": 852.22,
+    "text": "Sheldon , wait , this isn't even what I do . I'm a waitress , not a busboy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 853.18,
+    "end": 894.34,
+    "text": "You're right . That is more menial . Hello , I'm Sheldon . I'll be your server today . I don't recommend the salmon . I saw it in the kitchen . All right , one bacon cheeseburger , breaking two Jewish dietary restrictions simultaneously , kudos . Beer-battered fish and chips . Now , here's your tartar sauce . I also brought you salsa . It's a little unconventional , but I think you'll like it . It's zingy . And for you , Factory Burrito Grande , no cheese , no sour cream , no ugly consequences from your lactose intolerance . Bon appétit .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 895.3,
+    "end": 909.76,
+    "text": "Hang on . Black beans , not pinto beans ? Double guacamole ? No cilantro ? Lettuce shredded , not chopped ? You understand why I'm doing this to you ? That'll be all . That was fun .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 898.75,
+    "end": 902.71,
+    "text": "Yes . Of course . Nope . Yep .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 904.29,
+    "end": 904.8,
+    "text": "I do .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 912.8,
+    "end": 913.91,
+    "text": "How long can he keep this up ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 914.04,
+    "end": 919.59,
+    "text": "I heard about this professor at MIT who melted down , bought a van , and spent the rest of his life as a mobile dog groomer .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 919.83,
+    "end": 921.27,
+    "text": "He never went back to the university ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 921.83,
+    "end": 924.6,
+    "text": "Only to shampoo Professor Chambourg's shih tzu .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 926.48,
+    "end": 927.42,
+    "text": "Sheesh .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 929.3,
+    "end": 931.89,
+    "text": "I bet if we all chipped in , we could buy Sheldon a van .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 932.96,
+    "end": 933.92,
+    "text": "But he's afraid of dogs .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 934.04,
+    "end": 935.99,
+    "text": "Yeah , that's the only thing wrong with that plan .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 937.74,
+    "end": 942.37,
+    "text": "Hey , guys , sorry you had to wait , but we are swamped . What's this ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 943.12,
+    "end": 944.02,
+    "text": "Sheldon took our order .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.65,
+    "end": 946.09,
+    "text": "Sheldon doesn't work here .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 947.81,
+    "end": 950.95,
+    "text": "Well , honey , not to complain , but we were starting to think you didn't either .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 954.8,
+    "end": 983.94,
+    "text": "Is that really necessary ? Good Lord . The interference pattern in the fracture . The motion of the wave through the molecular structure . I've been looking at it all wrong . I can't consider the electrons as particles . They move through the graphene as a wave . It's a wave ! The moment to applaud would be now . Troglodytes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 986.04,
+    "end": 988.41,
+    "text": "Sheldon , where are you going ? Aren't you going to clean this up ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 989.11,
+    "end": 989.89,
+    "text": "I'm sorry . I don't work here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 989.89,
+    "end": 990.07,
+    "text": "here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  }
+]

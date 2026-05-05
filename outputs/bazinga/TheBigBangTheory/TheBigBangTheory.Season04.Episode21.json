@@ -1,0 +1,1185 @@
+[
+  {
+    "start": 4.79,
+    "end": 5.25,
+    "text": "Leonard , are you in the shower ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 5.25,
+    "end": 6.24,
+    "text": "can't hear you , I'm in the shower .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 8.21,
+    "end": 12.35,
+    "text": "I asked if you were in the shower , but that's moot now .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 13.31,
+    "end": 13.8,
+    "text": "What ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 14.76,
+    "end": 17.58,
+    "text": "Moot . Rendered unimportant by recent events .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 18.63,
+    "end": 22.41,
+    "text": "I can't hear you , I'm in the shower .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 22.42,
+    "end": 24.36,
+    "text": "I have to skip the chitchat . Emergency .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 24.88,
+    "end": 26.13,
+    "text": "What kind of emergency ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 26.65,
+    "end": 30.0,
+    "text": "Mathematical . 32-ounce banana smoothie , 16-ounce bladder .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 31.98,
+    "end": 33.11,
+    "text": "You might not want to do that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 33.31,
+    "end": 34.28,
+    "text": "I assure you I do .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 35.75,
+    "end": 37.03,
+    "text": "Sheldon , I'm not alone in here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 37.7,
+    "end": 37.98,
+    "text": "What ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.41,
+    "end": 42.46,
+    "text": "Hello , Sheldon .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.51,
+    "end": 44.67,
+    "text": "What are you doing in there ? She can't be in here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 45.02,
+    "end": 47.1,
+    "text": "We were in here first , you can't be in here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 47.27,
+    "end": 61.0,
+    "text": "According to the roommate agreement , paragraph nine , subsection B , the right to bathroom privacy is suspended in the event of force majeure . And believe me , I am experiencing a very majeure force . Come on , you can't wait two minutes ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 61.23,
+    "end": 63.12,
+    "text": "Oh , Leonard , let the man pee .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 68.9,
+    "end": 71.51,
+    "text": "Penny ? Penny ? Penny ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 73.15,
+    "end": 73.29,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 73.71,
+    "end": 74.39,
+    "text": "Move . Move .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 92.85,
+    "end": 93.02,
+    "text": "Move !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 104.08,
+    "end": 112.23,
+    "text": "Dr . Leonard Hofstadter , you are officially charged with two violations of the roommate agreement . Do you waive reading of the charges ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 112.5,
+    "end": 113.32,
+    "text": "Yeah , fine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 113.46,
+    "end": 117.3,
+    "text": "Hang on . No , my client does not waive reading of the charges .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 119.43,
+    "end": 124.25,
+    "text": "Oh . Cool . I've got a lawyer . And I've seen her naked .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 125.99,
+    "end": 126.86,
+    "text": "Proceed .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 128.6,
+    "end": 152.1,
+    "text": "Very well . Count the first , on or about the 28th day of April , the accused did knowingly and with malice aforethought deny access to the shared bathroom in a time of emergency , to wit , my back teeth were floating . Count the second , the accused exceeded the agreed upon occupancy of the shower , to wit , one , unless we are under attack by water-soluble aliens .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 152.1,
+    "end": 156.62,
+    "text": "Can I see the roommate agreement ?",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 157.22,
+    "end": 158.97,
+    "text": "Um , it's fairly technical .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 159.85,
+    "end": 162.47,
+    "text": "I think I can handle it .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.35,
+    "end": 169.13,
+    "text": "Top of her class , Cambridge University . Licensed to practice law in three countries . And your face .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 174.9,
+    "end": 179.44,
+    "text": "All right , based on a cursory reading , it doesn't look like you have much of a case , Sheldon .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 180.18,
+    "end": 181.21,
+    "text": "Do so , do so .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 183.21,
+    "end": 191.01,
+    "text": "Oh , I'm afraid not . Section seven here , on the right to enter the bathroom in emergency situations , is not specific as to what constitutes an emergency .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 191.24,
+    "end": 194.54,
+    "text": "Oh , that's ridiculous . A bathroom emergency is self-explanatory .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 195.2,
+    "end": 199.62,
+    "text": "Is it ? If Leonard forgot to trim his nose hair , could he barge in while you were showering ?",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 200.25,
+    "end": 204.3,
+    "text": "Irrelevant . Leonard doesn't trim his nose hair . He thinks because he's short nobody can see up there .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 208.44,
+    "end": 220.11,
+    "text": "My point is , Sheldon , the legal principle is ambiguity in a contract benefits the party that did not draft it , in this case , Leonard . So much for count one . There's no buts , Sheldon , that's how the law works .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 217.48,
+    "end": 217.75,
+    "text": "But ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 220.54,
+    "end": 221.32,
+    "text": "Schooled !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 226.36,
+    "end": 237.71,
+    "text": "As for the shower capacity issue , I cite addendum J. When Sheldon showers second , any and all measures shall be taken to ensure an adequate supply of hot water . I believe this supercedes the occupancy issue .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 238.31,
+    "end": 239.16,
+    "text": "Superceded !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 244.96,
+    "end": 246.08,
+    "text": "This isn't over .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 249.46,
+    "end": 253.42,
+    "text": "No offence , but shower sex with you is now the second best thing that's happened today .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 253.61,
+    "end": 265.22,
+    "text": "Mmm , Greek food on pizza night ? This is the most delightfully cruel thing we've done to Sheldon since we left that fake message from Stephen Hawking on his voice mail .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 266.39,
+    "end": 266.97,
+    "text": "Seriously ?",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 268.14,
+    "end": 279.2,
+    "text": "I wish to discuss your theories of black holes . Meet me at the Randy's Donut by the airport at 2:00 a.m .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 280.76,
+    "end": 283.77,
+    "text": "What is that you're eating ? Tonight is pizza night .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 284.03,
+    "end": 286.04,
+    "text": "I'd like to refer that to my attorney .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 288.43,
+    "end": 291.7,
+    "text": "According to what I see here , Thursday nights are Franconi's pizza night .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 291.93,
+    "end": 295.7,
+    "text": "Yes , and when Franconi's went out of business , we switched to Graziano's .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 296.47,
+    "end": 299.28,
+    "text": "That's interesting . Can you just switch restaurants like that , Priya ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.73,
+    "end": 315.68,
+    "text": "A good question , Howard . Turns out you can't . According to the document you drew up , Sheldon , the selection of a new takeout restaurant requires public hearings and a 60-day comment period . Were those criteria met ?",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 319.89,
+    "end": 320.25,
+    "text": "No .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 329.04,
+    "end": 332.23,
+    "text": "This is Greek food ? Leonard , you hate Greek food .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 332.46,
+    "end": 333.7,
+    "text": "Not as much as you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 338.97,
+    "end": 341.9,
+    "text": "Fine . I'm nothing if not adaptable .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 343.28,
+    "end": 345.38,
+    "text": "I got you the lamb kabob .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.67,
+    "end": 347.22,
+    "text": "Thank you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.6,
+    "end": 373.71,
+    "text": "If you think about it , Greek food isn't that far from italian food . They share a spice palette .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 379.8,
+    "end": 382.26,
+    "text": "And what a civilization is the Greeks .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 388.15,
+    "end": 401.78,
+    "text": "They gave us science , democracy , and little cubes of charred meat that taste like sweat . Penny ? Penny ? Penny ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 402.68,
+    "end": 403.91,
+    "text": "Hey . What's up ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 404.39,
+    "end": 413.55,
+    "text": "The mean Indian lady tried to make me eat lamb . Congratulations . Pizza night will now be at your apartment . Order one .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 414.44,
+    "end": 418.87,
+    "text": "Oh , I'm sorry , honey , I'm meeting Amy and Bernadette for dinner . But you're welcome to tag along .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 419.5,
+    "end": 424.98,
+    "text": "A girls night ? Oh , I don't know if I'm up for an evening talking about rainbows , unicorns and menstrual cramps .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 426.78,
+    "end": 430.35,
+    "text": "Okay , suit yourself . We'll probably be trashing Priya a little .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.8,
+    "end": 431.4,
+    "text": "Shotgun .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 434.53,
+    "end": 437.52,
+    "text": "Okay , I'd like to propose a toast to a wonderful girls night out .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 438.58,
+    "end": 440.48,
+    "text": "Fair warning , we can get ker-razy .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 441.58,
+    "end": 445.51,
+    "text": "Yeah . Last week we smoked cigars and pretended to be dragons .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.5,
+    "end": 454.23,
+    "text": "Really , Amy ? Tobacco and alcohol ? Need I remind you not a lot of scientific discoveries were made by people having a good time ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 458.05,
+    "end": 459.75,
+    "text": "Why did you bring him ? He's harshing my buzz .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 461.38,
+    "end": 464.13,
+    "text": "I felt sorry for him . Priya's giving him a hard time .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 464.44,
+    "end": 471.01,
+    "text": "Ooh , the Priya bashing's starting early . Yay ! Okay , what's up with those pantsuits ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 472.95,
+    "end": 474.1,
+    "text": "I need some context .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 474.46,
+    "end": 475.31,
+    "text": "Pantsuits suck .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 475.84,
+    "end": 488.94,
+    "text": "And that opens her up To justifiable ridicule for wearing them . Good one , Bernadette . See ? Ker-razy .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 494.17,
+    "end": 494.34,
+    "text": "Whee-ee-ee !",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 494.39,
+    "end": 495.24,
+    "text": "You smell like baby powder .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 497.23,
+    "end": 502.02,
+    "text": "It's talc . But as that's a primary ingredient of baby powder , I understand your confusion .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 503.63,
+    "end": 507.88,
+    "text": "Oh , I'm not confused at all . You're like a sexy toddler .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 511.01,
+    "end": 512.05,
+    "text": "I don't know how to process that .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 513.57,
+    "end": 522.69,
+    "text": "I do . Amy and Sheldon sitting in a tree . K-I-S-S-S-S-I-N-G .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 524.2,
+    "end": 528.76,
+    "text": "That's too many S's for kissing .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 530.28,
+    "end": 533.57,
+    "text": "Not if they're doing it for a long time .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 533.57,
+    "end": 534.08,
+    "text": "you ever kissed a girl ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.69,
+    "end": 551.09,
+    "text": "Other than my mother , my sister and my mee-maw , no . But in the interest of full disclosure , I was once on a bus and had to give mouth-to-mouth resuscitation to an elderly nun who passed out from heat exhaustion . Every year I get a Christmas card from her , signed with far too many X's and O's .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 552.79,
+    "end": 556.41,
+    "text": "That doesn't count . Aren't you even a little curious ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 556.75,
+    "end": 559.99,
+    "text": "Yeah , you're a scientist , where is the curiosity ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 560.38,
+    "end": 562.14,
+    "text": "I'm available for experimentation .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 564.9,
+    "end": 575.06,
+    "text": "Thank you . Not necessary . We know everything there is to know about kissing . It requires 34 facial muscles and 112 postural muscles .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 575.1,
+    "end": 577.12,
+    "text": "Oh , blah , blah , blah . Give me some sugar , bestie .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.55,
+    "end": 584.93,
+    "text": "I'm certainly glad no one said they were curious about Aztec human sacrifice .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 586.46,
+    "end": 588.71,
+    "text": "Hey , I know , let's take Sheldon dancing .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 589.16,
+    "end": 593.76,
+    "text": "Oh , I totally want to see Sheldon dance . I bet he looks like a spider on a hot plate .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 595.45,
+    "end": 606.88,
+    "text": "No , thank you , but for the record , I'm an excellent dancer . Proficient in the rumba , waltz and cha-cha . I don't see why that's surprising . I excel at so many things . You've had my sourdough bread .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 601.37,
+    "end": 601.94,
+    "text": "Really ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 609.06,
+    "end": 610.16,
+    "text": "Did you take dance lessons ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 610.58,
+    "end": 621.63,
+    "text": "Against my will . In the South , pre-adolescent children are forced through a process called cotillion , which indoctrinates them with all the social graces and dance skills needed to function in 18th century Vienna .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 624.48,
+    "end": 626.48,
+    "text": "Oh , we are so taking you dancing .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 626.65,
+    "end": 628.3,
+    "text": "No , you most certainly are not .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 629.24,
+    "end": 635.34,
+    "text": "Well , what does your cotillion training say is expected of a gentleman when three ladies ask him to escort them to a dance soiree ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 639.36,
+    "end": 641.83,
+    "text": "I saved a nun's life . Why am I being punished ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 649.84,
+    "end": 650.68,
+    "text": "Take us to a place we can waltz .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 652.88,
+    "end": 657.81,
+    "text": "Waltz . It's a social dance from Austria , choreographed to a three-four time signature .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 659.83,
+    "end": 664.96,
+    "text": "I kissed a girl and I liked it , I hope my boyfriend don't mind it .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 665.96,
+    "end": 666.52,
+    "text": "What happened to you ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 666.77,
+    "end": 669.02,
+    "text": "Shake it baby , shake it !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 669.3,
+    "end": 675.35,
+    "text": "Muy caliente , Sheldon ! Oh , I'm sorry , I'm engaged .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 676.65,
+    "end": 678.63,
+    "text": "Oh , what the hell . Ooh !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 740.81,
+    "end": 744.02,
+    "text": "How come if we're the smart people , we don't do this every night ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 744.89,
+    "end": 746.49,
+    "text": "What's 16 times 14 ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.85,
+    "end": 749.33,
+    "text": "My burps taste like cranberry juice .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 753.2,
+    "end": 754.2,
+    "text": "And there's your answer .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 756.11,
+    "end": 757.47,
+    "text": "Would you like to come in for a nightcap ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 758.13,
+    "end": 765.0,
+    "text": "If you're referring to the beverage , you know I don't drink . If you're referring to the hat you don while wearing a nightshirt and holding a candle , I have one .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 767.45,
+    "end": 767.97,
+    "text": "I have yoo-hoo .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 769.26,
+    "end": 773.84,
+    "text": "It's hard to say no to yoo-hoo . The name literally beckons .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 777.66,
+    "end": 778.48,
+    "text": "Make yourself comfortable .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 779.66,
+    "end": 783.55,
+    "text": "Thank you . Is someone smoking ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 784.15,
+    "end": 785.13,
+    "text": "Oh , that's just Ricky .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 790.6,
+    "end": 792.07,
+    "text": "You own a smoking monkey ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.68,
+    "end": 796.22,
+    "text": "Don't be silly . He's one of the animals in my department's nicotine addiction study .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 798.61,
+    "end": 799.55,
+    "text": "What's he doing here ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 799.91,
+    "end": 802.97,
+    "text": "I'm giving him emphysema . The least I can do is let him hang out and watch cable .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 805.53,
+    "end": 810.02,
+    "text": "Remarkable . Aren't you worried about secondhand smoke ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 810.32,
+    "end": 813.54,
+    "text": "A little . The real danger is him biting my face off while I'm sleeping .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 828.89,
+    "end": 831.51,
+    "text": "is he deliberately blowing smoke at me ? Thank you . May I share something with you that's troubling me ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 831.74,
+    "end": 834.5,
+    "text": "Of course . What's rattling around that big bulbous brain of yours ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 836.5,
+    "end": 843.2,
+    "text": "Priya has essentially nullified my roommate agreement with Leonard , making life in the apartment very uncomfortable for me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 843.61,
+    "end": 845.32,
+    "text": "And you want me to kill her ? Done .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 846.56,
+    "end": 848.27,
+    "text": "No , of course not .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 848.46,
+    "end": 853.32,
+    "text": "I trained Ricky how to smoke . I can train him to shoot a poison dart . No jury would convict us 'cause people love monkeys .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 856.26,
+    "end": 863.77,
+    "text": "I understand the alcohol has stirred up whatever it is that makes girls go wild , but I really need to talk to smart Amy now .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 867.02,
+    "end": 872.46,
+    "text": "Excuse me . Have you considered that your intelligence might be the very thing causing your dilemma ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 879.52,
+    "end": 880.02,
+    "text": "No .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 880.38,
+    "end": 883.75,
+    "text": "What do you think Ricky over here would do if an interloper encroached on his territory ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 885.02,
+    "end": 895.45,
+    "text": "Well , when challenged , monkeys generally assert their dominance through chasing , assault and a stylized penile display . That's a little outside my comfort zone .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 896.3,
+    "end": 901.72,
+    "text": "You're being too literal . My point is , he would not meekly surrender to the rules , and neither should you .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 903.19,
+    "end": 904.99,
+    "text": "Are you suggesting I play dirty ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 905.5,
+    "end": 916.47,
+    "text": "Yes , dirty . Dirty , dirty , dirty . Which brings me to our next order of business .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 921.41,
+    "end": 922.13,
+    "text": "Fascinating .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 923.78,
+    "end": 926.75,
+    "text": "I hope you don't take what I'm about to do as a comment on what we just did .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 940.77,
+    "end": 946.71,
+    "text": "Who's to say you shouldn't be dissecting our brains ? You really are an ass .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 951.83,
+    "end": 952.45,
+    "text": "Morning , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 952.97,
+    "end": 960.32,
+    "text": "Oh , good , you're up . I've written a new and improved roommate agreement that benefits me greatly . I'd like you to sign it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 962.5,
+    "end": 963.59,
+    "text": "Why would I want to do that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 964.03,
+    "end": 973.96,
+    "text": "Excellent question . Do you remember what happened to the alien , played by talented character actor Frank Gorshin , in the Star Trek episode Let That Be Your Last Battlefield ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 976.17,
+    "end": 982.78,
+    "text": "Uh , Captain Kirk activated the self-destruct sequence and threatened to blow up the Enterpriseand kill them both unless he gave in ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 983.38,
+    "end": 992.19,
+    "text": "Affirmative . Computer , this is Dr . Sheldon Cooper . Activate self-destruct sequence . Code 1-1-A-2-B .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.92,
+    "end": 1003.44,
+    "text": "What are you gonna do , Sheldon , blow up the apartment ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1003.68,
+    "end": 1007.01,
+    "text": "That was my first thought , but all my cool stuff is here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1008.19,
+    "end": 1010.06,
+    "text": "So what happens when it counts down ?",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1010.37,
+    "end": 1023.21,
+    "text": "Unless Leonard signs the new agreement in the next 41 seconds , this computer will send an e-mail to your parents in India saying that you're in a secret relationship with the whiter-than-marshmallow-fluff Leonard Hofstadter .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1025.92,
+    "end": 1029.01,
+    "text": "Oh , my God . Trust me , it's a big deal .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1026.97,
+    "end": 1031.41,
+    "text": "What's the big deal ? They're gonna find out about me eventually , right ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1031.74,
+    "end": 1032.75,
+    "text": "Yeah , of course , just not today .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1033.08,
+    "end": 1034.05,
+    "text": "20 seconds .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1034.44,
+    "end": 1038.0,
+    "text": "Are you ashamed of me ? Then why can't we tell your parents ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1035.67,
+    "end": 1036.33,
+    "text": "Of course not .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1038.21,
+    "end": 1039.3,
+    "text": "Please , don't push this .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1039.3,
+    "end": 1041.26,
+    "text": "He does that all the time , doesn't he ? 15 .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1042.13,
+    "end": 1043.62,
+    "text": "Okay , fine , Sheldon , you win . Turn it off .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1043.83,
+    "end": 1046.96,
+    "text": "No , he's bluffing . It's blackmail !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1044.8,
+    "end": 1051.55,
+    "text": "I never bluff . Ten . Nine . Eight . It's a laptop with a full charge .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1047.47,
+    "end": 1048.04,
+    "text": "We give up .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1048.58,
+    "end": 1049.37,
+    "text": "This is ridiculous .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  }
+]

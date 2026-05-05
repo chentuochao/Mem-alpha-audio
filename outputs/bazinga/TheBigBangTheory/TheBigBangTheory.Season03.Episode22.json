@@ -1,0 +1,576 @@
+[
+  {
+    "start": 3.78,
+    "end": 7.5,
+    "text": "Okay , Babydoll Pink , let's see if you can cover up the fact that I got my dad's feet .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 9.09,
+    "end": 12.43,
+    "text": "It's just two degrees , Sheldon . I just want to turn up the thermostat two degrees !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 12.55,
+    "end": 16.4,
+    "text": "Let me point out that two degrees can be the difference between water and steam .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 16.81,
+    "end": 18.14,
+    "text": "Yes , if we lived in a teakettle .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 18.76,
+    "end": 21.52,
+    "text": "This is the temperature you agreed to in the roommate agreement .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 21.74,
+    "end": 23.59,
+    "text": "Aw , screw the roommate agreement !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 23.65,
+    "end": 27.15,
+    "text": "No , you don't screw the roommate agreement . The roommate agreement screws you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 29.3,
+    "end": 31.56,
+    "text": "You know what , go to Hell and set their thermostat .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 31.62,
+    "end": 35.3,
+    "text": "I don't have to go to Hell . At 73 degrees , I'm there already !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 38.28,
+    "end": 39.36,
+    "text": "Who is it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.34,
+    "end": 42.7,
+    "text": "Leonard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 45.69,
+    "end": 46.41,
+    "text": "Hang on .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.39,
+    "end": 50.99,
+    "text": "Can I sleep on your couch tonight ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.31,
+    "end": 54.33,
+    "text": "Uh , well , you can try , but the people across the hall are being very noisy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 54.83,
+    "end": 56.35,
+    "text": "You heard that , huh ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 56.74,
+    "end": 61.14,
+    "text": "Apparently , the one fella tried to adjust the thermostat , then the other fella went bat-crap crazy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 61.64,
+    "end": 62.89,
+    "text": "So you agree , he's nuts .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 63.39,
+    "end": 66.64,
+    "text": "Well , not as nuts as the guy who chooses to live with him .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 67.14,
+    "end": 69.31,
+    "text": "Believe it or not , he was worse when I met him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 69.59,
+    "end": 70.68,
+    "text": "Oh , I do not believe that .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 71.55,
+    "end": 79.28,
+    "text": "You are so naive . Just like I was seven years ago . I'd just started at the university .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 99.2,
+    "end": 100.59,
+    "text": "That should have been my first clue .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 126.83,
+    "end": 129.17,
+    "text": "So Sheldon's last roommate tried to warn you off ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 129.53,
+    "end": 134.72,
+    "text": "For all I knew , he was the crazy one . He had this really deranged look .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 134.84,
+    "end": 137.06,
+    "text": "Well , yeah , he'd been living with Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 138.85,
+    "end": 144.91,
+    "text": "Sure , it makes sense now . . Anyway , I went upstairs and knocked on the door .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 170.45,
+    "end": 172.26,
+    "text": "In retrospect , that was clue number two .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 442.91,
+    "end": 445.79,
+    "text": "Okay , and after all that , you just moved in ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 446.21,
+    "end": 449.41,
+    "text": "No , I didn't just move in . First we had to iron out a few details .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 522.25,
+    "end": 525.21,
+    "text": "Why on earth did you agree to all that ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 525.61,
+    "end": 532.93,
+    "text": "It was the best apartment I'd seen , the rent was very reasonable and after you've passed the first three barriers you kind of want to take it all the way .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 533.94,
+    "end": 537.8,
+    "text": "Well , I'm sorry , Leonard , it's very hard to feel sympathy for you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 538.24,
+    "end": 540.82,
+    "text": "Okay , how about this ? Let me tell you about the first time I brought a girl over .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 585.22,
+    "end": 587.23,
+    "text": "That's it ! I'm out of here !",
+    "speaker": "joyce_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 591.91,
+    "end": 593.88,
+    "text": "Oh , my God .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 594.74,
+    "end": 595.76,
+    "text": "get some sympathy now ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 596.15,
+    "end": 596.75,
+    "text": "A little bit .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.37,
+    "end": 610.77,
+    "text": "Okay . Let me get this straight . You move in with this guy , he makes you sign a ridiculous roommate agreement , then he walks into your bedroom while you're doing this Joyce Kim , and you still stay ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 611.15,
+    "end": 620.33,
+    "text": "Actually , I couldn't get too mad at him about Joyce Kim . Well , I was doing some government research at the time , you know , military , rocket fuel . It's kind of secret .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 613.76,
+    "end": 614.57,
+    "text": "Why not ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 620.87,
+    "end": 622.19,
+    "text": "What does that have to do with Joyce Kim ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 622.52,
+    "end": 632.42,
+    "text": "As it turns out , she was a North Korean spy . Luckily , Sheldon drove her out before I revealed anything important . Which I'm not saying I would have .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 634.31,
+    "end": 638.85,
+    "text": "So , what , that's it ? You've stayed with Sheldon all this time because he kept you from going to federal prison ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 639.3,
+    "end": 642.84,
+    "text": "That was part of it . The other part is what happened with the elevator .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 642.9,
+    "end": 645.67,
+    "text": "Oh , yeah , I'm wondering about that . You said it was working when you moved in .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 646.08,
+    "end": 648.81,
+    "text": "It was , but one night , Sheldon came home from work ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 742.6,
+    "end": 742.93,
+    "text": "Okay ,",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 744.7,
+    "end": 746.2,
+    "text": "what does all this have to do with the elevator ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 746.38,
+    "end": 747.28,
+    "text": "I'm getting to it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 873.61,
+    "end": 876.37,
+    "text": "Okay , how do you know he said that ? You left the room .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 876.52,
+    "end": 878.88,
+    "text": "Hey , do you want me to finish working on your man feet or not ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 879.9,
+    "end": 881.96,
+    "text": "Fine . Go ahead .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 882.98,
+    "end": 893.31,
+    "text": "Howard , are you having a playdate ? Do their parents know they're here ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 924.09,
+    "end": 929.29,
+    "text": "Howard , what happened to the Oreos I left on the counter? !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 939.96,
+    "end": 941.23,
+    "text": "So , why was it his lucky day ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 941.34,
+    "end": 943.63,
+    "text": "Well , it turns out I had a little rocket fuel in the apartment .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.14,
+    "end": 946.15,
+    "text": "What were you doing with rocket fuel in your apartment ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 946.27,
+    "end": 956.71,
+    "text": "Mm , Joyce Kim was kind of curious about what I did for a living , and I was going to kind of show it to her . It's not important . The point is , the guys and I went back to the apartment .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 956.87,
+    "end": 958.04,
+    "text": "Are we ever going to get to the elevator ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.27,
+    "end": 960.49,
+    "text": "Yeah , we're really close . Uh , uh , we're at the apartment .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1040.78,
+    "end": 1046.16,
+    "text": "Not only did Sheldon save my life , he didn't rat me out to the landlord . Or the police . Or Homeland Security .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1047.94,
+    "end": 1051.58,
+    "text": "Okay , so , basically , you're the reason I have to walk up and down three flights of stairs every day ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1051.61,
+    "end": 1056.56,
+    "text": "So I did something stupid . I'm sure you did stupid things when you were younger . What were you doing seven years ago ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1056.62,
+    "end": 1061.89,
+    "text": "Excuse me , I was in high school . Studying , keeping my nose clean , doing volunteer work for the community .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1076.06,
+    "end": 1086.65,
+    "text": "Oh , Ubuntu , you are my favourite Linux-based operating system . Hello . Why do I smell methacrylate ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1080.79,
+    "end": 1081.36,
+    "text": "Hey .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1087.04,
+    "end": 1095.45,
+    "text": "Oh , uh , clear nail polish . I had a mani-pedi . Men can get those . Anyway , I may owe you an apology .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1096.43,
+    "end": 1097.24,
+    "text": "There's doubt ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1098.69,
+    "end": 1102.11,
+    "text": "I did agree to the thermostat setting , and I shouldn't have tried to change it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1102.96,
+    "end": 1106.23,
+    "text": "That's not an apology , simply an acknowledgement that I was right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1107.38,
+    "end": 1108.24,
+    "text": "Okay , I'm sorry .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1108.3,
+    "end": 1108.78,
+    "text": "There you go .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1110.71,
+    "end": 1111.32,
+    "text": "So , we're good ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1112.61,
+    "end": 1113.12,
+    "text": "Good what ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1115.04,
+    "end": 1117.32,
+    "text": "Never mind . Okay if I watch some TV ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1118.05,
+    "end": 1118.48,
+    "text": "Go ahead .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1122.73,
+    "end": 1124.9,
+    "text": "You're not even watching !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1125.08,
+    "end": 1126.16,
+    "text": "I can hear it !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1126.87,
+    "end": 1127.95,
+    "text": "Oh , so the dialogue offends you ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1127.98,
+    "end": 1129.95,
+    "text": "I would hardly call that dialogue !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1130.81,
+    "end": 1132.03,
+    "text": "You're insane , you know that? !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1132.21,
+    "end": 1134.82,
+    "text": "Don't make me turn that flag upside down , 'cause you know I'll do it !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  }
+]

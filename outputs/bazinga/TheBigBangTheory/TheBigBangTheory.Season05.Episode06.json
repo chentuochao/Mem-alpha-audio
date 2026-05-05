@@ -1,0 +1,1262 @@
+[
+  {
+    "start": 3.51,
+    "end": 5.47,
+    "text": "So what kind of cruise is this you're going on ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 5.64,
+    "end": 16.28,
+    "text": "It's called the Born Again Boat Ride . Christian Quarterly gave it their highest rating , five thorny crowns . I do wish you'd come with me , Sheldon .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 16.67,
+    "end": 21.35,
+    "text": "Well , Mom , if I did , it would be conclusive proof that your God can work miracles .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 23.18,
+    "end": 34.5,
+    "text": "You're missing out . It's gonna be wall-to-wall fun . It's all themed . There's Jonah and the Whale Watching , all-you-can-eat Last Supper Buffet , and my personal favourite , Gunning with God .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 35.82,
+    "end": 38.11,
+    "text": "What's Gunning with God ? I'm afraid to ask .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 38.56,
+    "end": 49.52,
+    "text": "Oh , it is a hoot and a half . You write your sins on a clay pigeon , they fire 'em up in the air , and you pulverize them with a 12-gauge shotgun full of our Lord's forgiveness .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.34,
+    "end": 58.13,
+    "text": "Frankly , Mom , I'm encouraged to see how advanced your group has become , willing to sail out into the ocean without fear of falling off the edge .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.03,
+    "end": 66.52,
+    "text": "For example , if Shelly was aboard , he'd write \" smart mouth \" on his pigeon , and then bam !",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 68.43,
+    "end": 85.98,
+    "text": "The Lord giveth and the Lord bloweth away . Well , Mom , according to my itinerary for our weekend together , the fun begins with fried chicken . Good , 'cause I got you everything you need to make it . You are in for a treat . My mother's fried chicken is why we had to buy my dad the extra large coffin .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 76.96,
+    "end": 77.67,
+    "text": "Sounds delicious .",
+    "speaker": "mary_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 88.0,
+    "end": 90.74,
+    "text": "Sheldon , she just got off the plane . She doesn't want to cook .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 91.24,
+    "end": 98.0,
+    "text": "Of course she does . Making me food is her way of saying I love you . Making me food when she's too tired to cook is her way of saying I really love you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 99.18,
+    "end": 101.47,
+    "text": "Actually , I wouldn't mind going out for a bite , Sheldon .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 101.98,
+    "end": 104.44,
+    "text": "Won't that spoil our appetites for the chicken you're going to make me ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 104.71,
+    "end": 108.08,
+    "text": "All right , that settles it , we're going out . Do you like sushi ? There's a great little place down the street .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 108.29,
+    "end": 112.13,
+    "text": "I've never had it , but there's no harm in trying something new .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 112.64,
+    "end": 117.7,
+    "text": "There's a lot of harm in trying something new . That's why we test out drugs and cosmetics on bunny rabbits .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 119.29,
+    "end": 121.03,
+    "text": "Sheldon , you're talking like a crazy person .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 121.59,
+    "end": 126.13,
+    "text": "Actually , I had him tested as a child . Doctor says he's fine .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 127.12,
+    "end": 127.56,
+    "text": "Told you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 127.75,
+    "end": 130.91,
+    "text": "Although , I do regret not following up with that specialist in Houston .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 158.64,
+    "end": 162.97,
+    "text": "Stop yelling ! I'm not happy about this .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.18,
+    "end": 164.9,
+    "text": "What's the last thing you were ever happy about ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 165.8,
+    "end": 167.25,
+    "text": "The prospect of fried chicken .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 168.93,
+    "end": 181.74,
+    "text": "This is exciting . Back home , the diner on Route Four serves sushi , but it's just cut up fish sticks and a side of Uncle Ben's . They put it on the menu in those kung fu letters , but that don't make it sushi .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 183.37,
+    "end": 186.95,
+    "text": "Uh , kung fu letters might not be politically correct .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 187.96,
+    "end": 189.69,
+    "text": "Oh , I thought the one we couldn't say was ching chong .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 190.94,
+    "end": 193.45,
+    "text": "Yeah , yeah , that , too .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 194.7,
+    "end": 199.65,
+    "text": "So , Shelly , what's up with you and your friend Amy , if you don't mind a mother prying a bit ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 199.74,
+    "end": 209.72,
+    "text": "Well , there's actually big news on the Amy front . She's been studying the neurobiology of addiction in lower animals . She is this close to getting a starfish hooked on cocaine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 211.11,
+    "end": 213.56,
+    "text": "Do you have any idea what's going on with those two ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 214.05,
+    "end": 222.8,
+    "text": "It's kind of like the Loch Ness monster . Maybe there's something there , maybe there isn't . We'll probably never know . But sometimes it's fun to creep yourself out thinking about it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 224.66,
+    "end": 232.36,
+    "text": "How are you doing on the young lady front ? I hear you're in some sort of a long distance situation ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.81,
+    "end": 239.21,
+    "text": "Uh , yeah , it's Raj's sister . It's kind of tough . She's in India . Also , her parents aren't happy she's dating someone white .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 239.45,
+    "end": 257.2,
+    "text": "Oh , that's a funny turn , isn't it ? You never think about it going the other way . Well , you can't force things . You need to figure out if you're in a relationship or if you're just calling it one . It's like they say , a cat can have kittens in the oven but that don't make 'em biscuits .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 258.66,
+    "end": 264.36,
+    "text": "And that reminds me of another saying . You can lead a chicken to Crisco , but you can'tmake your mother fry it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 267.92,
+    "end": 272.37,
+    "text": "Sheldon , you pester me one more time about chicken , I will put you over my knee right here in this restaurant .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 274.74,
+    "end": 275.93,
+    "text": "Please pester her . Please , for me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 280.97,
+    "end": 282.38,
+    "text": "So , Mrs . Cooper , what did you think of the sushi ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 282.49,
+    "end": 293.47,
+    "text": "It was good . The only thing that would have made it better is if it was cooked and if it was beef . Sheldon , when is your landlord going to fix the elevator ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 294.47,
+    "end": 299.63,
+    "text": "I don't know . Lately we've been talking about converting it into a missile silo .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 301.51,
+    "end": 304.62,
+    "text": "Your son seems to think we need to launch a pre-emptive strike on Burbank .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 306.77,
+    "end": 308.07,
+    "text": "Get them before they get us .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 315.68,
+    "end": 317.19,
+    "text": "Hey , look who decided to show up .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 319.51,
+    "end": 320.34,
+    "text": "Raj , what are you doing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 320.9,
+    "end": 327.13,
+    "text": "I couldn't find you guys so I bought six new friends . Three , sadly , are dead .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 328.97,
+    "end": 331.95,
+    "text": "Mom , you remember Rajesh ? Rajesh , my mother .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 331.97,
+    "end": 334.59,
+    "text": "Of course . Mrs . Cooper . So nice to see you again .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 334.92,
+    "end": 343.01,
+    "text": "Well , it's so nice to see you , too . I thought it was our Indians that had the occasional alcohol problem .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.63,
+    "end": 351.55,
+    "text": "We don't say that , either . I'll make you a list .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 351.82,
+    "end": 361.54,
+    "text": "Oh , that would be mighty white of you . So , Raj , what pain are you trying to cover up with alcohol ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 361.94,
+    "end": 364.22,
+    "text": "Nothing , I'm fine . No .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 363.14,
+    "end": 363.57,
+    "text": "Are ya ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 365.73,
+    "end": 368.18,
+    "text": "That's better . Now tell me what's bothering you .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.61,
+    "end": 369.9,
+    "text": "I'm so lonely .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 370.52,
+    "end": 382.11,
+    "text": "Oh , yes , born alone , die alone . It's a tragic human condition . Now , Raj , if you'll excuse my mother , she's about to make a pecan pie that'll be so good I'll almost forget how she blew it with the fried chicken .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 383.59,
+    "end": 386.56,
+    "text": "Sheldon , your friend is hurtin' . What do we do when someone's hurtin' ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 387.64,
+    "end": 388.93,
+    "text": "Offer them a hot beverage .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 389.88,
+    "end": 392.35,
+    "text": "And when they're drunk as a skunk , what beverage do we offer ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 392.85,
+    "end": 393.41,
+    "text": "Coffee .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 394.8,
+    "end": 433.73,
+    "text": "And what do we do it with ? Now you listen to me . I know you feel like you can't find someone , but there's a lock for every key . Back home , there's a girl works at the Wal-Mart . Tall , tall girl . Woman could hunt geese with a rake . Thought she'd never find a man , then one day , wouldn't ya know , Harlem Globetrotters come to town . Long story short , today that woman travels the world with a semi-professional basketball player and two beautiful mixed-race babies .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 436.04,
+    "end": 441.89,
+    "text": "I didn't get a lot of that because of your accent , but the general tone was soothing and somehow I feel better .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 444.68,
+    "end": 446.46,
+    "text": "I'm not going to get my pecan pie , am I ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.55,
+    "end": 450.77,
+    "text": "You want some Oreos ? No , regular .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 449.18,
+    "end": 458.44,
+    "text": "Double Stuf ? Nice . Kick a man when he's down . I'm glad we're finally getting to do something together , just the two of us .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 458.5,
+    "end": 461.65,
+    "text": "Sure . One thing you really miss when you're on vacation is laundry .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 462.67,
+    "end": 466.84,
+    "text": "Careful , you're using too much Downey . You know if my clothes get too soft it makes me sleepy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 468.18,
+    "end": 471.76,
+    "text": "Well , this takes me back . Me doing your laundry , you next to me criticizing .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 472.68,
+    "end": 473.69,
+    "text": "It is nice , isn't it ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 475.31,
+    "end": 479.35,
+    "text": "Mrs . Cooper . Hi !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 480.96,
+    "end": 481.08,
+    "text": "Oh , hello , darlin' .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 481.08,
+    "end": 482.01,
+    "text": "me your mom was coming .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 482.62,
+    "end": 490.69,
+    "text": "It was in my weekly e-mail blast . Right between beet season is finally here , and uh-oh , red stool from beets leads to cancer scare .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 491.8,
+    "end": 500.42,
+    "text": "So , how've you been ? I hear that Leonard has a new girlfriend . How are you doing with all that ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 495.14,
+    "end": 496.25,
+    "text": "Good , good .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 500.55,
+    "end": 503.73,
+    "text": "Oh , fine . You know , it's been a while . I'm getting back out there .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 504.27,
+    "end": 508.23,
+    "text": "Let me ask you , when you get back out there , are you wearing this ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 510.28,
+    "end": 515.07,
+    "text": "Well , it's super cute on . That top has paid for itself in free drinks like ten times what it cost .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 516.34,
+    "end": 519.17,
+    "text": "Yes , Penny has a lot of her money tied up in promiscuity futures .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 522.28,
+    "end": 529.47,
+    "text": "Hon , you think maybe the reason why you're having trouble finding a guy to settle down with is because you're letting them ride the roller coaster without buying a ticket ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 531.86,
+    "end": 544.85,
+    "text": "Oh , they don't always get to ride the roller coaster . Sometimes they only get to spin the teacups . Now I'm going out tonight . Would it be crazy to ask you to look at the outfit I'm going to wear ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 544.96,
+    "end": 551.22,
+    "text": "Oh , not crazy at all . And don't beat yourself up . When I was your age , you could have me for a car ride and a bottle of strawberry wine .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 556.95,
+    "end": 559.25,
+    "text": "Now that will not be in this week's e-mail blast .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 561.99,
+    "end": 565.85,
+    "text": "So , this spring , I get to go to the International Space Station .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 565.99,
+    "end": 574.22,
+    "text": "Oh , my word , a trip to the heavens . If you ever want to live there eternally , I've got a good book you could read .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 576.26,
+    "end": 579.44,
+    "text": "Thanks , but I watch the Charlie Brown Christmas special every year , so I get the gist .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 580.15,
+    "end": 581.99,
+    "text": "I bet your mom is really proud of you .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 582.18,
+    "end": 589.26,
+    "text": "Nope . She says if I don't back out she's going to go on a hunger strike . It would take years before she'd be in any kind of danger , but still .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 591.63,
+    "end": 605.19,
+    "text": "I've got a treat for us tomorrow , Mom . I'm taking you to see Saul Perlmutter give a lecture about his Nobel Prize-winning work in cosmology . And the best part is , at the Q and A afterward , I've worked up a couple of Q's that will stump his sorry A.",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 608.37,
+    "end": 610.75,
+    "text": "I don't know , Shelly . I thought we could do a little sightseeing .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 611.53,
+    "end": 614.84,
+    "text": "What sight is better than your little boy embarrassing a Nobel laureate ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 616.82,
+    "end": 621.24,
+    "text": "Come on , Sheldon , we'll take your mom to see the Hollywood sign , the wax museum , the Walk of Fame .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 621.34,
+    "end": 622.95,
+    "text": "Ooh , maybe a little Rodeo Drive .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 623.13,
+    "end": 630.09,
+    "text": "Well , I can't spend twelve thousand dollars on a handbag , but it's free to look upon those who do with righteous condemnation .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 632.96,
+    "end": 633.6,
+    "text": "What do you say ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 634.2,
+    "end": 642.62,
+    "text": "What do I say ? I say you people need to stop ruining my mom's visit with your sushi , and your sadness and your slutty shirts . Stop it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 647.2,
+    "end": 649.87,
+    "text": "He's not talking about your shirt . Your shirt is fine .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 654.63,
+    "end": 655.51,
+    "text": "These are delicious .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.91,
+    "end": 659.47,
+    "text": "The trick to pancakes is bacon grease . I cook everything in it .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 660.95,
+    "end": 663.02,
+    "text": "Everything ? Aren't you worried about your health ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 663.11,
+    "end": 672.28,
+    "text": "Oh , doctors are always changing their mind . One week bacon grease is bad for you . The next week we're not getting enough of it . Good morning , Shelly .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 673.09,
+    "end": 676.6,
+    "text": "Mom , I want to apologize for my behaviour last night .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 676.91,
+    "end": 677.92,
+    "text": "Apology accepted .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 678.19,
+    "end": 688.45,
+    "text": "Great . Now , you're going to love the Perlmutter lecture . Look , he will be stating that the universe is older than 6,000 years , but I thought you could stick your fingers in your ears and hum Amazing Grace during those parts .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 690.27,
+    "end": 692.38,
+    "text": "I am still going out with your friends .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 692.71,
+    "end": 697.19,
+    "text": "But I apologized . And that was hard for me because I didn't do anything wrong .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 699.95,
+    "end": 709.44,
+    "text": "Shelly , I hung out with you in enough dusty lecture halls while you were growing up . I want to go sightseeing . So why don't you have some pancakes , get dressed and come with us .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 710.11,
+    "end": 712.49,
+    "text": "I'm not going , and you can't make me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 712.68,
+    "end": 714.49,
+    "text": "You're right , I can't . Have a nice day .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 714.89,
+    "end": 718.47,
+    "text": "Well , I'm going to stand here until you change your mind .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 718.8,
+    "end": 720.73,
+    "text": "Well , then you are going to stand there all day .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 723.02,
+    "end": 725.99,
+    "text": "I'm just gonna take my bacon grease and slide over there .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 728.15,
+    "end": 730.83,
+    "text": "I can't believe my own mother is abandoning me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 730.86,
+    "end": 742.33,
+    "text": "I am not abandoning you . Sheldon , abandoning you is leaving you in a basket on a church doorstep . I am going to Hollywood and thank a wax Ronald Reagan for his service to our country .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 744.91,
+    "end": 747.43,
+    "text": "We appear to be at a crossroads in our relationship , Mother .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.46,
+    "end": 748.84,
+    "text": "Well , I guess we are .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 749.17,
+    "end": 751.02,
+    "text": "Sorry . Syrup .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 752.55,
+    "end": 762.94,
+    "text": "All right , Mom . When you're at the Ripley's Believe It Or Not Museum , if they have an exhibit about a mother who threw away a chance to spend the day with the world's most wonderful son , believe it , because it's true .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 766.11,
+    "end": 766.83,
+    "text": "I hadn't ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 770.0,
+    "end": 777.35,
+    "text": "That lecture was a waste of time . I made more accurate diagrams of the expansion of the early universe on the nursery wall with the contents of my diaper .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 780.3,
+    "end": 781.38,
+    "text": "Are you getting sick ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 781.5,
+    "end": 785.49,
+    "text": "No , I'm just allergic to people who get Nobel Prizes for no good reason .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 786.86,
+    "end": 796.23,
+    "text": "Sheldon , is it possible that your foul mood , or , to use the clinical term , bitchiness , is because your mother isn't making you a priority ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 796.51,
+    "end": 799.06,
+    "text": "No . Or to use the clinical term , nuh-uh .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 801.97,
+    "end": 805.14,
+    "text": "Are you sure ? The infant-mother pair-bond is the building block of primate psychology .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 805.55,
+    "end": 809.36,
+    "text": "Oh , there it is . It always comes back to monkeys with you . Just monkeys , monkeys , monkeys .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 811.64,
+    "end": 819.32,
+    "text": "Sheldon , we're all animals . And granted , there are aspects of you that are extraordinary , but when it comes to emotions and relationships , you're just like everybody else .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 819.96,
+    "end": 824.17,
+    "text": "Are you trying to suggest that my emotional problems are no different than those of a stupid person ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 826.3,
+    "end": 835.59,
+    "text": "Actually , some research indicates that by not over-thinking , the less intelligent handle emotions better . Sure you're not coming down with a cold ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 835.68,
+    "end": 839.47,
+    "text": "Oh , yes , the common cold . Just like everyone else . You'd love that , wouldn't you ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 843.2,
+    "end": 846.72,
+    "text": "Oh , this one's sweet . You know , for your rosary rattlers .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 847.97,
+    "end": 852.01,
+    "text": "Mrs . Cooper , we say Catholics , not rosary rattlers .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 853.35,
+    "end": 856.61,
+    "text": "My goodness , it's a wonder you people in California can talk at all .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 858.11,
+    "end": 859.91,
+    "text": "This is like the worst Hollywood tour ever .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 860.56,
+    "end": 861.71,
+    "text": "What are you gonna do ? She wanted to see churches .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 862.11,
+    "end": 863.59,
+    "text": "Hey , they have wine here , don't they ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 866.7,
+    "end": 868.33,
+    "text": "Hey , none of our gods have abs like that .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 870.47,
+    "end": 875.55,
+    "text": "Yep , that's the last Jew who did sit-ups . And look where it got him .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 876.24,
+    "end": 882.88,
+    "text": "Hey , while we're here , why don't we all do some praying ? Let's put a little church in this church .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 883.65,
+    "end": 884.76,
+    "text": "Oh , I'm not sure we should .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 884.93,
+    "end": 904.65,
+    "text": "It's easy . I'll show you how . Lord , Mary Cooper here . Coming to you from Gomorrah , California . I want to thank you for the blessing that is my little Shelly . I also want to thank you for the continued strength not to coldcock him with my Bible . All right , Penny , your turn .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 905.16,
+    "end": 919.64,
+    "text": "Okay , um , hey , God . What's up ? Um , I'm good , but , uh , it would be a big help to my family if you could get my brother to stop cooking meth . But no cops . Be cool .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 922.93,
+    "end": 932.06,
+    "text": "She also goes a little overboard on the love thy neighbour . Could probably use that chat you had with Mary Magdalene . Leonard , you're up . Wasserman , you're on deck .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 933.61,
+    "end": 948.3,
+    "text": "Okay . I don't know , it's probably a little late to ask you to make me taller . Oh , um , if you could help out with me and my girlfriend . She's all the way in India . That would be great .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 948.36,
+    "end": 955.97,
+    "text": "Hear that ? Girl trouble . Turns out we were both wrong on that front . How about you ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 956.22,
+    "end": 959.96,
+    "text": "Oh , me ? No . Thanks , I'm good . I'm really just trying not to burst into flames .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 963.67,
+    "end": 964.03,
+    "text": "Rajesh ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 967.74,
+    "end": 971.54,
+    "text": "He says he's having trouble dropping those last five pounds .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 971.95,
+    "end": 974.55,
+    "text": "Huh , I might have gone with the talking-to-girls thing .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 977.1,
+    "end": 978.3,
+    "text": "No , you only get one wish .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 995.99,
+    "end": 1028.87,
+    "text": "Look at the two of us . Me , a highly regarded physicist . The kind of mind that comes along once , maybe twice in a generation . You , the common man , tired from your labours as a stockbroker , or vacuum cleaner salesman , or bootblack . But deep down inside , apparently we're just two peas in a pod . A regular pea , and the kind of pea that comes along once , maybe twice in a generation .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1034.0,
+    "end": 1040.75,
+    "text": "Rain . Another great equalizer . Falling on the head of the brilliant and the unremarkable alike .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1046.55,
+    "end": 1046.91,
+    "text": "Smarty-pants .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1053.07,
+    "end": 1055.21,
+    "text": "Oh , Mrs . Cooper , it smells so good .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1055.39,
+    "end": 1063.08,
+    "text": "You take notes , darlin' . The real way to get a man is with melted cheese and cream of mushroom soup . He'll die at 50 but his love will be true .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1068.98,
+    "end": 1070.49,
+    "text": "I need a tissue.This one got wet .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1074.5,
+    "end": 1074.79,
+    "text": "Here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1075.27,
+    "end": 1084.74,
+    "text": "Thank you . Yeah , I've learned something today . You and I , in so many ways , other than intelligence and what counts , we're the same .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1088.48,
+    "end": 1089.81,
+    "text": "Sweetheart , are you sick ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1090.05,
+    "end": 1092.69,
+    "text": "I hope so , because if this is well , life isn't worth living .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1094.24,
+    "end": 1100.48,
+    "text": "Oh , sugarpie , you are burning up . We've got to get you to bed . Don't worry . Mama's here to take care of her baby .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1097.28,
+    "end": 1097.66,
+    "text": "Okay .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1101.52,
+    "end": 1105.5,
+    "text": "And just to be clear , only her baby and not these other people .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1106.31,
+    "end": 1107.12,
+    "text": "Of course .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1107.93,
+    "end": 1110.65,
+    "text": "Can I have tea with honey and toast with the crust cut off ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1110.7,
+    "end": 1112.74,
+    "text": "You can have whatever you want .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1113.14,
+    "end": 1115.01,
+    "text": "Thanks , Mom.You're the best .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1123.18,
+    "end": 1126.7,
+    "text": "Boy , last time I put VapoRub on you , you didn't have hair on your chest .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1128.47,
+    "end": 1135.92,
+    "text": "I know , it filled in last year . I didn't get to spend a lot of time with you on this visit .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1135.95,
+    "end": 1137.69,
+    "text": "And whose fault was that ?",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1139.14,
+    "end": 1139.74,
+    "text": "Yours .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1142.36,
+    "end": 1145.85,
+    "text": "Shelly , you're not eight years old any more . We have to have a different relationship .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1146.57,
+    "end": 1149.33,
+    "text": "No , we don't . The one we have works great .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1149.36,
+    "end": 1150.76,
+    "text": "Sweetheart , you are a grown man .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1151.1,
+    "end": 1156.8,
+    "text": "Or maybe I'm part of a new species , that lives for hundreds of years , which means I'm still basically a toddler .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1158.48,
+    "end": 1160.92,
+    "text": "Oh , I so should have taken you to Houston .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1165.09,
+    "end": 1166.91,
+    "text": "Does this mean you're not going to sing Soft Kitty ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1167.17,
+    "end": 1170.06,
+    "text": "No , I will always sing you Soft Kitty .",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1176.64,
+    "end": 1176.78,
+    "text": "Soft kitty , warm kitty , little ball of fur ...",
+    "speaker": "mary_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1176.78,
+    "end": 1178.2,
+    "text": "Mrs . Cooper , were we supposed to take that pie .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  }
+]

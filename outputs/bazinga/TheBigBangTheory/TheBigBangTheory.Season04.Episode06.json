@@ -1,0 +1,1493 @@
+[
+  {
+    "start": 5.57,
+    "end": 5.66,
+    "text": "Gagh !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 8.06,
+    "end": 8.52,
+    "text": "Problem ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 9.08,
+    "end": 13.92,
+    "text": "This is the worst cobbler I've ever eaten . I mean it tastes like it was made of actual ground-up shoemaker .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 15.27,
+    "end": 18.3,
+    "text": "Amusing . A play on the two meanings of cobbler .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 22.33,
+    "end": 24.51,
+    "text": "Hey guys , guess who I found at LAX . My baby sister Priya .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 24.7,
+    "end": 34.32,
+    "text": "Excuse me . I object . You propose a guessing game , yet you don't give me enough time to guess . For the record , I was going to say your sister Priya .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 35.29,
+    "end": 37.92,
+    "text": "Oh , Sheldon . You haven't changed a bit , have you ?",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 38.53,
+    "end": 39.51,
+    "text": "Why would I change ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 40.53,
+    "end": 46.11,
+    "text": "The hope has been that you'd eventually bend to public opinion . So , Priya , what brings you back to LA ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 46.27,
+    "end": 48.92,
+    "text": "I have a one day layover on my way to Toronto . Corporate merger .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.46,
+    "end": 53.18,
+    "text": "Can you believe it ? Little Priya's one of the lead attorneys for the biggest car company in India .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 53.48,
+    "end": 60.61,
+    "text": "Given that when we met her she was finishing law school and planning an internship at a large Indian car company , it's actually extremely plausible .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.04,
+    "end": 64.04,
+    "text": "And your poll numbers just keep dropping .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 65.19,
+    "end": 68.15,
+    "text": "I want to catch up with all of you , but first I really must visit the loo .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 68.42,
+    "end": 69.42,
+    "text": "I'm going too , I'll show you where it is .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 72.21,
+    "end": 75.64,
+    "text": "Alright , this goes without saying , but I'm just going to say it anyway . Hands off my sister .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 76.74,
+    "end": 79.48,
+    "text": "Why would I touch her , she's covered with airplane germs .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 80.44,
+    "end": 83.27,
+    "text": "I'm so not talking to you . I'm talking to him .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 84.7,
+    "end": 86.53,
+    "text": "Hey , I've got a girlfriend now .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 86.57,
+    "end": 89.74,
+    "text": "Oh please . My sister's much hotter than your girlfriend and you know it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 90.36,
+    "end": 91.84,
+    "text": "Let's just agree they're both hot .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 92.11,
+    "end": 93.65,
+    "text": "Dude , that's my sister you're talking about .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 94.99,
+    "end": 104.2,
+    "text": "Okay , forget who's hotter . The first time Priya came to LA , Leonard and I made a pact out of respect to our friendship , and to you , that neither of us would hit on her .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 104.68,
+    "end": 105.44,
+    "text": "Did you pinky swear ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 108.47,
+    "end": 108.83,
+    "text": "Yes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 111.28,
+    "end": 112.06,
+    "text": "Okay then .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 113.15,
+    "end": 114.74,
+    "text": "Cobbler . I'm still laughing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 116.63,
+    "end": 118.68,
+    "text": "It's really nice to see you again Leonard .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 119.98,
+    "end": 121.63,
+    "text": "Yeah . It's good to see you too . Here you go .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 122.69,
+    "end": 123.01,
+    "text": "Thanks .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 127.31,
+    "end": 130.43,
+    "text": "Whoa-whoa-whoa-whoa-whoa . Okay .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 156.71,
+    "end": 158.72,
+    "text": "So , you got any special plans with your sister ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 159.2,
+    "end": 160.58,
+    "text": "Oh , not really , just hang out .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 161.12,
+    "end": 166.04,
+    "text": "I always tell people , if you have only one day in Los Angeles , make it a train day .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 167.6,
+    "end": 168.36,
+    "text": "Train day ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 168.6,
+    "end": 195.05,
+    "text": "The fun starts with brunch at Carney's in Studio City , a hot dog stand in a converted railroad dining car . Next stop , Travel Town , an outdoor museum featuring 43 railroad engines , cars and other rolling stock from the 1880s to the 1930s . Finally , we're off to the glitz and glamour of Hollywood for dinner at , that's right , the Hollywood Carney's , a hot dog stand in a different converted railroad dining car .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.9,
+    "end": 198.14,
+    "text": "I don't think we're going to do that .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 200.24,
+    "end": 201.64,
+    "text": "Well then apparently , you hate fun .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 206.45,
+    "end": 212.99,
+    "text": "Hmm , Priya's not back yet ? Well , I guess that's not unusual , women , men , the whole sitting , standing deal , so , what are we talking about ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 213.74,
+    "end": 214.76,
+    "text": "Uh , my plans with Priya .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 215.05,
+    "end": 216.53,
+    "text": "He rejected train day .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 216.7,
+    "end": 220.72,
+    "text": "Did you make it clear that it's two different train cars turned into hot dog stands ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 221.18,
+    "end": 221.89,
+    "text": "Abundantly .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 223.1,
+    "end": 224.67,
+    "text": "I guess he just hates fun .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 225.72,
+    "end": 226.66,
+    "text": "That's what I said .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 230.5,
+    "end": 232.64,
+    "text": "Okay , so , what's new with you guys .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.85,
+    "end": 241.1,
+    "text": "I have a girlfriend now . Yeah , I just wanna put it out there in case I inadvertently squirt any pheromones in your direction . Happy ? .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 234.22,
+    "end": 234.94,
+    "text": "Hey , good for you .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 243.21,
+    "end": 246.76,
+    "text": "So , uh , Priya , what are your plans while you're here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 246.94,
+    "end": 248.88,
+    "text": "I don't know , I just have the one day .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 249.42,
+    "end": 250.95,
+    "text": "Do you like trains ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.81,
+    "end": 254.68,
+    "text": "Not particularly .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 256.54,
+    "end": 282.72,
+    "text": "You might as well just wait at the airport for your flight . You are in a forest . There is quicksand to the west , a path leads to the east . Go east . An iron gate blocks your way . Open gate . It's locked . Hmm , well , so much for that .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 286.7,
+    "end": 288.18,
+    "text": "It's getting pretty late , how come you're still up ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 288.36,
+    "end": 293.48,
+    "text": "I've found an emulator online that lets you play classic text based computer games from the 1980s .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 295.13,
+    "end": 295.82,
+    "text": "That's pretty cool .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 295.92,
+    "end": 300.26,
+    "text": "Oh yes . It runs on the world's most powerful graphics chip , imagination .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.28,
+    "end": 303.62,
+    "text": "You've really got to get out more .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 305.9,
+    "end": 327.12,
+    "text": "Go north . You can't go that way . Go west . A troll blocks your passage . Okay , fasten your seatbelts , kill troll . With what ? With sword . You don't have the sword . Good golly , it's as if it's actually happening to me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 330.66,
+    "end": 331.47,
+    "text": "Raj finally went to bed .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 333.43,
+    "end": 336.85,
+    "text": "Yeah , well , Sheldon's still up .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 337.49,
+    "end": 338.5,
+    "text": "You said he goes to bed at nine .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 338.79,
+    "end": 341.42,
+    "text": "Yeah , he does but he got caught up in a computer game and ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 341.45,
+    "end": 351.09,
+    "text": "Hit troll with axe . Hit troll with axe . Hit troll with axe . Oh my , this is one tough troll .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 351.64,
+    "end": 353.3,
+    "text": "Can't you get rid of him ?",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 353.85,
+    "end": 355.74,
+    "text": "If the past is any indication , no .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 356.99,
+    "end": 359.98,
+    "text": "Leonard , I'm trapped in quicksand , the axe is dragging me down .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 361.5,
+    "end": 362.41,
+    "text": "Drop axe .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 362.52,
+    "end": 363.31,
+    "text": "Drop axe . Brilliant .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 366.99,
+    "end": 371.13,
+    "text": "Give me a minute . Sheldon ,",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 371.49,
+    "end": 375.75,
+    "text": "Hold on . I have to figure out how to get the bucket , so I can carry the mud past the dragon .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 377.49,
+    "end": 380.62,
+    "text": "Sheldon , you need to work in the morning . Well then , bed mister .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 379.06,
+    "end": 381.91,
+    "text": "I know . Five more minutes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 382.95,
+    "end": 389.73,
+    "text": "Really ? You're going to risk getting sleepy in the middle of your thermodynamic fluctuations seminar ? You know what happens when you yawn in public .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.57,
+    "end": 395.72,
+    "text": "Everyone will see my oddly shaped uvula .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 398.46,
+    "end": 399.84,
+    "text": "You don't want that , do you ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 400.71,
+    "end": 410.16,
+    "text": "No . But it's a shame our society mocks the differently uvulated . Who was at the door ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 410.64,
+    "end": 415.89,
+    "text": "Oh , uh , building manager . They have to fix a pipe so the water will be off tomorrow from noon to two .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 416.74,
+    "end": 427.28,
+    "text": "That's unacceptable . We're supposed to be given written notice . Well , what if I spill tomato soup on my shirt and have to come home to change , only to find there's no water for an enzyme soak .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 419.6,
+    "end": 420.83,
+    "text": "No , no , it doesn't matter , we'll be at work .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 427.58,
+    "end": 429.17,
+    "text": "Bifurcated uvula , Sheldon !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.64,
+    "end": 431.71,
+    "text": "I'll have the chicken noodle . Goodnight .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 431.74,
+    "end": 434.13,
+    "text": "We're going to have to be very quiet .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 442.77,
+    "end": 463.82,
+    "text": "I know how to get the bucket ! I can turn the axe around and use the handle to reach it . Let's see . Go north . You are in a forest . Go north . You are in a forest . Go north . You are in a forest . Oh dear , I believe I'm lost . Well , I'll just have to get a fresh start tomorrow .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 464.18,
+    "end": 472.6,
+    "text": "No , no , no , no , no . You just need , you just need , you just need to map it out . Come on , I'll help you . So , uh , you stopped at the stream and you turned north three times ? You're right , you're lost , good luck .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 471.14,
+    "end": 471.46,
+    "text": "Yes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 480.11,
+    "end": 483.86,
+    "text": "Oh ! Leonard , wake up . For what ?",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 482.87,
+    "end": 487.1,
+    "text": "Huh ! Sorry ! I don't know . When I'm in bed with a girl , it's just , it's my go to response .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 487.99,
+    "end": 492.18,
+    "text": "It's six o' clock , I have to get back to Raj's before he wakes up and realises I'm gone .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 492.68,
+    "end": 496.86,
+    "text": "Oh , right , sure . I wish you could stay in LA a while longer .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 497.15,
+    "end": 497.93,
+    "text": "Mmm . Me too .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 498.38,
+    "end": 502.14,
+    "text": "You know , I was thinking , there are some great research facilities in India .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.91,
+    "end": 504.02,
+    "text": "Where are you going with this , Leonard ?",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 504.87,
+    "end": 512.75,
+    "text": "Well , I'm just saying , I don't have any real ties here , so if I were to move to New Delhi we could , you know , go out .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 515.3,
+    "end": 517.6,
+    "text": "Leonard , didn't we have this conversation five years ago .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 517.7,
+    "end": 523.3,
+    "text": "Well , yes , but , things have changed , you know , you're older , I'm older . Look , no more superhero bedsheets .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 524.48,
+    "end": 529.69,
+    "text": "Sweetheart , just because we have fun when I come to town doesn't mean I want to have a serious relationship .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 530.36,
+    "end": 531.12,
+    "text": "It doesn't ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 531.66,
+    "end": 539.3,
+    "text": "Mm-mm . And besides , I could never bring a white boy home to my parents . They'd have a cow . Which is a much bigger deal in India .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 540.38,
+    "end": 546.86,
+    "text": "I'm not that white . My great-great grandmother was half Cherokee . I know that's not the right kind of Indian but it is something .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 548.15,
+    "end": 549.04,
+    "text": "Aha , you're funny .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 549.8,
+    "end": 552.32,
+    "text": "Leonard . Leonard . Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 554.15,
+    "end": 554.54,
+    "text": "What ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 554.79,
+    "end": 556.12,
+    "text": "I heard a woman laughing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 556.74,
+    "end": 560.19,
+    "text": "Oh , uh , yeah , I was trying to see if I could laugh as a woman .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 561.83,
+    "end": 571.19,
+    "text": "Oh . Well , good job , quite convincing . I smell perfume . And is that lipstick on your cheek and neck .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 567.44,
+    "end": 567.99,
+    "text": "Air freshener .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 571.73,
+    "end": 573.11,
+    "text": "Uh , rash , that's a bad rash .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 573.26,
+    "end": 583.68,
+    "text": "My sympathies . I am no stranger to the crimson scourge that is dermatitis . Can I interest you in a topical steroid from my lotion and unguent collection ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 584.36,
+    "end": 585.92,
+    "text": "Uh , yeah , yeah , that sounds great .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 586.59,
+    "end": 590.09,
+    "text": "Very well , I'm sure I can find something that will help you ditch that itch .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 591.37,
+    "end": 595.83,
+    "text": "Okay , he's in the bathroom , let's go .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 597.1,
+    "end": 599.29,
+    "text": "Do you prefer ointment or cream ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.1,
+    "end": 602.74,
+    "text": "Uh , cream .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.98,
+    "end": 608.67,
+    "text": "With or without a numbing agent ? Really ? Leonard , there are no heroes when it comes to dermatitis .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 604.66,
+    "end": 605.0,
+    "text": "Without .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 610.28,
+    "end": 610.8,
+    "text": "Fine . With .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 611.04,
+    "end": 624.78,
+    "text": "Prescription or non-prescription strength . Well , I think I have a nice 2009 AnaMantle HC . It's usually indicated for acutely inflamed haemorrhoids , but it also goes nicely with non mucosal body parts .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 613.16,
+    "end": 614.16,
+    "text": "Use your best judgement .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 627.7,
+    "end": 628.14,
+    "text": "Sounds great .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 628.66,
+    "end": 629.62,
+    "text": "Excellent choice .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 630.18,
+    "end": 631.26,
+    "text": "Right , right , alright .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 639.08,
+    "end": 639.54,
+    "text": "Priya ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 641.15,
+    "end": 642.12,
+    "text": "Good morning , Sheldon .",
+    "speaker": "priya_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 643.4,
+    "end": 653.31,
+    "text": "For shame , Leonard . For shame . And to think I was ready to waste the last of my good haemorrhoid cream on you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 661.68,
+    "end": 662.62,
+    "text": "Making pretty good time , huh ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 664.22,
+    "end": 666.15,
+    "text": "Is that really what you want to talk about , Leonard ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 667.11,
+    "end": 667.58,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 668.54,
+    "end": 669.73,
+    "text": "What do you want to talk about ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 669.81,
+    "end": 671.71,
+    "text": "Please don't tell anyone I spent the night with Raj's sister .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 672.66,
+    "end": 676.91,
+    "text": "There it is . What if someone asks ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 677.13,
+    "end": 679.55,
+    "text": "No-one's going to ask if I spent the night with Raj's sister .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 679.85,
+    "end": 688.11,
+    "text": "Perhaps . But they might ask me something else . Like , has Leonard betrayed any of his friends recently ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 683.76,
+    "end": 684.26,
+    "text": "Like what ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 689.46,
+    "end": 692.67,
+    "text": "Priya and I are both adults . We didn't betray Raj .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 692.91,
+    "end": 718.54,
+    "text": "In fact , you did , but I was referring to Howard . April 12th , 2005 , Bob's Big Boy , Toluca Lake . Raj had just introduced us to Priya for the first time , and she was enjoying the sweet taste of Hindu rebellion in the form of a Bob's Super Big Boy hamburger . In order to preserve your friendship , you and Howard made a pinky swear that neither of you would attempt to woo her . I had a patty melt .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.42,
+    "end": 697.26,
+    "text": "What are you talking about ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 720.35,
+    "end": 723.49,
+    "text": "Okay , fine , I betrayed Howard . Alright , and Raj .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 721.97,
+    "end": 724.46,
+    "text": "And Raj . And me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 726.29,
+    "end": 726.65,
+    "text": "You ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 726.91,
+    "end": 730.5,
+    "text": "Violation of the roommate agreement , overnight guest notification clause .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 731.14,
+    "end": 735.37,
+    "text": "Okay fine , I'm , I'm a horrible human being , I'm the Darth Vader of Pasadena .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 735.76,
+    "end": 740.92,
+    "text": "You're far too short to be Darth Vader . At best you might be a turncoat Ewok .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 742.24,
+    "end": 746.78,
+    "text": "My point is , Priya's gone . And it would be much better if no-one else found out about this .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 748.85,
+    "end": 752.83,
+    "text": "You mean , you want me to keep a secret . You know I can't keep a secret .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 750.51,
+    "end": 750.99,
+    "text": "Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 753.24,
+    "end": 759.39,
+    "text": "You can if you try . Think about it this way , if I were Batman and you were Alfred , you'd keep that secret . Right ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 760.35,
+    "end": 761.73,
+    "text": "Why do you get to be Batman ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 762.79,
+    "end": 764.35,
+    "text": "Because , well , Batman has the secret .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 764.41,
+    "end": 777.17,
+    "text": "Well Alfred has secrets too . Alfred knows that Barbara Gordon is Batgirl . Which I've now just told to Batman . See , I can't keep a secret . Ta-da !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 766.19,
+    "end": 766.71,
+    "text": "Like what ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 779.06,
+    "end": 779.37,
+    "text": "What .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 780.41,
+    "end": 783.08,
+    "text": "Ta-da . It's short for da-da-da-da !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 783.33,
+    "end": 786.91,
+    "text": "Kind of busy here , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 787.21,
+    "end": 788.45,
+    "text": "I know , that's why I shortened it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 790.95,
+    "end": 791.71,
+    "text": "What do you want .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.07,
+    "end": 795.16,
+    "text": "I came to go over your alibi for last night .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 795.84,
+    "end": 796.72,
+    "text": "What alibi ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 797.27,
+    "end": 810.34,
+    "text": "You've asked me to lie on your behalf , and as you know , I am deeply uncomfortable with impromptu dishonest , so I've provided you with an iron clad alibi . You couldn't have spent last night with Priya , because you were with another woman .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 810.7,
+    "end": 814.29,
+    "text": "Oh , I'm so sure I'm going to regret this , but , who was I with ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 815.92,
+    "end": 829.81,
+    "text": "The fun loving , and morally loose , Miss Maggie McGeary . You met her at Pasadena's most popular Irish watering hole , Lucky Baldwin's , where Maggie spends her nights tending bar , with a head full of curls and a heart full of dreams .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 820.82,
+    "end": 820.88,
+    "text": "Oh , God .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 830.48,
+    "end": 837.68,
+    "text": "Leonard , call me if you're interested in coitus . Sincerely , Maggie McGeary .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 837.97,
+    "end": 843.7,
+    "text": "And if anyone were to actually call that number they will hear this .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 854.14,
+    "end": 863.11,
+    "text": "It's pretty convincing , huh ? And it wasn't even a real person . And here is the clincher . A lock of Maggie's flaming auburn hair .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.63,
+    "end": 865.33,
+    "text": "Where did you get that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 865.36,
+    "end": 867.07,
+    "text": "From an orang-u-tan in the primate lab .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 868.16,
+    "end": 869.03,
+    "text": "An orang-u-tan ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 869.42,
+    "end": 873.92,
+    "text": "Well , no-one's going to run a DNA test on it , Leonard , honestly you over-think everything .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 874.45,
+    "end": 898.95,
+    "text": "Sheldon , I don't need an alibi . Nobody's going to ask about last night as long as you just zip your lip . Thankyou . Now don't worry , everything is going to be fine . (Sheldon writes \" I doubt it \" on Leonard's whiteboard . Hey .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 900.83,
+    "end": 905.24,
+    "text": "Hey , Leonard , will you please tell Howard my sister's never been attracted to him .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 906.56,
+    "end": 915.44,
+    "text": "C'mon Raj , how am I supposed to know who she's attracted to . Or was attracted to . Or who she might be attracted to . In the future .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 917.23,
+    "end": 929.79,
+    "text": "And I have nothing to contribute to this conversation . Because I too know absolutely nothing about Priya's preferences in male companionship . And with that , I will re-zip my lip .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 931.63,
+    "end": 935.62,
+    "text": "Hey , so what did you guys think of the new episode of Caprica last night ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 935.83,
+    "end": 936.49,
+    "text": "I didn't see it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 936.81,
+    "end": 938.94,
+    "text": "Didn't see it ? What were you doing ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 942.27,
+    "end": 943.94,
+    "text": "Uh , I was out .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.57,
+    "end": 945.65,
+    "text": "On Caprica night ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 945.77,
+    "end": 947.6,
+    "text": "Yeah , I , uh , went for a drink .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 947.73,
+    "end": 951.33,
+    "text": "Really , you , and where , where did you go ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 951.59,
+    "end": 960.37,
+    "text": "To uh , Lucky Baldwin's .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 962.28,
+    "end": 975.89,
+    "text": "Oh , I've heard of that place , isn't that Pasadena's favourite Irish watering hole . Did you meet anyone interesting there , perhaps a promiscuous redheaded barmaid ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 969.64,
+    "end": 970.17,
+    "text": "Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 977.2,
+    "end": 979.83,
+    "text": "As a matter of fact I. . I ... I can't ... I can't ... I can't do it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.26,
+    "end": 982.15,
+    "text": "Sure you can , you're doing fine , it's very believable .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 983.43,
+    "end": 987.55,
+    "text": "Look , I'm sorry Raj , but the truth is I was with Priya last night .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 987.7,
+    "end": 991.99,
+    "text": "Don't listen to him , he's still light headed from all the Irish whiskey and pickled eggs in his system .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 992.9,
+    "end": 993.9,
+    "text": "What were you doing with Priya ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 994.05,
+    "end": 1000.36,
+    "text": "I believe they engaged in coitus but , more importantly , if Leonard had not abandoned his story , would you have found it plausible ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.54,
+    "end": 1002.11,
+    "text": "What ? You slept with my sister ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1002.56,
+    "end": 1002.79,
+    "text": "Yeah .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1003.24,
+    "end": 1005.21,
+    "text": "How could you ? We had a pact !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1005.46,
+    "end": 1009.41,
+    "text": "Excuse me , I think how could you she's my sister takes precedence over a five year old pinky swear !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1011.29,
+    "end": 1015.79,
+    "text": "May I point out , in a parallel universe , your friends are saying Maggie McGeary , she sounds lovely .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1017.05,
+    "end": 1025.59,
+    "text": "Look , I admit it , I may have crossed a line here , but come on , Raj , your sister is a grown woman . To her , I'm a forbidden piece of white chocolate .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1027.32,
+    "end": 1029.98,
+    "text": "I ... I don't believe it , this is a terrible betrayal of my trust .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1030.15,
+    "end": 1035.26,
+    "text": "No , no , no , would it help if I told you that I offered her my heart and she kind of stomped on it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1036.31,
+    "end": 1037.39,
+    "text": "How hard did she stomp ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1039.15,
+    "end": 1039.8,
+    "text": "Very hard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1041.46,
+    "end": 1042.0,
+    "text": "Okay , I'm good .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1045.37,
+    "end": 1054.62,
+    "text": "Yeah , well , Raj , I just want to say that I'd never betray your trust . Unlike Leonard , I respect you . Mmm .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1052.6,
+    "end": 1053.06,
+    "text": "Really ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1055.66,
+    "end": 1059.8,
+    "text": "Was it out of respect that you didn't tell Raj about the time you dropped his iPhone in a urinal ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1061.2,
+    "end": 1062.92,
+    "text": "Dude ! I put that thing on my face !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1063.6,
+    "end": 1071.11,
+    "text": "I think a more amusing violation of Raj's trust is when Howard convinced him that foreigners give presents to Americans on Thanksgiving .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1072.6,
+    "end": 1076.44,
+    "text": "Hey , I didn't see you giving back your Snoopy snowcone maker .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.02,
+    "end": 1079.72,
+    "text": "That was all a lie ? This year's gifts are already wrapped !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1080.77,
+    "end": 1087.05,
+    "text": "And as long as we're talking about betraying our friends , how about the month Sheldon spent grinding up insects and mixing them into Leonard's food .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1087.11,
+    "end": 1095.16,
+    "text": "Well , excuse me . That was not a betrayal , that was an experiment to determine at what concentration food starts tasting mothy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1096.91,
+    "end": 1098.88,
+    "text": "You put moths in my food ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1100.15,
+    "end": 1101.12,
+    "text": "For science .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1102.8,
+    "end": 1105.12,
+    "text": "I can't believe you kissed my sister with moth mouth .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1105.87,
+    "end": 1107.29,
+    "text": "Well , uh , I can't believe .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  }
+]

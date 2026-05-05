@@ -1,0 +1,1290 @@
+[
+  {
+    "start": 3.92,
+    "end": 14.46,
+    "text": "The entrance to the dungeon is a moss covered door . You manage to open it only to find yourself face-to-face with a hideous , foul-smelling , moss-covered ogre . What do you do ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 15.54,
+    "end": 17.01,
+    "text": "I say , hey Ma , what's for dinner?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 20.97,
+    "end": 29.0,
+    "text": "Seventeen . The ogre is amused by your joke and allows you to pass . By the by , I liked it , too .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 30.91,
+    "end": 33.07,
+    "text": "Hey , how go the wedding plans , Howard ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 33.4,
+    "end": 40.42,
+    "text": "Great . We spent five hours last night at Macy's registering for gifts . Looks like I'm finally going to have that darling little earthenware asparagus dish I've always wanted .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 41.37,
+    "end": 47.17,
+    "text": "See , this is the good thing about having a girlfriend 9,000 miles away . I can spend my nights doing whatever I want .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 47.47,
+    "end": 51.22,
+    "text": "mean like playing nerd games with us and then taking a suspiciously long shower ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 54.67,
+    "end": 59.57,
+    "text": "Maybe . We enter the dungeon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.53,
+    "end": 61.87,
+    "text": "You see a dragon .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.65,
+    "end": 70.16,
+    "text": "Really ? So we're playing Dungeons and Dragons , and we walk into a dungeon and see a dragon ? Isn't that a little on the nose ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 71.06,
+    "end": 74.84,
+    "text": "When you play Chutes and Ladders , do you complain about all the chutes and all the ladders ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 76.61,
+    "end": 78.92,
+    "text": "Are you gonna eat that whole pie ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 80.53,
+    "end": 83.94,
+    "text": "Maybe . Why not ? Who do I have in my life to watch my figure for ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 84.95,
+    "end": 87.5,
+    "text": "Oh , God , did you watch Bridget Jones again ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 87.51,
+    "end": 95.01,
+    "text": "No , it's just that everybody's got someone . Sheldon's with Amy , Howard's getting married , you're dating my sister .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 95.32,
+    "end": 98.68,
+    "text": "Now that Howard's getting married , maybe he'll inflate one of his old girlfriends for you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 100.58,
+    "end": 109.16,
+    "text": "You know who I blame for my loneliness ? The United States of America . Your movies and your TV shows promised streets paved with beautiful blonde women with big bazongas .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 111.03,
+    "end": 112.54,
+    "text": "another pie , you'll have your own bazongas .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 114.51,
+    "end": 116.53,
+    "text": "That's cruel . You know it goes straight to my hips .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 117.49,
+    "end": 121.45,
+    "text": "Gentlemen , please focus . You're facing a fire-breathing dragon .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 122.15,
+    "end": 123.37,
+    "text": "I don't know if I want to play anymore .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 124.36,
+    "end": 129.66,
+    "text": "Because you don't have a girlfriend ? Well , good Lord , if that becomes a reason not to play Dungeons and Dragons , this game's in serious trouble .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 155.81,
+    "end": 160.46,
+    "text": "Now , I assume we use this same wax later on to neaten up each other's bikini regions .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 162.63,
+    "end": 164.34,
+    "text": "Yeah , my bikini region is fine .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 164.4,
+    "end": 174.76,
+    "text": "Who's shocked ? I'm not . So , Bernadette , how's the wedding planning going ? And I'm not asking as a prospective bridesmaid . Pick me ! Pick me !",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 178.6,
+    "end": 183.87,
+    "text": "We went cake-tasting yesterday . Raj came along . He cried and ate half the samples .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 184.79,
+    "end": 189.17,
+    "text": "Oh , the poor guy's so lonely . We should set him up with someone .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 189.98,
+    "end": 194.9,
+    "text": "You know , I met a really cute girl at work . She's married to a guy in one of our drug trials .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.71,
+    "end": 198.77,
+    "text": "Well , hello ? She's married .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 199.69,
+    "end": 208.75,
+    "text": "Yeah , but her husband is in serious congestive heart failure , and a little birdie told me he's in the placebo group .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.75,
+    "end": 213.84,
+    "text": "Okay , so future grief-stricken widow is the one to beat .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 215.47,
+    "end": 216.94,
+    "text": "Are we ready to order ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 217.06,
+    "end": 220.24,
+    "text": "One moment . I'm conducting an experiment .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 221.05,
+    "end": 223.06,
+    "text": "With Dungeons and Dragons dice ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 224.61,
+    "end": 238.56,
+    "text": "Yes . From here on in , I've decided to make all trivial decisions with a throw of the dice , thus freeing up my mind to do what it does best , enlighten and amaze . Page 14 , item seven .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 240.57,
+    "end": 241.77,
+    "text": "So , what's for dinner ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 242.37,
+    "end": 246.98,
+    "text": "A side of corn succotash . Hmm . Interesting .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 248.01,
+    "end": 250.34,
+    "text": "Um , Howard , can I see you for a minute , please ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 250.72,
+    "end": 253.84,
+    "text": "Uh , I don't want to show any more of your friends how I can fit in the booster seats .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 255.54,
+    "end": 258.4,
+    "text": "Uh , no , that's not it . Just come with me , please .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 260.35,
+    "end": 267.0,
+    "text": "Let's see what I'll be washing that succotash down with . A pitcher of margaritas .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 270.3,
+    "end": 271.42,
+    "text": "Do you really want that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 271.87,
+    "end": 277.06,
+    "text": "That's the great thing . It doesn't matter . My mind is freed up to think about more important things .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 278.1,
+    "end": 279.25,
+    "text": "What's it thinking about now ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 279.76,
+    "end": 280.96,
+    "text": "Hamburgers and lemonade .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 282.83,
+    "end": 293.79,
+    "text": "Um , Raj , there's someone I want you to meet . This is my friend Emily . I know her from my spin class . Raj , relax . She can't hear you . She's deaf .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 295.97,
+    "end": 297.79,
+    "text": "Emily , this is our friend Raj .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 299.42,
+    "end": 311.62,
+    "text": "Oh ! Look at you guys just hitting it off . I am so good .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 313.25,
+    "end": 314.06,
+    "text": "Hi .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 315.69,
+    "end": 316.8,
+    "text": "She says it's nice to meet you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 317.22,
+    "end": 319.31,
+    "text": "Does she really mean that or was she signing it sarcastically ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 321.85,
+    "end": 331.43,
+    "text": "Raj says it's nice to meet you , too . She says she has to go back to her family , but Penny has her number if you want to text her and get together .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 332.12,
+    "end": 336.27,
+    "text": "Okay , I'm going to play it cool . Tell her , maybe . Whatever , babe .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 339.79,
+    "end": 340.87,
+    "text": "He'll text you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 344.39,
+    "end": 348.19,
+    "text": "Ah , look at that . I have a date . I love America again .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 352.09,
+    "end": 358.28,
+    "text": "And now for dessert , come on , hot fudge sundae , come on , hot fudge sundae . Bam ! That's what I'm talking about !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 362.51,
+    "end": 375.04,
+    "text": "Okay , as soon as she gets here , so she knows I'm cool with it , I'm going to make a joke about her being deaf . I was thinking , hey , did you hear the one about ... ? Oh , no , I bet you didn't .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 377.69,
+    "end": 380.23,
+    "text": "Maybe we should revisit your lonely fat guy plan .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 381.25,
+    "end": 382.88,
+    "text": "Oh , she's here .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 384.76,
+    "end": 392.02,
+    "text": "No joke . Oh , she says she's sorry she's late .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 392.55,
+    "end": 399.03,
+    "text": "Tell her it doesn't matter . Tell her , her eyes shimmer like opalescent lilies in the lake of the palace of the celestial maidens .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 402.68,
+    "end": 404.17,
+    "text": "Really ? That's the first thing you want to say ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 405.19,
+    "end": 406.45,
+    "text": "I worked on it all night . Use it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 406.75,
+    "end": 411.07,
+    "text": "Look , I don't know the sign for opalescent . I don't know how to spell it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 408.93,
+    "end": 412.09,
+    "text": "Then spell it . You're blowing this for me !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 414.89,
+    "end": 416.06,
+    "text": "He likes your eyes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 416.51,
+    "end": 417.82,
+    "text": "You're making me sound like a caveman .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 420.03,
+    "end": 421.72,
+    "text": "She says , thank you , you have nice eyes , too . \"",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 422.05,
+    "end": 426.38,
+    "text": "Really ? Ask her how many children she wants , and whatever number she says , say , me too .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 432.62,
+    "end": 432.67,
+    "text": "No .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 432.77,
+    "end": 435.62,
+    "text": "Fine . Tell her I have a deep , sexy voice like James Earl Jones .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 436.84,
+    "end": 439.48,
+    "text": "She doesn't know what James Earl Jones sounds like .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 440.26,
+    "end": 455.93,
+    "text": "Great . Then she won't know I'm lying . Let's see , what else can I tell you about me that would make you like me ? Ooh , I love music . Do you love music ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 458.77,
+    "end": 459.76,
+    "text": "You really want to ask her that ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 460.68,
+    "end": 462.87,
+    "text": "You're right . Everyone loves music .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 465.74,
+    "end": 467.75,
+    "text": "She says , do you play an instrument ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 468.17,
+    "end": 491.39,
+    "text": "No , but when I was six years old , I tried to start a boy band called Frankie Goes to Bollywood . But I couldn't get any other boys to join , so my parents asked the servants to be my backup dancers . Wait , when you sign servants , don't sign it like I'm bragging . Sign it in a way that I sound humble with just a hint of , that's right , I had servants .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 495.13,
+    "end": 496.07,
+    "text": "Do you hear yourself",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 496.28,
+    "end": 498.6,
+    "text": "Yes , but she doesn't . So get signing , hand monkey .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 503.57,
+    "end": 513.19,
+    "text": "I think I wrote a letter to Santa Claus every day . And then on Christmas morning , under the tree is a little puppy with a red ribbon .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 516.13,
+    "end": 516.64,
+    "text": "What are you doing ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 516.94,
+    "end": 518.48,
+    "text": "Texting Bernadette that I'm gonna be late .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 519.22,
+    "end": 520.27,
+    "text": "Dude , what is she saying ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 520.42,
+    "end": 530.13,
+    "text": "It's a funny story about a puppy . Just smile and laugh . Quick , quick , stop smiling . The puppy died , it choked on a doll head . Sad face , sad face !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 527.52,
+    "end": 527.92,
+    "text": "What ? Why ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 534.67,
+    "end": 542.89,
+    "text": "It's a little hard to see with the city lights , but that W-shaped constellation is Cassiopeia . And she was the mother of Andromeda who's over there .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 545.07,
+    "end": 554.47,
+    "text": "Look , pretty stars . This is her car . She hopes she can see you again sometime .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 555.11,
+    "end": 560.34,
+    "text": "Good , good . Oh , boy , help me out here . Does she want me to kiss her or not ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 560.9,
+    "end": 562.8,
+    "text": "I speak sign language , I don't read minds .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 563.06,
+    "end": 564.25,
+    "text": "If you were me , would you kiss her ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 564.76,
+    "end": 566.06,
+    "text": "Yeah , but I'm a make out king .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 577.01,
+    "end": 578.41,
+    "text": "I was so smooth on that date .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 579.22,
+    "end": 582.27,
+    "text": "You ? I made you smooth . You were an idiot .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 582.59,
+    "end": 583.82,
+    "text": "Whatever , dude . She kissed me .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 584.39,
+    "end": 586.73,
+    "text": "It might've been on your lips , but it was my kiss .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 586.85,
+    "end": 588.55,
+    "text": "Oh , fine . Let's agree she kissed both of us .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 595.48,
+    "end": 595.8,
+    "text": "Okay .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 596.43,
+    "end": 598.21,
+    "text": "Mustache is looking good there , Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.22,
+    "end": 605.63,
+    "text": "Don't thank me . Thank the dice . They told me what percentage of my face to shave .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 607.39,
+    "end": 608.63,
+    "text": "Why are you still doing this ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 608.81,
+    "end": 621.89,
+    "text": "Because it's working . In the past few weeks , unburdened by trivial decisions , I've co-authored two papers in notable peer-reviewed journals , and I'm close to figuring out why the Large Hadron Collider has yet to isolate the Higgs boson particle .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 622.81,
+    "end": 626.08,
+    "text": "You left out , got chafed testicles because you no longer wear underpants .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 630.22,
+    "end": 631.96,
+    "text": "The dice giveth and the dice taketh away .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 632.75,
+    "end": 635.1,
+    "text": "Is Raj out with Emily again ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.89,
+    "end": 637.58,
+    "text": "Yeah , every night for the last month .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 637.81,
+    "end": 639.81,
+    "text": "Wow , can't believe he has a girlfriend .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 641.88,
+    "end": 642.42,
+    "text": "Me neither .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 644.95,
+    "end": 650.69,
+    "text": "Here's some other fun news on the Raj/Emily front . He gave her a pair of diamond earrings and leased her a car .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 651.09,
+    "end": 651.92,
+    "text": "You're kidding .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 652.53,
+    "end": 653.97,
+    "text": "You think she's taking advantage of him ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 654.09,
+    "end": 657.2,
+    "text": "Oh , of course not . She wouldn't do something like that . She's deaf .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 661.26,
+    "end": 663.02,
+    "text": "Deaf women can't be gold diggers ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 663.4,
+    "end": 666.26,
+    "text": "Handicapped people are nice , Leonard . Everyone knows that .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 668.67,
+    "end": 673.0,
+    "text": "Yeah , I actually have information about Raj that would be helpful with this discussion .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 678.26,
+    "end": 679.34,
+    "text": "Could you tell us ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 680.44,
+    "end": 685.15,
+    "text": "Let's see . Snake eyes . Sorry , bud .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 687.01,
+    "end": 689.28,
+    "text": "Wait , hang on . Doubles . Roll again .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 693.12,
+    "end": 700.81,
+    "text": "Okay , get this . It doesn't matter if he's showering her with gifts , because the Koothrappalis are vastly wealthy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 701.69,
+    "end": 703.04,
+    "text": "What do you mean , vastly wealthy ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 703.76,
+    "end": 708.27,
+    "text": "Well , wealthy means a lot of money , and vastly means even more . I'm not sure what's tripping you up .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 709.42,
+    "end": 711.83,
+    "text": "Look , I know they have money . I don't think it's that much .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 711.89,
+    "end": 726.51,
+    "text": "No , you're wrong . See , as you know , a few years ago , I achieved one of my lesser dreams and became a notary public . Well , from time to time , I notarize banking documents for Raj . The Koothrappalis aren't just rich , they're Richie Rich rich .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 728.29,
+    "end": 730.32,
+    "text": "Well , so how much is that ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 730.79,
+    "end": 733.29,
+    "text": "About halfway between Bruce Wayne and Scrooge McDuck .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 734.83,
+    "end": 739.1,
+    "text": "What the hell ? The last time we went to the zoo , that son of a bitch made me buy him a churro .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 740.91,
+    "end": 748.59,
+    "text": "Listen , guys , I'm sorry , I don't mean to be rude , but I need to go call Raj's sister , who I love so much . So vastly much .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 752.27,
+    "end": 755.67,
+    "text": "Okay , so he's got money , and it's a few gifts and a car .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 756.52,
+    "end": 758.37,
+    "text": "And she got him to pay off all her credit cards .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 758.9,
+    "end": 768.8,
+    "text": "What ? He paid off her credit cards ? Damn it , I could've dated Raj for a couple months . But I , I wouldn't have , because I'm not that kind of girl . We should really talk to Raj .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 770.28,
+    "end": 771.79,
+    "text": "He's not going to listen , he's in love .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 772.31,
+    "end": 780.83,
+    "text": "Can't figure out what to do ? I remember those days . Now , if you'll excuse me , I have to ... stay right here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 784.71,
+    "end": 786.43,
+    "text": "Yeah , this is a bad idea . We should go .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 786.58,
+    "end": 788.95,
+    "text": "No . I'm the one that introduced him to her . I've got to say something .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 788.95,
+    "end": 789.14,
+    "text": "Wow .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 796.36,
+    "end": 797.8,
+    "text": "You're engaged to my friend .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 798.33,
+    "end": 801.94,
+    "text": "Hey , Bernadette doesn't mind where I get my motor running , as long as I park in the right garage .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 805.38,
+    "end": 810.34,
+    "text": "I can't believe you're engaged to my friend . Oh , here she comes .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 811.65,
+    "end": 813.62,
+    "text": "Smart . Whisper so the deaf chick can't hear you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 816.54,
+    "end": 816.9,
+    "text": "Hi .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 819.83,
+    "end": 821.58,
+    "text": "Oh , hey , hi . Nice to see you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 821.94,
+    "end": 823.98,
+    "text": "Um , can we talk to you about Raj ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 825.79,
+    "end": 827.3,
+    "text": "She says , sure , what about him ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 827.77,
+    "end": 847.73,
+    "text": "Okay , um , gosh , how do I start ? Um , see , Raj is kind of naive . I mean , he hasn't dated a whole lot of women . And I'm concerned that , without meaning to , you might be taking advantage of him . You know , by letting him buy you a bunch of expensive things.And I. . I ... Howard , focus . Tell her what I'm saying .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 848.34,
+    "end": 862.41,
+    "text": "Right . Are you a gold digger or not ? Oh , uh , something , something , who the something do you think you are ? Mind your own something business and go something yourself . Oh , wait , I got this now .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 867.04,
+    "end": 867.95,
+    "text": "I'm so mad at you ! How dare you ambush my girlfriend at the gym !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 867.95,
+    "end": 868.86,
+    "text": "you so chatty ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 873.0,
+    "end": 873.72,
+    "text": "I'm hammered .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 877.85,
+    "end": 889.21,
+    "text": "Raj , come here . This girl is trouble . I mean , what kind of relationship is it where you buy her gifts and she gives you sex ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 889.82,
+    "end": 891.74,
+    "text": "The best one I ever had !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 892.42,
+    "end": 895.84,
+    "text": "Okay , come on . You know you can do better .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 896.65,
+    "end": 905.16,
+    "text": "Aha . I see what's going on here . You and I had our crazy night together , and now you can't stand to see me with another woman .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 905.62,
+    "end": 906.51,
+    "text": "Whoa , whoa , whoa , whoa !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 906.78,
+    "end": 911.94,
+    "text": "It's okay . I can't get mad at your feelings . Yeah , that's good . Keep telling yourself that .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 908.75,
+    "end": 909.9,
+    "text": "I don't have feelings .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 914.94,
+    "end": 916.36,
+    "text": "He is cuter now that I know he's rich .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 920.67,
+    "end": 928.22,
+    "text": "I have a surprise for you . Cover your eyes . Open them .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 937.47,
+    "end": 948.24,
+    "text": "It's a real ruby . It was a little expensive , but no one can put a price on love . Although , the people at Cartier took a pretty good shot at it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 955.72,
+    "end": 957.89,
+    "text": "Oh , Mummy , Daddy . What a nice surprise .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.19,
+    "end": 960.55,
+    "text": "No , it's not a nice surprise , it's a bad surprise .",
+    "speaker": "dr_vm_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 961.44,
+    "end": 966.9,
+    "text": "Penny called us . She told us you're spending all our money on your new girlfriend .",
+    "speaker": "mrs_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 963.67,
+    "end": 963.94,
+    "text": "Penny ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 968.52,
+    "end": 971.75,
+    "text": "I just got her a couple of things . She gives me things , too .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 971.92,
+    "end": 974.75,
+    "text": "Yeah , yeah , I'm a gynaecologist . I know exactly what she gives you .",
+    "speaker": "dr_vm_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 974.75,
+    "end": 982.52,
+    "text": "You need to find a nice Indian girl from a good family . If you keep seeing this woman , you're cut off .",
+    "speaker": "mrs_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 982.78,
+    "end": 987.98,
+    "text": "What ? You're going to make me choose between the woman I love and the money I have very strong feelings for ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 989.42,
+    "end": 992.29,
+    "text": "It's up to you .",
+    "speaker": "dr_vm_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 993.73,
+    "end": 994.77,
+    "text": "Well , I choose love .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 995.23,
+    "end": 1011.03,
+    "text": "Hah . You're an idiot . Love doesn't last . Well , he's going to find out eventually . Think about it .",
+    "speaker": "dr_vm_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1016.31,
+    "end": 1037.57,
+    "text": "My parents are making me choose between money and you . I choose you . No , I think we'll have to return the car . And that necklace , yeah , that , too . But none of those things matter , because we have something better . We have love .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1048.07,
+    "end": 1049.81,
+    "text": "Oh , Penny , I hurt so bad .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1051.22,
+    "end": 1052.59,
+    "text": "I know , I know .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1052.79,
+    "end": 1056.06,
+    "text": "Sometimes I put the TV on mute just to pretend she's still with me .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1062.16,
+    "end": 1065.14,
+    "text": "But I can't watch the closed captioning without crying .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1067.74,
+    "end": 1071.98,
+    "text": "Oh , I'm so sorry . I wish I could make you feel better .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1072.41,
+    "end": 1076.14,
+    "text": "Seriously ? I'm heartbroken and you're hitting on me ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1076.88,
+    "end": 1077.98,
+    "text": "What ? No !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1078.71,
+    "end": 1095.25,
+    "text": "Look , Penny , you're great , but I had a long talk with my parents , and they said if I date an Indian girl , I get a Maserati . Mmm . Oh , cheesecake , you're just as good as a woman , even though I can't have sex with you .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1097.58,
+    "end": 1099.39,
+    "text": "Try throwing it in the microwave for a few seconds .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1104.9,
+    "end": 1112.51,
+    "text": "Should I use the rest room or wait until we get home ? Come on , papa needs to void his bladder . Oh , that's not what you want to see after three buttermilks .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1113.13,
+    "end": 1116.83,
+    "text": "Here you go , boys . I'll pick it up when you're ready .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1117.45,
+    "end": 1118.29,
+    "text": "Thanks for dinner , buddy .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1118.55,
+    "end": 1119.53,
+    "text": "Yeah , real big of you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1120.27,
+    "end": 1121.14,
+    "text": "Hurry , hurry , hurry .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1123.19,
+    "end": 1125.11,
+    "text": "Oh , and don't cheap out on the tip . We all know you're loaded now .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  }
+]

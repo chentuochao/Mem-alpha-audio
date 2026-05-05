@@ -1,0 +1,1360 @@
+[
+  {
+    "start": 3.78,
+    "end": 6.02,
+    "text": "Why do I always have to carry the heavy stuff ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 6.26,
+    "end": 21.94,
+    "text": "Well , it's very simple . In our ragtag band of scientists with nothing to lose , I'm the smart one , Wolowitz is the funny one , and Koothrappali is the lovable foreigner who struggles to understand our ways and fails . That leaves you , by default , as the muscle .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 24.02,
+    "end": 25.89,
+    "text": "One more floor , and I'd be the pulled muscle .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 27.76,
+    "end": 29.19,
+    "text": "Oh , it's about time , I'm starving .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 29.45,
+    "end": 34.15,
+    "text": "Uh , well , we didn't actually get Chinese food . Don't panic , this is better .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 32.4,
+    "end": 32.8,
+    "text": "Why not ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 34.63,
+    "end": 37.75,
+    "text": "Oh , no , you didn't trade the food for magic beans , did you ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 38.88,
+    "end": 48.95,
+    "text": "Of course not . And , technically , magic beans would be food , although eating them would be quite a waste , since you could plant them and overnight have a giant beanstalk , which would provide enough roughage for a small city .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 50.73,
+    "end": 54.25,
+    "text": "Yeah , sometimes I don't listen , sometimes I just watch your jaw go up and down .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 56.11,
+    "end": 59.92,
+    "text": "We were on our way to the Chinese restaurant when we thought we saw Adam West , so we followed him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.1,
+    "end": 61.06,
+    "text": "Who's Adam West ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 61.3,
+    "end": 66.01,
+    "text": "Who's Adam West ? Leonard , what do the two of you talk about after the coitus ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 68.19,
+    "end": 74.84,
+    "text": "My guess is , \" Hey , four minutes ! New record! \" That's why I'm the funny one .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 76.38,
+    "end": 80.03,
+    "text": "Anyway , we followed the guy to this garage sale , and they had the coolest stuff .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 80.03,
+    "end": 82.8,
+    "text": "They were closing up . We got this whole box for sixty bucks .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.83,
+    "end": 85.53,
+    "text": "We didn't even get to go through it all . There could be anything in here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 85.59,
+    "end": 87.57,
+    "text": "There a new girlfriend in there ? 'Cause you might need one .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.92,
+    "end": 98.72,
+    "text": "No . But there is an original final draft Ghostbusters script with actual slime stains ! Oh , you're right , it's Ghostbusters 2 . Never mind .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 101.74,
+    "end": 131.12,
+    "text": "Oh , my God . An Alf doll . When I was 11 my mother got me one to help me sleep after my dad left . I used to pretend that my dad had moved to the planet Melmac , and Alf was going to bring him back to me . But he never did . Where's my daddy , puppet ? Where is he ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 132.58,
+    "end": 134.89,
+    "text": "That is so sad .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 135.95,
+    "end": 138.25,
+    "text": "No , what's sad is that you don't know Adam West was TV's Batman .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 165.11,
+    "end": 180.74,
+    "text": "Here's Spock's head with no body . Here's Mr . T's body with no head . Oh , yeah , here's Spock's body with Mr . T's head . I pity the fool who's illogical .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.43,
+    "end": 189.09,
+    "text": "Okay , I'm just gonna go home and make a grilled cheese and window-shop on eHarmony .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 192.26,
+    "end": 196.32,
+    "text": "Okay , bye . Ooh , look , an Indiana Jones connect-the-dots .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 193.5,
+    "end": 193.83,
+    "text": "Okay .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 197.37,
+    "end": 199.07,
+    "text": "And an Aquaman action figure .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 200.07,
+    "end": 201.93,
+    "text": "Looks like someone drew a penis on him .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 202.53,
+    "end": 203.72,
+    "text": "Huh ? That'll come off .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 207.74,
+    "end": 213.92,
+    "text": "You see what you're doing ? Stop that .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 217.94,
+    "end": 222.19,
+    "text": "Fascinating . It appears to be a Lord of the Rings ring .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 218.78,
+    "end": 219.07,
+    "text": "What ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 222.6,
+    "end": 222.81,
+    "text": "Oh .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 223.22,
+    "end": 224.94,
+    "text": "It's even got the Elvish engraving on it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 225.26,
+    "end": 232.29,
+    "text": "It's not Elvish . It's the language of Mordor written in Elvish script . One Ring to",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 234.0,
+    "end": 235.77,
+    "text": "One Ring to find them .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 236.16,
+    "end": 238.15,
+    "text": "One Ring to bring them all .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 238.77,
+    "end": 240.6,
+    "text": "And in the darkness bind them .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 243.65,
+    "end": 244.94,
+    "text": "Holy crap , are we nerdy .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 247.9,
+    "end": 249.86,
+    "text": "So , I was doing some checking on the ring .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 250.19,
+    "end": 251.84,
+    "text": "Hold on . Sheldon , is there ketchup on that table ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 253.33,
+    "end": 267.3,
+    "text": "Yes , there is . Oh , here's a fun fact , ketchup started out as a general term for sauce , typically made of , uh , mushrooms or fish brine with herbs and spices . Some popular early main ingredients included blueberry , anchovy , oyster , kidney bean and grape .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 270.36,
+    "end": 271.36,
+    "text": "No , that's okay . I'll get it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 272.55,
+    "end": 284.27,
+    "text": "Listen , I was looking at the ring , and it seemed a little weird . No copyright notice on it . So , I took it down to this buddy of mine who deals with , shall we say , the seedy underbelly of the collectibles world .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 284.3,
+    "end": 285.47,
+    "text": "Seedy underbelly ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 286.34,
+    "end": 290.8,
+    "text": "You know , your black market phasers , your screen-worn Lieutenant Uhura panties , that kind of stuff .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 293.08,
+    "end": 295.18,
+    "text": "Who's this mysterious buddy you suddenly have ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 295.33,
+    "end": 299.9,
+    "text": "Just a guy . I know a guy . No , I can't tell you who it is . Stop asking .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 297.31,
+    "end": 297.99,
+    "text": "Is it Eddie Crispo ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 300.07,
+    "end": 301.41,
+    "text": "Who else could it be ? It has to be Eddie Crispo .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 301.51,
+    "end": 303.41,
+    "text": "I know lots of dangerous people , okay ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 303.52,
+    "end": 304.0,
+    "text": "Name one .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 304.93,
+    "end": 311.18,
+    "text": "Eddie Crispo . Anyway , he said this isn't a replica . It's the real deal .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 311.86,
+    "end": 321.31,
+    "text": "If you're suggesting that that is the actual ring of power forged by Sauron in Mount Doom , I look at you with an expression of exhaustion and ever so slight amusement .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 325.11,
+    "end": 328.67,
+    "text": "He's not saying it's a magic ring . You're not , are you ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 329.76,
+    "end": 349.71,
+    "text": "No , but it's close . Look at the markings inside . Those are production markings . Nine rings were made for use in the Lord of the Rings movies . Three were given to members of the cast . The rest were destroyed . Except one . One was stolen . Gentlemen , this is the one ring .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 353.47,
+    "end": 353.93,
+    "text": "Mine !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 356.24,
+    "end": 358.84,
+    "text": "No , it is not yours . We all went in on the box together .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 358.84,
+    "end": 366.27,
+    "text": "Well , yes , but I found it in the box , and the laws of maritime salvage clearly state that the finder of a sunken treasure is the owner of the treasure .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 366.39,
+    "end": 368.62,
+    "text": "How is this maritime salvage ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.78,
+    "end": 370.64,
+    "text": "Other than the lack of water , how is it not ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 370.93,
+    "end": 375.41,
+    "text": "Wait , wait . Sheldon , stop being crazy for a second . How much is something like this worth ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 376.16,
+    "end": 379.84,
+    "text": "Well , it's tough to say since it's hot , but on the underground market , my guy figures ...",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 379.98,
+    "end": 380.68,
+    "text": "Your guy Eddie Crispo ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 381.5,
+    "end": 381.76,
+    "text": "Yes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 385.39,
+    "end": 388.35,
+    "text": "He figures ten , maybe 15 thousand .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 388.66,
+    "end": 394.3,
+    "text": "Okay , that's a lot of money . The wise thing to do is invest it in something practical . Like a jet ski .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 396.18,
+    "end": 397.69,
+    "text": "Why do you want a jet ski ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 398.12,
+    "end": 402.3,
+    "text": "All the wealthy and beautiful people in movies ride Jet Skis . That can't just be a coincidence .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 403.29,
+    "end": 411.18,
+    "text": "We can't sell it . We have to keep it and love it and polish it , and only take it out occasionally when we go to the park and re-enact our favourite scenes from the movies .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 414.39,
+    "end": 415.74,
+    "text": "It's sad how great that sounds .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 416.77,
+    "end": 421.64,
+    "text": "Guys , it's stolen . It should go back to Peter Jackson . He made the movies , it belongs to him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 422.01,
+    "end": 426.06,
+    "text": "Fine . He can have it back as long as he promises to make me a hobbit in his next movie .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 427.59,
+    "end": 428.72,
+    "text": "There are no Jewish hobbits .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 429.12,
+    "end": 431.24,
+    "text": "Clearly , you've never been to my house for dinner on Rosh Hashanah .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 432.97,
+    "end": 436.34,
+    "text": "We are not blackmailing Peter J ... All right , where's the ring ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 436.67,
+    "end": 437.7,
+    "text": "You mean my ring ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 438.51,
+    "end": 439.85,
+    "text": "What are you doing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 439.88,
+    "end": 445.46,
+    "text": "The ring was unguarded , it was just sitting on the table , anyone could have taken it . Proof ? I did .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 446.12,
+    "end": 447.18,
+    "text": "Give me that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.43,
+    "end": 452.49,
+    "text": "Look , let's be reasonable . We all want to do different things with the ring , but your ideas are stupid , and I want a jet ski .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 453.99,
+    "end": 458.46,
+    "text": "I found it . The ring is mine . I don't understand why in this group I never get my way .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 462.24,
+    "end": 464.43,
+    "text": "You always get your way .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 465.53,
+    "end": 467.33,
+    "text": "I'll stipulate to that if you give me the ring .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 468.51,
+    "end": 474.56,
+    "text": "Hey , guys . Enjoying your food that I actually brought you instead of promising food , but bringing you a box of random crap ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 476.25,
+    "end": 485.22,
+    "text": "Yeah , it's delicious , the sarcasm's a little stale , though . Hey , how about this ? Until we figure out what to do with the ring , Penny holds on to it . This ring .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 484.08,
+    "end": 484.56,
+    "text": "What ring ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 487.35,
+    "end": 487.97,
+    "text": "Looking for something ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 489.88,
+    "end": 496.37,
+    "text": "Will you hold on to this for a couple of days ? It's a prop from a movie , and we're kind of fighting over it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 493.27,
+    "end": 493.71,
+    "text": "Why ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 496.57,
+    "end": 501.38,
+    "text": "Okay , just to be clear , the first piece of jewellery my boyfriend gives me is a prop from a movie , and I don't even get to keep it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.66,
+    "end": 509.12,
+    "text": "If you had gone out with me three years ago , by now , you'd have my great Aunt Ida's brooch that she smuggled out of occupied Belgium in a cat .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 522.72,
+    "end": 524.52,
+    "text": "How am I looking now ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 538.12,
+    "end": 538.48,
+    "text": "Ow !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 551.71,
+    "end": 552.79,
+    "text": "You hit me !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 566.03,
+    "end": 566.75,
+    "text": "I'm bleeding !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 580.35,
+    "end": 581.4,
+    "text": "What was that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.67,
+    "end": 583.43,
+    "text": "Sheldon tried to take the ring and I punched him .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 585.45,
+    "end": 586.2,
+    "text": "That's my girl .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 593.36,
+    "end": 596.6,
+    "text": "So , Sheldon , how's it feel to get beaten up by a girl ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 614.62,
+    "end": 624.99,
+    "text": "Gentlemen , have you come to the realization that the only reasonable course of action is to sell the ring and divide the money ? I was afraid of that . Go ahead .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 621.32,
+    "end": 621.43,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 630.13,
+    "end": 630.94,
+    "text": "Also my cousin .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 632.55,
+    "end": 633.62,
+    "text": "You brought a lawyer ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 633.85,
+    "end": 642.35,
+    "text": "Don't answer that . I'll get straight to the point . My client's prepared to surrender any interest he has in the ring in exchange for two Kawasaki Jet Skis .",
+    "speaker": "venkatesh_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 643.27,
+    "end": 645.44,
+    "text": "We're not giving him two Jet Skis .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 645.95,
+    "end": 651.29,
+    "text": "Look , we're big boys , why don't we just cut to the chase and meet in the middle ? One Kawasaki Jet Ski , done and done .",
+    "speaker": "venkatesh_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 652.07,
+    "end": 653.15,
+    "text": "No Jet Skis .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 657.29,
+    "end": 658.34,
+    "text": "All right , forget the Jet Skis .",
+    "speaker": "venkatesh_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 659.3,
+    "end": 662.83,
+    "text": "Forget the Jet Skis ? That was our line in the sand ! What happened to \" tear them a new one? \"",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 663.08,
+    "end": 666.02,
+    "text": "What can I say ? They played hardball . We lost .",
+    "speaker": "venkatesh_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 666.08,
+    "end": 667.64,
+    "text": "You're useless .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 667.79,
+    "end": 669.2,
+    "text": "I told you that when you hired me .",
+    "speaker": "venkatesh_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 670.13,
+    "end": 671.24,
+    "text": "I'm signing off now .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 671.52,
+    "end": 672.68,
+    "text": "Call your mother , she worries .",
+    "speaker": "venkatesh_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 675.87,
+    "end": 680.29,
+    "text": "Okay , just so you know , if we're bringing in cousins who are lawyers , prepare for shock and awe .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 680.94,
+    "end": 688.53,
+    "text": "You know what ? I am ending this . Penny didn't want to hold the ring anymore . She gave it to me , I have it . I'm sending it back . Where's the ring ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 689.17,
+    "end": 698.3,
+    "text": "You mean this ring ? Next time be aware of your surroundings while urinating in a public men's room . No , it's mine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.9,
+    "end": 697.38,
+    "text": "Give me that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 698.61,
+    "end": 699.28,
+    "text": "It's all of ours .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 701.06,
+    "end": 704.39,
+    "text": "Okay , now , this is ridiculous ! I'm not letting go , you let go .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 702.46,
+    "end": 703.12,
+    "text": "Then let go !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 704.8,
+    "end": 707.57,
+    "text": "I say this ring belongs to the last person who can hold on .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.34,
+    "end": 709.97,
+    "text": "Fine . But can't we go home and start this ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 710.0,
+    "end": 711.74,
+    "text": "Sure . Let go of the ring .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 713.34,
+    "end": 714.39,
+    "text": "All right , it starts now .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 719.47,
+    "end": 722.46,
+    "text": "You do realize there's a giant bug movie marathon tonight on the Syfy Channel .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 735.8,
+    "end": 736.88,
+    "text": "Wait , my laptop .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 750.23,
+    "end": 752.13,
+    "text": "You know , there's a point when this becomes idiotic .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 753.55,
+    "end": 755.35,
+    "text": "And it wasn't when we were driving like this ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 757.46,
+    "end": 768.05,
+    "text": "I would advise the three of you that resistance is futile . I have endless patience . I once spent two-and-a-half hours on hold with Hewlett-Packard customer service just to complain about their customer service .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 770.73,
+    "end": 775.52,
+    "text": "You want to talk about endless patience ? Penny made me watch all five seasons of Sex and the City .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 778.89,
+    "end": 780.07,
+    "text": "There are six seasons , dude .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 780.62,
+    "end": 781.21,
+    "text": "Oh , crap !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 783.95,
+    "end": 794.85,
+    "text": "No , no , no , the sixth season is great . We go to Paris with Carrie and get our heart broken , and then Mr . Big shows up , we don't know if we can trust him again . It's a wild ride .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 798.03,
+    "end": 798.26,
+    "text": "Door .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 806.16,
+    "end": 813.36,
+    "text": "Okay , everybody , and plie . And relevae .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 818.35,
+    "end": 819.07,
+    "text": "Whatcha doin' ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 824.05,
+    "end": 827.09,
+    "text": "Last one holding the ring decides its fate . I know , it sounds silly .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 827.35,
+    "end": 830.77,
+    "text": "No , no , no , no , no , no , you are my boyfriend . Nothing you do is silly to me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 831.43,
+    "end": 832.09,
+    "text": "Thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 832.36,
+    "end": 836.19,
+    "text": "FYI , this is a bag from Victoria's Secret .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 845.66,
+    "end": 846.38,
+    "text": "I'm out .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 855.86,
+    "end": 859.17,
+    "text": "I'm sorry , Ma , I have to stay late at the office .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 859.47,
+    "end": 861.01,
+    "text": "No , he's doesn't ! He's lying to you !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 861.78,
+    "end": 863.82,
+    "text": "Will you be quiet ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.07,
+    "end": 873.94,
+    "text": "Well , if you want privacy let go of the ring . I'm so glad we came to this gentile strip club ! Howard , here's more bacon to tuck into the shiksa's G-string !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 877.05,
+    "end": 877.77,
+    "text": "I'll call you back .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 879.0,
+    "end": 887.05,
+    "text": "I think it's lovely you call your mommy and let her know you're going to be late for dinner . From what I know about these things , if a woman doesn't breast-feed on time , it's very uncomfortable for her boobies .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 888.64,
+    "end": 890.81,
+    "text": "Don't you talk about my mother's boobies !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 890.93,
+    "end": 894.23,
+    "text": "If you're offended , let go of the ring and go on home to your mother's boobies .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 895.48,
+    "end": 900.85,
+    "text": "Excellent , excellent . Tire each other out , the ring will be mine . Howard , why don't you go after Raj's mother ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 901.06,
+    "end": 902.46,
+    "text": "Why don't we go after your mother ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 904.76,
+    "end": 918.19,
+    "text": "Go ahead . I have no illusions about my mother . She is a kind , loving , religiously fanatical right-wing Texan with a slightly out-of-scale head and a mild Dr . Pepper addiction . Anything you'd like to add ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 919.89,
+    "end": 922.56,
+    "text": "That's not gonna Better pull out the big gun .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 922.74,
+    "end": 925.53,
+    "text": "You're right . Let's talk about your grandmother .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 926.13,
+    "end": 929.0,
+    "text": "No ! I call no Meemaws .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 930.47,
+    "end": 934.91,
+    "text": "Think about this . The only way your mother was born was your Meemaw had sex .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 938.17,
+    "end": 939.04,
+    "text": "I don't want to hear this .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 939.16,
+    "end": 941.91,
+    "text": "Then let go of the ring and walk away .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 942.4,
+    "end": 943.09,
+    "text": "Never .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.11,
+    "end": 950.72,
+    "text": "All right . I'll bet your Meemaw didn't just have sex to have your mother . I bet she had sex because she liked it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 953.77,
+    "end": 954.35,
+    "text": "Stop it !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 954.39,
+    "end": 955.85,
+    "text": "Yeah , Meemaw did the nasty .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 956.6,
+    "end": 958.09,
+    "text": "I said stop it !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.83,
+    "end": 959.39,
+    "text": "We're getting to him .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 959.64,
+    "end": 964.02,
+    "text": "Waterfalls ! Waterfalls . Crashing waves . Babbling brooks .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 960.69,
+    "end": 960.97,
+    "text": "What ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 966.66,
+    "end": 967.28,
+    "text": "What are you doing ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 967.38,
+    "end": 976.54,
+    "text": "Subliminal messaging . I'm going to make you want to pee . Dripping faucets . Leaky gutter . Peeing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 978.32,
+    "end": 979.5,
+    "text": "It's , it's not working , dude .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.03,
+    "end": 983.59,
+    "text": "Oh-ho-ho , it's working all right . I have to pee .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 985.14,
+    "end": 986.61,
+    "text": "Then let go of the ring and go .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 986.77,
+    "end": 988.08,
+    "text": "No , actually , I wouldn't mind going , too .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 989.91,
+    "end": 993.21,
+    "text": "Fine . Um , on the count of three . One , two ...",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 993.47,
+    "end": 998.1,
+    "text": "Wait , just to clarify . When you get to three , do we stand up or do we pee ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1001.69,
+    "end": 1002.62,
+    "text": "We stand up .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1003.88,
+    "end": 1004.69,
+    "text": "Excellent choice .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1005.66,
+    "end": 1006.14,
+    "text": "Three .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1013.74,
+    "end": 1016.68,
+    "text": "Something tells me this was a bad day to wear suede shoes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1034.49,
+    "end": 1039.99,
+    "text": "I've done it ! I've won ! The ring is mine ! It's mine !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1046.9,
+    "end": 1055.55,
+    "text": "We're going to clean it up and make it pretty . My own . My love . My precious .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1066.0,
+    "end": 1066.75,
+    "text": "Where's the ring ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1067.91,
+    "end": 1070.78,
+    "text": "It's in a FedEx box on its way back to where it came from .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1071.47,
+    "end": 1072.68,
+    "text": "The fires of Mount Doom ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1074.62,
+    "end": 1077.51,
+    "text": "Peter Jackson's office in New Zealand . It wasn't ours .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.67,
+    "end": 1080.22,
+    "text": "You quit the game ! You had no right to take it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1080.34,
+    "end": 1083.73,
+    "text": "I came in here , you guys were all sleeping . The ring was on the floor . No one was touching it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1083.79,
+    "end": 1085.93,
+    "text": "Well , so then we start the game over until there's a winner .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1086.22,
+    "end": 1100.55,
+    "text": "There wasn't ever going to be a winner . There was going to be a selfish , petty person with a ring and three people who used to be his friend . Is that really what you guys want ? 'Cause if it is , fine , I don't want anything to do with you . And I don't know what happened in that bathroom , but I am not cleaning it up !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1117.11,
+    "end": 1118.11,
+    "text": "My precious .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1129.32,
+    "end": 1130.4,
+    "text": "I knew it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1141.24,
+    "end": 1142.21,
+    "text": "Give us the precious !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1148.29,
+    "end": 1148.3,
+    "text": "NEVER !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1148.31,
+    "end": 1150.11,
+    "text": "Ugh , gotta go back to dating dumb guys from the gym .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  }
+]

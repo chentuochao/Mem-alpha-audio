@@ -1,0 +1,1633 @@
+[
+  {
+    "start": 2.9,
+    "end": 5.39,
+    "text": "Worst Renaissance Fair ever .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 7.61,
+    "end": 9.2,
+    "text": "Please let it go , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 9.68,
+    "end": 33.29,
+    "text": "It was rife with historical inaccuracies . For example , the tavern girl serving flagons of mead , now her costume was obviously Germanic , but in 1487 the Bavarian purity laws or Rhineheitsgebot severely limited the availability of mead . At best they would have had some sort of spiced wine . Oh-ho ! Really ? Well here's another nit for you . The flagons would not have been made of polypropylene .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 26.42,
+    "end": 26.8,
+    "text": "You're nitpicking .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 33.94,
+    "end": 43.26,
+    "text": "Renaissance fairs aren't about historical accuracy . They're about taking chubby girls who work at Kinko's and lacing them up in corsets so tight their bosom jumps out and says howdy .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 45.17,
+    "end": 48.73,
+    "text": "Bosoms would not have said howdy in the fifteenth century . If anything they would have said \" huzzah! \"",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.35,
+    "end": 54.29,
+    "text": "I don't care what the bosoms say , Sheldon , I just want to be part of the conversation .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 55.68,
+    "end": 59.66,
+    "text": "Hi guys . Looks like you've been to the Renaissance fair . I'm hoping .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 61.45,
+    "end": 66.87,
+    "text": "Renaissance fair ? More of a medieval slash age of enlightenment slash any excuse to wear a codpiece fair .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 68.23,
+    "end": 70.7,
+    "text": "Okay , fine , whatever , um , you guys , this is my friend Eric .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 70.85,
+    "end": 71.07,
+    "text": "Hello .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 72.3,
+    "end": 77.47,
+    "text": "Hi . So , yeah , good to see you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 74.13,
+    "end": 74.75,
+    "text": "Hey .",
+    "speaker": "eric",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 78.9,
+    "end": 84.59,
+    "text": "Yeah , yeah , it's good to see you too . We should really go . Bye guys .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.94,
+    "end": 83.02,
+    "text": "Yeah .",
+    "speaker": "eric",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 85.4,
+    "end": 85.89,
+    "text": "Like your hat .",
+    "speaker": "eric",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.1,
+    "end": 94.69,
+    "text": "Thanks , my mom made it . Penny with a new guy , tres awkward .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 96.35,
+    "end": 105.81,
+    "text": "It wasn't awkward . It wasn't fun . Besides , what's the big deal , we dated , we stopped dating , and now we're both moving on .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 105.92,
+    "end": 111.45,
+    "text": "By moving on , do you mean , she's going out with other men and you spent the afternoon making fifteenth century soap with Wolowitz ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 113.17,
+    "end": 120.76,
+    "text": "That was not fifteenth century soap , my God those people need to learn you can't just put \" ye olde \" in front of anything and expect to get away with it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 120.81,
+    "end": 123.29,
+    "text": "Can we please just go in , my chain mail is stuck in my underwear .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 125.83,
+    "end": 127.21,
+    "text": "You're wearing modern underwear ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 128.28,
+    "end": 132.06,
+    "text": "Relatively modern . Why , what are you wearing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 132.48,
+    "end": 135.29,
+    "text": "I fashioned historically accurate undergarments out of linen .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 136.79,
+    "end": 137.72,
+    "text": "You went out and bought linen ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 137.94,
+    "end": 140.03,
+    "text": "Don't be silly , I borrowed one of your pillow cases .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 143.52,
+    "end": 144.23,
+    "text": "Borrowed ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 168.89,
+    "end": 172.57,
+    "text": "You know what , I'm happy that Penny's moving on . It gives me the freedom to move on myself .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 172.98,
+    "end": 174.74,
+    "text": "Are you saying that you've been holding back ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 176.18,
+    "end": 179.07,
+    "text": "Of course . Out of respect .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 179.34,
+    "end": 182.4,
+    "text": "So , how do you explain the ten years before Penny ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 184.01,
+    "end": 185.21,
+    "text": "Who were you respecting then ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 186.71,
+    "end": 191.98,
+    "text": "What ? I've dated plenty of women . There was Joyce Kim , Leslie Winkle .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 194.6,
+    "end": 198.81,
+    "text": "Notify the editors of the Oxford English Dictionary , the word plenty has been redefined to mean two .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 198.87,
+    "end": 199.28,
+    "text": "Uh ,",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 202.16,
+    "end": 205.49,
+    "text": "what about that girl last year at Comic-con ? Why not ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 204.35,
+    "end": 208.81,
+    "text": "Doesn't count . What happens in costume at Comic-con , stays at Comic-con .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.79,
+    "end": 211.92,
+    "text": "You're only saying that because of what happened to you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 212.02,
+    "end": 212.72,
+    "text": "What happened to you ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 213.31,
+    "end": 213.84,
+    "text": "N-n-n-nothing happened to me .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 214.96,
+    "end": 218.68,
+    "text": "It wasn't your fault , Raj , he was dressed as a green Orion slave girl .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 218.69,
+    "end": 225.0,
+    "text": "H-h-h-how did we get on me , we were mocking Leonard for not moving on . Dude , you have totally not moved on .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 225.97,
+    "end": 239.44,
+    "text": "Yes I have , it's just a matter of actually making a date with someone . Well , there's Joyce Kim , but she defected back to North Korea so it's a little geographically undesireable .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 230.23,
+    "end": 230.51,
+    "text": "who ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 240.34,
+    "end": 241.27,
+    "text": "What about Leslie Winkle .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 241.45,
+    "end": 242.51,
+    "text": "Oh no .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 243.82,
+    "end": 244.16,
+    "text": "Why ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 244.4,
+    "end": 251.09,
+    "text": "Her research methodology is sloppy , she's unjustifiably arrogant about loop quantum gravity , and to make matters worse she's often mean to me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.99,
+    "end": 254.02,
+    "text": "I think she's smoking hot .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 254.11,
+    "end": 254.71,
+    "text": "I'd hit that .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 256.03,
+    "end": 261.36,
+    "text": "You'd hit particulate soil on a colloidal suspension . Mud .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 263.69,
+    "end": 268.54,
+    "text": "Look , I like Leslie , but she's not interested in dating as much as using men as tools for stress release .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 269.1,
+    "end": 275.03,
+    "text": "Yeah , so , be a tool . Go get yourself a little rebound stress release .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 275.55,
+    "end": 279.23,
+    "text": "Technically it would only be rebound if he and Penny had actually engaged in physical intimacy .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 279.41,
+    "end": 281.46,
+    "text": "You mean like you and Richard the slave girl ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 283.88,
+    "end": 289.0,
+    "text": "I bought him dinner and we kissed once , that was it . And he told me his name was Kimberley !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 294.53,
+    "end": 296.69,
+    "text": "You know how I know we're not in The Matrix ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 297.47,
+    "end": 298.27,
+    "text": "How ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.81,
+    "end": 305.01,
+    "text": "If we were , the food would be better .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 308.11,
+    "end": 309.6,
+    "text": "Hey , Leonard . Hey , dummy .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 308.44,
+    "end": 308.87,
+    "text": "Hey , Leslie .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 311.36,
+    "end": 314.29,
+    "text": "Hello to you , insufficiently intelligent person .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 315.38,
+    "end": 322.84,
+    "text": "Ooh , rush me to the burn unit . Hey , Leonard , do you have a second , I need to ask you something .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 322.84,
+    "end": 323.36,
+    "text": "Uh , sure .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 323.63,
+    "end": 334.77,
+    "text": "Well , if you'll excuse me , I'm going to go do work that promises significant results , as opposed to what you do , which does not . Yeah , you heard me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 342.12,
+    "end": 342.48,
+    "text": "Wow .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 349.46,
+    "end": 354.57,
+    "text": "So , I heard your relationship with Penny crashed to the ground like blue ice falling out of an airplane lavatory .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 355.73,
+    "end": 356.93,
+    "text": "Where did you hear that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 357.28,
+    "end": 359.41,
+    "text": "Actually I read it . Wolowitz texted me .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 360.92,
+    "end": 363.72,
+    "text": "Like blue ice falling out of an airplane lavatory . Yep .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 364.18,
+    "end": 372.98,
+    "text": "I thought it was a pretty good one , I gave him an L-O-L . Anyway , it got me thinking , now that you're unattached maybe we can revisit our previous attachment .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 373.64,
+    "end": 375.93,
+    "text": "Are you suggesting another bout of stress release .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 377.02,
+    "end": 381.38,
+    "text": "No , I'm all done with casual sex . From now on I'm fully committed to the traditional relationship paradigm .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 381.68,
+    "end": 382.63,
+    "text": "Really , what changed ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 383.27,
+    "end": 388.73,
+    "text": "It's hard to say , I guess there's just a time in every woman's life when she gets tired of waking up on a strange futon with a bunch of people she doesn't know .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 390.69,
+    "end": 392.74,
+    "text": "Yeah , I can see how that would ... a bunch of people ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 394.05,
+    "end": 398.14,
+    "text": "Anyway , I just figure it's time to slow things down and who better to slow things down with than you ?",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 398.47,
+    "end": 405.99,
+    "text": "Oh , I'm flattered . So , how do you suggest we proceed ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 406.05,
+    "end": 410.79,
+    "text": "Your place , we'll order Chinese , you'll rent a movie , artsy but accessible , then light petting , no coitus .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 412.98,
+    "end": 413.74,
+    "text": "Sounds fun .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 414.91,
+    "end": 417.67,
+    "text": "I'll leave the details up to you , I think it's better if you assume the male role .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 420.62,
+    "end": 421.72,
+    "text": "Thank you , that's very thoughtful .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 424.93,
+    "end": 428.85,
+    "text": "Great . Call me .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 432.06,
+    "end": 435.12,
+    "text": "Great news . My mom sent me my old Nintendo 64 .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 438.28,
+    "end": 438.83,
+    "text": "Terrific .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 438.92,
+    "end": 443.33,
+    "text": "You know what this means , don't you ? Break out the Red Bull , it's time to rock Mario old school .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 445.8,
+    "end": 447.21,
+    "text": "I kind of have other plans tonight .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.36,
+    "end": 455.3,
+    "text": "But it's Friday . Friday's always vintage game night . Look , mom included the memory card , we can pick up where I left off in 1999 when I had pernicious anaemia .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 456.81,
+    "end": 458.32,
+    "text": "Well , the thing is , someone's coming over .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 458.35,
+    "end": 460.56,
+    "text": "Well then , no problem , I have three controllers , the more the merrier .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 462.1,
+    "end": 464.07,
+    "text": "Sheldon , it's a date , I have a date coming over .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 464.38,
+    "end": 468.09,
+    "text": "Oh , well you can't blame me for not jumping to that conclusion .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 471.02,
+    "end": 473.52,
+    "text": "Why , what's so unusual about me having a date ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 473.58,
+    "end": 474.73,
+    "text": "Well , statistically speaking ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 475.34,
+    "end": 480.8,
+    "text": "Alright , alright . Well , uh , nevertheless , I have one now and I would appreciate it if you would , you know , make yourself scarce .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 481.06,
+    "end": 487.81,
+    "text": "Leonard , I am a published theoretical physicist with two doctorates and an IQ which can't be accurately measured by normal tests , how much scarcer could I be ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 489.97,
+    "end": 492.4,
+    "text": "You know what I mean , could you just give us a little privacy ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 493.22,
+    "end": 502.97,
+    "text": "You want me to leave the apartment ? You mean just go someplace else and be ... someplace else ? Well , why should I leave , this is my apartment too .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 494.76,
+    "end": 495.31,
+    "text": "Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 500.09,
+    "end": 500.57,
+    "text": "Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 503.0,
+    "end": 509.09,
+    "text": "I know it is , and if science ever discovers a second member of your species and you two would like some privacy I would be more than happy to get out of your way .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 512.22,
+    "end": 512.99,
+    "text": "Well alright then .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 516.15,
+    "end": 520.14,
+    "text": "Sheldon ? What are you doing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 520.45,
+    "end": 524.92,
+    "text": "Playing Super Mario on a poorly coded Nintendo 64 emulator .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 525.01,
+    "end": 528.11,
+    "text": "Yeah , but why are you doing it on the stairs ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 528.44,
+    "end": 534.13,
+    "text": "I'm a modern day Napoleon exiled to the Elba of the staircase because Leonard , get this , has a date .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 536.88,
+    "end": 537.24,
+    "text": "Oh .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 539.64,
+    "end": 541.4,
+    "text": "Oh , well , good for him . Yeah but , why are you sitting here , why don't you just go to a movie or something ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 542.76,
+    "end": 543.41,
+    "text": "Alone ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 544.63,
+    "end": 545.17,
+    "text": "Yeah , why not ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 545.6,
+    "end": 548.13,
+    "text": "What if I choke on my popcorn , who will administer the Heimlich manoeuvre .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 549.88,
+    "end": 551.0,
+    "text": "Well then don't order popcorn .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 551.12,
+    "end": 553.22,
+    "text": "No popcorn at the mo ... listen to yourself .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 555.3,
+    "end": 558.72,
+    "text": "Well why don't you go to a coffee shop . They have other things .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 556.59,
+    "end": 557.35,
+    "text": "I don't drink coffee .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 559.77,
+    "end": 560.7,
+    "text": "What do they have ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 561.27,
+    "end": 563.06,
+    "text": "I don't know , you know , cookies , pastries ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 563.09,
+    "end": 566.7,
+    "text": "Pastries such as bearclaws ? I don't like bearclaws .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 565.31,
+    "end": 565.72,
+    "text": "Yeah , sure .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 568.62,
+    "end": 570.94,
+    "text": "Heya Penny . Dumbass .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 573.89,
+    "end": 580.03,
+    "text": "Leslie Winkle . Of all the overrated physicists in all the labs in all the world , why does it have to be Leslie Winkle ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.69,
+    "end": 584.55,
+    "text": "Well , they have a lot in common . I mean they're both scientists .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 584.75,
+    "end": 589.53,
+    "text": "Oh please . The only way she could make a contribution to science would be if they resume sending chimps into space .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 591.84,
+    "end": 594.47,
+    "text": "Okay , well I have a date too , so see ya .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 597.14,
+    "end": 605.64,
+    "text": "Everybody has a date . Even you , Mario , going after Princess Peach . And what am I doing , I'm just enabling you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 611.2,
+    "end": 612.37,
+    "text": "This is pretty good Orange Chicken .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 612.7,
+    "end": 616.72,
+    "text": "Yeah , it's from Changs . No , Changs . It changed .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 613.96,
+    "end": 616.03,
+    "text": "Not Chows ? What happened to Chows ?",
+    "speaker": "leslie_winkle",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 618.48,
+    "end": 627.23,
+    "text": "Oh . So , how many children do you think we should have ? I'm sorry , that was a little abrupt .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 628.19,
+    "end": 628.63,
+    "text": "A little .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 629.18,
+    "end": 632.26,
+    "text": "I mean there are so many things to talk about before we discuss reproduction .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 632.4,
+    "end": 633.13,
+    "text": "I sure hope so .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.59,
+    "end": 638.04,
+    "text": "Besides shortness , what genetic weaknesses run in your family ?",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 639.95,
+    "end": 642.58,
+    "text": "I'm sorry to interrupt , batteries dying continue .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 644.66,
+    "end": 648.04,
+    "text": "Uh , genetic weaknesses , right , um , there's the lactose intolerance .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 648.25,
+    "end": 654.79,
+    "text": "Don't forget the male pattern baldness . When his uncles sit around the dinner table they look like a half carton of eggs .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 674.56,
+    "end": 683.16,
+    "text": "Okay , now my uncles are bald , but my Aunt Edna is one of the hairiest women you will ever meet . So ... Sweet lady . It always tickles when she hugs me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 688.58,
+    "end": 689.21,
+    "text": "What now ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 689.45,
+    "end": 690.36,
+    "text": "I have to make pee-pee .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.92,
+    "end": 700.69,
+    "text": "Listen , I'm sorry about all of Sheldon's interruptions , he can be a bit of an eccentric .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 701.15,
+    "end": 705.0,
+    "text": "If by eccentric you mean passive-aggressive East Texas blowhole , I agree .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 706.41,
+    "end": 708.62,
+    "text": "Well , I think tonight was a very good start .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.81,
+    "end": 714.41,
+    "text": "Me too . You're sure you're okay postponing intercourse until our relationship is past the initial viability test ?",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 715.76,
+    "end": 722.64,
+    "text": "No problem , I'm very skilled at postponing intercourse . So I guess I'll call you and we'll arrange another evening .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 722.84,
+    "end": 731.57,
+    "text": "Yes . I believe protocol dictates that you wait a minimum of 18 hours before you call so I'm not repulsed by your cloying eagerness . Again , it's your decision , you're the man .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 729.84,
+    "end": 730.08,
+    "text": "Sure .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 732.64,
+    "end": 736.64,
+    "text": "No , it wasn't my cat , it was an experiment designed by this guy named Schrodinger .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 739.27,
+    "end": 740.79,
+    "text": "From the Charlie Brown cartoons ?",
+    "speaker": "eric",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 742.16,
+    "end": 748.26,
+    "text": "No , he was some kind of scientist , let me start again . Oh , hey Leonard . Leslie .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.18,
+    "end": 747.49,
+    "text": "Hello .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 748.37,
+    "end": 748.68,
+    "text": "Hi .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 750.03,
+    "end": 752.06,
+    "text": "Okay , well , goodnight .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 753.41,
+    "end": 755.22,
+    "text": "Okay , well , goodnight . Okay , goodnight .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 754.1,
+    "end": 754.6,
+    "text": "That ain't going to make your point . Okay , that's enough . Call me",
+    "speaker": "leslie_winkle",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 754.63,
+    "end": 754.67,
+    "text": "Right",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 772.35,
+    "end": 772.71,
+    "text": "What ?",
+    "speaker": "eric",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 789.84,
+    "end": 791.64,
+    "text": "Had a great time , ciao",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.0,
+    "end": 794.83,
+    "text": "I'm sorry , I am not going back to the Renaissance Fair .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 795.55,
+    "end": 799.51,
+    "text": "Come on , Sheldon , there's so few places I can wear my jester costume .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 801.66,
+    "end": 805.03,
+    "text": "I don't care . There are far too many historical anomalies for my comfort .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 805.5,
+    "end": 811.97,
+    "text": "Oh , okay , how about this . You can go dressed as a Star Trek science officer exploring a planet similar to Earth in the 1500s .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 814.04,
+    "end": 819.43,
+    "text": "You mean like Spock ? Fascinating .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 816.49,
+    "end": 817.23,
+    "text": "Sure .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 820.9,
+    "end": 824.58,
+    "text": "Hey fellow scientists . Sheldon .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 826.04,
+    "end": 828.65,
+    "text": "Hey , why don't we all move over there so Leslie can join us .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 828.93,
+    "end": 829.35,
+    "text": "Hmm , let's do it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 835.53,
+    "end": 842.22,
+    "text": "If you're having trouble deciding where to sit may I suggest one potato two potato , or as I call it the Leslie Winkle experimental methodology .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 845.89,
+    "end": 847.25,
+    "text": "Don't make this hard for me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 847.31,
+    "end": 854.6,
+    "text": "It's not hard . It's simple . You can either sit with me , your friend , colleague and roommate , or you can sit with an overrated scientist you might have sex with .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 856.75,
+    "end": 857.5,
+    "text": "You're right , it is simple .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 863.69,
+    "end": 867.63,
+    "text": "Hey , Sheldon . Third floor tonight . Mixing it up ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.83,
+    "end": 865.34,
+    "text": "Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 873.24,
+    "end": 874.74,
+    "text": "Oh . You know , I still don't understand why you just don't go to dinner or something .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 875.43,
+    "end": 881.91,
+    "text": "Alright , let's say I go to dinner alone . And during the meal I have to use the rest room . How do I know someone's not touching my food ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 884.8,
+    "end": 885.52,
+    "text": "Goodnight Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 888.41,
+    "end": 901.02,
+    "text": "Penny , hold on . Are you sure things can't work out with you and Leonard ? I'm just wondering if you really gave it the old college try ? Or in your case the old community college try ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 893.2,
+    "end": 894.01,
+    "text": "Excuse me ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 904.02,
+    "end": 905.99,
+    "text": "Okay , where is this coming from ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 906.68,
+    "end": 908.99,
+    "text": "Leonard is upstairs right now with my arch enemy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 910.05,
+    "end": 911.0,
+    "text": "Your arch enemy ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 911.15,
+    "end": 926.58,
+    "text": "Yes , the Doctor Doom to my Mr Fantastic . The Doctor Octopus to my Spiderman . The Doctor Sivana to my Captain Marvel . Do you know , it's amazing how many supervillains have advanced degrees . Graduate school should probably do a better job of screening those people out .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 917.9,
+    "end": 918.53,
+    "text": "Okay , I get it , I get it , I get it .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 928.02,
+    "end": 929.24,
+    "text": "Sheldon , come back , you're losing me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 929.66,
+    "end": 932.76,
+    "text": "Leslie Winkle , Penny . She belittles my research .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 933.15,
+    "end": 935.04,
+    "text": "Oh , sweetie , I'm sorry .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 935.68,
+    "end": 936.51,
+    "text": "She called me dumbass .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 938.27,
+    "end": 939.35,
+    "text": "I know . I heard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 939.98,
+    "end": 946.13,
+    "text": "Given this situation , I have no choice but to withdraw my previous objections to your ill considered relationship with Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 947.31,
+    "end": 953.25,
+    "text": "Oh , gee , well , thankyou for that . But , um , I think for now Leonard and I are just going to stay friends .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 953.58,
+    "end": 955.23,
+    "text": "No , that response is unacceptable to me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 957.74,
+    "end": 959.87,
+    "text": "Sheldon , you are a smart guy , you must know ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 959.95,
+    "end": 963.71,
+    "text": "Smart ? I'd have to lose 60 IQ points to be classified as smart .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 964.67,
+    "end": 965.83,
+    "text": "Are you going to let me talk ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 965.92,
+    "end": 966.44,
+    "text": "I'm sorry .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 968.05,
+    "end": 972.12,
+    "text": "You must know that if Leonard and Leslie want to be together , nothing you can do is going to stop it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 973.07,
+    "end": 975.52,
+    "text": "You continue to underestimate my abilities madam .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 977.62,
+    "end": 982.32,
+    "text": "Okay , let me put it this way , if you're really Leonard's friend you will support him no matter who he wants to be with .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 983.46,
+    "end": 991.64,
+    "text": "Wait a minute , why am I doing all the giving here ? If Leonard's really my friend , why doesn't he have to support me in my hatred of Leslie Winkle ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 993.8,
+    "end": 996.08,
+    "text": "Because love trumps hate .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 997.23,
+    "end": 998.39,
+    "text": "Oh now you're just making stuff up .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.27,
+    "end": 1001.19,
+    "text": "Okay . Goodnight Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1002.54,
+    "end": 1012.34,
+    "text": "Oh Mario . If only I could control everyone the way I control you . Hop , you little plumber , hop , hop , hop .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1018.28,
+    "end": 1021.26,
+    "text": "When the two of you reach a natural stopping point I'd like to have a word .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1022.37,
+    "end": 1024.99,
+    "text": "If the word is pee-pee , just do it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1030.41,
+    "end": 1039.72,
+    "text": "Leonard , you are my friend . And friends support their friends , apparently . So I am withdrawing my objection to your desire to have a relationship with Leslie .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1041.11,
+    "end": 1041.58,
+    "text": "Thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1041.67,
+    "end": 1054.11,
+    "text": "I will graciously overlook the fact that she is an arrogant sub-par scientist , who actually believes loop quantum gravity better unites quantum mechanics with general relativity than does string theory . You kids have fun .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1055.51,
+    "end": 1060.71,
+    "text": "Hang on a second . Loop quantum gravity clearly offers more testable predictions than string theory .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1061.21,
+    "end": 1062.91,
+    "text": "I'm listening , amuse me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1064.54,
+    "end": 1070.43,
+    "text": "Okay , well , for one thing we expect quantii space-time to manifest itself as minute differences in the speed of light for different colours .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1070.52,
+    "end": 1073.58,
+    "text": "Balderdash . Matter clearly consists of tiny strings .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1075.98,
+    "end": 1078.24,
+    "text": "Are you going to let him talk to me like that ?",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1083.03,
+    "end": 1085.23,
+    "text": "Okay , well , there is a lot of merit to both theories .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1085.49,
+    "end": 1089.12,
+    "text": "No there isn't , only loop quantum gravity calculates the entropy of black holes .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1092.41,
+    "end": 1095.27,
+    "text": "Sheldon , don't make that noise , it's disrespectful .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1095.42,
+    "end": 1097.31,
+    "text": "I hope so , it was a snort of derision .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1098.97,
+    "end": 1102.69,
+    "text": "You agree with me , right , loop quantum gravity is the future of physics .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1103.14,
+    "end": 1106.5,
+    "text": "Sorry Leslie , I guess I prefer my space stringy not loopy .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1107.25,
+    "end": 1110.25,
+    "text": "Well , I'm glad I found out the truth about you before this went any further .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1111.5,
+    "end": 1115.86,
+    "text": "Truth , what truth ? We're talking about untested hypotheses , uh , it's no big deal .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1116.01,
+    "end": 1118.86,
+    "text": "Oh , it isn't , really ? Tell me Leonard , how would we raise the children ?",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1122.58,
+    "end": 1126.15,
+    "text": "I guess we let them wait until they're old enough and let them choose their own theory .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1126.94,
+    "end": 1130.1,
+    "text": "We can't let them choose , Leonard , they're children .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1130.88,
+    "end": 1132.09,
+    "text": "Wait , where are you going ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1133.93,
+    "end": 1144.47,
+    "text": "I'm sorry , I could have accepted our kids being genetically unable to eat ice-cream or ever get a good view of a parade , but this ? This is a deal breaker .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1156.44,
+    "end": 1157.44,
+    "text": "Look on the bright side .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1160.68,
+    "end": 1162.0,
+    "text": "What's the bright side ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1162.18,
+    "end": 1163.66,
+    "text": "Only nine more months to comic-con .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1171.14,
+    "end": 1171.86,
+    "text": "Oh yeah .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1179.34,
+    "end": 1181.69,
+    "text": "Captain , I'm getting an unusual reading .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1183.37,
+    "end": 1185.04,
+    "text": "Yeah , that's great , you guys want corn dogs ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1186.5,
+    "end": 1186.61,
+    "text": "Yeah .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1186.82,
+    "end": 1192.51,
+    "text": "That's a temporal anomaly . Corn dogs didn't come into existence until the first half of the twentieth century .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  }
+]

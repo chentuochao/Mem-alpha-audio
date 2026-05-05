@@ -1144,7 +1144,7 @@ class AlignedProcess_Morespeakers():
     """
 
     # Maximum number of speakers supported.
-    MAX_SPEAKERS = 8
+    MAX_SPEAKERS = 10
 
     def __init__(
         self,

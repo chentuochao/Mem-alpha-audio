@@ -1,0 +1,1332 @@
+[
+  {
+    "start": 1.91,
+    "end": 13.91,
+    "text": "Yeah , I miss you , too , sweetie . Listen , I got to go , but I'll see you tonight ? Okay . Bye-bye . Yeah , bye-bye . No , you hang up first . Hello ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 16.45,
+    "end": 21.63,
+    "text": "Dude , I'm glad you finally got a girlfriend , but do you have to do all that lovey-dovey stuff in front of those of us who don't ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 21.93,
+    "end": 36.96,
+    "text": "Actually , he might have to . There's an economic concept known as a positional good in which an object is only valued by the possessor because it's not possessed by others . The term was coined in 1976 by economist Fred Hirsch to replace the more colloquial , but less precise neener-neener .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 38.44,
+    "end": 45.78,
+    "text": "That's not true . My happiness is not dependent on my best friend being miserable and alone . Although , I'd be lying if I said it wasn't a little bit of a perk .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 43.18,
+    "end": 43.69,
+    "text": "Thank you .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 45.98,
+    "end": 51.85,
+    "text": "Who's miserable and alone ? Oh . I used to be like that . Then I got a girlfriend .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 48.31,
+    "end": 48.79,
+    "text": "Me .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 53.93,
+    "end": 55.58,
+    "text": "pre-1976 terms , neener-neener .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 56.73,
+    "end": 59.99,
+    "text": "Hey , what are you and Bernadette doing for your first Valentine's Day ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.11,
+    "end": 71.24,
+    "text": "Yeah , I am pulling out all the stops . There's a $39.95 lover's special at P.F . Chang's . Egg rolls , dumplings , bottomless wok , and you get your picture taken on the big marble horse out front .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 72.62,
+    "end": 82.48,
+    "text": "Given that Saint Valentine was a third century Roman priest who was stoned and beheaded , wouldn't a more appropriate celebration of the evening be taking one's steady gal to witness a brutal murder ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 84.52,
+    "end": 88.93,
+    "text": "I understand your point , but given a choice , Jews always go with Chinese food .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 90.46,
+    "end": 101.58,
+    "text": "Well , if anyone's interested , I'll be spending this Valentine's Day the same way I spend every Valentine's Day . Buying a rotisserie chicken from the supermarket , taking it home , standing over the sink and eating it out of the package with my bare hands like an animal .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 119.3,
+    "end": 121.25,
+    "text": "Fine , tell us you're going to have sex with Penny .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 121.37,
+    "end": 122.85,
+    "text": "That's not what I was going to tell you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 123.11,
+    "end": 127.01,
+    "text": "It's okay . I don't mind hearing about your sex life . It's his that bugs me .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 129.66,
+    "end": 135.49,
+    "text": "Guess who the university is sending to Switzerland to attend a conference and see the CERN supercollider on February 14 ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 135.85,
+    "end": 140.7,
+    "text": "Professor Norton , although , God knows why . He hasn't published anything of note since he won that Nobel Prize .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 141.72,
+    "end": 144.33,
+    "text": "Actually , Professor Norton can't make it . He threw his back out rock climbing .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 144.61,
+    "end": 146.79,
+    "text": "I heard he threw his back out climbing on his new girlfriend .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 147.18,
+    "end": 148.95,
+    "text": "The big-boobed weather girl on Channel 2 ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 149.1,
+    "end": 149.44,
+    "text": "That's the one .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 149.72,
+    "end": 152.97,
+    "text": "In any case , they're asking me to fill in for him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 153.22,
+    "end": 155.05,
+    "text": "In Switzerland or with the big-boobed weather girl ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 156.64,
+    "end": 159.65,
+    "text": "Switzerland . And I get to bring a guest !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 159.8,
+    "end": 159.95,
+    "text": "Oh , man !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 160.1,
+    "end": 161.35,
+    "text": "No way , dude !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 161.4,
+    "end": 168.27,
+    "text": "This is incredible ! I'm so happy , I'm not even going to question their judgment in picking you . I'm just going to run home and start packing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 172.43,
+    "end": 173.82,
+    "text": "Why wouldn't you take Penny ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 175.08,
+    "end": 176.71,
+    "text": "I am taking Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 178.12,
+    "end": 182.08,
+    "text": "Oh . Well , then I anticipate an awkward situation when you get home .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.84,
+    "end": 210.76,
+    "text": "Sheldon , you got a minute ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 211.1,
+    "end": 219.06,
+    "text": "Of course , my good friend . Come in . Help me out , which ski hat says après supercollider ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 222.18,
+    "end": 224.05,
+    "text": "Sheldon , I'm not taking you to Switzerland .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 224.38,
+    "end": 226.66,
+    "text": "Well , of course you are . Who else would you take ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 227.44,
+    "end": 227.95,
+    "text": "Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 228.22,
+    "end": 232.87,
+    "text": "What ? That's absurd . Penny has no interest in subatomic particle research .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 233.81,
+    "end": 241.61,
+    "text": "Yes , but it'll be Valentine's Day . We can go sightseeing and skiing and make love in front of a roaring fire in the shadow of the snowcapped Alps .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 244.51,
+    "end": 246.92,
+    "text": "But Penny has no interest in subatomic particle research .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 248.44,
+    "end": 249.43,
+    "text": "I'm sorry , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 249.77,
+    "end": 255.06,
+    "text": "Sorry ? I've been dreaming about going to the Large Hadron Collider since I was nine years old .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 255.13,
+    "end": 258.3,
+    "text": "Yeah , well , I've been dreaming about spending Valentine's Day with a girl since I was six .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 260.31,
+    "end": 264.93,
+    "text": "Shame on you ! That's no dream for a scientist !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 266.9,
+    "end": 268.95,
+    "text": "Okay , what's the big surprise ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 268.95,
+    "end": 276.44,
+    "text": "a minute . This tray contains clues as to what you and I are going to be doing on Valentine's Day .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 277.39,
+    "end": 290.76,
+    "text": "Oh . Wow . Okay . Let's see . We've got , uh , milk chocolate , Swiss cheese , fondue . My lactose-intolerant boyfriend is going to eat all this , then I'm going to climb on his back and rocket to the moon ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 294.96,
+    "end": 315.39,
+    "text": "No . But it does involve air travel . Okay , um , let me slice this Swiss cheese with my Swiss army knife , and then you can wash it down with a cup of Swiss Miss instant cocoa .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 316.06,
+    "end": 323.72,
+    "text": "Okay , I'm starting to think Swiss is key here . We're going to Disneyland and ride the Matterhorn ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 320.05,
+    "end": 320.68,
+    "text": "Uh-huh .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 326.92,
+    "end": 328.29,
+    "text": "How does that involve air travel ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 329.97,
+    "end": 332.66,
+    "text": "We're going to Disney World and ride the Matterhorn ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 334.01,
+    "end": 334.3,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 334.82,
+    "end": 336.63,
+    "text": "Okay , sweetie , this started out fun , but I'm over it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 339.14,
+    "end": 346.78,
+    "text": "We're going to Switzerland to see the CERN supercollider ! And ski . We'll also go skiing .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 347.71,
+    "end": 348.96,
+    "text": "We're going skiing in Switzerland? !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 349.09,
+    "end": 354.23,
+    "text": "Well , you'll ski , I'll fall , but , yeah , we will be in Switzerland for Valentine's Day .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 354.7,
+    "end": 356.34,
+    "text": "Oh , my God , Leonard ! That's incredible !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 357.17,
+    "end": 361.51,
+    "text": "Not so fast . You might want to hold off on lighting your rabeliechtli , Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 362.74,
+    "end": 363.3,
+    "text": "My Rabe-what-ly ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 365.01,
+    "end": 379.02,
+    "text": "Rabeliechtli . It means turnip light and refers to a traditional lantern hand-carved from a root vegetable and used to celebrate certain Swiss festivals . Which you will not be celebrating because , A , these festivals occur in the fall , and B , you will not be going to Switzerland .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 380.0,
+    "end": 382.32,
+    "text": "Sheldon , we've been through this . I'm taking Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 382.47,
+    "end": 384.93,
+    "text": "Afraid not . Do you recognize this ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 384.96,
+    "end": 386.5,
+    "text": "Not the roommate agreement .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 386.7,
+    "end": 401.99,
+    "text": "Indeed , the roommate agreement . I call your attention to the Friendship Rider in Appendix C , Future Commitments . Number 37 , in the event one friend is ever invited to visit the Large Hadron Collider , now under construction in Switzerland , he shall invite the other friend to accompany him .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 402.13,
+    "end": 403.3,
+    "text": "Oh , for God's sakes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 405.21,
+    "end": 406.4,
+    "text": "You actually put that in an agreement ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 406.6,
+    "end": 413.35,
+    "text": "Yeah . We also put in what happens if one of us wins a MacArthur Grant , or if one of us gets superpowers , or if one of us is bitten by a zombie .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 414.58,
+    "end": 416.3,
+    "text": "He can't kill me , even if I turn .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 416.83,
+    "end": 420.26,
+    "text": "Is there anything in there about if one of you gets a girlfriend ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 420.79,
+    "end": 422.33,
+    "text": "No , that seemed a little farfetched .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 426.22,
+    "end": 428.64,
+    "text": "Sheldon , do you really expect to enforce this ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 428.79,
+    "end": 442.84,
+    "text": "I've lived up to all my commitments under the agreement . At least once a day I ask how you are , even though I simply don't care . I no longer stage spontaneous biohazard drills after 10 pm And I abandoned my goal to master Tuvan throat singing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 443.29,
+    "end": 445.27,
+    "text": "Okay , I know I shouldn't ask , but what is ... ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.99,
+    "end": 448.35,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 453.8,
+    "end": 455.94,
+    "text": "I'd be much further along if I'd been allowed to practice .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 457.34,
+    "end": 466.62,
+    "text": "Look , Sheldon , I know it's in the agreement , and if you turn into a zombie , I promise I will not kill you . In fact , I'll even let you eat my brains . But I am taking Penny to Switzerland .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 467.05,
+    "end": 469.89,
+    "text": "Is that your final decision ? Very well .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 468.28,
+    "end": 468.78,
+    "text": "It is .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 473.68,
+    "end": 474.52,
+    "text": "It's not over , is it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 475.69,
+    "end": 476.39,
+    "text": "What do you think ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 490.14,
+    "end": 508.93,
+    "text": "Got a bit of traffic this morning , huh ? Think it's gonna rain ? Instead of underpants , I covered my crotch with potato salad this morning . Thoughts ? Okay , I know what'll cheer you up , let's play one of your driving games .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 510.62,
+    "end": 524.42,
+    "text": "All right . This game is called Traitors . I will name three historical figures , you put them in order of the heinousness of their betrayal . Benedict Arnold , Judas , Dr . Leonard Hofstadter .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 526.07,
+    "end": 528.62,
+    "text": "You really think I belong with Benedict Arnold and Judas ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 528.98,
+    "end": 531.98,
+    "text": "You're right . Judas had the decency to hang himself after what he did .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 533.71,
+    "end": 537.17,
+    "text": "Come on , Sheldon . Can't you at least try to understand how much this means to me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 539.1,
+    "end": 542.48,
+    "text": "Round two , Leonard Hofstadter , Darth Vader , Rupert Murdoch .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 543.98,
+    "end": 545.03,
+    "text": "Rupert Murdoch ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 545.33,
+    "end": 553.41,
+    "text": "He owns Fox , and they cancelled Firefly . Hint , he and Darth Vader are tied for number 2 .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 555.98,
+    "end": 560.41,
+    "text": "I'm sorry I couldn't hang with you last night . I had a date with Bernadette .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 560.95,
+    "end": 562.39,
+    "text": "I know . I saw the Tweet .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 564.31,
+    "end": 564.93,
+    "text": "So , what did you end up doing ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 565.24,
+    "end": 571.07,
+    "text": "Not much . Nuked a burrito . Prayed to the Hindu god Urvashi that your bowels would loosen and your penis would droop like a willow tree .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 572.59,
+    "end": 574.53,
+    "text": "You seen Sheldon ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 575.06,
+    "end": 577.05,
+    "text": "No . Is he still mad about the supercollider ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 577.27,
+    "end": 581.54,
+    "text": "Yeah . He thinks I betrayed him . I mean , come on , what would you guys do if you were me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.81,
+    "end": 583.48,
+    "text": "I'd take Sheldon to Switzerland .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 584.21,
+    "end": 584.71,
+    "text": "Seriously ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 585.25,
+    "end": 587.15,
+    "text": "Absolutely . And I'd leave him there .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 595.21,
+    "end": 596.17,
+    "text": "What the hell is that ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 597.14,
+    "end": 601.09,
+    "text": "Uh , let's see . Yup , 30 pieces of silverware .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 623.59,
+    "end": 624.39,
+    "text": "Morning , old chum .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 625.44,
+    "end": 626.33,
+    "text": "What's going on ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 626.64,
+    "end": 634.74,
+    "text": "I've made you breakfast . Juice , coffee , and pancakes in the shape of some of your favorite fictional characters . See , here's Frodo .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 636.12,
+    "end": 637.68,
+    "text": "You made Frodo pancakes ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 637.71,
+    "end": 649.12,
+    "text": "Yeah , I used coconut shavings to do the hair on his feet . If you need to void your bladder before eating , I can keep them warm with this beret that I thoroughly laundered and pressed into service as a pancake cosy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 651.17,
+    "end": 652.67,
+    "text": "Why are you doing this ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 653.21,
+    "end": 667.62,
+    "text": "It's by way of an apology for my recent behaviour . I've had some time to reflect and I've come to realize that friendship is not an aggregation of written agreements . It's a result of two people respecting and caring for each other . Butterscotch scone ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 669.56,
+    "end": 672.84,
+    "text": "Thanks . It's good .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 673.2,
+    "end": 686.58,
+    "text": "What you're tasting is respect and affection . And about a pound of Crisco . After you've finished breakfast , I thought we could spend the day watching the final season of Babylon 5 with director commentary .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 686.81,
+    "end": 688.17,
+    "text": "You hate Babylon 5 .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 688.2,
+    "end": 694.22,
+    "text": "I do . It fails as drama , science fiction , and it's hopelessly derivative . But you like it , and you're my friend .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.48,
+    "end": 701.31,
+    "text": "Okay , great . Still not taking you to Switzerland .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 701.4,
+    "end": 712.97,
+    "text": "Drat . No Frodo for you . Hello .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 713.8,
+    "end": 714.23,
+    "text": "Hello .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 714.67,
+    "end": 719.26,
+    "text": "Alright , let's dispense with the friendly banter , I believe you know why I'm here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 719.88,
+    "end": 724.53,
+    "text": "Well , I always figured it was to study us , discover our weaknesses , and report back to your alien overlords .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 726.99,
+    "end": 737.39,
+    "text": "Yes , amusing . Extraordinary intelligence might well appear extraterrestrial to you , but let me be more specific . I believe you know why I'm here in the laundry room .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 738.18,
+    "end": 739.96,
+    "text": "Better acoustics for your throat singing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.93,
+    "end": 758.47,
+    "text": "It's actually not bad . But my true purpose in being here will be revealed in this brief PowerPoint presentation . Lights .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 767.59,
+    "end": 773.98,
+    "text": "Why Sheldon Cooper , PhD , should go to Switzerland to see the CERN supercollider . A PowerPoint presentation by Sheldon Cooper , PhD .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 776.11,
+    "end": 776.88,
+    "text": "Oh , for God's sakes .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 777.96,
+    "end": 795.2,
+    "text": "Here we have a highly gifted researcher in the field of particle physics whose work has brought him to the precipice of forever changing mankind's understanding of the universe . AKA me . And here we have a waitress brushing her teeth with her finger . AKA you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 796.62,
+    "end": 798.43,
+    "text": "I'm sorry . Is this supposed to be buttering me up ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 798.61,
+    "end": 824.16,
+    "text": "Please hold all questions to the end of the presentation . This is the Large Hadron Collider at CERN in Switzerland , the product of decades of planning and construction . It is a Mecca for physicists the world over . This is Bath and Body Works on Colorado Boulevard . They sell scented soaps and lotions , some of which contain glitter . Now , let's see if we can match the individual to the appropriate destination .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 825.73,
+    "end": 826.83,
+    "text": "Okay , show's over .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 827.12,
+    "end": 829.67,
+    "text": "No , it's not . I've got five more slides .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 830.48,
+    "end": 834.21,
+    "text": "Sheldon , this is Leonard's decision . He invited me to Switzerland , and I intend to go .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 837.14,
+    "end": 851.49,
+    "text": "Very well . Enjoy yourself . You're going to be in the presence of something that I've dreamed of seeing for decades . I just hope you'll be able to appreciate the magnitude of where you are and what it represents .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 854.66,
+    "end": 855.85,
+    "text": "I'll talk to Leonard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 857.64,
+    "end": 858.19,
+    "text": "You will ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 859.08,
+    "end": 862.29,
+    "text": "Yes . If it means that much to you , you should go .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.09,
+    "end": 864.89,
+    "text": "Oh , Penny , thank you !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 867.82,
+    "end": 868.46,
+    "text": "You're welcome .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 869.44,
+    "end": 872.42,
+    "text": "Since I rarely hug , I'm relying on your expertise regarding duration .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 873.9,
+    "end": 876.86,
+    "text": "I think we're there .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 878.33,
+    "end": 881.29,
+    "text": "Oh , good . Bye-bye .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 882.77,
+    "end": 886.7,
+    "text": "You know what ? Even though I don't have a girlfriend , I can still have a good time on Valentine's Day .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 887.04,
+    "end": 888.36,
+    "text": "Trust me , you can't . I've tried .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 889.22,
+    "end": 899.63,
+    "text": "No , no , no , I'm going to have a me day . First I'm going to go to one of those spas in Koreatown , take a steam and get a massage . Then I'm going to stop at a pet store and get licked by puppies .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 902.83,
+    "end": 904.12,
+    "text": "Sheldon , I need to talk to you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 904.37,
+    "end": 907.12,
+    "text": "All right , my friend . Would you like some cholermus ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 907.96,
+    "end": 908.89,
+    "text": "Some what ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 908.98,
+    "end": 915.22,
+    "text": "Cholermus . It's a traditional Swiss breakfast dish . I'm preparing my gastrointestinal system for the exotic cuisine of Switzerland .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 916.46,
+    "end": 918.55,
+    "text": "You're not going to Switzerland !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 919.1,
+    "end": 921.77,
+    "text": "Oh , but I am . Didn't Penny tell you the good news ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 921.83,
+    "end": 925.21,
+    "text": "She told me that you went behind my back to guilt her into letting you go instead of her .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 925.64,
+    "end": 926.98,
+    "text": "Yes , that good news .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 928.56,
+    "end": 933.47,
+    "text": "Well , forget it . I was the one who was invited , I get to decide who goes with me , and it's Penny , not you !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 933.98,
+    "end": 936.47,
+    "text": "Howard , could you lower the lights ? I have a short PowerPoint presentation .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 937.69,
+    "end": 940.96,
+    "text": "I don't need to see your presentation . This discussion is over !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 941.76,
+    "end": 944.25,
+    "text": "That's a somewhat ambiguous response . Am I going or not ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 945.43,
+    "end": 951.41,
+    "text": "Sheldon , at this point , I would go by myself before I would take you . Yeah , really .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 949.64,
+    "end": 950.33,
+    "text": "Really ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 952.28,
+    "end": 959.32,
+    "text": "Well then , you leave me no alternative . From this moment forward , we can be roommates , but we will no longer be friends .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 959.86,
+    "end": 961.24,
+    "text": "I'm sorry you feel that way .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 961.57,
+    "end": 964.2,
+    "text": "I don't think you're fully aware of the ramifications here , Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 965.9,
+    "end": 967.17,
+    "text": "Why don't you enlighten me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 967.24,
+    "end": 974.41,
+    "text": "With the friendship clause of our roommate agreement nullified you are no longer entitled to accompany me to go swimming at Bill Gates' house should I be invited .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 979.15,
+    "end": 980.59,
+    "text": "Ooh , that's gotta sting .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 985.33,
+    "end": 989.83,
+    "text": "Just think , this time tomorrow we'll be in Geneva , Switzerland for our first Valentine's Day .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 989.92,
+    "end": 994.6,
+    "text": "I know ! I went shopping today and bought special undies for the occasion .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 995.44,
+    "end": 996.83,
+    "text": "Thermal ? 'Cause it's gonna be cold .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1005.62,
+    "end": 1006.95,
+    "text": "Think it through , Leonard . Oh !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1006.6,
+    "end": 1012.92,
+    "text": "Oh ! Gesundheit . Or as they say in Switzerland , gesundheit . You getting a cold ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1013.46,
+    "end": 1014.99,
+    "text": "No , no , it's probably just allergies .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1016.64,
+    "end": 1022.48,
+    "text": "Do you want an allergy pill ? 'Cause I have 'em all . Prescription , nonprescription , foreign , domestic , experimental .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1023.6,
+    "end": 1024.75,
+    "text": "Do any of them work ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1024.94,
+    "end": 1026.94,
+    "text": "Not really , I'm just an enthusiast .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1038.3,
+    "end": 1041.7,
+    "text": "Penny ? You okay ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1042.21,
+    "end": 1047.16,
+    "text": "Did that sound okay to you ? Do not come in here !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1048.86,
+    "end": 1049.52,
+    "text": "What's going on ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1050.0,
+    "end": 1063.13,
+    "text": "I'm having a tea party . What do you think's going on ? I think I might have the flu . Or the plague .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1064.38,
+    "end": 1067.73,
+    "text": "Well , our plane leaves at 9 a.m . Do you think you'll feel better by then ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1069.29,
+    "end": 1074.74,
+    "text": "Yep . 'Cause I'm gonna be dead .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1076.29,
+    "end": 1086.1,
+    "text": "Hey , Sheldon ? Listen , Penny is pretty sick and she's not going to be able to go to Switzerland . So if you're still interested , you're welcome to come .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1089.88,
+    "end": 1098.9,
+    "text": "Great . I'll start packing . In a minute .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1104.03,
+    "end": 1105.17,
+    "text": "Oh , look , it's the cholermus .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1118.46,
+    "end": 1122.99,
+    "text": "Here's your soup . Yes . Yes .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1119.99,
+    "end": 1124.66,
+    "text": "Chicken ? With the little stars ? Heated to 180 degrees ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1125.81,
+    "end": 1128.19,
+    "text": "Why don't I pour it in your lap , and you can tell me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1129.2,
+    "end": 1132.0,
+    "text": "You don't have to be mean . I'm sick .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1132.09,
+    "end": 1133.65,
+    "text": "Yeah , well , I'm sick , too .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1133.95,
+    "end": 1146.41,
+    "text": "Not my problem . I just don't understand how this happened to me . I'm scrupulous about my hygiene . I regularly disinfect my hands , and I avoid contact with other people on general principle .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1148.04,
+    "end": 1149.94,
+    "text": "I don't know what to tell you , Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1153.25,
+    "end": 1153.95,
+    "text": "It's you !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1165.35,
+    "end": 1166.29,
+    "text": "I touched you !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1167.4,
+    "end": 1168.93,
+    "text": "Happy Valentine's Day .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1179.45,
+    "end": 1190.95,
+    "text": "Oh , my goodness , look at this room ! Champagne ! Roses ! Oh , and little chocolates ! This is going to be the best Valentine's Day ever .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1193.18,
+    "end": 1194.9,
+    "text": "Yeah , I forgot about all this .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1196.21,
+    "end": 1197.22,
+    "text": "But I never will .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  }
+]

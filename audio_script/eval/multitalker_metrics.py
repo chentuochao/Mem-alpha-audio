@@ -80,27 +80,60 @@ def _der_for_permutation(pred_aligned, gt, frame_duration):
     return der, {'miss': miss_sec, 'fa': fa_sec, 'conf': conf_sec, 'total': total_sec, 'acc_err': acc_err}
 
 
+# def compute_der_bruteforce(pred, gt, frame_duration=0.04, collar_frames=0):
+#     """
+#     Compute DER by exhaustively searching all permutations of pred rows.
+
+#     Picks the permutation that minimises DER.  Complexity is O(N! * T) so
+#     this should only be used when the number of speakers N is small.
+
+#     Args / Returns: same as ``compute_der``. also return the best permutation index
+#     """
+#     N_pred = pred.shape[0]
+#     N_gt = gt.shape[0]
+#     best_der = float('inf')
+#     best_details = None
+
+#     for perm in permutations(range(N_pred), N_gt):
+#         pred_aligned = pred[list(perm)]
+#         der, details = _der_for_permutation(pred_aligned, gt, frame_duration)
+#         if der < best_der:
+#             best_der = der
+#             best_details = details
+#             best_details["col_ind"] = np.array(perm)
+
+#     return best_der, best_details
+
 def compute_der_bruteforce(pred, gt, frame_duration=0.04, collar_frames=0):
     """
-    Compute DER by exhaustively searching all permutations of pred rows.
-
-    Picks the permutation that minimises DER.  Complexity is O(N! * T) so
-    this should only be used when the number of speakers N is small.
-
-    Args / Returns: same as ``compute_der``. also return the best permutation index
+    Compute DER by exhaustively searching all permutations.
+    Handles N_pred != N_gt by padding the smaller matrix with silent speakers.
     """
     N_pred = pred.shape[0]
-    N_gt = gt.shape[0]
+    N_gt, T = gt.shape
     best_der = float('inf')
     best_details = None
 
-    for perm in permutations(range(N_pred), N_gt):
-        pred_aligned = pred[list(perm)]
-        der, details = _der_for_permutation(pred_aligned, gt, frame_duration)
-        if der < best_der:
-            best_der = der
-            best_details = details
-            best_details["col_ind"] = np.array(perm)
+    if N_pred >= N_gt:
+        # More (or equal) pred speakers than gt: pick N_gt from pred
+        for perm in permutations(range(N_pred), N_gt):
+            pred_aligned = pred[list(perm)]
+            der, details = _der_for_permutation(pred_aligned, gt, frame_duration)
+            if der < best_der:
+                best_der = der
+                best_details = details
+                best_details["col_ind"] = np.array(perm)
+    else:
+        # Fewer pred speakers than gt: pad pred with zero rows, then permute
+        pred_padded = np.zeros((N_gt, T), dtype=pred.dtype)
+        pred_padded[:N_pred] = pred
+        for perm in permutations(range(N_gt)):
+            pred_aligned = pred_padded[list(perm)]
+            der, details = _der_for_permutation(pred_aligned, gt, frame_duration)
+            if der < best_der:
+                best_der = der
+                best_details = details
+                best_details["col_ind"] = np.array(perm)
 
     return best_der, best_details
 

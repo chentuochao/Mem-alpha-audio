@@ -1,0 +1,1416 @@
+[
+  {
+    "start": 28.0,
+    "end": 29.13,
+    "text": "Fellas , please .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 29.58,
+    "end": 31.85,
+    "text": "Penny , come on , we were just finding our sound .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 33.7,
+    "end": 37.27,
+    "text": "You found it . It's the sound of a cat being run over by a lawn mower .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 39.83,
+    "end": 48.03,
+    "text": "I'm really very busy . Is there any way that we can put this off until I have more time to prepare ? Of course . But , uh , you understand my trepidation .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 48.27,
+    "end": 49.02,
+    "text": "What's that about ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.05,
+    "end": 49.78,
+    "text": "Not a clue .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 50.07,
+    "end": 53.59,
+    "text": "Can't we just postpone it till the spring ? Maybe next summer ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 53.88,
+    "end": 64.77,
+    "text": "This should be fairly easy to deduce . He's holding the phone to his left ear . Ears do not cross hemispheres , so he's using the analytical rather than the emotional side of the brain , suggesting that he has no personal relationship with the caller .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 66.06,
+    "end": 72.14,
+    "text": "No , I didn't realize it had been so long . Sure , I guess there's no other choice but to just go ahead and do it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 72.17,
+    "end": 81.37,
+    "text": "He's referring to an activity he has done before . It's unpleasant and needs to be repeated . This suggests some sort of invasive medical test , like perhaps a colonoscopy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.25,
+    "end": 85.72,
+    "text": "Aren't there any other options ? There's not a lot of room , it's gonna be uncomfortable .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 85.83,
+    "end": 88.81,
+    "text": "Yes , yes . Yeah , I'm definitely going with colonoscopy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 90.21,
+    "end": 96.26,
+    "text": "Okay , bye . My mother's coming to visit .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 99.48,
+    "end": 100.63,
+    "text": "How about that , you were right .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 132.36,
+    "end": 133.32,
+    "text": "It's out of order .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 138.91,
+    "end": 141.11,
+    "text": "I think it implies that the elevator doesn't work .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 167.5,
+    "end": 168.74,
+    "text": "You must be Leonard's mother .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 171.15,
+    "end": 173.08,
+    "text": "Oh , I don't know if I must be , but yes .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 173.65,
+    "end": 175.3,
+    "text": "Uh , I'm Penny . I'm his neighbour .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 175.52,
+    "end": 176.75,
+    "text": "Oh , Dr . Beverley Hofstadter .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 177.22,
+    "end": 178.2,
+    "text": "Oh , nice to meet you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 178.94,
+    "end": 180.76,
+    "text": "Oh , you're a hand shaker . Interesting .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 181.52,
+    "end": 185.78,
+    "text": "Uh , why don't you come with me . I'll walk you to the apartment .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.87,
+    "end": 188.6,
+    "text": "Oh , all right . Would you like to exchange pleasantries on the way ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 190.07,
+    "end": 190.99,
+    "text": "Yeah , sure , I guess .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 191.02,
+    "end": 191.69,
+    "text": "All right , you start .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 193.78,
+    "end": 196.66,
+    "text": "Okay . You know , I've always been curious . What was Leonard like when he was little ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.78,
+    "end": 199.03,
+    "text": "Oh , I think you mean young . He's always been little .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 200.51,
+    "end": 202.4,
+    "text": "Right , okay . What was he like when he was young ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 202.56,
+    "end": 203.88,
+    "text": "You'll have to be more specific .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 205.16,
+    "end": 210.94,
+    "text": "Oh , um , okay , like , five or six . Five .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 212.22,
+    "end": 224.21,
+    "text": "Oh , well , at that age he was well enmeshed in what Freud would call the phallic stage of psychosexual development . An outmoded theory , of course , but the boy did spend most of his waking hours with a tight grasp on his penis .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 226.21,
+    "end": 228.1,
+    "text": "Yeah , Leonard mentioned you were a psychiatrist .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 228.49,
+    "end": 231.67,
+    "text": "Well , that is one of my degrees . My primary field is neuroscience .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.33,
+    "end": 233.98,
+    "text": "Oh , well , I'm an actress .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 239.19,
+    "end": 239.67,
+    "text": "Why ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 242.42,
+    "end": 243.09,
+    "text": "What do you mean why ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 243.45,
+    "end": 249.19,
+    "text": "Well , there are studies that suggest that many who go into the performing arts suffer from an external locus of identity .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 250.29,
+    "end": 254.14,
+    "text": "Yeah , I don't know what that means .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 255.24,
+    "end": 262.47,
+    "text": "Well , it means you value yourself only as others value you , which is often the result of unmet childhood emotional needs .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 263.31,
+    "end": 266.16,
+    "text": "Oh , well , I had a wonderful childhood .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 267.27,
+    "end": 268.0,
+    "text": "Tell me about it .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 268.92,
+    "end": 278.53,
+    "text": "I know my dad wanted a boy . I just , I tried being good at sports , but I hated getting dirty !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 279.44,
+    "end": 282.65,
+    "text": "And then , I'm assuming , you entered adolescence .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 283.56,
+    "end": 301.45,
+    "text": "Uh-huh , he called me Slugger until I got my first training bra , and then he just stopped playing catch with me . I wasn't Slugger anymore . Your mother's here !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 303.01,
+    "end": 307.04,
+    "text": "If you want to have intercourse with that girl , find out what kind of cologne her father wore .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 311.02,
+    "end": 325.14,
+    "text": "Good to see you , Mother . Here's your tea , Mother . Yes . Yes . Yes . Yes . Yes . Yes . Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 316.59,
+    "end": 324.69,
+    "text": "Oolong ? Loose , not bagged ? Steeped three minutes ? Two-percent milk ? Warmed separately ? One teaspoon sugar ? Raw sugar ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 327.05,
+    "end": 328.95,
+    "text": "It's cold .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 330.86,
+    "end": 333.72,
+    "text": "I'll start again .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 335.62,
+    "end": 343.96,
+    "text": "I have the same problem with him . My theory is that his lack of focus stems from an over-developed sex drive .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 355.46,
+    "end": 357.15,
+    "text": "That seems a fairly efficient arrangement .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 358.68,
+    "end": 367.33,
+    "text": "Yes , we think so . We've both done papers on it . Mine from the neuroscientific point of view and his from an anthropological . Mine , of course , was the only one worth reading .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.72,
+    "end": 372.48,
+    "text": "Of course . I would very much like to read about your sex life .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 374.09,
+    "end": 377.25,
+    "text": "Well , it's all online or you can order it from the Princeton University Press .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 377.88,
+    "end": 382.32,
+    "text": "Here's your tea , Mother . So , what are you guys talking about ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 382.43,
+    "end": 384.77,
+    "text": "The frequency with which your parents had intercourse .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 386.81,
+    "end": 391.17,
+    "text": "Swell . If you're lucky , maybe she'll show you the PowerPoint presentation .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 392.24,
+    "end": 394.17,
+    "text": "I'm sorry , it's on my other laptop .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 395.37,
+    "end": 395.98,
+    "text": "Aw ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 397.18,
+    "end": 399.34,
+    "text": "So , Mother , what's new ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 399.59,
+    "end": 400.94,
+    "text": "You'll have to be more specific .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 402.9,
+    "end": 404.9,
+    "text": "All right . Uh , what's new with you ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 405.5,
+    "end": 408.77,
+    "text": "Oh , well , I've been having some fascinating menopausal symptoms recently .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 410.03,
+    "end": 411.36,
+    "text": "Maybe something less personal .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 412.98,
+    "end": 415.14,
+    "text": "Oh . Your Uncle Floyd died .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 416.38,
+    "end": 417.66,
+    "text": "Oh , my God . What happened ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 417.81,
+    "end": 423.92,
+    "text": "His heart stopped beating . I have to urinate .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 427.89,
+    "end": 429.9,
+    "text": "What a remarkable woman .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 431.85,
+    "end": 433.62,
+    "text": "Yeah I , I thought you guys might hit it off .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 434.77,
+    "end": 436.35,
+    "text": "I envy you your childhood .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 436.8,
+    "end": 442.0,
+    "text": "I hate to tell you , but the only warm memories I have of my childhood are of my Uncle Floyd .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 442.91,
+    "end": 449.96,
+    "text": "You're clearly misremembering . Your mother is brilliant , analytical , insightful , and I'm betting she never hit you with a Bible because you wouldn't eat your Brussels sprouts .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 452.06,
+    "end": 460.04,
+    "text": "Sheldon , you don't give your mother enough credit . She's warm , she's loving , she doesn't glue electrodes to your head to measure your brain waves while potty training .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 461.82,
+    "end": 466.61,
+    "text": "You were lucky . When I was a kid , if I wanted an EEG , I had to attach my own electrodes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 470.12,
+    "end": 475.8,
+    "text": "So , Dr . Hofstadter , Leonard rarely talks about his incredibly successful brother and sister .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 476.03,
+    "end": 477.02,
+    "text": "Please , don't go there , Howard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 477.71,
+    "end": 482.89,
+    "text": "I understand that unlike Leonard , they're at the top of their respective fields .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 484.46,
+    "end": 485.67,
+    "text": "Boy , you suck .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 488.04,
+    "end": 494.59,
+    "text": "Well , Leonard's younger brother , Michael , is a tenured law professor at Harvard , and his sister just successfully grew a human pancreas in an adolescent gibbon .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 496.74,
+    "end": 499.24,
+    "text": "So , she's close to curing diabetes ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 499.42,
+    "end": 501.66,
+    "text": "Why else would you grow a pancreas in a teenaged gibbon ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 503.67,
+    "end": 505.15,
+    "text": "Wow , you must be very proud .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 505.42,
+    "end": 511.29,
+    "text": "Why ? They're not my accomplishments . I have to urinate .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 514.27,
+    "end": 515.66,
+    "text": "Why are you doing this ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 515.81,
+    "end": 518.56,
+    "text": "You know the rules . You brought your mom to work , you must suffer .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 520.48,
+    "end": 524.23,
+    "text": "Leonard , I had no idea your siblings were so much more successful than you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 526.13,
+    "end": 528.67,
+    "text": "Yeah , you're like the Jar Jar Binks of the Hofstadter family .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 531.34,
+    "end": 533.66,
+    "text": "Oh , meesa think yousa lookin' so so sad .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 536.48,
+    "end": 541.0,
+    "text": "You know , rather than mock me , my friends might realize that this is difficult and try to help me through it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 542.04,
+    "end": 543.45,
+    "text": "Nope , I think mocking you is more fun .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 545.79,
+    "end": 549.51,
+    "text": "Next time , don't yousa bring mama to work . Okee-day ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 551.12,
+    "end": 551.72,
+    "text": "That was fast .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 551.98,
+    "end": 554.45,
+    "text": "Oh , the middle stall was occupied . I'll have to try again later .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 555.91,
+    "end": 560.46,
+    "text": "It's totally understandable . In bladder voiding , as in real estate , it's location , location , location .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 563.36,
+    "end": 563.96,
+    "text": "So , where were we ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 564.09,
+    "end": 567.6,
+    "text": "Howard lives with his mother and Raj can't speak to women unless he's drunk . Go .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 570.67,
+    "end": 579.72,
+    "text": "That's fascinating . Selective mutism is quite rare . On the other hand , an adult Jewish male living with his mother is so common it borders on sociological cliché .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 582.54,
+    "end": 584.3,
+    "text": "It's just temporary , I pay rent .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 584.31,
+    "end": 586.43,
+    "text": "He lives in the same room where his bassinet was .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 587.06,
+    "end": 599.21,
+    "text": "You know , both selective mutism and an inability to separate from one's mother can stem from a pathological fear of women . It might explain why the two of you have created an ersatz homosexual marriage to satisfy your need for intimacy .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 604.49,
+    "end": 611.3,
+    "text": "Say what ? That's basically what I just said .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 612.66,
+    "end": 620.12,
+    "text": "You brought your husband to work , you know the rules . Meesa thinking yousa looking pretty sad now too , betcha , betcha .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 621.02,
+    "end": 624.82,
+    "text": "Leonard , it's one o'clock , weren't you going to show me your laboratory at one o'clock ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 625.06,
+    "end": 627.61,
+    "text": "There's no hurry , Mother , tell them more about their secret love for each other .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 628.75,
+    "end": 631.39,
+    "text": "But it's one o'clock , you were going to show me your laboratory at one o'clock .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 631.92,
+    "end": 634.03,
+    "text": "Her reasoning is unassailable . It is one o'clock .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.68,
+    "end": 646.52,
+    "text": "Fine . Let's go . I think you'll find my work pretty interesting . I'm attempting to replicate the dark matter signal found in sodium iodide crystals by the Italians .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 646.55,
+    "end": 648.14,
+    "text": "So , no original research ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 649.36,
+    "end": 649.75,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 650.98,
+    "end": 654.35,
+    "text": "Well , what's the point of my seeing it ? I could just read the paper the Italians wrote .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 657.52,
+    "end": 660.2,
+    "text": "Just for the record , we're not in an ersatz homosexual relationship .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 660.75,
+    "end": 662.42,
+    "text": "Well , then why didn't you say that to her ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 662.58,
+    "end": 664.69,
+    "text": "Why is it always my responsibility ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 664.94,
+    "end": 669.25,
+    "text": "It's not always your responsibility . I swear , this is the same thing you did at the comic book store last week .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 673.64,
+    "end": 675.8,
+    "text": "I can't believe you're bringing that up .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 677.04,
+    "end": 678.02,
+    "text": "I didn't bring it up . You did .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 678.68,
+    "end": 680.38,
+    "text": "We'll talk about this later .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 680.64,
+    "end": 682.7,
+    "text": "You always say that , but we never do .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 688.56,
+    "end": 690.16,
+    "text": "You went to the comic book store without me.7",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 690.52,
+    "end": 690.88,
+    "text": "Hey .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 699.97,
+    "end": 701.99,
+    "text": "You got alcohol ? Yep .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 700.83,
+    "end": 707.13,
+    "text": "Your mom still here ? Come on in . Wait , wait , she's not gonna come here looking for you , is she ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 707.31,
+    "end": 709.84,
+    "text": "Oh , relax . She took Sheldon to the hospital to get a brain scan .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 710.36,
+    "end": 711.9,
+    "text": "Oh , my God . What happened ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 712.42,
+    "end": 716.11,
+    "text": "Nothing . Mother likes looking at brains and Sheldon likes getting his brain scanned .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 718.23,
+    "end": 719.61,
+    "text": "Geez , what a fun couple .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 720.57,
+    "end": 725.11,
+    "text": "She's only been here a day and a half and I'm seriously considering alcoholism as a new career path .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 725.95,
+    "end": 729.35,
+    "text": "Hey , I talked to her for five minutes yesterday and I've been half bombed ever since .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 731.35,
+    "end": 732.82,
+    "text": "You can't let her get into your head .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 733.0,
+    "end": 734.35,
+    "text": "My head , what about yours ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 734.47,
+    "end": 737.15,
+    "text": "It's too late for me . My head is her summer house .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 740.31,
+    "end": 744.4,
+    "text": "She was right , you know . The locus of my identity is totally exterior to me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 744.6,
+    "end": 745.71,
+    "text": "Oh , yeah , there she is . Hi , Mom .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 749.47,
+    "end": 758.33,
+    "text": "I mean , do you know where I was all morning ? Auditioning with 50 other blondes for some stupid antidepressant commercial . And for what ? So I'll finally get my daddy's approval ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 760.12,
+    "end": 760.75,
+    "text": "Did you get the part ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 762.06,
+    "end": 766.65,
+    "text": "No , they said I was too perky .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 767.96,
+    "end": 774.13,
+    "text": "Hey , you want to talk about not getting love from a parent . You know what I used to do when I was little to have some sensation of human contact ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 774.24,
+    "end": 780.56,
+    "text": "Yeah , you grabbed your penis and wouldn't let go . Your mother told me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 784.05,
+    "end": 789.25,
+    "text": "Of course she did . Anyway , that's not what I was gonna say . When I was ten years old , I built a hugging machine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 790.63,
+    "end": 792.14,
+    "text": "A hugging machine ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.5,
+    "end": 800.26,
+    "text": "Yeah . I got a dressmaker's mannequin , I stuffed it with an electric blanket so it would be warm , and built two radio-controlled arms that would hug me and pat my back .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 800.45,
+    "end": 803.58,
+    "text": "Oh , that is so sad .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 804.58,
+    "end": 807.32,
+    "text": "You know what the saddest part was ? My father used to borrow it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 805.84,
+    "end": 805.95,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 811.82,
+    "end": 815.79,
+    "text": "Your scan data will be very elpful to my research . You have a remarkable brain .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 816.42,
+    "end": 823.37,
+    "text": "I know . Although I've always hated how my right frontal lobe looks in pictures .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 824.44,
+    "end": 830.82,
+    "text": "Common complaint among men . Nothing's ever big enough , except when they get a tumour . Then you never hear the end of it .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 833.24,
+    "end": 835.78,
+    "text": "I'd love to see a scan of your brain sometime .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 836.06,
+    "end": 838.82,
+    "text": "Oh , I'll send you a link , but its physiology is fairly unimpressive .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 839.63,
+    "end": 840.86,
+    "text": "Oh , I can't believe that .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 841.17,
+    "end": 844.85,
+    "text": "Your unwillingness to accept empirical evidence suggests an attempt at flattery .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 847.55,
+    "end": 851.77,
+    "text": "My apologies . I've been living with your son too long . Gotten into some bad habits .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 853.15,
+    "end": 853.77,
+    "text": "Understandable .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 855.17,
+    "end": 856.5,
+    "text": "Can I make you a cup of tea ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 856.94,
+    "end": 859.35,
+    "text": "I doubt it , but if anyone has a chance , it's probably you .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 863.92,
+    "end": 865.96,
+    "text": "I feel very comfortable around you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 867.53,
+    "end": 869.23,
+    "text": "I feel very comfortable around you , too .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 869.84,
+    "end": 874.66,
+    "text": "It's surprising because I generally don't feel comfortable around , well , anyone .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 876.96,
+    "end": 877.44,
+    "text": "Nor I.",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 878.26,
+    "end": 885.96,
+    "text": "What are the odds that two individuals as unique as ourselves would be connected by someone as comparatively workaday as your son ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 888.63,
+    "end": 891.15,
+    "text": "Is that a rhetorical point or would you like to do the math ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 893.39,
+    "end": 894.37,
+    "text": "I'd like to do the math .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 904.55,
+    "end": 905.99,
+    "text": "I'd like that , too .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 916.17,
+    "end": 920.45,
+    "text": "Okay , now this time ... You're gonna lick the salt off",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 917.09,
+    "end": 917.22,
+    "text": "Uh-huh .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 926.6,
+    "end": 928.03,
+    "text": "my neck , do the",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 934.18,
+    "end": 934.46,
+    "text": "shot , and then bite the lime .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 934.49,
+    "end": 935.97,
+    "text": "I'm sorry , I didn't hear anything after lick .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 939.18,
+    "end": 941.67,
+    "text": "Neck , shot , lime .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 950.37,
+    "end": 950.92,
+    "text": "Okay , shot , lime .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 950.92,
+    "end": 951.18,
+    "text": "lime ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 965.82,
+    "end": 967.26,
+    "text": "Oh , okay , we're sharing .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 982.26,
+    "end": 983.17,
+    "text": "So , what do you think ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 986.2,
+    "end": 990.93,
+    "text": "I'm very tempted . I'm just not sure it's appropriate with my son's roommate .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 992.89,
+    "end": 1000.13,
+    "text": "Normally , I'd feel the same way . But based on everything I've observed about us , I can't help but speculate we'd be very good together .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.97,
+    "end": 1006.77,
+    "text": "True . I've had a similar observation . It's certainly something I could never do with my husband .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1009.94,
+    "end": 1020.87,
+    "text": "I was hesitant the first time I tried it , but I experienced an unanticipated and remarkable release of endorphins . It's quite satisfying .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1022.21,
+    "end": 1026.98,
+    "text": "I see what you're doing . You're appealing to the neuroscientific researcher in me .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1028.85,
+    "end": 1030.03,
+    "text": "You see right through me , don't you ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1033.1,
+    "end": 1034.46,
+    "text": "Only when you're in a CAT scanner .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1040.55,
+    "end": 1042.35,
+    "text": "This is actually gonna happen .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1048.44,
+    "end": 1048.79,
+    "text": "Honey , shush , shush , shush , shush , shush .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1048.88,
+    "end": 1060.58,
+    "text": "You shush , I'm happy , I want to talk about it . You know what my mother would say about this ? She would say because you were not loved by your father and I was not loved by my mother , that having sex is our way of making up for the intimacy we didn't get as children .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1064.94,
+    "end": 1073.43,
+    "text": "Why would you bring that up right now ? So you're saying you're not having sex with me , you're having sex with your mother ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1066.2,
+    "end": 1066.77,
+    "text": "I don't know . Foreplay ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1074.85,
+    "end": 1076.48,
+    "text": "Ummm , I'm gonna go with \" no . \"",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.55,
+    "end": 1080.43,
+    "text": "That is the sickest thing I've ever heard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1080.79,
+    "end": 1083.86,
+    "text": "Come on , you're trying to have sex with your father , and I'm okay with that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1088.14,
+    "end": 1088.86,
+    "text": "Get out !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1093.14,
+    "end": 1094.52,
+    "text": "She said shush . I should have shushed .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1121.99,
+    "end": 1124.85,
+    "text": "All right , Mother . Um , have a nice flight .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1125.09,
+    "end": 1126.75,
+    "text": "That's not really in my control , is it ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1138.68,
+    "end": 1139.76,
+    "text": "Oh , uh , yes",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1140.12,
+    "end": 1144.47,
+    "text": "Oh , good morning . Look , I was just coming over to talk to you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1141.74,
+    "end": 1142.1,
+    "text": "Morning .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1144.55,
+    "end": 1150.7,
+    "text": "You don't have to . Ever . Mother .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1150.91,
+    "end": 1154.29,
+    "text": "Good-bye , Leonard . So , Slugger , shall we pick up where we left off last time ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1155.03,
+    "end": 1163.98,
+    "text": "I mean , my mom could've just said , \" Bob , get over it , she's a girl , move on . \" But she didn't . Not one word .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1164.72,
+    "end": 1170.32,
+    "text": "Interesting . Would you be willing to fly to New Jersey and discuss your relationship with your parents during a brain scan ?",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1173.04,
+    "end": 1173.59,
+    "text": "Would it help ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1173.78,
+    "end": 1174.56,
+    "text": "Well , it would help me .",
+    "speaker": "dr_beverly_hofstadter",
+    "dialog_type": "dialog"
+  }
+]

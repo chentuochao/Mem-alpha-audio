@@ -1,0 +1,1500 @@
+[
+  {
+    "start": 3.94,
+    "end": 7.26,
+    "text": "And the next wedding gift is a gravy boat .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 7.53,
+    "end": 9.35,
+    "text": "Ooh , one gravy boat .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 9.75,
+    "end": 11.94,
+    "text": "That's from Sheldon . He told me he had it engraved .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 12.75,
+    "end": 16.78,
+    "text": "In the event of a divorce , please return to Sheldon Cooper .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 17.83,
+    "end": 22.61,
+    "text": "One inappropriate , yet I wish I thought of that gravy boat .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 23.2,
+    "end": 26.12,
+    "text": "When I get married I'm going to register at the UCLA Cadaver Lab .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 27.48,
+    "end": 28.1,
+    "text": "Ew , why ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 28.27,
+    "end": 31.18,
+    "text": "'Cause I've always wanted a whole human skeleton and they are really spendy .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 31.91,
+    "end": 35.55,
+    "text": "So , you actually see you and Sheldon getting married someday ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 36.28,
+    "end": 41.29,
+    "text": "Not just someday . In exactly four years . But don't tell Sheldon . He's still a flight risk .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.26,
+    "end": 44.19,
+    "text": "What about you , Penny ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 45.16,
+    "end": 45.81,
+    "text": "What about me what ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 46.51,
+    "end": 48.25,
+    "text": "Do you think you and Leonard might ever get married ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.84,
+    "end": 53.6,
+    "text": "Oh , well , you know , Leonard is great .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 54.38,
+    "end": 57.48,
+    "text": "But do you think you'll ever get married ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 58.27,
+    "end": 59.44,
+    "text": "He's a sweetie .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.22,
+    "end": 62.75,
+    "text": "You're not answering the question . Do you love him ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 63.11,
+    "end": 64.96,
+    "text": "Yeah , sure , of course I love him .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 65.24,
+    "end": 66.34,
+    "text": "It doesn't sound like it .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 66.87,
+    "end": 67.67,
+    "text": "Well , I do .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 68.2,
+    "end": 69.53,
+    "text": "Do you tell him that ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 70.07,
+    "end": 72.2,
+    "text": "No , he'd just take it the wrong way .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 72.73,
+    "end": 73.79,
+    "text": "What does that mean ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 74.33,
+    "end": 97.47,
+    "text": "It means he is special and smart and nice and ... No . Maybe . I don't know . That's the thing , I'm not . I'm not unhappy at all . It's just , I don't know , I , I've been in love before , but it felt different . But maybe this is a new , better , boring kind of love . Do you ever feel that way about Howard ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 77.96,
+    "end": 78.86,
+    "text": "Are you gonna break up with him ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 82.17,
+    "end": 82.86,
+    "text": "I had no idea you were unhappy .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 97.75,
+    "end": 101.64,
+    "text": "Oh , that's not really a fair comparison . I'm basically married to a sexy Buzz Lightyear .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 102.89,
+    "end": 104.15,
+    "text": "Amy , you ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 105.4,
+    "end": 113.18,
+    "text": "Can't help ya , kid . Whenever I'm around Sheldon , I feel like my loins are on fire . In the good way . Not the urinary tract infection way .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 140.94,
+    "end": 142.95,
+    "text": "Hey , buddy , how's it going up there ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 144.14,
+    "end": 150.33,
+    "text": "You don't have to shout , Raj . It's not like I'm an astronaut floating around in outer space . Oh , wait , I am .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 155.35,
+    "end": 157.49,
+    "text": "So , is it everything you hoped it would be ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 157.61,
+    "end": 164.57,
+    "text": "It's better . I wake up every morning and I just can't believe I'm on this incredible adventure .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 164.75,
+    "end": 167.11,
+    "text": "Hey , Froot Loops , did you clean the space toilet ?",
+    "speaker": "dimitri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 170.25,
+    "end": 172.25,
+    "text": "Excuse me . I'm talking to my friends .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 172.4,
+    "end": 175.31,
+    "text": "You know the rules , new guy scrubs the toilet .",
+    "speaker": "mike_massimino",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 177.54,
+    "end": 180.19,
+    "text": "If you do good job , next time we give you brush .",
+    "speaker": "dimitri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 182.86,
+    "end": 194.09,
+    "text": "Funny . We're always giving each other a hard time up here . It's kind of like being in a frat . You know , joking , kidding around , hurting feelings .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.05,
+    "end": 204.02,
+    "text": "Okay , my turn . Let me talk to him . 2311 North Los Robles Avenue , Pasadena , California to International Space Station . Can you read me ? Over .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 206.34,
+    "end": 208.44,
+    "text": "Yes , I read you , Sheldon .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 208.57,
+    "end": 209.44,
+    "text": "Copy that . Over .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 211.36,
+    "end": 212.01,
+    "text": "What are you doing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 212.57,
+    "end": 217.65,
+    "text": "I am talking to a man in space . If you don't have the then he might as well be at the Coffee Bean over on Lake Street .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 219.49,
+    "end": 220.32,
+    "text": "You're out of your mind,Sheldon .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 220.86,
+    "end": 223.23,
+    "text": "That's a negative . My mother had me tested . Over .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 224.36,
+    "end": 227.77,
+    "text": "Come on , scrub it up , Loops .",
+    "speaker": "mike_massimino",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 228.9,
+    "end": 232.68,
+    "text": "All right , all right . I gotta go . There's a meteor shower .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 233.05,
+    "end": 236.95,
+    "text": "want to see a meteor shower ? Take a look at what Dimitri just left you in the toilet .",
+    "speaker": "mike_massimino",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 238.42,
+    "end": 239.15,
+    "text": "Bye .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 240.62,
+    "end": 242.82,
+    "text": "Over and out .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 244.28,
+    "end": 245.75,
+    "text": "Bye , buddy !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 247.22,
+    "end": 247.95,
+    "text": "Hello .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 249.42,
+    "end": 250.88,
+    "text": "Hey , Stuart , come on in .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 251.06,
+    "end": 252.2,
+    "text": "What are you doing here ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.8,
+    "end": 255.18,
+    "text": "Um , Raj invited me to go to the movies with you guys .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 256.07,
+    "end": 259.8,
+    "text": "Excuse me . I didn't authorize this .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 261.95,
+    "end": 263.36,
+    "text": "Sheldon , you are not in charge .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 263.6,
+    "end": 266.87,
+    "text": "That's mighty sassy for a man with a roommate performance review around the corner .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 268.69,
+    "end": 272.27,
+    "text": "What's the big deal ? You guys are bringing your girlfriends . I didn't want to sit by myself .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 272.48,
+    "end": 279.5,
+    "text": "The big deal is I was expecting us to be an intimate group of five . Now , we're going to be a faceless mass of six .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 280.94,
+    "end": 283.36,
+    "text": "It'll be fine . Just , uh , pretend he's Wolowitz .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 285.98,
+    "end": 286.34,
+    "text": "Hmm .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 288.59,
+    "end": 289.54,
+    "text": "Do you like Raisinets ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 290.61,
+    "end": 291.34,
+    "text": "I can take them or leave them .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 291.38,
+    "end": 293.53,
+    "text": "At the movies , Wolowitz always eats Raisinets .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 293.84,
+    "end": 295.95,
+    "text": "Would you feel more comfortable if I ate Raisinets ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 296.2,
+    "end": 301.57,
+    "text": "Well , it's hardly my business what you eat , as long as it doesn't crunch during the film and it's Raisinets .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 303.29,
+    "end": 305.39,
+    "text": "Okay . Should we go ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 305.82,
+    "end": 313.26,
+    "text": "Yuh-uh , one more question , if you're going to replace Wolowitz , I need to know a little more about you . Wolowitz went to MIT . What's your educational background ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 309.47,
+    "end": 309.87,
+    "text": "All right .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 313.47,
+    "end": 314.94,
+    "text": "I went to art school .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 314.97,
+    "end": 316.14,
+    "text": "Equally ridiculous . Let's go .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 337.65,
+    "end": 340.25,
+    "text": "This insistence on hand-holding is preposterous .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 341.87,
+    "end": 342.62,
+    "text": "Well , I like it .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 342.83,
+    "end": 347.11,
+    "text": "Yeah , of course you do . You're a girl . You like all kinds of hippy-dippy things .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 348.56,
+    "end": 349.3,
+    "text": "Just watch the movie .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 352.51,
+    "end": 356.18,
+    "text": "It's not fair . Penny isn't making Leonard hold hands .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 358.69,
+    "end": 360.05,
+    "text": "There might be a reason for that .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 360.74,
+    "end": 366.19,
+    "text": "Sweaty ? Unhygienic ? Looks dumb ? Take your pick .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.59,
+    "end": 371.32,
+    "text": "Penny said she's not sure she wants to be Leonard's girlfriend anymore .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 375.32,
+    "end": 386.08,
+    "text": "Wrong . She just took a sip from his Diet Dr . Pepper . So , if she wants to end her pair-bond with Leonard , why on earth would she guzzle a witches' brew of his soda and spit ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 379.07,
+    "end": 379.72,
+    "text": "So ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 389.05,
+    "end": 389.83,
+    "text": "It's complicated .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 390.25,
+    "end": 407.85,
+    "text": "String theory is complicated . That's just yucky . Don't get any ideas . All right , for the sake of argument , let's say that's true . Why doesn't Penny just end the relationship ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 408.21,
+    "end": 409.75,
+    "text": "She's not sure how she feels .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 410.49,
+    "end": 423.76,
+    "text": "How can she not be sure how she feels ? You know , when I have a feeling , I know it . Trains ? Love them . Swordfish ? I love them , too . They're fish with a sword for a nose .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 427.27,
+    "end": 429.52,
+    "text": "Regardless , don't say anything to Leonard .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.66,
+    "end": 434.53,
+    "text": "Now you're asking me to keep a secret from my best friend , colleague , and roommate ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 434.98,
+    "end": 436.6,
+    "text": "Yes , please , Penny will kill me .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 436.99,
+    "end": 437.6,
+    "text": "Uh , fine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 439.75,
+    "end": 451.93,
+    "text": "FYI , secret-keeping ? Hate it . Hand-holding ? Not a fan . Hammerhead shark ? I love that thing . Yeah , it's another fish with a tool on its head .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 454.95,
+    "end": 455.08,
+    "text": "Raisinet ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 455.57,
+    "end": 461.59,
+    "text": "Shh , we're trying to watch the movie . This is not working out with him .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 476.99,
+    "end": 477.64,
+    "text": "What are you doing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 478.03,
+    "end": 484.3,
+    "text": "I think I might have tartar buildup . My tongue won't go as far forward as it used to .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 486.37,
+    "end": 487.86,
+    "text": "Maybe your tongue is shrinking .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 494.81,
+    "end": 495.17,
+    "text": "Nope .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 501.76,
+    "end": 503.26,
+    "text": "Oh , you have no idea how annoying this is .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 504.84,
+    "end": 511.48,
+    "text": "I'm starting to get a sense of it . Don't worry . I'll take you to the dentist tomorrow .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 511.9,
+    "end": 517.1,
+    "text": "Thank you . I appreciate that . You're good people , Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 525.52,
+    "end": 530.83,
+    "text": "There's something I need to tell you . I can't tell you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 528.16,
+    "end": 528.81,
+    "text": "Okay .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 532.74,
+    "end": 533.7,
+    "text": "Why ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 535.61,
+    "end": 540.66,
+    "text": "I can't tell you why I can't tell you . So I guess there's two things I can't tell you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 544.29,
+    "end": 546.09,
+    "text": "I wish there were more .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 549.71,
+    "end": 555.1,
+    "text": "Good night . I'm sorry . This is really important .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 555.28,
+    "end": 555.77,
+    "text": "What is it ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 559.8,
+    "end": 564.78,
+    "text": "I like The Transformers . Do you like The Transformers ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 566.7,
+    "end": 568.66,
+    "text": "Where exactly did your mother have you tested ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 571.55,
+    "end": 595.34,
+    "text": "Leonard , the Transformers teach us that things are not always what they appear to be . You know , like , uh , a semi truck might be an alien robot , or , uh , someone in a romantic relationship , uh , might feel differently than they appear to . Or a conversation about The Transformers might actually be about someone in this room .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 601.33,
+    "end": 602.77,
+    "text": "I'm going to pause to let that sink in .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 605.95,
+    "end": 607.12,
+    "text": "Okay , I think I understand .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 607.33,
+    "end": 607.96,
+    "text": "You do ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 608.8,
+    "end": 621.99,
+    "text": "The guy who seems like an emotionless robot is you , but your relationship with Amy is causing you to transform into a red-blooded man with sexual desires .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 626.21,
+    "end": 628.23,
+    "text": "That is literally the stupidest thing I've ever heard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 638.64,
+    "end": 641.46,
+    "text": "Leonard ? Leonard ? Leonard ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 642.86,
+    "end": 643.56,
+    "text": "What ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 644.96,
+    "end": 645.84,
+    "text": "Are you sleeping ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 646.2,
+    "end": 652.62,
+    "text": "I was . Now I'm having a nightmare . What do you want ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 654.37,
+    "end": 655.31,
+    "text": "Never mind . I still can't tell you . Penny ? Penny ? Penny ? You frightened me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.31,
+    "end": 655.52,
+    "text": "you",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 685.11,
+    "end": 686.4,
+    "text": "doing in my bedroom ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 686.57,
+    "end": 688.98,
+    "text": "Yeah , well , I knocked on the front door , but you didn't hear it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 689.32,
+    "end": 690.67,
+    "text": "How did you even get in , you weirdo ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 691.01,
+    "end": 695.83,
+    "text": "Yeah , really ? I've seen strange men traipsing in and out of here for years , but when I do it , it's weird ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 698.0,
+    "end": 699.04,
+    "text": "What do you want , Sheldon ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 699.49,
+    "end": 704.95,
+    "text": "Oh , I was having a little trouble sleeping and I just thought , uh , seeing as you're up , we could talk .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 706.8,
+    "end": 707.72,
+    "text": "Talk about what ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.26,
+    "end": 718.26,
+    "text": "Oh , I don't know , uh , weather , uh , fish you could do carpentry with , why Leonard is such an attractive and desirable boyfriend . Yeah , pick one , your choice .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 720.0,
+    "end": 720.33,
+    "text": "Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 720.73,
+    "end": 726.94,
+    "text": "Did you know that Leonard has a perfect driving record and enjoys the insurance discounts that go along with that ? Hubba-hubba .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 730.11,
+    "end": 731.85,
+    "text": "Okay , go home , crazy man .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 732.35,
+    "end": 741.98,
+    "text": "Yeah . Did you know that while Leonard is not considered a tall fellow in our country , in today's North Korea , he's downright average . Hey , talk about a keeper .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 744.37,
+    "end": 745.56,
+    "text": "Okay , what did Amy tell you ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 745.79,
+    "end": 753.69,
+    "text": "Oh , very well . I can't keep up this clever charade any longer . She told me that you were thinking of ending it with Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 754.71,
+    "end": 760.38,
+    "text": "Okay , you listen to me . I think it's really sweet you're trying to protect your friend , but this is none of your business . Got it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 760.6,
+    "end": 772.56,
+    "text": "Excuse me . This is not about protecting my friend . I'm a big fan of homeostasis . Do you know what that is ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 772.76,
+    "end": 773.61,
+    "text": "Of course not .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 775.85,
+    "end": 785.38,
+    "text": "Homeostasis refers to a system's ability to regulate its internal environment and maintain a constant condition of properties like temperature or pH .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 785.7,
+    "end": 787.44,
+    "text": "Worst bedtime story ever .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 790.49,
+    "end": 808.66,
+    "text": "My point is I don't like when things change . So , regardless of your feelings , I would like you to continue dating Leonard . And also , while we're on the subject , you recently changed your shampoo . I'm not comfortable with the new scent . Please stop this madness and go back to green apple .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 811.02,
+    "end": 817.77,
+    "text": "Okay , honey , I have a lot to figure out , and until I do , you are not to say a word to Leonard . Do you understand ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 817.89,
+    "end": 820.86,
+    "text": "I do . You clear on the shampoo issue ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 823.58,
+    "end": 824.3,
+    "text": "Get out .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 827.02,
+    "end": 827.38,
+    "text": "Penny ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 827.9,
+    "end": 828.26,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 829.62,
+    "end": 830.8,
+    "text": "Please don't hurt my friend .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 832.99,
+    "end": 834.59,
+    "text": "That is the last thing I want to do .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 834.88,
+    "end": 840.69,
+    "text": "Thank you . Coconut ? What were you thinking ? Are you a hula girl ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 843.88,
+    "end": 844.6,
+    "text": "Get out .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 847.79,
+    "end": 848.15,
+    "text": "Hello ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.34,
+    "end": 863.16,
+    "text": "What the hell is wrong with you ? You told Sheldon ? Do you know what a terrible position this puts me in ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 863.55,
+    "end": 869.31,
+    "text": "Hang on , please . Hello ? I know . She's yelling at me right now .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 870.77,
+    "end": 875.15,
+    "text": "All right then , so we're all on the same page . Yes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 878.15,
+    "end": 879.3,
+    "text": "Hey , Bernie .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 879.47,
+    "end": 882.04,
+    "text": "There's my hubby . How's everything going up there ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 882.12,
+    "end": 887.74,
+    "text": "Oh , it's okay . Space is beautiful . Earth is beautiful . Same old , same old .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 890.98,
+    "end": 891.45,
+    "text": "What's wrong ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 891.55,
+    "end": 893.04,
+    "text": "Nothing . Everything's fine .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 894.92,
+    "end": 895.87,
+    "text": "Howard .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 897.75,
+    "end": 899.57,
+    "text": "The other astronauts are being mean to me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 904.35,
+    "end": 904.92,
+    "text": "No , what are they doing ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 904.93,
+    "end": 918.87,
+    "text": "Well , like for instance , the other day when I was asleep , one of the guys went on a space walk and glued a big-eyed rubber alien mask to the outside of my window . When I woke up , I screamed for like nine minutes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 919.94,
+    "end": 921.01,
+    "text": "Oh , Howie .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 922.08,
+    "end": 925.63,
+    "text": "You can see it if you want . It's on YouTube . Google astronaut screams for nine",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 931.16,
+    "end": 932.42,
+    "text": "minutes . What am I supposed to say ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 931.23,
+    "end": 931.27,
+    "text": "Why don't you stand up to them ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 933.21,
+    "end": 938.08,
+    "text": "don't know . Say , being mean is lame , what's cool is being nice .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 945.74,
+    "end": 949.77,
+    "text": "Great , I'll do that when I want to be the first guy in space to get a wedgie .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 952.22,
+    "end": 953.94,
+    "text": "Do you want me to call somebody at NASA ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 954.4,
+    "end": 957.94,
+    "text": "No . My mom already tried that . It only made things worse .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 961.14,
+    "end": 962.55,
+    "text": "Gelatinous Sphere .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 964.06,
+    "end": 965.2,
+    "text": "Focused Locust .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 966.66,
+    "end": 967.46,
+    "text": "Temple of Yip .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 969.07,
+    "end": 970.83,
+    "text": "I'm sorry . Wolowitz would never play that card .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 973.5,
+    "end": 976.26,
+    "text": "All right , Lesser Demon Turtle .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 976.45,
+    "end": 981.58,
+    "text": "Fairy God Monster , I win . Your desperate need for friendship makes you weak .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 984.56,
+    "end": 988.08,
+    "text": "So , what are you guys doing later ? Stuart and I were thinking of going out for a drink .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 988.41,
+    "end": 989.56,
+    "text": "We're gonna try to meet some girls .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 989.7,
+    "end": 991.02,
+    "text": "'Cause that's what we do .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 992.97,
+    "end": 996.26,
+    "text": "Watch out , ladies , a little coffee and cream coming your way .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 999.89,
+    "end": 1001.6,
+    "text": "In case you didn't follow that , I'm the coffee .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1004.04,
+    "end": 1007.5,
+    "text": "Leonard ? Maybe you'd like to go with them to meet girls .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1007.72,
+    "end": 1009.55,
+    "text": "Why would I be interested ? I have Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1010.04,
+    "end": 1026.45,
+    "text": "Yeah , for now . But that woman has a death wish , Leonard . She talks to strangers , she pets unfamiliar dogs , and it is ridiculously easy to break into her apartment . If I were you , I'd get a back-up .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1026.54,
+    "end": 1030.47,
+    "text": "You can't just replace someone you care about with some other random person .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1030.87,
+    "end": 1032.81,
+    "text": "No , please don't ruin this for me .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1035.67,
+    "end": 1040.7,
+    "text": "Do you remember how upset I was when they replaced Edward Norton as the Hulk ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1041.03,
+    "end": 1045.43,
+    "text": "Yes , you walked around for a week saying , Sheldon unhappy with casting choice .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1047.88,
+    "end": 1059.68,
+    "text": "But , then Mark Ruffalo was the Hulk in The Avengers , and he was even better . Call me a romantic . I like to think that your Mark Ruffalo is still out there somewhere .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1052.96,
+    "end": 1053.64,
+    "text": "What's your point ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1062.07,
+    "end": 1064.02,
+    "text": "This is ridiculous . Are we gonna play cards or not ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1064.77,
+    "end": 1066.15,
+    "text": "I like Mark Ruffalo , too .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1066.21,
+    "end": 1073.0,
+    "text": "Yeah , settle down there , fake Wolowitz . No one likes a kiss-up .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1074.78,
+    "end": 1082.63,
+    "text": "So , I had to take Sheldon to the dentist this morning . Yup . I told him if he didn't bite the hygienist , I'd take him for ice cream .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.87,
+    "end": 1078.44,
+    "text": "Really ?",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1083.71,
+    "end": 1084.25,
+    "text": "Mmm .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1085.33,
+    "end": 1091.7,
+    "text": "I didn't have to take him for ice cream . You okay ? You seem a little distracted .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1090.21,
+    "end": 1090.22,
+    "text": "Uh-huh .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1095.79,
+    "end": 1102.06,
+    "text": "Look , there's something I need to tell you . I don't really know how to say this .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1098.45,
+    "end": 1100.35,
+    "text": "Oh . Yeah , okay .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1102.54,
+    "end": 1103.11,
+    "text": "Just say it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1104.7,
+    "end": 1106.62,
+    "text": "Okay . Here goes .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1110.08,
+    "end": 1110.44,
+    "text": "Mm-hmm .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1113.89,
+    "end": 1115.03,
+    "text": "You slept with him ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1115.95,
+    "end": 1122.4,
+    "text": "I didn't know what else to do . He had those big , sad eyes .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1123.33,
+    "end": 1126.09,
+    "text": "Oh , sure , you had no choice .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1127.01,
+    "end": 1129.78,
+    "text": "He looked at me like this .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1130.7,
+    "end": 1133.48,
+    "text": "Well , if that's all it takes , it's a good thing you don't have a dog .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1138.41,
+    "end": 1143.87,
+    "text": "Don't worry . You'll have plenty of chances to break up with him . Your wedding day , your honeymoon , your 50th anniversary .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1144.52,
+    "end": 1150.56,
+    "text": "Look , it's fine . We're not getting married , okay ? We're keeping things , you know , homeostasis .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1152.41,
+    "end": 1154.64,
+    "text": "It's so cute when she tries .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1160.57,
+    "end": 1170.31,
+    "text": "It's from Leonard . Last night was amazing . You're amazing . I'm so lucky to have you in my life . Okay , stop it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1176.55,
+    "end": 1184.68,
+    "text": "Hey , Bernie , guess what ? I stood up to the other astronauts like you said and I got to tell you , last night was the first time in a week I got a good night's sleep . What's wrong ? You look upset .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  }
+]

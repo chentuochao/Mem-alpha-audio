@@ -1,0 +1,1346 @@
+[
+  {
+    "start": 3.94,
+    "end": 12.38,
+    "text": "Here's what I wonder about zombies . What happens if they can't get any human flesh to eat ? They can't starve to death , they're already dead .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 13.91,
+    "end": 18.91,
+    "text": "You take this one . I spent an hour last night on how do vampires shave when they can't see themselves in the mirror ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 21.01,
+    "end": 24.22,
+    "text": "Well-groomed vampires meet in pairs and shave each other . Case closed .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 25.73,
+    "end": 27.59,
+    "text": "Yeah , okay , so , zombies .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 28.02,
+    "end": 34.44,
+    "text": "I guess it depends on the zombies , Raj . Are we talking slow zombies , fast zombies ? Like , in 28 Days , if those zombies didn't eat , they starved .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 34.76,
+    "end": 40.08,
+    "text": "You're thinking of 28 Days Later . 28 Days is where Sandra Bullock goes to rehab and puts the audience into an undead state",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 41.04,
+    "end": 45.85,
+    "text": "Hey , don't bag on Sandra Bullock ! You think it makes you look cultured , but you just come off as bitter .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 47.45,
+    "end": 49.52,
+    "text": "Oh , Dr . Siebert , twelve o'clock .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 50.64,
+    "end": 53.77,
+    "text": "Why's the president of the university slumming in the cafeteria ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 54.27,
+    "end": 67.02,
+    "text": "Perhaps he's emulating Shakespeare's Henry V , who dressed as a commoner and mingled among them , to find out how he was being perceived by his subjects . Course , if he'd have read any of the thirteen hundred e-mails I've sent him on the subject of his administration , he could have saved himself the trouble .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 67.9,
+    "end": 71.97,
+    "text": "Or maybe he heard it's Tator Tot Tuesday . That's why I'm here .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 73.25,
+    "end": 76.98,
+    "text": "Hey , there's my favorite geniuses ! How are we doing today ?",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 77.57,
+    "end": 80.65,
+    "text": "That depends , how much longer do you plan on fondling my shoulder ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 81.68,
+    "end": 84.29,
+    "text": "Sorry , Dr . Cooper , I forgot you have a touch phobia .",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 84.5,
+    "end": 89.27,
+    "text": "It's not a touch phobia , it's a germ phobia . If you'd like to go put on a pair of latex gloves ,",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 89.48,
+    "end": 89.54,
+    "text": "Yeah .",
+    "speaker": "president_siebert",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 93.17,
+    "end": 98.41,
+    "text": "So , listen , fellas , who's up for a little party this Saturday night ? Open bar , good eats , might even be a few pretty girls .",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 98.62,
+    "end": 98.82,
+    "text": "Sounds great !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 99.04,
+    "end": 99.38,
+    "text": "I'm in !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 100.18,
+    "end": 109.04,
+    "text": "Hold on . Just because the nice man is offering you candy , doesn't mean you should jump into his windowless van . What's the occasion ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 109.19,
+    "end": 111.18,
+    "text": "Just a little fund-raiser for the university .",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 111.63,
+    "end": 114.41,
+    "text": "Aha ! The tear-stained air mattress in the back of the van .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 115.31,
+    "end": 123.17,
+    "text": "I understand your reticence , Dr . Cooper , and I sympathize , but the hard facts are , occasionally , we have to shake a few hands and kiss a few butts to raise money for our research .",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 123.57,
+    "end": 133.67,
+    "text": "I don't care , it's demeaning . And I refuse to be trotted out and shown off like a prize hog at the Texas State Fair . Which , by the way , is something you don't want to attend wearing a Star Trek ensign's uniform .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 135.11,
+    "end": 147.38,
+    "text": "All right , let me put it this way . You're gonna put on a suit , you're gonna come to this party , and you're gonna explain your research to a bunch of old people , or I swear to God , I'll blind you with a hot spoon , like they did to that little boy in Slumdog Millionaire .",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 148.82,
+    "end": 150.35,
+    "text": "Oh , you don't want that .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 152.3,
+    "end": 155.56,
+    "text": "So , Saturday night ! It's gonna be off the hook . Get over it .",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 154.5,
+    "end": 154.67,
+    "text": "Ugh !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 158.32,
+    "end": 162.46,
+    "text": "Oh , boy ! Tator tots and a party invitation ? What a great day !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 179.88,
+    "end": 180.99,
+    "text": "There you go .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 181.64,
+    "end": 181.71,
+    "text": "Are",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 195.33,
+    "end": 196.34,
+    "text": "you sure this is right ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 197.03,
+    "end": 198.83,
+    "text": "Yeah , just tuck that part in your pants ; you'll be fine .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 200.82,
+    "end": 204.02,
+    "text": "Okay , let's go smooch some rich , wrinkled tuckus .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 205.59,
+    "end": 209.06,
+    "text": "Oh , Howard , I can't believe Bernadette let you go to a fancy party wearing a dickey .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.68,
+    "end": 213.15,
+    "text": "Excuse me , my girlfriend doesn't pick out my clothes . My mother does .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 214.59,
+    "end": 216.53,
+    "text": "Oh . We should get going .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 216.91,
+    "end": 217.5,
+    "text": "What about Sheldon ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 217.72,
+    "end": 219.61,
+    "text": "Sheldon is not going .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 219.91,
+    "end": 221.62,
+    "text": "Really ? What do we tell Siebert ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 222.16,
+    "end": 231.31,
+    "text": "Tell him Dr . Cooper feels that the best use of his time is to employ his rare and precious mental faculties to tear the mask off nature and stare at the face of God .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.85,
+    "end": 235.11,
+    "text": "Sheldon , it's Saturday night , you'll be doing laundry .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 236.66,
+    "end": 238.24,
+    "text": "Don't tell him that , tell him the mask thing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 245.19,
+    "end": 246.34,
+    "text": "Hey , put your tie back in your pants .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 247.22,
+    "end": 247.67,
+    "text": "Thanks .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 248.55,
+    "end": 256.23,
+    "text": "Nice place . Reminds me of my parents' house back in New Delhi . No . We are very wealthy . But the only difference is , we have more servants .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.16,
+    "end": 252.7,
+    "text": "You're kidding .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 257.65,
+    "end": 258.23,
+    "text": "More than this ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 258.29,
+    "end": 262.43,
+    "text": "More than we can use . You see , in India , we don't make the mistake of letting our poor people have dreams .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 263.61,
+    "end": 268.0,
+    "text": "Ah . There's my band of brainiacs . Where's Dr . Cooper ?",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 269.17,
+    "end": 272.28,
+    "text": "He's tearing the mask off nature to look at the face of God .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 274.17,
+    "end": 281.41,
+    "text": "The board of directors insists he has a beautiful mind . I think he's just bananas . Come on , let me introduce you to one of the university's leading donors .",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 284.33,
+    "end": 285.98,
+    "text": "I think we were misled about the cute girls .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 287.85,
+    "end": 295.35,
+    "text": "Mrs . Latham , I'd like you to meet three of our outstanding young researchers . This is Dr . Leonard Hofstadter , Dr . Rajesh Koothrappali and Howard Wolowitz .",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 295.69,
+    "end": 299.18,
+    "text": "Well , what happened to you , Wolowitz , couldn't stick with it long enough to get your PhD ?",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 301.08,
+    "end": 308.08,
+    "text": "I'm an engineer . Most engineers don't bother with a PhD . But you may be interested to know I designed the zero-gravity waste-disposal system for NASA .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 308.45,
+    "end": 310.08,
+    "text": "Got it , you're a space plumber .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 313.33,
+    "end": 314.26,
+    "text": "I'm gonna go hit the bar .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 317.24,
+    "end": 318.12,
+    "text": "Tell me about these two .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 318.48,
+    "end": 319.36,
+    "text": "Do him first .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 320.42,
+    "end": 326.11,
+    "text": "Dr . Hofstadter is representing our experimental physics program tonight . I think you'll really enjoy hearing about his fascinating work .",
+    "speaker": "president_siebert",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 326.17,
+    "end": 328.26,
+    "text": "Right . Fascinate me .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 328.78,
+    "end": 331.12,
+    "text": "Uh. . b. . d. . uh. . uh. .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 331.64,
+    "end": 339.17,
+    "text": "They're cute when they're about to wet themselves , aren't they ? I'll make it easy for you . When you arrive at the lab in the morning , what sort of machine do you turn on ?",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 340.81,
+    "end": 341.57,
+    "text": "Coffee maker ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 343.28,
+    "end": 346.24,
+    "text": "All right , Dr . Kooth ... uh , whatever it is , you're up .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.83,
+    "end": 348.74,
+    "text": "It's Koothrappali . I have to tinkle .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 353.63,
+    "end": 359.98,
+    "text": "And so , instead of bowing to pressure , and going to that pointless soiree , I stayed right here and did a load of whites .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 361.96,
+    "end": 369.74,
+    "text": "Well , normally I respect your macho rebellious attitude toward The Man , but , in this case , I think you've made a foolish mistake .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 370.27,
+    "end": 380.04,
+    "text": "Unlikely . But make your case . Keeping in mind that your critical attitude is ruining our Saturday night together , and I'm not above minimizing your window .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 381.81,
+    "end": 392.88,
+    "text": "Sheldon , like it or not , until you manage to upload your intelligence into a self-sustaining orbiting satellite , equipped with high-speed Internet and a cloaking device , you will be dependent on other members of the human race .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.99,
+    "end": 395.4,
+    "text": "That's it . Prepare to be minimized .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 396.03,
+    "end": 401.07,
+    "text": "I'm not finished . All scientists have to fund-raise , Sheldon . How do you think I paid for my lab ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 405.51,
+    "end": 407.73,
+    "text": "Your lab is funded by some Middle-Eastern dilettante ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 408.99,
+    "end": 418.0,
+    "text": "Technically , Faisal is my fiance . But I do have a state-of-the-art two-photon microscope and a place to stay in Riyadh for the winter .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 419.74,
+    "end": 422.86,
+    "text": "Well , that explains those puzzling camel race photos on your Facebook page .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 424.63,
+    "end": 430.54,
+    "text": "And consider this , without you to make the case for the physics department , the task will fall to people like Leonard and Rajesh .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.92,
+    "end": 433.77,
+    "text": "Are you trying to scare me ? 'Cause you're succeeding .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 435.1,
+    "end": 441.45,
+    "text": "Well , then prepare to be terrified . If your friends are unconvincing , this year's donations might go to , say , the geology department .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 441.65,
+    "end": 443.63,
+    "text": "Oh , dear,not , not the dirt people !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 446.5,
+    "end": 449.92,
+    "text": "Or worse , it could go to the liberal arts .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 452.59,
+    "end": 452.96,
+    "text": "No !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 454.89,
+    "end": 459.74,
+    "text": "Millions of dollars being showered on poets , literary theorists and students of gender studies .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 461.7,
+    "end": 462.96,
+    "text": "Oh , the humanities !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 466.25,
+    "end": 470.03,
+    "text": "the bright side , I don't think President Siebert will be making us go to any more fund-raisers .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 470.56,
+    "end": 476.28,
+    "text": "It was so much easier at my bar mitzvah . The old people just came up to you , pinched your cheek and handed you a savings bond .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 478.13,
+    "end": 484.85,
+    "text": "Oh , don't be such gloomy Gusses . Look at the size of these shrimp ! At what point do we start calling them lobsters ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 486.56,
+    "end": 489.01,
+    "text": "Face it , Raj , we crashed and burned tonight .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 489.07,
+    "end": 491.02,
+    "text": "Oh , you didn't do that badly .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 492.77,
+    "end": 496.69,
+    "text": "Mrs . Latham , the first machine I turn on in the morning is the helium-neon laser , 'cause it needs to warm up .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 497.09,
+    "end": 502.6,
+    "text": "I no longer care , dear . But don't worry , I really enjoyed meeting you this evening .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.97,
+    "end": 506.33,
+    "text": "You're kidding . That was good for you ? 'Cause I was sweating through my T-shirt .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 507.92,
+    "end": 511.37,
+    "text": "Excellent ! There's nothing I like better than making smart people feel ill at ease .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 512.91,
+    "end": 513.32,
+    "text": "Why ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 513.69,
+    "end": 526.05,
+    "text": "Oh , I don't know , it's one of the fun things you get to do when you have lots of money . Watch . Hey ! Who said you could eat that shrimp ? See ? Fun .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 528.07,
+    "end": 535.92,
+    "text": "No , no , no , I'm just here for your money . I don't want to shake anyone's germy hands . Explain it to them , Siebert .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 541.17,
+    "end": 568.79,
+    "text": "I must confess I don't understand you , President Siebert . First you say you want me to appear at your fund-raisers , but now you say you never want me to go anywhere near your fund-raisers . Forgive me , but that sounds like a mixed message . Here we go again . If there's simply no talking to me , why did you call ? I'm sorry , someone's on the other line . Why don't you see if you can organize your thoughts , and we'll try again later . Cooper-Hofstadter residence . Go for Cooper .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 574.28,
+    "end": 574.79,
+    "text": "Hello , Mrs .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 598.51,
+    "end": 604.62,
+    "text": "Latham . Yes , I live with him . I don't , I , I really don't know why .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 610.76,
+    "end": 620.43,
+    "text": "Tonight ? Sure , that'd be great . Okay , I'll , I'll see you then . Bye . She wants to have dinner and talk about my research .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 620.89,
+    "end": 626.81,
+    "text": "An entire dinner to talk about your research ? Where you going , the drive-thru at Jack in the Box ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 631.2,
+    "end": 633.94,
+    "text": "Well , wherever we're going , she's sending a car to pick me up .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.61,
+    "end": 646.67,
+    "text": "Okay , I see what's happening . My stature intimidates her , so she's using you to get to me . Crafty old gal .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 637.7,
+    "end": 638.06,
+    "text": "What ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 647.85,
+    "end": 657.24,
+    "text": "Excuse me , but you are not the only distinguished scientist in this apartment . I've been published in peer-reviewed journals , I received a Dissertation of the Year award for experimental particle physics .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 657.97,
+    "end": 666.05,
+    "text": "No , that can't be it . And since you seem to have forgotten , the reason we live together is we're best friends . And I got your back , Jack .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 670.27,
+    "end": 671.44,
+    "text": "That was a great meal .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 671.69,
+    "end": 672.89,
+    "text": "I'm glad you enjoyed it .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 673.19,
+    "end": 676.28,
+    "text": "The only time I eat this well is when my mom's in town and she takes me out to dinner .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 676.58,
+    "end": 677.48,
+    "text": "Is that so ?",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 678.08,
+    "end": 681.84,
+    "text": "You kind of remind me of her . She enjoys making people uncomfortable , too .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 683.25,
+    "end": 690.52,
+    "text": "Well , you remind me of a boy I dated in college . Sweet boy . Very smart . If only he'd had money .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 686.06,
+    "end": 686.7,
+    "text": "No kidding .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 692.51,
+    "end": 702.94,
+    "text": "Yeah , um , so , hey , speaking of money , how are you feeling about helping the physics department get a cryogenic centrifugal pump and molecular sieve ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 703.49,
+    "end": 710.95,
+    "text": "Well , I must say , you make a very persuasive case for it . And I'm seriously considering taking it to the next level .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 706.82,
+    "end": 707.96,
+    "text": "Oh , good , good .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 711.23,
+    "end": 714.51,
+    "text": "Terrific . Great . What level is that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 721.73,
+    "end": 723.37,
+    "text": "Okay , now you don't remind me of my mom .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 729.99,
+    "end": 735.94,
+    "text": "I'm sorry , so , eventually , zombies are going to attack the rehab facility where Sandra Bullock is ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 739.59,
+    "end": 741.16,
+    "text": "Yes , Sheldon . Keep watching .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 742.26,
+    "end": 747.19,
+    "text": "You know , it's a shame , all that work she's doing to get sober , only to be torn apart and eaten alive .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 750.56,
+    "end": 750.95,
+    "text": "Hey . How was dinner ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 751.94,
+    "end": 755.14,
+    "text": "Swell . I need a drink . Do we have any alcohol ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 755.96,
+    "end": 760.8,
+    "text": "No . But we have potatoes , I could make you vodka . It'll take two weeks .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 761.67,
+    "end": 763.4,
+    "text": "Leonard , are you okay ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 764.35,
+    "end": 765.35,
+    "text": "Um , I'm not sure .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 766.0,
+    "end": 766.7,
+    "text": "What's going on ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 766.98,
+    "end": 776.07,
+    "text": "Well , Mrs . Latham said she was seriously considering donating money so we could get a cryogenic centrifugal pump . Then she stuck her tongue down my throat .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 773.34,
+    "end": 773.67,
+    "text": "Oh , wow !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 774.03,
+    "end": 774.21,
+    "text": "Yes !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 777.84,
+    "end": 778.42,
+    "text": "Why ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 780.45,
+    "end": 783.17,
+    "text": "Okay , we can't keep explaining everything . Read that book we got you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 785.51,
+    "end": 786.37,
+    "text": "She hit on me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 786.84,
+    "end": 795.73,
+    "text": "Wait-wait-wait . Are you telling us that old lady wanted to have sex with you in exchange for giving your department millions of dollars ? You lucky duck .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 793.86,
+    "end": 794.7,
+    "text": "I think so .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 798.0,
+    "end": 800.35,
+    "text": "You're really a broken toy , aren't you ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 801.6,
+    "end": 805.52,
+    "text": "I was able to get out of there before anything else happened , but she wants to see me again tomorrow night .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 805.74,
+    "end": 807.46,
+    "text": "Excellent ! What are you planning to wear ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 809.04,
+    "end": 809.25,
+    "text": "What ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 810.03,
+    "end": 814.04,
+    "text": "Penny , you're an expert on trading sexual favours for material gain , walk him through this .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 815.74,
+    "end": 819.14,
+    "text": "Well , n-no , hold on a second , I'm not going to sleep with her .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 819.71,
+    "end": 821.98,
+    "text": "But we need a cryogenic centrifugal pump .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 823.23,
+    "end": 825.18,
+    "text": "Well , forget it ! It's not gonna happen .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 825.42,
+    "end": 829.93,
+    "text": "Well , come now , Leonard , this may be your only chance to make a real contribution to science !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 831.45,
+    "end": 833.36,
+    "text": "I repeat , not gonna happen .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 837.09,
+    "end": 840.64,
+    "text": "What was all that about me trading sexual favours for material gain ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 841.02,
+    "end": 853.56,
+    "text": "It was a compliment . I believe in giving credit where credit is due . Okay , fine . I'll tell him . Leonard , Mrs . Latham's car is here for you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 853.91,
+    "end": 857.12,
+    "text": "I won't be too late . I'm just gonna make a final pitch for the funding and then say good night .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 857.25,
+    "end": 858.56,
+    "text": "Hold on , I have something for you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 861.06,
+    "end": 861.65,
+    "text": "What's this ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 861.96,
+    "end": 873.0,
+    "text": "Just a few things you may need tonight . There's , uh , baby oil , condoms and , uh , a little something I procured from the school of pharmacology . They say it is to Viagra as Viagra is to a green M&M .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 877.12,
+    "end": 879.11,
+    "text": "I am not going to have sex with her .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 879.55,
+    "end": 891.07,
+    "text": "Maybe this will overcome your reluctance . I went on the Internet and found a photograph of a 25-year-old Mrs . Latham to get your libido humming . Check out those saddle shoes . Rar !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 898.15,
+    "end": 902.84,
+    "text": "Are you insane ? I'm not going to prostitute myself just so we can get some new equipment .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 902.97,
+    "end": 904.37,
+    "text": "Oh , come on ! Why not ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 905.94,
+    "end": 906.98,
+    "text": "Good night , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 907.5,
+    "end": 914.88,
+    "text": "Given how much time you spend engaging in pointless self-abuse , you might consider , just this once , using your genitalia to actually accomplish something !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 918.29,
+    "end": 919.8,
+    "text": "He still won't shag the old lady , huh ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 920.22,
+    "end": 922.03,
+    "text": "No . But thank you for asking .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 926.42,
+    "end": 927.06,
+    "text": "Hey . Hi .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 927.52,
+    "end": 929.76,
+    "text": "Hello , Leonard . I hope you're hungry .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 930.55,
+    "end": 932.95,
+    "text": "I'm very hungry . For food , right ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 935.11,
+    "end": 953.18,
+    "text": "Oh , I made you uncomfortable last night . I'm so sorry . No , it most certainly is not . Leonard , I'm making the donation to your department regardless of what happens between us . Well , of course . There's no quid pro quo here . You and your colleagues are doing remarkable research , and you deserve the money .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 938.45,
+    "end": 939.39,
+    "text": "No , that's okay .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 946.43,
+    "end": 946.85,
+    "text": "Really ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 954.47,
+    "end": 957.22,
+    "text": "Oh . Then what was last night about ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 957.88,
+    "end": 964.39,
+    "text": "I took a shot , sue me . You're a very handsome man , Leonard .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 960.78,
+    "end": 961.51,
+    "text": "Oh .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 966.39,
+    "end": 966.96,
+    "text": "Thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 969.67,
+    "end": 973.5,
+    "text": "It was foolish of me to think someone your age might ever be interested in someone like me .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 973.6,
+    "end": 977.89,
+    "text": "Oh , don't say that . You're a very attractive woman . No , it's true .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 976.4,
+    "end": 985.09,
+    "text": "Oh , please . Well , aren't you sweet . Just for the record , you'd remember a night with me for the rest of your life .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 988.03,
+    "end": 991.25,
+    "text": "I'm sure I would . But why , why , exactly ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 993.63,
+    "end": 997.27,
+    "text": "You're a very smart man . How do you think I landed such a rich husband ?",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 998.17,
+    "end": 999.58,
+    "text": "I hadn't really given it much thought .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.39,
+    "end": 1008.01,
+    "text": "Well , think about it . Yep . I'm that good .",
+    "speaker": "mrs_latham",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1005.33,
+    "end": 1006.12,
+    "text": "Do you mean ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1008.01,
+    "end": 1008.25,
+    "text": "Good",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1020.95,
+    "end": 1021.31,
+    "text": "morning ,",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1034.01,
+    "end": 1043.08,
+    "text": "slut . Oh , please , I recognize the walk of shame when I see it . All you're missing is a little smeared mascara and a purse with panties wadded up in it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1034.82,
+    "end": 1035.08,
+    "text": "What ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1044.72,
+    "end": 1045.18,
+    "text": "What's going on ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1045.18,
+    "end": 1048.98,
+    "text": "Oh , nothing's going on . Excuse me . Yeah .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1047.43,
+    "end": 1058.81,
+    "text": "Are you just getting home ? That's a good sign , right ? I'm so proud of you ! You sold yourself out like a common streetwalker !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1052.48,
+    "end": 1052.89,
+    "text": "Oh , yeah .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1060.7,
+    "end": 1062.39,
+    "text": "No , I didn't do it for the money .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1062.74,
+    "end": 1063.91,
+    "text": "She stiffed you ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1065.06,
+    "end": 1066.72,
+    "text": "I believe that's what your roommate did to her .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1068.71,
+    "end": 1068.92,
+    "text": "What ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1069.55,
+    "end": 1071.14,
+    "text": "Again , read the book we gave you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1073.07,
+    "end": 1075.12,
+    "text": "No , I mean , I , I , I got the money first .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1075.15,
+    "end": 1077.55,
+    "text": "Smart . Get paid up front . Yeah .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  }
+]

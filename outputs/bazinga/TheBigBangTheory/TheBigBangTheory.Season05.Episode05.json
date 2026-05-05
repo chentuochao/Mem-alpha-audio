@@ -1,0 +1,1521 @@
+[
+  {
+    "start": 8.51,
+    "end": 10.88,
+    "text": "It's from Game of Thrones . What do you think ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 11.28,
+    "end": 20.41,
+    "text": "I don't know . If we're going to start a fantasy sword collection , and I've long thought we should , is this really the sword to start with ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 20.98,
+    "end": 21.91,
+    "text": "What did you have in mind ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 22.42,
+    "end": 28.21,
+    "text": "Well , off the top of my head , I'd have to go with Excalibur . It gives you the right to rule England .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 29.79,
+    "end": 31.6,
+    "text": "It would be a replica of a movie prop .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 32.78,
+    "end": 36.29,
+    "text": "Fair enough . It'd give you the right to rule a replica of England .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 37.77,
+    "end": 41.12,
+    "text": "Well , they don't have an Excalibur here , so what do you want to do ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 41.79,
+    "end": 47.39,
+    "text": "Mm . Tough decision . There's no weaponry from Lord of the Rings , forged in a Chinese sweatshop ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 50.99,
+    "end": 52.18,
+    "text": "Just Bilbo Baggins' sword over there .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 52.76,
+    "end": 59.8,
+    "text": "Two grown men with a hobbit's dagger ; wouldn't we look silly ? Okay , let's go for it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.55,
+    "end": 62.8,
+    "text": "Oh , I see you guys have found my little treasure .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 63.06,
+    "end": 65.55,
+    "text": "Yeah . It's okay , I guess .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 65.82,
+    "end": 66.91,
+    "text": "Okay ? It's magnificent .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 67.17,
+    "end": 71.94,
+    "text": "Buh-buh-buh-buh ! What do you want for it ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 72.38,
+    "end": 79.98,
+    "text": "Oh , it's hard to put a price on something that's a copy of something that was on pay cable . But for my friends , let's say 250 ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 80.32,
+    "end": 82.07,
+    "text": "Oh , that's pretty steep .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.25,
+    "end": 86.77,
+    "text": "Well , it's a limited edition . They only made 8,000 of these bad boys .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 86.9,
+    "end": 89.16,
+    "text": "Only 8,000 ? We're wasting precious time . Buy it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 90.81,
+    "end": 93.6,
+    "text": "Hang on . Can you do any better ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 93.79,
+    "end": 96.57,
+    "text": "Are you kidding ? I'm already giving you the friends and family discount .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 96.66,
+    "end": 101.19,
+    "text": "Oh , did you hear that ? We're getting the friends and family discount . We are honoured and we will take it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 101.71,
+    "end": 103.79,
+    "text": "Slow down . Two hundred .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 103.98,
+    "end": 106.35,
+    "text": "What are you doing ? Two fifty is already the discounted price .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 106.77,
+    "end": 107.6,
+    "text": "Will you shut up ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 108.01,
+    "end": 109.37,
+    "text": "Tell you what , I'll go two thirty-five .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 109.61,
+    "end": 110.75,
+    "text": "Nope . Maybe another time .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 110.9,
+    "end": 112.68,
+    "text": "Okay , two twenty five , my final offer .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 112.92,
+    "end": 113.55,
+    "text": "Take it , take it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 116.35,
+    "end": 116.86,
+    "text": "Two hundred .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 117.55,
+    "end": 118.54,
+    "text": "Man , you're killing me !",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 118.68,
+    "end": 119.92,
+    "text": "Killing you ? I can't breathe .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 121.29,
+    "end": 123.99,
+    "text": "Two ten , and I'm losing money .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 124.05,
+    "end": 126.25,
+    "text": "Oh , now , we can't let him lose money , Leonard . I'm so sorry .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 127.04,
+    "end": 129.52,
+    "text": "Two ten and you throw in the Iron Man helmet .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 129.79,
+    "end": 141.85,
+    "text": "Are you crazy ? That helmet's signed by Robert Downey Jr . Okay , if you're going to question the importance of an actor's signature on a plastic helmet from a movie based on a comic book , then all of our lives have no meaning !",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 133.2,
+    "end": 133.52,
+    "text": "So ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 146.98,
+    "end": 148.33,
+    "text": "Okay , fine . Just the sword , two ten .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 149.37,
+    "end": 151.38,
+    "text": "Thank you . I can eat meat this week .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 153.75,
+    "end": 155.72,
+    "text": "See that ? I just saved us forty bucks .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 155.96,
+    "end": 159.17,
+    "text": "I've long said , what you lack in academic knowledge you make up for in street smarts .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 160.83,
+    "end": 161.51,
+    "text": "You want me to wrap it ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 161.83,
+    "end": 164.18,
+    "text": "No , it's okay . I'm gonna stab my friend in the chest .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 166.47,
+    "end": 166.99,
+    "text": "Hey , Stuart .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 167.71,
+    "end": 168.28,
+    "text": "Ah , hey , Wil .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 168.61,
+    "end": 169.68,
+    "text": "Hello , Wil Wheaton .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 172.93,
+    "end": 174.2,
+    "text": "Hi , Sheldon . Nice sword .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 174.77,
+    "end": 179.81,
+    "text": "It's part of my sword collection . Do you have a sword collection ? I'm not surprised .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 178.21,
+    "end": 178.52,
+    "text": "No .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 181.52,
+    "end": 186.06,
+    "text": "Here's the Batman 612 with the Jim Lee alternate cover that you wanted .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 186.24,
+    "end": 189.3,
+    "text": "Awesome . What do I owe you ? Good deal .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 187.78,
+    "end": 188.67,
+    "text": "Forty bucks .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 189.69,
+    "end": 192.4,
+    "text": "Sucker . Didn't even ask for the friends and family discount .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 193.58,
+    "end": 198.45,
+    "text": "Hey , I'm having a party at my house on Friday , and I was hoping you would stop by . Yeah , of course .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.7,
+    "end": 200.75,
+    "text": "Will there be girls there ? 'Cause there wasn't last time .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 203.51,
+    "end": 207.01,
+    "text": "There will be girls . You guys are invited if you want to come by .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 207.45,
+    "end": 207.84,
+    "text": "Thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 208.52,
+    "end": 211.15,
+    "text": "All right , great . Later .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 213.08,
+    "end": 222.75,
+    "text": "I see what you're doing . You accept an invitation to a party at the home of my sworn enemy , he tells everyone we're going to be there , and when we don't show , he looks the fool . Fiendishly clever .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 225.15,
+    "end": 226.13,
+    "text": "I was actually thinking about going .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 227.86,
+    "end": 232.99,
+    "text": "And then declaring the party a fiasco and storming out , leaving him humiliated in front of his guests . Love it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 235.2,
+    "end": 238.14,
+    "text": "No , I was gonna grab Raj and Howard and have a good time .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 238.9,
+    "end": 242.86,
+    "text": "Oh , great , more guys . It's gonna be another Wil Wheaton sausage-fest .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 248.75,
+    "end": 251.93,
+    "text": "Sheldon , can you grab me a water ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 259.25,
+    "end": 259.37,
+    "text": "Possibly .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 261.59,
+    "end": 262.22,
+    "text": "Can you",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 267.33,
+    "end": 269.58,
+    "text": "or can't you ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 271.5,
+    "end": 275.6,
+    "text": "It's not that simple , Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 276.0,
+    "end": 277.34,
+    "text": "It never is , is it ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 279.13,
+    "end": 295.51,
+    "text": "At this moment , our relationship exists in two mutually contradictory states . Until you either do not go or go to Wil Wheaton's party , you are simultaneously my friend and not my friend . I'm characterizing this phenomenon as Schrodinger's Friendship .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 299.0,
+    "end": 299.88,
+    "text": "Got it . Can I have my water ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 300.14,
+    "end": 302.6,
+    "text": "Of course . Now get it yourself , you traitor .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 306.5,
+    "end": 307.83,
+    "text": "Wait , what is going on ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 308.05,
+    "end": 311.21,
+    "text": "In case you have forgotten , Schrodinger's cat is a thought experiment ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 311.24,
+    "end": 323.32,
+    "text": "No , no , no , no , I didn't forget . Um , there's this cat in a box and until you open it , it's either dead or alive or both . Although , back in Nebraska , our cat got stuck in my brother's camp trunk , and we did not need to open it to know there was all kinds of dead cat in there .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 325.96,
+    "end": 329.83,
+    "text": "Homespun stories , knowledge of physics and a bosom that defies it . You're the whole package , aren't you ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 332.82,
+    "end": 342.21,
+    "text": "Sorry I'm late . Uh , I got great news . NASA picked my team's design for the deep field space telescope that's going on the International Space Station this spring .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 344.08,
+    "end": 345.95,
+    "text": "Howie , that's wonderful ! Congratulations !",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.7,
+    "end": 354.16,
+    "text": "It gets better . Someone has to go up with the telescope as a payload specialist , and guess who that someone is .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 354.34,
+    "end": 355.17,
+    "text": "Mohammed Lee .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 358.39,
+    "end": 359.5,
+    "text": "Who's Mohammed Lee ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 359.98,
+    "end": 367.13,
+    "text": "Mohammed is the most common first name in the world , Lee , the most common surname . As I didn't know the answer , I thought that gave me a mathematical edge .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.82,
+    "end": 373.63,
+    "text": "It's me , Sheldon . It's me . I'm going up in space ! Technically , I'm an astronaut .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 374.75,
+    "end": 380.72,
+    "text": "Hang on a second . NASA doesn't have a shuttle any more . How are you going to get up there ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 380.89,
+    "end": 392.08,
+    "text": "Oh , well , it's really cool . You fly to Moscow , they take you out to Kazakhstan , and then you get into a Russian Soyuz rocket which shoots you into a low earth orbit . Or just sits there on the launch pad because the Kazakhi mafia sold the rocket fuel on the black market .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 395.15,
+    "end": 396.56,
+    "text": "Are those Russian rockets safe ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 397.08,
+    "end": 400.14,
+    "text": "Well , I mean , safe as it can be when it was built by the good folks who brought you Chernobyl .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 403.18,
+    "end": 411.43,
+    "text": "I'd like to propose a toast . The dream to go up into space is one we all share , and Howard's making that a reality . We're all very proud of you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 414.16,
+    "end": 419.22,
+    "text": "That was a lovely toast . Kudos . Simultaneously , a festival of cloying clichés . You sicken me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 416.0,
+    "end": 416.42,
+    "text": "Thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 428.47,
+    "end": 430.37,
+    "text": "You're really quiet . Is everything okay ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 433.32,
+    "end": 433.68,
+    "text": "Fine .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 436.27,
+    "end": 437.38,
+    "text": "Just a little tired .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 437.59,
+    "end": 445.02,
+    "text": "I hope not too tired , because I'm feeling particularly masculine right now . All systems go , if you catch my drift .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.12,
+    "end": 448.68,
+    "text": "I always catch your drift .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 450.09,
+    "end": 452.56,
+    "text": "All right , well , something's obviously bugging you . What is it ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 453.51,
+    "end": 456.99,
+    "text": "I just can't believe you signed up for the space program without even talking to me .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 458.09,
+    "end": 476.35,
+    "text": "Oh , I get it . You're worried about me . That is so sweet . You know , there's a saying we have at NASA . What makes the right stuff so right is that it always comes home .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 477.9,
+    "end": 480.99,
+    "text": "Just stop talking , Howard .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 482.54,
+    "end": 486.18,
+    "text": "This isn't the reaction I expected when I told you I was gonna be an astronaut .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 487.08,
+    "end": 488.46,
+    "text": "What did you think was going to happen ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 489.18,
+    "end": 490.35,
+    "text": "Honestly ? Sex .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 492.02,
+    "end": 492.85,
+    "text": "Howard .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 493.83,
+    "end": 499.44,
+    "text": "Do you realize what a big deal this is ? What an honour it is to be chosen to go into space ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 500.05,
+    "end": 506.89,
+    "text": "Yeah , I get it . I just wish you included me in the decision . We're supposed to be partners . We're supposed to be a team .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 508.42,
+    "end": 533.44,
+    "text": "I'm sorry . You're right . Okay , let's try this again . Bernadette , an opportunity has come up that impacts both of us , and I'd like to discuss it . I've been offered a chance to go up to the International Space Station for three weeks . What are your thoughts on that ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 524.29,
+    "end": 524.61,
+    "text": "Okay .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 534.56,
+    "end": 538.28,
+    "text": "Well , first of all , thank you for including me in the decision-making process .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 540.68,
+    "end": 543.6,
+    "text": "Hey , we're a team . So , what do you think ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 544.88,
+    "end": 545.52,
+    "text": "No .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 546.8,
+    "end": 547.45,
+    "text": "No ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 548.73,
+    "end": 549.37,
+    "text": "No .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 550.65,
+    "end": 551.73,
+    "text": "Well why not ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 555.4,
+    "end": 564.25,
+    "text": "Howard , my father was a police officer . We never knew from one night to the next if he was going to come home alive . It was horrible . And I don't want to live that way with you .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 569.06,
+    "end": 575.26,
+    "text": "Hey , my father abandoned me and my mother when I was 11 . We never saw him again .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 576.22,
+    "end": 577.99,
+    "text": "Oh , boo-hoo , you're not going to space !",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 584.52,
+    "end": 585.9,
+    "text": "Pretty cool about Howard , huh ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 586.22,
+    "end": 589.35,
+    "text": "Don't talk to me as if nothing's happened between us . And yes , it sure is , buddy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 592.31,
+    "end": 594.89,
+    "text": "For God's sake , will you stop with the Schrodinger stuff .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 594.95,
+    "end": 602.05,
+    "text": "Would you prefer a simpler application of Heisenberg's uncertainty principle , in which I could either know where you are or whether I like you , but not both ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 604.37,
+    "end": 605.87,
+    "text": "You never stop talking , do you ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 608.52,
+    "end": 611.66,
+    "text": "I don't understand . What differences does it make if Leonard goes to Wil Wheaton's party ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 612.12,
+    "end": 613.84,
+    "text": "Wil Wheaton is Sheldon's mortal enemy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 614.32,
+    "end": 621.93,
+    "text": "Mortal enemy ? Sheldon , I know you're a bit of a left-handed monkey wrench , but , you really have a mortal enemy ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 615.57,
+    "end": 615.78,
+    "text": "Mm-hmm .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 622.29,
+    "end": 626.8,
+    "text": "In fact , I have 61 of them . Would you like to see the list ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 627.23,
+    "end": 629.19,
+    "text": "Oh , say no , say no , say no , say no .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 629.62,
+    "end": 638.19,
+    "text": "You just got off the list . Would you like back on it ? This'll just take a moment . It's on a five and a quarter inch floppy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 644.9,
+    "end": 645.89,
+    "text": "A floppy disk ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 646.09,
+    "end": 647.33,
+    "text": "Well , I started the list when I was nine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 649.46,
+    "end": 651.07,
+    "text": "How did Wil Wheaton get on the list ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 653.25,
+    "end": 684.75,
+    "text": "As a child , I loved Wesley Crusher , Wil Wheaton's character on Star Trek . So , I drove for hours by bus to a Star Trek convention at which Wil Wheaton was scheduled to appear , so that I could get my Wesley Crusher action figure signed . But he never showed , because apparently , it was cooler for him to be the lower-left corner on Hollywood Squares . Oh , damn ! The floppy failed . Well , whoever was in charge of quality control at the Verbatim Corporation in 1989 , congratulations , you just made the list .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 690.9,
+    "end": 691.02,
+    "text": "Howard ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 691.59,
+    "end": 694.98,
+    "text": "Change your mind about sex ? I'm still mad , but I'll do it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 697.51,
+    "end": 713.25,
+    "text": "No , I've just been thinking . It doesn't matter if I'm afraid for your safety . I don't want to be the person who stands between you and your dreams . Really . If going into space means that much to you , I will never say another word about it .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 707.58,
+    "end": 707.81,
+    "text": "Really ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 713.94,
+    "end": 714.45,
+    "text": "Thank you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 715.43,
+    "end": 716.24,
+    "text": "I love you .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 716.78,
+    "end": 722.36,
+    "text": "I love you , too . So , sex now ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 724.13,
+    "end": 727.06,
+    "text": "Okay . I just forgot to brush my teeth . I'll be right back .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 727.07,
+    "end": 727.57,
+    "text": "Over my dead body my son goes into outer space !",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 744.48,
+    "end": 745.2,
+    "text": "I'm ready .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 762.11,
+    "end": 766.19,
+    "text": "Wait , let me see if I got this right . You actually asked Bernadette to leave your house in the middle of the night ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 766.62,
+    "end": 770.38,
+    "text": "What choice did I have ? She went behind my back and turned my own mother against me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 770.58,
+    "end": 779.96,
+    "text": "Wow . You're not only our first astronaut . You're also the first one of us to kick a girl out of bed . You're like a rock star .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 782.04,
+    "end": 782.4,
+    "text": "Little bit .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 783.7,
+    "end": 785.89,
+    "text": "I hate to say it , but she did kind of betray you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 786.26,
+    "end": 790.71,
+    "text": "Interesting . You see betrayal in others , but not yourself .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.92,
+    "end": 795.54,
+    "text": "Going to Wheaton's party is not betraying you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 796.02,
+    "end": 803.61,
+    "text": "Oh , of course you would have to believe that . Evil always thinks it's doing right . Excuse me , Stormtrooper . These are the droids you're looking for .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 806.14,
+    "end": 810.9,
+    "text": "I'm going to a party . I'm not turning R2-D2 and C-3PO over to the empire !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 814.42,
+    "end": 815.02,
+    "text": "Not yet .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 817.31,
+    "end": 819.79,
+    "text": "So , what's gonna happen next ? Are you and Bernadette going to break up ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 819.95,
+    "end": 827.66,
+    "text": "I don't know . If we're going to get back together , she's going to have to apologize and accept that I'm a grown man who can make his own decisions .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 828.08,
+    "end": 830.46,
+    "text": "Then she's going to have to convince your mother to let you go into space .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 830.57,
+    "end": 830.96,
+    "text": "Obviously .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 832.89,
+    "end": 841.7,
+    "text": "I had no choice . I had to tell his mother . He can't go to space . He's like a baby bird . Do you know he once got an asthma attack from reading an old library book ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.95,
+    "end": 851.61,
+    "text": "You're kidding .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.85,
+    "end": 856.17,
+    "text": "No , I was there that day . Sheldon threw his back out handing him that book .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 859.15,
+    "end": 862.06,
+    "text": "I don't know what I'm going to do . I don't want to break up over this .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 862.19,
+    "end": 863.88,
+    "text": "Okay , why don't you just tell him you made a mistake ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.55,
+    "end": 868.81,
+    "text": "Do you guys think it was a mistake ? Am I the bad guy in this ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 869.49,
+    "end": 875.11,
+    "text": "It's not for us to judge . We're just here to provide comfort and support while you come to grips with what a despicable thing you've done .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 876.24,
+    "end": 888.38,
+    "text": "Oh , God , you're right . I took our love and threw it under his bus-sized mother . I need to apologize .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 888.47,
+    "end": 893.81,
+    "text": "Well , that , that's good . I'm glad you came to that . But before you do , let me just ask you a big picture question .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 894.66,
+    "end": 895.09,
+    "text": "What ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 895.94,
+    "end": 900.83,
+    "text": "Are you a hundred percent positive you love and want to marry Howard Wolowitz ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 901.35,
+    "end": 903.23,
+    "text": "I do , with all my heart .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 903.86,
+    "end": 905.01,
+    "text": "Got it . Just had to check .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 909.71,
+    "end": 910.43,
+    "text": "He's great .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 915.12,
+    "end": 918.28,
+    "text": "All right , Sheldon , we're going to Wil's . This is your last chance .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 918.52,
+    "end": 938.46,
+    "text": "No , Leonard , this is your last chance . One day , a historian is going to come to you and say , is it true you were friends with Dr . Sheldon Cooper ? And you're going to have to choke back a hot sob of regret and humiliation as you mumble , I was , but I chose to go to a party thrown by the one kid from Stand By Me that no one remembers .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 943.02,
+    "end": 943.49,
+    "text": "You want to drive ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 943.53,
+    "end": 943.77,
+    "text": "Sure .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 949.63,
+    "end": 949.8,
+    "text": "Hey , Sheldon ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 950.28,
+    "end": 951.59,
+    "text": "Oh , good . You picked me , you picked me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 952.95,
+    "end": 956.87,
+    "text": "No , I just got a text from Stuart . Brent Spiner is at the party .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 957.47,
+    "end": 960.84,
+    "text": "Brent Spiner ? I don't care .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.55,
+    "end": 959.03,
+    "text": "Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 963.53,
+    "end": 967.48,
+    "text": "Really ? Brent Spiner , Mr . Data himself . You love him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 967.58,
+    "end": 979.16,
+    "text": "I did , but I think I've kind of outgrown Star Trek . You know , stock characters , ludicrous plots , beam me up . What a load of hooey .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 981.28,
+    "end": 983.66,
+    "text": "I'm going . Live long and prosper , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 983.73,
+    "end": 985.18,
+    "text": "Yeah , even that . You look like a dork .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.6,
+    "end": 1002.04,
+    "text": "Howard , Bernadette's here ! What kind of a schmuck play is that ? She can hear you shouting !",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1001.38,
+    "end": 1003.96,
+    "text": "Tell her I'm not home ! You can . I have nothing to say .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1002.11,
+    "end": 1002.21,
+    "text": "Can we talk ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1005.15,
+    "end": 1010.27,
+    "text": "All right . I just wanted to tell you I'm sorry I said something to your mother .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1010.99,
+    "end": 1014.59,
+    "text": "I was gonna tell her eventually , but you went behind my back .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1014.93,
+    "end": 1017.92,
+    "text": "I know . I'm sorry . I got scared .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1018.23,
+    "end": 1024.72,
+    "text": "If you're gonna love me , you're gonna have to love the whole package , the tenderhearted poet and the crazy daredevil .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1025.68,
+    "end": 1026.64,
+    "text": "I know .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1027.6,
+    "end": 1039.63,
+    "text": "Well , don't say it if you're not gonna mean it , 'cause I'm not just gonna stop with the space station . Yeah , I want to go to the Moon , I want to go to Mars . I want to take a one-man sub to the lowest depths of the ocean .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1040.06,
+    "end": 1042.66,
+    "text": "Really ? You got seasick on Pirates of the Caribbean .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1045.8,
+    "end": 1048.11,
+    "text": "Well , those big kids were rocking it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1049.71,
+    "end": 1063.46,
+    "text": "I just did what I did because I love you so much , and the thought of losing you is more than I can handle . You're my soul mate . This is where you kiss me .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1056.92,
+    "end": 1057.26,
+    "text": "Really ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1063.98,
+    "end": 1064.7,
+    "text": "Right , right .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1068.53,
+    "end": 1072.78,
+    "text": "Make up all you want ! Your tuchus is not leaving this planet !",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1079.26,
+    "end": 1085.55,
+    "text": "Hey , you know that beautiful actress who plays the Borg Queen in First Contact ? Well , I just met her gynaecologist !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1082.92,
+    "end": 1082.93,
+    "text": "Yeah .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1089.22,
+    "end": 1090.51,
+    "text": "What are you doing here ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1091.14,
+    "end": 1101.14,
+    "text": "Fighting for our friendship . As peculiar and annoying as you can be , you're still my little buddy . I'm not going to let that end here tonight . Now put down that drink , let's meet Brent Spiner and go home .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1102.43,
+    "end": 1106.33,
+    "text": "Hey , Sheldon , I'm so glad you made it . I found something I think you might like .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1107.52,
+    "end": 1110.77,
+    "text": "What I'd like is for him to have a more depressing home . This is quite lovely .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1111.33,
+    "end": 1112.44,
+    "text": "This is for you .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1114.37,
+    "end": 1117.5,
+    "text": "An original mint-in-package Wesley Crusher action figure .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1118.33,
+    "end": 1123.65,
+    "text": "I remembered your story about the time you went to a convention when you were a kid to get one signed , and I didn't show up . Look at what I wrote .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1125.3,
+    "end": 1129.88,
+    "text": "To Sheldon , sorry this took so long . Your friend , Wil Wheaton .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1130.77,
+    "end": 1133.72,
+    "text": "It's my last one . I want you to have it .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1135.69,
+    "end": 1137.38,
+    "text": "Look , everyone . Wil Wheaton is my friend !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1140.28,
+    "end": 1141.0,
+    "text": "Oh , wow .",
+    "speaker": "brent_spiner",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1143.53,
+    "end": 1149.77,
+    "text": "I haven't seen one of these in years . Remember how we used to make these things look like they were masturbating ?",
+    "speaker": "brent_spiner",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1152.38,
+    "end": 1158.55,
+    "text": "Brent Spiner , what have you done ? That was an original mint-in-package Wesley Crusher action figure signed by my close personal friend , Wil Wheaton .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1164.41,
+    "end": 1173.09,
+    "text": "You've already signed something , Brent Spiner . Your name on my list . From this moment on , you are my mortal enemy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1174.32,
+    "end": 1176.06,
+    "text": "Don't worry . It doesn't take up a whole lot of your time .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1178.02,
+    "end": 1182.5,
+    "text": "Come on , buddy . Let's not waste another second on this loser . Love your house .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1184.84,
+    "end": 1186.43,
+    "text": "Can we get autographed dolls ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1192.96,
+    "end": 1201.97,
+    "text": "Ten . Twelve . Two for thirty . And you come to my birthday party .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  }
+]

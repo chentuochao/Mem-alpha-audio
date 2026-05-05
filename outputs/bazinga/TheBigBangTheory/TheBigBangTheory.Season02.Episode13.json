@@ -1,0 +1,1269 @@
+[
+  {
+    "start": 6.11,
+    "end": 11.87,
+    "text": "Mmm , gentlemen , I put it to you , the worst tapioca pudding is better than the best pudding of any other flavour .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 13.84,
+    "end": 24.1,
+    "text": "First off , that is axiomatically wrong , because the best pudding is chocolate . Secondly , the organic structure of tapioca makes it a jiggling bowl of potential death . It is extracted from the plant ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 24.21,
+    "end": 26.05,
+    "text": "Hey , I'm thinking of growing a mustache .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 27.58,
+    "end": 31.05,
+    "text": "Ah , no kidding ! A Fu Man Chu ? A handlebar pencil ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 31.17,
+    "end": 32.23,
+    "text": "It is extracted from the plant ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 32.32,
+    "end": 34.61,
+    "text": "I'm not sure yet . You know , George Clooney has one now !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 35.13,
+    "end": 37.83,
+    "text": "Really ? I once saw him shopping at Ralph's . He was buying tequila .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 39.5,
+    "end": 41.69,
+    "text": "think a guy like that would have some kind of booze lackey .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 46.92,
+    "end": 49.83,
+    "text": "Alright this is cruel , we better let him finish before his head explodes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 50.97,
+    "end": 52.5,
+    "text": "Alright Sheldon , why is tapioca ...",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 52.57,
+    "end": 58.91,
+    "text": "Tapioca is extracted from the root of the plant Manihot Esculenta . Due to a high concentration of cyanide it is poisonous in its raw form and lethal if prepared improperly .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.98,
+    "end": 63.64,
+    "text": "Feel better now ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 64.42,
+    "end": 69.09,
+    "text": "It is also indigenous to Brazil , as is the Cocoa Bean , from which we get chocolate , the best pudding . And you promised you wouldn't do that anymore !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 71.85,
+    "end": 81.14,
+    "text": "Hey Hofstadter ! Heard about your watest pwoton decay expewiment , twenty thousand data wuns and no statistically significant wesults . Vewy impwessive !",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 73.47,
+    "end": 73.8,
+    "text": "Hey Kripke .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 84.3,
+    "end": 84.78,
+    "text": "What a jerk .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 85.19,
+    "end": 87.87,
+    "text": "Don't feel bad Leonard , negative results are still results .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.74,
+    "end": 90.0,
+    "text": "Even twenty thousand of 'em .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 91.84,
+    "end": 94.23,
+    "text": "Alright , please don't cheer me up anymore .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 94.27,
+    "end": 96.28,
+    "text": "C'mon , don't let him get to you . It's Kripke .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 96.55,
+    "end": 98.56,
+    "text": "Yeah , he's a ginormous knob .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 99.68,
+    "end": 102.51,
+    "text": "That's why he eats by himself , instead of sitting here at the cool table .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 104.19,
+    "end": 104.78,
+    "text": "Fo' shizzle .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 108.56,
+    "end": 120.2,
+    "text": "Hey it's true , Kripke lacks the basic social skills that we take for granted , but he also controls the new open science grid computer that I need to use to run some simulations of structure formation in the early universe .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 120.61,
+    "end": 123.78,
+    "text": "Good luck getting time on it . The only people he lets use it are his friends .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 124.25,
+    "end": 134.94,
+    "text": "Well then , the solution is simple . I shall befriend him . Kripke ! What'd you say of the idea of you and I becoming friends ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 132.18,
+    "end": 132.3,
+    "text": "Yeah ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 135.41,
+    "end": 138.54,
+    "text": "I would say , I have no intewest in becoming your fwiend .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 140.44,
+    "end": 149.72,
+    "text": "Really ? That seems rather short sighted , coming from someone who is generally considered altogether unlikable . Why don't you take some time to reconsider ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 150.01,
+    "end": 150.95,
+    "text": "Yeah , I'll do that .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 154.0,
+    "end": 155.65,
+    "text": "Well I think we're off to a terrific start .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 180.76,
+    "end": 184.09,
+    "text": "There you go . Now any e-mail from Wolowitz will go right into your spam folder .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.98,
+    "end": 189.65,
+    "text": "Thanks ! I mean the e-mail doesn't bother me as much as the vacation pictures of him in a bathing suit .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 191.3,
+    "end": 195.47,
+    "text": "Yeah , I got the same one . And that's not a bathing suit , it's a tan line .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 201.2,
+    "end": 232.31,
+    "text": "Hello . This is Sheldon Cooper . I'm leaving a message for Barry Kripke . Barry , It was pleasant seeing you today in the cafeteria . I saw that you purchased the chef's salad . Apparently , you did not know that the chef's salad is kitchen trickery , to utilize scrap meat . Nevertheless , I hope you enjoyed it . I'm following up on our pending friendship , and I look forward to hearing from you regarding its status . Sheldon Cooper .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 235.32,
+    "end": 236.49,
+    "text": "What's up with Ichabod ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 237.86,
+    "end": 239.9,
+    "text": "Oh he's trying to make a new friend .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 240.08,
+    "end": 241.57,
+    "text": "Oh really ? Well , good for him .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 241.77,
+    "end": 244.67,
+    "text": "Well , unless he's makes one out of wood like Gepetto , I don't think it's gonna happen .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 247.97,
+    "end": 249.06,
+    "text": "Well , how did you guys become friends ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 249.21,
+    "end": 254.9,
+    "text": "There was a flier on the bulletin board at the university . Roommate wanted . Whistlers need not apply .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 256.51,
+    "end": 257.65,
+    "text": "And you moved in anyway ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 257.74,
+    "end": 262.69,
+    "text": "I assumed he was joking . You'd be surprised how many particle physicists have a whimsical side .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 264.17,
+    "end": 266.71,
+    "text": "Well , what about Howard and Raj , I mean how did you become friends with them ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 266.88,
+    "end": 271.4,
+    "text": "I don't know , how do carbon atoms form a benzene ring ? Proximity and valence electrons .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 273.44,
+    "end": 277.7,
+    "text": "Well yeah , sure . When you put it that way . But it all worked out , right ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 278.67,
+    "end": 281.04,
+    "text": "I suppose . I do miss whistling though .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 282.24,
+    "end": 283.27,
+    "text": "Oh come on , really ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 284.28,
+    "end": 285.48,
+    "text": "First warning .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 290.99,
+    "end": 294.84,
+    "text": "Penny Penny Penny.This is for you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 296.33,
+    "end": 297.08,
+    "text": "Hello Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 299.06,
+    "end": 300.06,
+    "text": "Hi .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.04,
+    "end": 302.91,
+    "text": "What is this ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 303.2,
+    "end": 310.83,
+    "text": "It's a questionnaire I devised . I'm having some difficulty bonding with a colleague at work , so I'm doing a little research to better understand why my current friends like me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 312.91,
+    "end": 318.39,
+    "text": "Yes . Well , that is a good question . But is this really the best way to figure it out ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 318.51,
+    "end": 327.29,
+    "text": "Yeah , I agree , the social sciences are largely hokum . But , short of putting electrodes in your brain and monitoring your response to my companionship , this is the best I can do .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 328.96,
+    "end": 339.06,
+    "text": "Okay , question 1 . Rank the following aspects of Sheldon Cooper in order of appeal . Intelligence . Ruthless attention to hygiene . Playfulness . Java applet writing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 341.78,
+    "end": 354.16,
+    "text": "I know , I may have started off with a fairly obvious one . You did an aspect of my most appealing trait , playfulness . Why don't you just go ahead and write that number 1 . I'm afraid you're on your own for the rest . It should take you no more than 3 hours .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 354.66,
+    "end": 356.92,
+    "text": "Wait ! How many questions are on this thing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 357.02,
+    "end": 362.99,
+    "text": "Only 211 . Don't worry , in deference to you , I've kept them on a high school graduate reading level .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 365.53,
+    "end": 366.61,
+    "text": "Thanks pal .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 366.71,
+    "end": 368.26,
+    "text": "You got it , buddy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 370.22,
+    "end": 374.46,
+    "text": "Sheldon honey , did you ever consider making friends by being , I don't know , pleasant ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 375.65,
+    "end": 381.22,
+    "text": "Well that's certainly a thought-provoking hypothesis . May I suggest it as the topic for your essay .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 387.18,
+    "end": 389.36,
+    "text": "Your questionnaire , very disappointing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.19,
+    "end": 394.9,
+    "text": "I answered every question Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 394.93,
+    "end": 401.48,
+    "text": "You answered the multiple choice questions in a pattern . A B B A C. A B B A C.",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 403.41,
+    "end": 405.87,
+    "text": "Aw , you picked up on that huh ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 407.12,
+    "end": 408.05,
+    "text": "How could I not ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 408.47,
+    "end": 416.11,
+    "text": "Come on ! There's over 200 questions . And look at some of these things . Sheldon is to camaraderie , as the space shuttle is to blank ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 428.82,
+    "end": 435.82,
+    "text": "Hold on . I put some real work into that !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 436.03,
+    "end": 441.87,
+    "text": "Yes , well it's better than what Wolowitz did . He drew a raccoon with what appears to be , a distended scrotum .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 446.44,
+    "end": 448.57,
+    "text": "It's kinda cute , until you get to the scrotum .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 449.62,
+    "end": 456.62,
+    "text": "What hope do I have for establishing new relationships given that my current friends apparently cannot take a few hours out of their lives to help me ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 456.92,
+    "end": 459.13,
+    "text": "Sheldon , I'm not going to defend a big-balled raccoon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 460.87,
+    "end": 461.91,
+    "text": "I don't see how you could .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 462.8,
+    "end": 467.88,
+    "text": "What I'm trying to say is that , maybe you can't approach this as a purely intellectual exercise .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 468.9,
+    "end": 469.63,
+    "text": "What do you mean! ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 471.23,
+    "end": 474.62,
+    "text": "Well , remember when you tried to learn how to swim using the internet ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 476.67,
+    "end": 478.12,
+    "text": "I did learn how to swim .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 479.11,
+    "end": 480.01,
+    "text": "On the floor .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 481.26,
+    "end": 485.31,
+    "text": "The skills are transferrable . I just have no interest in going in the water .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 486.27,
+    "end": 487.81,
+    "text": "Then why learn how to swim ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 487.99,
+    "end": 499.25,
+    "text": "The ice caps are melting Leonard . In the future , swimming isn't going to be optional . But you do bring up an interesting point . I don't have to break new ground here , I'm sure much of the research already exists .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 499.45,
+    "end": 509.17,
+    "text": "No ! no , my point is , if you want to learn how to make friends , then just go out to a coffee shop or a museum . Meet people . Talk to them . Take an interest in their lives .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 510.28,
+    "end": 519.58,
+    "text": "That's insane on the face of it . Come on . You're driving me to the mall . I'm going to acquire a book that summarizes the current theories in the field of friendmaking .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 514.1,
+    "end": 514.76,
+    "text": "Where are we going ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 521.94,
+    "end": 523.98,
+    "text": "Why don't you just lie down on the floor and swim there ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 529.32,
+    "end": 542.0,
+    "text": "Coping with the death of a loved one . My condolences . Family or friend ? Too bad . If it'd been a friend , I'm available to fill the void .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 547.99,
+    "end": 549.93,
+    "text": "It's just as well , she smelled like moth balls .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 551.43,
+    "end": 554.16,
+    "text": "Okay , if you're gonna start sniffing people , I'm gonna go get a hot pretzel .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 556.67,
+    "end": 571.36,
+    "text": "Excuse me . Do you have any books about making friends ? I assume the skills can be extrapolated and transferred . Oh ! I love trains !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 577.98,
+    "end": 649.8,
+    "text": "Oh my ! That's awfully sticky . Alright , let's see . Bernie Bunny has Two Daddies Now . It's probably about homosexual rabbits . Jerry the Gerbil and the Bullies on the Bus . Read it , not helpful . Oh ! Here we go . Stu the Cockatoo is New at the Zoo . Author Sarah Carpenter lives in Fort Wayne , Indiana , with her husband and best friend Mark , and their cockatoos too . Hardly makes her an expert in making friends , wouldn't you agree ? Me too ! Most people don't see it . What are you reading ? Oh I do like monkeys ! Somewhat anthropomorphized but yes . Say , maybe sometime you and I can go see monkeys together . Would you like that ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 651.61,
+    "end": 652.5,
+    "text": "Sheldon , what are you doing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 653.82,
+    "end": 660.05,
+    "text": "I'm making friends with this little girl . What's your name ? Hi Rebecca , I'm your new friend , Sheldon .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 660.21,
+    "end": 660.75,
+    "text": "No you're not , let's go .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 662.64,
+    "end": 663.44,
+    "text": "We were really hitting it off .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 663.86,
+    "end": 664.66,
+    "text": "Don't look up , there's cameras .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 670.13,
+    "end": 674.78,
+    "text": "I'm curious . In the \" How Well Do You Know Sheldon \" section , what do you put for his favourite amino acid ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 676.67,
+    "end": 677.31,
+    "text": "Lysine .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 676.67,
+    "end": 677.31,
+    "text": "Lysine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 677.97,
+    "end": 679.56,
+    "text": "Damn it . I had Lysine and changed it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 680.95,
+    "end": 685.31,
+    "text": "Oh good ! You're just in time . I believe I've isolated the algorithm for making friends .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 686.53,
+    "end": 689.13,
+    "text": "Sheldon , there is no algorithm for making friends !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 689.62,
+    "end": 693.47,
+    "text": "Hear him out . If he's really on to something , we can open a booth at Comic-Con , make a fortune .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 695.26,
+    "end": 700.92,
+    "text": "See , my initial approach to Kripke , had the same deficiencies as those that plagued Stu the Cockatoo , when he was new at the zoo .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 703.36,
+    "end": 704.19,
+    "text": "Stu the cockatoo ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 704.52,
+    "end": 706.1,
+    "text": "Yes , he's new at the zoo .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 707.51,
+    "end": 712.12,
+    "text": "It's a terrific book . I've distilled its essence into a simple flowchart that would guide me through the process .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 713.38,
+    "end": 716.56,
+    "text": "Have you thought about putting him in a crate while you're out of the apartment ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 718.32,
+    "end": 765.25,
+    "text": "Hello , Kripke . Yes , Sheldon Cooper here . It occurred to me you hadn't returned any of my calls because I hadn't offered any concrete suggestions for pursuing our friendship . Perhaps the two of us might share a meal together ... I see . Well then perhaps you'd have time for a hot beverage . Popular choices include tea , coffee , cocoa ... I see . No , no , no , wait . Don't hang up yet . What about a recreational activity ? I bet we share some common interests . Tell me an interest of yours . Really ? On actual horses ? Tell me another interest of yours . Oh no , I'm sorry , I have no desire to get in the water until I absolutely have to . Tell me another interest of yours .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 765.72,
+    "end": 767.36,
+    "text": "Uh-oh , he's stuck in an infinite loop .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 767.47,
+    "end": 768.31,
+    "text": "I can fix it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 768.9,
+    "end": 797.64,
+    "text": "Mmhmm . Mmhmm . It's interesting . But isn't ventriloquism , by definition , a solo activity ? Yeah ? Tell me another interest of yours . Hmmm . Is there any chance you like monkeys ? What is wrong with you ? Everybody likes monkeys . Hang on , Kripke . A loop counter ? And an escape to the least objectionable activity ! Howard , that's brilliant ! I'm surprised you saw that .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 799.89,
+    "end": 802.2,
+    "text": "Gee . Why can't Sheldon make friends ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 803.74,
+    "end": 820.39,
+    "text": "Alright Kripke , that last interest strikes me as the least objectionable and I would like to propose that we do that together . Tomorrow . Yes , I'll pay . Alright , goodbye . Alright ! Time to learn rock climbing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 828.97,
+    "end": 837.26,
+    "text": "You know , I am a fan of ventriloquism . Maybe you , me and your dummy could go get a hot beverage . He could talk while you drink .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 838.95,
+    "end": 840.23,
+    "text": "Nope , I wanna climb some wocks .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 846.04,
+    "end": 854.8,
+    "text": "This appears significantly more monolithic than it did on my laptop . No , one expects to see Hominids learning to use bones as weapeons .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 856.58,
+    "end": 857.43,
+    "text": "You afwaid of heights , Cooper ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 857.66,
+    "end": 869.29,
+    "text": "Hardly . Fear of heights is illogical . Fear of falling , on the other hand , is prudent and evolutionary . What would you say is the minimum altitude I need to achieve to cement our new-found friendship ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 870.11,
+    "end": 872.59,
+    "text": "Come on , they have birthday parties here . Wittle kids climb this .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 875.1,
+    "end": 884.52,
+    "text": "Little kid Hominids , perhaps . Is this your entire job ? Your parents must be so proud .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 886.82,
+    "end": 887.6,
+    "text": "Let's go , Cooper .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 887.81,
+    "end": 905.43,
+    "text": "Coming , Kripke . Okay . Harness seems to be secure . Small amount of incontinence just now , but the website said that's to be expected . Hey , this isn't so bad . A bit like vertical swimming .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 907.77,
+    "end": 909.66,
+    "text": "Hey , look at you , Cooper . You're almost halfway to the top .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 909.85,
+    "end": 922.64,
+    "text": "I am ? I was wrong . It IS a fear of heights . Not really . I feel somewhat like an inverse tangent function that's approaching an asymptote .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 923.55,
+    "end": 924.56,
+    "text": "Are you saying you're stuck ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 924.69,
+    "end": 927.7,
+    "text": "What part of an inverse tangent function approaching an asymptote did you not understand ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 928.94,
+    "end": 931.85,
+    "text": "Understood all that . I'm not a mowon . Just keep going .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 932.96,
+    "end": 933.99,
+    "text": "Yeah , I don't think I can .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 934.16,
+    "end": 935.69,
+    "text": "Well , then . Cwimb back down .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 936.69,
+    "end": 938.15,
+    "text": "No , that doesn't seem any more likely .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 940.0,
+    "end": 940.7,
+    "text": "So what's the pwan , Cooper ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 941.66,
+    "end": 944.99,
+    "text": "Well , it's not exactly a plan but I think I'm going to pass out .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 955.64,
+    "end": 957.52,
+    "text": "I'm sorry . Can we please just do it one more time ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 957.83,
+    "end": 961.3,
+    "text": "Okay . 1 , 2 , 1 , 2 , 3 and ...",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 965.27,
+    "end": 965.83,
+    "text": "It's a little",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 975.78,
+    "end": 977.07,
+    "text": "thing but you really do miss it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 978.52,
+    "end": 983.1,
+    "text": "Hello , everyone . I brought my new friend , Barry Kripke , home for dinner .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 985.37,
+    "end": 986.54,
+    "text": "Hewo to you , too .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 987.23,
+    "end": 988.66,
+    "text": "How was rock climbing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 988.76,
+    "end": 992.17,
+    "text": "He passed out . Just hung there like a big sawami .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 994.67,
+    "end": 995.86,
+    "text": "D-d-d ! That's where I sit .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 996.38,
+    "end": 998.69,
+    "text": "Ooh , you have a special spot . What kind of wacko are you ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.2,
+    "end": 1001.0,
+    "text": "How much time you got ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1002.77,
+    "end": 1004.67,
+    "text": "Want some Chinese food ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1004.82,
+    "end": 1006.8,
+    "text": "Tewific . Got any dental fwoss ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1007.72,
+    "end": 1008.87,
+    "text": "In the bathroom .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1009.0,
+    "end": 1013.42,
+    "text": "Be right back . I gotta fwoss the Indian food out of my teeth if I'm gonna eat Chinese .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1016.28,
+    "end": 1017.17,
+    "text": "Sheldon , are you okay ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1017.64,
+    "end": 1034.82,
+    "text": "Oh yes , I pass out all the time . But , it was worth it . I've made substantial progress in bonding with Kripke , which brings me to an awkward moment . Maintaining five friendships promises to be a Herculean task . So , I'm going to have to let one of you go .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1026.94,
+    "end": 1027.44,
+    "text": "What's that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1037.82,
+    "end": 1040.41,
+    "text": "Me , me . Let it be me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1041.92,
+    "end": 1050.64,
+    "text": "Leonard , you are my roommate , my source of transportation and you help me fold my sheets when they come out of the dryer . You are safe .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1052.72,
+    "end": 1053.11,
+    "text": "Can I whistle ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1053.36,
+    "end": 1065.23,
+    "text": "Don't be silly . Howard , you do not have a PhD , your cologne is an assault on the senses and you're not available for video games during the Jewish high holidays .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1066.71,
+    "end": 1067.86,
+    "text": "Guilty as charged . I'm out .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1068.1,
+    "end": 1070.79,
+    "text": "No . You , too , are safe .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1071.42,
+    "end": 1073.58,
+    "text": "Oh come on . What do I have to do ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1075.04,
+    "end": 1079.49,
+    "text": "Okay . You know what ? I see where this is going . I'm not one of you guys . I'm not a scientist . So just ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1079.64,
+    "end": 1085.49,
+    "text": "Penny , Penny , Penny . Everything you're saying is true , but please allow me to continue . Raj , you're out .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1090.72,
+    "end": 1102.66,
+    "text": "The good question , while you do provide a certain cultural diversity to an otherwise homogenous group , your responses to the questionnaire were truly disturbing . How could you , for a moment , think that my favourite amino acid is Glutamine ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1105.47,
+    "end": 1107.15,
+    "text": "He had Lysine but changed it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1107.43,
+    "end": 1108.95,
+    "text": "Yeah . Shoulda , woulda coulda , Raj .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1112.49,
+    "end": 1116.29,
+    "text": "I like to fwoss before I eat , so my gum pockets are open for new food .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1120.89,
+    "end": 1121.23,
+    "text": "Eww .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1121.63,
+    "end": 1127.18,
+    "text": "Hewo . How did I walk past you ? I'm Bawy .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1128.74,
+    "end": 1129.52,
+    "text": "Penny .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1131.07,
+    "end": 1136.28,
+    "text": "Yeah , it's not a vewy hot name . I'm gonna call your Woxanne . Ooh , pot stickers .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1138.02,
+    "end": 1139.95,
+    "text": "Suddenly I'm looking pretty good , huh ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1143.72,
+    "end": 1149.99,
+    "text": "So uh , Kripke , I was wondering if there's any chance you could get me some time on the open science grid computer .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1150.08,
+    "end": 1150.47,
+    "text": "No .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1151.63,
+    "end": 1154.07,
+    "text": "No ? But we're friends !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1154.82,
+    "end": 1157.56,
+    "text": "I'm sowy . No , my fwiend ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1159.53,
+    "end": 1164.19,
+    "text": "I'm confused . I was given an understanding that you allow your friends time on the machine ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1164.64,
+    "end": 1168.03,
+    "text": "No , that's wong . There's an official schedule . I have no contwol over it .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1172.62,
+    "end": 1182.7,
+    "text": "Oh . This entire endeavour seems to have been an exercise in futility . Raj , you're back in . He likes monkeys .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1189.26,
+    "end": 1191.36,
+    "text": "You gotta give him credit for sticking with it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1192.93,
+    "end": 1194.26,
+    "text": "I didn't think he had it in him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1195.31,
+    "end": 1197.17,
+    "text": "He almost made it to the top this time .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  }
+]

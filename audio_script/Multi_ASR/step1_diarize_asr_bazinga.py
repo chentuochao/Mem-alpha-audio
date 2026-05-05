@@ -196,6 +196,8 @@ def get_chunked_transcript(transcript: List[Dict], start_time: int, end_time: in
 
     for seg in transcript:
         if seg["start"] >= start_time and seg["end"] <= end_time:
+            seg["start"] -= start_time
+            seg["end"] -= start_time
             chunked_transcript.append(seg)
             speaker_words[seg["speaker"]].append(seg)
 
@@ -352,15 +354,14 @@ def main():
                 continue
 
             os.makedirs(os.path.join(save_dir, f"CHUNK_{chunk_id}"), exist_ok=True)
-
             with open(word_list_path_gt, "w", encoding="utf-8") as fh:
                 json.dump(speaker_transcripts, fh, indent=2)
             ## convert transcription to VAD array for diarization gt
+
             with open(vad_gt_path, "w", encoding="utf-8") as fh:
                 json.dump(vad_gt, fh, indent=2)
-
-
             np.save(diar_path, diar_result)
+
             with open(word_list_path, "w") as fh:
                 json.dump(word_list, fh, indent=2)
 
@@ -372,7 +373,7 @@ def main():
                 "chunk_id": chunk_id,
                 "audio_file": sample["audio_path"],
                 "txt_path": sample["txt_path"],
-                "speakers": speaker_transcripts.keys(),
+                "speakers": list(speaker_transcripts.keys()),
                 "transcript_path": word_list_path_gt,
                 "vad_path": vad_gt_path,
                 "diart_path": diar_path,

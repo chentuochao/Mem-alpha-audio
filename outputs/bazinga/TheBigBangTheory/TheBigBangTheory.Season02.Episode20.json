@@ -1,0 +1,1500 @@
+[
+  {
+    "start": 4.98,
+    "end": 10.32,
+    "text": "Hu-u-u-uh ... Hu-u-u-uh !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 15.3,
+    "end": 15.97,
+    "text": "Problem ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 17.2,
+    "end": 18.16,
+    "text": "This is Thai food .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 18.29,
+    "end": 18.73,
+    "text": "Here we go .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 20.86,
+    "end": 23.54,
+    "text": "We don't have Thai food on Thursday . We have pizza on Thursday .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 23.57,
+    "end": 27.95,
+    "text": "Yes , but we all agreed that the third Thursday of every month would be Anything Can Happen Thursday .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 28.28,
+    "end": 33.64,
+    "text": "Well apparently the news didn't reach my digestive system , which , when startled , has its own version of Anything Can Happen Thursday .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 35.88,
+    "end": 40.54,
+    "text": "Come on , the whole idea behind Anything Can Happen Thursday is to get out of this rut we've been in lately .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 40.6,
+    "end": 53.31,
+    "text": "Rut ? I think you mean consistency . And if we're going to abandon that , then why even call it Thursday ? Let's call it Quonko Day and divide it into 29 hours of 17 minutes apiece , and celebrate it by sacrificing a goat to the mighty god Ra .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 56.13,
+    "end": 56.95,
+    "text": "I could go for some goat .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 59.87,
+    "end": 62.88,
+    "text": "Sheldon , we agreed we'd do something different tonight .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 63.3,
+    "end": 65.91,
+    "text": "All right . Let's go to the comic book store .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 66.01,
+    "end": 67.5,
+    "text": "We went to the comic book store last night .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 67.57,
+    "end": 74.54,
+    "text": "Last night was Wednesday . Wednesday is comic book night . Tonight , we'll be going on Thursday , because it's Anything Can Happen Thursday .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 76.19,
+    "end": 79.05,
+    "text": "Way to think outside but pressed right up against the box , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 80.2,
+    "end": 81.67,
+    "text": "So what are we going to do tonight ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.09,
+    "end": 94.88,
+    "text": "If I may proffer a suggestion , in bars all across this great nation of ours , Thursday night is Ladies' Night . Which means , as the evening progresses , we will get better looking courtesy of 99 cent margaritas and two-for-one Jell-O shots .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 98.02,
+    "end": 101.9,
+    "text": "Come on , Howard , the odds of us picking up girls in a bar are practically zero .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 102.33,
+    "end": 104.33,
+    "text": "Really ? Are you familiar with the Drake Equation ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 104.36,
+    "end": 116.09,
+    "text": "The one that estimates the odds of making contact with extraterrestrials by calculating the product of an increasingly restrictive series of fractional values such as those stars with planets , and those planets likely to develop life ? N equals R times FP times NE times FL times FI times FC times L ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 121.15,
+    "end": 137.66,
+    "text": "Yeah , that one . You can modify it to calculate our chances of having sex by changing the formula to use the number of single women in Los Angeles , the number of those who might find us attractive , and what I call the Wolowitz Coefficient .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 139.3,
+    "end": 140.59,
+    "text": "The Wolowitz Coefficient ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 140.62,
+    "end": 150.46,
+    "text": "Neediness times dress size squared . Crunching the numbers , I come up with a conservative 5,812 potential sex partners within a 40-mile radius .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 150.97,
+    "end": 151.93,
+    "text": "You're joking .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 153.19,
+    "end": 157.43,
+    "text": "I'm a horny engineer , Leonard . I never joke about math or sex .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 160.04,
+    "end": 162.2,
+    "text": "Well , what are we waiting for ? Let's bounce , bitches .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 164.96,
+    "end": 169.23,
+    "text": "You're right . It's Anything Can Happen Thursday , let's hit the clubs and meet hot women !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 169.32,
+    "end": 172.4,
+    "text": "Here we go . Lock up your daughters ! We're going to hit it and quit it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 179.14,
+    "end": 181.6,
+    "text": "Or we could finish eating and go to the comic book store .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 182.88,
+    "end": 183.72,
+    "text": "Also a good plan .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.32,
+    "end": 187.88,
+    "text": "Alright , but next Anything Can Happen Thursday , we're definitely going to a bar .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 187.99,
+    "end": 189.01,
+    "text": "Oh , absolutely .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 189.11,
+    "end": 192.07,
+    "text": "You heard that , Ladies' Night ladies ? We're eventually coming for you !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 201.86,
+    "end": 202.13,
+    "text": "Fascinating .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 208.22,
+    "end": 210.14,
+    "text": "Oh hey , guys , where're you headed ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 225.24,
+    "end": 236.59,
+    "text": "To the comic book store . You're probably thinking , the comic book store ? On a Thursday ? Why , I've fallen down the rabbit hole and into a land of madness . What you have failed to take into account , Penny , is that this is Anything Can Happen Thursday .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 239.02,
+    "end": 243.46,
+    "text": "You got me . While you're there , could pick me up a few comics for my nephew's birthday ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 243.96,
+    "end": 253.59,
+    "text": "I think you mean comic books . Comics are feeble attempts at humour featuring talking babies and anthropomorphized pets found traditionally in the optimistically named funny pages .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 255.38,
+    "end": 257.48,
+    "text": "Leonard , could you pick me up a few comics for my nephew's birthday ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 258.17,
+    "end": 258.98,
+    "text": "Sure . What does he like ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 259.29,
+    "end": 261.11,
+    "text": "I don't know , he's 13 . Just pick out anything .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 261.32,
+    "end": 276.79,
+    "text": "Just pick out anything ? Maybe at the same time we can pick out a new suit for him without knowing his size , or pick out his career for him without knowing his aptitude , or pick out a new breakfast cereal without knowing his fibre requirements or his feelings about little marshmallows .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 279.23,
+    "end": 280.52,
+    "text": "Spider-Man . Get him Spider-Man .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 281.23,
+    "end": 285.84,
+    "text": "Amazing Spider-Man , Ultimate Spider-Man , Spectacular Spider-Man , The Marvelous Adventures of Spider-Man , Spider-Man 2099 ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 285.84,
+    "end": 285.91,
+    "text": "Leonard ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 288.81,
+    "end": 291.15,
+    "text": "You know this can go on all night , why don't you just come with us ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 293.11,
+    "end": 294.26,
+    "text": "Ugh , that's what I was trying to avoid .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 296.15,
+    "end": 297.8,
+    "text": "Oh , I forgot Sensational Spider-Man .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.05,
+    "end": 308.54,
+    "text": "Oh , what a cute , little store . Everybody's staring at me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 311.72,
+    "end": 314.1,
+    "text": "Don't worry , they're more scared of you than you are of them .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 317.06,
+    "end": 321.59,
+    "text": "Unlikely . Here , what about this one for my nephew ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 321.98,
+    "end": 329.93,
+    "text": "A superb choice . Yeah , provided he has already read Infinite Crisis and 52 , and is familiar with the re-establishment of the DC multiverse .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 323.64,
+    "end": 324.1,
+    "text": "Oh , great .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 332.44,
+    "end": 333.56,
+    "text": "What's a multiverse ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 334.19,
+    "end": 334.91,
+    "text": "Get her out of here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 335.94,
+    "end": 339.55,
+    "text": "Come on , I'll help you pick something .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 340.58,
+    "end": 346.9,
+    "text": "That's right . She's with us . Guys like that are so pathetic .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 348.23,
+    "end": 351.86,
+    "text": "Tell me about it . Look , a new Batman belt buckle .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 356.89,
+    "end": 359.38,
+    "text": "Oh , hey , Stuart . This is Penny . She's looking for some comic books .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 359.64,
+    "end": 362.77,
+    "text": "Oh , really . Blink twice if you're here against your will .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 364.88,
+    "end": 365.73,
+    "text": "I think we're fine , Stuart .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 367.04,
+    "end": 368.27,
+    "text": "Let me know if you need anything .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.32,
+    "end": 372.37,
+    "text": "Thanks . He seems like a nice guy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 373.45,
+    "end": 375.51,
+    "text": "You mean for someone who's into comic books ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 375.91,
+    "end": 378.12,
+    "text": "No , no , no , I just meant for ... yeah .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 380.33,
+    "end": 386.51,
+    "text": "Penny , just because people appreciate comic books doesn't make them weirdos . Stuart's a terrific artist . He went to the Rhode Island School of Design .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 387.35,
+    "end": 390.29,
+    "text": "What about the guy over there in the superhero T-shirt tucked into his sweatpants ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 392.12,
+    "end": 401.38,
+    "text": "Ah , yeah , that's Captain Sweatpants . He doesn't really help the point I'm trying to make .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 418.82,
+    "end": 419.72,
+    "text": "Let it go , Sheldon .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 419.78,
+    "end": 421.46,
+    "text": "Why should I let it go ? I saw it first .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 421.55,
+    "end": 423.11,
+    "text": "Yes , but I saw it from the front .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 423.29,
+    "end": 424.76,
+    "text": "A far less impressive feat .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 424.89,
+    "end": 427.82,
+    "text": "Oh , come on ! I need this for my Batman collection .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 427.87,
+    "end": 429.16,
+    "text": "I need it for my Robin collection .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.02,
+    "end": 430.28,
+    "text": "Rock-Paper-Scissors-Lizard-Spock ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.82,
+    "end": 439.27,
+    "text": "Why would I gamble ? It's mine . Let go . No , you ! Yes , he won't let go of my comic book . Leonard , we need a ruling .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 432.89,
+    "end": 433.36,
+    "text": "You let go .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 434.24,
+    "end": 434.25,
+    "text": "Problem ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 436.91,
+    "end": 437.87,
+    "text": "It's my comic book !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 439.32,
+    "end": 440.33,
+    "text": "Uh , cut it in half ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 441.64,
+    "end": 442.94,
+    "text": "Excuse me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 444.25,
+    "end": 444.88,
+    "text": "Hello again .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 445.3,
+    "end": 448.03,
+    "text": "Hi . What would you recommend as a present for a 13-year-old boy ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 448.03,
+    "end": 456.0,
+    "text": "13-year-old girl . But if you're dead set on a comic book , try this .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 456.72,
+    "end": 458.76,
+    "text": "Oh , Hellblazer . What's this about ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 459.09,
+    "end": 464.62,
+    "text": "A morally ambiguous confidence man who smokes , has lung cancer and is tormented by the spirits of the undead .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 466.25,
+    "end": 473.24,
+    "text": "Well , if that doesn't make me the favourite aunt , I don't know what will . Is this me ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 475.05,
+    "end": 475.97,
+    "text": "Depends . Do you like it ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 476.93,
+    "end": 477.89,
+    "text": "It's really good .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 478.1,
+    "end": 478.87,
+    "text": "Yes , that's you .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 481.57,
+    "end": 483.93,
+    "text": "That's so sweet , but what if I didn't like it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 484.23,
+    "end": 485.71,
+    "text": "It'd still be you , but I'd feel like an idiot .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 488.22,
+    "end": 491.35,
+    "text": "I don't believe it . Stuart's putting the moves on Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 491.65,
+    "end": 495.38,
+    "text": "I have got to learn how to draw . Hey !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 496.72,
+    "end": 499.63,
+    "text": "Once again , defeated by your own prurient interests .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 500.5,
+    "end": 503.21,
+    "text": "Guys , have you seen Stuart all up in Penny's business over there ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 504.41,
+    "end": 507.31,
+    "text": "Nobody's up in anybody's business , let's just buy our stuff and go .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 508.06,
+    "end": 510.95,
+    "text": "Okay , you've got my number , now , give me the picture .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 511.36,
+    "end": 514.27,
+    "text": "You drive a hard bargain , but here .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 514.99,
+    "end": 517.9,
+    "text": "All right . So , um , just give me a call .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 520.62,
+    "end": 523.48,
+    "text": "So , Leonard , how are you enjoying Anything Can Happen Thursday ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 528.88,
+    "end": 544.98,
+    "text": "Look at that , that's a dent . Thank you , Howard Ham-Fisted Wolowitz . Did you just shut the TV off in the middle of the classic Deep Space Nine/Star Trek The Original Series Trouble With Tribbles crossover episode ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 547.76,
+    "end": 548.53,
+    "text": "Apparently so .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 550.47,
+    "end": 551.32,
+    "text": "Are you ill ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 552.5,
+    "end": 553.09,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 554.27,
+    "end": 561.51,
+    "text": "All right . Then is it fair to say that you're experiencing some sort of emotional turmoil over the events involving Penny earlier this evening ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 562.14,
+    "end": 563.43,
+    "text": "When did you pick up on that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 565.31,
+    "end": 576.53,
+    "text": "A moment ago , when you turned off the TV in the middle of }during the classic Deep Space Nine/Star Trek The Original Series Trouble With Tribbles crossover episode . Would you like some advice ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 578.39,
+    "end": 579.2,
+    "text": "Sure , why not ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 579.9,
+    "end": 583.49,
+    "text": "Then , this is the perfect time to launch a blog with an interactive comments section .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 585.35,
+    "end": 587.0,
+    "text": "Gee , thanks a lot .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 588.23,
+    "end": 590.15,
+    "text": "Would you rather I offer my personal insight ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 590.58,
+    "end": 597.31,
+    "text": "I don't need any insights . I just want to know why Penny's more interested in Stuart than me . We're practically the same guy .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 597.47,
+    "end": 606.1,
+    "text": "Oh , I disagree . Stuart is taller , artistic , self-employed and , most significantly , he gets 45 percent off comic books .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 611.19,
+    "end": 614.01,
+    "text": "You're right , I really should be asking strangers on the Internet .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 615.92,
+    "end": 628.3,
+    "text": "My original point . Chinese food , vintage video games . After the nightmare of Anything Can Happen Thursday , this is Friday night the way it was meant to be .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 630.11,
+    "end": 630.92,
+    "text": "Who's up for Sheldon-Free Saturday ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 630.95,
+    "end": 631.75,
+    "text": "Oh , hey guys .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 636.61,
+    "end": 638.76,
+    "text": "Hey , Penny ... and Stuart , hey Stuart .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 638.93,
+    "end": 639.3,
+    "text": "Hey , guys .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 641.17,
+    "end": 642.83,
+    "text": "So what are you kids up to ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 643.19,
+    "end": 645.49,
+    "text": "Uh , Stuart has a piece in an art show that's opening tonight .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 645.67,
+    "end": 647.98,
+    "text": "And you guys are going together , great ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 649.14,
+    "end": 654.59,
+    "text": "It is great . Really great . Freaking awesome . What are you guys doing ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 654.9,
+    "end": 657.91,
+    "text": "It's Friday night , that means Chinese food and vintage video games , right ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 657.99,
+    "end": 667.65,
+    "text": "Vintage doesn't even begin to describe what we have planned . Tonight , we are playing the classic 1980 interactive text adventure , Zork . It's the buggy beta version .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 669.19,
+    "end": 671.68,
+    "text": "Wow , Zork . Well , you guys have fun .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 671.86,
+    "end": 673.08,
+    "text": "Yeah , see you guys .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 673.3,
+    "end": 673.96,
+    "text": "See you , Stuart .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 674.95,
+    "end": 681.05,
+    "text": "Hey , Howard ? Take me to a bar with women . Yeah .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 676.09,
+    "end": 676.36,
+    "text": "Yes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 680.35,
+    "end": 680.8,
+    "text": "Really ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 683.59,
+    "end": 683.95,
+    "text": "Okay !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 686.12,
+    "end": 687.72,
+    "text": "Let me just go inside and slip off my underwear .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 691.81,
+    "end": 692.35,
+    "text": "Why ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 692.98,
+    "end": 696.01,
+    "text": "Well , if I get lucky , I don't want to be caught in my Aquaman briefs .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 699.45,
+    "end": 703.98,
+    "text": "Do you ... Let's go .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 707.42,
+    "end": 709.8,
+    "text": "May I have a grasshopper with a little umbrella , please ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 711.66,
+    "end": 716.7,
+    "text": "No , he may not . I'm not sitting here with a guy drinking a grasshopper with a little umbrella .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 712.51,
+    "end": 712.54,
+    "text": "Why ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 718.27,
+    "end": 721.17,
+    "text": "Fine . I'll have a chocolate martini .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 722.44,
+    "end": 723.51,
+    "text": "Wrong again !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 724.27,
+    "end": 728.07,
+    "text": "Come on , you know I can't talk to women unless I'm lit up like the Hindu festival of Diwali .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 733.05,
+    "end": 740.04,
+    "text": "Look , there are plenty of bars in Los Angeles where you can order grasshoppers and chocolate martinis , but you wouldn't have to because there are no women in them .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 741.6,
+    "end": 742.18,
+    "text": "Gotcha .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 744.13,
+    "end": 745.56,
+    "text": "I'll have a Brandy Alexander .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.48,
+    "end": 749.67,
+    "text": "All right , the Three Musketeers just became the Dynamic Duo .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 751.11,
+    "end": 752.4,
+    "text": "Should we talk to some of these women ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 753.42,
+    "end": 761.19,
+    "text": "It's way too early in the night for that . See , first we let the lawyers and the jocks thin the herd , and then we go after the weak and the old and the lame .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 763.09,
+    "end": 764.65,
+    "text": "That's your system ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 765.09,
+    "end": 770.89,
+    "text": "That's my system . Oh , and if you spot a chick with a Seeing Eye dog , she's mine .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 771.97,
+    "end": 779.1,
+    "text": "Oh come on . I think it's nice that Captain Sweatpants showed up to your art opening .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 781.04,
+    "end": 783.29,
+    "text": "Yeah , it would have been nicer if he hadn't touched all the cheese .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 783.64,
+    "end": 784.76,
+    "text": "Um ,",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 786.71,
+    "end": 790.57,
+    "text": "you know , it's kind of early . Do you want to maybe come in for some coffee or something ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 790.8,
+    "end": 793.14,
+    "text": "Oh , gee , it's a little late for coffee , isn't it ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 794.65,
+    "end": 800.35,
+    "text": "Oh , you think coffee , means coffee , that is so sweet . Come on , I think I have decaf .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 801.53,
+    "end": 805.43,
+    "text": "Oh , good , Stuart , I thought I heard your voice . Do you have a moment ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 805.73,
+    "end": 806.65,
+    "text": "Uh , yeah , I guess .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 806.75,
+    "end": 808.16,
+    "text": "Sheldon , we're a little busy here , so ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 808.55,
+    "end": 809.27,
+    "text": "What are you doing ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 809.36,
+    "end": 810.2,
+    "text": "We're having coffee .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 811.24,
+    "end": 812.5,
+    "text": "Isn't it a little late for coffee ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 813.7,
+    "end": 815.47,
+    "text": "It's okay . She thinks she has decaf .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 823.06,
+    "end": 823.69,
+    "text": "I'll just go look for it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 823.84,
+    "end": 823.99,
+    "text": "What's up ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 824.14,
+    "end": 829.22,
+    "text": "Well , I've spent the last three hours in an online debate in the DC Comics Batman chatroom , and I need your help .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 829.51,
+    "end": 832.54,
+    "text": "Oh yeah . Those guys can be very stubborn . What's the topic ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 832.68,
+    "end": 839.59,
+    "text": "I am asserting , in the event that Batman's death proves permanent , that original Robin , Dick Grayson , is the logical successor to the Bat Cowl .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 839.79,
+    "end": 843.0,
+    "text": "Ooh , Sheldon , I'm afraid you couldn't be more wrong .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 847.87,
+    "end": 855.38,
+    "text": "More wrong ? Wrong is an absolute state and not subject to gradation .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 856.48,
+    "end": 871.47,
+    "text": "Of course it is . It's a little wrong to say a tomato is a vegetable , it's very wrong to say it's a suspension bridge . But returning to the original issue , Dick Grayson became Nightwing , a superhero in his own right . Batman 2 has to be the second Robin , Jason Todd .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 871.94,
+    "end": 877.05,
+    "text": "Has to be ? Has to be ? I hope you're being deliberately provocative .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 877.78,
+    "end": 879.23,
+    "text": "I found the decaf !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 879.96,
+    "end": 880.44,
+    "text": "Oh , great !",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 880.5,
+    "end": 882.25,
+    "text": "Yeah , herbal tea for me , please .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 886.15,
+    "end": 888.41,
+    "text": "Barkeep ! Alexander me .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 889.36,
+    "end": 891.27,
+    "text": "How about those two ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 892.22,
+    "end": 896.94,
+    "text": "Nah , they're eating peanuts , and my allergies , one kiss would put me in Cedar-Sinai for a week .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 899.94,
+    "end": 901.5,
+    "text": "What about the ones in the corner ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 902.6,
+    "end": 907.47,
+    "text": "Possible , very possible . Do you want the one in the whiplash collar or the one who keeps blinking ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 908.21,
+    "end": 909.68,
+    "text": "I think Blinky's cute .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 910.42,
+    "end": 911.89,
+    "text": "You got it , sir .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 912.63,
+    "end": 914.34,
+    "text": "Wait , so we just go over there ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 914.71,
+    "end": 936.62,
+    "text": "No , we have a little prep work to do . Put this in your mouth . We walk past them , you stumble a bit . I say , sorry , my friend's had a little too much , and then I start to pull it out of your mouth and say , a little too much fun . Get it ? I mean , they're laughing , we're laughing , and then we get them up to about a .15 blood alcohol level , and tell them we're millionaires .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 939.22,
+    "end": 939.76,
+    "text": "What else you got ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 940.86,
+    "end": 943.78,
+    "text": "Depends . Are you willing to sit on my lap and pretend to be a ventriloquist dummy ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.69,
+    "end": 945.15,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 946.06,
+    "end": 948.58,
+    "text": "I can't sit on your lap , you don't know the routine .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 951.9,
+    "end": 955.87,
+    "text": "I'm sorry , but you're obviously stuck in a pre-Zero Hour DC universe .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 956.04,
+    "end": 961.41,
+    "text": "Of course I am . Removing Joe Chill as the killer of Batman's parents effectively deprived him of his raison d'être .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 963.02,
+    "end": 965.83,
+    "text": "Okay , you can throw all the French around you want , it doesn't make you right .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 966.34,
+    "end": 967.15,
+    "text": "Au contraire .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 969.13,
+    "end": 973.73,
+    "text": "Plus , you're forgetting that the Infinite Crisis storyline restored Joe Chill to the Batman mythology .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 974.12,
+    "end": 976.37,
+    "text": "I am forgetting nothing and I resent your tone .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 978.85,
+    "end": 984.26,
+    "text": "Okay , look , Sheldon , it's late and I've got to get some sleep . No , I'm tired .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 982.19,
+    "end": 982.88,
+    "text": "So , I win .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 985.17,
+    "end": 986.16,
+    "text": "So , I win .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 987.94,
+    "end": 988.58,
+    "text": "Fine . You win .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 988.84,
+    "end": 990.16,
+    "text": "Darn tootin' , I win .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 991.59,
+    "end": 997.33,
+    "text": "Penny , I really had a terrific time . Penny ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 997.33,
+    "end": 1000.75,
+    "text": "no , no , no , don't wake her . She'll maul you like a rabid wolverine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1004.17,
+    "end": 1005.73,
+    "text": "You know , I don't think that was decaf .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1010.39,
+    "end": 1017.19,
+    "text": "Wait , is this your card or isn't it ? Trust me , this was their card .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1018.26,
+    "end": 1022.73,
+    "text": "I thought you were good at this . You're always talking about how you go to bars and meet women .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1023.39,
+    "end": 1024.57,
+    "text": "I do , all the time .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1024.87,
+    "end": 1030.28,
+    "text": "Well , what happened ? We've been sitting here all night and the longest conversation you've had with a woman was when your mom called .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1036.41,
+    "end": 1038.73,
+    "text": "Wow , you're just going to make me come out and say it , aren't you ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1039.44,
+    "end": 1040.04,
+    "text": "Say what ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1040.52,
+    "end": 1047.65,
+    "text": "You're weighing me down . I'm a falcon who hunts better solo .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1048.62,
+    "end": 1051.88,
+    "text": "Fine . I'll sit here . You take flight and hunt .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1053.61,
+    "end": 1056.5,
+    "text": "Don't be ridiculous , you can't just tell a falcon when to hunt .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1057.08,
+    "end": 1066.04,
+    "text": "Actually , you can . There's a whole sport built around it . Falconry .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1069.66,
+    "end": 1090.45,
+    "text": "Shut up . Let's just get Koothrappali and go . Lucky bastard . It's got to be that stupid accent of his . Hello . I am Sanjay Wolowitz from Bombay . Okay , I'm stumped .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  }
+]

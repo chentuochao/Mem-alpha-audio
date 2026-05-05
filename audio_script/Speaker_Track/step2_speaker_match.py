@@ -29,9 +29,9 @@ import soundfile as sf
 from audio_script.eval.eval_utils import (
     eval_der_seamlessinteraction, eval_cpwer_seamlessinteraction,
     parse_transcript, best_match_tp_fp_fn, parse_turn, print_turns,
-    vad_segments_to_binary, build_speaker_transcripts,
+    vad_segments_to_binary, build_speaker_transcripts, parse_transcript_morespeakers
 )
-from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
+from audio_script.eval.multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string, compute_der_bruteforce
 
 
 # ─── Embedding backends ──────────────────────────────────────────────
@@ -236,6 +236,7 @@ def extract_speaker_audio(
     audio_file: str,
     segments: List[Tuple[float, float]],
     output_path: str,
+    bias: float = 0.0,
 ) -> Optional[str]:
     """Concatenate the speaker's active segments and write to *output_path*."""
     audio, sr = sf.read(audio_file)
@@ -244,8 +245,8 @@ def extract_speaker_audio(
 
     chunks = []
     for start_sec, end_sec in segments:
-        s = max(0, int(start_sec * sr))
-        e = min(len(audio), int(end_sec * sr))
+        s = max(0, int(start_sec * sr + bias))
+        e = min(len(audio), int(end_sec * sr + bias))
         if e > s:
             chunks.append(audio[s:e])
 
@@ -267,7 +268,8 @@ def process_single_audio(
     embedding_backend: EmbeddingBackend,
     temp_dir: str,
     unique_id: str = "",
-    frame_duration: float = 0.08
+    frame_duration: float = 0.08,
+    bias: float = 0.0,
 ) -> Dict:
     """
     Given pre-computed diarization + ASR results for one audio file:
@@ -323,7 +325,7 @@ def process_single_audio(
             continue
 
         spk_audio_path = os.path.join(temp_dir, f"{prefix}_{local_id}.wav")
-        result_path = extract_speaker_audio(audio_file, segments, spk_audio_path)
+        result_path = extract_speaker_audio(audio_file, segments, spk_audio_path, bias = bias)
         if result_path is None:
             continue
 
@@ -504,6 +506,7 @@ def eval_der_cpwer(entry, word_list, diar_result, local_speakers):
     if entry.get("dataset") == "bazinga":
         # ── Bazinga format ────────────────────────────────────────────────
         speakers = entry["speakers"]
+
         with open(entry["vad_path"]) as f:
             vad_data = json.load(f)   # {speaker: [{start, end}, ...]}
         with open(entry["transcript_path"]) as f:
@@ -512,6 +515,7 @@ def eval_der_cpwer(entry, word_list, diar_result, local_speakers):
         total_frames = diar_result.shape[0]
         gt_matrix = []
         speaker_gt_der = []
+        print("existing speaker ", speakers, vad_data.keys())
         for spk in speakers:
             if spk not in vad_data:
                 continue
@@ -519,7 +523,8 @@ def eval_der_cpwer(entry, word_list, diar_result, local_speakers):
             gt_matrix.append(gt_array)
             speaker_gt_der.append(spk)
         gt_matrix = np.stack(gt_matrix, axis=0)
-        der, der_details = compute_der(diar_result.T, gt_matrix, frame_duration=frame_duration)
+        print(diar_result.T.shape, gt_matrix.shape)
+        der, der_details = compute_der_bruteforce(diar_result.T, gt_matrix, frame_duration=frame_duration)
         der_details["speaker_gt"] = speaker_gt_der
 
         best_perm_der_new = []
@@ -673,8 +678,10 @@ def main():
             print(spk_pair)
             if entry.get("dataset") == "bazinga":
                 speaker_gt = entry["speakers"]
+                bias = float(entry["time_stamp"][0]) # unit in sample
             else:
                 speaker_gt = spk_pair.split("_")
+                bias = 0
             conv_id = entry.get("conv_id", "")
             audio_file = entry["audio_file"]
             diar_path = entry["diart_path"]
@@ -684,7 +691,7 @@ def main():
             result_key = f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
             unique_id = f"{spk_pair}_{conv_id}" if spk_pair and conv_id else ""
             print(f"\n{'='*60}")
-            print(f"\nProcessing entry: {result_key}")
+            print(f"\nProcessing entry: {result_key}, {pred_transcript_path}")
             print(f"{'='*60}")
             # if conv_id != "V01_S0066_I00000137":
             #     continue
@@ -714,7 +721,8 @@ def main():
                 embedding_backend,
                 temp_dir,
                 unique_id=unique_id,
-                frame_duration = frame_duration
+                frame_duration = frame_duration,
+                bias = bias,
             )
 
 
@@ -736,6 +744,7 @@ def main():
                 num_merged += 1
 
             # ── Evaluate DER & cpWER after merge ─────────────────────────
+
             der, cpwer, best_perm_der, best_perm_cpwer = eval_der_cpwer(entry, word_list, diar_result, list(word_list.keys()))
             # best_perm_cpwer List = ["speaker_1", "speaker_0", ...]
             all_ders_merged.append(der)
@@ -772,7 +781,7 @@ def main():
             #     speaker_cluster_pred[local_id].append(global_id)
 
             ## parse the conversation level transcript
-            dialog = parse_transcript(word_list)
+            dialog = parse_transcript_morespeakers(word_list)
             # modify local speaker to globale speaker
             dialog_pred = []
             for sent in dialog:
@@ -784,7 +793,7 @@ def main():
                 # transcript_path: {speaker: [{word, start, end, ...}]}
                 with open(entry["transcript_path"], "r") as f:
                     trans_data = json.load(f)
-                dialog_gt = parse_transcript(trans_data)
+                dialog_gt = parse_transcript_morespeakers(trans_data, interval_character = ' ')
             else:
                 dialog_gt = []
                 with open(entry["transcript1_path"], "r") as f:
@@ -793,17 +802,16 @@ def main():
                     dialog_gt.extend(json.load(f))
             # order the dialog by "start"
             dialog_gt.sort(key=lambda x: x["start"])
-            print(dialog_gt[:10])
+            # print(dialog_gt[:10])
             dialog_gt_json = parse_turn(dialog_gt)
-            # print(dialog_gt_json)
+            print_turns(dialog_gt_json)
 
             # print("-"*20)
             # print("Dialog Pred")
             # print("-"*20)
-            print(dialog_pred[:10])
+            # print(dialog_pred[:10])
             dialog_pred_json = parse_turn(dialog_pred)
-            # print(dialog_pred_json)
-            exit(0)
+            print_turns(dialog_pred_json)
 
             all_results[result_key] = {
                 "spk_pair": spk_pair,

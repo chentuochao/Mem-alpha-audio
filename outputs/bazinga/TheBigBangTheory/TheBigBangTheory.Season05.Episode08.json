@@ -1,0 +1,1353 @@
+[
+  {
+    "start": 3.88,
+    "end": 6.46,
+    "text": "So , Bernadette , how goes the hunt for bridesmaid dresses ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 6.73,
+    "end": 9.49,
+    "text": "Well , if you don't mind looking like an orange traffic cone , great .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 10.89,
+    "end": 20.53,
+    "text": "Girlfriends , I have the answer to our dress problems . Twelve years ago , my cousin Irene and her entire family died in a horrific carbon monoxide accident the night before her wedding .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 13.9,
+    "end": 14.09,
+    "text": "Really ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 21.69,
+    "end": 22.86,
+    "text": "That's horrible .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 24.02,
+    "end": 39.72,
+    "text": "Yes and no . All those bridesmaids dresses remain unused and available to us for free . So it seems that cloud of odourless deadly gas had a silver lining after all . Check it out , still in the bags . The gowns , not the bridesmaids .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.12,
+    "end": 45.45,
+    "text": "I don't know . Dead people's dresses ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 45.78,
+    "end": 48.91,
+    "text": "Yeah , and cap sleeves ? U-u-uh .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 50.0,
+    "end": 56.76,
+    "text": "Uh , I was hoping you wouldn't notice . Irene was always a slave to a good bargain when it came to clothes , and sadly as it turned out , space heaters .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 58.12,
+    "end": 78.72,
+    "text": "Ladies , please . These four walls once housed an intellectual salon where the mind received nourishment as well as the stomach . But through no one's fault , Penny , the quality of dinner conversation in this apartment has declined . And again , I'm looking at no one in particular , Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 80.82,
+    "end": 83.14,
+    "text": "Fine . What would you like to talk about , Sheldon ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 83.52,
+    "end": 86.54,
+    "text": "What would you like to talk about , Sheldon ? Why do you hate us ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.08,
+    "end": 93.31,
+    "text": "I've prepared a number of topics that should appeal to both the advanced and novice conversationalists .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 94.12,
+    "end": 95.26,
+    "text": "Okay , that time you looked at me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 96.94,
+    "end": 100.65,
+    "text": "Who didn't ? Your skin is like alabaster . Do you even have pores ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 103.3,
+    "end": 112.59,
+    "text": "Topic one . Faster-than-light particles at CERN , paradigm-shifting discovery or another Swiss export as full of holes as their cheese ? And converse .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 113.11,
+    "end": 116.74,
+    "text": "All right , who wants to go to my apartment and look at bridal magazines ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 117.26,
+    "end": 117.78,
+    "text": "Oh , me .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 118.3,
+    "end": 120.52,
+    "text": "Through no one's fault , Sheldon , we're leaving .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 122.49,
+    "end": 123.24,
+    "text": "Wait for moi .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 124.2,
+    "end": 124.91,
+    "text": "You're leaving ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 125.4,
+    "end": 133.55,
+    "text": "Sheldon , sometimes you forget , I'm a lady . And with that comes an oestrogen fuelled need to page through thick glossy magazines that make me hate my body .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 136.13,
+    "end": 136.49,
+    "text": "Ah .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 138.71,
+    "end": 142.75,
+    "text": "New topic . Women , delightfully mysterious or bat-crap crazy ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 144.87,
+    "end": 148.65,
+    "text": "Totally . What's wrong with cap sleeves ? If you have the right figure for it , they're adorable .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 169.39,
+    "end": 169.53,
+    "text": "Hey ,",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 176.61,
+    "end": 178.26,
+    "text": "Amy , what brings you to our neck of the woods ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 178.62,
+    "end": 183.43,
+    "text": "Your neurology department loaned me a culture of prions for my research on bovine spongiform encephalopathy .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 187.44,
+    "end": 190.47,
+    "text": "She popped by to borrow a cup of mad cow disease .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 193.25,
+    "end": 196.86,
+    "text": "It's hard to make degenerative brain maladies hilarious , and yet somehow you do it .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 198.97,
+    "end": 200.32,
+    "text": "That's fun to have in a lunchroom .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 201.66,
+    "end": 206.79,
+    "text": "The real fun starts when you get to pick the rat you're going to feed it to , and maybe you choose the beady-eyed little mother who's been biting you all week .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.74,
+    "end": 212.84,
+    "text": "Please , we're eating . Can we get that off the table and change the subject ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 212.98,
+    "end": 218.42,
+    "text": "Can we ? Stand back while I turn this conversation into a conver-sensation .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 220.83,
+    "end": 221.76,
+    "text": "This time , it's your fault .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 222.16,
+    "end": 232.27,
+    "text": "I have 100 alphabetized topics from artichoke , come on , people , it's just a giant thistle , to zzz , the onamona-poetry of sleep .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 234.7,
+    "end": 237.49,
+    "text": "Amy , how long would it take for that mad cow disease to kill me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 238.74,
+    "end": 240.5,
+    "text": "I don't know , four or five years .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 241.9,
+    "end": 242.72,
+    "text": "No , it's not gonna do it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 247.25,
+    "end": 252.14,
+    "text": "Oy . Bernadette keeps texting me pictures of Penny in bridesmaid dresses .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.9,
+    "end": 255.79,
+    "text": "They're out shopping right now ? Just the two of them ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 254.43,
+    "end": 254.66,
+    "text": "Yeah .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 256.38,
+    "end": 257.13,
+    "text": "I guess .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 258.58,
+    "end": 259.7,
+    "text": "That's cool , that's cool .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 261.88,
+    "end": 266.79,
+    "text": "Why are they asking me about this stuff ? What guy knows what a sweetheart neckline is ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 277.63,
+    "end": 306.22,
+    "text": "Leonard's coming down the home stretch ! Come on , horsey , you can do this ! Damn . Come on , thigh muscles , you can do this ! Yes ! First place . I would have been a great jockey if I weren't too tall . And scared of horses . Sheldon , you're up . Come on , it's your turn . We said we'd get more fresh air .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 304.24,
+    "end": 304.33,
+    "text": "What ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 308.94,
+    "end": 318.11,
+    "text": "Sorry . I'm a little distracted . I can't seem to get in touch with Amy . I tried e-mail , video chat , tweeting her , posting on her Facebook wall , texting her , nothing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 318.48,
+    "end": 320.1,
+    "text": "Did you try calling her on the telephone ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 321.71,
+    "end": 335.81,
+    "text": "The telephone . You know , Leonard , in your own simple way , you may be the wisest of us all . Voice mail . Curiouser and curiouser .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 337.48,
+    "end": 339.97,
+    "text": "If you're worried , we can go over there and see if she's all right .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 340.42,
+    "end": 345.19,
+    "text": "Okay . You know , I heard in the news a bobcat has been spotted in her neighbourhood .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.99,
+    "end": 349.16,
+    "text": "I don't think Amy was eaten by a bobcat .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 349.56,
+    "end": 351.24,
+    "text": "Who thinks Amy was eaten by a bobcat ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 353.73,
+    "end": 354.05,
+    "text": "You do ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 354.34,
+    "end": 360.49,
+    "text": "Leonard , I was just mentioning an interesting local news item . Now , thanks to you , I'm worried Amy's been eaten by a bobcat .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 362.22,
+    "end": 363.19,
+    "text": "Forget about the bobcat .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 363.34,
+    "end": 364.99,
+    "text": "How can I ? You won't stop talking about it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 369.37,
+    "end": 370.56,
+    "text": "Everybody hurts ,",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 376.28,
+    "end": 377.81,
+    "text": "sometimes everybody cries . Everybody hurts , sometimes .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 390.1,
+    "end": 391.91,
+    "text": "She sounds weepy . I don't like weepy . Let's go .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 392.15,
+    "end": 399.17,
+    "text": "Uh , she's your friend . Step up . Amy . Amy . Amy . Bye .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 401.15,
+    "end": 401.94,
+    "text": "Where are you going ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 402.25,
+    "end": 403.69,
+    "text": "I'm single , I don't need this crap .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 406.9,
+    "end": 408.11,
+    "text": "Sheldon , what are you doing here ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 408.32,
+    "end": 411.38,
+    "text": "You didn't respond to any of my electronic communications .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 411.97,
+    "end": 413.08,
+    "text": "I wanted to be alone .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 415.84,
+    "end": 421.67,
+    "text": "Would you like to talk about it ? And keep in mind that no is a perfectly viable answer .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 423.4,
+    "end": 425.51,
+    "text": "Sheldon , my world is crumbling around me .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 425.82,
+    "end": 442.12,
+    "text": "Point of order . As you're in distress , it would be customary for me to offer you a hot beverage . But I'm a guest in your home , so it would be customary for you to offer me a beverage . How do you want to proceed vis-a-vis beverages ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 444.06,
+    "end": 445.89,
+    "text": "It doesn't matter . Nothing matters .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 448.38,
+    "end": 455.45,
+    "text": "If you'd like to take your mind off what's troubling you , uh , word on the street is a bobcat has been spotted .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 457.71,
+    "end": 460.73,
+    "text": "Penny and Bernadette went shopping for bridesmaids dresses without me .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 461.9,
+    "end": 473.06,
+    "text": "And that made you feel sad ? I knew it . Just keep going , I guess I'm good at this .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 467.24,
+    "end": 467.73,
+    "text": "Yes .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 474.98,
+    "end": 479.09,
+    "text": "It's just , I thought they liked hanging out with me , but I guess I was fooling myself .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 480.43,
+    "end": 488.79,
+    "text": "When they were over here , did you fail to offer them a beverage ? 'Cause I can see how that could stick in someone's craw .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 492.2,
+    "end": 495.54,
+    "text": "Sheldon , I'm going to ask you something , and I'd like you to keep an open mind .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 495.99,
+    "end": 496.74,
+    "text": "Always .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 498.36,
+    "end": 502.07,
+    "text": "At this moment , I find myself craving human intimacy and physical contact .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.35,
+    "end": 510.66,
+    "text": "Oh , boy . You know ours is a relationship of the mind .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 512.09,
+    "end": 517.11,
+    "text": "Proposal . One wild night of torrid lovemaking that soothes my soul and inflames my loins .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 521.97,
+    "end": 530.15,
+    "text": "Counterproposal . I will gently stroke your head and repeat , aw , who's a good Amy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.12,
+    "end": 540.45,
+    "text": "How about this ? French kissing , seven minutes in heaven culminating in second base .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 544.87,
+    "end": 550.59,
+    "text": "Neck massage , then you get me that beverage .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 557.59,
+    "end": 559.09,
+    "text": "We cuddle . Final offer .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 561.6,
+    "end": 561.99,
+    "text": "Very well .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 569.01,
+    "end": 569.59,
+    "text": "Oh , boy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 592.06,
+    "end": 593.68,
+    "text": "I'm just saying , second base is right there .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 601.5,
+    "end": 607.76,
+    "text": "Mm , I'm thinking about adopting some quirky affectation , like a pipe or a monocle or a handlebar moustache .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 610.62,
+    "end": 613.62,
+    "text": "For all those girls out there looking for the Indian Monopoly man ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 618.09,
+    "end": 619.91,
+    "text": "This is not a safe place . You can't share anything here .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 623.68,
+    "end": 626.17,
+    "text": "The two of you need to get your women in line !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 628.95,
+    "end": 629.43,
+    "text": "What ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 629.73,
+    "end": 656.14,
+    "text": "Last night I was strong-armed into an evening of harp music and spooning with an emotional Amy Farrah Fowler . This on a night that I had originally designated for solving the space-time geometry in higher-spin gravity and building my Lego Death Star . And why ? Your gal pals , Penny and Bernadette , went out shopping for some wedding nonsense without Amy , an action they took with no thought or regard as to how it would affect me , the future of string theory or my Lego fun time .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 658.62,
+    "end": 660.12,
+    "text": "What do you want us to do about it ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 660.27,
+    "end": 669.99,
+    "text": "You clearly weren't listening to my topic sentence , get your women in line ! You make them apologize to Amy and set things right . I am a man of science , not someone's snuggle bunny !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 671.69,
+    "end": 674.25,
+    "text": "Why do I have to talk to Penny ? She's not my girlfriend .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 674.49,
+    "end": 678.15,
+    "text": "You invited her to lunch four years ago . Everything about her is on you , you make it so !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 682.03,
+    "end": 682.99,
+    "text": "Moo-shu is Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 683.15,
+    "end": 684.28,
+    "text": "Thank you . Where's Sheldon ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 684.62,
+    "end": 687.58,
+    "text": "Oh , he was up late last night , so I gave him an early dinner and put him to bed .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 689.15,
+    "end": 690.28,
+    "text": "That's so sweet .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 690.85,
+    "end": 692.98,
+    "text": "Yeah , but now he's gonna be up at dawn and want to play .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 695.43,
+    "end": 701.44,
+    "text": "So , listen , guys , the reason he was up late is because he was taking care of Amy . She's kind of upset .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 701.59,
+    "end": 701.93,
+    "text": "Why ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 702.38,
+    "end": 705.21,
+    "text": "Her feelings got hurt because you guys went dress shopping without her .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 705.82,
+    "end": 707.23,
+    "text": "I told you that would happen .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 707.63,
+    "end": 711.44,
+    "text": "Okay , look , this is her first time being a bridesmaid and she's just getting a little crazy with it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 711.8,
+    "end": 717.73,
+    "text": "She keeps on telling us stories about bridesmaid traditions in other cultures , and they're all about getting naked and washing each other .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 717.73,
+    "end": 717.86,
+    "text": "and",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 726.83,
+    "end": 730.99,
+    "text": "she keeps trying to figure out if our cycles have synced up so we can call ourselves the Three Menstra-teers",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 731.01,
+    "end": 738.48,
+    "text": "We thought it would be easier to look at dresses one time without her . I feel terrible .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 738.74,
+    "end": 742.06,
+    "text": "know . Me , too . We'll talk to her . Hey , wait , how did she find out ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 743.36,
+    "end": 762.75,
+    "text": "Raj did it . And he says he would do it again . Okay , I'm sorry . You sent me the picture , I wasn't thinking . Well , hey , I'm usually pretty good at not blabbing . You tell me tons of stuff about these guys , and I never repeat it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 757.01,
+    "end": 757.45,
+    "text": "Oh , Howie .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 766.85,
+    "end": 767.42,
+    "text": "What do you tell him ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 767.93,
+    "end": 770.9,
+    "text": "Oh , you know , just pillow talk . You guys have nothing to worry about .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 772.3,
+    "end": 773.66,
+    "text": "Hold on , did you talk about us when we were dating ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 774.2,
+    "end": 775.75,
+    "text": "No . All your little secrets are fine .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 775.75,
+    "end": 776.02,
+    "text": "fine .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 785.68,
+    "end": 786.37,
+    "text": "I'll tell you later .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 791.01,
+    "end": 804.37,
+    "text": "Come on , tumour . Come on , tumour , Mama needs an aggressive little glioblastoma . Yay , brain tumour ! Probably not the same reaction you had when you got the news .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 807.78,
+    "end": 808.31,
+    "text": "Hi .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 808.74,
+    "end": 809.09,
+    "text": "Hello .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 809.88,
+    "end": 810.76,
+    "text": "What are you doing here ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 811.38,
+    "end": 815.05,
+    "text": "Well , look , we just wanted to apologize for not bringing you with us the other day .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 815.56,
+    "end": 821.52,
+    "text": "That's not necessary , it's like Sesame Street says , one of these things is not like the other , one of these things should die alone .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 822.05,
+    "end": 828.18,
+    "text": "Look , come on , Amy , look , let us make it up to you . We'll have a girl's night , we'll do whatever you want .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 828.71,
+    "end": 834.31,
+    "text": "We can go down to the Korean baths and do that thing you were talking about where we wash each other .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 834.84,
+    "end": 836.43,
+    "text": "With-with loofah mitts , no hands .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 838.96,
+    "end": 843.68,
+    "text": "It's okay . I'm glad this happened . I can stop pretending that some beautiful girl and her cute-in-",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 843.74,
+    "end": 844.55,
+    "text": "Amy , we're really sorry .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 848.6,
+    "end": 849.94,
+    "text": "Yeah , we feel awful .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.24,
+    "end": 860.86,
+    "text": "Don't . I'll be okay . You're not the first girls I thought were friends with me who ended up shunning me . It's like elementary school , junior high , high school , undergrad , grad school , and that semester abroad in Norway all over again .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 861.8,
+    "end": 863.2,
+    "text": "Oh , come on , Amy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.51,
+    "end": 867.55,
+    "text": "You don't get it . Look at this brain .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 868.48,
+    "end": 869.41,
+    "text": "I don't really want to .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 871.11,
+    "end": 885.35,
+    "text": "This is us . Bernadette , you are the analytical , scientific left hemisphere . Penny , you're the creative , spontaneous right hemisphere . And where's Amy ? She's right here , the sad little tumour no one wants to go dress shopping with .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 886.41,
+    "end": 891.89,
+    "text": "Amy , you're not a tumour . Penny , tell her she's not a tumour .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 902.89,
+    "end": 927.82,
+    "text": "Did you know that when Alexander Graham Bell invented the telephone , he proposed answering it with ahoy ? Ahoy . I like it . Amy ? Is that you ? Have you been drinking ? I'm sorry , I bet my sweet what ? Well , all right . We're on our way .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 929.1,
+    "end": 930.47,
+    "text": "What's going on ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 930.51,
+    "end": 934.16,
+    "text": "It would seem Amy is drunk in a liquor store parking lot .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 934.37,
+    "end": 935.19,
+    "text": "Really ? Amy ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 936.04,
+    "end": 938.54,
+    "text": "Leonard , be glad you can't keep a woman . They are a handful .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 942.76,
+    "end": 949.59,
+    "text": "Oh , look . It's Sheldon and little Leonard . Hi , little Leonard .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 952.79,
+    "end": 953.15,
+    "text": "Hi , Amy .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 953.69,
+    "end": 954.29,
+    "text": "Hey , Cuddles .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 956.09,
+    "end": 956.62,
+    "text": "Cuddles ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 957.13,
+    "end": 959.47,
+    "text": "Yes , Cuddles . We cuddled . Grow up , Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 962.57,
+    "end": 963.62,
+    "text": "Amy , what are you doing here ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 963.89,
+    "end": 967.94,
+    "text": "Well , I came here to get a bottle of wine like Penny taught me to do when you're sad .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 970.42,
+    "end": 972.41,
+    "text": "Yeah , but why didn't you go back to your apartment ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 972.59,
+    "end": 979.33,
+    "text": "Didn't you go to high school , Leonard ? Parking lots are where all the cool kids hang out . Not that the rat bastards ever invited me .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.84,
+    "end": 981.99,
+    "text": "Maybe we should get you home .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 982.12,
+    "end": 992.17,
+    "text": "Oh , hang on , hang on , hang on . Sheldon , what would it take for you to go into that liquor store , buy a bottle of hooch , take me across the street to that motel , and have your way with me ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 996.56,
+    "end": 997.84,
+    "text": "Yeah , Sheldon , what would it take ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1001.91,
+    "end": 1003.82,
+    "text": "I'm begging both of you , please , let's go .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1004.59,
+    "end": 1006.92,
+    "text": "Okay . Come on . Upsy-daisy .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1007.69,
+    "end": 1010.31,
+    "text": "Whee ! Ooh , finally someone found second base .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1016.05,
+    "end": 1020.15,
+    "text": "I know how you feel . I got a knife slicing through my frontal lobe , too .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1022.5,
+    "end": 1022.86,
+    "text": "Hi .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1025.2,
+    "end": 1027.94,
+    "text": "What do you want ? Do you want me to give the friendship bracelet back ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1028.84,
+    "end": 1030.43,
+    "text": "I never gave you a friendship bracelet .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1032.66,
+    "end": 1036.52,
+    "text": "When we first met , I made one and pretended you gave it to me . You can have it back if you want .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1038.12,
+    "end": 1040.59,
+    "text": "No , you made that for you , I want you to have it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1042.87,
+    "end": 1048.17,
+    "text": "We know you're upset , and you have every right to be , but if it's okay with you , we'd like a second chance to make things right .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1048.45,
+    "end": 1053.42,
+    "text": "We are really sorry , and we were trying to think of some way to show you how much we care about you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1054.09,
+    "end": 1058.05,
+    "text": "Which is why it would mean so much if you would agree to be the maid of honour at my wedding .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1059.12,
+    "end": 1065.38,
+    "text": "What ? Wait , is this some kind of practical joke ? Like in Norway , when my friends trapped me in a sauna with a horny otter ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1065.97,
+    "end": 1068.26,
+    "text": "No . I , I want you to be the maid of honour .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1073.62,
+    "end": 1079.78,
+    "text": "Oh , my gosh . No one's every asked me to be the maid of honour before . Well , that's not true . Once , but then they all died .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1081.45,
+    "end": 1085.64,
+    "text": "So is that a yes ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1087.31,
+    "end": 1100.33,
+    "text": "Yes . Yes . Oh , my gosh , I , I have so much to do . There's the bridal shower and the bachelorette party . What should we do for the bachelorette party ? Oh , I know , we'll go to a Native American sweat lodge , we'll take peyote , roll around in the mud , and paint fertility symbols on Bernadette's naked body . So that's happening .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1101.2,
+    "end": 1104.66,
+    "text": "Yeah , sure , sure . Vegas is fun , too .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1105.53,
+    "end": 1112.72,
+    "text": "I feel like crying . Of course , I could just be hormonal . Oh , wait . Maybe our menses are finally syncing up . Bernadette ? No ? Penny ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1112.93,
+    "end": 1119.04,
+    "text": "Sorry . Okay , yeah .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1115.15,
+    "end": 1115.93,
+    "text": "Really ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1120.6,
+    "end": 1127.44,
+    "text": "Yay ! Maid of honour Amy Farrah Fowler's amazing behind-the-scenes wedding video , take one .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1129.43,
+    "end": 1132.97,
+    "text": "We're just trying on dresses , do we really need to record this ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1134.03,
+    "end": 1135.27,
+    "text": "I'm sorry , are you the maid of honour ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1138.15,
+    "end": 1138.95,
+    "text": "I am the bride .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1139.68,
+    "end": 1140.99,
+    "text": "So no . And action .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1141.9,
+    "end": 1143.71,
+    "text": "What do you think ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1144.62,
+    "end": 1145.97,
+    "text": "I love it !",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1146.88,
+    "end": 1148.96,
+    "text": "What are you , a nun ? Come on , bestie , let's see some skin .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1150.64,
+    "end": 1154.68,
+    "text": "Oh , Amy ! Looking sexy !",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1154.81,
+    "end": 1156.48,
+    "text": "You think they don't have mirrors in there ? I know how I look .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1156.48,
+    "end": 1156.99,
+    "text": "look beautiful !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1167.61,
+    "end": 1175.82,
+    "text": "You do . Not Penny beautiful , but beautiful . Come on , bestie , you're up .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1168.83,
+    "end": 1169.53,
+    "text": "Thank you .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1176.36,
+    "end": 1176.99,
+    "text": "Give me a minute .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1177.56,
+    "end": 1179.15,
+    "text": "What is taking you so long ? - Sorry , sorry . Sorry .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  }
+]

@@ -1,0 +1,1234 @@
+[
+  {
+    "start": 12.93,
+    "end": 35.61,
+    "text": "I wish you could all be inside my head . The conversation is sparkling . Fine , I'll tell you . A lichen is an organism made up of two separate species , fungi and algae . If you could merge with another species , what species would you pick and why ? Hint , there is a right answer . None of you will get it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 37.4,
+    "end": 46.85,
+    "text": "Okay , uh , I'd pick swan because , uh , the resulting hybrid would have the advanced industrial civilization of a human and the long graceful neck I've always dreamed of having .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.49,
+    "end": 50.38,
+    "text": "Wrong . Leonard ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.89,
+    "end": 56.88,
+    "text": "Horse , but mostly just for the height . A little bit for the genital girth .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 59.22,
+    "end": 61.15,
+    "text": "Wrong , and let's keep it clean , shall we ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.65,
+    "end": 69.29,
+    "text": "Kangaroo , uh , I'd be a Kanga-Jew . The first of my people to dunk a basketball .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 70.65,
+    "end": 73.87,
+    "text": "Also instead of just living in your mother's house , you could actually live inside her body .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 78.48,
+    "end": 90.11,
+    "text": "Clever , but also wrong . No , the best organism for human beings to merge with is the lichen itself . That way , you'd be human , fungus , and algae . Triple threat . Like three-bean salad .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 92.27,
+    "end": 94.22,
+    "text": "me one circumstance in which that would be useful .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 94.31,
+    "end": 109.2,
+    "text": "All right , picture this , a beautiful outdoor concert . Now , as a human , I appreciate Beethoven . As a fungus , I have a terrific view , growing out of a towering maple tree . And no thank you , expensive concessions . Because as an algae , I'll just snack on this sunlight .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 110.36,
+    "end": 111.59,
+    "text": "He got us again .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 111.63,
+    "end": 112.4,
+    "text": "No , he didn't .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 113.8,
+    "end": 118.23,
+    "text": "Anyway , if it's okay with you , we should talk about Howard's bachelor party .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 118.75,
+    "end": 123.69,
+    "text": "Well , seems like a bit of a let down after our lichen conversation , but , what do you know , you're half swan .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 125.78,
+    "end": 132.56,
+    "text": "I've been doing some research on strippers . One agency I spoke to , said I could get us a great price if we're flexible on age range and number of limbs .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 134.72,
+    "end": 138.1,
+    "text": "Sounds like loads of fun , but I promised Bernadette no strippers .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 138.75,
+    "end": 143.34,
+    "text": "You don't want strippers ? You're the king of strippers . The one club in North Hollywood named a pole after you .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 144.87,
+    "end": 147.68,
+    "text": "What can I tell ya , I'm not into that stuff any more .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 148.15,
+    "end": 152.6,
+    "text": "Good for you , Howard . I'm proud of you . And still , you're the first one of us to get married . We have to do something special .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 152.99,
+    "end": 155.74,
+    "text": "You know Germans have an interesting pre-wedding custom .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 155.81,
+    "end": 156.74,
+    "text": "Well , it's probably not for me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 160.99,
+    "end": 164.38,
+    "text": "Maybe we can go up to Napa Valley . They've got that wine train .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 164.59,
+    "end": 167.11,
+    "text": "Boo , wine ! But yay , trains . I'm in .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 168.73,
+    "end": 177.3,
+    "text": "Anyway , it's a beautiful time of year . Uh , you travel through the vineyards . There's a tasting on board . And all the wild flowers are in bloom . It's magic .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 179.03,
+    "end": 182.43,
+    "text": "Look at that , in 30 seconds , we went from hiring women to being them .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.28,
+    "end": 212.36,
+    "text": "So , I hear you and the lost boys are having a bachelor party tonight .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 213.89,
+    "end": 222.77,
+    "text": "Yeah , just going to a restaurant , get some steaks and scotch . Nothing to worry about . Well , I don't know . It's a bachelor party . There could be strippers . Wouldn't that make you a little jealous ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 218.0,
+    "end": 218.84,
+    "text": "Why should I worry ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 223.11,
+    "end": 230.94,
+    "text": "Oh , come on Leonard , it's you . What's going to happen ? I mean , even if there was a stripper , all you'd do is avoid eye-contact and maybe offer to help her kid with his homework .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.34,
+    "end": 239.81,
+    "text": "Hey , I am a young man in his sexual prime . Under the right conditions , I-I-I am capable of just , really crazy stuff .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 241.19,
+    "end": 246.44,
+    "text": "Really ? What is the craziest thing you've ever done with a woman ? And the time you and I had sex in the ocean does not count .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 246.53,
+    "end": 250.89,
+    "text": "Oh , come on , that's got to count . There was a really strong undertow , we could have died .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.97,
+    "end": 254.16,
+    "text": "Well , have fun tonight .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 254.28,
+    "end": 257.97,
+    "text": "Oh , I will . There is no telling what might happen .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 259.66,
+    "end": 260.38,
+    "text": "Yeah , there is .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 262.89,
+    "end": 274.11,
+    "text": "You know , there's nothing wrong helping some woman's kid get through their S.A.T.'s . Hey , I got to hand it to Raj , he found a really nice spot to have a bachelor party .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 274.71,
+    "end": 278.02,
+    "text": "It's not bad . Unless you compare it to a train ; then it stinks .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 279.75,
+    "end": 281.63,
+    "text": "Are you drinking whisky ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 282.22,
+    "end": 297.27,
+    "text": "Indeed . If I'm to participate in the social convention that is the stag night , then I must embrace all its components , including tobacco , swear words , and yes , alcohol . Jeepers ! That's yucky .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 300.22,
+    "end": 302.65,
+    "text": "Whoa , it's a little early to start dropping J-bombs , don't you think ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 305.28,
+    "end": 305.97,
+    "text": "Hey , you guys .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 306.09,
+    "end": 308.45,
+    "text": "Oh , hey , Wil . Nice of you to make it out tonight for Howard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 308.58,
+    "end": 311.52,
+    "text": "Well , it was either this or another hot tub party at George Takei's house .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 312.67,
+    "end": 317.15,
+    "text": "I'm confused . I thought since our reconciliation , I was your friend in this group .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 317.37,
+    "end": 318.41,
+    "text": "Oh , I'm friends with Howard too .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 318.71,
+    "end": 324.17,
+    "text": "Oh . I guess you're just friends with anybody . Aagh !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 327.24,
+    "end": 334.3,
+    "text": "Hey , uh , Leonard , things are a little tight at the comic book store . I might need some help covering my share of the check .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 334.55,
+    "end": 335.93,
+    "text": "Oh , yeah , no worries .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 336.02,
+    "end": 351.16,
+    "text": "And maybe a few bucks for the valet . And gas money to get home . Great . You know what ? This is my grandfather's watch . 18-carat gold , got it in Europe during the war . Mm-hmm . A hundred bucks and it's yours .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 338.05,
+    "end": 338.62,
+    "text": "Oh , all right .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 341.45,
+    "end": 343.02,
+    "text": "Yeah , sure .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 348.72,
+    "end": 349.66,
+    "text": "Wow , that's very nice .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 353.34,
+    "end": 359.66,
+    "text": "Hey , everybody ! The bachelor boy has arrived ! For he's a jolly good fellow ...",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 365.49,
+    "end": 370.06,
+    "text": "Yes , yes , yes . He's a jowwy good fewwow . What time do the stwippers awwive ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 372.2,
+    "end": 374.52,
+    "text": "Actually , Barry , we're not going to have strippers tonight .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 374.86,
+    "end": 377.93,
+    "text": "Ah , then what the fwig did I get two hundwed dowwaws in singles out for ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 379.87,
+    "end": 380.68,
+    "text": "You want to buy a watch ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 385.19,
+    "end": 400.74,
+    "text": "This is Maid of Honour Amy Farrah Fowler , bringing you the wedding activities just weeks out from the big day . Let's check in with a beautiful , radiant young woman , and her friend who's about to get married . Ladies , can you tell us what you're doing ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 401.3,
+    "end": 412.99,
+    "text": "Um , these are gift bags we're going to put in the hotel rooms of our out-of-town guests . This is a map of Pasadena . This is a list of local restaurants . And then , for Howie's relatives , we have antihistamines , antacids , and medicine for diarrhoea and constipation .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 413.17,
+    "end": 413.31,
+    "text": "Yeah ,",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 415.06,
+    "end": 416.64,
+    "text": "we labeled them stop and go .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 419.27,
+    "end": 427.62,
+    "text": "All right , pivoting to the big question . Bernadette , on your wedding night you'll be consummating your marriage . What do you think your first sexual position will be as husband and wife ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 428.75,
+    "end": 429.87,
+    "text": "Amy , please .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 431.0,
+    "end": 433.69,
+    "text": "Keeping in mind that whoever's on top may set the tone for the marriage .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 435.87,
+    "end": 437.12,
+    "text": "Okay , show's over .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 437.85,
+    "end": 442.28,
+    "text": "Hey , they may conceive a child on their wedding night . Don't you think the kid might get a kick out of knowing how it happened ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 444.14,
+    "end": 448.04,
+    "text": "I don't care . Ask her things like are you going to take Howard's name ? Not who's going to",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 454.31,
+    "end": 461.06,
+    "text": "sit on who ? Nice . You know , you should totally get BernadetteMaryAnnRostenkowskiWolowitz.com before someone snaps it up .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 461.11,
+    "end": 475.74,
+    "text": "Howard already took care of it . Plus , he set up our beautiful wedding website with cute little facts about our family histories . Do you know , for a while in Poland , my family and his family were neighbours .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 476.24,
+    "end": 477.18,
+    "text": "Oh , that's cool .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 477.66,
+    "end": 479.01,
+    "text": "No , it's not . I'll explain it to you later .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 481.07,
+    "end": 492.7,
+    "text": "May I have your attention , please ? We are hear tonight to celebrate the upcoming nuptials of my best friend Howard Wolowitz .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 494.8,
+    "end": 497.38,
+    "text": "And , apparently , Wil Wheaton's best friend .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 498.18,
+    "end": 498.76,
+    "text": "Sheldon ...",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 499.8,
+    "end": 500.5,
+    "text": "Talk to the hand .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.96,
+    "end": 506.84,
+    "text": "Does anyone have any words they'd like to say about our man of the evening ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 507.11,
+    "end": 560.26,
+    "text": "Yeah , I do . . As is the tradition , I have prepared a series of disrespectful jokes which generate humour at Howard's expense . Prepare to have your ribs tickled . Howard , I always thought you'd be the last one of us to ever get married , because you are so short and unappealing . Am I right ? Let's see here . Oh , seriously though , Howard , you're actually one of the most intelligent people I know . And that's a zinger , because you're not . I've always thought that you'd make someone a fine husband someday . Assuming you'd be able to get the parts , and develop the engineering skills to assemble them , which I don't see as likely . Hacha ! Okay , let me see here . Okay , kidding aside , Howard , you are a good friend . And I wish you nothing but happiness . Bazinga , I don't !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 562.55,
+    "end": 562.8,
+    "text": "Sheldon ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 562.97,
+    "end": 566.7,
+    "text": "Doubleazinga ! I do ! Good luck following that .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 569.97,
+    "end": 599.09,
+    "text": "So , Howard Wolowitz tying the knot . Leaving his crazy bachelor days behind . He was a wild one . Well , I guess we all kind of were . I remember this one time , I was with this girl at the beach . We were in the ocean and we started making out . I know , it was crazy . I wasn't even wearing my Aquasocks . Then ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 599.27,
+    "end": 600.73,
+    "text": "Nobody cares , Hofstadter . Wwap it up .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 601.88,
+    "end": 606.67,
+    "text": "Right . To Howard . I totally had sex in the ocean .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 610.24,
+    "end": 636.08,
+    "text": "Okay , I'll go . Howard , when I think about you and Bernadette starting this wonderful life together , I can't help but get a little choked up . I mean , look at you . You have everything . Look at me . I'm 37 . I sleep in the back of a comic book store , and I have the bone density of an 80-year-old man . To Howard .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 636.14,
+    "end": 636.75,
+    "text": "Yeah , to Howard . Um ,",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 646.15,
+    "end": 646.76,
+    "text": "uh , who's next ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 647.24,
+    "end": 664.49,
+    "text": "I'll go . Howard , I'm gonna say something to you that evewybody's thinking but no one has the couwage to say out woud . When you invite a man to a bachewor pawty , the impwication is , there will be stwippews . Maybe not compwetewy nude , but at weast pasties and G-stwings . That's not unweasonable .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 664.61,
+    "end": 705.06,
+    "text": "Hear , hear . Okay , uh , anybody else ? Huh ? No ? Okay , it all comes down to me , the best man . Ooh ! This grasshopper is kicking my ass-hopper . Okay , when I first came to this country , I-I didn't know how to behave or how to dress , or what was cool , I was pretty lonely . But then I met Howard , and suddenly , my life changed , because we could be lonely together . This man became my whole world .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 706.39,
+    "end": 708.23,
+    "text": "Yeah , nice speech , Fwancine .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 712.38,
+    "end": 732.08,
+    "text": "I'm not done , but thank you . I think back to all the good times we had , like , uh , when we went camping and spent that night telling each other all our secrets . I told him I'm addicted to pedicures and he told me he lost his virginity to his cousin .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 735.54,
+    "end": 736.65,
+    "text": "She was my second cousin .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 737.74,
+    "end": 739.89,
+    "text": "And the first woman you ever disappointed sexually . Ba-da-bazinga !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 740.02,
+    "end": 740.25,
+    "text": "Oh ,",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 741.76,
+    "end": 755.04,
+    "text": "oh , yeah , and then there was the time when Leonard and I took Howard to Las Vegas and paid a hooker to pretend she was Jewish and that she wanted his little kosher pickle . Of all the Howard humping hookers stories , that one's my favourite !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 761.88,
+    "end": 763.37,
+    "text": "Okay , buddy , that's it . Sit down .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 764.05,
+    "end": 768.32,
+    "text": "Oh , oh , what about that tubby girl in the Sailor Moon costume at Comic-con ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 769.55,
+    "end": 771.15,
+    "text": "Don't remember . Please sit down .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 771.4,
+    "end": 777.55,
+    "text": "The only threesome I've ever had in my life , and I'm proud to say it was with this man right here .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 778.72,
+    "end": 781.06,
+    "text": "Oh , please shut up .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 782.23,
+    "end": 791.45,
+    "text": "Oh , oh , don't get me wrong , nothing happened with me and Howard . There was about 200 pounds of Sailor Moon between us .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 793.27,
+    "end": 796.56,
+    "text": "Oh , Internet , this is so going all over you .",
+    "speaker": "wil_wheaton",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 798.7,
+    "end": 799.64,
+    "text": "Jeepers , I'm drunk .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 806.97,
+    "end": 814.93,
+    "text": "Thank you for picking us up . There's a warning , right there , on the scotch bottle . You cannot be operatin' heavy machinery after you had a snootful of this , laddie !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 815.43,
+    "end": 815.79,
+    "text": "Funny .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 822.86,
+    "end": 823.74,
+    "text": "You boys have a nice time ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 824.49,
+    "end": 832.15,
+    "text": "Yeah , it was great . And low-key , like I promised . No hanky-panky , no strippers . Just the guys telling jokes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 833.56,
+    "end": 834.01,
+    "text": "That's nice .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 834.14,
+    "end": 844.36,
+    "text": "How about you ? Did you have a fun night ? Yeah , we , uh , made gift bags , had wine , and then went online and saw this .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 845.18,
+    "end": 848.76,
+    "text": "Of all the Howard humping hookers stories , that one's my favourite .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 854.35,
+    "end": 857.99,
+    "text": "You know , we're not that far from my apartment . If you stop the car , I can walk from here .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 860.09,
+    "end": 861.6,
+    "text": "You ain't goin' anywhere , Threeway .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 863.55,
+    "end": 864.88,
+    "text": "Bernadette , listen ...",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.97,
+    "end": 871.34,
+    "text": "You lied to me . You said you told me about all the girls you've been with , but you never mentioned your cousin , the prostitute or Raj !",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 873.92,
+    "end": 879.47,
+    "text": "Seriously , you don't even have to stop the car . Anything under ten miles an hour and I can combat-roll into the street .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 881.36,
+    "end": 891.38,
+    "text": "Okay , just to set the record straight , I didn't hire the prostitute , she was a gift from him . Shame on you , Raj . That is not how we treat women in this country .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 893.25,
+    "end": 907.77,
+    "text": "Don't you try and blame this on him . Zip it , pervert ! I don't know what I'm going to do . I'm supposed to marry Howard in a couple of weeks and I'm not sure I even know who the man is any more .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 895.6,
+    "end": 896.53,
+    "text": "Thank you , Bernadette .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 908.16,
+    "end": 914.86,
+    "text": "I'm curious what's bothering you most , the borderline incest , the prostitute or group sex with the girl dressed as the children's cartoon ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 917.67,
+    "end": 920.74,
+    "text": "Amy , remember when we went over things that would be helpful and things that wouldn't ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 921.29,
+    "end": 923.39,
+    "text": "Right . And that was ...",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 923.44,
+    "end": 923.69,
+    "text": "Not .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 925.19,
+    "end": 931.15,
+    "text": "When I first met Howard , he seemed so innocent to me , just a sweet little guy who lives with his mother .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 931.74,
+    "end": 936.5,
+    "text": "Well , if that's what you like , I'll take you to the comic book store , the place is full of 'em .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 937.45,
+    "end": 942.8,
+    "text": "Wait a minute . You set me up with Howard . Did you know about all the creepy stuff he was into ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 942.81,
+    "end": 943.05,
+    "text": "little . You hear stuff .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.38,
+    "end": 947.71,
+    "text": "Why didn't you tell me",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 948.37,
+    "end": 960.25,
+    "text": "Well , I was gonna , but I didn't think it would go past the first date . Then , when it did , I thought for sure it wouldn't go past you meeting his mother . Definitely not past the two of you sleeping together . I mean , the warning signs were there , this is really on you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 960.25,
+    "end": 961.51,
+    "text": "you were my friend .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 971.32,
+    "end": 972.34,
+    "text": "I don't think that was helpful .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 975.87,
+    "end": 979.03,
+    "text": "Hi , Bernie , it's me again . Please call me back .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.17,
+    "end": 982.0,
+    "text": "Dude , I am so sorry .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 982.52,
+    "end": 986.19,
+    "text": "It's not your fault , it's mine . I did all that stuff , not you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 986.91,
+    "end": 988.48,
+    "text": "Actually , you did do one of them together .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 991.34,
+    "end": 991.62,
+    "text": "Here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 992.17,
+    "end": 993.03,
+    "text": "What is this ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 993.3,
+    "end": 996.66,
+    "text": "You're upset . The convention is to bring an upset person a hot beverage .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 996.79,
+    "end": 997.99,
+    "text": "No , but what is it ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 998.41,
+    "end": 1010.86,
+    "text": "Chicken broth . It seemed culturally appropriate . Also , there was a single cube of chicken bouillon in the cupboard when I moved in and it's been bothering me for the last eight years . So , as they say , two birds .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1012.09,
+    "end": 1015.01,
+    "text": "I don't know what my next move is .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1015.49,
+    "end": 1024.81,
+    "text": "Well , Howard , I don't know much about women . No , uh , that , that's it . I don't know much about women . Raj , you got anything ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1018.37,
+    "end": 1018.47,
+    "text": "Yeah ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1025.31,
+    "end": 1028.16,
+    "text": "I've got the phone number of the tubby girl from Comic-Con .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1030.26,
+    "end": 1032.48,
+    "text": "I'm not calling the girl from Comic-con .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1033.0,
+    "end": 1035.25,
+    "text": "All right . More Sailor Moon for me .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1038.9,
+    "end": 1040.15,
+    "text": "I just threw up the bachelor party .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1044.29,
+    "end": 1046.85,
+    "text": "Please come out , Bernadette . Let's talk through this .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1047.04,
+    "end": 1048.42,
+    "text": "No , leave me alone .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1049.87,
+    "end": 1053.62,
+    "text": "Perhaps you should give him a taste of his own medicine . Do you have a cousin who you find attractive ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1056.03,
+    "end": 1056.44,
+    "text": "Amy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1056.76,
+    "end": 1059.76,
+    "text": "Hey , you introduced him to the sleazebag . I'm just trying to clean up your mess .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1062.8,
+    "end": 1066.86,
+    "text": "Oh , hi . I need to talk to Bernadette .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1064.32,
+    "end": 1064.76,
+    "text": "Hey .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1067.45,
+    "end": 1069.66,
+    "text": "Well , I don't think she wants to talk to anyone right now .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1070.45,
+    "end": 1074.23,
+    "text": "All right , well , could you at least give her a message ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1074.73,
+    "end": 1075.58,
+    "text": "Yeah , sure , I guess .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1076.93,
+    "end": 1111.88,
+    "text": "Tell her I'm really sorry , and if she doesn't want to marry me , I get it . But what I really want her to know is the guy that she's disgusted by , is the guy that I'm disgusted by , too . But that guy doesn't exist any more , he's gone , and the reason is because of her . So , if this relationship is over , let her know that she made me a better man , and tell her thank you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1111.88,
+    "end": 1112.19,
+    "text": "you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1120.44,
+    "end": 1120.8,
+    "text": "Howie ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1129.06,
+    "end": 1130.92,
+    "text": "Penny has a message for you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1131.75,
+    "end": 1135.83,
+    "text": "I heard . Your voice , not unlike your mother's , travels through walls .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1137.14,
+    "end": 1138.55,
+    "text": "Do you want me to go ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1139.54,
+    "end": 1149.31,
+    "text": "No . Come here . I'm still really mad at you .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1149.93,
+    "end": 1150.62,
+    "text": "I get that .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1151.12,
+    "end": 1153.35,
+    "text": "Is there anything else about your past I should know ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1153.95,
+    "end": 1163.24,
+    "text": "Couple things , but , you know , most of them happened overseas . I'll tell you later . So , is the wedding still on ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1160.05,
+    "end": 1160.22,
+    "text": "Okay .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1164.59,
+    "end": 1165.92,
+    "text": "Yeah , the wedding's still on .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1165.93,
+    "end": 1168.93,
+    "text": "Oh , thank God . I'm still a maid of honour .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1168.93,
+    "end": 1169.48,
+    "text": "the hell .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1178.26,
+    "end": 1179.11,
+    "text": "This is kind of hot .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1179.97,
+    "end": 1180.33,
+    "text": "Hello .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1188.77,
+    "end": 1189.52,
+    "text": "What's with the robe ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1189.96,
+    "end": 1193.89,
+    "text": "I'm gonna have sex with you right here , right now , on that washing machine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1195.71,
+    "end": 1198.45,
+    "text": "No , you're not .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1200.27,
+    "end": 1200.93,
+    "text": "Come on , please .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1203.46,
+    "end": 1205.83,
+    "text": "If you want to do something , you can help me fold this sheet .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1208.13,
+    "end": 1210.8,
+    "text": "Folding a sheet in my underwear , still pretty crazy .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  }
+]

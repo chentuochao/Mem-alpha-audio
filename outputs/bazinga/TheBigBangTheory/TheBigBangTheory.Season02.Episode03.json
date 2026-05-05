@@ -1,0 +1,1486 @@
+[
+  {
+    "start": 1.76,
+    "end": 22.08,
+    "text": "Fellow warriors , this is Sheldor the Conqueror . We are about to enter Axel's fortress . Now this is a long run , so let's do another bladder check . Alright Barry , we'll wait for you again , but you really should see a doctor . Sheldor is AFK .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 27.41,
+    "end": 29.5,
+    "text": "Penny , are you experiencing some sort of difficulty ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 29.63,
+    "end": 31.9,
+    "text": "Yes , I can't get my stupid door open .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 32.33,
+    "end": 39.42,
+    "text": "You appear to have put your car key in the door lock , are you aware of that ? Alright then .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 36.66,
+    "end": 37.41,
+    "text": "Yeah !",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 40.52,
+    "end": 43.8,
+    "text": "Dammit , dammit , dammit , dammit , dammit , dammit .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 44.9,
+    "end": 47.32,
+    "text": "Would it be possible for you to do this a little more quietly ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 48.7,
+    "end": 50.29,
+    "text": "I can't get the damned key out .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 50.59,
+    "end": 57.88,
+    "text": "Well that's not surprising . That Baldwin lock on your door uses traditional edge mounted cylinders , whereas the key for your Volkswagon uses a centre cylinder system .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 59.51,
+    "end": 61.13,
+    "text": "Thankyou , Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.76,
+    "end": 68.4,
+    "text": "You're welcome . Point of inquiry , why did you put your car key in the door lock ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 68.51,
+    "end": 78.8,
+    "text": "Why ? I'll tell you why . Because today I had an audition , it took me two hours to get there , I waited an hour for my turn , and before I could even start they told me I looked too Midwest for the part . Too Midwest ? What the hell does that even mean ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 79.12,
+    "end": 85.91,
+    "text": "Well , the American Midwest was mostly settled by Scandinavian and Germanic peoples who , well they have a characteristic facial bone structure ... .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 86.93,
+    "end": 102.28,
+    "text": "I know what it means , Sheldon ! God , you know , I have been in L.A . for almost two years now , and I haven't got a single acting job , I have accomplished nothing , haven't gotten a raise at work , haven't even had sex in six months , and just now when I was walking up those stairs a fly flew in my mouth and I ate it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 102.95,
+    "end": 107.27,
+    "text": "Well , actually , insects are a dietary staple in many cultures , they're almost pure protein .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 108.72,
+    "end": 108.84,
+    "text": "Oh , sonofabitch !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 111.18,
+    "end": 124.58,
+    "text": "I believe the condensation on your frozen foods weakened the structural integrity of the bag . But returning to your key conundrum , perhaps you should call a locksmith and have him open the door for you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 124.67,
+    "end": 126.89,
+    "text": "I did , and he said he'll get here when he gets here .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 127.31,
+    "end": 130.78,
+    "text": "And you're frustrated because he phrased his reply in the form of a meaningless tautology ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 131.77,
+    "end": 140.69,
+    "text": "No ! I am frustrated because I am a failure at everything and my breath smells like fly .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 141.68,
+    "end": 142.34,
+    "text": "There there .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 150.29,
+    "end": 152.65,
+    "text": "Would you prefer to wait in our apartment ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 152.68,
+    "end": 156.27,
+    "text": "No Sheldon , I'd rather sit on this freezing cold floor sobbing like a three year-old .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 157.21,
+    "end": 157.79,
+    "text": "Alright then .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 159.19,
+    "end": 160.45,
+    "text": "For God's sake !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.88,
+    "end": 165.86,
+    "text": "Just when I think I've gotten the hang of sarcasm .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 191.31,
+    "end": 194.53,
+    "text": "Make yourself comfortable . Not there .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 223.79,
+    "end": 225.5,
+    "text": "Sheldor is back online .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 226.93,
+    "end": 227.47,
+    "text": "Sheldor ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 229.06,
+    "end": 229.63,
+    "text": "The Conqueror .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 231.92,
+    "end": 232.57,
+    "text": "What are you doing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 234.32,
+    "end": 247.22,
+    "text": "AFK . I'm playing Age of Conan , an online multiplayer game set in the universe of Robert E. Howard's Conan the Barbarian . Sheldor , back online .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 243.45,
+    "end": 243.64,
+    "text": "Oh .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 248.85,
+    "end": 249.73,
+    "text": "What's AFK ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 250.09,
+    "end": 254.72,
+    "text": "AFK . Away from keyboard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 256.85,
+    "end": 257.02,
+    "text": "OIC .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 258.73,
+    "end": 259.78,
+    "text": "What does that stand for ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 265.05,
+    "end": 266.3,
+    "text": "Oh , I see ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 268.21,
+    "end": 269.89,
+    "text": "Yes , but what does it stand for ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 283.49,
+    "end": 286.07,
+    "text": "Now just click on the enchanted boots to put them on .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 286.48,
+    "end": 288.76,
+    "text": "Oh , I don't know . Can I see them in another colour ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 290.56,
+    "end": 295.6,
+    "text": "Just click on them . Congratulations , you are now a level three warrior .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 296.53,
+    "end": 297.03,
+    "text": "What's going on ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 297.25,
+    "end": 298.96,
+    "text": "Leonard , guess what , I'm a level three warrior .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 300.68,
+    "end": 303.37,
+    "text": "Great , you know there are groceries outside of your apartment ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 303.43,
+    "end": 304.21,
+    "text": "Yeah yeah yeah , shhh !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 305.76,
+    "end": 309.27,
+    "text": "I only bring it up because your ice-cream is melting and it's starting to attract wildlife .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 310.55,
+    "end": 312.89,
+    "text": "Uh-huh , yeah , do I stay in the jungle or go towards the beach ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 312.99,
+    "end": 314.72,
+    "text": "It doesn't matter , right now you're looking for treasure .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 315.79,
+    "end": 319.7,
+    "text": "Okay . Wait , wait , where are you going ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 319.94,
+    "end": 322.82,
+    "text": "You're okay , if you run into crocodiles just kick them with your boots .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 326.42,
+    "end": 327.07,
+    "text": "Want to catch me up ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 328.72,
+    "end": 339.65,
+    "text": "Well let's see , uh , she attempted to open her apartment with her car key , because her face is overly Midwestern , um , she hasn't had sex in six months , and she ate a fly .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 342.16,
+    "end": 342.52,
+    "text": "Uh-huh .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 344.67,
+    "end": 345.77,
+    "text": "Seriously , six months ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.45,
+    "end": 349.16,
+    "text": "Oh my God , a treasure chest , I'm rich !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 349.84,
+    "end": 356.27,
+    "text": "Level three and she thinks she's rich ! What a noob .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 360.03,
+    "end": 362.16,
+    "text": "Okay , we're all set .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 362.54,
+    "end": 363.01,
+    "text": "Let her rip .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 384.13,
+    "end": 384.2,
+    "text": "Hi !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 384.2,
+    "end": 384.34,
+    "text": "it out , it's just corn starch and water .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 384.34,
+    "end": 389.11,
+    "text": "up a non-Newtonian fluid which is liquid , but solid under the percussive action of the speaker .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 389.27,
+    "end": 391.0,
+    "text": "That's what makes it get all funky .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 392.68,
+    "end": 401.05,
+    "text": "Yeah , okay . Listen , I need to talk to Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 402.73,
+    "end": 404.87,
+    "text": "No , that's what she said , Sheldon .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 405.61,
+    "end": 410.92,
+    "text": "Okay , look , I bought the game , and I've been exploring the Island of Tordage but I can't figure out how to get past the guard captain .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 411.1,
+    "end": 418.6,
+    "text": "Do you have the enchanted sword ? You can't slay the guard captain with a bronze dagger , my Lord it's like the car key in your apartment door all over again .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 412.57,
+    "end": 413.65,
+    "text": "No , no , I've a bronze dagger .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 418.94,
+    "end": 420.12,
+    "text": "Alright , alright , how do I get the sword ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 420.35,
+    "end": 421.81,
+    "text": "Well , have you been to the Temple of Mithra ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 422.01,
+    "end": 424.13,
+    "text": "Is that the place on the hill with the weird priests in front of it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 424.13,
+    "end": 425.86,
+    "text": "No , no , no , it's ... oh for God's sakes , gimme .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 426.56,
+    "end": 428.13,
+    "text": "Thank you , I really appreciate this .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 428.19,
+    "end": 430.12,
+    "text": "You're going to have to learn to do these things for yourself , Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.15,
+    "end": 431.45,
+    "text": "Don't patronise me , just get the sword .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 434.43,
+    "end": 435.56,
+    "text": "What the frak ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 436.61,
+    "end": 439.78,
+    "text": "Beats me . They were playing all last night too .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 440.56,
+    "end": 443.28,
+    "text": "It's like some kind of weird comic book crossover .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 443.99,
+    "end": 446.76,
+    "text": "Like if Hulk were dating Peppermint Patty .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.55,
+    "end": 449.11,
+    "text": "I always thought Peppermint Patty was a lesbian ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 449.79,
+    "end": 452.32,
+    "text": "No , that's Marcie . Peppermint Patty's just athletic .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 454.44,
+    "end": 456.3,
+    "text": "There you go , one enchanted sword .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 456.43,
+    "end": 458.15,
+    "text": "Right , gimme , gimme , gimme , I want to kill the guard captain .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 463.59,
+    "end": 464.43,
+    "text": "That girl needs to get a life . Danger , danger .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 464.43,
+    "end": 464.61,
+    "text": "look ,",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 489.68,
+    "end": 492.69,
+    "text": "it's just me , Penny , look , I got to level 25 and reached Purple Lotus Swamp , right ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 492.81,
+    "end": 493.75,
+    "text": "You're in my bedroom .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 494.47,
+    "end": 499.85,
+    "text": "Yeah . Leonard gave me an emergency key . Okay , well can we go talk in the living room ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 496.61,
+    "end": 497.78,
+    "text": "People can't be in my bedroom .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 500.09,
+    "end": 501.4,
+    "text": "I'm not wearing pyjama bottoms .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 503.49,
+    "end": 503.79,
+    "text": "Why not ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 504.1,
+    "end": 504.98,
+    "text": "I spilled grape juice .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 506.04,
+    "end": 507.57,
+    "text": "Well , wear different pyjamas .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 507.76,
+    "end": 512.72,
+    "text": "I can't wear different pyjamas , these are my Monday pyjamas . Penny , people cannot be in my bedroom .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 513.81,
+    "end": 516.71,
+    "text": "Okay , just tell me , is it too soon to join a quest to the Black Castle ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 517.23,
+    "end": 519.49,
+    "text": "You were invited on a quest to the Black Castle ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 519.65,
+    "end": 522.71,
+    "text": "Yeah , yeah , by some guys in Budapest , I'm just not sure it's the right move for my character .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 524.19,
+    "end": 529.47,
+    "text": "Of course it's not , you're only a level 25 , the Hungarians are just using you for dragon fodder .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 530.93,
+    "end": 534.07,
+    "text": "Really ? Boy , you'd think you could trust a horde of Hungarian barbarians .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 536.41,
+    "end": 539.03,
+    "text": "Please Penny , enough , I have to sleep .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 541.43,
+    "end": 549.55,
+    "text": "Okay , well you were great , thanks . Oh , hey Leonard , listen , don't got in Sheldon's room , he's not wearing bottoms .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 556.28,
+    "end": 557.91,
+    "text": "Sheldon , you want to catch me up again ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 561.87,
+    "end": 563.67,
+    "text": "People , I am very busy today .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 564.03,
+    "end": 573.27,
+    "text": "I realise that Dr Gablehauser but it is your job , as head of the department , to mediate all inter-departmental disputes . University policy manual chapter four , subsection two , mediation of inter-departmental disputes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 575.2,
+    "end": 580.04,
+    "text": "Fine . Dr Winkle , what colourful name did you call Dr Cooper this time ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.12,
+    "end": 582.38,
+    "text": "Dr Dumbass .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 585.23,
+    "end": 587.21,
+    "text": "Dr Cooper , Dr Winkle apologises .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 587.41,
+    "end": 588.13,
+    "text": "No she doesn't .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 588.6,
+    "end": 589.31,
+    "text": "No I don't .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 589.78,
+    "end": 596.69,
+    "text": "Here's the problem . I was clearly signed up to use the mainframe in Buckman 204 , and Dr Winkle just wantonly ripped the sign-up sheet off the wall .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 596.81,
+    "end": 601.79,
+    "text": "It wasn't even an official sign-up sheet . He printed it himself and he put his name down in every slot for the next six months .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.84,
+    "end": 614.04,
+    "text": "If it is a crime to ensure that the universities resources are not being squandered chasing sub-atomic wild geese then I plead guilty . Oh , Penny !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 614.43,
+    "end": 615.57,
+    "text": "You need to get that Dr Cooper ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 615.72,
+    "end": 616.3,
+    "text": "God , no .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 617.16,
+    "end": 622.42,
+    "text": "Well don't turn it off , you might miss your call from the Nobel committee letting you know you've been nominated as dumbass laureate of the year .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 623.85,
+    "end": 627.4,
+    "text": "Oh yeah , well , you wouldn't even be nominated .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 632.58,
+    "end": 639.47,
+    "text": "Dr Gablehauser , I have a series of important multi-bit calculations and simulations to run . All she's doing is reducing irrelevant data and making a mock ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 639.71,
+    "end": 645.24,
+    "text": "Excuse me . Gablehauser . It's for you .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 649.02,
+    "end": 666.85,
+    "text": "Hello . Penny , this is not a good time . No , I told you , you're not prepared for the Sanctum of Burning Souls . You need to be in a group of at least five for that quest , and one should be a level 35 healer . Penny , I can't log on and help you . We'll talk when I get home .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 672.91,
+    "end": 674.46,
+    "text": "I'm not getting the computing time , am I ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 675.85,
+    "end": 676.35,
+    "text": "Dumbass .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 681.58,
+    "end": 690.52,
+    "text": "Leonard , you have to do something about Penny . She is interfering with my sleep , she's interfering with my work , and if I had another significant aspect of my life , I'm sure she'd be interfering with that too .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 693.23,
+    "end": 696.14,
+    "text": "Why should I do something , you're the one who introduced her to online gaming .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.34,
+    "end": 703.08,
+    "text": "Well , yes , but you're the one who said hello to her when she moved in . If you'd simply restrained yourself none of this would be happening .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 703.75,
+    "end": 706.01,
+    "text": "Why don't you just tell her to leave you alone .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 706.12,
+    "end": 715.51,
+    "text": "I did . I told her , I texted her , I sent out a very emphatic twitter . I even changed my facebook status to Sheldon Cooper wishes Penny would leave him alone . I don't know what else to do .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 716.95,
+    "end": 718.58,
+    "text": "Well , what am I supposed to do ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 718.64,
+    "end": 723.31,
+    "text": "I don't know , but if you don't figure something out , I warn you I shall become very difficult to live with .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 725.54,
+    "end": 733.44,
+    "text": "You mean , up until now we've been experiencing the happy funtime Sheldon ? I'll go talk to her .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 729.77,
+    "end": 730.23,
+    "text": "Yes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 734.36,
+    "end": 743.97,
+    "text": "No , Fritz , I need you on my flank . No , I don't know German . Flankenzie , flankenzie ! Busy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 743.08,
+    "end": 743.55,
+    "text": "Hey Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 745.64,
+    "end": 747.85,
+    "text": "Yeah , I see that . Shouldn't you be at work ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.88,
+    "end": 748.7,
+    "text": "I don't work on Mondays .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 749.71,
+    "end": 754.37,
+    "text": "It's Thursday . Listen , Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 754.43,
+    "end": 758.57,
+    "text": "Uh , Queen Penelope AFK . What ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 761.27,
+    "end": 771.34,
+    "text": "Okay , um , here's the thing , um , sometimes people , good people , you know , they start playing these games and they find themselves through no fault of their own , you know , kind of , addicted .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 771.56,
+    "end": 772.96,
+    "text": "Yeah , get to the point , I'm about to level up here .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 773.06,
+    "end": 781.51,
+    "text": "Well , i-i-i-it's just if a person doesn't have a sense of achievement in their real life it's easy to lose themselves in a virtual world where they get a false sense of accomplishment .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 781.58,
+    "end": 784.07,
+    "text": "Yeah , jabber jabber jabber , okay boys , Queen Penelope's back online .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 786.61,
+    "end": 789.36,
+    "text": "Penny , you've got cheetos in your hair .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 793.84,
+    "end": 794.56,
+    "text": "Oh , thanks .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 799.03,
+    "end": 799.39,
+    "text": "Wow .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 810.5,
+    "end": 812.3,
+    "text": "Leonard , I said not now .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 816.78,
+    "end": 822.13,
+    "text": "Yeah , I know , I'm just a little concerned about you . Okay , maybe later . Hey . Penny's been keeping him up at night .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 819.37,
+    "end": 819.5,
+    "text": "I said not now .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 819.51,
+    "end": 819.52,
+    "text": "Hey .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 819.52,
+    "end": 819.93,
+    "text": "what's with him ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 825.41,
+    "end": 830.77,
+    "text": "Me too . But probably in a different way .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 832.07,
+    "end": 834.76,
+    "text": "She's gotten really hooked on Age of Conan , she's playing non-stop .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 835.01,
+    "end": 840.11,
+    "text": "Ah , yes , online gaming addiction . There's nothing worse than having that multi-player monkey on your back .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 842.58,
+    "end": 843.27,
+    "text": "Sheldon , wake up .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 843.31,
+    "end": 844.3,
+    "text": "Danger , danger .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 846.78,
+    "end": 849.16,
+    "text": "Afternoon men . Sheldon .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.66,
+    "end": 856.81,
+    "text": "Oh yeah , well your attempt at juvenilizing me by excluding me from the set of adult males ... . oh , I'm too tired to do this .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 857.66,
+    "end": 860.74,
+    "text": "Right , I heard you've been pulling all nighters with middle-earth Barbie .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 862.97,
+    "end": 865.82,
+    "text": "She comes into my room . No-one's supposed to be in my room .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 867.14,
+    "end": 871.74,
+    "text": "Well , I would postulate that she's escaping into the online world to compensate for her sexual frustration .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 871.86,
+    "end": 876.78,
+    "text": "I do that too . But probably in a different way .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 878.42,
+    "end": 884.34,
+    "text": "That's not what she's doing , Leslie , she's just trying to shore up her self esteem , it has nothing to do with sex .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 884.46,
+    "end": 885.72,
+    "text": "Everything has to do with sex .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 886.2,
+    "end": 887.06,
+    "text": "Mmmm , testify .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 893.76,
+    "end": 893.93,
+    "text": "I'm not touching that .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 893.93,
+    "end": 895.44,
+    "text": "you are way off base here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 895.7,
+    "end": 907.27,
+    "text": "Hang on , Leonard , while I have no respect for Leslie as a scientist , or a human being for that matter , we have to concede her undeniable expertise in the interrelated fields of promiscuity and general sluttiness .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 908.63,
+    "end": 913.13,
+    "text": "Thank you . My point is that Tinkerbell just needs to get her some .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 914.03,
+    "end": 917.15,
+    "text": "Some what ? Oh , yes , some sexual intercourse .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 918.72,
+    "end": 919.58,
+    "text": "I'll take the bullet .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 922.44,
+    "end": 924.25,
+    "text": "Excuse me , this whole idea is insane .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 924.44,
+    "end": 935.69,
+    "text": "Yeah , yeah , enough debate , I'm going to take action . Excuse me , are you currently involved in a sexual relationship ? Would you like to be ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 942.03,
+    "end": 942.4,
+    "text": "Sheldon ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 942.55,
+    "end": 946.33,
+    "text": "Zip it pip it . Can I have your phone number ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 961.68,
+    "end": 962.97,
+    "text": "There , problem solved .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 969.03,
+    "end": 969.39,
+    "text": "Dumbass .",
+    "speaker": "leslie_winkle",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 975.45,
+    "end": 978.38,
+    "text": "Okay , I'm at the gate to the Treasury of the Ancients , I'm going in .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 978.5,
+    "end": 984.7,
+    "text": "Stay close to the wall . Avoid the mummies . I must say , you're playing very well for a woman of 23 ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.65,
+    "end": 981.01,
+    "text": "Got it .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 984.7,
+    "end": 986.01,
+    "text": "22 .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 986.32,
+    "end": 987.22,
+    "text": "Right . 22 .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 990.93,
+    "end": 994.53,
+    "text": "Oh , here come the mummies , which spell do I use ? The hateful strike , or the frenzy stance ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 994.74,
+    "end": 995.95,
+    "text": "What happened to the rest of your group ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 996.11,
+    "end": 997.38,
+    "text": "I dumped them , they're a bunch of wussies .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 999.76,
+    "end": 1000.56,
+    "text": "Frenzy stance .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.72,
+    "end": 1002.1,
+    "text": "Frenzy , frenzy , frenzy , frenzy , frenzy !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1005.29,
+    "end": 1018.51,
+    "text": "So listen , would you describe your ideal vacation as a wild adventure to unknown lands , or staying at home curled up with a good book ? These are market research questions . I'm filling out the online registration for your game .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1013.41,
+    "end": 1013.64,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1018.72,
+    "end": 1023.77,
+    "text": "Oh , okay , wild adventure . Oh , frenzy stance isn't working , die you undead mummy , die !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1024.63,
+    "end": 1038.43,
+    "text": "Drink a healing potion . You're welcome . Anyhow , on a scale of 1 to 5 , with 1 being always initiated by him , and 5 being always initiated by you , how do you prefer your sexual encounters to begin ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1025.51,
+    "end": 1025.81,
+    "text": "Thank you .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1040.04,
+    "end": 1041.11,
+    "text": "That's on the registration ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1041.45,
+    "end": 1047.52,
+    "text": "Oh yes , it's quite extensive . But if we complete it , we get a free expansion pack , 75 additional quests .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1047.82,
+    "end": 1049.93,
+    "text": "Ooh , awesome , okay , I totally like to initiate I'm a big old five .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1052.03,
+    "end": 1053.86,
+    "text": "Good to know . Big old five .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1053.87,
+    "end": 1053.88,
+    "text": "Hello .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1066.48,
+    "end": 1067.74,
+    "text": "Leonard , this is Tom .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1071.5,
+    "end": 1079.81,
+    "text": "Hi Tom . Sheldon ? Didn't I explain to you about your little mistake in the cafeteria ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1081.08,
+    "end": 1089.55,
+    "text": "Yes , you were very clear , as was everyone else at the table . Tom , however , has been chosen by science as a suitable mate for Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1090.69,
+    "end": 1091.83,
+    "text": "Chosen by science ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1091.95,
+    "end": 1098.32,
+    "text": "Well , what passes for science on dating sites . They claim to use heuristic algorithms , but it may well be hokum .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1100.05,
+    "end": 1102.25,
+    "text": "You got Penny to sign up for online dating ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1102.49,
+    "end": 1105.53,
+    "text": "No , of course not . No , I used trickery and deceit .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1106.76,
+    "end": 1108.61,
+    "text": "This is bad .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1109.84,
+    "end": 1117.03,
+    "text": "Tom is a paramedic with the fire department , but he's going to med school at night , uh , he likes the outdoors , and , uh , strong women who initiate sex .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1118.53,
+    "end": 1119.53,
+    "text": "Really , really bad .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1121.95,
+    "end": 1124.93,
+    "text": "I'm surprised you struck out with Penny . Apparently she's a big old five .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1128.25,
+    "end": 1129.31,
+    "text": "Sheldon , what do you want .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1129.37,
+    "end": 1135.39,
+    "text": "Oh , good , you got my note . Penny , I'd like you to meet Tom , uh , Penny , this is Tom , Tom , may I present Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1135.73,
+    "end": 1136.4,
+    "text": "Hi Penny .",
+    "speaker": "tom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1136.46,
+    "end": 1144.92,
+    "text": "Yeah , Hi , listen , as long as I'm here , I'm on a quest with a bunch of noobs , they don't know what they're doing , we've got one assassin , three spellcasters and no tank . No , no , no , no , I need you now .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1142.94,
+    "end": 1148.75,
+    "text": "Can we talk about this later . But wouldn't you prefer to socialise with Tom , who is a sexually passive outdoorsman .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1151.98,
+    "end": 1153.53,
+    "text": "Whatever , I'll figure it out myself .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1154.03,
+    "end": 1157.83,
+    "text": "Bye , Penny . I'm sorry , dude .",
+    "speaker": "tom",
+    "dialog_type": "dialog"
+  }
+]

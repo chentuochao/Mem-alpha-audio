@@ -1,0 +1,1395 @@
+[
+  {
+    "start": 3.21,
+    "end": 3.96,
+    "text": "How much time do we have ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 4.45,
+    "end": 7.34,
+    "text": "Uh , t-minus five hours , 37 minutes to onset of meteor shower .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 7.5,
+    "end": 19.7,
+    "text": "Okay , our position is 34.48 degrees north , 118.31 west . That means the azimuth should be 168.22 degrees relative to magnetic north with an elevation of 49.93 .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 20.07,
+    "end": 20.43,
+    "text": "Anything yet ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 20.91,
+    "end": 22.76,
+    "text": "Uh , we have a signal , but there's no frame lock .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 22.86,
+    "end": 25.59,
+    "text": "Hang on , how about now ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 25.83,
+    "end": 28.5,
+    "text": "We did it . We have the west coast feed of HBO .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 29.68,
+    "end": 31.44,
+    "text": "Ooh , Real Sex .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 32.62,
+    "end": 36.57,
+    "text": "Big deal . Every time I watch that show it's old women putting condoms on cucumbers .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 38.47,
+    "end": 40.47,
+    "text": "Alright , let's see what's on the east coast feed .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.23,
+    "end": 42.77,
+    "text": "Oh , hey . Dune .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 45.73,
+    "end": 48.54,
+    "text": "Not a great movie , but look at that beautiful desert .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.16,
+    "end": 52.68,
+    "text": "Too bad Sheldon couldn't come with us .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 53.38,
+    "end": 54.48,
+    "text": "Yes , it's not the same without him .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.61,
+    "end": 64.86,
+    "text": "Oh , this sucks , I'm switching back to Real Sex .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 68.52,
+    "end": 88.18,
+    "text": "Sheldon's log , stardate 63345.3 . While my colleagues are off observing the Leonid meteor shower , I have remained behind to complete my paper on the decays of highly excited massive string states . Although my research is going well I do miss the warmth of human companionship .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 118.97,
+    "end": 148.68,
+    "text": "And good evening to you , Siam Palace . This is Sheldon Cooper . Yeah , I'm going to be dining alone this evening , so I'll be reducing my usual order . I'd like to start with one quarter of the assorted appetizers plate and , uh , one half of the golden treasure for two . Oh , for heaven's sake , in the mid-18th century , King Rama IV of Siam divided a huge empire amongst the colonial powers of Europe in order to preserve his throne . Surely , you , his cultural descendant , can handle pad thai and dumplings .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 148.69,
+    "end": 149.95,
+    "text": "help !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 151.28,
+    "end": 161.27,
+    "text": "I need to go , but you keep in mind that my sharply worded comments on yelp.com recently took down a local muffin store . Penny . Penny . Penny. .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 162.71,
+    "end": 165.6,
+    "text": "Come in ! Hurry !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 167.04,
+    "end": 167.76,
+    "text": "Penny ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 169.2,
+    "end": 171.36,
+    "text": "I'm back here .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 172.8,
+    "end": 174.68,
+    "text": "Penny . Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 180.59,
+    "end": 180.95,
+    "text": "Penny. .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 187.21,
+    "end": 190.09,
+    "text": "Oh , for god's sakes , I'm in the bathroom !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.36,
+    "end": 196.74,
+    "text": "Shall I come back at a better time ? Hello .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.54,
+    "end": 198.88,
+    "text": "in here ! Hurry ! Don't you dare knock . I slipped in the shower , and I think I dislocated my shoulder .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 200.56,
+    "end": 206.72,
+    "text": "Not surprising . You have no safety mat or adhesive stickers to allow for purchase on a surface with a low coefficient of static friction .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 208.19,
+    "end": 208.92,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 210.39,
+    "end": 211.15,
+    "text": "Tubs are slippery .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 211.85,
+    "end": 213.59,
+    "text": "I know . I slipped .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 214.29,
+    "end": 217.22,
+    "text": "I have a series of whimsical duck stickers on the bottom of my tub .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 217.77,
+    "end": 221.87,
+    "text": "Yeah , okay , whatever . Will you just turn the water off and help me up ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 222.42,
+    "end": 223.56,
+    "text": "They're holding umbrellas .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 224.44,
+    "end": 224.88,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 225.76,
+    "end": 232.34,
+    "text": "The ducks in my tub . They're whimsical because ducks have neither the need for , nor the ability to use umbrellas .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 227.19,
+    "end": 227.23,
+    "text": "Uh-huh .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 232.83,
+    "end": 235.51,
+    "text": "Oh , my god . I got to go to the emergency room .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 235.65,
+    "end": 240.2,
+    "text": "Well , assuming you're correct that your right humerus is no longer seated in the glenoid socket , I would certainly think so .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 240.76,
+    "end": 244.19,
+    "text": "Okay , can you drive me ? Well , I can't drive !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 242.0,
+    "end": 242.78,
+    "text": "I don't drive .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 244.82,
+    "end": 250.92,
+    "text": "Well , it seems we've reached an impasse . But I could call you a cab or an ambulance .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 247.42,
+    "end": 248.81,
+    "text": "Ow .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 251.04,
+    "end": 253.18,
+    "text": "No , no , no , I can't wait that long , you got to help me , please .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 254.69,
+    "end": 259.21,
+    "text": "right . Let it never be said that Sheldon Lee Cooper ignored the pleas of a damsel in distress .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 259.58,
+    "end": 260.98,
+    "text": "No one's saying that . Let's go .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 261.37,
+    "end": 266.81,
+    "text": "Well , it does seem rather ironic that for want of 99-cent adhesive ducks , we both might die in a fiery car crash .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 269.68,
+    "end": 271.72,
+    "text": "I wish Penny didn't have to work , she loves camping .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 272.62,
+    "end": 278.14,
+    "text": "Yeah , that would have been great . You and Penny having sex in the tent while I sit out here and watch Howard hump a cactus .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 279.91,
+    "end": 291.47,
+    "text": "Okay , the best I can tell , there are eight other campsites nearby . Mostly science nerds like us , but just over yon ridge are two not unattractive middle school teachers who reek of desperation .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 292.36,
+    "end": 294.76,
+    "text": "Wow . Wonderful . How old are they ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 294.87,
+    "end": 296.5,
+    "text": "Oh I don't know , 50 , 55 .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 297.69,
+    "end": 302.02,
+    "text": "Oh , menopause , nature's birth control .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 303.62,
+    "end": 305.71,
+    "text": "Come on , you guys can't be that hard up .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 306.93,
+    "end": 307.0,
+    "text": "I am .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 307.01,
+    "end": 307.24,
+    "text": "me , too .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 309.14,
+    "end": 311.13,
+    "text": "Look , they gave me homemade cookies .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 311.18,
+    "end": 313.27,
+    "text": "Of course , they did . That's what grandmothers do .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 314.37,
+    "end": 315.39,
+    "text": "So , what are we waiting for ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 315.92,
+    "end": 318.84,
+    "text": "Relax , I said we'd stop by a little later after they have their nap .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 320.54,
+    "end": 322.14,
+    "text": "Good idea . They'll be refreshed .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 323.34,
+    "end": 323.5,
+    "text": "Cookie ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 323.81,
+    "end": 326.94,
+    "text": "Yeah , thank you . Mmmm .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 329.39,
+    "end": 329.92,
+    "text": "Mmmm , not bad .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 330.15,
+    "end": 333.13,
+    "text": "Yeah , very tasty . Well , so tell me more about these teachers .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 333.71,
+    "end": 337.87,
+    "text": "Not much to tell . They had a VW Microbus and were wearing tie-dyed Grateful Dead shirts .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 340.73,
+    "end": 341.09,
+    "text": "Huh .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 343.6,
+    "end": 347.18,
+    "text": "Mmm . Good cookies .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 350.04,
+    "end": 356.24,
+    "text": "I see no organizational system in here whatsoever . Which panties do you wear on Mondays ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 357.44,
+    "end": 360.04,
+    "text": "I don't need panties , I just need shorts and a shirt .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 360.2,
+    "end": 364.22,
+    "text": "My mother always told me one should wear clean underpants in case one is in an accident .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 364.25,
+    "end": 365.9,
+    "text": "One was already in an accident .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 366.17,
+    "end": 369.08,
+    "text": "That doesn't mean one won't be in another , especially if I'm driving .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 369.11,
+    "end": 369.2,
+    "text": "Clothes , Sheldon . I need clothes !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 371.17,
+    "end": 372.77,
+    "text": "Okay , here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 373.5,
+    "end": 386.28,
+    "text": "Seriously ? Those shorts with that top ? No ... No ... Oh , that's cute .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 377.32,
+    "end": 377.77,
+    "text": "All right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 388.19,
+    "end": 389.62,
+    "text": "We should have you checked for a concussion .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 391.55,
+    "end": 395.7,
+    "text": "Okay , now , you got to help me put these on . But don't look .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.93,
+    "end": 394.48,
+    "text": "All right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 396.4,
+    "end": 397.08,
+    "text": "Don't look ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 397.22,
+    "end": 398.44,
+    "text": "I don't want you to see me naked .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 399.09,
+    "end": 413.02,
+    "text": "Oh . Well , that's understandable . You may be interested to know that a prohibition against looking is well established in heroic mythology . Uh , Lot and his wife , Perseus and Medusa , Orpheus and Eurydice . They always look . It never ends well .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 410.8,
+    "end": 411.33,
+    "text": "Yeah , great .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 413.97,
+    "end": 422.71,
+    "text": "Ok , now you gotta help me get my arm into the sleeve . Is that my arm ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 417.04,
+    "end": 417.39,
+    "text": "Ok .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 426.21,
+    "end": 427.35,
+    "text": "It doesn't feel like an arm .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 429.3,
+    "end": 431.25,
+    "text": "Then , maybe you should let it go .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 434.41,
+    "end": 435.13,
+    "text": "All righty .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.8,
+    "end": 449.34,
+    "text": "Stars are pretty , aren't they ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 451.81,
+    "end": 455.96,
+    "text": "Up above the world so high , like little diamonds in the sky .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 457.73,
+    "end": 463.05,
+    "text": "That's beautiful , dude . You should ... You should write that down before someone steals it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 464.36,
+    "end": 465.74,
+    "text": "So , when do the meteors get here ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 466.1,
+    "end": 469.41,
+    "text": "The meteors don't get here , the earth is moving into their path .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 469.97,
+    "end": 479.47,
+    "text": "I can feel it . I can feel the earth moving . It's moving too fast . Raj , slow it down .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 483.1,
+    "end": 484.17,
+    "text": "Okay , how's that ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 487.8,
+    "end": 491.79,
+    "text": "Better . Thanks .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 495.41,
+    "end": 496.87,
+    "text": "Stars are pretty , aren't they ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 501.79,
+    "end": 502.55,
+    "text": "What's so funny ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.93,
+    "end": 509.06,
+    "text": "It's your American accent . Everything you say sounds stupid . Stars are pretty , aren't they ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 518.65,
+    "end": 524.02,
+    "text": "For the record , I should let you know this is my first time driving an actual motor vehicle .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 524.05,
+    "end": 527.09,
+    "text": "You have your learner's permit , right ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 527.3,
+    "end": 532.71,
+    "text": "Yes , and I have logged a considerable number of hours on a simulator . Didn't work out well .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 531.21,
+    "end": 534.52,
+    "text": "Good . All right , can we please go ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.73,
+    "end": 553.0,
+    "text": "One moment . According to my driver's ed book , a side mirror is properly adjusted when a portion of the is driver's door handle is visible in the lower right corner . There's the handle . Oh , no , too far , bringing it back . Optimized . Now , where is the switch to adjust the passenger side mirror ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 553.07,
+    "end": 553.8,
+    "text": "It's right there .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 556.94,
+    "end": 558.42,
+    "text": "Where is the passenger side mirror ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 560.04,
+    "end": 563.45,
+    "text": "In a parking lot in Hollywood . Now , can we please go ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 563.67,
+    "end": 577.1,
+    "text": "Yes . As soon as I adjust my seat . Whee ! Oh , dear . I'm going to have to start again .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 586.09,
+    "end": 591.4,
+    "text": "If I could speak the language of rabbits , they would be amazed , and I would be their king .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 594.33,
+    "end": 602.97,
+    "text": "I hate my name . It has nerd in it . Len nerd .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 606.58,
+    "end": 608.74,
+    "text": "I lost my virginity to my cousin Jeanie .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 611.29,
+    "end": 616.85,
+    "text": "I would be kind to my rabbit subjects . At first .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 618.59,
+    "end": 625.91,
+    "text": "You know what's a cool name ? Angelo . That has angel and jell-o in it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 627.43,
+    "end": 635.25,
+    "text": "It was my Uncle Murray's funeral . We were all back at my Aunt Barbara's house . Our eyes locked over the pickled herring . We never meant for it to happen .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 637.5,
+    "end": 646.12,
+    "text": "One day , I hold a great ball for the President of France , but the rabbits , they hate me and don't come . I am embarrassed , so I eat all the lettuce in the world and make them watch .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 648.79,
+    "end": 653.91,
+    "text": "People could call me Angie . Yo , Angie , how's it goin' ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 656.53,
+    "end": 665.53,
+    "text": "To this day , I can't look at pickled herring without being aroused and ashamed . Oh , cousin Jeanie .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 669.77,
+    "end": 671.9,
+    "text": "Could you please drive a little faster ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 672.58,
+    "end": 678.08,
+    "text": "Oh , I think we're going sufficiently fast . What's that ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 678.41,
+    "end": 680.12,
+    "text": "Nothing . The engine does that sometimes .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 680.14,
+    "end": 683.78,
+    "text": "That can't be nothing , the check engine light is on . We need to find a service station .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 683.81,
+    "end": 686.06,
+    "text": "No . The light has been on since I bought the car .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 686.51,
+    "end": 689.59,
+    "text": "All the more reason to consult with a mechanic before it explodes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 689.67,
+    "end": 694.19,
+    "text": "It's not going to explode , just keep driving . Warp speed ahead , Mr . Spock .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.99,
+    "end": 706.08,
+    "text": "Mr . Spock did not pilot the Enterprise . He was the science officer , and I guarantee you that if he ever saw the Enterprise's check engine light blinking , he would pull the ship over immediately .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.41,
+    "end": 709.96,
+    "text": "Oh , god , I'm gonna lose the arm .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 710.01,
+    "end": 733.25,
+    "text": "Oh , oh , red light , release accelerator and slowly apply the brake . Nailed it . While we have a moment , may I ask you a question ? Why do you have the Chinese character for soup tattooed on your right buttock ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 728.25,
+    "end": 728.46,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 734.35,
+    "end": 736.61,
+    "text": "It's not soup , it's courage .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 737.34,
+    "end": 742.4,
+    "text": "No , it isn't . But I suppose it does take courage to demonstrate that kind of commitment to soup .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 745.09,
+    "end": 746.79,
+    "text": "How did you see it ? You said you wouldn't look .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.56,
+    "end": 750.8,
+    "text": "Sorry . As I told you , the hero always peeks .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 752.5,
+    "end": 753.35,
+    "text": "Anything ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 755.05,
+    "end": 761.85,
+    "text": "No . That was the last pudding cup .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 763.55,
+    "end": 767.82,
+    "text": "No ! What about Slim Jims ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 768.72,
+    "end": 770.85,
+    "text": "That's what he used to eat his pudding , remember ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 772.68,
+    "end": 778.33,
+    "text": "Right ! That was so good ! Sweety and meaty at the same time .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 779.54,
+    "end": 782.83,
+    "text": "Wait . Wait , wait . So you're saying we're out of food ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 783.02,
+    "end": 784.96,
+    "text": "The only thing in here are blue ice packs .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 786.43,
+    "end": 790.84,
+    "text": "I know they're poison , but they look like big , yummy otter pops .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.65,
+    "end": 794.14,
+    "text": "Oh , god , I am so hungry .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 794.53,
+    "end": 798.32,
+    "text": "Me too . Check and see if we have any more pudding .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 801.69,
+    "end": 802.05,
+    "text": "Okay .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 805.42,
+    "end": 824.88,
+    "text": "All right , there's no need to bark at me . According to the inexplicably irritable nurse behind the desk , you'll be seen after the man who claims to be having a heart attack , but appears to be well enough to play Doodle Jump on his iPhone . We have to fill these out . Describe illness or injury .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 825.45,
+    "end": 827.04,
+    "text": "I dislocated my shoulder .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 827.88,
+    "end": 831.18,
+    "text": "All right . And how did the accident occur ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 831.75,
+    "end": 833.13,
+    "text": "You ready know that .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 834.29,
+    "end": 847.91,
+    "text": "Cause of accident , lack of adhesive ducks . Okay , medical history . Have you ever been diagnosed with diabetes ? Kidney disease ? Migraines ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 844.73,
+    "end": 848.63,
+    "text": "No . No . Getting one .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.66,
+    "end": 853.51,
+    "text": "Are you currently pregnant ? Are you sure ? You look a bit puffy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.92,
+    "end": 852.27,
+    "text": "No .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 857.0,
+    "end": 858.3,
+    "text": "Change migraine to yes .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 860.27,
+    "end": 861.91,
+    "text": "When was your last menstrual period ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 862.09,
+    "end": 863.43,
+    "text": "Oh , next question .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 863.65,
+    "end": 874.11,
+    "text": "I'll put , in progress . Okay , moving to psychiatric disorders , list all major behavioural diagnoses , e.g . depression , anxiety , etcetera .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 874.24,
+    "end": 876.83,
+    "text": "Oh , my god , what the hell does this have to do with my stupid shoulder ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 877.42,
+    "end": 879.1,
+    "text": "Episodes of sub psychotic rage .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 880.78,
+    "end": 881.62,
+    "text": "Ass .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 883.3,
+    "end": 891.93,
+    "text": "Possible Tourette's . All right , moles , lesions or other skin conditions . Soup tattoo on right buttock .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 893.18,
+    "end": 903.27,
+    "text": "Hey , Sheldon , Sheldon , look , I am scared and in a lot of pain . Could you please just take a break from being you for just a minute and try being , I don't know , comforting ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 905.6,
+    "end": 912.4,
+    "text": "I'm sorry . There , there . Everything's going to be fine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 921.32,
+    "end": 922.28,
+    "text": "Sheldon's here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 926.05,
+    "end": 930.9,
+    "text": "Thanks . That's much better .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 934.67,
+    "end": 936.13,
+    "text": "Oh , I'm so hungry !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 936.76,
+    "end": 938.98,
+    "text": "Will you shut up ? We're all hungry .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 940.28,
+    "end": 946.37,
+    "text": "Okay , our objective is the boy scout campsite to the east . Easy target . Big doughy scout master , couple of cubs , most webelos .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 947.95,
+    "end": 948.97,
+    "text": "What kind of score are we looking at ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 949.51,
+    "end": 951.99,
+    "text": "Hot dogs , buns , s'mores , I mean , it's a freaking 7-11 .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 952.52,
+    "end": 954.04,
+    "text": "All right , everyone grab flashlights .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 957.8,
+    "end": 963.26,
+    "text": "Oh , my god , could it be ? Yes ! My mother put an I love you brisket in my backpack .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 964.2,
+    "end": 964.84,
+    "text": "Quick , get forks .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 965.16,
+    "end": 967.86,
+    "text": "You don't need forks . It's so tender , it falls apart in your hands .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 968.52,
+    "end": 969.53,
+    "text": "He's right .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 978.22,
+    "end": 980.29,
+    "text": "I feel like we're forgetting something important .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.98,
+    "end": 982.07,
+    "text": "Me , too . But what ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 985.22,
+    "end": 988.24,
+    "text": "Maybe a tupperware bowl of roasted potatoes and carrots ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 988.27,
+    "end": 988.32,
+    "text": "Yes ! Yes !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 988.27,
+    "end": 988.32,
+    "text": "Yes ! Yes !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 995.32,
+    "end": 1007.09,
+    "text": "Now remember , you were given powerful pain medication and a muscle relaxer , so , uh , don't operate heavy machinery . Try not to choke on your own drool .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1011.09,
+    "end": 1022.88,
+    "text": "Wait . You have to help me get into bed . Sheldon has to get me into bed . Bet you never thought I'd say that .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1024.04,
+    "end": 1028.79,
+    "text": "Yes . The charm of your drug addled candour knows no bounds .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1030.54,
+    "end": 1049.19,
+    "text": "You know , people think you're this weird robot man who's so annoying all the time , and you totally are , but then it's like that movie Wall-E at the end . You're so full of love , and you can save a plant and get fat people out of the floaty chairs .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1051.0,
+    "end": 1055.29,
+    "text": "That's a fairly laboured metaphor , but I appreciate the sentiment behind it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1056.44,
+    "end": 1058.09,
+    "text": "Sing \" Soft Kitty \" to me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1062.28,
+    "end": 1064.84,
+    "text": "Soft Kitty \" is for when you're sick . You're not sick .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1065.55,
+    "end": 1067.71,
+    "text": "Injured and drugged is a kind of sick .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.54,
+    "end": 1082.48,
+    "text": "Soft kitty , warm kitty , little ball of fur ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1083.03,
+    "end": 1086.37,
+    "text": "Wait , wait . Let's sing it as a round . I'll start .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1096.59,
+    "end": 1098.31,
+    "text": "Soft kitty , warm kitty , little ball of fur ... See that's where you come in . I'll start over .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1103.54,
+    "end": 1106.42,
+    "text": "Soft kitty , warm kitty , little ball of fur ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1111.66,
+    "end": 1113.46,
+    "text": "I've got all night , Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1118.69,
+    "end": 1120.13,
+    "text": "Soft kitty , warm kitty ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1125.37,
+    "end": 1129.33,
+    "text": "little ball of fur , happy kitty , sleepy kitty , purr , purr , purr .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1134.92,
+    "end": 1145.95,
+    "text": "...And the next morning when he woke up , he rolled over and realized ... duh-duh-duh ! ...she was his cousin .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1154.43,
+    "end": 1155.41,
+    "text": "That's still not funny .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1157.42,
+    "end": 1158.36,
+    "text": "That's still not funny .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1160.09,
+    "end": 1162.32,
+    "text": "And she was my second cousin .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1163.12,
+    "end": 1164.13,
+    "text": "And she was my second cousin . Who cares ? You slept with your cousin .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  }
+]

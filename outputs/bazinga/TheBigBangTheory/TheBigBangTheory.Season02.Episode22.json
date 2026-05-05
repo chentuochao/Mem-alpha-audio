@@ -1,0 +1,1395 @@
+[
+  {
+    "start": 7.42,
+    "end": 14.24,
+    "text": "Smell that ? That's the smell of new comic books . Oh , yes !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 16.95,
+    "end": 18.34,
+    "text": "They're on me today , boys .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 18.98,
+    "end": 21.33,
+    "text": "You're paying ? Have you been selling your sperm again ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 23.42,
+    "end": 31.87,
+    "text": "No , I'm celebrating . As we speak , the space shuttle is docking at the International Space Station where it will deploy the Wolowitz Zero-Gravity Waste Disposal System .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 32.9,
+    "end": 35.4,
+    "text": "Oh , get over yourself , it's a high-tech toilet .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 37.26,
+    "end": 41.65,
+    "text": "Just think . Thanks to your hard work , an international crew of astronauts will boldly go",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.31,
+    "end": 45.7,
+    "text": "Is that supposed to be funny ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 45.82,
+    "end": 54.39,
+    "text": "I believe it is . The combination of the Star Trek reference and the play on words involving the double-meaning of the verb to go suggests that Leonard is humorously mocking your efforts in space plumbing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 55.79,
+    "end": 62.85,
+    "text": "Okay , make your little jokes , but of the four of us , I'm the only one making any real-world contribution to science and technology .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.99,
+    "end": 67.84,
+    "text": "He's right . This is an important achievement , for two reasons . Number one , and , of course , number two .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 67.85,
+    "end": 76.46,
+    "text": "Oh , clever ! Playing on the use of cardinal numbers as euphemisms for bodily functions .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 81.01,
+    "end": 84.07,
+    "text": "Here , Sheldon , I pulled the new Hellboy for you . It's mind-blowing .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 84.82,
+    "end": 87.85,
+    "text": "Excuse me , spoiler alert .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.47,
+    "end": 89.95,
+    "text": "I didn't spoil anything .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 89.98,
+    "end": 96.93,
+    "text": "You told me it's mind-blowing , so , my mind is going into it pre-blown . And once a mind is pre-blown , it cannot be re-blown .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 97.86,
+    "end": 98.42,
+    "text": "I'm sorry .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 98.84,
+    "end": 100.51,
+    "text": "Said the Grinch to Christmas .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 103.74,
+    "end": 109.51,
+    "text": "Uh , hey , Leonard , can I talk to you about something ? Remember I went out with your friend Penny a couple weeks ago ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 106.29,
+    "end": 106.77,
+    "text": "sure , what's up ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 109.62,
+    "end": 110.16,
+    "text": "Yeah , vaguely .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 110.63,
+    "end": 114.95,
+    "text": "Sure you remember . You went to the bar and made a fool of yourself trying to pick up strange women .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 116.46,
+    "end": 118.72,
+    "text": "What about it ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 120.23,
+    "end": 123.75,
+    "text": "Well , uh , the thing is , the date didn't go that well .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 124.14,
+    "end": 133.66,
+    "text": "Oh , too bad . I guess the thing to do now is just pick yourself up , dust yourself off , forget it and move on . Why the hell not ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 131.86,
+    "end": 132.76,
+    "text": "I can't do that .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 135.01,
+    "end": 137.24,
+    "text": "'Cause we're going out again tomorrow .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 137.6,
+    "end": 146.17,
+    "text": "Excuse me , Stuart . Have you read the new Flash ? Well , I have and it will knock your socks off ! Good luck getting them back on .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 140.12,
+    "end": 140.24,
+    "text": "No .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 149.73,
+    "end": 153.63,
+    "text": "Uh , anyway , I figured this is probably my last shot with Penny and I don't want to screw it up .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 154.05,
+    "end": 154.95,
+    "text": "Nobody wants that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 155.69,
+    "end": 162.03,
+    "text": "So , here's my question . It's the second date , you think she'll be expecting things to get physical ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 164.77,
+    "end": 173.12,
+    "text": "Uh , oh , gee , my initial reaction is no . You know , let me think about it and get back to you , okay ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 173.3,
+    "end": 176.28,
+    "text": "Okay , so , you'll give me a call ? Great .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 174.86,
+    "end": 175.76,
+    "text": "Yeah , or you call me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 177.97,
+    "end": 179.16,
+    "text": "Or nobody calls anyone .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 181.0,
+    "end": 184.64,
+    "text": "Interesting . Penny's current suitor asking advice from her former suitor .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.37,
+    "end": 187.9,
+    "text": "You know , thanks for closed-captioning my pain , Raj .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 189.47,
+    "end": 193.34,
+    "text": "wanna make sure he gets nowhere with Penny without jeopardizing your friendship with either of them ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 194.29,
+    "end": 194.84,
+    "text": "I'm listening .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 195.17,
+    "end": 198.85,
+    "text": "Just tell him to do everything you've done with her for the last two years .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 206.29,
+    "end": 206.89,
+    "text": "Hey , Leonard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 208.15,
+    "end": 208.5,
+    "text": "Oh , hi .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.11,
+    "end": 210.86,
+    "text": "How's it going ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 212.29,
+    "end": 213.46,
+    "text": "Good , good . You ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 214.25,
+    "end": 218.11,
+    "text": "Fine . Oh , hey , can I ask you something ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 219.13,
+    "end": 219.46,
+    "text": "Sure .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 235.16,
+    "end": 245.61,
+    "text": "You know your friend Stuart ? Well , he asked me out again and I said yes , and then I started thinking maybe I should talk to you first .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 239.18,
+    "end": 239.7,
+    "text": "Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 246.09,
+    "end": 246.66,
+    "text": "About what ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 247.65,
+    "end": 251.67,
+    "text": "Well , does it bother you , me going out with one of your friends ? 'Cause you know , you and me ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 251.97,
+    "end": 275.05,
+    "text": "No , no that's the past . I'm really more of a right now kind of guy . You know , living in the moment . Although I do have to live a little in the future , 'cause , well , that's my job . Of course , my fondness for classic science fiction does draw my attention backwards , but those stories often take place in the future . In conclusion , no , it doesn't bother me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 276.92,
+    "end": 278.46,
+    "text": "Okay , well , that's really cool of you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 279.06,
+    "end": 282.61,
+    "text": "Yeah , well I wouldn't say cool , I'd just say , that's Leonard !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 283.52,
+    "end": 286.64,
+    "text": "Well , In that case , do you mind giving me some advice ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 287.03,
+    "end": 289.07,
+    "text": "About Stuart ? Love to .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 289.78,
+    "end": 293.29,
+    "text": "He's very shy , how do I make him feel more comfortable around me ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 293.38,
+    "end": 302.42,
+    "text": "Well , uh , first of all , don't underestimate the value of discomfort . Well , yeah , Stuart thrives under pressure , that's why he works in a comic book store .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 298.19,
+    "end": 298.32,
+    "text": "Really ?",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 307.47,
+    "end": 307.83,
+    "text": "Oh .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 310.59,
+    "end": 311.4,
+    "text": "It's Stuart .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 315.7,
+    "end": 316.82,
+    "text": "You're not going to answer it ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 318.63,
+    "end": 321.15,
+    "text": "He wants to talk about Penny . I don't want to talk about Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 322.16,
+    "end": 329.25,
+    "text": "You're making an assumption . Perhaps the comic book store is on fire , and he needs your assistance .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 330.13,
+    "end": 331.27,
+    "text": "Why would he call me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 332.48,
+    "end": 336.66,
+    "text": "We don't know . And if you don't answer the phone , we can't know .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 338.79,
+    "end": 340.87,
+    "text": "I'm not answering the phone , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 345.07,
+    "end": 346.0,
+    "text": "Answer the phone , Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 347.81,
+    "end": 351.03,
+    "text": "No ! There , it went to voice mail .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 357.6,
+    "end": 358.68,
+    "text": "Aren't you going to check your messages ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 360.29,
+    "end": 361.09,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 362.7,
+    "end": 375.26,
+    "text": "You have to check your messages , the leaving of a message is one half of a social contract which is completed by the checking of the message . If that contract breaks down then all social contracts break down and we descend into anarchy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 378.03,
+    "end": 379.65,
+    "text": "It must be hell inside your head .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 382.4,
+    "end": 383.12,
+    "text": "At times .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 385.88,
+    "end": 386.94,
+    "text": "Guys , we have a code red .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 387.29,
+    "end": 392.35,
+    "text": "Do you mean code red the hospital emergency alert , code red the computer worm , or code red the cherry flavoured soft drink from the makers of Mountain Dew ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.62,
+    "end": 399.92,
+    "text": "Look , I was going over the schematics on my zero-G toilet , and I made a teeny tiny mistake on the specifications for the diverter valve .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 400.37,
+    "end": 401.58,
+    "text": "How teeny tiny ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 401.75,
+    "end": 403.29,
+    "text": "It's gonna fail after about ten flushes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 404.8,
+    "end": 406.26,
+    "text": "But the mission is for six months .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 406.48,
+    "end": 414.19,
+    "text": "Yeah , see , that's the code red . It's kind of like a jack-in-the-box , no one knows exactly when , but at some point something way worse than a puppet is gonna pop out of that box .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 417.08,
+    "end": 418.16,
+    "text": "Have you notified NASA ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 418.94,
+    "end": 424.47,
+    "text": "No . Are you crazy?What am I gonna say ? I screwed up your toilet and pretty soon there's gonna be crap floating all over your nice shiny space station ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 425.29,
+    "end": 426.46,
+    "text": "Well , what are you gonna do ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 426.59,
+    "end": 428.87,
+    "text": "I'm gonna figure out how to fix it , then I'll tell them .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 429.4,
+    "end": 430.54,
+    "text": "So , what do you need us for ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.84,
+    "end": 432.1,
+    "text": "He can't figure out how to fix it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 433.25,
+    "end": 435.19,
+    "text": "Hey , you said you were gonna be supportive .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 435.35,
+    "end": 437.77,
+    "text": "I'm trying , but you have to admit this is pretty damn funny .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 440.2,
+    "end": 447.29,
+    "text": "I agree . It's the juxtaposition of the high-tech nature of space exploration against the banality of a malfunctioning toilet that provides the comic fodder here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 452.52,
+    "end": 453.43,
+    "text": "Check your messages .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 456.87,
+    "end": 463.96,
+    "text": "All right , this is an exact duplicate of the Wolowitz Zero-Gravity Human Waste Disposal System as deployed on the International Space Station .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 464.14,
+    "end": 467.6,
+    "text": "Don't you mean the Wolowitz Zero-Gravity Human Waste Distribution System ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 468.61,
+    "end": 469.61,
+    "text": "Good one .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 470.62,
+    "end": 471.12,
+    "text": "Yeah .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 472.85,
+    "end": 486.03,
+    "text": "Yeah , ha , it's hilarious . Now , here's an approximation of the spare parts available on the Space Station . We gotta find a way , using nothing but this , to reinforce this so the waste material avoids the spinning turbine .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 486.4,
+    "end": 487.71,
+    "text": "You mean so it doesn't hit the fan ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 492.49,
+    "end": 500.61,
+    "text": "Yeah , I have to say , I thought the toilet humour would get less funny with repetition . Apparently , there is no law of diminishing comedic returns with space poop .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 506.19,
+    "end": 508.2,
+    "text": "Hey Leonard . You busy ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 506.73,
+    "end": 507.45,
+    "text": "Hey Stuart .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 509.37,
+    "end": 509.38,
+    "text": "Um ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 509.4,
+    "end": 510.74,
+    "text": "Classified , Leonard .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 511.53,
+    "end": 515.06,
+    "text": "Yeah , it's a regular Manhattan Project . What's up ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 516.3,
+    "end": 520.02,
+    "text": "Well , tonight's my date with Penny and since we haven't been able to connect by phone ...",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 520.12,
+    "end": 523.74,
+    "text": "Yeah , I'm sorry , it's been broken . Yeah , that too . Everything's broken .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 521.55,
+    "end": 522.07,
+    "text": "Or e-mail .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 524.87,
+    "end": 527.98,
+    "text": "Anyway , I was just wondering if you had any last-minute advice .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 529.63,
+    "end": 555.36,
+    "text": "All right , well , off the top of my head , I think the most important thing with Penny is to go really slow . I mean , glacial . You know , guys come onto her all the time , so , you need to , like , set yourself apart . You know , be a little shy , don't make too much eye contact . And , you know , treat her with , like , cool detachment and , and , and , you know , fear .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 539.07,
+    "end": 539.49,
+    "text": "Okay .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 556.84,
+    "end": 557.24,
+    "text": "Fear ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 557.69,
+    "end": 561.83,
+    "text": "Yeah , like , you're afraid that if you touch her , she'll break .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 563.42,
+    "end": 565.35,
+    "text": "Well , that plays right into my wheelhouse .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 567.98,
+    "end": 569.53,
+    "text": "Good , good . Well , you kids have fun tonight .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 569.62,
+    "end": 572.8,
+    "text": "Thanks , Leonard . What is that thing anyway ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 573.9,
+    "end": 576.69,
+    "text": "You don't know what this is ? Good . Get out .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 575.43,
+    "end": 575.72,
+    "text": "No .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 580.95,
+    "end": 584.13,
+    "text": "Be afraid of Penny , nice , very crafty .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 584.4,
+    "end": 588.06,
+    "text": "It wasn't bad advice . It just wasn't particularly helpful .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 589.41,
+    "end": 594.51,
+    "text": "For what it's worth , my mother says that when we deceive for personal gain , we make Jesus cry .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.84,
+    "end": 608.16,
+    "text": "All right , what if we use this two-inch PVC to reinforce the centre cross-support ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 608.7,
+    "end": 620.46,
+    "text": "No good . I mean , it might work for the Japanese and the Americans , but have you seen the size of the Russians they got up there ? This thing has to hold up against a hearty potato-based diet .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 622.82,
+    "end": 624.03,
+    "text": "I feel terrible .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 624.39,
+    "end": 627.1,
+    "text": "Maybe if you were helping , you'd feel better about yourself .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 628.21,
+    "end": 631.28,
+    "text": "I deliberately tried to sabotage Stuart's date with Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 631.76,
+    "end": 634.67,
+    "text": "Of course you feel terrible . You completely screwed up your karma , dude .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.18,
+    "end": 637.43,
+    "text": "You don't really believe in that superstition , do you ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 637.75,
+    "end": 657.45,
+    "text": "It's not superstition . It's practically Newtonian . For every action , there's an equal and opposite reaction . Leonard pretends to be a friend and acts like a two-faced bitch , therefore , he is reborn as a banana slug . It's actually a very elegant system , you know , what goes around comes around .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 657.99,
+    "end": 659.88,
+    "text": "Speaking of what goes around comes around ...",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 661.62,
+    "end": 667.93,
+    "text": "Okay , look . Instead of trying to reinforce this structure here , what if we just ran another line , bypass it entirely ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 668.23,
+    "end": 670.63,
+    "text": "It won't work . The diameter of the tubing is insufficient .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 670.86,
+    "end": 672.64,
+    "text": "What if we reposition the collection tank ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 672.76,
+    "end": 674.44,
+    "text": "It won't work . No way to mount it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 674.62,
+    "end": 678.98,
+    "text": "Okay , here's an idea . What if I change my name and go live with my cousin and her husband Avi in Israel ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 681.63,
+    "end": 682.23,
+    "text": "That could work .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 688.93,
+    "end": 698.66,
+    "text": "Morning . Nothing . We just pulled an all-nighter trying to fix a zero-gravity ... pasta maker . I'm gonna make a coffee run . Do you want any ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 689.59,
+    "end": 690.34,
+    "text": "Morning . What's up ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 698.93,
+    "end": 700.17,
+    "text": "Oh , no , thanks . I have coffee .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 700.37,
+    "end": 701.78,
+    "text": "Great . So how'd it go with Stuart last night ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 704.74,
+    "end": 706.21,
+    "text": "I really don't want to talk about it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 706.63,
+    "end": 711.73,
+    "text": "Yeah . Right . Sure . The thing is , before you guys went out , I spoke to him and ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 711.76,
+    "end": 713.23,
+    "text": "I said I don't want to talk about it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 713.92,
+    "end": 714.85,
+    "text": "Okay ... I just ... I kind of ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 714.88,
+    "end": 719.05,
+    "text": "Look , Leonard , what goes on between me and Stuart is none of your business . So just leave it alone , okay ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 723.66,
+    "end": 726.82,
+    "text": "If you really want to clean up your karma , go get my freakin' latte .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 735.44,
+    "end": 740.73,
+    "text": "Hang on , I think I've got this . Help me see if we can wedge this little piece of PVC behind the support rod .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 741.47,
+    "end": 744.71,
+    "text": "You're overestimating the tensile strength of the substructure you're building .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 744.8,
+    "end": 746.33,
+    "text": "Sheldon , I know what I'm doing .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 746.45,
+    "end": 750.5,
+    "text": "If you knew what you were doing , there wouldn't be a space toilet where my coffee table should be .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 752.26,
+    "end": 757.64,
+    "text": "Howard , wait . Why don't you use this instead of the PVC to keep the transverse filter assembly in place ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 758.0,
+    "end": 764.37,
+    "text": "Because this is not a spare part from the space station . This is the thing from the pizza box that keeps the lid from touching the cheese .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 765.21,
+    "end": 773.52,
+    "text": "That what that's for ? In India , the lid just touches the cheese . Of course , we also have rampant poverty and periodic outbreaks of cholera , so a little cardboard in our cheese is no biggie .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 776.47,
+    "end": 777.02,
+    "text": "Where are you going ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 777.23,
+    "end": 778.12,
+    "text": "Comic book store .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 778.25,
+    "end": 780.77,
+    "text": "Oh , an excellent idea ! I could certainly use a break .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 780.87,
+    "end": 781.21,
+    "text": "Me , too .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 781.34,
+    "end": 784.94,
+    "text": "Hold on , you can go to the comic book store when man can once again safely poop in space .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 786.68,
+    "end": 787.63,
+    "text": "Why does Leonard get to go ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 787.95,
+    "end": 795.48,
+    "text": "'Cause he's upset over his situation with Penny and if I have to hear about it again , I'm going to kick him in his ovaries . Thanks for understanding , Howard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 795.61,
+    "end": 802.31,
+    "text": "I got your back , sister . All right , I think we've got a prototype ready to test . Hand me that Tupperware .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 803.97,
+    "end": 804.54,
+    "text": "Wow , that's heavy .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 804.79,
+    "end": 810.16,
+    "text": "Damn right it's heavy , it's my mother's meat loaf , it's been testing toilets for generations .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 811.39,
+    "end": 818.84,
+    "text": "I must say , Howard , I think a detailed letter to MIT describing your current circumstances might entitle you to a refund on your master's degree .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 821.11,
+    "end": 829.49,
+    "text": "Okay , simulated zero-gravity human waste disposal test with meat loaf analog in three , two , one .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 833.56,
+    "end": 833.92,
+    "text": "Fascinating .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 837.99,
+    "end": 839.9,
+    "text": "What do you think the problem is ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 840.86,
+    "end": 842.37,
+    "text": "Not enough bread crumbs .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.0,
+    "end": 855.84,
+    "text": "Hey , Stuart , I need to talk to you . I think I gave you bad advice about Penny , and I want to apologize .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.62,
+    "end": 852.3,
+    "text": "Sure , what's up ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 856.3,
+    "end": 859.57,
+    "text": "No , your advice was great . Yeah , going slow really worked .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 857.47,
+    "end": 857.88,
+    "text": "It was ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 860.2,
+    "end": 863.19,
+    "text": "You're kidding . Never worked for me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.25,
+    "end": 871.53,
+    "text": "Yeah , last night at dinner , I did what you told me , I went really slow , I kept my distance , and two bottles of wine later , we were making out in my car .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 872.64,
+    "end": 874.76,
+    "text": "Wine ? I didn't say to give her wine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 875.81,
+    "end": 878.62,
+    "text": "It doesn't matter , that's where it all went to hell .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 879.04,
+    "end": 882.97,
+    "text": "During the kissing ? What did you do , sneeze in her mouth ? I did that to a girl once .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 885.32,
+    "end": 896.4,
+    "text": "No , everything was good and really hot , and I said \" Oh , Penny, \" and right where she was supposed to say , \" Oh , Stuart, \" she said ... your name .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 901.98,
+    "end": 909.92,
+    "text": "Leonard ? Yeah , no , yeah , wow , I'm sorry . That must've been the last thing you wanted to hear .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 902.46,
+    "end": 903.62,
+    "text": "That is your name , right ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 910.47,
+    "end": 918.37,
+    "text": "Well , it beats you know I'm a dude , right ? Yeah , it was pretty bad .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 919.09,
+    "end": 926.58,
+    "text": "No doubt , no doubt . Okay , well , I'm sorry it didn't work out .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 927.22,
+    "end": 927.63,
+    "text": "your fault .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 928.21,
+    "end": 929.05,
+    "text": "Yeah , how about that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 934.82,
+    "end": 935.9,
+    "text": "See you soon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 942.04,
+    "end": 942.76,
+    "text": "Yeah , sure .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 948.89,
+    "end": 953.42,
+    "text": "Yes , sir , I understand classified . We'll keep it all classified , no one has to know but you and me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 954.16,
+    "end": 954.95,
+    "text": "What's classified ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 955.71,
+    "end": 957.53,
+    "text": "Howard's space toilet . I'll tell you later .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 959.37,
+    "end": 963.67,
+    "text": "Well , they've deployed our solution . Let's just all hope it works .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 964.45,
+    "end": 968.25,
+    "text": "I don't see why I have to worry . My career's not hanging in the balance .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 974.85,
+    "end": 979.63,
+    "text": "That was a joke . It's funny , because it's true .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 983.96,
+    "end": 985.82,
+    "text": "Leonard , could you pass the soy sauce , please ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 986.51,
+    "end": 987.98,
+    "text": "I'm sorry , were you talking to me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 988.52,
+    "end": 989.51,
+    "text": "Yeah , I said Leonard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 990.41,
+    "end": 991.37,
+    "text": "Yes , you did , didn't you ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 991.37,
+    "end": 992.63,
+    "text": "the hell is that ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1001.17,
+    "end": 1001.42,
+    "text": "Meatloaf .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1001.67,
+    "end": 1005.26,
+    "text": "What was it doing on the ceiling ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1006.18,
+    "end": 1007.1,
+    "text": "That's classified .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1023.19,
+    "end": 1026.2,
+    "text": "ISS , Houston . Which crew members would be involved in this E.V.A. ?",
+    "speaker": "ground_controller",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1032.06,
+    "end": 1034.6,
+    "text": "ISS , I'm afraid we can't authorize that .",
+    "speaker": "ground_controller",
+    "dialog_type": "dialog"
+  }
+]

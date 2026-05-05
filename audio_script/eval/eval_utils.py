@@ -3,7 +3,7 @@ import json
 from typing import List, Dict
 import numpy as np
 from .multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
-from audio_script.datasets.turn_annotation import AlignedProcess
+from audio_script.datasets.turn_annotation import AlignedProcess, AlignedProcess_Morespeakers
 import string
 from collections import Counter
 import numpy as np
@@ -274,7 +274,7 @@ def parse_transcript(word_list: Dict) -> List[Dict]:
 
 
 
-def parse_transcript_morespeakers(word_list: Dict) -> List[Dict]:
+def parse_transcript_morespeakers(word_list: Dict, interval_character = '') -> List[Dict]:
     """Parse a word-list dict into speaker-aware turns for 1–8 speakers.
 
     Takes the output format of transcript_gt.json:
@@ -346,7 +346,7 @@ def parse_transcript_morespeakers(word_list: Dict) -> List[Dict]:
     aligned_process = AlignedProcess_Morespeakers(
         transcripts=transcripts_list,
         speaker_names=valid_speakers,
-        interval_character=' ',
+        interval_character=interval_character,
         turn_gap_threshold=TURN_GAP_TH,
     )
 

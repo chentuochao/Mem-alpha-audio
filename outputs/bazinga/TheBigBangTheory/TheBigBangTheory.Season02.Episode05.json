@@ -1,0 +1,1234 @@
+[
+  {
+    "start": 10.71,
+    "end": 26.84,
+    "text": "Good morning , Leonard . Yeah , we're going to have to stop by Pottery Barn on the way to work , I bought these Star Wars sheets but they turned out to be much too stimulating to be compatible with a good night's sleep . I don't like the way Darth Vader stares at me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 12.96,
+    "end": 13.27,
+    "text": "Uh-huh .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 28.79,
+    "end": 29.97,
+    "text": "I'm not going to work .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 30.19,
+    "end": 33.56,
+    "text": "Oh , just because your career's been stagnant for a few years , that's no reason to give up .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 35.06,
+    "end": 40.32,
+    "text": "Sheldon , I was up all night using the new free-electron laser for my X-ray diffraction experiment .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 40.71,
+    "end": 42.42,
+    "text": "Did the laser accidentally burn out your retinas ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 43.79,
+    "end": 44.12,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 44.19,
+    "end": 45.15,
+    "text": "Then you can drive . Let's go .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 48.44,
+    "end": 53.55,
+    "text": "Didn't I tell you I'd be working nights , and that you'd have to make other arrangements . And ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 52.29,
+    "end": 56.76,
+    "text": "You did . I didn't . Let's go .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 58.83,
+    "end": 59.72,
+    "text": "Goodnight , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 59.84,
+    "end": 67.52,
+    "text": "But how am I going to get to work ? I can't take the bus any more . They don't have seatbelts . And they won't let you lash yourself to the seat with bungee cords .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 61.52,
+    "end": 62.33,
+    "text": "Take the bus .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 68.46,
+    "end": 71.54,
+    "text": "You tried to lash yourself to the seat with bungee cords ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 71.64,
+    "end": 77.92,
+    "text": "I didn't try , I succeeded . For some reason it alarmed the other passengers and I was asked to de-bus .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 79.08,
+    "end": 81.1,
+    "text": "Oh , you're a big boy , you'll figure it out .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 81.59,
+    "end": 91.04,
+    "text": "Don't talk to me like I'm a child . Now , take me to return my star wars sheets ! Penny , Penny , Penny ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 91.29,
+    "end": 94.54,
+    "text": "Sheldon , what is it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 94.93,
+    "end": 95.89,
+    "text": "Leonard's asleep .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 98.87,
+    "end": 99.85,
+    "text": "Thanks for the update",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 100.09,
+    "end": 103.58,
+    "text": "No , wait . You have to drive me to work .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 104.24,
+    "end": 105.94,
+    "text": "Yeah , uh , I really don't think I do .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 107.34,
+    "end": 109.42,
+    "text": "But I don't drive , and I can't take the bus .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 109.63,
+    "end": 112.04,
+    "text": "Yeah , honey , you'll be fine as long as you don't do that bungee cord thing , okay ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 112.21,
+    "end": 117.58,
+    "text": "Penny . Didn't you recently state that you and I are friends ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 118.96,
+    "end": 121.66,
+    "text": "Yes , Sheldon , we are friends .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 121.87,
+    "end": 132.12,
+    "text": "Then I hereby invoke what I'm given to understand is an integral part of the implied covenant of friendship . The favour .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 134.41,
+    "end": 135.12,
+    "text": "Oh , dear God .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 136.68,
+    "end": 142.36,
+    "text": "I'm sorry , I didn't realize I was interrupting your morning prayers . When you're done , we'll go .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 169.16,
+    "end": 170.41,
+    "text": "Thank you for driving me to work .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 171.3,
+    "end": 173.01,
+    "text": "You know this is my day off , Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 173.15,
+    "end": 185.32,
+    "text": "Oh , good . I'm not keeping you from anything . Your check engine light is on . Typically that's an indicator . To , you know , check your engine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 181.17,
+    "end": 181.64,
+    "text": "Mm-hmm .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 186.43,
+    "end": 188.17,
+    "text": "It's fine , it's been on for , like , a month .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 189.83,
+    "end": 193.31,
+    "text": "Well , actually , that would be all the more reason to , you know , check your engine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 194.82,
+    "end": 196.07,
+    "text": "Sheldon , it's fine .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.31,
+    "end": 201.0,
+    "text": "If it were fine , the light wouldn't be on . That's why the manufacturer installed that light , to let you know it's not fine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 201.03,
+    "end": 203.25,
+    "text": "Uh , maybe the light's broken .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 204.32,
+    "end": 208.61,
+    "text": "Is there a \" check the check engine light light \" ? O-o-o-oh !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 210.59,
+    "end": 210.95,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 211.92,
+    "end": 220.32,
+    "text": "Studies have shown that performing tasks such as eating , talking on a cell phone or drinking coffee while driving reduces one's reaction time by the same factor as an ounce of alcohol .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 220.83,
+    "end": 221.98,
+    "text": "Do you have any alcohol ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 222.63,
+    "end": 223.16,
+    "text": "Of course not .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 223.59,
+    "end": 224.2,
+    "text": "Too bad .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 227.68,
+    "end": 232.2,
+    "text": "You're going up Euclid Avenue ? Leonard takes Los Robles Avenue .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 229.62,
+    "end": 230.01,
+    "text": "Mm-hmm .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 232.7,
+    "end": 233.85,
+    "text": "Well , good for Leonard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 234.59,
+    "end": 330.41,
+    "text": "Euclid Avenue is shorter as the crow flies , but it has speed bumps , which appreciably increase point-to-point drive time , making it the less efficient choice . But you have the conn . Of course , if you're not going to slow down for the speed bumps , I withdraw my previous objection . Here's a fun question . Do you know what the most common street name is ? The answer's tricky . It's Second Street . You see , you'd think it would be First Street , but in most towns , First Street eventually gets renamed to something else , you know , like Main Street , Broad Street , Michigan Avenue . Leonard and I often use our commute time to exercise our minds with brain-teasers like that . We also play games . Would you like to play one ? Oh , come on , it's fun . Ooh ! Another bump . Okay . I'll say an element , and uh , you say an element whose name starts with the last letter of the one I said , okay ? I'll start . Helium . Now , you could say Mercury . That would give me a Y. Ooh . Very clever , that's a tough one . So I go Ytterbium , which gets you back to M. So you go Molybdenum , and I say Magnesium,you say Manganese,and I say Europium,and , and you're left with Mendelevium , and there are no more M's because I believe that Meitnerium should still be called Ekairidium , so congratulations , you win .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 259.27,
+    "end": 259.71,
+    "text": "No .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 284.2,
+    "end": 284.49,
+    "text": "No .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 335.99,
+    "end": 336.6,
+    "text": "Do you wanna go again ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 338.44,
+    "end": 340.3,
+    "text": "How about we just have a little quiet time now ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 341.3,
+    "end": 341.66,
+    "text": "All right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 346.89,
+    "end": 352.11,
+    "text": "Hmm , huh , I'm sorry , I'm finding your reckless nonchalance regarding the check-engine light to be very troubling .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 356.56,
+    "end": 357.05,
+    "text": "Get out .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 359.42,
+    "end": 366.44,
+    "text": "Well , I have to tell you that while I do have a theoretical understanding of the workings of an internal combustion engine , I'm not sure I'm capable of performing diagnostics .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 367.3,
+    "end": 368.35,
+    "text": "I said , get out .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 369.23,
+    "end": 370.52,
+    "text": "Okay . I'll give it a shot .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 384.89,
+    "end": 387.66,
+    "text": "Oh , Leonard , there you are , I'm ready to go home .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 389.94,
+    "end": 391.0,
+    "text": "I just got here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 391.06,
+    "end": 392.05,
+    "text": "Good , perfect timing .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.3,
+    "end": 398.5,
+    "text": "Sheldon , I told you , I only have access to the free-electron laser at night . I can't drive you for the next few weeks .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 398.6,
+    "end": 401.75,
+    "text": "No , you said you couldn't drive me to work , this is from work .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 403.44,
+    "end": 404.71,
+    "text": "Howard , help me out here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 405.1,
+    "end": 407.38,
+    "text": "No , just for the fun of it , I'm gonna take his side .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 409.61,
+    "end": 411.42,
+    "text": "Now , how do you propose I get home ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 412.14,
+    "end": 413.7,
+    "text": "How did you get here in the first place ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 413.73,
+    "end": 416.61,
+    "text": "Penny . But I sense that's no longer an option .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 418.96,
+    "end": 422.64,
+    "text": "Look , I need to get to the laser lab , you're just going to have to find someone else to take you home .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 429.52,
+    "end": 431.36,
+    "text": "Oh damn , I picked the wrong side .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 434.46,
+    "end": 443.27,
+    "text": "Aaaaaaaaaaaaaaaaaa ! Oh God , not Euclid Avenue ! Aaaaaaaaaaaaaa !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 446.84,
+    "end": 448.71,
+    "text": "Why did Howard leave you in the middle of the road anyway ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 451.25,
+    "end": 452.58,
+    "text": "We had a difference of opinion .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 452.87,
+    "end": 453.51,
+    "text": "Over what ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 454.61,
+    "end": 478.67,
+    "text": "Whether or not he was trying to kill me . For the record , I maintain he was . Where are you going ? Oh , but I'm not going home . It's Wednesday , Wednesday is new comic book day , we have to go to the comic book store . And then we have to stop at Soup Plantation , it's creamy tomato soup day , and Radio Shack , there's a sale on triple-a batteries . Plus , we have to go to Pottery Barn and return my Star Wars sheets .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 461.97,
+    "end": 462.92,
+    "text": "I'm taking you home .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 479.96,
+    "end": 480.87,
+    "text": "I have a better idea .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 482.29,
+    "end": 483.42,
+    "text": "You want to go to pottery barn first ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 495.42,
+    "end": 496.79,
+    "text": "Can you drive me to Pottery Barn ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 503.29,
+    "end": 505.57,
+    "text": "Maybe if I turn off the night-light , I can keep the sheets .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 518.09,
+    "end": 518.93,
+    "text": "Good morning .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 523.06,
+    "end": 524.05,
+    "text": "Sheldon , sit down .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 525.1,
+    "end": 531.11,
+    "text": "She's in my spot . Don't look at me like that , everybody knows that my spot .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 538.45,
+    "end": 540.35,
+    "text": "Sheldon,you know that we care about you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 540.88,
+    "end": 544.5,
+    "text": "And it's because we care about you that we've decided we have to speak up .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 549.13,
+    "end": 551.22,
+    "text": "You're hurting the people around you , sweetie .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 551.31,
+    "end": 553.98,
+    "text": "So we made you an appointment , and we want you to keep it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 556.65,
+    "end": 564.44,
+    "text": "Department of motor vehicles new driver handbook ? But I don't have a problem .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 566.61,
+    "end": 568.81,
+    "text": "Sheldon , you need to learn how to drive .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 569.17,
+    "end": 570.61,
+    "text": "This madness has to stop .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 573.02,
+    "end": 578.53,
+    "text": "Penny's taking you to the DMV , I'm going to bed . Because rock breaks scissors , goodnight .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 575.29,
+    "end": 576.1,
+    "text": "Why Penny ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 579.87,
+    "end": 582.0,
+    "text": "All right , come on Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 582.0,
+    "end": 594.35,
+    "text": "Hold on , I have one condition . We have to stop at Pottery Barn . And Radio Shack . And the comic book store .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 584.16,
+    "end": 584.58,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 587.65,
+    "end": 587.74,
+    "text": "Okay .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 591.24,
+    "end": 591.57,
+    "text": "Fine .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 596.63,
+    "end": 596.69,
+    "text": "All right !",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 596.69,
+    "end": 598.16,
+    "text": "I want to go to the comic book store .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 616.87,
+    "end": 617.89,
+    "text": "I like comic books .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 624.16,
+    "end": 629.03,
+    "text": "I just don't see why I need a driver's license , Albert Einstein never had a driver's license .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 630.65,
+    "end": 633.76,
+    "text": "Yeah , but Albert Einstein didn't make me wet myself at 40 miles an hour .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.0,
+    "end": 645.64,
+    "text": "Yeah , and I never wanted to kick Albert Einstein in the nuts . You know , I gotta ask , why didn't you just get a license at 16 like everybody else ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 645.97,
+    "end": 647.44,
+    "text": "I was otherwise engaged .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 649.36,
+    "end": 649.8,
+    "text": "Doing what ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 650.7,
+    "end": 659.89,
+    "text": "Examining perturbative amplitudes in n=4 supersymmetric theories leading to a re-examination of the ultraviolet properties of multi-loop n=8 supergravity using modern twistor theory .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 663.9,
+    "end": 665.62,
+    "text": "Well , how 'bout when you were 17 ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 680.61,
+    "end": 682.02,
+    "text": "I'm actually more of a theorist .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 684.92,
+    "end": 687.43,
+    "text": "The application in your hand , give it to her .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 687.68,
+    "end": 688.0,
+    "text": "Oh .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 696.93,
+    "end": 703.86,
+    "text": "Excuse me , but I have some concerns about these questions . Yes ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.93,
+    "end": 722.95,
+    "text": "No . Just , look , see , this first question makes no sense , how many car lengths should you leave in front of you when driving ? There's no possible way to answer that , a car length is not a standardized unit of measure .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 726.83,
+    "end": 728.75,
+    "text": "Sheldon , it's C , just put down C.",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 728.88,
+    "end": 734.98,
+    "text": "I don't need your help , Penny . No , no , wait , no , hang on , look at this next question .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 735.17,
+    "end": 737.71,
+    "text": "Sheldon , why are you arguing with the DMV ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 739.01,
+    "end": 758.6,
+    "text": "How else are they going to learn ? Look , question 2 , when are roadways most slippery ? Now , okay , there are three answers , none of which are correct . The correct answer is , when covered by a film of liquid sufficient to reduce the coefficient of static friction between the tire and the road to essentially zero , but not so deep as to introduce a new source of friction .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 767.34,
+    "end": 770.64,
+    "text": "But I'm not done . I have many additional concerns about these questions .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 780.24,
+    "end": 781.49,
+    "text": "Come on , let's go .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 781.55,
+    "end": 781.57,
+    "text": "Aced it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 781.59,
+    "end": 785.09,
+    "text": "Okay , that's it , let's boot it up .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 785.29,
+    "end": 785.79,
+    "text": "Booting .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 787.23,
+    "end": 791.5,
+    "text": "This is a state-of-the-art simulator . I adapted it from something a friend of mine designed for the army .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 791.86,
+    "end": 795.25,
+    "text": "Is that why I appear to be in downtown Fallujah , behind the wheel of an up-armored Humvee ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 796.85,
+    "end": 800.03,
+    "text": "I haven't configured it yet . Let's see ...",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 804.18,
+    "end": 804.32,
+    "text": "Ooh !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 804.56,
+    "end": 805.09,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 806.72,
+    "end": 810.78,
+    "text": "Here we go , red 2006 Ford Taurus on the streets of Pasadena .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 811.29,
+    "end": 812.04,
+    "text": "Hmmmm ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 813.06,
+    "end": 813.43,
+    "text": "What ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 813.66,
+    "end": 818.84,
+    "text": "Statistically , red cars are stopped by police far more often than any other colour . I don't want any hassles with the fuzz .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 821.04,
+    "end": 822.84,
+    "text": "Fine , what colour do you want ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 823.21,
+    "end": 829.95,
+    "text": "You know the pale blue of Luke Skywalker's lightsaber , before it was digitally remastered ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 832.78,
+    "end": 833.62,
+    "text": "Black it is .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 835.94,
+    "end": 839.72,
+    "text": "Okay , now , what you want to do first is turn on the ignition and shift into drive .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 839.92,
+    "end": 841.61,
+    "text": "I haven't fastened my seat belt yet .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 844.29,
+    "end": 845.68,
+    "text": "Okay , fasten your seat belt .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.86,
+    "end": 860.12,
+    "text": "Click . Now , are there air bags ? What if a simulated van rear-ends me ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 857.02,
+    "end": 858.2,
+    "text": "You don't need air bags .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 860.15,
+    "end": 861.35,
+    "text": "I'll hit you in the face with a pillow .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 871.27,
+    "end": 891.01,
+    "text": "Okay , now shift into drive , pull out slowly into traffic . Oh . Watch out . Watch , watch out , watch out for pedestrians !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 876.51,
+    "end": 877.11,
+    "text": "Oh .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 880.13,
+    "end": 880.74,
+    "text": "Oh .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 884.36,
+    "end": 885.57,
+    "text": "Oh God !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 892.21,
+    "end": 898.25,
+    "text": "Oh God , wait , slow , hit the brakes , hit the brakes !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 899.46,
+    "end": 907.92,
+    "text": "Thank you . Sorry ... excuse me ... my bad ... student driver ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 909.13,
+    "end": 914.56,
+    "text": "How did you manage to get on the second floor of the Glendale galleria ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 915.5,
+    "end": 922.41,
+    "text": "I don't know . I was on the Pasadena freeway , I missed my exit , flew off the overpass , and one thing led to another .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 924.16,
+    "end": 934.63,
+    "text": "Maybe you want to give it a rest and try again tomorrow .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 936.38,
+    "end": 939.87,
+    "text": "No . I quit .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 941.62,
+    "end": 941.82,
+    "text": "Aw , the pet store ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 941.85,
+    "end": 944.68,
+    "text": "Remind me to compliment Wolowitz on the software , it's amazingly detailed .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 947.13,
+    "end": 948.63,
+    "text": "So wait,you're just gonna give up ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 949.18,
+    "end": 951.5,
+    "text": "No , I'm not giving up , I never give up .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 953.33,
+    "end": 954.7,
+    "text": "So what is it you're doing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 955.46,
+    "end": 965.78,
+    "text": "I'm transcending the situation . I'm clearly too evolved for driving .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 967.11,
+    "end": 969.76,
+    "text": "What does that mean ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 971.09,
+    "end": 978.63,
+    "text": "Leonard , have you ever wondered why my little toes and lateral incisors are significantly smaller than the average for someone of my size ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.9,
+    "end": 983.46,
+    "text": "I wonder a lot of things about you , Sheldon , but not ... not that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 984.83,
+    "end": 1009.23,
+    "text": "Well , those are indicators that I'm farther along the evolutionary scale than the average human . Well , no , no , I'm not going to go so far as to say that I represent a distinct new stage in humankind , you know , a Homo Novus , if you will , no , that's for anthropologists to decide . But I am convinced that the reason I cannot master the plebeian task of driving is because I'm not meant to .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 989.97,
+    "end": 990.63,
+    "text": "No kidding .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1009.33,
+    "end": 1012.54,
+    "text": "Yes , you are , you're meant to learn how to drive . Please learn how to drive !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1014.5,
+    "end": 1021.69,
+    "text": "Leonard , I'm meant for greater things , like unraveling the mysteries of the universe , not determining when it's safe to pass a stopped school bus on a country road .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1024.43,
+    "end": 1025.16,
+    "text": "It's never safe .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1025.19,
+    "end": 1026.17,
+    "text": "Yeah , well , I know that now .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1028.92,
+    "end": 1035.56,
+    "text": "Fine . Assuming that everything you say is true , how does the biologically superior Homo Novus get to work tomorrow morning ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1037.09,
+    "end": 1038.16,
+    "text": "Homo Novus doesn't know .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1039.93,
+    "end": 1044.22,
+    "text": "Well , hang in there , maybe you'll evolve into something with wings .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1055.92,
+    "end": 1056.74,
+    "text": "Good morning , gentlemen .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1057.12,
+    "end": 1057.24,
+    "text": "Hey .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1057.47,
+    "end": 1062.59,
+    "text": "Good morning . Is there some new kind of casual Friday I don't know about ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1063.94,
+    "end": 1064.96,
+    "text": "No , he lives here now .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1066.39,
+    "end": 1067.23,
+    "text": "Really ? Why ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1067.54,
+    "end": 1075.13,
+    "text": "Well , since he won't take the bus and he's too evolved to drive , he decided it would be easier to just sleep in his office and shower in the radiation lab until I'm finished with my experiment .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.12,
+    "end": 1078.7,
+    "text": "But you finished your experiment a week ago .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1095.42,
+    "end": 1095.64,
+    "text": "Yep",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1114.86,
+    "end": 1116.44,
+    "text": "You saw nothing !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  }
+]

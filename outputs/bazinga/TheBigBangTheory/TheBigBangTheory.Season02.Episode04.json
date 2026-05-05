@@ -1,0 +1,1696 @@
+[
+  {
+    "start": 1.29,
+    "end": 3.48,
+    "text": "Let's see , Raj was the Kung Palo Chicken .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 3.66,
+    "end": 4.47,
+    "text": "I'm the dumplings .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 4.57,
+    "end": 5.49,
+    "text": "Yes , you are .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 7.53,
+    "end": 8.44,
+    "text": "Creepy , Howard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 9.52,
+    "end": 10.86,
+    "text": "Creepy good or creepy bad ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 12.37,
+    "end": 13.97,
+    "text": "Who was the Shrimp with Lobster Sauce ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 14.06,
+    "end": 21.23,
+    "text": "That would be me . Come to Poppa , you un-kosher delight . I'm not necessarily talking to the food .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 26.5,
+    "end": 27.59,
+    "text": "Sit over there .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 32.86,
+    "end": 35.96,
+    "text": "Sit over there . Baby wipe ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 37.59,
+    "end": 40.83,
+    "text": "What do you have ... .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 43.26,
+    "end": 47.32,
+    "text": "Don't ! Don't ! Don't !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 43.26,
+    "end": 47.32,
+    "text": "Don't ! Don't ! Don't !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 48.94,
+    "end": 56.87,
+    "text": "I'll tell you why . I had to sanitize my hands because the university replaced the paper towels in the rest rooms with hot air blowers .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 50.55,
+    "end": 50.77,
+    "text": "O-o-o-oh !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 50.55,
+    "end": 50.77,
+    "text": "O-o-o-oh !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 57.16,
+    "end": 58.72,
+    "text": "I thought the blowers were more sanitary ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 59.24,
+    "end": 59.6,
+    "text": "Why ? Don't !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 59.24,
+    "end": 59.6,
+    "text": "Why ? Don't !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 59.77,
+    "end": 69.02,
+    "text": "Hot air blowers are incubators and spewers of bacteria and pestilence . Frankly it would be more hygienic if they just had a plague infested gibbon sneeze my hands dry .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 70.46,
+    "end": 75.42,
+    "text": "Hey guys , I just got the most amazing new ... ew-ew-ew",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 75.78,
+    "end": 84.53,
+    "text": "Gosh , Raj , do you think you'll ever be able to talk in front of me without being drunk ? Okay , well , I'll just , um , go eat by myself .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 84.74,
+    "end": 86.24,
+    "text": "Penny , you don't have to do that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 86.33,
+    "end": 96.16,
+    "text": "No , it's okay , between him not talking , him talking and ... him , I'm better off alone , so , goodbye you poor strange little man",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 101.05,
+    "end": 101.99,
+    "text": "She's so considerate .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 103.17,
+    "end": 103.81,
+    "text": "So what's your news ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 103.99,
+    "end": 106.49,
+    "text": "Remember that little planetary object I spotted beyond the Kuiper belt ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 106.66,
+    "end": 108.42,
+    "text": "Oh yeah , two zero zero eight NQ sub seventeen .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 108.99,
+    "end": 117.18,
+    "text": "Or as I called it , Planet Bollywood . Anyway , because of my discovery , People magazine is naming me one of their thirty under-30 to watch .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 117.27,
+    "end": 118.73,
+    "text": "Well , wow , that's incredible .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 117.27,
+    "end": 118.73,
+    "text": "Well , wow , that's incredible .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 120.28,
+    "end": 124.4,
+    "text": "Excuse me . Thirty what , under thirty what , to watch what ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 125.92,
+    "end": 130.56,
+    "text": "Thirty visionaries under thirty years of age to watch as they challenge the preconceptions of their fields .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 131.03,
+    "end": 133.28,
+    "text": "If I had a million guesses I never would have gotten that .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 135.51,
+    "end": 145.12,
+    "text": "It's pretty cool , they've got me in with a guy who's doing something about hunger in Indonesia , and a psychotherapist who's using dolphins to rehabilitate prisoners , and Ellen Page , star of the charming independent film Juno .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 147.16,
+    "end": 148.34,
+    "text": "Oh , I'd so do her .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 150.95,
+    "end": 152.08,
+    "text": "You'd do the dolphins .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 153.91,
+    "end": 157.73,
+    "text": "Do I get an honourable mention for designing the telescope camera mounting bracket you used .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 157.91,
+    "end": 167.09,
+    "text": "Sorry , it's not part of my heartwarming and personal narrative , in which a humble boy from New Delhi overcame poverty and prejudice and journeyed to America to reach for the stars .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 167.39,
+    "end": 170.36,
+    "text": "Poverty ? Your father's a gynaecologist , he drives a Bentley .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 172.15,
+    "end": 173.03,
+    "text": "It's a lease .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 176.25,
+    "end": 182.44,
+    "text": "I'm confused . Was there some sort of peer review committee to determine which scientists would be included ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 182.68,
+    "end": 185.44,
+    "text": "Peer review ? It's People magazine . People picked me .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 186.78,
+    "end": 187.38,
+    "text": "What people ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 188.31,
+    "end": 189.36,
+    "text": "The people from People .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 190.08,
+    "end": 204.03,
+    "text": "Yeah , but exactly who are these people ? What are their credentials , how are they qualified , what makes accidentally noticing a hunk of rock that's been traipsing around the solar system for billions of years more noteworthy than any other scientific accomplishment made by someone under thirty ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 205.25,
+    "end": 208.47,
+    "text": "Boy , I bet Ellen Pages friends aren't giving her this kind of crap .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 213.39,
+    "end": 214.63,
+    "text": "Are you proud of yourself ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 215.92,
+    "end": 216.9,
+    "text": "In general , yes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 245.1,
+    "end": 252.21,
+    "text": "Oh , there's my missing neutrino . You were hiding from me as an unbalanced charge , weren't you , you little subatomic Dickens ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 254.15,
+    "end": 254.38,
+    "text": "Hi Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 254.82,
+    "end": 256.7,
+    "text": "Here , look , look , I found my missing neutrino .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 256.86,
+    "end": 258.63,
+    "text": "Oh , good , we can take it off the milk cartons .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 260.7,
+    "end": 263.18,
+    "text": "Well , we're going to go apologise to Raj and invite him out to dinner .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 263.68,
+    "end": 264.88,
+    "text": "Apologise , for what ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 265.26,
+    "end": 268.67,
+    "text": "Well , he came over last night with some pretty good news , and we weren't very supportive .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 270.56,
+    "end": 271.99,
+    "text": "I sense you're trying to tell me something .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 272.87,
+    "end": 275.4,
+    "text": "You were a colossal ass-hat .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 277.25,
+    "end": 282.4,
+    "text": "Oh ! No , I beg to differ . Of the three of us , I was by far the most supportive .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 282.67,
+    "end": 283.93,
+    "text": "Really , do tell .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 284.26,
+    "end": 294.61,
+    "text": "How will Raj ever reach true greatness if his friends lower the bar for him ? When I was eleven , my sister bought our father a \" world's greatest dad \" coffee mug , and frankly the man coasted until the day he died .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 297.27,
+    "end": 301.6,
+    "text": "Okay , let's try it this way , what if the People magazine thing is the best Raj is ever going to achieve ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 303.46,
+    "end": 304.45,
+    "text": "I had not considered that .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 305.42,
+    "end": 305.75,
+    "text": "Come on .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 306.62,
+    "end": 310.2,
+    "text": "I often forget other people have limitations . It's so sad .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 311.9,
+    "end": 313.19,
+    "text": "He can feel sadness ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 313.26,
+    "end": 320.7,
+    "text": "Not really , it's what you and I would call condescension . And when we go in there , let's show Raj that we're happy for him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 321.14,
+    "end": 321.89,
+    "text": "But I'm not .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 324.41,
+    "end": 336.83,
+    "text": "Well then fake it . Look at me , I could be grinding on the fact that without my stabilizing telescope mount he never would have found that stupid little clump of cosmic schmutz , but I'm bigger than that .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 338.01,
+    "end": 339.64,
+    "text": "Fine , what do you want me to do ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 340.18,
+    "end": 340.84,
+    "text": "Smile .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 349.72,
+    "end": 351.24,
+    "text": "Oh crap , that's terrifying .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 352.4,
+    "end": 356.16,
+    "text": "We're here to see Koothrappali , not kill Batman .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 358.14,
+    "end": 359.72,
+    "text": "Try less teeth .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 363.73,
+    "end": 369.37,
+    "text": "Close enough , come on . Hi Raj .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 369.77,
+    "end": 370.89,
+    "text": "Hey guys , what's up ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 371.18,
+    "end": 373.03,
+    "text": "We just wanted to invite you out to dinner tonight .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 373.49,
+    "end": 376.14,
+    "text": "Celebrate your thirty under thirty thing . Right Sheldon ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 381.14,
+    "end": 384.25,
+    "text": "It's very nice of you , I would like that . Dr Gablehouser .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 382.66,
+    "end": 396.14,
+    "text": "Hello boys . Dr Koothrappali . Dr Hoffstadter . Dr Cooper . Mister Wolowitz . Boys , I've got a question for you . Who in this room discovered a star ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 385.38,
+    "end": 386.04,
+    "text": "Dr Gablehauser .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 386.92,
+    "end": 387.57,
+    "text": "Dr Gablehauser .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 388.23,
+    "end": 388.93,
+    "text": "Dr Gablehauser .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 397.14,
+    "end": 399.14,
+    "text": "Actually , 2008 NQ sub 17 is a planetary body .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 399.17,
+    "end": 404.98,
+    "text": "I'm not talking about you , I'm talking about me . You , my exotic young friend are my star .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 406.07,
+    "end": 413.31,
+    "text": "Well , you didn't discover him , you merely noticed he was here , much like he did with 2008 NQ sub 17 . Oh , sorry .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 411.87,
+    "end": 412.27,
+    "text": "Sheldon !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 417.06,
+    "end": 425.76,
+    "text": "Well , we've got to get you into a better office , something more suited to your status . How about if I put you in Von Gerlick's old office ? Done .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 421.08,
+    "end": 422.39,
+    "text": "Really , you don't have to go to any trouble .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 424.28,
+    "end": 425.5,
+    "text": "I'd rather have Fishbine's , it's bigger .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 427.73,
+    "end": 432.13,
+    "text": "Wait a minute , I called dibs on Fishbine's office the day he started showing up at work in his bathrobe .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 432.92,
+    "end": 437.73,
+    "text": "He gets a new office , I can't even get paper towels in the men's room ? Damn , this is hard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 435.97,
+    "end": 436.44,
+    "text": "Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 445.52,
+    "end": 448.24,
+    "text": "Let me ask you something , what do you think the business of this place is ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 454.51,
+    "end": 454.68,
+    "text": "Science ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 455.02,
+    "end": 455.53,
+    "text": "Money .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 455.66,
+    "end": 456.08,
+    "text": "Told you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 457.6,
+    "end": 464.15,
+    "text": "And this boy's picture in People magazine is going to raise us a pile of money taller than ... well , taller than you",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 466.82,
+    "end": 468.33,
+    "text": "I have a master's degree .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 468.45,
+    "end": 474.36,
+    "text": "Who doesn't ? Dr Koothrappali , have you ever had lunch in the President's dining room ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 474.58,
+    "end": 476.9,
+    "text": "I didn't even know there was a President's dining room .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 477.13,
+    "end": 480.76,
+    "text": "It's the same food as the Cafeteria , only fresh . Come on little buddy .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 480.97,
+    "end": 485.3,
+    "text": "Okay , big buddy . See you tonight guys .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 486.69,
+    "end": 487.91,
+    "text": "You can stop smiling now .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 489.38,
+    "end": 490.11,
+    "text": "Aaaah !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 491.58,
+    "end": 508.62,
+    "text": "So anyway , after a fantastic lunch I was whisked off to the People magazine photo shoot ... have any of you boys ever been to a photo shoot ? It's fantastic , apparently the camera loves me and I it . They shot me in front of a starry background where I posed like this .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 498.3,
+    "end": 498.54,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 514.38,
+    "end": 519.06,
+    "text": "They're going to digitally add a supernova , they say it's the perfect metaphor for my incandescent talent .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 519.82,
+    "end": 523.07,
+    "text": "Right , a ball of hot flaming gas that collapses in on itself .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 525.7,
+    "end": 529.42,
+    "text": "Excuse me . Oh , it's my assistant Trevor . Go for Koothrappali . Uh-huh .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 530.12,
+    "end": 534.36,
+    "text": "They gave him an assistant ? If I want a new pen I have to go to the bank with wire cutters .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 536.25,
+    "end": 538.18,
+    "text": "Have we at this point met our social obligations ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 538.46,
+    "end": 538.97,
+    "text": "Not yet .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 539.54,
+    "end": 547.95,
+    "text": "Okay , just put it on my calendar but start thinking of a reason why I can't go , alrighty ? Koothrappali out . God bless that boy , I don't know what I'd do without him .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 548.09,
+    "end": 549.94,
+    "text": "You just got him this afternoon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 550.07,
+    "end": 552.11,
+    "text": "Yes , but I'm finding that having a lackey suits me .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 554.13,
+    "end": 554.77,
+    "text": "A lackey ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 555.08,
+    "end": 558.08,
+    "text": "Oh , I'm sorry , is that politically incorrect ? In India we just call them untouchables .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 560.04,
+    "end": 560.48,
+    "text": "Now ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 560.58,
+    "end": 561.13,
+    "text": "Almost .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 562.23,
+    "end": 570.6,
+    "text": "Speaking of untouchables , I've got great news for you guys . People magazine is having a reception this Saturday , and I managed to get you invited .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 571.02,
+    "end": 572.1,
+    "text": "Oh , gee , thanks .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 572.17,
+    "end": 579.67,
+    "text": "Oh , you're welcome . Of course , I couldn't get you into the VIP section , because , you know , that's for VIPs , and you guys are just , you know , Ps .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 582.15,
+    "end": 595.09,
+    "text": "There's a tribe in Papua New Guinea where , when a hunter flaunts his success to the rest of the village they kill him , and drive away evil spirits with a drum made of his skin . Superstitious nonsense of course , but one can see their point .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.18,
+    "end": 605.54,
+    "text": "Here you go , Raj , you might want to drink this one slowly .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 605.74,
+    "end": 608.44,
+    "text": "Okay , so , Saturday night , can I count on my posse ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 609.02,
+    "end": 611.85,
+    "text": "Gee , I'd love to Raj , but I can't make it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 612.18,
+    "end": 613.22,
+    "text": "Oh , okay , Leonard ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 614.73,
+    "end": 618.03,
+    "text": "Well , uh , no I ... the ... no .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 619.9,
+    "end": 620.2,
+    "text": "Sheldon ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 620.59,
+    "end": 622.13,
+    "text": "I can make it , but I won't .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 623.2,
+    "end": 624.69,
+    "text": "What are you guys talking about ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 624.72,
+    "end": 627.27,
+    "text": "Well , there's a reception for my magazine article on Saturday .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 627.57,
+    "end": 634.39,
+    "text": "And you guys aren't going ? I can't believe you , Raj is celebrating a tremendous accomplishment and you're not even going to be there to support him ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 634.58,
+    "end": 640.71,
+    "text": "A tremendous accomplishment would be if the planetary body he discovered were plummeting toward Earth and he exploded it with his mind .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 642.57,
+    "end": 643.83,
+    "text": "That would be cool . I'd go to that reception .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 643.84,
+    "end": 650.99,
+    "text": "on , this is huge , Raj is going to be in People magazine . And he didn't even have to knock up one of the Spears sisters .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 652.88,
+    "end": 653.6,
+    "text": "Would you like to go with me ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.01,
+    "end": 659.93,
+    "text": "Of course I would , I would be honoured . Shame on you guys .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 657.11,
+    "end": 658.26,
+    "text": "Really ? Cool .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 663.27,
+    "end": 668.0,
+    "text": "Look at that . I got a date with Penny . I can't believe it took you a whole year .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 670.81,
+    "end": 671.17,
+    "text": "Now ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 673.97,
+    "end": 674.33,
+    "text": "Now .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 677.14,
+    "end": 679.96,
+    "text": "Hey , buddy . I'm going to be in people magazine .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 680.51,
+    "end": 681.91,
+    "text": "Yeah , call me when you're on the cover .",
+    "speaker": "charlie_sheen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 687.88,
+    "end": 689.68,
+    "text": "Oh , Raj , look at you !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 695.65,
+    "end": 698.5,
+    "text": "I know , I am resplendent like the noonday sun , am I not ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 700.29,
+    "end": 703.88,
+    "text": "Um , yeah , starting with the champagne a little early aren't you ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 703.98,
+    "end": 711.1,
+    "text": "It was in the limo . They sent a limo . I have a limo . I just love saying limo . Here , sip on this while you're getting ready .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 711.34,
+    "end": 712.15,
+    "text": "Oh , I'm ready .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 713.08,
+    "end": 713.76,
+    "text": "That's what you're wearing .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 716.52,
+    "end": 718.53,
+    "text": "Um , yeah , why what's wrong with it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 719.11,
+    "end": 722.96,
+    "text": "Nothing , I was just hoping for something a little more , you know , redonkulous .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 730.15,
+    "end": 733.58,
+    "text": "Yeah , well , this is all the donkulous you're gonna get .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 734.98,
+    "end": 741.58,
+    "text": "Okey dokey , let's roll . Alright , it's time to raise the roof . Oo-ooh , oo-ooh .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 742.81,
+    "end": 743.2,
+    "text": "Hey Leonard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 743.8,
+    "end": 744.82,
+    "text": "Hey . You look very nice .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 743.93,
+    "end": 745.66,
+    "text": "Dude . Thank you .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 745.12,
+    "end": 745.66,
+    "text": "Thank you .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 747.28,
+    "end": 750.03,
+    "text": "Uh , come on , good night Leonard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 750.11,
+    "end": 750.4,
+    "text": "Good night .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 750.96,
+    "end": 758.69,
+    "text": "Hey , Leonard , did you see my limo downstairs . It's bigger than the house my grandfather grew up in . It has more food too .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 753.78,
+    "end": 754.04,
+    "text": "Yeah .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 759.92,
+    "end": 762.97,
+    "text": "Alright , come on , come on .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 764.19,
+    "end": 770.31,
+    "text": "I'm coming up so you better get this party started .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 771.53,
+    "end": 772.14,
+    "text": "Hey .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 773.36,
+    "end": 779.05,
+    "text": "Hey , good news , you don't have to sulk about Penny any more , look , there are hundreds of Croatian women just waiting for you to contact them .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 781.14,
+    "end": 781.32,
+    "text": "Anythingforagreencard.com ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 785.48,
+    "end": 787.1,
+    "text": "I'll lend you my user name , it's wealthybigpenis .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 788.31,
+    "end": 791.03,
+    "text": "You're joking .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 791.51,
+    "end": 793.86,
+    "text": "Well , you gotta make it easy for them , they're just learning English .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 795.13,
+    "end": 795.76,
+    "text": "Pass .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 797.03,
+    "end": 801.53,
+    "text": "So you're just going to sit around here and mope while Penny is out with Doctor Apu from the Kwik-e-Mart ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 802.62,
+    "end": 805.78,
+    "text": "It's not a date , and that's racist .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 805.96,
+    "end": 809.11,
+    "text": "It can't be racist , he's a beloved character on the Simpsons .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 810.6,
+    "end": 815.71,
+    "text": "Let's just eat so I can get to bed . With any luck tonight will be the night my sleep apnoea kills me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 820.47,
+    "end": 832.2,
+    "text": "Did you remember to ask for the chicken with broccoli to be diced not shredded ? Even though the menu description specifies shredded ? Brown rice , not white ? Did you stop at the Korean grocery and get the good hot mustard . Did you pick up the low sodium soy sauce from the market ? Thank you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 823.06,
+    "end": 823.39,
+    "text": "Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 825.1,
+    "end": 826.89,
+    "text": "Yes . Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 829.03,
+    "end": 829.19,
+    "text": "Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 831.25,
+    "end": 832.84,
+    "text": "Yes . You're welcome .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 835.07,
+    "end": 836.01,
+    "text": "What took you so long ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 837.99,
+    "end": 845.38,
+    "text": "Just sit down and eat . Alright , it's shredded , what do you want me to do ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 839.31,
+    "end": 839.68,
+    "text": "Fine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 846.05,
+    "end": 848.42,
+    "text": "I want you to check before you accept the order .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 848.49,
+    "end": 849.08,
+    "text": "Sorry .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.03,
+    "end": 854.54,
+    "text": "Were you distracted by the possibility that Koothrappali might have intercourse with Penny tonight ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 858.21,
+    "end": 860.15,
+    "text": "He's not going to have intercourse with Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 860.27,
+    "end": 868.71,
+    "text": "Then there's no excuse for this chicken . You know , this situation with Koothrapali brings to mind a story from my childhood .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 868.93,
+    "end": 871.23,
+    "text": "Oh goody , more tales from the panhandle .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 871.92,
+    "end": 876.83,
+    "text": "That's Northwest Texas , I'm from East Texas , the Gulf region , home to many Vietnamese shrimpers .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 878.39,
+    "end": 880.3,
+    "text": "Do the shrimpers feature in your story ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 881.95,
+    "end": 889.62,
+    "text": "No . Anyway , when I was eight , a Montgomery-Ward delivery van ran over our cat , Lucky .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 891.96,
+    "end": 892.35,
+    "text": "Lucky ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 892.97,
+    "end": 893.63,
+    "text": "Yes , Lucky .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 893.78,
+    "end": 895.76,
+    "text": "He's irony impaired , just move on .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 897.28,
+    "end": 899.85,
+    "text": "Okay , dead cat named Lucky , continue .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 900.06,
+    "end": 913.49,
+    "text": "While others mourned Lucky , I realised his untimely demise provided me with the opportunity to replace him with something more suited to my pet needs . A faithful companion that I could snuggle with at night , and yet would be capable of killing upon telepathic command .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 916.75,
+    "end": 917.84,
+    "text": "So , not a puppy ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 919.03,
+    "end": 922.49,
+    "text": "Please , no , nothing so pedestrian . I wanted a griffin .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 924.36,
+    "end": 925.17,
+    "text": "A griffin ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 925.89,
+    "end": 927.72,
+    "text": "Yes , half eagle , half lion .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 928.77,
+    "end": 929.75,
+    "text": "And mythological .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 931.78,
+    "end": 946.94,
+    "text": "Irrelevant . See , I was studying recombinant DNA technology and I was confident I could create one , but my parents were unwilling to secure the necessary eagle eggs and lion semen . Course my sister got swimming lessons when she wanted them .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 950.3,
+    "end": 956.79,
+    "text": "Sheldon , not that we don't all enjoy a good lion semen story , what's your point .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 957.03,
+    "end": 965.86,
+    "text": "My point is , if Koothrappali is moving on to a new life of shallow , undeserved fame , perhaps this is an opportunity to create a better cohort .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 966.51,
+    "end": 968.03,
+    "text": "You want to breed a new friend ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 969.94,
+    "end": 985.18,
+    "text": "That's one option , but who has the time ? But consider this , the Japanese , they're doing some wonderful work with artificial intelligence , now , you combine that with some animatronics from the imagineers over at Disney , next thing you know , we're playing Halo with a multi-lingual Abraham Lincoln .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 986.55,
+    "end": 989.49,
+    "text": "Sheldon , don't take this the wrong way , but , you're insane .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 991.34,
+    "end": 995.03,
+    "text": "That may well be , but the fact is , it wouldn't kill us to meet some new people .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 995.19,
+    "end": 1006.29,
+    "text": "Uh , for the record , it could kill us to meet new people . They could be murderers , or the carriers of unusual pathogens , and I'm not insane , my mother had me tested .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1010.31,
+    "end": 1014.94,
+    "text": "If we do get a new friend , he should be a guy you can trust . A guy who has your back .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1015.01,
+    "end": 1018.84,
+    "text": "And he should have a lot of money , and live in a cool place down by the beach where we could throw parties .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1019.24,
+    "end": 1020.57,
+    "text": "should share our love of technology .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1020.75,
+    "end": 1022.09,
+    "text": "And he should know a lot of women .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1023.03,
+    "end": 1028.84,
+    "text": "Yeah , let's see , money , women , technology , okay we're agreed , our new friend is going to be Iron Man .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1037.38,
+    "end": 1039.05,
+    "text": "Welcome to the Raj Mahal .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1040.13,
+    "end": 1044.13,
+    "text": "Yes , it's very nice , goodnight Raj . Yes it is .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1042.57,
+    "end": 1046.66,
+    "text": "No , wait , the evening's not over . No , it's time to put on some R. Kelly and suck face .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1046.66,
+    "end": 1047.13,
+    "text": "over .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1051.97,
+    "end": 1056.08,
+    "text": "Wait , wait , that's my mummy and daddy calling from India . I want you to meet my parents .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1056.33,
+    "end": 1057.0,
+    "text": "Wait , meet",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1062.34,
+    "end": 1062.56,
+    "text": "them .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1062.62,
+    "end": 1063.82,
+    "text": "Hello mummy and daddy , good to see you . I'm not drunk .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1065.69,
+    "end": 1066.31,
+    "text": "Why would you say that ?",
+    "speaker": "mrs_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1066.72,
+    "end": 1071.25,
+    "text": "Just making conversation . Mummy , daddy , I want you to meet my new squeeze , Penny .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1071.57,
+    "end": 1073.61,
+    "text": "I am not your squeeze . There is no squeezing .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1074.99,
+    "end": 1076.57,
+    "text": "I can't see her , centre her in the frame .",
+    "speaker": "dr_vm_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.13,
+    "end": 1078.54,
+    "text": "Here you go , cute huh ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1079.57,
+    "end": 1081.12,
+    "text": "She's not Indian .",
+    "speaker": "mrs_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1082.15,
+    "end": 1084.32,
+    "text": "So , she's not Indian , the boy's just sowing some wild oats .",
+    "speaker": "dr_vm_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1084.32,
+    "end": 1085.19,
+    "text": "no sucking face .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1093.25,
+    "end": 1094.92,
+    "text": "What if he gets her pregnant . Is this little hotsy-totsy who you want as the mother of your grandchildren .",
+    "speaker": "mrs_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1094.94,
+    "end": 1096.42,
+    "text": "What right do you have to pick who I can have children with ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1096.7,
+    "end": 1105.1,
+    "text": "Look , Rajesh , I understand , you're in America , you want to try the local cuisine . But trust me , you don't want it for a steady diet .",
+    "speaker": "dr_vm_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1106.32,
+    "end": 1112.42,
+    "text": "Now you listen to me , I am no longer a child , and I will not be spoken to like one . Now if you'd excuse me , I have to go throw up .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1113.41,
+    "end": 1115.4,
+    "text": "What's wrong with him ?",
+    "speaker": "mrs_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1116.39,
+    "end": 1119.39,
+    "text": "I don't know , maybe it's the local cuisine .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1125.15,
+    "end": 1139.33,
+    "text": "Okay , well , it's nice to meet you , just gonna set you on down over here , and I'm going to leave so , Namaste . And FYI , you'd be lucky to have me as a daughter-in-law .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1142.74,
+    "end": 1145.17,
+    "text": "She's feisty . I like that .",
+    "speaker": "dr_vm_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1156.31,
+    "end": 1164.23,
+    "text": "Raj , what are you doing . . No . No notes . If you have something to say to me , say it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1173.04,
+    "end": 1173.4,
+    "text": "Sorry .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1182.2,
+    "end": 1184.34,
+    "text": "Oh , sweetie , it's okay .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  }
+]

@@ -1,0 +1,1423 @@
+[
+  {
+    "start": 12.19,
+    "end": 21.76,
+    "text": "Clarify something for me . Isn't the point of a communal meal the exchange of ideas and opinions ? An opportunity to consider important issues of the day ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 22.08,
+    "end": 27.78,
+    "text": "It is . You just kind of put a damper on things when you said , the next person I see talking with food in their mouth will be put to death .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 29.02,
+    "end": 43.45,
+    "text": "Well , we could argue about who said what all night long , but to set things back on course , I will propose a new topic of conversation . What is the best number ? By the way , there's only one correct answer .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 37.57,
+    "end": 37.82,
+    "text": "Great .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 43.94,
+    "end": 45.9,
+    "text": "Five million , three hundred eighteen thousand and eight ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 48.77,
+    "end": 72.59,
+    "text": "Wrong . The best number is 73 . You're probably wondering why . 73 is the 21st prime number . Its mirror , 37 , is the 12th , and its mirror , 21 , is the product of multiplying , hang on to your hats , seven and three . Eh ? Eh ? Did I lie ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 57.87,
+    "end": 57.94,
+    "text": "No .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 58.1,
+    "end": 58.34,
+    "text": "We're good .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 74.15,
+    "end": 77.12,
+    "text": "We get it . 73 is the Chuck Norris of numbers .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 78.19,
+    "end": 92.86,
+    "text": "Chuck Norris wishes . In binary , 73 is a palindrome , one-zero-zero-one-zero-zero-one which backwards is one-zero-zero-one-zero-zero-one , exactly the same . All Chuck Norris backwards gets you is Sirron Kcuhc .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 94.42,
+    "end": 101.59,
+    "text": "Just for the record , when you enter five million three hundred eighteen thousand and eight in a calculator , upside-down it spells boobies .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 106.15,
+    "end": 108.69,
+    "text": "Remember when you were wondering why the girls didn't want to eat with us tonight ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 108.81,
+    "end": 109.65,
+    "text": "Yeah , I get it now .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 112.41,
+    "end": 114.02,
+    "text": "I love your little heart locket , Bernadette .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 114.19,
+    "end": 120.76,
+    "text": "Oh , thanks . Howard gave it to me . It's the cutest thing . Every time I have dinner with his mom , the next day I get jewellery .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 122.66,
+    "end": 129.13,
+    "text": "Did you know that the iconic Valentine's heart shape is not actually based on the shape of a human heart , but rather on the shape of the buttocks of a female bending over ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 132.84,
+    "end": 138.35,
+    "text": "Oh , so I spent seventh grade dotting my I's with little asses ? Cool .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 140.67,
+    "end": 141.68,
+    "text": "Hey , Penny , how's it going ?",
+    "speaker": "zack_johnson",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 141.83,
+    "end": 143.24,
+    "text": "Hey , Zack , what are you doing here ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 143.65,
+    "end": 152.0,
+    "text": "My dad's company prints the menus for this place . I'm just dropping off some new ones laminated . Makes 'em easier to clean if people throw up on 'em . Guess how I got the idea ?",
+    "speaker": "zack_johnson",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 152.12,
+    "end": 157.31,
+    "text": "Yeah , I got it , I got it . Uh , Zack , these are my friends Bernadette and Amy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 160.21,
+    "end": 160.57,
+    "text": "Hi .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.47,
+    "end": 164.1,
+    "text": "Hey . Okay , well , it was good to see you .",
+    "speaker": "zack_johnson",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.6,
+    "end": 163.62,
+    "text": "Hoo .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 164.17,
+    "end": 164.83,
+    "text": "Yeah , you , too .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 166.21,
+    "end": 167.73,
+    "text": "He's really cute . How do you know him ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 167.8,
+    "end": 169.24,
+    "text": "Oh , we went out a couple of times .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 169.54,
+    "end": 173.2,
+    "text": "I'm often flummoxed by current slang . Does went out mean had intercourse ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 173.9,
+    "end": 174.24,
+    "text": "Yes .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 174.94,
+    "end": 177.76,
+    "text": "No , no . But in this case , yes .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 179.3,
+    "end": 181.11,
+    "text": "Interesting . And was it not satisfactory ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 181.3,
+    "end": 185.32,
+    "text": "No , it was great . He just didn't really challenge me on an intellectual level .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.77,
+    "end": 187.71,
+    "text": "Couldn't you just fool around with him and then listen to NPR ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 190.56,
+    "end": 192.1,
+    "text": "Wouldn't help . Zack can't even spell NPR .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 194.1,
+    "end": 198.37,
+    "text": "It's what I do with Howard . I'm much smarter than he is . But it's important to protect his manhood .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 199.8,
+    "end": 200.51,
+    "text": "Hoo .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 201.94,
+    "end": 204.07,
+    "text": "What's the matter ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 205.5,
+    "end": 213.7,
+    "text": "I'm suddenly feeling flushed . My heart rate is elevated , my palms are clammy , my mouth is dry . In addition , I keep involuntarily saying hoo .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 214.66,
+    "end": 218.1,
+    "text": "Oh , we know what's causing that , don't we ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 218.38,
+    "end": 222.52,
+    "text": "It's no mystery . I obviously have the flu coupled with sudden-onset Tourette's syndrome .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 248.39,
+    "end": 258.09,
+    "text": "Did you hear about the accident at the bio lab ? They were injecting rats with radioactive isotopes and one of the techs got bit .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.69,
+    "end": 253.51,
+    "text": "No . What happened ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 258.7,
+    "end": 259.85,
+    "text": "Did he get superpowers ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 262.62,
+    "end": 265.67,
+    "text": "No , he got five stitches and a tetanus shot .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 266.47,
+    "end": 268.2,
+    "text": "Oh . Well , that's disappointing .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 269.34,
+    "end": 269.82,
+    "text": "Why ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 270.46,
+    "end": 274.1,
+    "text": "Well , you get bit by a radioactive animal in a lab , you kind of want to turn into a superhero .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 275.0,
+    "end": 277.46,
+    "text": "Yeah , but who'd want to become Rat-Man ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 278.53,
+    "end": 292.08,
+    "text": "Who wouldn't ? You could zip through a maze in nothing flat , squeeze through really small holes , and shut down restaurants in a single bound . And the best part is , if I were Rat-Man , you could be my sidekick , Mouse Boy .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 297.58,
+    "end": 298.16,
+    "text": "Mouse Boy ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 298.96,
+    "end": 301.58,
+    "text": "You don't like Mouse Boy ? How about , uh , uh , Kid Vermin ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.84,
+    "end": 306.78,
+    "text": "First of all , if we had superpowers , I wouldn't be the sidekick . You'd be the sidekick .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 306.81,
+    "end": 308.41,
+    "text": "Rat-Man is nobody's sidekick .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 310.08,
+    "end": 313.4,
+    "text": "Leonard , settle this . Of the two of us , who's the obvious sidekick ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 313.43,
+    "end": 314.08,
+    "text": "Yeah , Leonard , who ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 317.88,
+    "end": 320.11,
+    "text": "12 years after high school , and I'm still at the nerd table .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 325.0,
+    "end": 327.41,
+    "text": "Aren't you slicing that man's brain a little too thin ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 332.91,
+    "end": 340.69,
+    "text": "It's too thin if I were making a foot-long brain sandwich at Quiznos . For examination under a two-photon microscope , it's fine .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 341.71,
+    "end": 343.54,
+    "text": "Well ,",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 345.52,
+    "end": 349.3,
+    "text": "you're the expert . If the correct way to do it is the wrong way , then I yield .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 350.63,
+    "end": 355.06,
+    "text": "Very well . If you die and donate your body to science , I promise to slice your brain like Canadian bacon .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 356.97,
+    "end": 357.47,
+    "text": "Thank you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 359.01,
+    "end": 361.05,
+    "text": "Now , if you'll excuse me , I have to take my temperature .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 362.43,
+    "end": 369.45,
+    "text": "Are you monitoring your circadian rhythms in order to identify your periods of maximum mental acuity ? I did that one summer . Ah , youth .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 372.01,
+    "end": 376.19,
+    "text": "No , I experienced some distressing symptoms last night , so I'm checking my vital signs every hour .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 377.07,
+    "end": 380.92,
+    "text": "I'd be happy to create a chart and participate in a differential diagnosis .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 381.1,
+    "end": 382.17,
+    "text": "Oh , that sounds like fun .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 385.42,
+    "end": 386.17,
+    "text": "All right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 387.74,
+    "end": 388.76,
+    "text": "What were the symptoms ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 389.21,
+    "end": 394.3,
+    "text": "Elevated heart rate , moist palms , dry mouth and localized vascular throbbing .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 396.85,
+    "end": 398.4,
+    "text": "Localized to what region ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 400.99,
+    "end": 402.17,
+    "text": "Ears and genitalia .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 404.75,
+    "end": 414.55,
+    "text": "Interesting . Not body parts that usually team up . What about environmental factors ? Describe the scene for me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 415.04,
+    "end": 424.03,
+    "text": "I was sitting in a restaurant with Penny and Bernadette , drinking water , carbonated as it was a special occasion . Penny's friend Zack stopped by and said hello and I said hoo .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 425.07,
+    "end": 425.59,
+    "text": "Who ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 426.64,
+    "end": 427.17,
+    "text": "Zack .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 428.21,
+    "end": 429.33,
+    "text": "Then why did you ask ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.59,
+    "end": 432.39,
+    "text": "Ask what ? Zack .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 431.29,
+    "end": 431.68,
+    "text": "Who .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 434.53,
+    "end": 439.8,
+    "text": "All right , let's start over . What did you say when Zack walked in ? Zack .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 438.78,
+    "end": 439.15,
+    "text": "Hoo .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 441.46,
+    "end": 442.56,
+    "text": "Why do you keep saying Zack ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 442.78,
+    "end": 444.13,
+    "text": "Because you keep saying who .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 444.4,
+    "end": 446.92,
+    "text": "I'm not saying hoo now . I said hoo last night .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.1,
+    "end": 448.68,
+    "text": "And the answer was Zack , correct ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 449.86,
+    "end": 452.1,
+    "text": "There was no question . I simply said hoo .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 454.72,
+    "end": 473.4,
+    "text": "All right , I think I have enough to go on . Possible explanations for your symptoms are , in descending order of likelihood , hyperthyroidism , premature menopause , hosting an alien parasite or , and I only include it for the sake of covering absolutely all bases , sexual arousal .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 476.83,
+    "end": 478.54,
+    "text": "Where would I have picked up an alien parasite ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 482.67,
+    "end": 487.24,
+    "text": "There you are . Let me ask you a question . What are you most afraid of ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 483.78,
+    "end": 484.07,
+    "text": "Oh , hey .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 487.86,
+    "end": 495.36,
+    "text": "I don't know . Um , nuclear war . Accidentally being buried alive . Any of those movies where you get that phone call that says you're going to die , and then you do .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 496.9,
+    "end": 502.17,
+    "text": "No . Something very specific that we both know you , Rajesh Koothrappali , are terrified of .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.6,
+    "end": 505.99,
+    "text": "Well , type two diabetes runs in my family . The thought of losing a toe ...",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 506.31,
+    "end": 508.03,
+    "text": "Spiders ! You're afraid of spiders !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 509.66,
+    "end": 510.56,
+    "text": "What the heck is this ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 510.65,
+    "end": 517.32,
+    "text": "A jar with a big spider in it , of course . Bravery test . First one to take his hand out is the sidekick .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 518.89,
+    "end": 521.24,
+    "text": "Are you crazy ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 522.8,
+    "end": 525.05,
+    "text": "Perhaps . Are you scared ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 525.32,
+    "end": 526.97,
+    "text": "No . But it's a stupid test .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 527.08,
+    "end": 533.56,
+    "text": "Oh , really ? What if the earth was in danger and the only way to save it was to stick your hand in a jar with a spider ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.02,
+    "end": 539.01,
+    "text": "Oh , yeah ? What if the earth was in danger and the only way to save it was to take a shower in the locker room and let other guys see you naked ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 539.97,
+    "end": 548.35,
+    "text": "Oh , come on . That's never gonna happen . Now put your hand in the jar or forever be revealed as my sidekick .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 549.89,
+    "end": 551.19,
+    "text": "All right , I will .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 553.13,
+    "end": 555.32,
+    "text": "How did you get so brave all of a sudden ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 555.88,
+    "end": 558.08,
+    "text": "It's easy . The spider's crawling up your arm .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 559.58,
+    "end": 574.56,
+    "text": "Get it off ! Get it off ! Please , Raj ! Ah ! Ah ! Ah ! Please . Oh !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 576.06,
+    "end": 579.24,
+    "text": "My blood work shows thyroid function normal . Cortisol levels normal .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 580.42,
+    "end": 583.12,
+    "text": "How about your follicle-stimulating hormone levels ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 583.15,
+    "end": 584.81,
+    "text": "Sheldon , I am not going through menopause .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 586.35,
+    "end": 589.67,
+    "text": "Are you sure ? You said that with the testy bark of an old biddy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 592.25,
+    "end": 596.87,
+    "text": "I think we need to face the cold , hard truth , I was sexually aroused by Penny's friend Zack .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 597.75,
+    "end": 602.28,
+    "text": "Hang on . I don't know that we've given the alien parasite hypothesis a fair shake .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 603.47,
+    "end": 609.38,
+    "text": "Let's look at this logically . I have a stomach , I get hungry . I have genitals , I have the potential for sexual arousal .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 610.51,
+    "end": 620.15,
+    "text": "A cross we all must bear . You know , in difficult moments like this , I often turn to a force greater than myself .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 620.55,
+    "end": 626.03,
+    "text": "Religion ? No .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 626.14,
+    "end": 638.81,
+    "text": "Don't . It's terrible . However , in it , we learn that when Spock finds himself drawn off the path of logic by feelings bubbling up from his human half , he suppresses them using the Vulcan mental discipline of Kolinar .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 639.72,
+    "end": 643.67,
+    "text": "Are you suggesting we live our lives guided by the philosophies found in cheap science fiction ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 643.74,
+    "end": 645.1,
+    "text": "Cheap science fiction ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 651.05,
+    "end": 651.76,
+    "text": "What are you doing ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 652.15,
+    "end": 656.73,
+    "text": "Using Kolinar to suppress my anger at that last comment .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 658.58,
+    "end": 662.79,
+    "text": "Is it possible that your concern for me at this moment is motivated by nothing more than simple jealousy ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 664.64,
+    "end": 673.84,
+    "text": "I hadn't considered that . Give me a moment . All right , I've considered it . I reject it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 672.46,
+    "end": 672.97,
+    "text": "And ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 675.54,
+    "end": 679.42,
+    "text": "You reject it because you don't feel jealousy , or because you are suppressing jealousy ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 681.35,
+    "end": 682.75,
+    "text": "I think I'll eat my lunch at home .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 685.65,
+    "end": 688.02,
+    "text": "That's not your lunch , Sheldon , those are the cadaver brain specimens .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 690.2,
+    "end": 690.56,
+    "text": "Oh .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 692.37,
+    "end": 696.26,
+    "text": "As they were incorrectly sliced , you can see how I could mistake them for my sashimi .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 704.44,
+    "end": 704.89,
+    "text": "Hello .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 705.55,
+    "end": 708.16,
+    "text": "Hey . Isn't tomorrow your usual laundry night ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.72,
+    "end": 715.71,
+    "text": "The supermarket was out of my regular fabric softener . If this one under or over-softens , I'll need time to make things right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 717.45,
+    "end": 718.48,
+    "text": "That's thinking ahead .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 718.77,
+    "end": 722.77,
+    "text": "The alternative would be to think backwards . And that's just remembering .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 725.36,
+    "end": 725.92,
+    "text": "So how's Amy ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 726.53,
+    "end": 729.78,
+    "text": "Amy's changed . I might have to let her go .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 731.35,
+    "end": 732.13,
+    "text": "Oh , no . Why ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 732.58,
+    "end": 742.08,
+    "text": "I thought she was a highly evolved creature of pure intellect , like me . But recent events indicate that she may be a slave to her baser urges . Like you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 744.79,
+    "end": 746.59,
+    "text": "Just going to skip over that insult .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.58,
+    "end": 748.39,
+    "text": "What insult ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 749.02,
+    "end": 755.05,
+    "text": "Yeah . That's why I'm going to skip over it . Are you saying that Amy is , oh , what's the",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 756.25,
+    "end": 766.12,
+    "text": "Forget science . She's horny . It's simple biology . There's nothing I can do about it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 760.16,
+    "end": 762.76,
+    "text": "Oh ! Okay . Wow .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 771.03,
+    "end": 771.79,
+    "text": "Are you sure ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 773.85,
+    "end": 774.96,
+    "text": "What are you suggesting ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 775.68,
+    "end": 781.38,
+    "text": "I'm suggesting there might be something you could do about Amy's urges ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 785.3,
+    "end": 787.02,
+    "text": "It's illegal to spay a human being .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 789.1,
+    "end": 789.46,
+    "text": "Yeah .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 791.17,
+    "end": 792.48,
+    "text": "That's not what I had in mind .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.84,
+    "end": 794.53,
+    "text": "Oh . Oh !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 796.9,
+    "end": 799.11,
+    "text": "You mean something I could do .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 799.8,
+    "end": 800.33,
+    "text": "Exactly .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 801.34,
+    "end": 811.13,
+    "text": "Well , I was hoping to avoid this . But I might as well get it over with . Thank you , Penny . I'll let you know what happens .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 815.04,
+    "end": 816.67,
+    "text": "Oh , Amy , you lucky girl .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 820.15,
+    "end": 829.69,
+    "text": "Yes . This is Dr . Sheldon Cooper . Is this the Zack Johnson who used to have coitus with my neighbour Penny ? Sorry to bother you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 836.62,
+    "end": 874.37,
+    "text": "Hello . I'm looking for a Zack Johnson who used to have coitus with my neighbour Penny . Coitus . It means intercourse . And I have a feeling I'm speaking to the right Zack . This is Sheldon Cooper . Fine . Shelly . Yes , that does sound like a girl's name . No , it doesn't bother me . Yes , Smelly Shelly does bother me . Let me tell you why I'm calling . I'd like to know if you'd be interested in having sex with Amy Farrah Fowler . Amy Farrah Fowler . Yes , that is a girl's name . Good grief . It's like trying to talk to a dolphin .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 877.04,
+    "end": 881.4,
+    "text": "Really ? This is going to decide who's the hero and who's the sidekick ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 890.41,
+    "end": 891.34,
+    "text": "You got a better idea ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 891.7,
+    "end": 893.92,
+    "text": "Every idea is better than this idea .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 894.96,
+    "end": 895.49,
+    "text": "Ding !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 896.53,
+    "end": 901.03,
+    "text": "Wait . What the hell is ding ? I don't think this kind of wrestling has a bell .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 898.67,
+    "end": 899.33,
+    "text": "It's a bell .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 901.64,
+    "end": 902.64,
+    "text": "Fine . How do you want to start ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 902.74,
+    "end": 906.1,
+    "text": "I say , uh , how about one , two , three , go ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 906.13,
+    "end": 906.95,
+    "text": "One-two-three-go ? That's for babies .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 908.09,
+    "end": 910.76,
+    "text": "Okay , how about , uh , on your mark , get set , go ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 910.84,
+    "end": 912.87,
+    "text": "That's for a footrace . If you want to race , we have to go outside .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 913.37,
+    "end": 915.11,
+    "text": "No , it's chilly outside . Didn't bring my jacket .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 916.51,
+    "end": 920.38,
+    "text": "Oh , for crying out loud . What kind of superhero needs a jacket ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 921.1,
+    "end": 923.53,
+    "text": "What kind of superhero says dibs on the red tights , dibs on the red tights .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 925.88,
+    "end": 927.43,
+    "text": "All right , how about this ? Ready , wrestle .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 927.74,
+    "end": 932.21,
+    "text": "Wait . Are we starting now ? Or is that what you're going to say when we do start , or ... Don't yell at me !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 930.27,
+    "end": 930.88,
+    "text": "We're starting now !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 940.29,
+    "end": 946.27,
+    "text": "Suppose there are worse ways to spend a Friday night . None come to mind .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 951.26,
+    "end": 956.96,
+    "text": "Look at this stamp . On what authority are they permitted to mutilate patrons as they enter ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.49,
+    "end": 959.55,
+    "text": "I'm sure it'll wash off .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 960.17,
+    "end": 962.62,
+    "text": "Little comfort tonight . I look like a Hell's Angel .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 964.17,
+    "end": 965.72,
+    "text": "There's Zack .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 967.27,
+    "end": 968.98,
+    "text": "Are you sure this is what you want to do ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 969.37,
+    "end": 972.25,
+    "text": "It's not what I want to do , it's what I have to do .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 974.13,
+    "end": 978.14,
+    "text": "Go , Amy Farrah Fowler . Follow your endocrine system .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.01,
+    "end": 981.4,
+    "text": "Thank you , Sheldon . You're a good friend .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 981.43,
+    "end": 988.53,
+    "text": "Please don't drag this out . This is never going to come off .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 990.37,
+    "end": 1009.84,
+    "text": "Excuse me ? Zack ? I am Amy Farrah Fowler . We met the other night . I have spent my life in pursuit of pure knowledge . Until I met you , my decisions were founded in logic and reason . And yet here I stand before you , 130 pounds of raging estrogen , longing to grab hold of your gluteus maximus and make Shakespeare's metaphorical beast with two backs .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1013.12,
+    "end": 1013.91,
+    "text": "My gluteus what ?",
+    "speaker": "zack_johnson",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1016.59,
+    "end": 1022.01,
+    "text": "On the other hand , as I look at the blank , ape-like expression on your face , I have decided to adopt the Vulcan practice of Kolinar . Good-bye , Zack .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1022.02,
+    "end": 1022.66,
+    "text": "Bye . Hoo . That should hold me for a while .",
+    "speaker": "zack_johnson",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1044.07,
+    "end": 1052.54,
+    "text": "I'm legally obligated to inform you that I took a karate lesson when I was 11 . I'd be a regular ninja by now if my mom could've arranged a carpool .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1053.82,
+    "end": 1058.65,
+    "text": "Oh , yeah ? Well , I've been taking Pilates class at the rec center , and my abs look like sections of a Hershey bar .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1060.04,
+    "end": 1061.9,
+    "text": "Oh , yeah ? Won't matter , you're going down !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1061.99,
+    "end": 1063.41,
+    "text": "No , uh-uh , you're going down !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1063.67,
+    "end": 1065.52,
+    "text": "If anybody's going to go down , it's going to be you .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1065.99,
+    "end": 1068.97,
+    "text": "Fellas . It's been 30 minutes . Nobody's touched each other .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1072.29,
+    "end": 1077.16,
+    "text": "I'm glad you decided to reject your animal hindbrain and return to the realm of pure intellect .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.71,
+    "end": 1078.22,
+    "text": "As am I.",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1082.07,
+    "end": 1082.72,
+    "text": "What are you doing ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1083.28,
+    "end": 1088.26,
+    "text": "An experiment . Nope . Nothing . Never mind .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1099.71,
+    "end": 1101.1,
+    "text": "You realize you can't win .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1101.55,
+    "end": 1103.16,
+    "text": "I prefer to think that I can't lose .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1105.14,
+    "end": 1111.59,
+    "text": "You're wrong . It's only a matter of time before you fall into Rat-Man's rat trap .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1113.2,
+    "end": 1117.06,
+    "text": "You pathetic fool ! If there were a rat-catcher , wouldn't it catch Rat-Man ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1118.06,
+    "end": 1123.35,
+    "text": "Just because I didn't express myself well doesn't mean my underlying point was invalid ! You bloviating buffoon !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1124.3,
+    "end": 1125.98,
+    "text": "You narcissistic nincompoop !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1126.01,
+    "end": 1130.57,
+    "text": "You crimson coward ! Oh , Leonard , wake up , you're missing some very excellent superhero quips .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  }
+]

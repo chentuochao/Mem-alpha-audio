@@ -1,0 +1,1395 @@
+[
+  {
+    "start": 2.4,
+    "end": 6.08,
+    "text": "Okay , Raj , hand me the number six torque screwdriver .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 7.85,
+    "end": 11.23,
+    "text": "Stop . We can't do this , it's not right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 11.42,
+    "end": 16.87,
+    "text": "Sheldon , you have two choices . Either you let him put a bigger hard drive in the TiVo , or you delete stuff before we go out of town .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 17.15,
+    "end": 34.13,
+    "text": "But once you open the box , you've voided the warranty . The warranty is a sacred covenant we've entered into with the manufacturer . He offers to stand by his equipment , and we in return agree not to violate the integrity of the internal hardware . This little orange sticker is all that stands between us and anarchy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 36.04,
+    "end": 39.05,
+    "text": "Okay , then we won't touch the hard drive . We'll just erase the first season of Battlestar .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.35,
+    "end": 43.23,
+    "text": "There . We're outlaws .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 46.6,
+    "end": 47.18,
+    "text": "Here you go , Leonard . Is this going to be big enough ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 47.52,
+    "end": 48.12,
+    "text": "It's perfect .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.46,
+    "end": 54.08,
+    "text": "For taking daffodils to your unicorn .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 55.86,
+    "end": 57.64,
+    "text": "It's just for my notebooks . Thanks , Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 57.86,
+    "end": 60.49,
+    "text": "Oh , I love San Francisco . I wish I was going with you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.64,
+    "end": 75.67,
+    "text": "I understand your envy . This is a can't-miss symposium . There are going to be discussions on bioorganic cellular computer devices , the advancements in multi-threaded task completion , plus a roundtable on the nonequilibrium Green's function approach to the photoionization process in atoms .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 77.15,
+    "end": 79.48,
+    "text": "When I go , I usually just get hammered and ride the cable cars .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 81.02,
+    "end": 84.71,
+    "text": "This conference is kind of a big thing . The keynote address is being delivered by George Smoot .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 85.44,
+    "end": 89.07,
+    "text": "Oh , my God , the George Smoot ? Of course I haven't .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 87.59,
+    "end": 87.98,
+    "text": "You've heard of him ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 91.32,
+    "end": 103.18,
+    "text": "George Smoot is a Nobel Prize-winning physicist , one of the great minds of our time . His work in black body form and anisotropy of the cosmic microwave background radiation cemented our understanding of the origin of the universe .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 103.88,
+    "end": 106.36,
+    "text": "It's kind of a funny name , though , Smoot .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 110.47,
+    "end": 111.41,
+    "text": "It's like talking to a chimp .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 112.32,
+    "end": 116.35,
+    "text": "Okay , now that I've been completely insulted , have a good flight .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 116.62,
+    "end": 117.14,
+    "text": "Yeah , I wish .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 117.29,
+    "end": 119.6,
+    "text": "We're not flying , we're taking the train .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 119.9,
+    "end": 120.86,
+    "text": "Oh , cool .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 121.3,
+    "end": 125.28,
+    "text": "Yeah , cool . Seven times as long as flying , and costs almost twice as much .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 126.71,
+    "end": 127.9,
+    "text": "Well , then why are you doing it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 128.12,
+    "end": 133.16,
+    "text": "Well , we had a vote . Three of us voted for airplane , Sheldon voted for train , so we're taking the train .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 165.51,
+    "end": 168.57,
+    "text": "Hey , we're all going over to the Apple store to make fun of the guys at the Genius Bar . You want to come ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 169.89,
+    "end": 191.04,
+    "text": "Oh , I always enjoy that , but I'm a little busy . I'm simplifying the task of packing for our trip . See , by attaching RFID tags to my clothing , it will enable my laptop to read and identify the items with this wand . I will then cross-reference them against destination , anticipated activity spectrum , weather conditions , duration of trip , et cetera .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 173.25,
+    "end": 173.73,
+    "text": "What are you doing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 192.79,
+    "end": 197.38,
+    "text": "Well , that does sound much simpler . How long is this going to take ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 197.77,
+    "end": 203.1,
+    "text": "Assuming I can keep up this pace , three hours , 11 minutes , and plus however long it takes to conclude this fairly pointless conversation .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 205.19,
+    "end": 209.03,
+    "text": "Wow . Teasing the guys at the Apple store seems a little redundant now .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.85,
+    "end": 210.23,
+    "text": "I don't follow .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 210.54,
+    "end": 211.89,
+    "text": "I wouldn't expect you to . I'll see you later .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 216.16,
+    "end": 229.24,
+    "text": "Socks , one pair , cotton , argyle , blue . Socks , one pair , cotton , argyle , blue .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 234.35,
+    "end": 235.83,
+    "text": "What on earth are you doing ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 236.78,
+    "end": 238.82,
+    "text": "Whatever it is , I'm guessing we're doing it wrong .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 239.57,
+    "end": 260.31,
+    "text": "Gentlemen , this is the Coast Starlight , one of the great American trains operating on one of the classic American routes . On this side , you'll see panoramic ocean vistas inaccessible to any other form of transportation , while on your side , you'll be treated to 350 miles of CostCos , Jiffy Lubes , and cinderblock homes with above-ground pools .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 263.14,
+    "end": 263.87,
+    "text": "Come on , Raj .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 264.35,
+    "end": 265.34,
+    "text": "What's wrong with Jiffy Lubes ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 267.01,
+    "end": 267.07,
+    "text": "No .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 269.38,
+    "end": 270.1,
+    "text": "Why not ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 270.25,
+    "end": 277.78,
+    "text": "That's over the wheelbase . Are you completely unfamiliar with the suspension characteristics of a pre-1980 Pullman-built Superliner Deluxe passenger coach ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 278.78,
+    "end": 284.93,
+    "text": "Sheldon , we've been on this train 90 seconds , and you've already said a thousand words . Just tell us where to sit and shut up .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 288.0,
+    "end": 296.96,
+    "text": "Here . I'm hoping once you reap the endorphic rewards of the steady clickety-clack of steel wheels on polished rails , your sour disposition will abate .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 297.78,
+    "end": 305.4,
+    "text": "Yeah , maybe . Meanwhile back in the 21st century , people are raising their tray tables and putting their seat-backs in an upright position 'cause it's time to land in San Francisco .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 306.89,
+    "end": 314.86,
+    "text": "It's not so bad , really . At least these trains have modern plumbing . In India , you squat over a hole in the train and expose your naked buttocks to the chilly air of Rajasthan .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 316.18,
+    "end": 324.15,
+    "text": "He is referring , of course , to third class on Indian Railways' magnificent Ranakpur Express and its twelve hundred kilometer journey from Maharashtra to the Bikaner Junction .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 325.51,
+    "end": 327.65,
+    "text": "Oh , look , now he's boring on an international scale .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 330.1,
+    "end": 331.45,
+    "text": "Holy crap ! Look !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 333.91,
+    "end": 334.92,
+    "text": "Is that who I think it is ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 335.36,
+    "end": 338.28,
+    "text": "It can't be . What would Summer Glau be doing riding the train ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 338.57,
+    "end": 341.72,
+    "text": "Maybe John Connor's aboard and she's protecting him from an evil Terminator .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 343.07,
+    "end": 345.18,
+    "text": "Unlikely . That's a television show , Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.33,
+    "end": 346.68,
+    "text": "Thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 348.05,
+    "end": 364.23,
+    "text": "Of course , if SkyNet actually did exist in the future , a perfect way to infiltrate and destroy mankind would be to send Terminators back posing as actors who have played Terminators in popular films and television series , lulling us into a false sense of security , i.e. , that's Summer Glau from The Sarah Connor Chronicles . No , Summer , don't kill me ! I'm pro-robot ! Ahh !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.42,
+    "end": 369.66,
+    "text": "At least he's off the train crap .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 372.33,
+    "end": 372.69,
+    "text": "Whee !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 375.36,
+    "end": 380.69,
+    "text": "Sheldon , I owe you an apology . Taking the train was a stroke of brilliance ! I've actually got a shot at a Terminator .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 381.06,
+    "end": 385.27,
+    "text": "Oh , please.When it comes to Terminators , you've got a better shot of scoring with Arnold Schwarzenegger .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 387.6,
+    "end": 402.93,
+    "text": "You're overlooking something . I have 11 hours with her in a confined space . Unless she's willing to jump off a moving train , tuck and roll down the side of a hill , she will eventually succumb to the acquired taste that is Howard Wolowitz .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 406.67,
+    "end": 407.86,
+    "text": "My money's on tuck and roll .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 409.73,
+    "end": 414.21,
+    "text": "I'm confused . I thought you were involved in some sort of socially intimate pairing with Leslie Winkle .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 415.6,
+    "end": 422.8,
+    "text": "Sheldon , let me explain to you how this works . That's Summer Glau . That's it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 418.09,
+    "end": 418.52,
+    "text": "All right .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 420.81,
+    "end": 421.39,
+    "text": "Yes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 424.95,
+    "end": 426.88,
+    "text": "Hang on a sec . Why do you get first crack at her ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 427.03,
+    "end": 430.67,
+    "text": "Um , well , let's see , couple reasons . One , I saw her first .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 431.35,
+    "end": 431.8,
+    "text": "No , you didn't . I did .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 432.76,
+    "end": 438.77,
+    "text": "Fair enough . But then let me move on to number two , unlike you , I can actually talk to women when I'm sober .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 439.02,
+    "end": 445.77,
+    "text": "You fail to take into account that even mute , I am foreign and exotic , while you , on the other hand , are frail and pasty .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.54,
+    "end": 452.12,
+    "text": "Well , you know the old saying , pasty and frail never fail .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 455.79,
+    "end": 458.8,
+    "text": "Excuse me , but what about me ? Why don't I get a shot ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 459.34,
+    "end": 461.22,
+    "text": "Fine , go ahead . Take a shot .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 463.88,
+    "end": 467.97,
+    "text": "You know , I've already got a gorgeous blonde back home at I can't score with . I think I'll let you two take this one .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 469.31,
+    "end": 470.6,
+    "text": "Sheldon , is there a place on this train to get alcohol ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 470.95,
+    "end": 483.97,
+    "text": "Interesting that you ask . The Coast Starlight recently added the refurbished Pacific Parlour Car . Built in 1956 and originally known as the Santa Fe Lounge Car , the lower level is a theatre ... and the upper level is a bar that offers wine tastings if you're going as far as Portland .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 480.49,
+    "end": 480.94,
+    "text": "Yeah-yeah , which way ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 486.24,
+    "end": 487.32,
+    "text": "So aren't you going to go talk to her ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 487.48,
+    "end": 490.03,
+    "text": "I will , I'm just working on my opening line .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 490.27,
+    "end": 493.49,
+    "text": "She's probably heard every possible line , Howard . Why don't you just try hello ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 493.86,
+    "end": 504.65,
+    "text": "No , no , no , that always creeps girls out . I need to come up with something that's funny , smart and delicately suggests that my sexual endowment is disproportionate to my physical stature .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 505.37,
+    "end": 507.69,
+    "text": "You're going to need more than 11 hours .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 509.48,
+    "end": 510.14,
+    "text": "Oh , no .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 510.74,
+    "end": 511.25,
+    "text": "What's the matter ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 511.85,
+    "end": 515.37,
+    "text": "I forgot my flash drive . So we have to go back .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 513.44,
+    "end": 513.8,
+    "text": "So ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 516.07,
+    "end": 521.03,
+    "text": "Okay , Sheldon , I'm going to say why and your answer cannot be because I forgot my flash drive .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 521.91,
+    "end": 530.44,
+    "text": "You don't understand . My flash drive has my paper on astrophysical probes of M-theory effects in the early universe that I was going to give to George Smoot at the conference .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 530.69,
+    "end": 532.83,
+    "text": "Why do you have to give your paper to George Smoot ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 533.76,
+    "end": 535.41,
+    "text": "It's brilliant . He needs to read it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 537.45,
+    "end": 539.13,
+    "text": "So you'll send him an e-mail when we get back .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 539.56,
+    "end": 541.91,
+    "text": "Then I won't get to see his face light up as he reads it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 542.74,
+    "end": 543.56,
+    "text": "Right . Of course .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 543.62,
+    "end": 545.44,
+    "text": "Oh , this is an unmitigated disaster .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 545.63,
+    "end": 552.33,
+    "text": "Well , there's nothing you can do about it , so relax , sit back , enjoy the clickety-clack of the steel wheels on the polished rails .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 559.68,
+    "end": 561.92,
+    "text": "You forgot your flash drive , You forgot your flash drive",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 564.06,
+    "end": 566.24,
+    "text": "Only ten hours , 55 minutes to go .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 577.22,
+    "end": 578.71,
+    "text": "It's hot in here . Must be Summer .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 591.55,
+    "end": 593.28,
+    "text": "So , where you gals headed ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 595.54,
+    "end": 609.91,
+    "text": "Okay , I've found the perfect solution . We get off the train at the next stop in Oxnard . We then take the 1:13 train back to Union Station . We take a cab back to the apartment , get my flash drive , and then race to San Luis Obispo , where , assuming the lights are with us and minimal traffic , we'll meet the train .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 610.66,
+    "end": 611.53,
+    "text": "got a better idea .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 611.85,
+    "end": 613.1,
+    "text": "Are you going to be sarcastic ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 614.33,
+    "end": 622.02,
+    "text": "Boy , you take all the fun out of it for me.But look , Penny's home . Why don't we just call her , have her go in the apartment , get your flash drive and e-mail you the paper ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 622.22,
+    "end": 630.64,
+    "text": "But the flash drive is in a locked drawer in my desk . The key is hidden in my room . Penny would have to go into my room . People don't go in my room !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 624.87,
+    "end": 625.25,
+    "text": "So ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 627.14,
+    "end": 627.35,
+    "text": "So ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 628.94,
+    "end": 629.26,
+    "text": "So ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 632.4,
+    "end": 636.49,
+    "text": "I see . Well , it seems once again , you're caught between a rock and a crazy place .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 639.18,
+    "end": 640.56,
+    "text": "Oh , I hate when that happens .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 642.84,
+    "end": 647.46,
+    "text": "It's hot in here . It must be Summer . It's hot in here . Must be Summer . It's hot in here . Must be Summer .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 648.15,
+    "end": 649.75,
+    "text": "It's hot in here . Must be Summer .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 651.99,
+    "end": 652.71,
+    "text": "That's cute .",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 652.86,
+    "end": 657.35,
+    "text": "Really ? I just made it up . Have you seen Slumdog Millionaire ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 659.21,
+    "end": 660.14,
+    "text": "Oh , yeah , I loved it .",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 660.45,
+    "end": 661.62,
+    "text": "It's loosely based on my life .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 665.84,
+    "end": 676.36,
+    "text": "Yeah , we're putting the play on for one night in this little 99-seat theatre . Can you come ? Oh , great . Do you know 98 other people that might want to come ? Oh , hang on . Hello ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 676.56,
+    "end": 680.84,
+    "text": "Listen carefully . I'm about to give you a set of instructions , which you must follow to the letter .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 681.15,
+    "end": 697.18,
+    "text": "Just a sec . The theatre is above a bowling alley , so it's a little noisy , but it might be the only chance I'll ever get to play Anne Frank . And the director is brilliant . He uses the bowling sounds as , like , Nazi artillery . Okay , great , I'll see you then . Hello ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 697.38,
+    "end": 703.19,
+    "text": "Okay , step four . Do you see that small plastic case on my dresser ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 703.57,
+    "end": 704.77,
+    "text": "Your dresser ? Who is this ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 705.77,
+    "end": 706.47,
+    "text": "It's Sheldon .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.91,
+    "end": 709.44,
+    "text": "Oh , hey , Sheldon ! How is San Francisco ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 709.49,
+    "end": 712.88,
+    "text": "I'm not in San Francisco . I'm on a train . Were you even listening to me ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 713.04,
+    "end": 715.26,
+    "text": "Uh , no , I was talking to my friend , but what's up ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 715.58,
+    "end": 722.23,
+    "text": "What's up ? I'll tell you what's up . I'm in a crisis situation , and I need you to marshal your powers of concentration , limited as they may be ...",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 722.27,
+    "end": 726.83,
+    "text": "Give me the phone . Hi , Penny . It's Leonard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 726.86,
+    "end": 729.07,
+    "text": "Hey , Leonard . What's going on with Dr . Wackadoodle ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 731.04,
+    "end": 737.25,
+    "text": "He's calling to ask you a favour . You might be confused because he didn't use the words , Penny , Sheldon , please or favour .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 737.93,
+    "end": 749.68,
+    "text": "Okay . Enough chitchat . Okay , step one , locate your emergency key to our apartment . Step two , enter our apartment . Step three , enter my bedroom .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 751.62,
+    "end": 752.81,
+    "text": "Oh , hang on , Sheldon , getting another call .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 753.1,
+    "end": 757.71,
+    "text": "No ! Leonard , let me tell you something . Personal robots cannot get here soon enough .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 761.37,
+    "end": 766.22,
+    "text": "And that bright little star peeking her head out early today , that's Venus .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 767.18,
+    "end": 770.54,
+    "text": "That is so cool . You really know a lot about space .",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 770.93,
+    "end": 775.36,
+    "text": "Come on . When you were on TV in Firefly , you were actually in space .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 777.29,
+    "end": 779.08,
+    "text": "You're not one of those guys who really believe that , are you ?",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 779.95,
+    "end": 790.25,
+    "text": "You mean one of the hopeless geeks ? No . Those are crazy people . Howard , be a dear and get me another one of these .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 795.8,
+    "end": 797.62,
+    "text": "Now , him , he's one of those geeks .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 799.76,
+    "end": 812.58,
+    "text": "All right , now , before you enter my bedroom unescorted , I need you to understand that this onetime grant of access does not create a permanent easement . Easement . It's a legal right",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 821.56,
+    "end": 830.27,
+    "text": "Do you believe him ? Normally around women , he has the personality of a boiled potato . Put one beer in him , and he's M. Night Charmalarmalon .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 834.41,
+    "end": 839.39,
+    "text": "Is that what he's drinking ? It's not even real beer . Look at it . Non-alcoholic beer .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 836.48,
+    "end": 836.8,
+    "text": "What ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 841.98,
+    "end": 842.7,
+    "text": "What's going on ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 842.89,
+    "end": 846.17,
+    "text": "I don't know . Some sort of placebo effect , I guess .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 848.02,
+    "end": 849.85,
+    "text": "Placebo , you say . Interesting .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.38,
+    "end": 870.76,
+    "text": "Yes , I'm still here . Where am I going ? I'm on a train . Now , what you'll be looking for is a small wooden box located between a Hoberman's sphere and a sample of quartz flecked with pyrite . Hoberman's Sphere . It's a collapsible icosidodecahedron . No , the thing with the time on it is my alarm clock .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 874.57,
+    "end": 881.1,
+    "text": "Actually , in India , the names of constellations are different . Where you have the Big Dipper , we have the Big Curry Pot .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 882.98,
+    "end": 883.78,
+    "text": "You're making that up .",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 884.65,
+    "end": 887.57,
+    "text": "You got me . Now what are you going to do with me ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 892.65,
+    "end": 896.5,
+    "text": "Raj . Look . You tell me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 893.28,
+    "end": 895.41,
+    "text": "Yes ? What am I looking at ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 897.09,
+    "end": 898.44,
+    "text": "Non-alcoholic bee-ee-eeuh",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 906.92,
+    "end": 910.33,
+    "text": "Hi , I'm the small package good things come in .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 911.75,
+    "end": 917.03,
+    "text": "Okay , I got a box , but there's no key in here . Just letters .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 917.3,
+    "end": 918.69,
+    "text": "That's the wrong box . Put it back .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 918.98,
+    "end": 921.37,
+    "text": "Oh , Sheldon , are these letters from your grandmother ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 921.68,
+    "end": 923.03,
+    "text": "Don't read those letters !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 923.21,
+    "end": 927.82,
+    "text": "Oh , look , she calls you Moon Pie . That is so cute .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 928.72,
+    "end": 930.51,
+    "text": "Put down the letters !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 931.41,
+    "end": 932.41,
+    "text": "Hey , Penny . It's Leonard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 933.01,
+    "end": 934.4,
+    "text": "Hey , Leonard . How's the train ride ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 934.72,
+    "end": 940.83,
+    "text": "Delightful . Listen , I don't know what you're doing right now , but there are little bubbles forming on the corners of Sheldon's mouth .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 941.7,
+    "end": 944.16,
+    "text": "Okay , yeah , I kind of crossed a line . Put him back on .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.25,
+    "end": 944.87,
+    "text": "Thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 946.92,
+    "end": 947.39,
+    "text": "I'm back .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 947.49,
+    "end": 948.31,
+    "text": "What up , Moon Pie ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 949.88,
+    "end": 952.32,
+    "text": "Nobody calls me Moon Pie but Meemaw !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 954.99,
+    "end": 956.08,
+    "text": "Hey , Penny . Leonard again .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.78,
+    "end": 980.17,
+    "text": "So anyway , in the dream , you and I were ice skating , just the two of us . And then , I picked you up by your ankles and twirled you round and round until your legs tore off . I tried to stick them back on , but before I could , you turned into a giant loaf of pumpernickel bread . What do you think that means ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 981.68,
+    "end": 982.77,
+    "text": "I really don't know .",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 985.23,
+    "end": 988.65,
+    "text": "I'll give you a little clue . My favourite sandwich ? Salami on pumpernickel .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 990.66,
+    "end": 991.34,
+    "text": "Is that so ?",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 992.86,
+    "end": 997.89,
+    "text": "And did you know the word \" pumpernickel \" comes from the German words pumper and nickel , which loosely translates to fart goblin ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 999.66,
+    "end": 1003.2,
+    "text": "No . I didn't .",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1004.97,
+    "end": 1007.7,
+    "text": "Okay , I found the box . Now what ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1008.07,
+    "end": 1027.42,
+    "text": "You're holding a Japanese puzzle box , which takes ten precise moves to open . First , locate the panel with the diamond pattern and slide the centre portion one millimetre to the left . Then , on the opposite end of the box , slide the entire panel down two millimetres . You'll hear a slight click .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1027.63,
+    "end": 1031.29,
+    "text": "Hang on . Sheldon , do you have any emotional attachment to this box ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1031.43,
+    "end": 1034.53,
+    "text": "No , it's a novelty I ordered off the Internet . Now , did you hear the click ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1034.86,
+    "end": 1040.43,
+    "text": "Not yet . There it is .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1044.69,
+    "end": 1051.35,
+    "text": "Okay , here's another one . If you married the famous rock guitarist Johnny Winter , you'd be Summer Winter .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1053.8,
+    "end": 1054.16,
+    "text": "Uh-huh .",
+    "speaker": "summer_glau",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1056.6,
+    "end": 1071.38,
+    "text": "Okay , I'm going to just go for broke here and say I like you . So here's my question , do you realistically see any conversational path that would take me from where we are right now to a place where I could ask you out and you'd say yes ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1061.22,
+    "end": 1061.88,
+    "text": "Yeah ?",
+    "speaker": "summer_glau",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1073.79,
+    "end": 1074.15,
+    "text": "No .",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1076.56,
+    "end": 1078.76,
+    "text": "Fair enough . I'll leave you in peace .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1080.07,
+    "end": 1081.39,
+    "text": "Thank you .",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1082.7,
+    "end": 1089.9,
+    "text": "But before I go , would you mind if I just take one picture of us together for my Facebook page ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1093.54,
+    "end": 1093.9,
+    "text": "Sure .",
+    "speaker": "summer_glau",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1097.53,
+    "end": 1097.89,
+    "text": "Okay .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1101.17,
+    "end": 1103.46,
+    "text": "Great . Now , can I take one where it looks like we're making out ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1106.46,
+    "end": 1129.52,
+    "text": "Okay , now you're going to insert the flash drive into the USB port . She calls me Moon Pie because I'm nummy-nummy and she could just eat me up , now , please put the flash drive in the USB port . The one that looks like a little duck's mouth .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1132.32,
+    "end": 1133.16,
+    "text": "Hey , how'd it go ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1133.8,
+    "end": 1135.41,
+    "text": "Terminator broke my phone .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1139.85,
+    "end": 1156.58,
+    "text": "Excuse me . Okay , I'll be honest with you . I've just spent the last two hours imagining various scenarios in my head , trying to come up with some clever line to say to you . But then I finally realized you're a human being ; I'm a human being . I could just say to you ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1157.43,
+    "end": 1160.39,
+    "text": "I'm sorry . This is me .",
+    "speaker": "summer_glau",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1161.65,
+    "end": 1162.78,
+    "text": "Hi , my name's Leonard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1168.21,
+    "end": 1185.24,
+    "text": "So , I'm thinking , you won the Nobel Prize what , three years ago ? So you must deal with a whole lot of what has Smoot done lately ? My thought is we continue my research as a team , you know , Cooper-Smoot , alphabetical , and when we win the Nobel Prize , you'll be back on top .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1186.29,
+    "end": 1188.81,
+    "text": "With all due respect , Dr . Cooper , are you on crack ?",
+    "speaker": "dr_george_smoot",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1192.87,
+    "end": 1196.56,
+    "text": "Fine ! Smoot-Cooper . Wow , what a diva .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  }
+]

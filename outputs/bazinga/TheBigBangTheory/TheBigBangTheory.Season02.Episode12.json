@@ -1,0 +1,1388 @@
+[
+  {
+    "start": 1.55,
+    "end": 26.02,
+    "text": "All right , that's the last servo . Behold the Mobile Omnidirectional Neutralization and Termination Eradicator . Or ... Featuring one articulated razor-sharp killing saw , one polycarbonate grinding and flipping wheel , steel armour plate exoskeleton top and bottom , and enough horsepower to drive a 110 pounds of mechanized death from zero to holy crap in 4.8 seconds .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 27.54,
+    "end": 29.55,
+    "text": "Is it wrong to say I love our killer robot ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 31.05,
+    "end": 33.8,
+    "text": "As with my father , I both love and fear it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 34.83,
+    "end": 37.07,
+    "text": "All right , enough chitchat , let's destroy something .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 39.79,
+    "end": 42.66,
+    "text": "Okay . What shall be first to taste the wrath of Monte ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.82,
+    "end": 44.1,
+    "text": "Maybe we should start small .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 44.83,
+    "end": 49.41,
+    "text": "Okay . Ooh , perhaps today is the day we finally find out what's inside the Magic Eight Ball .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.33,
+    "end": 55.07,
+    "text": "Did it when I was four . It's an icosahedral dye floating in tinted blue water .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 56.29,
+    "end": 59.24,
+    "text": "Man , call spoiler alert before you say things like that .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.11,
+    "end": 61.69,
+    "text": "How about the toaster oven ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.13,
+    "end": 63.9,
+    "text": "What did the toaster oven ever do to you ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 64.0,
+    "end": 73.12,
+    "text": "What did I ever do to Jimmy Mullins in the third grade ? He still punched me in the face with my own fists . Sorry , you little nerd , you were just in the wrong boys' room at the wrong time .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 74.84,
+    "end": 75.8,
+    "text": "Gentlemen , goggles .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 76.92,
+    "end": 85.42,
+    "text": "Yeah , this is an auspicious moment . Yeah , like Robert Oppenheimer or Neil Armstrong , we need the appropriate words to mark this historic scientific event .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 86.76,
+    "end": 89.14,
+    "text": "How about \" Die , toaster , die \" ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 91.08,
+    "end": 91.52,
+    "text": "That'll do it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 114.08,
+    "end": 114.95,
+    "text": "All right , what's next ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 116.89,
+    "end": 119.11,
+    "text": "No , I think I'm just going to stay in tonight and do laundry .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 145.21,
+    "end": 147.37,
+    "text": "Oh yeah , they still got the full Monte .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 149.05,
+    "end": 150.89,
+    "text": "Leonard ? What the hell ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 149.69,
+    "end": 149.85,
+    "text": "Uh-huh ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 152.7,
+    "end": 154.01,
+    "text": "Killer robot . We built it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 154.18,
+    "end": 156.16,
+    "text": "Yeah , well , it almost killed me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 156.36,
+    "end": 158.61,
+    "text": "If it wanted to kill you , you'd be dead .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.07,
+    "end": 165.02,
+    "text": "So , who exactly does it want to kill ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 165.65,
+    "end": 171.35,
+    "text": "I'm sorry , are you unaware of the upcoming Southern California Robot Fighting League Round Robin Invitational ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 171.51,
+    "end": 176.86,
+    "text": "You know , since I moved last year , not all my mail has been forwarded .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 179.3,
+    "end": 191.07,
+    "text": "It's a big deal . There's an awards banquet and a dance afterward . Perhaps you'd like to come with me . I know the other fellas would be really excited to see a girl there .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 191.96,
+    "end": 195.03,
+    "text": "How is it supposed to be a dance if I'm the only girl ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 195.09,
+    "end": 199.25,
+    "text": "Well , that may be a slight exaggeration . You'd be the only doable girl .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 202.85,
+    "end": 203.66,
+    "text": "You're a pig , Howard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 204.81,
+    "end": 207.46,
+    "text": "How is doable anything but a compliment ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 208.06,
+    "end": 209.5,
+    "text": "Howard , why don't we just work on the robot ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.68,
+    "end": 213.11,
+    "text": "Please , Leonard , not now . Once again , Penny and I have begun our little tango .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 213.2,
+    "end": 213.95,
+    "text": "Our tango ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 216.69,
+    "end": 227.87,
+    "text": "The carnal repartee , the erotic to and fro . But as delicious as the appetizer might be , at some point we will have to succumb and eat the entree while it's still ...",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.9,
+    "end": 233.26,
+    "text": "hot .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 238.65,
+    "end": 240.38,
+    "text": "I'm begging you , stop talking .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 241.69,
+    "end": 246.6,
+    "text": "Look , normally I can just ignore you . I mean , I get it , you're a little peculiar . You know , like Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 246.89,
+    "end": 250.02,
+    "text": "Yeah , excuse me , Penny , but in this room , you're the one who's peculiar .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.74,
+    "end": 261.19,
+    "text": "Yeah , you might be right . But back to you . I know you think you're some sort of smooth-talking ladies' man , but the truth is , you are just pathetic and creepy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 264.07,
+    "end": 265.18,
+    "text": "Um , so what are you saying ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 267.18,
+    "end": 283.62,
+    "text": "I am saying it is not a compliment to call me doable . It's not sexy to stare at my ass and say , \" Ooh , it must be jelly 'cause jam don't shake like that . \" And most important , we are not dancing a tango , we're not to'ing and fro'ing . Nothing is ever going to happen between us . Ever .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 284.29,
+    "end": 287.39,
+    "text": "Wait a minute . This isn't flirting , you're serious .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 288.14,
+    "end": 299.75,
+    "text": "Flirting ? You think I'm flirting with you ? I am not flirting with you , no woman is ever gonna flirt with you , you're just gonna grow old and die alone .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 300.5,
+    "end": 301.34,
+    "text": "Thanks for the heads up .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 303.92,
+    "end": 304.85,
+    "text": "Howard , where you going ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 305.02,
+    "end": 308.23,
+    "text": "I'm going home to live my creepy , pathetic life .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 309.9,
+    "end": 310.74,
+    "text": "Wow .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 312.41,
+    "end": 317.62,
+    "text": "Well , someone had to say it . What ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 320.82,
+    "end": 323.7,
+    "text": "He said maybe we should enter you in the killer robot competition .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 332.66,
+    "end": 334.46,
+    "text": "Howard , the phone is ringing !",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 343.42,
+    "end": 346.16,
+    "text": "Here's a crazy idea , Ma , answer it !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 347.06,
+    "end": 357.04,
+    "text": "Hello ? All right , hold on . It's your friend , Leonard ! He wants to know why you're not at school today !",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 357.95,
+    "end": 359.0,
+    "text": "I don't go to school , Ma . I work at a university . I don't want to talk to anybody .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 359.0,
+    "end": 361.38,
+    "text": "ask Leonard to bring over your homework? !",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 371.95,
+    "end": 376.9,
+    "text": "I don't have homework . I'm a grown man with a master's degree in engineering !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 377.67,
+    "end": 382.69,
+    "text": "Excuse me , Mr . Fancy-Pants . Want me to get you a Popsicle ?",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 383.46,
+    "end": 384.23,
+    "text": "Cherry , please !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 385.01,
+    "end": 388.89,
+    "text": "I ate the cherry . All that's left is green .",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 389.99,
+    "end": 391.35,
+    "text": "You make me want to kill myself .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.59,
+    "end": 394.11,
+    "text": "What's going on ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 394.44,
+    "end": 401.07,
+    "text": "I don't know , now they're just yelling about Popsicles . Sounds like Penny really got to him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 401.21,
+    "end": 413.4,
+    "text": "I'm not surprised . Despite his hard and crusty shell , Howard is a very sensitive man . Do you know he writes poetry ? Mostly about men from Nantucket and hermits named Dave , but he does it with real sensitivity .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 414.48,
+    "end": 417.52,
+    "text": "Hey , Hofstadter . Word around the pwasma wab is you built a wobot ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 417.54,
+    "end": 419.35,
+    "text": "Yes , we did , Kripke .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 420.64,
+    "end": 422.16,
+    "text": "His name is Monte .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 422.44,
+    "end": 433.85,
+    "text": "Well , if you have any dewusions about entewing him against my wobot , the Kwipke Kwippler in the Southern California Wobot Fighting League Wound Wobin Invitational , aka the S.C.aw.F.L.aw.aw.I. , his name is gonna be Swrap Metal .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 435.01,
+    "end": 437.12,
+    "text": "Come on , is that really necessary ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 437.17,
+    "end": 457.88,
+    "text": "Leonard , I believe it is . This is trash talk , and trash talk is a traditional component in all sporting events . Kripke , your robot is inferior and it will be defeated by ours because ours exceeds yours in both design and execution . Also , I'm given to understand that your mother is overweight .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 461.23,
+    "end": 462.07,
+    "text": "Oh , snap .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 463.17,
+    "end": 467.18,
+    "text": "Now , of course , if that is the result of a glandular condition and not sloth and gluttony , I withdraw that comment .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 469.1,
+    "end": 470.87,
+    "text": "What difference does it make ? Fat is fat .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 471.03,
+    "end": 471.97,
+    "text": "There are boundaries .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 472.9,
+    "end": 479.46,
+    "text": "Tell you what , forget the S.C.aw.F.L.aw.aw.I. , let's settle this woboto a woboto .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 481.07,
+    "end": 481.56,
+    "text": "What do you mean ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 481.81,
+    "end": 488.22,
+    "text": "There's no guawantee we've gotta go against each other in the Wound Wobin , so let's thwow down . You know , unless you're afwaid .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 490.19,
+    "end": 492.75,
+    "text": "We accept your challenge . Name a time and place .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 492.9,
+    "end": 494.36,
+    "text": "Tomowow , thwee o'clock , the kinetics wab .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 494.44,
+    "end": 495.24,
+    "text": "Make it so .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 495.37,
+    "end": 500.14,
+    "text": "No , don't make it so . Barry , we can't fight you tomorrow , our engineer is incapacitated .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 500.44,
+    "end": 500.96,
+    "text": "What's wrong with him ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 501.41,
+    "end": 504.47,
+    "text": "He's depressed because he's pathetic and creepy and he can't get girls .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 506.21,
+    "end": 517.1,
+    "text": "We're all pathetic and cweepy and can't get girls , that's why we fight wobots . If you're not there , you'll be exposed to widicule .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 519.8,
+    "end": 522.12,
+    "text": "I'm curious , what part of America is that accent from ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 528.65,
+    "end": 532.0,
+    "text": "Hey . Yeah , come on in . What's up ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 529.17,
+    "end": 529.87,
+    "text": "Hey , you got a minute ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 532.51,
+    "end": 533.99,
+    "text": "I need you to apologize to How ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.1,
+    "end": 534.41,
+    "text": "Get out .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 536.21,
+    "end": 539.74,
+    "text": "Come on . Wolowitz won't come out of his house and we need him for a robot battle .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 539.89,
+    "end": 541.38,
+    "text": "Well , then have the robot go and get him .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 541.91,
+    "end": 543.59,
+    "text": "The robot didn't hurt his feelings .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 543.88,
+    "end": 545.42,
+    "text": "His feelings needed to be hurt .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 545.6,
+    "end": 547.34,
+    "text": "He's been in bed for two days .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 547.41,
+    "end": 548.99,
+    "text": "Yeah , probably with a blow-up doll .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 550.5,
+    "end": 557.07,
+    "text": "He's not with a ... does it really matter who or what he's with ? The guy is devastated .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 557.19,
+    "end": 559.53,
+    "text": "Oh , please , how could I possibly devastate Howard ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 560.55,
+    "end": 566.6,
+    "text": "Okay , don't take this as a criticism , but you kind of have that overexposed-to-gamma-rays thing going on .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 566.77,
+    "end": 567.52,
+    "text": "What does that mean ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 568.42,
+    "end": 574.16,
+    "text": "You know , like , most of the time , you're the easygoing Bruce Banner , but then , when you get angry , you kind of turn into , like , you know , grrrrr !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 577.85,
+    "end": 578.94,
+    "text": "I turn into a bear ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.11,
+    "end": 588.0,
+    "text": "Seriously ? Gamma rays ? Bruce Banner ? You didn't get The Incredible Hulk from that ? Never mind , just , please go talk to him .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 588.35,
+    "end": 590.81,
+    "text": "And say what ? That I didn't mean it , because I meant it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 591.15,
+    "end": 601.64,
+    "text": "Well , maybe you can go at it from a different angle , like , um , you see a glimmer of goodness in him and you only said what you said because you want to nurture it and make it shine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 603.7,
+    "end": 604.76,
+    "text": "Oh , pthththth .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 606.47,
+    "end": 621.99,
+    "text": "Okay , let's try it this way . Remember the day that we first met and you asked me to go to your boyfriend's apartment to get your TV back and he was nine feet tall and he took my pants off and you said ... what was that ? What did you say ? Oh , yes , you said you owed me one .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 623.71,
+    "end": 625.3,
+    "text": "Okay , come on , that's not fair .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 625.39,
+    "end": 627.1,
+    "text": "I came home with no pants .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 629.77,
+    "end": 631.71,
+    "text": "Fine , I'll go over there tomorrow .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 632.56,
+    "end": 638.2,
+    "text": "Thank you . I should probably give you a heads up about his mother .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 638.41,
+    "end": 639.03,
+    "text": "What about her ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 640.1,
+    "end": 641.75,
+    "text": "She's a delightful woman . You'll love her .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 641.75,
+    "end": 641.87,
+    "text": "her ?",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 665.95,
+    "end": 669.15,
+    "text": "So , I just came by to see how you were doing .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 669.7,
+    "end": 670.54,
+    "text": "I'm fine .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 672.13,
+    "end": 674.74,
+    "text": "Good . Your mom seems nice .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 675.92,
+    "end": 681.53,
+    "text": "People move away from her on the bus . What do you want ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 682.98,
+    "end": 712.77,
+    "text": "Okay , look . Howard , I just want to apologize for some things that I have said . About you . I've been informed that you have feelings . And apparently , I have hurt them . So , I'm sorry . Howard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 715.48,
+    "end": 717.57,
+    "text": "Fine , you're sorry . Good-bye .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 718.78,
+    "end": 720.89,
+    "text": "So , you're okay ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 721.25,
+    "end": 729.67,
+    "text": "Hey , I'm a big boy . I'm not traumatized by some random comment from some random woman . I mean , get over yourself .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 732.54,
+    "end": 735.21,
+    "text": "Okay . Well , bye .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 742.98,
+    "end": 743.8,
+    "text": "So close",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 751.01,
+    "end": 753.33,
+    "text": "Oh , my God . That's Kripke's robot ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 754.34,
+    "end": 758.39,
+    "text": "As you can see , the Kwippler is weducing the Chevy Cavawier to wubble .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 760.24,
+    "end": 761.1,
+    "text": "I can't watch anymore .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 761.96,
+    "end": 763.11,
+    "text": "Sheldon , we have to call it off .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 763.24,
+    "end": 767.17,
+    "text": "We don't have that option , we've accepted the challenge . We can't run away from a fight .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 767.19,
+    "end": 774.43,
+    "text": "Oh , please , we've spent our whole lives running away from fights . Personally , I can squeeze through a hole in a fence half my size .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 775.69,
+    "end": 780.42,
+    "text": "Impressive as that may be , Monte is not us . Monte has no fear .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 780.79,
+    "end": 786.07,
+    "text": "Sheldon , did we all not just watch the same video ? Kripke's robot just had angry sex with a mid-sized automobile .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 787.75,
+    "end": 792.3,
+    "text": "You are overlooking the fact that we now know what we're up against and we can modify Monte so that he's prepared .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.6,
+    "end": 796.35,
+    "text": "You want to prepare him ? Install a bladder and a pair of shorts so he can wet himself .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 798.05,
+    "end": 802.08,
+    "text": "Excuse me , but how are we going to make any modifications without Wolowitz ? Have you heard from Penny yet ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 802.3,
+    "end": 802.67,
+    "text": "Not yet .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 802.92,
+    "end": 810.75,
+    "text": "Have faith , gentlemen . We don't need Wolowitz , engineering is merely the slow younger brother of physics . Watch and learn .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 815.75,
+    "end": 817.22,
+    "text": "Do either of you know how to open the toolbox ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 820.86,
+    "end": 840.02,
+    "text": "And then , when I was 14 , I met Marcy Grossman . She was so beautiful . She just got her braces off but they left a little of the overbite . It was so hot , like a sexy little chipmunk .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 845.44,
+    "end": 853.18,
+    "text": "I didn't have the courage to ask her out , but I dedicated a song to her at the ninth grade talent show .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 853.71,
+    "end": 855.06,
+    "text": "Aw , that sounds sweet .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 855.12,
+    "end": 867.58,
+    "text": "Marcy Grossman is sunshine , on a cloudy day , when it's cold outside , Marcy Grossman is the month of May ...",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 868.62,
+    "end": 870.18,
+    "text": "Oh , it's cute .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 871.21,
+    "end": 885.65,
+    "text": "I guess you'd say , what can make me feel this way , Marcy Grossman , Marcy Grossman , Marcy Grossman , Talkin' 'bout Marcy ... Grossman .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 884.37,
+    "end": 884.71,
+    "text": "That's great .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 886.62,
+    "end": 888.07,
+    "text": "Oh , it's fun .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 889.04,
+    "end": 900.84,
+    "text": "And then she came up with that sexy little chipmunk mouth and spit in my hair . Which brings us to tenth grade .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 902.76,
+    "end": 907.02,
+    "text": "Howard , do you think maybe sometimes you try too hard ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 909.49,
+    "end": 914.44,
+    "text": "Look at me . What chance do I have if I don't try too hard ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 916.03,
+    "end": 923.26,
+    "text": "Well , you'd have a terrific chance . I mean , you're smart , you're funny , you have a cool job . You build stuff that goes into outer space .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 923.98,
+    "end": 924.67,
+    "text": "I guess .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 924.96,
+    "end": 934.74,
+    "text": "Look , I'm telling you , I've known you for , like , a year and a half and this is the first time I feel like I'm talking to a real person . And you know what ? I like him , he's a nice guy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 936.37,
+    "end": 940.7,
+    "text": "You really think so ? I don't know .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 937.84,
+    "end": 938.3,
+    "text": "Yes .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 949.71,
+    "end": 950.43,
+    "text": "I do .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 959.44,
+    "end": 960.76,
+    "text": "Nice little bot you've got here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 961.03,
+    "end": 961.6,
+    "text": "I'm aware .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 963.46,
+    "end": 964.27,
+    "text": "What's this do , spin ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 964.97,
+    "end": 969.44,
+    "text": "Yep . At 3400 RPM . It can cut through steel like it was wubber .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 970.5,
+    "end": 976.86,
+    "text": "Neat . Good work . Sheldon , we've got to call this off .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 977.92,
+    "end": 990.5,
+    "text": "No , Leonard . For years , merciless thugs like Kripke have made my life a series of painful noogies and humiliating wedgies and the insensitively named Indian burns . That stops now .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 990.96,
+    "end": 996.12,
+    "text": "But , Sheldon , we don't have a chance . The only improvement you were able to make on the robot was to put fresh batteries in the remote .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 997.11,
+    "end": 1004.17,
+    "text": "What you fail to realize is Kripke suffers from a fatal flaw , overconfidence from his robot's massive size and its overwhelming power .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1004.53,
+    "end": 1006.59,
+    "text": "That's not overconfidence , that's observation .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1007.8,
+    "end": 1021.65,
+    "text": "Trust me , Kripke will fall easy prey to my psychological warfare . Observe . Kripke ! I would ask if your robot is prepared to meet its maker , but as you are its maker , clearly the two of you have met .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1026.06,
+    "end": 1027.53,
+    "text": "What is his pwoblem ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1029.96,
+    "end": 1031.94,
+    "text": "Way to bust out the Jedi mind tricks , dude .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1034.23,
+    "end": 1038.27,
+    "text": "I just want to make sure that we're all clear , standard robotic fighting league rules apply .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1038.84,
+    "end": 1042.85,
+    "text": "Are you cwazy ? This is a stweet fight , the stweet has no rules .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1043.42,
+    "end": 1045.59,
+    "text": "He's right , Leonard . The paradigm is to the death .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1045.85,
+    "end": 1052.1,
+    "text": "I will , however , give you the opportunity to concede my supewiowity now and offer me your wobot as the spoils of war .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1053.59,
+    "end": 1056.71,
+    "text": "Never . I'd rather see Monte dead than in your hands .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1056.89,
+    "end": 1060.29,
+    "text": "That could be easily awanged . Weady , set , go ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1061.17,
+    "end": 1061.6,
+    "text": "Do it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1062.44,
+    "end": 1065.55,
+    "text": "Alwight then . Weady . Set . Go .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1070.18,
+    "end": 1071.21,
+    "text": "Come on , Sheldon , you got this .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1071.3,
+    "end": 1074.75,
+    "text": "Indeed . We are prepared for anything he can throw at us .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1082.12,
+    "end": 1082.79,
+    "text": "That's new .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1084.22,
+    "end": 1086.35,
+    "text": "Run , Monte , run !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1087.79,
+    "end": 1091.36,
+    "text": "Go , Monte ! Go Monte !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1092.78,
+    "end": 1095.64,
+    "text": "Go , go , go , go !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1097.06,
+    "end": 1101.35,
+    "text": "Don't hurt us , don't hurt us ,",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1102.06,
+    "end": 1105.68,
+    "text": "Well , so much for making up for the emotional wounds of childhood .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1108.04,
+    "end": 1114.95,
+    "text": "I did this . Monte was killed by my hubris and my pride . No matter what anybody says , this is my fault .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1115.01,
+    "end": 1116.2,
+    "text": "No one's arguing with you , dude .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1117.92,
+    "end": 1120.68,
+    "text": "I got your text . How bad is ... Oy .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1122.34,
+    "end": 1124.43,
+    "text": "Forget the robot . What happened to you ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1125.62,
+    "end": 1126.59,
+    "text": "He slipped and fell .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1126.82,
+    "end": 1131.81,
+    "text": "Yes , I slipped and fell . In the bathroom . Bounced right off the tub .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1134.07,
+    "end": 1137.83,
+    "text": "Yes , now he knows what bathtubs are capable of doing when you don't treat them with respect .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1139.08,
+    "end": 1142.16,
+    "text": "Yeah . They sucker punch you when your eyes are closed .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1144.87,
+    "end": 1148.35,
+    "text": "So what do you think , Howard ? It's not that bad , right ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1149.06,
+    "end": 1157.66,
+    "text": "Oh , no . A little electrical tape , some solder . Are you insane ? I've seen space probes that crashed into the desert that were in better shape than this .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1157.67,
+    "end": 1167.21,
+    "text": "You're right . Monte's gone . We'll bury him in the morning . A simple ceremony . I'll speak . Leonard , you'll play your cello .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1169.4,
+    "end": 1173.01,
+    "text": "Sheldon , honey , aren't you getting a little carried away ? I mean , it's just a toy robot .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1175.74,
+    "end": 1176.63,
+    "text": "Just a toy robot ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1183.26,
+    "end": 1183.76,
+    "text": "Penny .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1184.49,
+    "end": 1189.01,
+    "text": "I know , I got it . Sheldon , I'm sorry .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1191.87,
+    "end": 1195.62,
+    "text": "Well , don't get the wrong idea . The way I see it , I'm halfway to pity sex .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  }
+]

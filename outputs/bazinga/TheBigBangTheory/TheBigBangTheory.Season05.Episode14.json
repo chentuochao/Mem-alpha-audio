@@ -1,0 +1,1143 @@
+[
+  {
+    "start": 9.88,
+    "end": 25.35,
+    "text": "Hello . I'm Dr . Sheldon Cooper , and welcome to the premiere episode of Sheldon Cooper Presents Fun with Flags . Over the next 52 weeks , you and I are going to explore the dynamic world of vexillology .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 26.43,
+    "end": 29.21,
+    "text": "Hang on , Dr . C. What's vexillology ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 31.93,
+    "end": 34.42,
+    "text": "Vexillology is the study of flags .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 35.29,
+    "end": 35.85,
+    "text": "Cool .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 37.77,
+    "end": 39.15,
+    "text": "I think I just learned something .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 40.61,
+    "end": 41.61,
+    "text": "Did you have fun doing it ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 41.7,
+    "end": 41.91,
+    "text": "I'll say .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 44.75,
+    "end": 71.94,
+    "text": "Fun and information are two sides to this video podcast , not unlike the only two-sided state flag , Oregon . Oh , look . Hello , Mr . Beaver . In future episodes , we'll answer some burning questions . What's the only non-rectangular flag ? What animal appears most often on flags ? What animal appears second most often on flags ? And more .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 73.61,
+    "end": 74.44,
+    "text": "Sweet !",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 76.11,
+    "end": 77.74,
+    "text": "Why are you waving a white flag ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 78.0,
+    "end": 79.74,
+    "text": "I'm surrendering to fun .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 103.76,
+    "end": 104.71,
+    "text": "Excuse me , sorry , excuse me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 106.45,
+    "end": 109.53,
+    "text": "Cut . Did you not see we are rolling ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 110.05,
+    "end": 112.39,
+    "text": "Sorry . I'm having dinner with Penny . I have to get out of here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 112.45,
+    "end": 115.28,
+    "text": "And I have flag knowledge that I have to get out of here !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 121.17,
+    "end": 121.81,
+    "text": "You okay ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 122.07,
+    "end": 146.46,
+    "text": "No , I'm a little rattled . But like the flag over Fort Sumter , I'm still here . And , take two . Hello . I'm Dr . Sheldon Cooper , and welcome to the premiere episode of Sheldon Cooper Presents Fun with Flags . Over the next 52 weeks , you and I are going to explore the dynamic world of vexillology .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 148.25,
+    "end": 151.66,
+    "text": "Hang on , Dr . Cooper . What's vexillology ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 152.59,
+    "end": 154.58,
+    "text": "Vexillology is ... why is there a face on that flag ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 157.14,
+    "end": 160.47,
+    "text": "It's Ferdinand T. Flag . I thought he might help bring in some younger viewers .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 161.72,
+    "end": 168.44,
+    "text": "Confound it ! You're right , it's brilliant . Let's take it from the top .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 188.96,
+    "end": 192.06,
+    "text": "That was a really nice dinner . I'm glad you asked me out again .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 192.33,
+    "end": 193.86,
+    "text": "Me , too , I missed you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 194.82,
+    "end": 198.24,
+    "text": "You see me all the time . You sure you just don't miss the sex ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 200.01,
+    "end": 203.18,
+    "text": "Well , yeah , sex with you is pretty great . Have you ever tried it ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 204.39,
+    "end": 212.26,
+    "text": "I have . You are not wrong . I just think if we're gonna try dating again , we should take things slow .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 212.94,
+    "end": 225.13,
+    "text": "Oh , I can take it slow . Did I ever tell you about my first girlfriend in high school , Karen Berberick ? To this day she doesn't know we were going out . Made it easier on her when I broke things off .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 227.36,
+    "end": 228.92,
+    "text": "Okay , well , maybe not that slow .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 230.53,
+    "end": 234.0,
+    "text": "How about this , are you familiar with the typical development for computer software ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 235.02,
+    "end": 236.36,
+    "text": "You know , just for fun , let's say I'm not .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 238.19,
+    "end": 249.17,
+    "text": "Before an application is released , they give it a trial run . W-We could do that . And if we hit a rough spot , instead of getting mad , just say , hey , we found a bug , and we report it so it can be fixed .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 250.04,
+    "end": 252.63,
+    "text": "You mean like a beta test ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 253.5,
+    "end": 258.44,
+    "text": "Well , technically , this would be an alpha test . A beta test requires people that weren't involved in the development of the appli ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 258.44,
+    "end": 260.91,
+    "text": "Seriously , do I not get credit for knowing beta test ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 262.75,
+    "end": 271.4,
+    "text": "No , you should . Absolutely . That was me being pedantic . That's our first bug . You reported it . I can fix that . See ? This is good .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 271.85,
+    "end": 273.67,
+    "text": "All right . Let's give it a shot .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 274.13,
+    "end": 276.84,
+    "text": "Great . You keep a list , I'll keep a list . At some point , we'll exchange .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 278.26,
+    "end": 280.26,
+    "text": "Okay . Good night , Leonard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 283.32,
+    "end": 295.01,
+    "text": "Night . Attaboy , Hofstadter . Nothing gets the ladies hotter than software development analogies . Hey , I'm back .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 298.23,
+    "end": 308.81,
+    "text": "Cut ! Take 47 . Here's an interesting fact about flags .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 308.84,
+    "end": 309.92,
+    "text": "I will take that action .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 310.97,
+    "end": 323.17,
+    "text": "The flags of Liechtenstein and Haiti were identical by coincidence , a fact that wasn't discovered until they competed against each other at the 1936 Olympics . And thankfully , their embarrassment was overshadowed by the rise of Fascism .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 327.16,
+    "end": 328.15,
+    "text": "Let's see the new phone .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 328.7,
+    "end": 332.33,
+    "text": "I stopped on the way to work . Hey , do you want to peel the plastic off with me ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 332.33,
+    "end": 338.24,
+    "text": "Me ? That's , like , the best part .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 339.18,
+    "end": 345.26,
+    "text": "Grab a corner . Whoa , what's your hurry , cowboy ? Savour the moment .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 353.34,
+    "end": 354.06,
+    "text": "Oh , yeah .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 362.14,
+    "end": 374.22,
+    "text": "Speaking of cowboys , do you know what country has not one but two cows on its flag ? The tiny landlocked nation of Andorra . Oh , the next classic episode of Sheldon Cooper Presents Fun with Flags is writing itself .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 376.09,
+    "end": 378.77,
+    "text": "Oh , let me try the voice recognition .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 378.98,
+    "end": 391.04,
+    "text": "Hey , I let you peel the plastic , don't get greedy . Hello ? What's your name ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.97,
+    "end": 396.68,
+    "text": "Look at that . There's finally a woman in your life you can talk to .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 397.8,
+    "end": 399.47,
+    "text": "Are you single ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 400.59,
+    "end": 403.76,
+    "text": "I don't have a marital status , if that's what you're asking .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 404.54,
+    "end": 410.62,
+    "text": "Yeah , you're right , that's too personal . We hardly know each other . How about a cup of coffee ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 411.69,
+    "end": 415.28,
+    "text": "I've found six coffee shops . Three of them are fairly close to you .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 417.09,
+    "end": 418.45,
+    "text": "I will see you gentlemen later .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 424.96,
+    "end": 426.5,
+    "text": "She is gonna break his heart .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 433.54,
+    "end": 439.22,
+    "text": "For someone who has a machine that can travel anywhere in time and space , Doctor Who sure does have a thing for modern-day London .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 441.69,
+    "end": 446.38,
+    "text": "Careful , it's that kind of sass that can get a person uninvited to this year's Who Con .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 449.43,
+    "end": 451.72,
+    "text": "Uh , we're not counting this as a date , are we ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 453.03,
+    "end": 457.55,
+    "text": "Um , I'm not sure , but I think the right answer here is no .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 467.76,
+    "end": 468.52,
+    "text": "Even Doctor Who ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 470.57,
+    "end": 471.48,
+    "text": "Even Doctor Who .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 471.81,
+    "end": 473.82,
+    "text": "All right , that's it . Who Con , you're out .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 477.26,
+    "end": 482.34,
+    "text": "Okay , bug report taken . Next time I will have a better plan for our evening's activity .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 482.37,
+    "end": 484.4,
+    "text": "Well , thank you . I'll see you tomorrow .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 485.2,
+    "end": 487.79,
+    "text": "Oh , wait , here , almost forgot . Here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 488.85,
+    "end": 489.36,
+    "text": "What's this ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 489.61,
+    "end": 490.49,
+    "text": "My bug report to you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 498.84,
+    "end": 500.63,
+    "text": "Well , that's quite a list you got there .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.28,
+    "end": 538.41,
+    "text": "It's colour coded . red means fix right away . Yellow is eh , whenever you get a chance . And green is I could probably learn to live with it . There's a key down here at the bottom . It's neat , huh ? So , have a good night . Look at that . Some day , we will tell future generations that dating used to be hard .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 505.33,
+    "end": 505.55,
+    "text": "Oh .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 520.99,
+    "end": 521.96,
+    "text": "Yep .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 530.68,
+    "end": 531.65,
+    "text": "Yep .",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 540.42,
+    "end": 551.91,
+    "text": "What's baffling me is what you could've possibly put on the list . Hair too golden ? Laugh too musical ? World too much a better place for her mere presence in it ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 553.19,
+    "end": 555.49,
+    "text": "How about constantly talks with food in her mouth ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 557.24,
+    "end": 559.2,
+    "text": "Her heart's full of love , no one cares what's in her mouth .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 564.52,
+    "end": 568.82,
+    "text": "So , Siri , what's happening ? How are you ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 571.42,
+    "end": 572.22,
+    "text": "I am well .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 573.38,
+    "end": 574.4,
+    "text": "What are you doing right now ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 575.79,
+    "end": 577.98,
+    "text": "What am I doing ? I'm talking with you .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 580.41,
+    "end": 581.62,
+    "text": "You have a beautiful voice .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 583.07,
+    "end": 585.33,
+    "text": "Thank you , it's nice to be appreciated .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 587.22,
+    "end": 591.95,
+    "text": "I bet it is . Why don't women like me ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 593.25,
+    "end": 600.58,
+    "text": "Let me check on that . How about a Web search for why don't women like me? \"",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 601.93,
+    "end": 607.64,
+    "text": "No need . I've already done that . Siri , do you have a last name ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 608.6,
+    "end": 609.5,
+    "text": "My name is Siri .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 610.42,
+    "end": 621.74,
+    "text": "Ah , one name . Like , uh , Cher , Madonna , Adele . All the women who rock me . My name is Rajesh , but you can call me Raj .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 622.75,
+    "end": 624.34,
+    "text": "Would you like me to call you Raj ?",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 625.46,
+    "end": 626.48,
+    "text": "I'd like you to call me sexy .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 628.96,
+    "end": 631.82,
+    "text": "From now on , I'll call you sexy . Okay ?",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 643.46,
+    "end": 643.64,
+    "text": "Okay .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 643.9,
+    "end": 651.16,
+    "text": "I found ten restaurants whose reviews mention gelato . Seven of them are fairly close to you .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 652.06,
+    "end": 652.58,
+    "text": "Thank you , darling .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 654.9,
+    "end": 657.07,
+    "text": "You are most certainly welcome , sexy .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 660.52,
+    "end": 662.39,
+    "text": "Well done , Dr . Koothrappali .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 663.56,
+    "end": 664.0,
+    "text": "I'm sorry ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 665.03,
+    "end": 674.67,
+    "text": "You've taken a great evolutionary leap by abandoning human interaction and allowing yourself to romantically bond with a soulless machine . Kudos .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 676.29,
+    "end": 677.41,
+    "text": "I haven't bonded with it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 678.01,
+    "end": 685.24,
+    "text": "Oh , no , of course . I understand . You're afraid the world isn't ready for your taboo love . Your secret's safe with me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 685.83,
+    "end": 686.78,
+    "text": "It's just a phone .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.45,
+    "end": 696.68,
+    "text": "Cooper .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.72,
+    "end": 696.95,
+    "text": "Kripke .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 698.66,
+    "end": 707.83,
+    "text": "Heads up . Pwofessor Wothman urinated in the particle physics wab again , so we're going to move up his wetirement party . Fwiday , five o'cwock , pot wuck .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 709.07,
+    "end": 713.66,
+    "text": "Thanks , Barry . Siri , remind me Friday morning to make my famous popovers .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 714.69,
+    "end": 716.01,
+    "text": "All right , I'll remind you .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 716.24,
+    "end": 723.35,
+    "text": "You got Siwi , huh ? Voice wecognition on that thing is tewible . Wook . Siwi , can you wecommend a westauwant ?",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 739.06,
+    "end": 741.01,
+    "text": "Wisten to me . Not westauwant , westauwant .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 748.49,
+    "end": 750.73,
+    "text": "See ? Total cwap . You suck , Siwi .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 751.98,
+    "end": 754.56,
+    "text": "Hey , don't talk to her like that . She's a lady .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 755.99,
+    "end": 763.29,
+    "text": "Well , that wady took high-wes pictures of my junk wast night for Cwaigswist . Waiter .",
+    "speaker": "barry_kripke",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 766.14,
+    "end": 766.91,
+    "text": "It's open .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 768.5,
+    "end": 770.94,
+    "text": "Hey . You ready to go ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 771.36,
+    "end": 773.1,
+    "text": "Yeah , hang on . Let me just finish this chapter .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 774.42,
+    "end": 775.59,
+    "text": "Can you finish it later ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 775.95,
+    "end": 783.41,
+    "text": "No , I can't . Reading books is a big part of my life now because , you know , we'd have more fun things to talk about if I read more .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 787.69,
+    "end": 790.06,
+    "text": "Great . Good . Great . What are you reading ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 790.13,
+    "end": 792.04,
+    "text": "Two Weeks to Rock Hard Abs .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 793.45,
+    "end": 810.51,
+    "text": "They kind of spoil the ending right in the name of that , don't they ? All right . Look , just remember how this works . We don't get mad about these things . Uh , speaking of which , I've addressed your bug report on my date planning . Got a really fun evening for you . It's kind of a surprise .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 811.66,
+    "end": 818.43,
+    "text": "All right . Terrific . Well , let me just go find a pair of shoes that aren't so tall . We wouldn't want you to feel like you were out for a walk with your mommy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 820.05,
+    "end": 821.67,
+    "text": "Thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 823.28,
+    "end": 832.18,
+    "text": "Yeah . Oh . Here's my list for you , right there .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 833.8,
+    "end": 845.38,
+    "text": "All right , fair enough . I certainly can be quieter when we kiss . I thought it was an expression of passion , but if it's coming across as juicy and weird , who wants that ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.41,
+    "end": 860.39,
+    "text": "Uh , uh , I'm sorry , can you be more specific on how my eyebrows are stupid ? Nah , never mind , it's right here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.83,
+    "end": 866.55,
+    "text": "Good timing . Dinner's almost ready .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 866.81,
+    "end": 867.16,
+    "text": "Great .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 868.24,
+    "end": 870.03,
+    "text": "Oh , smells amazing in here .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 870.03,
+    "end": 870.82,
+    "text": "what are we eating ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 871.06,
+    "end": 881.45,
+    "text": "Oh , an exotic little treat . I was just talking to Siri about Peking duck , and she said she knew about four Chinese grocers , two of which were fairly close to me . Her spontaneity is contagious .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 882.42,
+    "end": 886.28,
+    "text": "Who's Siri ? Is he dating somebody new ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 887.25,
+    "end": 888.48,
+    "text": "Yes . His phone .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 889.89,
+    "end": 894.82,
+    "text": "Oh . Is that cute or creepy ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 896.23,
+    "end": 896.93,
+    "text": "Uh-huh .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 898.34,
+    "end": 933.13,
+    "text": "Can I pour you some wine ? I think you'll enjoy it . The traditional choice with Peking duck is a Sauvignon Blanc , but Siri suggested an off-dry Riesling . I wasn't sure , but I didn't want to have an argument with her in the middle of Trader Joe's . Now , what should we put Siri in for dinner ? Leopard , sparkles , or to paraphrase Coco Chanel , you can never go wrong with a little black case . Siri , play some smooth jazz .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 934.21,
+    "end": 935.34,
+    "text": "Playing smooth jazz .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 936.53,
+    "end": 948.71,
+    "text": "Oh , my God , Kenny G ? This woman can read me like a book . I can't believe I bought my soul mate at Glendale Galleria .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 950.45,
+    "end": 957.43,
+    "text": "I don't know if I want to stay .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 959.17,
+    "end": 968.77,
+    "text": "This is amazing . How did you even get this idea ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 970.51,
+    "end": 976.86,
+    "text": "I called your dad . I asked him what things you liked to do when you were a kid . This seemed easier than getting a cow out here so you could tip it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.25,
+    "end": 982.12,
+    "text": "Okay , you're kind of really great .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 982.57,
+    "end": 986.73,
+    "text": "You mean for a person whose neck massages feel like an eagle is trying to carry you to its nest ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 989.15,
+    "end": 994.69,
+    "text": "Okay , bug report . I just complimented you . You should take it and shut up . And stop apologizing all the time .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 992.15,
+    "end": 993.13,
+    "text": "Right . Sorry , sorry .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 994.75,
+    "end": 995.23,
+    "text": "Right . Sorry .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 997.18,
+    "end": 1000.1,
+    "text": "All right , let's shoot stuff . You want me to show you what to do ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1001.41,
+    "end": 1004.28,
+    "text": "I play a lot of Grand Theft Auto . I think I know how to handle a gat .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1005.34,
+    "end": 1008.11,
+    "text": "Wow . You are cute when you get all gangsta .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1020.43,
+    "end": 1024.65,
+    "text": "So , I've got a gunshot wound . That's pretty badass .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1024.68,
+    "end": 1030.81,
+    "text": "No , you've got a Reebok with a gunshot wound and an ouchie on your pinkie toe .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1032.72,
+    "end": 1038.08,
+    "text": "Hello ? They gave me a Band-Aid . Hospitals do not issue Band-Aids unless it is medically necessary . That is the law .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1040.9,
+    "end": 1043.38,
+    "text": "Well , thank you for a really cool evening .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1043.96,
+    "end": 1053.25,
+    "text": "Thank you for hiding my Star Wars socks at the emergency room . Is it a good time to evaluate the beta test and see where we stand ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1054.09,
+    "end": 1055.32,
+    "text": "Things are looking good .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1056.37,
+    "end": 1062.81,
+    "text": "So , are we still taking things slow ? Because a gunshot wound today , last week , I slammed my thumb in the kitchen drawer . We don't know how much time I have .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1065.48,
+    "end": 1066.13,
+    "text": "Good night , you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1082.07,
+    "end": 1085.77,
+    "text": "Guten Tag , das YouTube . Ich bin ein Bavarian .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1087.64,
+    "end": 1091.52,
+    "text": "Und ich bin eine pretzel !",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1091.56,
+    "end": 1094.5,
+    "text": "Und dis is Sheldon Cooper Presents Fun ... Flags .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1093.83,
+    "end": 1094.25,
+    "text": "Mit ...",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1106.04,
+    "end": 1106.53,
+    "text": "Thank you .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1114.38,
+    "end": 1126.18,
+    "text": "Dave , I found six vacuum cleaner repair shops in your area . Four are fairly close to you . Hello , sexy . What can I help you with ?",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1135.57,
+    "end": 1137.83,
+    "text": "If you'd like to make love to me , just tell me .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1144.19,
+    "end": 1146.18,
+    "text": "I'm sorry . I don't understand .",
+    "speaker": "siri",
+    "dialog_type": "dialog"
+  }
+]

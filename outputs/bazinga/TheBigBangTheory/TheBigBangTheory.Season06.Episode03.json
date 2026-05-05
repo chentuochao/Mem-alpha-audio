@@ -1,0 +1,1206 @@
+[
+  {
+    "start": 3.57,
+    "end": 4.11,
+    "text": "Hey , Bernie .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 5.04,
+    "end": 7.82,
+    "text": "Hey , how's my little astronautie hottie ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 8.75,
+    "end": 13.81,
+    "text": "Okay , I guess . It's just , being cooped up in this tin can for weeks on end is starting to get to me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 14.2,
+    "end": 21.05,
+    "text": "Well , hang in there . You just have a couple more days to go , and then you'll be home . I got to get back to work . I love you .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 17.63,
+    "end": 17.9,
+    "text": "I know .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 21.27,
+    "end": 26.39,
+    "text": "Love you too . Hey , Bernie ? Before you go , can you do something for me ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 27.08,
+    "end": 28.05,
+    "text": "What do you want me to do ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 29.05,
+    "end": 38.03,
+    "text": "Okay , here it is . I really miss gravity . Can you drop something so I can watch it fall ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 41.54,
+    "end": 46.12,
+    "text": "Really , you're serious ? Okay .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.63,
+    "end": 51.27,
+    "text": "Oh , baby , you're killing me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 52.04,
+    "end": 59.3,
+    "text": "Ugh . Hey , Sheldon ? Hi . This came for you today . It's from your mom .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 60.07,
+    "end": 67.49,
+    "text": "Oh , thank you , Penny . Yeah , wait , here . For your troubles .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.04,
+    "end": 62.12,
+    "text": "M-hmm .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 69.29,
+    "end": 75.81,
+    "text": "Oh , boy , a whole dollar . Now , I can quit my paper route . So , what's in it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 75.82,
+    "end": 78.13,
+    "text": "doesn't matter . Half the time , he just ends up playing with the box .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 79.37,
+    "end": 82.95,
+    "text": "Yeah , it's journals and research papers I wrote as a child .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 83.73,
+    "end": 86.31,
+    "text": "Aw , how cute . Is this like a diary ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 86.63,
+    "end": 88.74,
+    "text": "No , that's my potty training journal .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 90.16,
+    "end": 91.99,
+    "text": "Really , your potty training journal ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 92.22,
+    "end": 95.78,
+    "text": "Yeah . And forgive my crude penmanship . I didn't start typing until I was six .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 98.97,
+    "end": 103.23,
+    "text": "August 7 , 8:42 a.m . This is humiliating . What was wrong with diapers ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 105.73,
+    "end": 109.64,
+    "text": "There are some charts in the back where I kept track of shape , colour and consistency .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 110.85,
+    "end": 112.07,
+    "text": "Oh , disgusting .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 113.28,
+    "end": 115.75,
+    "text": "No , what's disgusting is he's still keeping track .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 116.34,
+    "end": 118.39,
+    "text": "Why do you need all this stuff ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 118.98,
+    "end": 120.14,
+    "text": "No , no , no , no .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 120.2,
+    "end": 120.23,
+    "text": "Sorry !",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 120.29,
+    "end": 124.83,
+    "text": "I am glad you asked . Are you familiar with the Higgs boson ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 125.77,
+    "end": 130.93,
+    "text": "Of course , it is , it's been in the news . And it's a very famous boson .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 132.81,
+    "end": 151.42,
+    "text": "Nice try . Now , in 1964 , Dr . Peter Higgs , accomplished self-promoter and physicist , he wrote a paper postulating the existence of a subatomic particle called the Higgs boson . Now , initially the paper was rejected , but recently , he was proven right , and now he's on the fast track to win a Nobel prize .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 151.78,
+    "end": 153.29,
+    "text": "Yeah , that's basically what I said .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 154.78,
+    "end": 165.88,
+    "text": "Yeah , the point is Higgs is being celebrated for work he did 50 years ago , so that got me thinking , perhaps I've already hit upon the idea that will win me my Nobel prize .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 166.09,
+    "end": 169.06,
+    "text": "I didn't know they gave Nobel prizes for making boom-boom in the potty .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 170.03,
+    "end": 174.92,
+    "text": "You really think there's some kind of scientific discovery in here ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 175.18,
+    "end": 184.43,
+    "text": "Well , this box only covers my work through nursery school . There's a good deal more to come . I didn't really hit my academic stride until I cut out that time-suck known as playing outdoors .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.6,
+    "end": 188.67,
+    "text": "So , you're going to spend hours and hours combing through all this stuff ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 189.24,
+    "end": 199.89,
+    "text": "That's a good point . My time is much too valuable . You know , perhaps I should find someone to do it for me . You know , someone with a rudimentary understanding of science , but whose real talents lie in menial labour .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 201.39,
+    "end": 203.64,
+    "text": "Not gonna happen .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 205.13,
+    "end": 210.06,
+    "text": "Well , if I didn't think you could handle it , I wouldn't be asking .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 211.52,
+    "end": 213.16,
+    "text": "If you want help , just hire a grad student .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 213.22,
+    "end": 214.06,
+    "text": "Maybe I could do it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 214.34,
+    "end": 223.02,
+    "text": "You , really ? You can assess the quality of my work ? Okay , um , here . I wrote this when I was five years old .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 224.17,
+    "end": 229.84,
+    "text": "A proof that algebraic topology can never have a non self-contradictory set of abelion groups .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 235.01,
+    "end": 236.49,
+    "text": "I'm just a blonde monkey to you , aren't",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 245.0,
+    "end": 245.09,
+    "text": "I ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.98,
+    "end": 254.69,
+    "text": "You said it , not me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 269.39,
+    "end": 327.75,
+    "text": "All right , Ms . Jenson . Uh , before we begin , may I offer you a refreshment ? Water , coffee , tea , a marijuana cigarette ? Now , are you sure ? Everyone's smoking them . I think they're the best . Excellent , yeah . That was a ruse . They're not the best . Physics is the best . And by the way , coffee was also an unacceptable choice . All right , so I see here you're from Des Moines , Iowa . Uh , you're summa cum laude in theoretical physics from Stanford University . Oh , and two years ago , you had a persistent ear infection . I hope that didn't cause any hearing loss . I did a comprehensive background check . Medical records , credit reports , criminal history . I trust you paid off those parking tickets . Hearing unimpaired , good .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 335.65,
+    "end": 344.29,
+    "text": "Flattery will not get you this job , Ms . Jenson . Oh , well , thank you . Welcome aboard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.83,
+    "end": 347.78,
+    "text": "You talk to Howard lately ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 348.23,
+    "end": 361.9,
+    "text": "Uh , yeah , last night . He kept making me drop pencils for him . I got uncomfortable . Hey , Sheldon , hope you're hungry , they're serving macaroni and ... che-ee-ee-ese .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 364.26,
+    "end": 371.89,
+    "text": "Smooth . Hi . Sheldon , aren't you going to introduce us ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 371.94,
+    "end": 374.95,
+    "text": "No . I have people for that now . You're up .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 377.64,
+    "end": 382.84,
+    "text": "Ah , congratulations and may God have mercy on your soul . I'm Leonard . This is Raj .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 383.09,
+    "end": 385.8,
+    "text": "It's nice to meet you . I'm so excited to be working with Dr ...",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 385.8,
+    "end": 390.52,
+    "text": "Yeah , please reserve chitchat for your breaks , Ms . Jenson . FYI , there will be no breaks .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 391.89,
+    "end": 395.99,
+    "text": "I should probably get to work .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 397.36,
+    "end": 398.02,
+    "text": "She seems nice .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 398.35,
+    "end": 400.43,
+    "text": "Hey , you already got a girlfriend . I call dibs .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 402.25,
+    "end": 403.78,
+    "text": "All I said was she seems nice .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 403.88,
+    "end": 404.63,
+    "text": "Yeah , well , I love her .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 404.63,
+    "end": 405.53,
+    "text": "no , not really .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 420.38,
+    "end": 421.16,
+    "text": "What's wrong ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 421.28,
+    "end": 436.94,
+    "text": "Well , remember the Soyuz capsule they were sending to bring us home ? It's delayed . We're gonna be here at least another week . Maybe ten days . It's the Russians , so you don't know . They left dogs up here in the sixties .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 425.39,
+    "end": 425.56,
+    "text": "Uh-huh .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 438.19,
+    "end": 442.99,
+    "text": "Come on , Howard . No one's leaving you up there .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 443.14,
+    "end": 451.67,
+    "text": "I don't know how much longer I can take this . I can't sleep , and zero gravity is giving me crazy acid reflux . I'm down to my last three Tums .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 453.19,
+    "end": 467.42,
+    "text": "You're going to be fine . You survived that Weight Watchers cruise with your mom . And they ran out of low-fat ice cream on day two . Just calm down and take a few deep breaths .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 467.57,
+    "end": 467.8,
+    "text": "Okay , okay .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 471.47,
+    "end": 483.85,
+    "text": "What am I doing ? I'm using up all the oxygen . If I die , promise you'll never have sex with another man .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 485.56,
+    "end": 491.57,
+    "text": "Oh , yeah . I'm a man-eater now .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 493.28,
+    "end": 501.77,
+    "text": "Okay , for the final touch , this is an eyelash curler . You just place it on your lashes and squeeze it closed .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.49,
+    "end": 506.79,
+    "text": "Oh , I don't know . Looks like something used by Tinkerbell's gynecologist .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 510.46,
+    "end": 517.64,
+    "text": "Who I hope for her sake is not Captain Hook , so ... who are you calling ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 519.34,
+    "end": 524.35,
+    "text": "I'm going to video-chat Sheldon . If my new look leads to phone sex , I'm going to have to ask you to leave the room .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 525.81,
+    "end": 527.63,
+    "text": "Dr . Cooper's office .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 528.42,
+    "end": 530.12,
+    "text": "Oh , hello . Who are you ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 530.43,
+    "end": 532.97,
+    "text": "I'm Alex , Dr . Cooper's assistant . Can I help you ?",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 533.37,
+    "end": 534.51,
+    "text": "I'd like to speak to Sheldon .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.99,
+    "end": 540.27,
+    "text": "I'm sorry . He's asked me to hold all calls unless you're Stephen Hawking , his mother or himself from the future .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 542.86,
+    "end": 550.55,
+    "text": "All right . Well , tell him Amy called . He knows my last name . I'm his girlfriend . We have a contract and everything . I'll send you a PDF .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 544.55,
+    "end": 545.09,
+    "text": "Last name ?",
+    "speaker": "alex_jensen",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 553.87,
+    "end": 555.47,
+    "text": "All right , I will tell him you called .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 557.4,
+    "end": 558.91,
+    "text": "Hmm , that's weird .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 559.35,
+    "end": 559.71,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 560.61,
+    "end": 564.76,
+    "text": "Sheldon told me he had a new assistant named Alex . He didn't mention that Alex was a girl .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 565.26,
+    "end": 566.3,
+    "text": "Maybe he didn't notice .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 568.55,
+    "end": 570.32,
+    "text": "You're right . I don't have to worry about Sheldon .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 571.54,
+    "end": 573.99,
+    "text": "No , you do not .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 575.22,
+    "end": 576.55,
+    "text": "It's her I have to worry about .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 577.15,
+    "end": 579.94,
+    "text": "Oh , Amy , really ? She is not going to come on to Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 580.24,
+    "end": 590.32,
+    "text": "really ? Look at this face How can any woman spend eight hours a day alone with this face and not fall in love with it ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 592.89,
+    "end": 595.67,
+    "text": "Well , for starters , at some point , that face starts talking .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.51,
+    "end": 605.11,
+    "text": "Amy , this is crazy . You have nothing to be suspicious about .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 605.53,
+    "end": 611.41,
+    "text": "I'm not suspicious . I just want to stop in , say hi to my boyfriend and meet his new assistant . Aha !",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 612.99,
+    "end": 616.14,
+    "text": "Can we go now ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 617.71,
+    "end": 618.02,
+    "text": "Hang on .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 621.57,
+    "end": 623.01,
+    "text": "What are you doing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 626.56,
+    "end": 630.19,
+    "text": "Isn't it obvious ? I'm spreading my scent to mark my territory .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 630.19,
+    "end": 635.29,
+    "text": "on , Amy . That is not gonna work .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.38,
+    "end": 639.82,
+    "text": "Really ? Because just before you became my best friend , I did this all over your apartment .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 645.66,
+    "end": 647.8,
+    "text": "Has your , uh , assistant said anything about me ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 648.18,
+    "end": 652.56,
+    "text": "Oh , in fact , she has . Uh , her exact words were , what is that guy's problem ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.05,
+    "end": 657.58,
+    "text": "I'm in her head . Let the dance begin .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 660.29,
+    "end": 662.13,
+    "text": "Here's your frozen yoghurt , Dr . Cooper .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 662.51,
+    "end": 663.38,
+    "text": "This should be fun .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 663.97,
+    "end": 671.62,
+    "text": "Half chocolate , half vanilla , side by side , not swirled ? Half a teaspoon of sprinkles ? Two cherries ? Stems removed ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 666.67,
+    "end": 670.83,
+    "text": "Yes . Rainbow , not chocolate . One on top , one on the bottom .",
+    "speaker": "alex_jensen",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 672.61,
+    "end": 680.68,
+    "text": "Um , top one , yes . I didn't check the one on the bottom . I'm so sorry , Dr . Cooper .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 675.38,
+    "end": 675.75,
+    "text": "Oh !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 680.86,
+    "end": 683.83,
+    "text": "It's all right , Alex . I'm not mad at you , I'm just disappointed .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 685.78,
+    "end": 688.06,
+    "text": "Wait , Alex . Do you want to join us ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 688.48,
+    "end": 688.59,
+    "text": "Um ...",
+    "speaker": "alex_jensen",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 688.72,
+    "end": 698.26,
+    "text": "Uh , Alex , a moment . I need a word with Dr . Hofstadter . Do you think it's appropriate for her to sit with us , given her station ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 700.56,
+    "end": 701.28,
+    "text": "Given her what ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 702.32,
+    "end": 708.79,
+    "text": "If I've learned anything from British television shows on PBS , it's that servants dine downstairs with their own kind .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.82,
+    "end": 709.04,
+    "text": "What ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 713.23,
+    "end": 719.87,
+    "text": "It's a kindness , Leonard . Otherwise , you're cruelly tempting them with a glimpse of a world that's just beyond their soot-stained fingertips .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 722.56,
+    "end": 724.83,
+    "text": "Oh , sure . Please join us .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 724.97,
+    "end": 726.89,
+    "text": "Oh , okay . Thank you .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 727.83,
+    "end": 729.99,
+    "text": "So , Alex , what's the topic of your dissertation ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 730.29,
+    "end": 733.23,
+    "text": "I'm looking for Trojan asteroids at Earth's L-Five Lagrange point .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 733.5,
+    "end": 738.85,
+    "text": "Oh , that happens to be Dr . Koothrappali's field of expertise . You two have a lot to talk about .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 743.88,
+    "end": 751.06,
+    "text": "Is that true ? Is he all right ?",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 756.09,
+    "end": 763.82,
+    "text": "No . But compared to your boss , he's the poster boy for sanity .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 764.0,
+    "end": 769.2,
+    "text": "It's okay , I've been around scientists all my life . My dad's an astronomer at SETI .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 769.49,
+    "end": 774.53,
+    "text": "Oh , SETI , the Search for Extraterrestrial Intelligence . You should introduce him to Sheldon . The search is over .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 776.65,
+    "end": 780.23,
+    "text": "So , what kind of research are you doing ? Ooh . Military ?",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 778.79,
+    "end": 783.59,
+    "text": "High-energy lasers . Not yet , but I can remove unwanted hair from two miles away .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 785.97,
+    "end": 789.47,
+    "text": "You were right . I had nothing to worry about . That skank's your problem , not mine .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.03,
+    "end": 793.56,
+    "text": "You're very funny , Dr . Hofstadter .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 793.9,
+    "end": 794.45,
+    "text": "Thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 795.03,
+    "end": 796.67,
+    "text": "Cherry stem ! Cherry stem !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 797.54,
+    "end": 801.92,
+    "text": "How you doing , Howie ? You feeling a little better ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 802.79,
+    "end": 827.14,
+    "text": "Oh , a lot better , thanks . One sec . Listen close , I don't have a lot of time . I need you to go to my house . In my bedroom , you'll find a model rocket . I want you to take it and bring it back to your place . Step two , build a version roughly fourteen stories high . Fill it full of rocket fuel and come get me . I'll leave the door unlocked .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 818.51,
+    "end": 818.83,
+    "text": "Okay .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 828.31,
+    "end": 834.06,
+    "text": "Howie , honey , maybe you should talk to someone , let them know you're having a little anxiety .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 834.09,
+    "end": 847.51,
+    "text": "No , no , I'm fine . No anxiety . We should probably talk in code . From now on , frog is me , sandwich means you and lemon means rocket . So , come on , sandwich , build me a lemon 'cause froggy wants to come home .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 853.73,
+    "end": 856.51,
+    "text": "Look at you , putting on a brave face .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 858.68,
+    "end": 860.85,
+    "text": "There's nothing to be brave about . Everything's fine .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 861.24,
+    "end": 878.55,
+    "text": "Really ? I don't know how much you know about primate behaviour , but Sheldon's assistant was clearly courting Leonard . Were she a mandrill , she would have bent over and displayed her brightly coloured hindquarters like a big red welcome mat . By the way , you try that at the junior prom , you get kicked out .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 881.27,
+    "end": 887.02,
+    "text": "Okay , maybe she was flirting with him , but who cares ? Look , I don't even know where my relationship is with Leonard is right now .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 887.26,
+    "end": 895.2,
+    "text": "So says your prefrontal cortex . But meanwhile , the limbic system of your brain is calculating that if another woman is attracted to Leonard , it must be because he's desirable .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 895.69,
+    "end": 904.72,
+    "text": "Well , of course he's desirable . I mean , he's great . He's smart , he's sweet , and , ooh , in the bedroom , whew , let me tell you , he really tries .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 907.6,
+    "end": 908.98,
+    "text": "So it does bother you .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 909.77,
+    "end": 914.49,
+    "text": "Fine , it bothers me a little . No . You know what ? This is stupid . It doesn't bother me . Okay , it bothers me .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 919.74,
+    "end": 921.78,
+    "text": "But only because she wouldn't stop laughing . Leonard is not that funny .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 924.67,
+    "end": 941.84,
+    "text": "And there you have it , prefrontal cortex reasoning versus limbic lust . If this were a boxing match , they might call it the thrilla adjacent to the amygdala . If you were a brain scientist , you would be busting a gut right now .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.87,
+    "end": 945.96,
+    "text": "So , how was work today ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 946.22,
+    "end": 952.84,
+    "text": "Ah , it was all right , I guess . Got to Heimlich a cherry stem out of Sheldon . Caught Raj right in the eye .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 953.76,
+    "end": 955.59,
+    "text": "Oh ! You're kidding .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 956.51,
+    "end": 957.72,
+    "text": "No , Raj had to go to the nurse .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.1,
+    "end": 959.9,
+    "text": "Wow . Anything else ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 960.78,
+    "end": 967.39,
+    "text": "Mmm , the nurse is a woman , so he couldn't talk to her . She had to bring him a Grover puppet so he could point at what hurt .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 972.28,
+    "end": 973.12,
+    "text": "Oh , is that it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 974.14,
+    "end": 978.28,
+    "text": "Isn't that enough ? It had the weaponised fruit and a puppet . What more do you want ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 979.6,
+    "end": 986.58,
+    "text": "Oh , good , Leonard , you're here . Science news . This will interest you . And , Penny , feel free to paint your nails .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 987.21,
+    "end": 988.48,
+    "text": "What do you got ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 989.11,
+    "end": 995.63,
+    "text": "I believe Alex may have unearthed the grade school science project that could be my ticket to the Nobel Prize . Behold .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1004.47,
+    "end": 1014.19,
+    "text": "The original title was \" A Rederivation of Maxwell's Equations Regarding Electromagnetism \" \" I dumbed it down because some of the more religious people in town were starting to say I was a witch .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1016.19,
+    "end": 1020.43,
+    "text": "Sheldon thinks the approach in this paper might change the way we calculate ferromagnetic hysteresis .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1020.95,
+    "end": 1024.9,
+    "text": "Oh , it's about time . I hated the old way . Hi . I'm Penny .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1025.77,
+    "end": 1027.43,
+    "text": "Alex . Uh , do you work with Dr . Hofstadter ?",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1028.18,
+    "end": 1035.01,
+    "text": "In a way . We've kind of been involved in a five-year experiment .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1035.4,
+    "end": 1039.94,
+    "text": "Oh . Well , you're lucky . He seems very talented . And I'm sure a lot of people want to work with him .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1040.65,
+    "end": 1044.41,
+    "text": "Well , a lot of people can't . Uh , hey .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1046.18,
+    "end": 1046.89,
+    "text": "Where are we going ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1047.27,
+    "end": 1049.59,
+    "text": "My limbic system wants to take your pants off .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1051.19,
+    "end": 1053.59,
+    "text": "She seems nice .",
+    "speaker": "alex_jensen",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1055.19,
+    "end": 1057.14,
+    "text": "Notice people on your own time . We're working .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1059.02,
+    "end": 1063.71,
+    "text": "Hey , Howie , how you feeling ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1065.59,
+    "end": 1071.42,
+    "text": "Better . Much better . The other astronauts held me down , gave me a shot .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1080.69,
+    "end": 1088.19,
+    "text": "Oooh . Attention , people of Earth . Tonight , there will be two moons in the sky . Whee ! Whee !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  }
+]

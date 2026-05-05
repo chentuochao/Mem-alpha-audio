@@ -1,0 +1,1262 @@
+[
+  {
+    "start": 4.8,
+    "end": 10.67,
+    "text": "Aaargh . What the hell ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 15.47,
+    "end": 16.93,
+    "text": "Emergency preparedness drill .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 17.06,
+    "end": 18.48,
+    "text": "Oh , no , come on !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 18.72,
+    "end": 25.46,
+    "text": "Yeah , you know how it works . Once a quarter , keep our readiness up . Now , rise and shine , sleepy head . Half the town is probably dead .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 27.36,
+    "end": 29.06,
+    "text": "I have to get a lock for my door .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 30.77,
+    "end": 46.08,
+    "text": "I think you'll like the drill tonight . I've tried to make it fun . Each of these cards contains a detailed scenario of a possible apocalyptic event . Everything from wild fires to a surprise invasion by Canada . Pick a catastrophe , any catastrophe .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 47.57,
+    "end": 50.96,
+    "text": "Sheldon , Canada is not going to invade California .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.91,
+    "end": 55.01,
+    "text": "Yeah , really ? You think those hippies in Washington and Oregon can stop them ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 57.67,
+    "end": 58.45,
+    "text": "Fine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 60.27,
+    "end": 75.76,
+    "text": "All righty ! An 8.2 magnitude earthquake devastates Pasadena , reducing mighty edifices to dust , engulfing the city in flames . The streets flow with blood and echo with the cries of the wounded . Oh , excellent choice . Now , put on your hard hat and safety vest .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 76.09,
+    "end": 81.09,
+    "text": "Oh , fun . I get to spend another night in front of our apartment dressed like one of the Village People .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 83.48,
+    "end": 88.75,
+    "text": "You make that joke every three months . I still don't get it . Leonard , wait . What are you doing ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.91,
+    "end": 90.12,
+    "text": "I don't know , what am I doing ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 91.47,
+    "end": 103.95,
+    "text": "Look around you , there's hypothetical broken glass everywhere . Really ? You're going to face Armageddon without your orthotics ? All right , your choice . Uh-oh , hypothetical aftershock !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 104.94,
+    "end": 105.44,
+    "text": "Aah !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 106.43,
+    "end": 107.7,
+    "text": "And that's why we wear hard hats .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 132.04,
+    "end": 134.24,
+    "text": "Check it out , press release from NASA .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 135.42,
+    "end": 147.25,
+    "text": "Um , Expedition 31 will launch this spring to the International Space Station . Crew members will include Commander Tom 'Tombo' Johnson , astronaut Mike 'Supernova' Novacelik and Payload Specialist Howard Wolowitz .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 148.8,
+    "end": 150.91,
+    "text": "This is going right into my synagogue's newsletter .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 153.85,
+    "end": 156.54,
+    "text": "Dude , if you're going to be an astronaut , you need to pick a cool nickname .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 156.89,
+    "end": 159.17,
+    "text": "I don't get to pick it . The other guys have to give it to me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 159.56,
+    "end": 162.32,
+    "text": "Oh . If I had one , it would be Brown Dynamite .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 164.37,
+    "end": 168.42,
+    "text": "Are you not listening to me ? The other astronauts have to give you your nickname .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 168.45,
+    "end": 176.67,
+    "text": "Are you not looking at me ? I am Brown Dynamite . Why do you put six sugars in your coffee ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 176.95,
+    "end": 179.29,
+    "text": "Because the cafeteria doesn't offer little packets of methamphetamine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 181.98,
+    "end": 183.43,
+    "text": "Emergency drill night last night , huh ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 184.35,
+    "end": 184.42,
+    "text": "Uh-huh .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 184.44,
+    "end": 184.84,
+    "text": "How'd you do ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 205.5,
+    "end": 210.9,
+    "text": "You know what , I'm so tired I can't even think straight . I'm going home . Will one of you guys give this nutbag a ride back later ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 211.75,
+    "end": 214.66,
+    "text": "You can't go home . You have to take me to the dentist at four o'clock .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 214.76,
+    "end": 216.88,
+    "text": "Oh , can't you take the bus to the dentist ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 217.1,
+    "end": 227.88,
+    "text": "Of course I can . It's coming back under the residual effects of the anaesthesia , that's the problem . Two years ago after a deep gum cleaning , I thought I got on a bus but somehow wound up on a booze cruise to Mexico .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 231.33,
+    "end": 232.6,
+    "text": "They put you under for a cleaning ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.9,
+    "end": 234.17,
+    "text": "Yeah , they have to , I'm a biter .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 236.29,
+    "end": 239.31,
+    "text": "Whatever , Sheldon . I'm exhausted . I'm not taking you to the dentist .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 239.67,
+    "end": 251.49,
+    "text": "Wrong , sir . Wrong . Under section 37B of the roommate agreement , miscellaneous duties , you are obligated to take me to the dentist . See ? It's right here after providing a confirmation sniff on questionable dairy products . \"",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 253.73,
+    "end": 270.43,
+    "text": "You know what , I am sick of the roommate agreement . It's ridiculous . I'm your roommate , not your chauffeur . You know , I had better things to do yesterday than drive you all the way to the good model train store in Garden Grove because the one in Pasadena has gotten too big for its britches .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 272.05,
+    "end": 273.7,
+    "text": "Well , it has . Ask anybody .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 274.95,
+    "end": 276.71,
+    "text": "I don't care . I'm done .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 277.36,
+    "end": 281.09,
+    "text": "Hold on . Are you saying that you want to invoke Clause 209 ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 281.48,
+    "end": 284.41,
+    "text": "I don't know what that is , but if it means I can go home and sleep , then yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 284.92,
+    "end": 298.11,
+    "text": "Think carefully here . Clause 209 suspends our friendship , and strips down the roommate agreement to its bare essentials . Our responsibilities toward each other would only be rent , utilities and a perfunctory chin jut of recognition as we pass in the hall . 'Sup ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.9,
+    "end": 303.87,
+    "text": "Where do I sign ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 306.26,
+    "end": 308.15,
+    "text": "Right here . Use your finger .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 309.5,
+    "end": 310.6,
+    "text": "There . Done .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 311.12,
+    "end": 320.51,
+    "text": "All right . That's it . We are now no longer companions , boon or otherwise . We are now merely acquaintances . To amend the words of Toy Story , you have not got a friend in me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 323.06,
+    "end": 324.26,
+    "text": "I'm gonna go home and take a nap .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 324.35,
+    "end": 325.68,
+    "text": "Yeah , well , tell it to someone who cares .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 328.66,
+    "end": 335.17,
+    "text": "I got pretty exciting NASA news today . Next week I fly to Houston for orientation and zero-gravity elimination drills .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 336.57,
+    "end": 337.25,
+    "text": "What does that mean ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 337.34,
+    "end": 340.29,
+    "text": "He's gonna learn to poop in space .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 342.18,
+    "end": 343.7,
+    "text": "Open the pod bay doors , HAL .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.09,
+    "end": 347.86,
+    "text": "Maybe your nickname should be Brown Dynamite .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 351.98,
+    "end": 354.59,
+    "text": "Hello , dear friends . And Dr . Hofstadter .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 356.22,
+    "end": 357.04,
+    "text": "'Sup ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 358.67,
+    "end": 365.65,
+    "text": "'Sup ? My apologies . I would've been here sooner , but the bus kept stopping for other people to get on it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 367.71,
+    "end": 368.76,
+    "text": "I saved you a dumpling .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 368.91,
+    "end": 373.52,
+    "text": "Oh , your concern for me is touching . It will serve you well when you take me to the dentist tomorrow .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 374.87,
+    "end": 381.78,
+    "text": "I'm sorry , Sheldon , I'm busy . I'm right in the middle of my addiction study . I've got a lab full of alcoholic monkeys , and tomorrow's the day we switch them to O'Doul's .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 383.92,
+    "end": 388.59,
+    "text": "You're my girlfriend and you're not going to cater to my every need ? Oh , where'd the magic go ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 390.54,
+    "end": 395.35,
+    "text": "Sheldon , that's not what girlfriends are for . Although , you don't use them for what they're for , so what do I know ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 403.38,
+    "end": 407.2,
+    "text": "Howard doesn't make me do his shopping , or take him to the dentist , or pick up his dry cleaning , right ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 407.47,
+    "end": 410.71,
+    "text": "Absolutely . But when Ma's hips give out , you're up , kid .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 412.86,
+    "end": 468.77,
+    "text": "Well , if Amy's too busy , that gives the rest of you an opportunity to make my life easier , thus assuring yourselves a footnote in my memoirs , tentatively entitled You're Welcome , Mankind . All right , then , just shout when you hear the task you want to undertake . Uh , dentist . Okay , we can circle back to that one . Um , well , who wants to take me Wednesday morning to get new heels put on my dress shoes ? Anyone ? Oh . That one had hoot written all over it . Um , all right , uh , dermatologist ? Allergist ? Podiatrist ? Supercuts ? Okay , okay , here's a fun one . Um , I need a new picture frame and I have a hankering for Swedish meatballs . Who wants to spend the day with me at IKEA ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 471.76,
+    "end": 473.44,
+    "text": "Their meatballs are pretty good . Nothing , nothing .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 472.86,
+    "end": 473.14,
+    "text": "What's that ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 477.87,
+    "end": 478.56,
+    "text": "Hello , Stuart .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 479.19,
+    "end": 481.47,
+    "text": "Oh , hey , Sheldon . Can I help you find something today ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 481.98,
+    "end": 487.64,
+    "text": "No , no . I was just sitting at home thinking about how it might be nice to catch up with my ninth favourite person .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 488.97,
+    "end": 489.48,
+    "text": "Ninth ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 489.57,
+    "end": 498.27,
+    "text": "You moved up one . My pen pal in Somalia was kidnapped by pirates . So , uh , how are you ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 499.82,
+    "end": 504.74,
+    "text": "Uh , not so good . My shrink just killed himself and blamed me in the note .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 507.67,
+    "end": 521.55,
+    "text": "Great . Great . So , what's new with your family ? How's your mother ? Is she alive ? And your father ? Alive ? How about your grandparents , they alive ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 515.42,
+    "end": 515.64,
+    "text": "Yeah .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 519.06,
+    "end": 519.59,
+    "text": "Yes .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 522.86,
+    "end": 523.34,
+    "text": "No .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 523.58,
+    "end": 532.98,
+    "text": "Oh , I'm so sorry for your loss . On a cheerier note , I have a teeth-cleaning appointment this afternoon . What do you say you take me over there , buddy boy ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 535.18,
+    "end": 537.07,
+    "text": "I'm sorry , you want me to take you to the dentist ?",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 537.13,
+    "end": 544.02,
+    "text": "Yes . And now , I can't make any promises , but that's the sort of thing that gets a fella on the short list for the number eight friend slot .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 545.84,
+    "end": 553.73,
+    "text": "Sheldon , I'm working . I can't take you to the dentist . Also , and I can't stress this enough , I don't want to take you to the dentist .",
+    "speaker": "stuart_bloom",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 554.75,
+    "end": 558.76,
+    "text": "Can't help a friend out in a time of need , huh ? I see where your therapist was coming from .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 564.03,
+    "end": 570.74,
+    "text": "Ooh , ooh ! What about we make your astronaut nickname Howard \" Buzz \" Wolowitz ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 572.89,
+    "end": 575.15,
+    "text": "You can't do Buzz . Buzz is taken .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 575.77,
+    "end": 576.91,
+    "text": "Buzz Lightyear is not real .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.59,
+    "end": 583.26,
+    "text": "No , that's not what I'm talking about .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 583.55,
+    "end": 585.54,
+    "text": "Well , are you talking about when he thought he was real ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 588.32,
+    "end": 588.68,
+    "text": "No .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 591.46,
+    "end": 594.99,
+    "text": "Okay , um , how about Crash \" ? Howard \" Crash \" Wolowitz .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 596.46,
+    "end": 600.9,
+    "text": "Yeah , terrific . The other astronauts would love to go hurtling through space with a guy named Crash .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.77,
+    "end": 605.69,
+    "text": "All right , um , how about , oh , how about Rocket Man ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 607.36,
+    "end": 609.96,
+    "text": "That's not bad , Howard \" Rocket Man \" Wolowitz .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 610.2,
+    "end": 615.04,
+    "text": "Yeah , it's great , but I told you , I don't get to pick my nickname . It has to come from the other astronauts .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 615.25,
+    "end": 617.23,
+    "text": "Maybe there's a way to get them to come up with it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 617.86,
+    "end": 618.49,
+    "text": "Like how ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 619.14,
+    "end": 623.23,
+    "text": "Once I tried carrying around a Duncan yo-yo , hoping the other kids would start calling me Duncan .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 625.44,
+    "end": 626.05,
+    "text": "Did it work ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 626.26,
+    "end": 632.44,
+    "text": "No , they ended up calling me Sock Mouth . Because they took away my yo-yo and stuffed their socks in my mouth .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.96,
+    "end": 643.8,
+    "text": "Okay , uh , what if we make Rocket Man your ringtone , and the next time you talk to those guys , I'll call you and they'll hear it . Plant the seed .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 644.97,
+    "end": 646.28,
+    "text": "That's actually not a terrible plan .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 646.75,
+    "end": 648.26,
+    "text": "They don't call me Brown Dynamite for nothing .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 649.88,
+    "end": 650.69,
+    "text": "'Sup ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 652.31,
+    "end": 652.55,
+    "text": "'Sup ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.4,
+    "end": 656.79,
+    "text": "Hey , did you ever make it to the dentist ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 656.96,
+    "end": 667.92,
+    "text": "Not necessary . No . I found a service that'll send a van to your house for a teeth cleaning . Mostly they cater to dogs , but the fellow on the phone seemed to have an open mind .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 669.49,
+    "end": 673.39,
+    "text": "All right , Sheldon , if you need me to take you to the dentist , I will take you to the dentist .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 673.7,
+    "end": 680.66,
+    "text": "Are you suggesting that you've come to your senses and wish to re-establish the mutual benefits that stem from full participation in the roommate agreement ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 680.89,
+    "end": 684.9,
+    "text": "Absolutely . If you admit that you're a 30-year-old man who's incapable of functioning on his own .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 685.82,
+    "end": 687.92,
+    "text": "Ooh , Sock Mouth's got him on the ropes .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 689.83,
+    "end": 696.71,
+    "text": "I will admit nothing of the sort . And now if you'll excuse me , I have to call my dentist and see if I can also get my hair shampooed and my nails clipped .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.66,
+    "end": 710.27,
+    "text": "Oh , good , your power's out , too .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 710.7,
+    "end": 711.37,
+    "text": "Why is that good ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 712.23,
+    "end": 717.61,
+    "text": "Because last month , I sent the electric company a Starbucks gift card , an apology note , and a few snapshots of me in a bra .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 719.78,
+    "end": 721.59,
+    "text": "Power failure . Implementing power-failure protocol .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 724.11,
+    "end": 727.8,
+    "text": "What happened to all your glow-in-the-dark-emergency-exit stuff you had painted on the floor ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 728.09,
+    "end": 742.64,
+    "text": "Oh , that was wildly carcinogenic . Anyway , it's too bad you're no longer entitled to the full benefits of my friendship , because I happen to be extremely prepared for such an emergency . Please try not to see anything by this light . It's not for you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 744.34,
+    "end": 746.99,
+    "text": "It's just a blackout , I'm sure the power will be back on soon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.06,
+    "end": 754.61,
+    "text": "And I'm sure some fool in the Donner party said the snow would stop any day now . I like to think they ate him first .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 755.96,
+    "end": 757.53,
+    "text": "You know , I got some candles in my apartment .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 757.59,
+    "end": 764.73,
+    "text": "But candles ? During a blackout ? Are you mad ? That's a fire hazard . No , Pasadena Water and Power recommends the far safer glow stick .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 765.83,
+    "end": 767.74,
+    "text": "You call that a glow stick ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 773.63,
+    "end": 777.09,
+    "text": "That is a glow stick . Come on , let's go .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 777.7,
+    "end": 796.84,
+    "text": "Before you go , consider this . Not only do I have a deep-cycle marine battery power source which is more than capable of running our entertainment system , I also have all 61 episodes of the BBC series Red Dwarf and Fiddle-Faddle . All yours if you're willing to reinstate the roommate agreement .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 797.44,
+    "end": 800.11,
+    "text": "I've got wine at my place and some bubble wrap we could pop .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 805.33,
+    "end": 809.2,
+    "text": "Oh , he'll be back . Wine and a girl in the dark , he's gonna be bored out of his mind .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 812.49,
+    "end": 822.0,
+    "text": "To wine and bubble wrap . And to not having to watch Sheldon demonstrate his reverse osmosis machine that converts urine into drinking water .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 824.22,
+    "end": 834.03,
+    "text": "You know , in Girl Scouts , Tammie Dinisha said you could do that with panty hose . Boy , was she wrong . Anyway , you want to make out ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 835.53,
+    "end": 839.08,
+    "text": "I thought because our relationship's in a beta test , you wanted to take things slow .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 839.64,
+    "end": 841.44,
+    "text": "Okay . Do you want to make out slow ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 844.39,
+    "end": 847.75,
+    "text": "I can go so slow it'll be like there's a snail in your mouth .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.47,
+    "end": 855.46,
+    "text": "Ugh . Well , lucky for you , there's nothing else to do right now .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 858.65,
+    "end": 859.4,
+    "text": "Excuse me , Leonard .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 859.78,
+    "end": 862.53,
+    "text": "Since when don't you knock ? It's like the only good thing about you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.1,
+    "end": 872.62,
+    "text": "Social niceties have been suspended , Leonard . We're in a state of a emergency . The world has descended into darkened turmoil . Lawlessness and savagery are the order of the day .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 872.63,
+    "end": 875.28,
+    "text": "Fine , what is it ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 875.35,
+    "end": 882.73,
+    "text": "I'm making s'mores . I wanted to alert you in case you smelled caramelizing marshmallows and thought a nearby candy factory was on fire .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 884.01,
+    "end": 885.16,
+    "text": "S'mores , huh ? Good for you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 885.25,
+    "end": 890.95,
+    "text": "Yes , or good for us if you sign here and reinstate the full roommate agreement .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 891.41,
+    "end": 892.18,
+    "text": "No , thanks . I'm good .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 892.82,
+    "end": 905.31,
+    "text": "Really ? Huh ! Okay . In that case , I will have a s'more by myself . And then I'm gonna have s'more . By myself .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 906.3,
+    "end": 906.79,
+    "text": "Aw .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 907.78,
+    "end": 915.07,
+    "text": "No , don't aw him . He brought this all on himself . No , he's crazy . Sometimes crazy looks like sad so it'll suck you back in .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 910.26,
+    "end": 910.78,
+    "text": "But he's sad .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 918.27,
+    "end": 919.72,
+    "text": "I think he misses his little buddy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 921.88,
+    "end": 927.94,
+    "text": "Fine . But mark my words , this frustrating , bogus teenage make-out session is not over .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 937.66,
+    "end": 939.76,
+    "text": "I thought you said candles were dangerous .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 940.09,
+    "end": 956.41,
+    "text": "This is a Bunsen burner . I'm a scientist , I know what I'm doing . Oh , drat . Aw . It took me a gallon of urine to make that water .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 961.11,
+    "end": 969.44,
+    "text": "Listen , Sheldon , this is stupid . I don't see why we can't be friends . And I'm willing to drive you around and help you out with stuff . I just don't want to do it because of some silly roommate agreement .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 969.95,
+    "end": 971.06,
+    "text": "What are you proposing ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 971.42,
+    "end": 976.55,
+    "text": "That we go back to the way things were . But when I do something for you , you show a little appreciation .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 977.15,
+    "end": 978.18,
+    "text": "And how would I do that ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 980.59,
+    "end": 981.48,
+    "text": "You say thank you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 982.01,
+    "end": 982.94,
+    "text": "Every time ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 985.78,
+    "end": 986.95,
+    "text": "It's not crazy .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 988.64,
+    "end": 1007.87,
+    "text": "Counter-proposal . We reinstate the full roommate agreement with the following addendum , in the spirit of Mother's Day or Father's Day , once a year , we set aside day to celebrate all your contributions to my life , both actual and imagined by you . We could call it Leonard's Day .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1009.23,
+    "end": 1011.1,
+    "text": "I kind of like the sound of that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1012.21,
+    "end": 1019.31,
+    "text": "Of course you do . It's about you , like everything else . Oh , thank goodness . I don't think I had it in me to make another glass of water .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1020.69,
+    "end": 1025.02,
+    "text": "So , do I get breakfast in bed on Leonard's Day ? Can I sit in your spot ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1023.29,
+    "end": 1023.55,
+    "text": "No .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1025.54,
+    "end": 1025.8,
+    "text": "No .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1026.68,
+    "end": 1029.84,
+    "text": "Can I control the thermostat ? Do I get a card ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1027.96,
+    "end": 1028.32,
+    "text": "No .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1030.03,
+    "end": 1033.63,
+    "text": "Of course you get a card . It's Leonard's Day .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1034.84,
+    "end": 1041.2,
+    "text": "Hey , guys , the building manager said the reason the power went out is someone went down into the basement and just pulled the main breaker switch .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1045.2,
+    "end": 1045.81,
+    "text": "Really .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1047.5,
+    "end": 1048.93,
+    "text": "Who do you think did that , Sheldon ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1050.18,
+    "end": 1060.7,
+    "text": "Oh , I don't know . But whoever that mystery man was , you should be eternally grateful , for without him , there would be no Leonard's Day .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1062.57,
+    "end": 1063.76,
+    "text": "Leonard's Day ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1063.96,
+    "end": 1065.68,
+    "text": "Oh , no pressure . Just get him a crummy card , you're good .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1072.38,
+    "end": 1073.8,
+    "text": "All right , test my ring tone .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1079.64,
+    "end": 1080.64,
+    "text": "That really is a good song .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1081.08,
+    "end": 1086.05,
+    "text": "Oh , yeah . There's a reason he's Sir Elton John . They don't make you a knight for writing Wake Me Up Before You Go Go .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1086.92,
+    "end": 1089.98,
+    "text": "Howard , are you coming down for breakfast ?",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1090.85,
+    "end": 1094.88,
+    "text": "Ma , I told you I have a video conference with NASA . I said don't bother me !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1095.86,
+    "end": 1100.26,
+    "text": "Oh ! Listen to Mr . Big Shot Astronaut .",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1101.24,
+    "end": 1111.97,
+    "text": "Yes , please listen to Mr . Big Shot Astronaut . Hey , good morning . No problem , Dr . Massimino .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1112.64,
+    "end": 1114.14,
+    "text": "The guys here call me Mass .",
+    "speaker": "mike_massimino",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1114.29,
+    "end": 1118.75,
+    "text": "Mass . That's a cool nickname . 'Cause force equals mass times acceleration .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1128.93,
+    "end": 1136.07,
+    "text": "Sorry . My phone . Yeah , my ring tone . Kind of my favourite song , Rocket Man .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1137.22,
+    "end": 1141.25,
+    "text": "Howard , your Fruit Loops are getting soggy !",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1142.4,
+    "end": 1149.58,
+    "text": "Not now ! My mom . Sorry . No problem , Fruit Loops .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  }
+]

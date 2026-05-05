@@ -1,0 +1,1451 @@
+[
+  {
+    "start": 1.97,
+    "end": 12.72,
+    "text": "Well , this sandwich is an unmitigated disaster . I asked for turkey and roast beef with lettuce and swiss on wholewheat . Turkey and roast beef with swiss and lettuce on wholewheat .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 9.1,
+    "end": 9.75,
+    "text": "What did they give you ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 18.87,
+    "end": 30.77,
+    "text": "It 's the right ingredients but in the wrong order . In a proper sandwich the cheese is adjacent to the bread to create a moisture barrier against the lettuce . They might as well have dragged this thing through a car wash .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 32.67,
+    "end": 33.71,
+    "text": "I do n't believe it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 33.78,
+    "end": 35.43,
+    "text": "I know , it 's basic culinary science .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 36.37,
+    "end": 41.28,
+    "text": "Some guy is auctioning off a miniature time machine prop from the original film and no - one is bidding on it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 41.31,
+    "end": 43.58,
+    "text": "A time machine from the movie The Time Machine ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 44.44,
+    "end": 46.66,
+    "text": "No , a time machine from Sophie 's Choice .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 47.6,
+    "end": 51.22,
+    "text": "Boy , Sophie could have used a time machine in that movie . Did you see it , it 's rough .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 53.44,
+    "end": 54.12,
+    "text": "Oh , that 's cool .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 54.38,
+    "end": 57.44,
+    "text": "Uh - huh . Yeah . And that 's my bid .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 54.77,
+    "end": 55.76,
+    "text": "It 's only $ 800 ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 57.51,
+    "end": 58.73,
+    "text": "You bid $ 800 .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 58.97,
+    "end": 63.43,
+    "text": "It was a spur of the moment thing , I figured it would go for thousands and I just wanted to be a part of it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 64.26,
+    "end": 65.86,
+    "text": "There 's only 30 seconds left in the auction .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 65.97,
+    "end": 67.04,
+    "text": "Do you have $ 800 ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 67.1,
+    "end": 69.2,
+    "text": "Not to blow on a miniature time machine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 69.57,
+    "end": 73.76,
+    "text": "Do n't worry , the way these things work there 's people waiting ' til the last second to bid , and then they swoop in and get it , it 's called sniping .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 73.78,
+    "end": 79.08,
+    "text": "Fifteen seconds . Ten , nine , eight ...",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 74.89,
+    "end": 75.2,
+    "text": "Come on , snipers .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 80.24,
+    "end": 81.25,
+    "text": "Where are your snipers ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.31,
+    "end": 85.72,
+    "text": "Five . Four . Three . Two .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.82,
+    "end": 85.8,
+    "text": "Snipe . Snipe . Snipe ! SNIPE !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.18,
+    "end": 92.29,
+    "text": "One . Congratulations , you are the proud owner of a miniature time machine .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.72,
+    "end": 88.78,
+    "text": "Aaaa - aw !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 93.7,
+    "end": 94.43,
+    "text": "You lucky duck .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 95.22,
+    "end": 99.37,
+    "text": "I wonder why no - one else bid , this is a classic piece of sci - fi movie memorabilia .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 99.47,
+    "end": 101.4,
+    "text": "Yeah , I know , I still ca n't afford it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 101.71,
+    "end": 105.45,
+    "text": "Why do n't we share it ? We 'll each put in two hundred bucks and we 'll take turns having it in our homes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 105.5,
+    "end": 109.99,
+    "text": "A time share time machine ? I ' m in . Sheldon ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 110.23,
+    "end": 114.06,
+    "text": "Need you ask ? But I still do n't understand why no - one else bid .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 123.18,
+    "end": 124.67,
+    "text": "I understand why no - one else bid .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 152.77,
+    "end": 155.03,
+    "text": "Did the listing actually say miniature ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 157.27,
+    "end": 162.43,
+    "text": "I just assumed . Who sells a full sized time machine for $ 800 ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.93,
+    "end": 170.59,
+    "text": "In a venn diagram , that would be an individual located within the intersection of the sets ' no longer want my time machine ' and ' need $ 800 ' .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 172.67,
+    "end": 177.51,
+    "text": "It 's actually a tremendous bargain , even with shipping it works out to less than four dollars a pound .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 178.72,
+    "end": 180.05,
+    "text": "Cocktain shrimp are $ 12.50 .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 181.73,
+    "end": 184.73,
+    "text": "How are we going to get it upstairs ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 186.19,
+    "end": 188.81,
+    "text": "If we take the dish off it might fit in the elevator .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 188.84,
+    "end": 191.14,
+    "text": "Yes but the elevator 's been broken for two years .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 191.64,
+    "end": 194.49,
+    "text": "I ' ve been meaning to ask you , do you think we should make a call about that ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 196.81,
+    "end": 212.82,
+    "text": "Not necessary , I have a masters in engineering , I remotely repair satellites on a regular basis . I troubleshoot space shuttle payloads . When the Mars rover started pulling to the left I performed a front end alignment from 62 million miles away .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 222.55,
+    "end": 223.58,
+    "text": "No , that baby 's broken .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 227.0,
+    "end": 228.16,
+    "text": "Come on , guys , push .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 228.32,
+    "end": 231.45,
+    "text": "If I push any harder I ' m going to give birth to my colon .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.65,
+    "end": 234.48,
+    "text": "I ca n't feel my fingers , hurry up .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 234.63,
+    "end": 238.72,
+    "text": "It 's the same amount of work no matter how fast you go , basic physics . Yeah .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 237.74,
+    "end": 242.16,
+    "text": "Sheldon ? If my fingers ever work again , I ' ve got a job for the middle one .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 242.93,
+    "end": 244.08,
+    "text": "Oh , hey guys .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 244.85,
+    "end": 249.81,
+    "text": "Uh , hi Penny . Take a break , guys !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 251.66,
+    "end": 252.25,
+    "text": "What are you doing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.45,
+    "end": 254.75,
+    "text": "Oh , just , you know , moving ... something upstairs .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 255.09,
+    "end": 255.73,
+    "text": "What is it ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 256.44,
+    "end": 258.28,
+    "text": "It 's ... you know , time machine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 259.99,
+    "end": 264.6,
+    "text": "Yeah , okay , neat , but I really got to get to work , so ... I do n't have a few minutes , I ' m running really late .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 261.83,
+    "end": 262.86,
+    "text": "Uh , just give us a few minutes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 265.01,
+    "end": 272.13,
+    "text": "Then I have a simple solution , go up to the roof , hop over to the next building , there 's a small gap , do n't look down if you 're subject to vertigo , and use their stairwell .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 273.09,
+    "end": 274.4,
+    "text": "You 're joking , right ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 274.72,
+    "end": 276.3,
+    "text": "Oh , I never joke when it comes to vertigo .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 278.92,
+    "end": 281.19,
+    "text": "Damn , okay , I 'll just take the roof .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 281.35,
+    "end": 289.49,
+    "text": "Hey , if you wait for us to set up the time machine , I can drop you off at work yesterday . Time travel joke , it 's not ... never mind .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 291.99,
+    "end": 293.5,
+    "text": "For what it 's worth , I thought it was humorous .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 298.11,
+    "end": 300.53,
+    "text": "Let 's just do this . Guys , ready to push ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 300.88,
+    "end": 303.45,
+    "text": "In a minute . Howard stepped outside to throw up .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 309.35,
+    "end": 312.18,
+    "text": "I do n't know what you were worried about . I think it really works in the room .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 314.27,
+    "end": 317.81,
+    "text": "Yeah . It is by far the coolest thing I have ever owned .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 317.88,
+    "end": 330.67,
+    "text": "The exact time machine that carried actor Rod Taylor from Victorian England into the post - apocalyptic future , which society had splintered into two factions , the sub - terranean Morlocks , who survived by feasting on the flesh of the gentle surface dwelling Eloy .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 333.53,
+    "end": 335.12,
+    "text": "Talk about your chick magnets .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 336.56,
+    "end": 350.95,
+    "text": "Oh yeah . The guy who lives next to me is always like , I have a Jacuzzi on my balcony , I have a Jacuzzi on my balcony . But wait until I tell him , I ' ve got a time machine on my balcony . Stuff that in your speedos , Jacuzzi Bob !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 352.5,
+    "end": 357.83,
+    "text": "Gentlemen , I know we said we 'd take turns , but I think you 'd agree that practicality dictates it remain here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 358.18,
+    "end": 364.48,
+    "text": "You ca n't just keep it here , what if I meet a girl and say , ' you wanna come up and see my time machine , it 's at my friends house , ' how lame is that ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 365.26,
+    "end": 366.01,
+    "text": "He 's got a point .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 366.38,
+    "end": 375.67,
+    "text": "Alright , I think we 're going to need some ground rules , in addition to the expected no shoes in the time machine and no eating in the time machine , I propose that we add pants must be worn at all times in the time machine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 377.08,
+    "end": 377.69,
+    "text": "Seconded .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 379.3,
+    "end": 380.57,
+    "text": "I was going to put down a towel .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 384.59,
+    "end": 388.28,
+    "text": "I still want it on my balcony . I say we move it on a bi - monthly basis .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 388.49,
+    "end": 389.12,
+    "text": "That sounds fair .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 389.39,
+    "end": 394.65,
+    "text": "Hold on . Bi - monthly is an ambiguous term , do you mean move it every other month , or twice a month ? Then no .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.36,
+    "end": 396.1,
+    "text": "Twice a month . Okay , every other month .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 396.22,
+    "end": 396.62,
+    "text": "No .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 398.37,
+    "end": 404.22,
+    "text": "Sheldon , you ca n't be selfish , we all paid for it , so it belongs to all of us . Now out of the way so I can sit in my time machine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 413.6,
+    "end": 418.2,
+    "text": "Okay , I am setting the dials for March 10th , 1876 .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 418.44,
+    "end": 422.17,
+    "text": "Good choice , Alexander Graham Bell invents the telephone and calls out for Dr Watson .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 422.2,
+    "end": 430.46,
+    "text": "Wait a minute , I 'd want to see that too . But if we all go back to the same point in time , Bell 's lab is going to get very crowded , he 'll know something 's up .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 424.15,
+    "end": 425.37,
+    "text": "So , when it 's your turn you can .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 431.59,
+    "end": 435.47,
+    "text": "Also , since the time machine does n't move in space , you 'll end up in 1876 Pasadena .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 435.78,
+    "end": 441.72,
+    "text": "And even if you can make it to Boston , what are you going to do , knock on the door and say to Mrs Bell , ' hey Mrs Bell , big fan of your husband , can I come in and watch him invent the telephone ? '",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 443.11,
+    "end": 444.73,
+    "text": "Mrs Bell was deaf , she 's not even going to hear you knock .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 446.98,
+    "end": 460.93,
+    "text": "Oh , I have a solution , first go into the future and obtain a cloaking device . If I remember correctly , Captain Kirk will steal a cloaking device from the Romulans on Stardate 5027.3 , which will be January 10th 2328 by pre - federation reckoning .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 450.94,
+    "end": 452.13,
+    "text": "Ooh , how far into the future ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 462.86,
+    "end": 469.98,
+    "text": "Okay , I am setting the dials for January 10th , 2328 . Here we go into the future .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 490.82,
+    "end": 491.49,
+    "text": "That was fun .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 493.34,
+    "end": 493.82,
+    "text": "My turn .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 495.47,
+    "end": 512.32,
+    "text": "Okay , first of all , what you call a gap was nearly three feet wide , I slipped and skinned my knee . Zzz - zz - zz - zz ! Second of all , the door to the stairwell of the other building was locked , so I had to go down the fire escape which ends on the third floor , forcing me to crawl through the window of a lovely Armenian family , who insisted I stay for lunch .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 500.6,
+    "end": 501.15,
+    "text": "Are you okay ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 513.55,
+    "end": 515.18,
+    "text": "That does n't sound too bad .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 515.23,
+    "end": 518.45,
+    "text": "It was eight courses of lamb , and they tried to fix me up with their son .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 520.99,
+    "end": 521.38,
+    "text": "Sorry .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 521.43,
+    "end": 528.04,
+    "text": "Not done . By the time I finally got to work , they 'd given my shift away . Yeah , that 's right , I ' ve lost an entire day 's pay thanks to this ... this ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 529.01,
+    "end": 529.79,
+    "text": "Time machine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 533.0,
+    "end": 534.65,
+    "text": "The lights flash and the dish spins , you wanna try it ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.65,
+    "end": 546.47,
+    "text": "No ! I do n't want to try it , my God , you are grown men , how could you waste your lives with these stupid toys and costumes and comic books and ... and now that ... that ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 546.95,
+    "end": 548.35,
+    "text": "Again , time machine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 549.99,
+    "end": 555.36,
+    "text": "Oh please , it 's not a time machine , if anything it looks like something Elton John would drive through the Everglades .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 561.61,
+    "end": 565.95,
+    "text": "It only moves in time . It would be worse than useless in a swamp .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 571.48,
+    "end": 574.21,
+    "text": "Pathetic . All of you , completely pathetic .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 580.01,
+    "end": 580.5,
+    "text": "My turn !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 598.02,
+    "end": 608.11,
+    "text": "Leonard , it 's two in the morning . So it 's my turn . Why did you set it for the day before yesterday ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 601.01,
+    "end": 601.29,
+    "text": "So ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 609.14,
+    "end": 611.99,
+    "text": "Because I want to go back and keep myself from getting a time machine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 612.73,
+    "end": 622.19,
+    "text": "You ca n't . If you were to prevent yourself from buying it in the past , you would not have it available in the present to travel back and stop yourself from buying it , ergo you would still have it . This is a classic rookie time travel mistake .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 626.01,
+    "end": 628.32,
+    "text": "Can I go back and prevent you from explaining that to me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 629.63,
+    "end": 637.65,
+    "text": "Same paradox . If you were to travel back in time and , say , knock me unconscious , you would not then have the conversation that irritated you , motivating you to go back and knock me unconscious .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 639.71,
+    "end": 641.21,
+    "text": "What if I knocked you unconscious right now ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 643.38,
+    "end": 644.47,
+    "text": "It wo n't change the past .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 646.03,
+    "end": 648.3,
+    "text": "But it would make the present so much nicer .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 650.28,
+    "end": 651.78,
+    "text": "Are you upset about something ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 652.64,
+    "end": 653.82,
+    "text": "What was your first clue ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.21,
+    "end": 666.62,
+    "text": "Well , it was a number of things . First the late hour , then your demeanour seems very low energy , plus your irritability ... Oh ! I do n't usually pick up on those things . Good for me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 661.04,
+    "end": 661.68,
+    "text": "Yes I ' m upset .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 670.13,
+    "end": 670.78,
+    "text": "Yeah , good for you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 672.15,
+    "end": 676.9,
+    "text": "Oh , wait . Did you want to talk about what 's bothering you ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 678.66,
+    "end": 679.48,
+    "text": "I do n't know . Maybe .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 679.55,
+    "end": 681.17,
+    "text": "Wow , I ' m on fire tonight .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 686.1,
+    "end": 691.86,
+    "text": "Uh , here 's the thing . Girls like Penny never end up with guys who own time machines .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 692.47,
+    "end": 702.61,
+    "text": "I disagree . Your inability to successfully woo Penny long predates your acquisition of the time machine . That failure clearly stands on its own .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 704.74,
+    "end": 705.87,
+    "text": "Thanks for pointing it out .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 706.05,
+    "end": 716.63,
+    "text": "In addition , your premise is flawed . In the original film , Rod Taylor got Yvette Mimeaux with that very time machine . In Back to the Future , Marty McFly got the opportunity to hook up with his extremely attractive young mother .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 720.12,
+    "end": 721.07,
+    "text": "Those are movies .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 721.18,
+    "end": 729.54,
+    "text": "Well of course they 're movies . Were you expecting me to come up with an example involving a real life time machine ? That 's absurd .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 732.09,
+    "end": 733.35,
+    "text": "Come on , guys , push .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 733.5,
+    "end": 736.62,
+    "text": "If I push any harder I ' m going to give birth to my colon .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 737.92,
+    "end": 739.88,
+    "text": "Oh , hey guys .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 741.18,
+    "end": 744.6,
+    "text": "Uh , hi Penny . Take a break , guys !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 746.44,
+    "end": 747.11,
+    "text": "What are you doing ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.25,
+    "end": 749.91,
+    "text": "Oh , just , you know , moving a ... time machine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 751.79,
+    "end": 753.35,
+    "text": "Yeah , okay , neat , but I really got to get to work , so ...",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 754.07,
+    "end": 759.48,
+    "text": "No problem . Hang on .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 763.98,
+    "end": 765.54,
+    "text": "But , what about your time machine .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 765.78,
+    "end": 767.71,
+    "text": "Some things are more important than toys .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 776.32,
+    "end": 777.57,
+    "text": "Oh , I ' m scared .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 778.23,
+    "end": 779.5,
+    "text": "Do n't worry baby , I ' ve got you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 780.56,
+    "end": 781.66,
+    "text": "Oh , Leonard .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 801.09,
+    "end": 802.04,
+    "text": "It 's still my turn .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 808.26,
+    "end": 808.75,
+    "text": "What are you doing ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 810.81,
+    "end": 813.9,
+    "text": "I ' m packing up all my collectibles and taking them down to the comic book store to sell .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 815.21,
+    "end": 821.73,
+    "text": "Well is that really necessary . If you need money you can always sell blood . And semen .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 822.72,
+    "end": 824.71,
+    "text": "It 's not about money .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 825.7,
+    "end": 826.39,
+    "text": "We brought food .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 826.8,
+    "end": 829.28,
+    "text": "Lox and bagels , the breakfast of time travellers .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 830.47,
+    "end": 837.24,
+    "text": "Terrific , does anyone want to buy my share of the time machine ? Because I do n't want it any more . Just ... personal reasons .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 832.72,
+    "end": 832.95,
+    "text": "Why ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 834.91,
+    "end": 835.35,
+    "text": "Why ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 837.29,
+    "end": 840.17,
+    "text": "My spidey - sense tells me this has something to do with Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 841.19,
+    "end": 842.99,
+    "text": "Look , do you want to buy me out or not ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 843.12,
+    "end": 846.67,
+    "text": "I 'll give you a hundred dollars , which will make me half owner , and we 'll put it on my balcony .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 846.77,
+    "end": 849.64,
+    "text": "Screw his balcony , I 'll give you a hundred and twenty and we 'll put it in my garage .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 849.67,
+    "end": 851.56,
+    "text": "I paid two hundred dollars for my share .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.68,
+    "end": 855.15,
+    "text": "Dude , everyone knows a time machine loses half its value the minute you drive it off the lot .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 856.81,
+    "end": 859.15,
+    "text": "I 'll go for two hundred , that time machine stays right where it is .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 859.15,
+    "end": 864.35,
+    "text": "hundred , and I 'll throw in my original 1979 Mattel Millenium Falcon with real light speed sound effects .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.8,
+    "end": 874.66,
+    "text": "No , no more toys or action figures or props or replicas or costumes or robots or Darth Vader voice changers , I ' m getting rid of all of it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 874.87,
+    "end": 878.29,
+    "text": "You ca n't do that , look what you ' ve created here , it 's like nerdvana .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 882.12,
+    "end": 884.8,
+    "text": "More importantly , you ' ve a Darth Vader voice changer ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 886.67,
+    "end": 887.39,
+    "text": "Not for long .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 888.04,
+    "end": 889.67,
+    "text": "Oh , I call dibs on the Golden Age Flash .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 889.88,
+    "end": 893.97,
+    "text": "Hang on , I need that to complete my Justice Society of America collection . Well you ca n't just call dibs .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 892.41,
+    "end": 895.6,
+    "text": "Too bad , I called dibs . I can and I did , look up dibs on Wikipedia .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 897.76,
+    "end": 899.43,
+    "text": "Dibs does n't apply in a bidding war .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 899.53,
+    "end": 903.3,
+    "text": "It 's not a bidding war , I ' m selling it all to Larry down at the comic book store .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 903.41,
+    "end": 904.65,
+    "text": "Why Larry ? Did Larry call dibs ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 904.79,
+    "end": 905.25,
+    "text": "Will you forget dibs !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 905.28,
+    "end": 908.44,
+    "text": "He offered me a fair price for the whole collection .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 908.62,
+    "end": 909.75,
+    "text": "What 's the number , I 'll match it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 909.99,
+    "end": 912.06,
+    "text": "I 'll match it , plus a thousand rupees .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 912.85,
+    "end": 913.87,
+    "text": "What 's the exchange rate .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 913.93,
+    "end": 915.86,
+    "text": "None of your business . Take it or leave it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 916.56,
+    "end": 922.23,
+    "text": "Mom , my bar - mizvah bonds , how much do I got ? Thanks . I can go twenty six hundred dollars and two trees in Israel .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 924.7,
+    "end": 928.31,
+    "text": "Forget it guys , if I sell to one of you , the other two are going to be really mad at me .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 928.45,
+    "end": 930.31,
+    "text": "Who cares , as long as you pick me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 931.73,
+    "end": 933.65,
+    "text": "Okay , Leonard , put down the box , let 's talk .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 933.73,
+    "end": 935.49,
+    "text": "Sorry Raj , my mind is made up .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 935.98,
+    "end": 937.97,
+    "text": "No . I ca n't let you do this .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 939.36,
+    "end": 941.08,
+    "text": "Sheldon , get out of my way .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.38,
+    "end": 945.9,
+    "text": "None shall pass .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 950.1,
+    "end": 965.0,
+    "text": "Okay . I did not want to do this but , I have here the rare mint condition production error Star Trek , The Next Generation Geordi LaForge , without his visor in the original packaging . If you do not get out of my way , I will open it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 966.81,
+    "end": 970.06,
+    "text": "Okay man , be cool , we 're all friends here .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 971.53,
+    "end": 973.27,
+    "text": "What the hell 's going on ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 973.73,
+    "end": 989.95,
+    "text": "You hypocrite ! Little Miss ' grown ups do n't play with toys ' . If I were to go into that apartment right now , would I find Beanie Babies ? Are you not an accumulator of Care Bears and My Little Ponies ? And who is that Japanese feline I see frolicking on your shorts ? Hello , Hello Kitty !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 975.82,
+    "end": 976.34,
+    "text": "What ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 993.79,
+    "end": 1005.34,
+    "text": "Okay , okay look , if this is about yesterday , Leonard , I am really sorry about what I said , I was just a bit upset . No you did n't . Look , you are a great guy , and it is things you love that make you who you are .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 999.6,
+    "end": 1000.53,
+    "text": "No , I needed to hear it .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1006.08,
+    "end": 1008.09,
+    "text": "I guess that makes me large breasts .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1012.54,
+    "end": 1020.03,
+    "text": "Still , I think it 's time for me to get rid of this stuff and ... you know ... move on with my life . Yeah .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1018.32,
+    "end": 1018.69,
+    "text": "Really ?",
+    "speaker": "penny",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1020.93,
+    "end": 1023.0,
+    "text": "Oh . Wow . Good for you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1025.38,
+    "end": 1029.94,
+    "text": "Thanks . Hey , do you want to , I do n't know , later ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1029.98,
+    "end": 1035.91,
+    "text": "Excuse me . Hey , Penny ! Are you ready to go . I 'll give you a hand .",
+    "speaker": "mike",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1032.74,
+    "end": 1040.3,
+    "text": "Hi Mike . Yeah , I just have to change . Oh , stop it ! Bye guys .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1043.89,
+    "end": 1044.71,
+    "text": "My turn on the time machine .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1069.38,
+    "end": 1094.55,
+    "text": "It worked . It really worked . They said I was mad , but it worked . Oh no , not Morlocks ! Not flesh - eating Morlocks ! He - e - e - e - e - e - e - elp !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1099.72,
+    "end": 1101.26,
+    "text": "Sheldon , are you okay ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1102.24,
+    "end": 1103.74,
+    "text": "We have to get rid of the time machine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1104.65,
+    "end": 1106.67,
+    "text": "It is a little big for the living room , is n't it ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1107.81,
+    "end": 1109.08,
+    "text": "Yeah , that 's the problem , it 's too big .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1110.3,
+    "end": 1114.18,
+    "text": "I ' m glad you agree . I hired some guys to help us move it , come on in fellas .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1117.83,
+    "end": 1121.37,
+    "text": "Oh no , Morlocks ? Eat him , eat him . Aaaaargh . Leonard ! ! ! ! ! ! ! !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  }
+]

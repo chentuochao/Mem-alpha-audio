@@ -1,0 +1,1360 @@
+[
+  {
+    "start": 0.66,
+    "end": 1.31,
+    "text": "Kites , ho !",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 2.22,
+    "end": 3.14,
+    "text": "Kites ho !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 4.07,
+    "end": 4.99,
+    "text": "Kites ho !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 7.76,
+    "end": 17.83,
+    "text": "Excuse me . You're misusing the word ho . It's an interjection used to call attention to a destination , not an object , as in , uh , Land , ho ! Or , uh , Westward , ho !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 19.98,
+    "end": 27.66,
+    "text": "Hey , guys . What you doing ? Going out to discover electricity ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 29.29,
+    "end": 52.03,
+    "text": "If you're referring to the work of Benjamin Franklin , he did not discover electricity , he merely used a kite to determine that lightning consists of electricity . He also invented the Franklin stove , bifocals and the flexible urinary catheter . Kites , ho . We're heading out for some kite fighting . Oh , yeah . It's an extremely competitive , cutthroat sport .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 48.16,
+    "end": 48.99,
+    "text": "Kite fighting ?",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 52.94,
+    "end": 59.93,
+    "text": "Well , actually , the risk of throat cutting is very low . On the other hand , severe string burn is a real and ever-Present danger .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.24,
+    "end": 63.04,
+    "text": "You want to come watch ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 63.64,
+    "end": 70.66,
+    "text": "Oh , gee , sounds amazing , but , um , I've got some friends coming over . Not a big thing , we're just gonna watch the Nebraska game .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 70.81,
+    "end": 72.49,
+    "text": "Oh . Football , sure .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 73.24,
+    "end": 73.87,
+    "text": "Good guess .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 75.07,
+    "end": 78.64,
+    "text": "I would've invited you , but I know you're not a football fan .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 78.83,
+    "end": 85.91,
+    "text": "No , no , I'm not , so , great . You've got plans doing something you like , I've got plans doing something I like , so it's good .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 86.24,
+    "end": 88.52,
+    "text": "Well , maybe we'll hang out later , you know , after everybody's gone .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.88,
+    "end": 89.33,
+    "text": "Yeah , great .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 91.3,
+    "end": 93.26,
+    "text": "See ya .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 95.24,
+    "end": 96.14,
+    "text": "Well , this sucks .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 98.23,
+    "end": 104.74,
+    "text": "I'm sorry , I got bored and drifted off . Where exactly in the interaction did the sucking lie ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 106.5,
+    "end": 110.92,
+    "text": "Leonard just realized that Penny's been hiding him from her friends because he's a tiny , little man who flies kites .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 113.15,
+    "end": 114.21,
+    "text": "Oh , that certainly would suck .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 142.95,
+    "end": 147.75,
+    "text": "Wolowitz is trying to outflank us . Let out some string , add altitude and I'll go under and cut his line .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 148.73,
+    "end": 150.45,
+    "text": "Why wouldn't Penny want her friends to meet me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 150.7,
+    "end": 154.72,
+    "text": "Focus , Leonard , focus ! The heat of battle is upon us , the dogs of war are unleashed .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 156.84,
+    "end": 158.66,
+    "text": "Maybe Koothrappali's right , maybe I embarrass her .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 158.89,
+    "end": 164.04,
+    "text": "You're embarrassing me right now , a grown man worrying about such nonsense when in the middle of flying kites .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 166.81,
+    "end": 167.02,
+    "text": "Sorry .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 167.23,
+    "end": 170.34,
+    "text": "Sorry won't bring their kites down . Ow ! String burn ! String burn !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 174.13,
+    "end": 179.78,
+    "text": "Oh , they think we're flanking , they're playing right into our hands . On the count of three , we execute the flying scissor . One , two ...",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 179.78,
+    "end": 189.45,
+    "text": "Did you see that ? That chick , she smiled at me . Yes , she did . Hold my line .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 183.89,
+    "end": 184.38,
+    "text": "See what ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 186.35,
+    "end": 193.43,
+    "text": "No , she didn't . Come on , scissors , scissors ! Wait , what are you doing ? I can't scissors by myself ! Howard ! Come back !",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 194.92,
+    "end": 195.67,
+    "text": "Victory !",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 197.16,
+    "end": 205.55,
+    "text": "Son of a bitch . You're a sucky friend , you know that ? A sucky , sucky friend .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 206.3,
+    "end": 209.95,
+    "text": "What was I supposed to do ? She gave me that come-hither look .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 210.49,
+    "end": 212.71,
+    "text": "If she gave you any look at l. It was a you suck look .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 215.61,
+    "end": 217.89,
+    "text": "would've caught up to her if I hadn't pulled a hammy .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 218.11,
+    "end": 220.53,
+    "text": "Oh , please , you weigh 80 pounds . You don't have a hammy .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 222.24,
+    "end": 225.22,
+    "text": "So , Penny doesn't want me around her friends , I embarrass her . What else could it be ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 225.91,
+    "end": 235.21,
+    "text": "Well , her actions could be out of concern for your feelings . Perhaps she's excluded you from these gatherings because she's scouting for a new mate and doesn't want to do it in front of you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 237.11,
+    "end": 238.96,
+    "text": "Oh , how kind of her .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 240.06,
+    "end": 248.14,
+    "text": "Agreed . Most primates don't show that sort of discretion . A female bonobo will copulate with a new male in front of the old one without so much as a how do you do ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 249.82,
+    "end": 267.14,
+    "text": "You always do this , you know ? You ditch me for a woman you don't have a shot with . With a woman you were chasing through a park ? That's not a shot , that's a felony . What's worse , it cost me my prized Patang fighting kite . Sheldon , I don't suppose there's any chance you could give me my kite back ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.82,
+    "end": 254.1,
+    "text": "I totally had a shot .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 267.61,
+    "end": 280.0,
+    "text": "I'm sorry , Raj , but the rules of aerial warfare dictate at the fallen kite go to the victor . And without rules , the competition has no meaning . And without meaning , the following would be an empty gesture . I have your kite . I have your kite .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 283.7,
+    "end": 284.06,
+    "text": "Hey .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 287.77,
+    "end": 288.13,
+    "text": "Hi .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 291.83,
+    "end": 292.94,
+    "text": "How was your football party ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 293.16,
+    "end": 294.32,
+    "text": "It was pretty good . We won .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 294.45,
+    "end": 299.31,
+    "text": "Oh , that's excellent . It's a weird figure of speech , isn't it , we won when you weren't",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 299.76,
+    "end": 302.84,
+    "text": "I'm glad to hear it .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 309.94,
+    "end": 312.85,
+    "text": "Oh , hey , on a related subject , are you embarrassed to have me around your friends ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 313.87,
+    "end": 317.55,
+    "text": "Oh , my god , no . Why would you ask that ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 317.78,
+    "end": 335.93,
+    "text": "Well , you know , I just noticed I haven't really met any of them . Well , yeah , no , I met the huge ex-boyfriend and the smaller yet still larger than me ex-boyfriend . Were they here today ? Of course not . Why would they be ? Why would I ask ? Why am I rambling ? Why don't you stop me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 321.32,
+    "end": 321.95,
+    "text": "Sure you have .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 332.04,
+    "end": 332.46,
+    "text": "Of course not .",
+    "speaker": "penny",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 337.78,
+    "end": 342.94,
+    "text": "Leonard , look , if you want to meet my friends , that would be great . I just , you know , I didn't want you to be bored .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 343.44,
+    "end": 345.43,
+    "text": "I wouldn't be bored . Why would I be bored ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 345.98,
+    "end": 348.12,
+    "text": "Well , 'cause they're not genius scientists .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 348.62,
+    "end": 353.0,
+    "text": "Penny , I like all sorts of people . In fact , some of my best friends aren't geniuses .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 355.91,
+    "end": 356.63,
+    "text": "Like who ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 359.54,
+    "end": 367.13,
+    "text": "Okay , some of my Facebook friends aren't geniuses . My point is , if we're going to be a couple , I should be friends with your friends .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 367.49,
+    "end": 370.7,
+    "text": "Okay , great . Well , then why don't you come over next Saturday and watch the game with us .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 371.48,
+    "end": 372.35,
+    "text": "Another football game ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 373.9,
+    "end": 375.06,
+    "text": "They have them every week .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 375.51,
+    "end": 376.26,
+    "text": "Did not know that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 376.92,
+    "end": 378.89,
+    "text": "You wanted to meet my friends .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 379.55,
+    "end": 381.89,
+    "text": "Sure , sure , just I don't know much about football .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 382.05,
+    "end": 386.13,
+    "text": "Oh , that's okay , a lot of the guys' girlfriends don't know football . They just kind of drink and talk in the kitchen .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 392.76,
+    "end": 402.67,
+    "text": "Great . Okay , a complete pass . First down , New England . I think I'm starting to get this .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 403.21,
+    "end": 409.48,
+    "text": "Really ? The only thing I've learned in the last two hours is that American men love drinking beer , pee too often and have trouble getting erections .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 414.19,
+    "end": 416.0,
+    "text": "Focus on the game , not the commercials , Raj .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 416.76,
+    "end": 422.31,
+    "text": "I'm just saying , maybe if you people cut back on the beer , you could get out of the bathroom and satisfy your women without pharmaceutical help .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 425.74,
+    "end": 428.58,
+    "text": "Raj , what are you doing here ? You were supposed to help me pimp out my Vespa .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.03,
+    "end": 432.97,
+    "text": "I'm sorry , are you under the impression that we're still friends ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 433.9,
+    "end": 438.13,
+    "text": "Oh come on , you're not still grinding on the kite thing , are you ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 438.16,
+    "end": 444.64,
+    "text": "It's not just the kite thing . Every time we go some place , you think you can just dump me whenever someone prettier comes along , even though you don't have a shot with them .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 444.88,
+    "end": 446.97,
+    "text": "But I had a shot with that jogger .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.1,
+    "end": 450.19,
+    "text": "Fine . Paint green flames on your little scooter with her .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 451.78,
+    "end": 460.19,
+    "text": "It's not a little scooter . It's the second biggest Vespa they make ! Are you watching football ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 460.95,
+    "end": 467.04,
+    "text": "There's no fooling you . Now , what is this sacks statistic they put up there ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 467.48,
+    "end": 469.77,
+    "text": "All I know about Saks is , my mother shops there .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 471.77,
+    "end": 473.77,
+    "text": "Sacks , sacks ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 475.77,
+    "end": 479.94,
+    "text": "It's football nomenclature for when a quarterback is tackled behind the line of scrimmage .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 482.5,
+    "end": 484.74,
+    "text": "Huh ... Scrimmage ...",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 486.25,
+    "end": 491.66,
+    "text": "The line of scrimmage is the imaginary transverse line separating the offence from the defence .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 492.81,
+    "end": 493.04,
+    "text": "Oh .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 494.96,
+    "end": 496.45,
+    "text": "Sheldon knows football ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 497.65,
+    "end": 498.24,
+    "text": "Apparently .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 498.5,
+    "end": 500.39,
+    "text": "I mean , Quidditch , sure . But football ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 504.04,
+    "end": 505.46,
+    "text": "Sheldon , how do you know this stuff ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 505.83,
+    "end": 519.67,
+    "text": "I grew up in Texas . Football is ubiquitous in Texas . Pro football , college football , high school football , peewee football , in fact , every form of football except the original , European football , which most Texans believe to be a Commie plot .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 521.11,
+    "end": 521.82,
+    "text": "Unbelievable .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 523.26,
+    "end": 527.1,
+    "text": "If you're interested , I also know all about frying meat that isn't chicken as if it were chicken .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 531.57,
+    "end": 532.87,
+    "text": "So you could teach me ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.09,
+    "end": 535.69,
+    "text": "Football or chicken-fried meats ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 537.87,
+    "end": 543.1,
+    "text": "Football . I'm going to Penny's on Saturday to watch a game with her friends and I don't want to look like an idiot . I want to blend in .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 543.25,
+    "end": 546.8,
+    "text": "If you want to blend in with Penny's friends , I'd think looking like an idiot would be the perfect camouflage .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 547.88,
+    "end": 551.08,
+    "text": "Come on , Sheldon , please teach me about football . It'll be fun .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 551.41,
+    "end": 561.55,
+    "text": "That's exactly what my father said . Come to the games , watch the games , week in and week out from the time I was five until I went off to college . Longest seven years of my life .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 563.54,
+    "end": 565.23,
+    "text": "Please , I'm asking you as a friend .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 567.17,
+    "end": 574.33,
+    "text": "Are you making this a tier one friendship request ? Fine .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 571.33,
+    "end": 572.21,
+    "text": "Yes .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 575.29,
+    "end": 576.37,
+    "text": "really appreciate this .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 576.63,
+    "end": 579.28,
+    "text": "Yeah , yeah . All right , Poindexter , sit down , shut up and listen .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.12,
+    "end": 582.53,
+    "text": "I'm sorry ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 583.01,
+    "end": 591.82,
+    "text": "That's how my father always began our football conversations . And if you'd like , after the game , I'll take you outside and teach you how to shoot close enough to a racoon that it craps itself .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 614.42,
+    "end": 616.36,
+    "text": "When are you going to stop making Cylon toast ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 618.01,
+    "end": 626.87,
+    "text": "When I have enough to destroy all the human toast on the battlestar known as Galactica . Is that what you're wearing to watch football at Penny's ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 627.38,
+    "end": 628.79,
+    "text": "What's wrong with a football jersey ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 628.88,
+    "end": 632.09,
+    "text": "Nothing . That , however , appears to be a football cocktail dress .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.12,
+    "end": 642.37,
+    "text": "I's the smallest size they had , except the one for dogs . I can't believe they had one for dogs .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 643.31,
+    "end": 652.35,
+    "text": "Oh , yes . Canine football fans are a common sight in Texas . Cats , however , refuse to wear sporting apparel . My sister found that out the hard way .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 654.09,
+    "end": 654.9,
+    "text": "Anyway , wish me luck .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.43,
+    "end": 665.45,
+    "text": "Leonard , wait . Am I correct in assuming that your attempt to be accepted by Penny's peers is based on your desire to ensure your continuing mating privileges with her ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 668.04,
+    "end": 670.0,
+    "text": "Well , I wouldn't put it exactly that way .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 670.61,
+    "end": 671.39,
+    "text": "How would you put it ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 672.96,
+    "end": 673.89,
+    "text": "Yeah , okay , like you said .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 675.36,
+    "end": 690.57,
+    "text": "Huh . Seems like an awful lot of trouble to go through for intercourse . Don't you have access to women who will do it for money ? By the way , another accepted usage for the term ho .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 693.85,
+    "end": 694.46,
+    "text": "Good-Bye , Sheldon .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.18,
+    "end": 701.92,
+    "text": "Hold on I believe that social convention dictate you not arrive empty-Handed . Would you like to bring some Cylon toast ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 703.62,
+    "end": 705.96,
+    "text": "Yeah , no , I'm trying to fit in , not get laughed at .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 710.6,
+    "end": 712.12,
+    "text": "What's funny about Cylon toast ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 717.63,
+    "end": 718.09,
+    "text": "It's open .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 720.35,
+    "end": 721.09,
+    "text": "Hey , pal .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 723.56,
+    "end": 724.07,
+    "text": "What do you want ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 724.78,
+    "end": 728.27,
+    "text": "I brought you a little gift . New kite .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 730.97,
+    "end": 740.71,
+    "text": "The kite you made me lose was an authentic Patang , an Indian fighting kite that my brother sent to me from New Delhi . It took me a day to put together and two days to paint . This is Hello Kitty .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 744.22,
+    "end": 748.58,
+    "text": "Yeah , but it comes with a little coin purse . Does a Patang ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 750.05,
+    "end": 755.11,
+    "text": "Wow , you just don't get it , do you ? Buying me something pretty isn't going to make our problem just go away .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 757.73,
+    "end": 761.05,
+    "text": "Look , I admit I haven't always been the best friend I could be .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 761.08,
+    "end": 762.98,
+    "text": "You've been a sucky friend , a sucky , sucky friend .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 764.85,
+    "end": 765.5,
+    "text": "Stipulated .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 765.8,
+    "end": 774.8,
+    "text": "And you do it all the time . Last week in the mall at Radio Shack , we were looking for a phone with giant numbers for your mother , and I suddenly realize you're not even there . And where were you ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 773.38,
+    "end": 789.85,
+    "text": "I know , I know . Getting shot down by the girl at Hot Dog on a Stick . But in my defence , she was gorgeous , and working that squeezer to make the lemonade , going up and down and up and down . It was like a free pole dance right in the middle of the food court .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 791.76,
+    "end": 792.62,
+    "text": "You're impossible .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 793.39,
+    "end": 796.25,
+    "text": "Hey , at least I can talk to women without being drunk .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 796.72,
+    "end": 802.03,
+    "text": "Excuse me , I have selective mutism , a recognized medical disorder . You're just a douche .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 803.29,
+    "end": 809.32,
+    "text": "No . You know what ? Maybe that's what this whole thing's about . You're not mad at me , you're mad at yourself .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 809.53,
+    "end": 812.44,
+    "text": "No , I'm mad at you . I hate myself , but I'm mad at you .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 813.94,
+    "end": 822.04,
+    "text": "Fine . You're mad at me . I get it . Now , how about we go spend the day together ? Just the two of us . We'll go anywhere you want .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 824.24,
+    "end": 824.96,
+    "text": "I don't know .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 825.89,
+    "end": 829.59,
+    "text": "Come on . Let me take you someplace nice .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 832.33,
+    "end": 836.62,
+    "text": "I ... I do enjoy the La Brea Tar Pits .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 838.85,
+    "end": 844.78,
+    "text": "Really , now ? With the traffic and the parking , it's ... okay , fine . The Tar Pits . Let's go .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.31,
+    "end": 851.77,
+    "text": "Oh , why can't I stay mad at you ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 858.25,
+    "end": 863.19,
+    "text": "Go ! Go ! Go ! Go-Go-Go-Go ! Yes ! Are you people watching this ? Is this amazing or what ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.25,
+    "end": 867.08,
+    "text": "Sweetie , that's a highlight from the '98 championship game .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 868.16,
+    "end": 869.87,
+    "text": "Oh . Did not know that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 871.17,
+    "end": 877.87,
+    "text": "How much beer have you had ? Oh . I was just kind of hoping you were drunk . Now we're back live .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 872.46,
+    "end": 872.96,
+    "text": "None , why ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 878.02,
+    "end": 879.7,
+    "text": "Okay , yeah . I can see the difference .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 884.83,
+    "end": 898.97,
+    "text": "That completely was a forward pass , which they threw intentionally incomplete to avoid loss of yardage or to conserve time . I can't believe they're not being penalized with the loss of a down and by having to move the line of scrimmage back to the spot of the foul .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 902.84,
+    "end": 904.36,
+    "text": "Here , have some pizza , sweetie .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 904.78,
+    "end": 906.04,
+    "text": "Penny , you know I'm lactose intolerant .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 906.37,
+    "end": 907.91,
+    "text": "I know . I just need you stop talking .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 909.15,
+    "end": 911.83,
+    "text": "Penny . Penny . Penny .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 914.92,
+    "end": 915.83,
+    "text": "Sheldon , come in .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 915.86,
+    "end": 918.9,
+    "text": "Thank you . I'd like to make a sandwich , but I'm out of bread .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 919.83,
+    "end": 922.16,
+    "text": "There's some in the fridge .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 923.09,
+    "end": 929.63,
+    "text": "You shouldn't keep your bread in the refrigerator . Staleness is caused by crystallization of the starch molecules , which occurs faster at cool temperatures .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 930.11,
+    "end": 931.53,
+    "text": "On Earth , we say thank you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 933.19,
+    "end": 935.8,
+    "text": "So Leonard , how goes the mimesis ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 936.34,
+    "end": 936.74,
+    "text": "Mimesis ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 937.58,
+    "end": 947.6,
+    "text": "You know . Mimesis . An action in which the mimic takes on the properties of a specific object or organism . Mimesis .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 950.58,
+    "end": 951.14,
+    "text": "What the hell are you talking about ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 953.3,
+    "end": 968.84,
+    "text": "I'm attempting to communicate with you without my meaning becoming apparent to those around you . Let me try again . Have the indigenous fauna accepted you as one of their own ? Nudge , nudge , wink , wink .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 970.83,
+    "end": 971.67,
+    "text": "Oh , I guess so .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 971.99,
+    "end": 980.85,
+    "text": "Good . Oh , FYI . After I eat my sandwich , I'm taking Koothrappali's Patang kite out for a test run . Would you like to get your delta-wing raptor and join me ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 981.06,
+    "end": 983.94,
+    "text": "I don't want to fly kites , Sheldon . We're watching football here .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 984.77,
+    "end": 991.55,
+    "text": "I can see that . I was providing you with an alternative . A courtesy I was never offered in similar circumstances .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 994.81,
+    "end": 1002.89,
+    "text": "Oh , look at that . The Oklahoma coach has thrown down a red flag indicating he's challenging the ruling on the field . I hope he's right , 'cause if he's not , it'll cost him one of his three time-Outs .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1009.2,
+    "end": 1014.63,
+    "text": "You know , Leonard , honey , I wouldn't mind if you wanted to go fly kites with Sheldon .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1015.2,
+    "end": 1017.81,
+    "text": "No , I'll watch the end of the game . Besides , there's only three minutes left .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1018.31,
+    "end": 1019.15,
+    "text": "Until half time .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1019.46,
+    "end": 1023.75,
+    "text": "This is just half ? We've been here for hours .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1023.78,
+    "end": 1026.75,
+    "text": "And you're gonna be here for a couple more . No .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1025.26,
+    "end": 1027.72,
+    "text": "Oh , you're kidding me . Nice meeting all of you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1031.3,
+    "end": 1036.29,
+    "text": "So , yeah , anyway , that's my boyfriend . He is really smart .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1045.22,
+    "end": 1046.99,
+    "text": "I really like my saber-toothed cat . Thank you .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1047.94,
+    "end": 1053.2,
+    "text": "My pleasure . Maybe after lunch , we can go to Marie Callender's and have some pie .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1053.81,
+    "end": 1059.03,
+    "text": "I'd like that . This is turning out to be a perfect Saturday .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1059.8,
+    "end": 1066.05,
+    "text": "Good . I'm glad . Oh , man . Did you see the way she smiled at me ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1068.22,
+    "end": 1069.06,
+    "text": "Fine . Go ahead .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1070.26,
+    "end": 1071.58,
+    "text": "No . This is our day .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1071.61,
+    "end": 1073.79,
+    "text": "If you want to chase after her , chase after her .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1075.2,
+    "end": 1078.69,
+    "text": "Ah , who am I kidding ? I wouldn't have a shot with a girl like that .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1078.87,
+    "end": 1081.02,
+    "text": "Don't put yourself down . You're a very attractive man .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1081.68,
+    "end": 1082.12,
+    "text": "You think so ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1082.58,
+    "end": 1088.06,
+    "text": "Yeah . Absolutely . It wouldn't kill you to take a Pilates class with me now and then , but you have a certain wiry appeal .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1089.31,
+    "end": 1092.6,
+    "text": "Yeah , well , it doesn't matter 'cause she wasn't really smiling at me .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1093.3,
+    "end": 1095.82,
+    "text": "Actually , in this case , I think she was . Yeah .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1095.22,
+    "end": 1096.24,
+    "text": "Really ? Bye .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1099.89,
+    "end": 1100.64,
+    "text": "What a douche .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  }
+]

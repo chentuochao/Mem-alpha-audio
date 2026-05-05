@@ -1,0 +1,1248 @@
+[
+  {
+    "start": 3.83,
+    "end": 7.08,
+    "text": "Completely empty box . If you'd like to examine it ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 7.67,
+    "end": 11.36,
+    "text": "Mm-hmm . Yep . I see nothing in this box but a wasted childhood .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 13.71,
+    "end": 22.21,
+    "text": "Little snarky there , cello lessons . And we have this completely ordinary cylinder . If you'd like to examine it ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 23.51,
+    "end": 26.36,
+    "text": "Ordinary , yet I sense it is dripping with magical potential .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 28.32,
+    "end": 39.95,
+    "text": "Oh , dear Lord . A man pops out for a moment to evacuate his bowels and catch up on the adventures of the Caped Crusader , only to emerge and discover his apartment has been transformed into a cabaret .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 42.35,
+    "end": 44.28,
+    "text": "Sheldon , he's just practising for his cousin's birthday party .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 44.71,
+    "end": 50.16,
+    "text": "As I was saying , empty box , empty cylinder , and , ooh , voila .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.65,
+    "end": 55.64,
+    "text": "I'm telling you , dude , there's a seat on the Hogwarts Express with your name on it .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 57.45,
+    "end": 61.33,
+    "text": "This is how you're going to entertain your little cousin and his friends ? By lying to them ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 61.99,
+    "end": 63.1,
+    "text": "How is this lying ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 63.37,
+    "end": 73.3,
+    "text": "A magic show is an inherently deceitful proposition . This is an ordinary top hat . You've chosen that card freely . I do not have a set of lock picks lodged in my keister .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 74.82,
+    "end": 79.0,
+    "text": "Can't you just enjoy the wonder , Sheldon ? Why must you peek behind the curtain ? Or up the butt ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 80.37,
+    "end": 94.12,
+    "text": "If we poison the critical thinking faculties of children by telling them that rabbits come out of hats , then we create adults who believe in astrology and homeopathy and that Ryan Reynolds was a better choice for Green Lantern than lovable rogue Nathan Fillion .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 96.58,
+    "end": 102.05,
+    "text": "Sheldon , he's just gonna do a few magic tricks for some kids . I really don't think they're gonna end up liking the Green Lantern movie .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 103.11,
+    "end": 108.7,
+    "text": "Don't be so hard on him . It's natural to be a little cranky when you have a quarter in your ear !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 111.64,
+    "end": 117.58,
+    "text": "Coins lodged in body parts is not a source of amusement . When I was five , Billy Sparks put a Mexican peso up my nose .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 120.58,
+    "end": 121.47,
+    "text": "How is that not amusing ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 121.79,
+    "end": 127.65,
+    "text": "It's still there . Takes me 45 minutes to get through airport security .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 131.7,
+    "end": 134.16,
+    "text": "Look , I made Sheldon disappear . Ta-da .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 135.17,
+    "end": 136.5,
+    "text": "Next time , you should open with that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 148.11,
+    "end": 149.55,
+    "text": "Ooh , look who's out on a",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 162.97,
+    "end": 165.59,
+    "text": "date . Pasadena's favourite power couple , Shamy .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 167.4,
+    "end": 171.12,
+    "text": "And that is the answer to the question , what is wrong with eating at The Cheesecake Factory ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 171.78,
+    "end": 174.32,
+    "text": "So , are we celebrating anything special tonight ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 174.66,
+    "end": 182.36,
+    "text": "Oh , yes . Our relationship agreement specifies that the second Thursday of every month , or the third Thursday in a month with five Thursdays , is date night .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.84,
+    "end": 187.28,
+    "text": "That is so hot .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 190.76,
+    "end": 198.26,
+    "text": "All right , without objection , the minutes of the previous date are considered read and agreed to . Any new business ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 199.11,
+    "end": 199.99,
+    "text": "How was your day ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 200.67,
+    "end": 207.04,
+    "text": "Superb . This morning I made a palindrome with my Alpha-Bits . Nice hat , Bob Tahecin .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.86,
+    "end": 221.47,
+    "text": "Sounds like you hit the ground running . I have a bit of good news myself . My most recent paper on how a cooperative long-term potentiation can map memory sequences in dendritic branches made the cover of Neuron .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 222.19,
+    "end": 227.71,
+    "text": "Ooh ! Speaking of good news , somebody just hit 100 Twitter followers .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 229.73,
+    "end": 233.27,
+    "text": "That's nice . Anyway , I've been dreaming of this day for a long time .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 233.41,
+    "end": 236.02,
+    "text": "Yeah , me , too . Triple digits , I'm not gonna lie , feels pretty good .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 238.0,
+    "end": 243.64,
+    "text": "Sheldon , I'm the sole author on a paper being published in a distinguished journal that may change the course of my field .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 244.12,
+    "end": 248.07,
+    "text": "Mm-hmm . Mm-hmm . Ooh , 101 ! Air's getting a bit thin up here .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 250.77,
+    "end": 252.03,
+    "text": "So , are we ready to order ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 253.33,
+    "end": 255.08,
+    "text": "Give me a minute . I'm gonna go wash up .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 257.23,
+    "end": 262.69,
+    "text": "Well , that's odd . We both washed up when we came in . It's probably a euphemism for urination .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 263.49,
+    "end": 265.88,
+    "text": "Sheldon , what is wrong with you ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 266.68,
+    "end": 275.6,
+    "text": "Not much . Although , I can be faulted for being overly fond of koala bears . I don't know what it is , when they smart munching on eucalyptus , I just melt inside .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 277.03,
+    "end": 280.44,
+    "text": "Okay , Amy just told you some exciting news , and you acted like it was no big deal .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 280.95,
+    "end": 289.92,
+    "text": "Oh , I see why you're confused . No , her news sounded important , but what you're forgetting is , it was an achievement in the field of biology . That's all about yucky , squishy things .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 293.02,
+    "end": 298.21,
+    "text": "Honey , she's upset . You're her boyfriend . You have to at least try to be excited by the things she's excited by .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 299.02,
+    "end": 300.64,
+    "text": "What if they simply don't excite me ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 301.12,
+    "end": 303.18,
+    "text": "Well , just smile and think about koalas .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 304.54,
+    "end": 312.07,
+    "text": "She'd see right through that . We go to the zoo all the time . She knows my koala face . And for future reference , it's this .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 313.82,
+    "end": 319.78,
+    "text": "Oh , you have a lot of magic stuff .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 319.94,
+    "end": 327.5,
+    "text": "Yeah . I started when I was a teenager . I thought I could show a girl a few tricks and invite her up to my bedroom to see the rest of the act .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 329.66,
+    "end": 330.22,
+    "text": "Did it work ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 330.78,
+    "end": 341.97,
+    "text": "Ah , let's just say the only wand that ever saw any action was this one . Oh , look what my mom made us for the act .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 342.54,
+    "end": 345.7,
+    "text": "Ooh . I like the fabric . Where'd she get it ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 346.27,
+    "end": 354.49,
+    "text": "Well , she cut up one of her old bathing suits . She made these two vests and half a dozen napkins .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 355.3,
+    "end": 358.14,
+    "text": "Has she tried on the vest yet ?",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 358.95,
+    "end": 361.39,
+    "text": "I just gave it to her !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 362.19,
+    "end": 368.68,
+    "text": "I hope it fits , she has a tricky figure ! She's short and stacked , like me !",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 369.5,
+    "end": 374.36,
+    "text": "She's not stacked like you , Ma ! She never steps on hers !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 375.17,
+    "end": 379.2,
+    "text": "Listen , Howie , maybe I'm not the best choice to be a magician's assistant .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 379.51,
+    "end": 383.23,
+    "text": "You'll do fine . Hand me those rings ? See ? You nailed it .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 383.78,
+    "end": 388.13,
+    "text": "You know , i-it's just that I'm not that comfortable with little kids .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 388.46,
+    "end": 394.73,
+    "text": "Well , that's because you haven't been around them much . This is good practice . I mean , you are gonna be a mom someday , right ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 396.58,
+    "end": 397.67,
+    "text": "Mmm , yeah , sure .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 398.3,
+    "end": 412.45,
+    "text": "Oh-ho-ho ! I haven't seen this trick in years . It's called the dove pan . You let everyone see the pan is empty , but there's a secret compartment in the lid . And then you open it and produce a live ...",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 423.11,
+    "end": 423.71,
+    "text": "Don't look in there .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 430.08,
+    "end": 436.44,
+    "text": "Oh , a little Red Dead Redemption , huh ? How come you're not doing a mission ? You're just wandering around .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 433.18,
+    "end": 433.68,
+    "text": "Yes .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 437.82,
+    "end": 440.97,
+    "text": "a rough night . I thought I'd go for a walk and clear my head .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 444.07,
+    "end": 445.84,
+    "text": "Some people go outside and do that .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.07,
+    "end": 452.86,
+    "text": "It's after nine o'clock , at this hour the streets of Pasadena are teeming with drunken sailors and alley cats .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 454.43,
+    "end": 456.07,
+    "text": "You want to talk about it ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 456.97,
+    "end": 460.82,
+    "text": "No . I think I'll just go in this saloon and drink my troubles away .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 466.67,
+    "end": 472.51,
+    "text": "You know digital alcohol is never a solution . What's going on ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 474.12,
+    "end": 479.34,
+    "text": "Hard as this may be to believe , it's possible that I'm not boyfriend material .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 483.45,
+    "end": 488.17,
+    "text": "Glad I was sitting down for that . Did you and Amy get in a fight ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 488.98,
+    "end": 494.82,
+    "text": "Amy had a fight . I was being perfectly reasonable . I'm gonna have a whiskey . Do you want anything ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 496.6,
+    "end": 498.78,
+    "text": "No , I can't . I'm playing Grand Theft Auto later .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 505.24,
+    "end": 507.06,
+    "text": "Look , I'm no expert in women .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 507.2,
+    "end": 507.59,
+    "text": "I'll say .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 509.93,
+    "end": 511.95,
+    "text": "That's not necessary when someone's trying to help you .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 512.13,
+    "end": 516.52,
+    "text": "I'm sorry . It's the alcohol talking . Go on .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 518.11,
+    "end": 525.98,
+    "text": "Sometimes with women you want to listen to what upsets them and then show them that you can grow and change .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 527.35,
+    "end": 528.84,
+    "text": "Nuts to that . What else you got ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 531.74,
+    "end": 533.98,
+    "text": "I don't know what to tell you . Buy her something .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 535.66,
+    "end": 536.44,
+    "text": "How does that work ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 538.16,
+    "end": 546.15,
+    "text": "Well , you skip over any attempt to repair your emotional connection and you win back her affection with an empty financial gesture .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 548.76,
+    "end": 552.95,
+    "text": "Well , that approach has Sheldon Cooper written all over it .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 553.84,
+    "end": 554.54,
+    "text": "Glad I could help .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 554.78,
+    "end": 558.71,
+    "text": "It's appreciated . And if you ever manage to find a woman again , I'll be glad to return the favour .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 562.63,
+    "end": 573.5,
+    "text": "And now , all the rings are magically linked together . My fiancee's wearing a magic ring , too . It made all my money disappear .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 574.71,
+    "end": 582.0,
+    "text": "Oh , ah , right . And now , the great Howdini's next miraculous illusion .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 588.07,
+    "end": 591.11,
+    "text": "After you've been thoroughly amazed .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 596.57,
+    "end": 601.43,
+    "text": "Well , you're not getting cake right now , capisce ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 602.64,
+    "end": 604.45,
+    "text": "Okay . Okay .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 606.25,
+    "end": 611.06,
+    "text": "Now , my lovely assistant is going to bring me an ordinary pitcher of milk .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 613.22,
+    "end": 615.82,
+    "text": "Do you know how to pipe down ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 616.56,
+    "end": 620.75,
+    "text": "Okay , we're going to roll up this newspaper .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 621.27,
+    "end": 626.0,
+    "text": "You got wax in your ears ? The man said it's an ordinary pitcher . Howdini .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 630.01,
+    "end": 639.78,
+    "text": "Okay , we're going to stick this in here and then I'm going to pour in the milk . I hope this works , because I didn't bring a change of pants .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 653.78,
+    "end": 653.83,
+    "text": "That's it . No cake for you . Anyone else want to join the No Cake Club ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 653.84,
+    "end": 655.96,
+    "text": "just kidding , boys and girls . Everyone gets cake .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 657.85,
+    "end": 659.74,
+    "text": "Not him .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 661.63,
+    "end": 666.19,
+    "text": "Just give me the pitcher . Behold !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 675.6,
+    "end": 676.32,
+    "text": "Wrong pitcher .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 686.09,
+    "end": 687.47,
+    "text": "I told you I'm not good with kids .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 688.48,
+    "end": 691.67,
+    "text": "Yes , you did . Oh , I think my crotch is starting to curdle .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 693.33,
+    "end": 716.12,
+    "text": "The thing is , my mother worked full-time . I had to take care of my brothers and sisters . Ugh , it was horrible . With their snotty noses and their poopy diapers and their little shrieky voices , always complaining . I don't want to get dressed . Joey keeps spitting in my mouth . This isn't the way Mom makes waffles . Well , okay , put your hand in here . Let's see how you like this waffle !",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 700.1,
+    "end": 700.71,
+    "text": "Yeah , so ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 718.37,
+    "end": 724.92,
+    "text": "All right , settle down . Red light . Red light , red light ! Okay , we're fine .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 726.11,
+    "end": 730.97,
+    "text": "I'm sorry . I know it makes me sound like a bad person , but I just don't like children .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 731.37,
+    "end": 739.26,
+    "text": "Yeah , no , we all got that . But don't you think it'll be different when the child is ours ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 739.84,
+    "end": 748.77,
+    "text": "Right , when it's our kid that's ruined my body and kept me up all night and I've got no career and no future and nothing to be happy about for the next 20 years , sure , that'll be completely different .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 754.0,
+    "end": 754.72,
+    "text": "Well , yeah .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 759.94,
+    "end": 766.13,
+    "text": "I don't think there's anything in this jewellery store that Amy would appreciate more than the humidifier we were just looking at at Sears .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 767.29,
+    "end": 771.58,
+    "text": "Oh , my God , now I know what I sound like to you when I say stupid stuff .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 775.48,
+    "end": 777.04,
+    "text": "Ooh , a pocket watch .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 777.25,
+    "end": 778.78,
+    "text": "Okay , I don't think Amy wants a pocket watch .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 778.87,
+    "end": 781.3,
+    "text": "No , but maybe she wants a man with a pocket watch .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 783.52,
+    "end": 788.2,
+    "text": "Still saying stupid stuff . Ooh , does she like bracelets ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 789.18,
+    "end": 795.56,
+    "text": "Well , she's very fond of her silver one that says allergic to penicillin . Maybe they have a dressier version of that ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 801.17,
+    "end": 802.52,
+    "text": "Trust me , we are not a couple .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 803.65,
+    "end": 809.49,
+    "text": "Excuse me . I don't see why you get to snort derisively and point that out . You'd be lucky to land a fella like me .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 810.91,
+    "end": 811.63,
+    "text": "Fine , go ahead .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 812.44,
+    "end": 813.67,
+    "text": "Trust me , we are not a couple .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 818.03,
+    "end": 820.82,
+    "text": "He's in trouble with his girlfriend and needs to buy her a present .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 829.45,
+    "end": 830.63,
+    "text": "Ooh , are these real diamonds ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 834.16,
+    "end": 856.93,
+    "text": "Remarkable . Diamonds , crystallized carbon . Every day , people go to the grocery store and come home with sacks full of carbon in the form of charcoal briquettes that they toss in their barbeques and set on fire . But just because you've got some carbon with the atoms stacked neatly , you expect me to plunk down thousands of dollars . Really . Talk to me about that pocket watch .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 861.95,
+    "end": 867.07,
+    "text": "I'm still trying to wrap my mind around it . I always thought I'd be a dad someday .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 868.3,
+    "end": 872.68,
+    "text": "Oh , me , too . You're so caring . I've often pictured you guiding a young boy into manhood .",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 878.2,
+    "end": 880.86,
+    "text": "There you go , Howard . Sounds like Raj'll have your babies , problem solved .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 881.75,
+    "end": 892.29,
+    "text": "Hey , just because a man shows caring for another man doesn't mean he's displaying the love that dare not speak its name . Did she definitely say she didn't want kids ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 892.41,
+    "end": 896.52,
+    "text": "Yeah , she doesn't like them . And from what I saw , the feeling was mutual .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 902.38,
+    "end": 903.56,
+    "text": "What are you gonna do ?",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 903.97,
+    "end": 920.64,
+    "text": "I don't know . I can't see a life where I don't have kids . I mean , people have kids . I mean , even Donkey Kong had Donkey Kong Jr . So he could teach someone how to kidnap princesses and throw barrels at Italian plumbers .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 923.28,
+    "end": 926.74,
+    "text": "You know , there's no guarantee even if you have kids that you're going to like them .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 927.28,
+    "end": 928.9,
+    "text": "Wow , that's rough . Where'd you get that ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 931.24,
+    "end": 933.17,
+    "text": "It's right off the dust jacket of my mom's last book .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 937.61,
+    "end": 940.01,
+    "text": "Maybe me and Bernadette aren't right for each other .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 941.74,
+    "end": 948.4,
+    "text": "Look , Howard , I'd say there's a lot of fish in the sea , but I watched you dangle your hook in the water for years . Do not throw her back .",
+    "speaker": "leonard_hofstadter",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 952.48,
+    "end": 955.76,
+    "text": "I don't want to , but this is kind of a deal breaker .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 956.27,
+    "end": 957.92,
+    "text": "What's your mom going to say if you call off the wedding ?",
+    "speaker": "raj_koothrappali",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.29,
+    "end": 964.24,
+    "text": "Huh , it'll kill her . On the other hand , if I don't give her grandchildren , that'll kill her , too . So , either way , on the Mom front , I'm golden .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 968.44,
+    "end": 970.21,
+    "text": "What time did you tell Amy to be here ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 970.87,
+    "end": 971.47,
+    "text": "Eight o'clock .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 977.28,
+    "end": 978.95,
+    "text": "Sheldon , that pocket watch is ridiculous .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 979.06,
+    "end": 987.66,
+    "text": "Nonsense . I look like a train conductor . Under what pretext did you lure her here ?",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 988.46,
+    "end": 990.45,
+    "text": "I said , hey , want to come over and hang out ?",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 990.95,
+    "end": 993.45,
+    "text": "Good , good , if you had said something clever , she might've gotten suspicious .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 994.54,
+    "end": 995.09,
+    "text": "Hey .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 996.18,
+    "end": 996.73,
+    "text": "Hi .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 997.82,
+    "end": 998.77,
+    "text": "What's he doing here ?",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 998.91,
+    "end": 1000.25,
+    "text": "Okay , he wants to talk to you .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.52,
+    "end": 1005.77,
+    "text": "Well , I don't want to talk to him . And I'm pretty disappointed in you , too . Although we both know that won't last .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1009.07,
+    "end": 1010.15,
+    "text": "Sheldon , you're up .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1010.21,
+    "end": 1017.68,
+    "text": "Thank you . Amy , I'd like to apologize . Your accomplishment was impressive . And I'm proud of you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1022.47,
+    "end": 1023.68,
+    "text": "We both know that's your koala face .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1024.45,
+    "end": 1025.6,
+    "text": "I told you .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1026.36,
+    "end": 1028.66,
+    "text": "Okay , look , he bought you this .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1029.43,
+    "end": 1054.58,
+    "text": "Jewellery ? Seriously ? Sheldon , you are the most shallow , self-centred person I have ever met . Do you really think another transparently manip..oh ! It's a tiara ! A tiara ! I have a tiara ! Put it on me , put it on me , put it on me , put it on me , put it on me , put it on me , put it on me .",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1055.4,
+    "end": 1056.64,
+    "text": "You look beautiful .",
+    "speaker": "penny",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1057.46,
+    "end": 1062.39,
+    "text": "Of course I do , I'm a princess , and this is my tiara !",
+    "speaker": "amy_farrah_fowler",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1063.21,
+    "end": 1064.38,
+    "text": "You're right , the tiara was too much .",
+    "speaker": "sheldon_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1065.79,
+    "end": 1072.85,
+    "text": "Howard ! Bernadette's ... Oh , she slipped right by me .",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1074.26,
+    "end": 1077.09,
+    "text": "Here's your vest back .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1078.5,
+    "end": 1080.77,
+    "text": "You should keep it . You could wear it again sometime .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1081.47,
+    "end": 1082.1,
+    "text": "Where ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1082.88,
+    "end": 1083.83,
+    "text": "I don't know , hunting ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1084.84,
+    "end": 1091.9,
+    "text": "Don't forget to talk to her about this mishegas where I don't get grandkids !",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1092.91,
+    "end": 1097.28,
+    "text": "Don't worry , Ma . I will , as soon as I can figure out a way to bring up such a sensitive issue !",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1102.19,
+    "end": 1103.87,
+    "text": "I guess you talked to your mom , huh ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1104.41,
+    "end": 1110.18,
+    "text": "I was upset . My mom can be a pretty good shoulder to cry on , if the smell of Bengay doesn't burn your eyes .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1114.14,
+    "end": 1117.88,
+    "text": "Look , it's obvious having kids is really important to you , and I think I came up with a solution .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1118.45,
+    "end": 1120.5,
+    "text": "Really ? That's great . What ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1120.52,
+    "end": 1127.11,
+    "text": "Well , seeing as how I make way more money than you anyway , what if I work and you stay home with the kids ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1128.45,
+    "end": 1128.96,
+    "text": "Me ?",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1129.73,
+    "end": 1146.35,
+    "text": "Yeah . You know , you'll watch Barney and pull Cheerios out of their noses and go on play dates , and I'll work and have conversations with people my own age and enjoy my life . Yay , so we're good .",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1143.64,
+    "end": 1144.03,
+    "text": "Yeah .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1147.12,
+    "end": 1148.47,
+    "text": "Yeah , we're good .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1150.27,
+    "end": 1155.15,
+    "text": "You know , I don't know if this counted as a fight , but how about some make-up sex ?",
+    "speaker": "bernadette_rostenkowski",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1156.06,
+    "end": 1160.75,
+    "text": "I would love that . But what is that behind your ear ? Oh , look , it's a condom .",
+    "speaker": "howard_wolowitz",
+    "dialog_type": "dialog"
+  }
+]
