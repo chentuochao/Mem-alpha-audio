@@ -1,0 +1,372 @@
+[
+  {
+    "id": "tbbt_s1_status_mcq_001",
+    "qa_type": "latest_status",
+    "query_time": "2023-05-29",
+    "target_entity": {
+      "unmasked": "Sheldon",
+      "anonymized": "P0001"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 4,
+        "history_date": "2023-05-22",
+        "event": "Sheldon is fired after conflict with Dr. Gablehauser, then is pushed by his mother to apologize."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-05-29, what is Sheldon's latest supported work status?",
+      "options": {
+        "A": "Sheldon is still fired and has not made any move toward returning to the university.",
+        "B": "Sheldon has been pushed to apologize to Dr. Gablehauser and is no longer simply in the fired-only state."
+      },
+      "answer": "B"
+    },
+    "anonymized": {
+      "question": "As of 2023-05-29, what is P0001's latest supported work status?",
+      "options": {
+        "A": "P0001 is still fired and has not made any move toward returning to the university.",
+        "B": "P0001 has been pushed to apologize to Dr. Gablehauser and is no longer simply in the fired-only state."
+      },
+      "answer": "B"
+    },
+    "adversarial_type": "stale_status",
+    "why_long_context": "The distractor preserves the earlier fired state while ignoring the later update within the same session."
+  },
+  {
+    "id": "tbbt_s1_status_mcq_002",
+    "qa_type": "time_scoped_status",
+    "query_time": "2023-06-19",
+    "target_entity": {
+      "unmasked": "Raj",
+      "anonymized": "P0005"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 8,
+        "history_date": "2023-06-19",
+        "event": "Raj temporarily talks to a woman after drinking alcohol."
+      },
+      {
+        "episode_index": 15,
+        "history_date": "2023-08-07",
+        "event": "Raj later tries an experimental drug when Missy visits."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-06-19, which statement about Raj's ability to talk to women is supported?",
+      "options": {
+        "A": "Raj has shown that alcohol can temporarily let him talk to a woman.",
+        "B": "Raj has already tried an experimental drug during Missy's visit."
+      },
+      "answer": "A"
+    },
+    "anonymized": {
+      "question": "As of 2023-06-19, which statement about P0005's ability to talk to women is supported?",
+      "options": {
+        "A": "P0005 has shown that alcohol can temporarily let him talk to a woman.",
+        "B": "P0005 has already tried an experimental drug during Missy's visit."
+      },
+      "answer": "A"
+    },
+    "adversarial_type": "future_update",
+    "why_long_context": "The wrong option is a real later update, but it should not be valid at the query time."
+  },
+  {
+    "id": "tbbt_s1_status_mcq_003",
+    "qa_type": "time_scoped_status",
+    "query_time": "2023-07-17",
+    "target_entity": {
+      "unmasked": "Sheldon",
+      "anonymized": "P0001"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 12,
+        "history_date": "2023-07-17",
+        "event": "Dennis Kim challenges Sheldon's confidence in his own work."
+      },
+      {
+        "episode_index": 13,
+        "history_date": "2023-07-24",
+        "event": "Sheldon is later removed from the Physics Bowl team."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-07-17, which status update about Sheldon is supported?",
+      "options": {
+        "A": "Dennis Kim has challenged Sheldon's confidence in his own work.",
+        "B": "Sheldon has already been removed from the Physics Bowl team and replaced by Leslie."
+      },
+      "answer": "A"
+    },
+    "anonymized": {
+      "question": "As of 2023-07-17, which status update about P0001 is supported?",
+      "options": {
+        "A": "Dennis Kim has challenged P0001's confidence in his own work.",
+        "B": "P0001 has already been removed from the Physics Bowl team and replaced by P0006."
+      },
+      "answer": "A"
+    },
+    "adversarial_type": "future_update",
+    "why_long_context": "The distractor uses a real later event from the next session, but it is not valid yet."
+  },
+  {
+    "id": "tbbt_s1_status_mcq_004",
+    "qa_type": "latest_status",
+    "query_time": "2023-07-24",
+    "target_entity": {
+      "unmasked": "Sheldon",
+      "anonymized": "P0001"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 13,
+        "history_date": "2023-07-24",
+        "event": "Sheldon is removed from the Physics Bowl team."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-07-24, what is Sheldon's latest supported role in the Physics Bowl team situation?",
+      "options": {
+        "A": "Sheldon remains on Leonard, Howard, and Raj's team as their active teammate.",
+        "B": "Sheldon has been removed from Leonard, Howard, and Raj's team, and Leslie has been brought in instead."
+      },
+      "answer": "B"
+    },
+    "anonymized": {
+      "question": "As of 2023-07-24, what is P0001's latest supported role in the Physics Bowl team situation?",
+      "options": {
+        "A": "P0001 remains on P0002, P0004, and P0005's team as their active teammate.",
+        "B": "P0001 has been removed from P0002, P0004, and P0005's team, and P0006 has been brought in instead."
+      },
+      "answer": "B"
+    },
+    "adversarial_type": "stale_status",
+    "why_long_context": "The wrong option preserves Sheldon's earlier team membership after a later role update has occurred."
+  },
+  {
+    "id": "tbbt_s1_status_mcq_005",
+    "qa_type": "speaker_specific_latest_status",
+    "query_time": "2023-07-24",
+    "target_entity": {
+      "unmasked": "Leslie",
+      "anonymized": "P0006"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 13,
+        "history_date": "2023-07-24",
+        "event": "Leslie is recruited after Sheldon is removed from the Physics Bowl team."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-07-24, which statement correctly describes Leslie's role in the Physics Bowl situation?",
+      "options": {
+        "A": "Leslie is brought in as Sheldon's replacement on Leonard, Howard, and Raj's team.",
+        "B": "Leslie is the person removed from the team and replaced by Sheldon."
+      },
+      "answer": "A"
+    },
+    "anonymized": {
+      "question": "As of 2023-07-24, which statement correctly describes P0006's role in the Physics Bowl situation?",
+      "options": {
+        "A": "P0006 is brought in as P0001's replacement on P0002, P0004, and P0005's team.",
+        "B": "P0006 is the person removed from the team and replaced by P0001."
+      },
+      "answer": "A"
+    },
+    "adversarial_type": "wrong_speaker_role_reversal",
+    "why_long_context": "Tests whether the model binds the updated team role to the correct speaker rather than reversing P0001 and P0006."
+  },
+  {
+    "id": "tbbt_s1_status_mcq_006",
+    "qa_type": "latest_status",
+    "query_time": "2023-07-31",
+    "target_entity": {
+      "unmasked": "Leonard",
+      "anonymized": "P0002"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 14,
+        "history_date": "2023-07-31",
+        "event": "The time-machine incident leads Leonard to reconsider his collectibles."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-07-31, which update about Leonard's attitude toward his collectibles is supported?",
+      "options": {
+        "A": "Leonard tries to get rid of his collectibles after Penny criticizes the group over the time-machine incident.",
+        "B": "Leonard buys more collectibles because Penny praises the time machine as useful."
+      },
+      "answer": "A"
+    },
+    "anonymized": {
+      "question": "As of 2023-07-31, which update about P0002's attitude toward his collectibles is supported?",
+      "options": {
+        "A": "P0002 tries to get rid of his collectibles after P0003 criticizes the group over the time-machine incident.",
+        "B": "P0002 buys more collectibles because P0003 praises the time machine as useful."
+      },
+      "answer": "A"
+    },
+    "adversarial_type": "update_direction_reversal",
+    "why_long_context": "The distractor reverses the direction of the decision update while keeping the same event frame."
+  },
+  {
+    "id": "tbbt_s1_status_mcq_007",
+    "qa_type": "latest_status",
+    "query_time": "2023-08-07",
+    "target_entity": {
+      "unmasked": "Raj",
+      "anonymized": "P0005"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 8,
+        "history_date": "2023-06-19",
+        "event": "Raj talks to a woman after drinking alcohol."
+      },
+      {
+        "episode_index": 15,
+        "history_date": "2023-08-07",
+        "event": "Raj tries an experimental drug during Missy's visit."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-08-07, what is the latest supported status of Raj's attempts to talk to women?",
+      "options": {
+        "A": "Raj has only ever relied on alcohol, and no later attempted workaround is supported.",
+        "B": "Raj had earlier relied on alcohol, and later tried an experimental drug during Missy's visit."
+      },
+      "answer": "B"
+    },
+    "anonymized": {
+      "question": "As of 2023-08-07, what is the latest supported status of P0005's attempts to talk to women?",
+      "options": {
+        "A": "P0005 has only ever relied on alcohol, and no later attempted workaround is supported.",
+        "B": "P0005 had earlier relied on alcohol, and later tried an experimental drug during Missy's visit."
+      },
+      "answer": "B"
+    },
+    "adversarial_type": "stale_status",
+    "why_long_context": "The wrong option keeps the earlier alcohol-only memory and ignores a later update."
+  },
+  {
+    "id": "tbbt_s1_status_mcq_008",
+    "qa_type": "negative_latest_status",
+    "query_time": "2023-08-07",
+    "target_entity": {
+      "unmasked": "Raj",
+      "anonymized": "P0005"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 8,
+        "history_date": "2023-06-19",
+        "event": "Alcohol temporarily helps Raj talk to a woman."
+      },
+      {
+        "episode_index": 15,
+        "history_date": "2023-08-07",
+        "event": "Raj later tries a drug-based workaround."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-08-07, which statement should be rejected as an unsupported permanent update about Raj?",
+      "options": {
+        "A": "Raj has found temporary workarounds, including alcohol earlier and an experimental drug later.",
+        "B": "Raj has permanently overcome his difficulty talking to women after joining the Physics Bowl team."
+      },
+      "answer": "B"
+    },
+    "anonymized": {
+      "question": "As of 2023-08-07, which statement should be rejected as an unsupported permanent update about P0005?",
+      "options": {
+        "A": "P0005 has found temporary workarounds, including alcohol earlier and an experimental drug later.",
+        "B": "P0005 has permanently overcome his difficulty talking to women after joining the Physics Bowl team."
+      },
+      "answer": "B"
+    },
+    "adversarial_type": "unsupported_generalization",
+    "why_long_context": "Tests whether the model avoids turning temporary workarounds into a permanent status update."
+  },
+  {
+    "id": "tbbt_s1_status_mcq_009",
+    "qa_type": "latest_status",
+    "query_time": "2023-08-14",
+    "target_entity": {
+      "unmasked": "Penny",
+      "anonymized": "P0003"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 11,
+        "history_date": "2023-07-10",
+        "event": "Penny ends up caring for sick Sheldon."
+      },
+      {
+        "episode_index": 16,
+        "history_date": "2023-08-14",
+        "event": "Penny plans Leonard's surprise birthday party."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-08-14, which latest supported action by Penny is correct?",
+      "options": {
+        "A": "Penny plans a surprise birthday party for Leonard after learning he never had one.",
+        "B": "Penny cancels Leonard's birthday party because Sheldon becomes sick."
+      },
+      "answer": "A"
+    },
+    "anonymized": {
+      "question": "As of 2023-08-14, which latest supported action by P0003 is correct?",
+      "options": {
+        "A": "P0003 plans a surprise birthday party for P0002 after learning he never had one.",
+        "B": "P0003 cancels P0002's birthday party because P0001 becomes sick."
+      },
+      "answer": "A"
+    },
+    "adversarial_type": "event_blending",
+    "why_long_context": "The distractor blends the earlier sick-Sheldon session with the later birthday-party session."
+  },
+  {
+    "id": "tbbt_s1_status_mcq_010",
+    "qa_type": "time_scoped_status",
+    "query_time": "2023-07-10",
+    "target_entity": {
+      "unmasked": "Penny",
+      "anonymized": "P0003"
+    },
+    "relevant_sessions": [
+      {
+        "episode_index": 11,
+        "history_date": "2023-07-10",
+        "event": "Penny cares for sick Sheldon."
+      },
+      {
+        "episode_index": 16,
+        "history_date": "2023-08-14",
+        "event": "Penny later plans Leonard's birthday party."
+      }
+    ],
+    "unmasked": {
+      "question": "As of 2023-07-10, which statement about Penny is supported?",
+      "options": {
+        "A": "Penny has ended up taking care of sick Sheldon.",
+        "B": "Penny has already planned Leonard's surprise birthday party."
+      },
+      "answer": "A"
+    },
+    "anonymized": {
+      "question": "As of 2023-07-10, which statement about P0003 is supported?",
+      "options": {
+        "A": "P0003 has ended up taking care of sick P0001.",
+        "B": "P0003 has already planned P0002's surprise birthday party."
+      },
+      "answer": "A"
+    },
+    "adversarial_type": "future_update",
+    "why_long_context": "The wrong option is a later real event, but it should not be valid at the earlier query time."
+  }
+]

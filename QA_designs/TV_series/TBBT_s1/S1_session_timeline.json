@@ -1,0 +1,127 @@
+{
+  "history_start_date": "2023-05-01",
+  "timeline_unit": "episode_as_session",
+  "session_timeline_method": "assigned_by_history_order_weekly",
+  "session_timeline_explanation": "Each episode is assigned a benchmark history date by episode order, starting at 2023-05-01 and advancing one week per episode. These are not real recording dates and are not inferred from dialogue content.",
+  "sessions": [
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode01.json",
+      "episode_index": 1,
+      "session_timeline_date": "2023-05-01",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 01 = history_start_date + 0 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode02.json",
+      "episode_index": 2,
+      "session_timeline_date": "2023-05-08",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 02 = history_start_date + 1 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode03.json",
+      "episode_index": 3,
+      "session_timeline_date": "2023-05-15",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 03 = history_start_date + 2 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode04.json",
+      "episode_index": 4,
+      "session_timeline_date": "2023-05-22",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 04 = history_start_date + 3 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode05.json",
+      "episode_index": 5,
+      "session_timeline_date": "2023-05-29",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 05 = history_start_date + 4 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode06.json",
+      "episode_index": 6,
+      "session_timeline_date": "2023-06-05",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 06 = history_start_date + 5 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode07.json",
+      "episode_index": 7,
+      "session_timeline_date": "2023-06-12",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 07 = history_start_date + 6 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode08.json",
+      "episode_index": 8,
+      "session_timeline_date": "2023-06-19",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 08 = history_start_date + 7 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode09.json",
+      "episode_index": 9,
+      "session_timeline_date": "2023-06-26",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 09 = history_start_date + 8 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode10.json",
+      "episode_index": 10,
+      "session_timeline_date": "2023-07-03",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 10 = history_start_date + 9 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode11.json",
+      "episode_index": 11,
+      "session_timeline_date": "2023-07-10",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 11 = history_start_date + 10 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode12.json",
+      "episode_index": 12,
+      "session_timeline_date": "2023-07-17",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 12 = history_start_date + 11 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode13.json",
+      "episode_index": 13,
+      "session_timeline_date": "2023-07-24",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 13 = history_start_date + 12 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode14.json",
+      "episode_index": 14,
+      "session_timeline_date": "2023-07-31",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 14 = history_start_date + 13 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode15.json",
+      "episode_index": 15,
+      "session_timeline_date": "2023-08-07",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 15 = history_start_date + 14 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode16.json",
+      "episode_index": 16,
+      "session_timeline_date": "2023-08-14",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 16 = history_start_date + 15 week(s); benchmark-assigned history time only."
+    },
+    {
+      "source_file": "TheBigBangTheory.Season01.Episode17.json",
+      "episode_index": 17,
+      "session_timeline_date": "2023-08-21",
+      "session_timeline_method": "assigned_by_history_order_weekly",
+      "session_timeline_explanation": "Episode 17 = history_start_date + 16 week(s); benchmark-assigned history time only."
+    }
+  ]
+}

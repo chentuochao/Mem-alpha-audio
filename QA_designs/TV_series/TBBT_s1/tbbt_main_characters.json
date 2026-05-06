@@ -1,0 +1,80 @@
+{
+  "characters": [
+    {
+      "speaker": "sheldon_cooper",
+      "anon": "P0001",
+      "aliases": [
+        "Dr. Sheldon Cooper",
+        "Dr Sheldon Cooper",
+        "Doctor Sheldon Cooper",
+        "Sheldon Cooper",
+        "Dr. Cooper",
+        "Dr Cooper",
+        "Doctor Cooper",
+        "Sheldon",
+        "Shelly"
+      ],
+      "auto_aliases": false
+    },
+    {
+      "speaker": "leonard_hofstadter",
+      "anon": "P0002",
+      "aliases": [
+        "Dr. Leonard Hofstadter",
+        "Dr Leonard Hofstadter",
+        "Leonard Hofstadter",
+        "Dr. Hofstadter",
+        "Dr Hofstadter",
+        "Leonard"
+      ],
+      "auto_aliases": false
+    },
+    {
+      "speaker": "penny",
+      "anon": "P0003",
+      "aliases": [
+        "Penny"
+      ],
+      "auto_aliases": false
+    },
+    {
+      "speaker": "howard_wolowitz",
+      "anon": "P0004",
+      "aliases": [
+        "Howard Wolowitz",
+        "Mr. Wolowitz",
+        "Mr Wolowitz",
+        "Howard",
+        "Wolowitz",
+        "Howie",
+        "Wolowizard"
+      ],
+      "auto_aliases": false
+    },
+    {
+      "speaker": "raj_koothrappali",
+      "anon": "P0005",
+      "aliases": [
+        "Rajesh Koothrappali",
+        "Raj Koothrappali",
+        "Rajesh",
+        "Raj",
+        "Koothrappali",
+        "Koothrapali"
+      ],
+      "auto_aliases": false
+    },
+    {
+      "speaker": "leslie_winkle",
+      "anon": "P0006",
+      "aliases": [
+        "Leslie Winkle",
+        "Lesley Winkle",
+        "Leslie",
+        "Lesley"
+      ],
+      "notes": "Optional recurring main speaker. Remove this entry if you only want the five core characters.",
+      "auto_aliases": false
+    }
+  ]
+}
