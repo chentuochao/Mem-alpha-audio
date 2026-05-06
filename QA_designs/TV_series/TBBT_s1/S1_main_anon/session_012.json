@@ -1,0 +1,1528 @@
+[
+  {
+    "start": 5.83,
+    "end": 7.58,
+    "text": "Here 's the problem with teleportation .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 11.5,
+    "end": 12.05,
+    "text": "Lay it on me .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 13.58,
+    "end": 27.83,
+    "text": "Assuming the device could be invented which would identify the quantum state of matter of an individual in one location , and transmit that pattern to a distant location for reassembly , you would not have actually transported the individual . You would have destroyed him in one location , and recreated him in another .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 30.16,
+    "end": 30.92,
+    "text": "How about that .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 32.83,
+    "end": 38.78,
+    "text": "Personally , I would never use a transporter . Because the original P0001 would have to be disintegrated in order to create a new P0001 .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 40.67,
+    "end": 43.25,
+    "text": "Would the new P0001 be in any way an improvement on the old P0001 ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 45.27,
+    "end": 46.93,
+    "text": "No , he would be exactly the same .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 47.66,
+    "end": 48.41,
+    "text": "That is a problem .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.91,
+    "end": 50.76,
+    "text": "So , you see it too .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.75,
+    "end": 53.74,
+    "text": "P0002 , P0001 .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 54.29,
+    "end": 54.95,
+    "text": "Gablehouser .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 54.29,
+    "end": 54.95,
+    "text": "Gablehouser .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 55.33,
+    "end": 62.53,
+    "text": "Gentlemen , I 'd like you to meet Dennis Kim . Dennis is a highly sought after Doctorial candidate and we 're hoping to have him do his graduate work here .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.68,
+    "end": 64.05,
+    "text": "Graduate work , very impressive .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 64.09,
+    "end": 65.97,
+    "text": "And he 's only fifteen years old .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 66.07,
+    "end": 68.88,
+    "text": "Not bad , I myself started graduate school at fourteen .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 69.72,
+    "end": 72.9,
+    "text": "Well , I lost a year while my family was tunnelling out of North Korea .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 74.88,
+    "end": 76.87,
+    "text": "Advantage Kim .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 78.85,
+    "end": 84.22,
+    "text": "I thought maybe you boys could show Dennis around , let him see why we 're the best physics research facility in the country .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 84.35,
+    "end": 91.37,
+    "text": "I already know you 're not . You do n't have an open science grid computer , or a free electron laser , and the string theory research being done here is nothing but a dead end .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 91.44,
+    "end": 95.04,
+    "text": "Excuse me , that is my research , and it is by no means a dead end .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 95.18,
+    "end": 98.61,
+    "text": "Well , obviously you do n't see it yet , but trust me , you will .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 100.38,
+    "end": 117.53,
+    "text": "Dennis , we discussed this , we 're in the process of updating our equipment , and we welcome your input on our research goals , and we ' ve agreed to look the other way if you want to use up to 20 % of the grant money you attract to smuggle your grandfather out of Pyongyang . We want him here boys , make it happen .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 117.83,
+    "end": 118.37,
+    "text": "Yes sir .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 118.4,
+    "end": 121.64,
+    "text": "You can count on us , we 're on it . What the hell do you mean , dead end .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 122.95,
+    "end": 130.68,
+    "text": "I mean , the whole landscape of false vacuums in string theory could be as large as ten to the five - hundredth power . In addition ... ooh , look , chocolate milk .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 133.65,
+    "end": 135.18,
+    "text": "I sense a disturbance in the force .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 137.34,
+    "end": 141.12,
+    "text": "A bad feeling I have about this , mmm - hmmm .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.81,
+    "end": 168.39,
+    "text": "So , Dennis , how long have you been in America . No kidding , you speak English really well .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 165.64,
+    "end": 166.45,
+    "text": "A year and a half .",
+    "speaker": "dennis_kim",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 168.51,
+    "end": 173.58,
+    "text": "So do you . Except for your tendency to end sentences with prepositions .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 175.25,
+    "end": 176.13,
+    "text": "What are you talking about ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 177.98,
+    "end": 178.91,
+    "text": "That .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 180.76,
+    "end": 186.92,
+    "text": "He 's not wrong . Alright , and this is my office . Nope . Goodbye .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.05,
+    "end": 185.97,
+    "text": "Is this part of the tour ?",
+    "speaker": "dennis_kim",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 188.73,
+    "end": 190.35,
+    "text": "Come on , P0001 , we ' ve hardly shown him anything .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 190.62,
+    "end": 196.9,
+    "text": "Oh , alright , this is my desk , these are my books , this is my door , please close it behind you . Goodbye .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 199.28,
+    "end": 201.45,
+    "text": "Looks like you 're doing work in quantum loop corrections .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 201.49,
+    "end": 203.04,
+    "text": "Keen observation , goodbye .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 204.38,
+    "end": 205.5,
+    "text": "You see where you went wrong , do n't you ?",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 206.91,
+    "end": 210.86,
+    "text": "P0002 . Get him out .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 207.39,
+    "end": 208.6,
+    "text": "Huh , yeah ?",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 211.77,
+    "end": 214.79,
+    "text": "Come on , Dennis , I 'll show you the rec center , they ' ve got nautilus equipment .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 214.96,
+    "end": 216.31,
+    "text": "Do I look like I lift weights .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 217.71,
+    "end": 218.76,
+    "text": "Not heavy ones .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 219.92,
+    "end": 223.79,
+    "text": "It 's startling to me you have n't considered a Lorentz invariant field theory approach .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 224.77,
+    "end": 228.2,
+    "text": "You think I have n't considered it ? You really think I have n't considered it ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 228.51,
+    "end": 229.34,
+    "text": "Have you considered it ?",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 231.24,
+    "end": 232.07,
+    "text": "Get him out P0002 .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.65,
+    "end": 235.07,
+    "text": "Come on , Dennis , I 'll show you the radiation lab .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 236.28,
+    "end": 238.38,
+    "text": "Wow , you won the Stephenson award .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 238.76,
+    "end": 242.32,
+    "text": "Yes , in fact I am the youngest person ever to win it .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 243.02,
+    "end": 244.57,
+    "text": "Really , how old ?",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 244.66,
+    "end": 244.84,
+    "text": "Fourteen and a half .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 246.88,
+    "end": 248.44,
+    "text": "You were the youngest person ever to win it .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.35,
+    "end": 254.8,
+    "text": "It 's like looking into an obnoxious little mirror , is n't it ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 259.28,
+    "end": 272.04,
+    "text": "Mmm , this is really delicious , is n't it ? Still ca n't talk to me unless you 're drunk , huh ? Oh , sweetie , you are so damaged .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 274.24,
+    "end": 278.11,
+    "text": "Hey , I ' m damaged too . How about a hug for P0004 ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 279.13,
+    "end": 281.03,
+    "text": "Sure . P0005 , hug P0004 .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 283.57,
+    "end": 283.93,
+    "text": "Uh - uh - uh .",
+    "speaker": "P0001",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 286.47,
+    "end": 290.39,
+    "text": "Something you 'd like to share ? A tale of woe perhaps .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 291.71,
+    "end": 302.05,
+    "text": "Fifteen years old . Dennis Kim is fifteen years old , and he 's already correcting my work . Today I went from being Wolfgang Amadeus Mozart to ... you know , that other guy .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.12,
+    "end": 303.12,
+    "text": "Antonio Salieri ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 304.28,
+    "end": 306.57,
+    "text": "Oh , God , now even you 're smarter than me .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 308.15,
+    "end": 311.39,
+    "text": "You know , P0001 , you do n't have so many friends that you can afford to start insulting them .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 313.26,
+    "end": 314.89,
+    "text": "Just eat , P0001 , you 'll feel better .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 315.08,
+    "end": 320.88,
+    "text": "Why waste food . In Texas when a cow goes dry they do n't keep feeding it , they just take her out and shoot her between the eyes .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 322.79,
+    "end": 325.0,
+    "text": "I ' m confused , did P0001 stop giving milk ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 326.34,
+    "end": 332.01,
+    "text": "You ca n't let this kid get to you . You always knew that someday someone would come along who was younger and smarter .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 332.06,
+    "end": 337.87,
+    "text": "Yes , but I assumed I would have been dead hundreds of years , and that there would be an asterisk by his name because he would be a cyborg .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 339.74,
+    "end": 342.75,
+    "text": "So , you ' ve got a bit of competition , I really do n't see what the big deal is .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 342.82,
+    "end": 345.63,
+    "text": "Well of course you do n't , you ' ve never excelled at anything .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 348.04,
+    "end": 350.67,
+    "text": "I do n't understand , exactly how did he get any friends in the first place ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 352.44,
+    "end": 353.41,
+    "text": "We liked P0002 .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 355.31,
+    "end": 357.8,
+    "text": "Well , what are you going to do , P0001 , give up ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 358.31,
+    "end": 371.96,
+    "text": "Yes . That 's what a rational person does when his entire life 's work is invalidated by a post - pubescent Asian wunderkind . He ceases his fruitless efforts , he donates his body to scientific research , and he waits to die .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 374.19,
+    "end": 377.44,
+    "text": "You know , I ' m confused again , is he waiting , or do we get to shoot him between the eyes ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 381.51,
+    "end": 396.25,
+    "text": "Hey . I ' ve decided you 're right . My career is not over . But , since the arrival of Dennis Kim has rendered my research pointless , I just have to find something else to focus on . So I ' ve decided , I ' m going to collaborate with you .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 382.64,
+    "end": 382.97,
+    "text": "Hey .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 386.52,
+    "end": 387.11,
+    "text": "Great .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 392.84,
+    "end": 393.54,
+    "text": "Great .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 399.67,
+    "end": 400.04,
+    "text": "Great .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 401.12,
+    "end": 407.33,
+    "text": "What exactly is it you do ? I know you chatter on about it all the time , but I ' ve never really paid attention .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 408.63,
+    "end": 414.41,
+    "text": "Okay , well , right now I ' m designing an experiment to study the soft component of cosmic radiation at sea - level , but I really do n't need any help .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 414.81,
+    "end": 427.6,
+    "text": "Oh , sure you do . Now , see , what 's this here in the schematic , is that a laser array ? No . Hmmm . What happens if you use argon lasers instead of helium neon ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 419.89,
+    "end": 420.27,
+    "text": "Yes .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 427.87,
+    "end": 431.18,
+    "text": "It would blow up . Pretty sure .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 429.16,
+    "end": 429.79,
+    "text": "Are you sure ?",
+    "speaker": "P0001",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 431.54,
+    "end": 436.18,
+    "text": "Pretty sure 's not very scientific , is this how you normally work , just hunches and guesses and stuff ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 437.43,
+    "end": 450.51,
+    "text": "Okay , P0001 , I understand that you 're going through a bit of a career crisis , you 're searching for some other area where you can feel valuable and productive but I need to tell you something and I want you to listen carefully . Go away .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 448.4,
+    "end": 448.87,
+    "text": "Alright .",
+    "speaker": "P0001",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 453.65,
+    "end": 456.58,
+    "text": "If you 're concerned about sharing credit with me , you 're name can go first ... I ' m going .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 461.95,
+    "end": 476.49,
+    "text": "It 's a small brown paper bag , Ma , I ' m looking at it right now . Why would I make that up , there 's no ding - dong in it . How are two ding - dongs tomorrow going to help me today ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 478.98,
+    "end": 481.55,
+    "text": "So , this is engineering , huh ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 482.28,
+    "end": 483.27,
+    "text": "I 'll talk to you later .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 484.14,
+    "end": 492.65,
+    "text": "Engineering . Where the noble semi - skilled laborers execute the vision of those who think and dream . Hello , oompah - loompahs of science .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 495.44,
+    "end": 496.9,
+    "text": "P0001 , what are you doing here ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 497.6,
+    "end": 499.0,
+    "text": "I just came by to say hello .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 499.44,
+    "end": 502.14,
+    "text": "I ' ve been at this lab for three years , you ' ve never came by to say hello .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 502.36,
+    "end": 507.32,
+    "text": "Well , up until now I ' ve had better things to do . So , what are we making today ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 507.88,
+    "end": 513.52,
+    "text": "A small payload support structure for a European science experimental package that 's going up on the next space shuttle .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 513.72,
+    "end": 515.4,
+    "text": "Really , how does it work ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 515.64,
+    "end": 519.98,
+    "text": "When this is done , it will be attached to the payload bay , and the sensor apparatus will rest on it .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 521.33,
+    "end": 524.39,
+    "text": "Uh , huh . So it 's a shelf ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 528.56,
+    "end": 534.1,
+    "text": "No , you do n't understand , during acceleration it needs to stay perfectly level and provide ... yeah , okay , it 's a shelf .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.92,
+    "end": 541.55,
+    "text": "Now , I notice you 're using titanium , did you give any consideration to carbon nanotubes , they 're lighter , cheaper and half twice the tensile strength .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 542.36,
+    "end": 547.6,
+    "text": "P0001 , there 's a diploma in my office that says I have a masters in engineering .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 547.65,
+    "end": 556.74,
+    "text": "And you also have a note from your mother that says I love you , bubbula . But neither of those is a cogent argument for titanium over nanotubes .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 557.62,
+    "end": 560.07,
+    "text": "P0001 . Go away .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 558.32,
+    "end": 558.8,
+    "text": "Yes .",
+    "speaker": "P0001",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 561.74,
+    "end": 563.24,
+    "text": "Did P0002 tell you to say that ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 563.72,
+    "end": 564.99,
+    "text": "No , I thought of it all by myself .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 566.24,
+    "end": 572.3,
+    "text": "Huh . It ca n't be a coincidence . There must be some causal link I ' m missing .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 575.94,
+    "end": 577.3,
+    "text": "Go away .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 586.02,
+    "end": 587.53,
+    "text": "Curiouser and curiouser .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 592.82,
+    "end": 593.32,
+    "text": "Is he here ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 593.63,
+    "end": 594.89,
+    "text": "If he were , I would n't be .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 595.98,
+    "end": 601.8,
+    "text": "Do you know what he did . He watched me work for ten minutes , and then started to design a simple piece of software that could replace me .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 604.05,
+    "end": 605.15,
+    "text": "Is that even possible ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 605.56,
+    "end": 606.59,
+    "text": "As it turns out , yes .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 609.1,
+    "end": 610.8,
+    "text": "Something 's got to be done about him , P0002 .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 610.9,
+    "end": 616.62,
+    "text": "Like what ? He 'll never be able to cope with the fact that some fifteen year - old kid is smarter and more accomplished than he is .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 617.33,
+    "end": 620.38,
+    "text": "Well , what if something were to happen to this boy so he was no longer a threat to P0001 ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 622.71,
+    "end": 624.09,
+    "text": "Then our problem would be solved .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 625.82,
+    "end": 630.37,
+    "text": "Hang on , are we talking about murdering Dennis Kim ? I ' m not saying no .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 632.53,
+    "end": 634.71,
+    "text": "We do n't have to go that far , there are other means available .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 635.0,
+    "end": 638.51,
+    "text": "We ca n't send him back to North Korea . He knows how to get out .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 640.41,
+    "end": 644.03,
+    "text": "The only thing we need to do is make this Kim kid lose his focus .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 644.23,
+    "end": 648.95,
+    "text": "That wo n't happen , he 's not interested in anything but physics . What ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 647.33,
+    "end": 662.02,
+    "text": "What about biology ? You know , biology ? The one thing that can completely derail a world class mind . Yeah , so , when I was fifteen I met Denise Polmerry and my grade point average fell from a 5.0 to a 1.8 .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.24,
+    "end": 655.91,
+    "text": "P0004 , he 's fifteen .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 663.56,
+    "end": 664.41,
+    "text": "She was sleeping with you ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 665.05,
+    "end": 669.03,
+    "text": "No , I just wasted a lot of time thinking about what it would be like if she did .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 670.76,
+    "end": 689.03,
+    "text": "Oh , good , you 're all here . Look , I ' ve decided that if the three of you drop whatever it is you 're working on and join me , we could lick cold fusion in less than a decade , twelve years tops . Go away ? Hmm . Could it be me ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 690.85,
+    "end": 693.74,
+    "text": "Oh , hey guys , what 's up ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 693.93,
+    "end": 696.82,
+    "text": "We need a hot fifteen year - old Asian girl with a thing for smart guys .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 698.44,
+    "end": 698.98,
+    "text": "What ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 699.13,
+    "end": 702.09,
+    "text": "P0004 , that 's racist , any fifteen year - old girl will do the trick .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.86,
+    "end": 710.56,
+    "text": "It 's possible she may have misunderstood us .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 717.61,
+    "end": 719.35,
+    "text": "P0001 ? Oh , are we interrupting ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 719.36,
+    "end": 740.74,
+    "text": "No , no , please , come in . Yeah , I think you 'll appreciate this , very exciting . Something remarkable . Since my prospects for the Nobel Prize in physics have disappeared , thank you very much , I ' ve decided to refocus my efforts and use my people skills to win the Nobel Peace Prize . Look , I ' m going to solve the Middle - East Crisis by building an exact replica of Jerusalem in the middle of the Mexican desert .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 723.19,
+    "end": 724.12,
+    "text": "Oh , what are you working on ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 742.75,
+    "end": 743.58,
+    "text": "To what end ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 743.9,
+    "end": 746.58,
+    "text": "You know , it 's like the baseball movie , build it and they will come .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 748.81,
+    "end": 749.6,
+    "text": "Who will come ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 749.95,
+    "end": 750.93,
+    "text": "The Jewish people .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 752.08,
+    "end": 753.07,
+    "text": "What if they do n't come .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 753.28,
+    "end": 754.63,
+    "text": "We 'll make it nice , put out a spread .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 756.17,
+    "end": 763.51,
+    "text": "Okay , well , um , speaking of spreads , we 're having a small welcoming party this afternoon for Mr Kim , who 's agreed to join us here at the University .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 764.02,
+    "end": 771.88,
+    "text": "Of course he has , the oracle told us little Neo was the one . You can see the Matrix , ca n't you .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 772.74,
+    "end": 784.17,
+    "text": "Okay , well , uh , obviously you 're very busy with your ... uh , um , come Dennis . You 'll have to excuse P0001 , he 's been under a lot of ... um ... he 's nuts .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 787.41,
+    "end": 801.84,
+    "text": "Ah , la - la - la , Hava Nagila . They 'll come , they 'll settle and I 'll win the prize ... I really do n't understand your objections , Professor Goldfarb , why would n't the Senoran Desert make a perfectly good promised land ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 803.49,
+    "end": 803.94,
+    "text": "Go away .",
+    "speaker": "professor_goldfarb",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 806.06,
+    "end": 807.74,
+    "text": "We could call it Nuevo Cherusalem .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 809.58,
+    "end": 810.35,
+    "text": "Please go away .",
+    "speaker": "professor_goldfarb",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 812.11,
+    "end": 813.44,
+    "text": "Said Pharoah to Moses .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 815.28,
+    "end": 816.92,
+    "text": "Why are all these young women here ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 817.16,
+    "end": 818.48,
+    "text": "It 's take your daughter to work day .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 819.75,
+    "end": 821.07,
+    "text": "Really , I was not aware of that .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 821.27,
+    "end": 828.51,
+    "text": "Oh , yes . There was a very official email that was sent to everyone whose insurance files indicated they had daughters between the ages of 14 and 16 .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 829.21,
+    "end": 829.56,
+    "text": "Hm ?",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 830.26,
+    "end": 830.7,
+    "text": "Smooth .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 830.93,
+    "end": 831.36,
+    "text": "Thank you .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 833.85,
+    "end": 834.95,
+    "text": "There 's the man of the hour .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 837.17,
+    "end": 841.66,
+    "text": "Okay , so we now have a socially awkward genius in a room full of attractive age - appropriate women .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 841.75,
+    "end": 843.55,
+    "text": "All he has to do now is hook up with one of them .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.57,
+    "end": 853.54,
+    "text": "Does anyone else see the flaw in this plan ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 855.67,
+    "end": 857.04,
+    "text": "We need a social catalyst .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 857.07,
+    "end": 859.73,
+    "text": "Like what ? We ca n't get fifteen year - old girls drunk .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 860.94,
+    "end": 861.49,
+    "text": "Or can we ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 861.53,
+    "end": 862.04,
+    "text": "No , we ca n't .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 863.88,
+    "end": 865.85,
+    "text": "I do n't think you mean we ca n't . I think you mean we should n't .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 866.73,
+    "end": 881.52,
+    "text": "Hey , P0004 . You 're a Jew . If there was another wailing wall , exactly like the one in Jerusalem , but close to taco stands and cheap prescription drugs , would you still be able to wail at it ? Okay , it 's definitely me .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 883.52,
+    "end": 887.91,
+    "text": "Okay , we can not leave this to chance , lets pick a girl , and figure out how to get her together with Dennis .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 888.71,
+    "end": 890.27,
+    "text": "Okay . How about that one .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 891.07,
+    "end": 903.1,
+    "text": "Uh - uh . I know the type , cheerleader , student council , goes out with jocks , wo n't even look at anybody in the gifted program . And if , after two years of begging , she does agree to go out with you , it turns out to be a set - up and you 're in the back seat of your mom 's car with your pants off while the whole football team laughs at you .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 907.11,
+    "end": 907.66,
+    "text": "Are you crying ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 908.06,
+    "end": 909.77,
+    "text": "No , I have allergies .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 911.04,
+    "end": 914.2,
+    "text": "Okay , uh , how about her ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 915.47,
+    "end": 931.29,
+    "text": "Sure . If he wants to spend a couple of years doing her homework while she drinks herself into a stupor with non - fat White Russians , while you 're the one holding her head out of the toilet while she 's puking and telling you she wishes more guys were like you , and they she gets into Cornell because you wrote her essay for her , and you drive up to visit her one weekend and she acts like she does n't even know you .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 935.22,
+    "end": 938.62,
+    "text": "Okay , so not her either . How about her ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 940.0,
+    "end": 943.05,
+    "text": "Interesting , kind of pretty , a little chubby so probably low self - esteem .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 943.5,
+    "end": 946.05,
+    "text": "I think that 's our girl . One of us should go talk to her .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 946.76,
+    "end": 947.74,
+    "text": "I ca n't talk to her , you do it .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 948.5,
+    "end": 951.37,
+    "text": "I ca n't just go up and talk to her . P0004 , you talk to her .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 952.69,
+    "end": 955.31,
+    "text": "Oh no , she 'll never go for the kid once she gets a peek at this .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.21,
+    "end": 962.49,
+    "text": "You know , if we were in India this would be simpler . Five minutes with her dad , twenty goats and a laptop and we 'd be done .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 963.55,
+    "end": 964.62,
+    "text": "Well , we 're not in India .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 964.78,
+    "end": 971.88,
+    "text": "Alright , why do n't we do it your way then ? We 'll arrange for this girl to move in across the hall from Dennis so he can pathetically moon over her for months on end .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 973.69,
+    "end": 974.63,
+    "text": "Okay , that was uncalled for .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 974.72,
+    "end": 975.39,
+    "text": "You started it , dude .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 977.45,
+    "end": 992.1,
+    "text": "Could I have everyone 's attention please . What a wonderful occasion this is . And how fortunate that it should happen to fall on take your daughter to work day . We 're here to welcome Mr Dennis Kim to our little family .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 992.26,
+    "end": 993.32,
+    "text": "Welcome Dennis Kim .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 994.65,
+    "end": 1004.06,
+    "text": "Mr Kim was not only the valedictorian at Stamford University , he is also the youngest recipient of the prestigious Stephenson Award .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1004.19,
+    "end": 1006.07,
+    "text": "Youngest till the cyborgs rise up !",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1007.48,
+    "end": 1018.72,
+    "text": "And now , without any further ado , let me introduce the man of the hour , Mr Dennis Kim . Dennis ! Dennis !",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1019.12,
+    "end": 1019.51,
+    "text": "What ?",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1021.74,
+    "end": 1024.38,
+    "text": "Would you like to tell us a little bit about your upcoming research .",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1024.56,
+    "end": 1026.08,
+    "text": "Um , no thanks . I ' m going to the mall with Emma .",
+    "speaker": "dennis_kim",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1027.72,
+    "end": 1031.0,
+    "text": "Well , uh , well , uh ...",
+    "speaker": "dr_eric_gablehauser",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1032.64,
+    "end": 1033.64,
+    "text": "The kid got a girl .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1035.68,
+    "end": 1036.1,
+    "text": "Unbelievable .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1037.21,
+    "end": 1038.99,
+    "text": "Did anyone see how he did it ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1041.36,
+    "end": 1063.17,
+    "text": "Do n't worry , I ' ve got this . Ladies and Gentlemen , honored daughters . While Mr Kim , by virtue of his youth and naivety , has fallen prey to the inexplicable need for human contact , let me step in and assure you that my research will go on uninterrupted , and that social relationships will continue to baffle and repulse me . Thank you .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1066.39,
+    "end": 1067.08,
+    "text": "He 's back .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1067.12,
+    "end": 1068.46,
+    "text": "Yeah , mission accomplished .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1068.68,
+    "end": 1071.59,
+    "text": "Forget the mission , how did that little yutz get a girl on his own ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1072.2,
+    "end": 1076.49,
+    "text": "I guess times have changed since we were young . Smart is the new sexy .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.71,
+    "end": 1079.75,
+    "text": "Well , why do we go home alone every night , we 're still smart .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1080.84,
+    "end": 1083.83,
+    "text": "Maybe we 're too smart . So smart it 's offputting .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1085.55,
+    "end": 1086.49,
+    "text": "Yeah , let 's go with that .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1091.58,
+    "end": 1097.8,
+    "text": "Unbelievable . Components I built are on the International Space Station , and I get a ticket for launching a model rocket in the park .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1098.41,
+    "end": 1104.7,
+    "text": "I do n't know if the ticket was so much for the launch as it was for you telling the policewoman ' you have to frisk me , I have a rocket in my pants . '",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1105.39,
+    "end": 1109.67,
+    "text": "Hey , look at that . It 's Dennis Kim .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1110.55,
+    "end": 1113.08,
+    "text": "Wow , I almost did n't recognize him .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1113.85,
+    "end": 1115.73,
+    "text": "You know , I kind of feel bad about what we did to him .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1119.88,
+    "end": 1121.61,
+    "text": "Yeah , we really ruined his life .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1123.72,
+    "end": 1124.98,
+    "text": "Screw him , he was weak .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  }
+]

@@ -1,0 +1,1416 @@
+[
+  {
+    "start": 2.2,
+    "end": 12.0,
+    "text": "Alright , I ' m moving my infantry division , augmented by a battalion of Orcs from Lord of the Rings , we flank the Tennessee Volunteers , and the North once again wins the Battle of Gettysburg .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 13.12,
+    "end": 17.39,
+    "text": "Not so fast , remember the South still has two infantry divisions , plus Superman and Godzilla .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 18.74,
+    "end": 25.78,
+    "text": "No , no , no , no , Orcs are magic , Superman is vulnerable to magic , not to mention , you already lost Godzilla to the Illinois Cavalry and Hulk .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 26.7,
+    "end": 30.34,
+    "text": "Why do n't you just have Robert E. Lee charge the line with Shiva and Ganesh .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 30.58,
+    "end": 31.28,
+    "text": "Hi , you guys ready to order ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 31.43,
+    "end": 36.23,
+    "text": "Hang on , honey . Shiva and Ganesh ? The Hindu Gods against the entire Union army ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 36.29,
+    "end": 37.13,
+    "text": "And Orcs !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 37.93,
+    "end": 39.12,
+    "text": "I 'll be back .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 39.91,
+    "end": 47.1,
+    "text": "Excuse me , Ganesh is the remover of obstacles , and Shiva is the destroyer . When the smoke clears , Abraham Lincoln will be speaking Hindi and drinking mint juleps .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 48.16,
+    "end": 50.53,
+    "text": "Alright , my boss says you either have to order , or leave and never come back .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 50.74,
+    "end": 56.67,
+    "text": "What do you recommend for someone who worked up a man - sized appetite from a morning of weight training and cardio - funk ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 57.27,
+    "end": 57.75,
+    "text": "A shower .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 59.34,
+    "end": 60.73,
+    "text": "I 'll take the heart smart platter .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.46,
+    "end": 63.89,
+    "text": "Alright , thank you , and P0001 .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 64.12,
+    "end": 68.25,
+    "text": "We do n't eat here , I do n't know what 's good . Statistically unlikely .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 66.18,
+    "end": 66.99,
+    "text": "Well , it 's all good .",
+    "speaker": "P0003",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 69.72,
+    "end": 71.6,
+    "text": "Just get a hamburger , you like hamburgers .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 71.79,
+    "end": 75.93,
+    "text": "I like the hamburgers where we usually have hamburgers , you ca n't make the assumption that I 'll like the hamburgers here .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 77.31,
+    "end": 78.8,
+    "text": "I ' m sorry . Give him a hamburger .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 79.04,
+    "end": 82.84,
+    "text": "Uh , which one , the Classic Burger , the Ranch House Burger , the Barbecue Burger or the Kobe burger ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 83.81,
+    "end": 87.87,
+    "text": "Ca n't we just go to Big Boy ? They only have one burger . The Big Boy .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.89,
+    "end": 90.19,
+    "text": "The Barbecue Burger is like the Big Boy .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 90.41,
+    "end": 94.94,
+    "text": "Excuse me , in a world that already includes the Big Boy , why would I settle for something like a Big Boy ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 95.21,
+    "end": 96.96,
+    "text": "Because you are not at Big Boy !",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 96.97,
+    "end": 102.51,
+    "text": "Fine , I 'll have the Barbecue Burger . Waitresses do n't yell at you at Big Boy .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 100.15,
+    "end": 100.84,
+    "text": "Make it two .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 104.39,
+    "end": 107.85,
+    "text": "Hey P0002 , hi guys . I did n't know you ate here .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 106.2,
+    "end": 106.86,
+    "text": "Hey P0006 .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 108.01,
+    "end": 109.89,
+    "text": "We do n't . This is a disturbing aberration .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 111.01,
+    "end": 113.78,
+    "text": "P0006 , this is P0003 , she lives across the hall from P0001 and me .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 113.84,
+    "end": 116.23,
+    "text": "And walks in quiet beauty like the night .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 117.28,
+    "end": 118.4,
+    "text": "P0004 , I ' ve asked you not to do that .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 120.41,
+    "end": 122.63,
+    "text": "P0006 and I do research together at the University .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 122.72,
+    "end": 124.76,
+    "text": "Oh , wow , a girl scientist .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 125.23,
+    "end": 140.45,
+    "text": "Yep , come for the breasts , stay for the brains . So , I ' m glad I ran into you , the physics department string quartet needs a new cellist . He switched over to high energy radiation research , had a little mishap , and now the other guys are uncomfortable sitting next to him . So , are you in ?",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 132.15,
+    "end": 133.26,
+    "text": "What happened to Elliot Wong ?",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 140.78,
+    "end": 141.56,
+    "text": "Yeah , sure , why not .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 141.99,
+    "end": 148.27,
+    "text": "Great , we rehearse on Tuesdays at your place . Yeah , the department of energy said our regular space is kind of a hot zone . Nice meeting you .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 144.25,
+    "end": 145.17,
+    "text": "Why at my place ?",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 149.95,
+    "end": 153.22,
+    "text": "Yeah , you too . P0002 , I did n't know you played the cello ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 153.44,
+    "end": 159.44,
+    "text": "Yeah , my parents felt that naming me P0002 and putting me in advanced placement classes was n't getting me beaten up enough .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 159.79,
+    "end": 163.06,
+    "text": "If you 're into music , I happen to be a human beatbox .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 163.8,
+    "end": 176.45,
+    "text": "Really ? I ' m actually not that into music . So hey , your friend 's really cute , anything going on with you two .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 177.49,
+    "end": 180.87,
+    "text": "P0006 ? No , no - oh , what are you kidding ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 180.99,
+    "end": 183.0,
+    "text": "He asked her out once , it was an embarrassing failure .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 184.33,
+    "end": 185.04,
+    "text": "Thank you P0001 .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 185.26,
+    "end": 186.9,
+    "text": "Oh , I ' m sorry , was that supposed to be a secret ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 188.03,
+    "end": 190.4,
+    "text": "Oh , that 's too bad , you guys would make a cute couple .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 192.88,
+    "end": 195.69,
+    "text": "Oh dear . She did n't take my order .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 194.2,
+    "end": 198.19,
+    "text": "What 's the matter ? How can she take your order when you 're too neurotic to talk to her .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 200.01,
+    "end": 202.06,
+    "text": "Nevertheless , this will be reflected in her tip .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 205.33,
+    "end": 207.56,
+    "text": "What did P0003 mean , you 'd make a cute couple ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 208.57,
+    "end": 224.37,
+    "text": "Well I assume she meant that the two of you together would constitute a couple that others might consider cute . An alternate , and somewhat less likely interpretation , is that you could manufacture one . As in , oh look , P0002 and P0006 made Mr and Mrs Goldfarb , are n't they adorable .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 224.66,
+    "end": 250.4,
+    "text": "If P0003 did n't know that P0006 had already turned me down then that would unambiguously mean that she , P0003 , thought that I should her , P0006 , out , indicating that she , P0003 , had no interest in me asking her , P0003 , out . But because she did know that I had asked P0006 out and that she , P0006 , had turned me down then she , P0003 , could be offering consolation . That 's too bad , you would have made a cute couple . But while thinking , good , P0002 remains available .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 252.58,
+    "end": 253.81,
+    "text": "You 're a lucky man , P0002 .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 253.97,
+    "end": 256.79,
+    "text": "How so ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 257.19,
+    "end": 260.68,
+    "text": "You 're talking to one of the three men in the Western hemisphere capable of following that train of thought .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 263.78,
+    "end": 264.26,
+    "text": "Well , what do you think .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 264.27,
+    "end": 266.04,
+    "text": "I said I could follow it , I did n't say I cared .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 296.97,
+    "end": 298.16,
+    "text": "I admire your fingering .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 299.58,
+    "end": 301.01,
+    "text": "Thank you .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 302.43,
+    "end": 304.27,
+    "text": "Maybe some time you can try that on my instrument .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 313.82,
+    "end": 314.63,
+    "text": "Goodnight guys , good job .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 317.14,
+    "end": 319.05,
+    "text": "That was fun , P0006 , thanks for including me .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 319.21,
+    "end": 322.27,
+    "text": "You 're welcome . If you 're up for it we could practise that middle section again .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 323.06,
+    "end": 323.92,
+    "text": "Uh , sure , why not .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 330.77,
+    "end": 336.26,
+    "text": "Just so we 're clear , you understand that me hanging back to practise with you is a pretext for letting you know that I ' m sexually available .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 343.76,
+    "end": 343.93,
+    "text": "Really ?",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 345.03,
+    "end": 345.95,
+    "text": "Yeah , I ' m good to go .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 347.05,
+    "end": 348.96,
+    "text": "I thought you were n't interested in me .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 349.1,
+    "end": 352.28,
+    "text": "That was before I saw you handling that beautiful piece of wood between your legs .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 355.33,
+    "end": 356.44,
+    "text": "You mean my cello ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 356.71,
+    "end": 360.16,
+    "text": "No , I mean the obvious crude double entendre . I ' m seducing you .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 362.52,
+    "end": 363.3,
+    "text": "No kidding ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 364.62,
+    "end": 369.34,
+    "text": "What can I say , I ' m a passionate and impulsive woman . So how about it ?",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 370.56,
+    "end": 371.02,
+    "text": "Gee , uh ...",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 372.61,
+    "end": 373.51,
+    "text": "Is it the waitress ?",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 374.42,
+    "end": 376.06,
+    "text": "P0003 ? What about her ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 376.13,
+    "end": 380.72,
+    "text": "Well , I thought I saw your pupils dilate when you looked at her , which , unless you 're a heroin addict , points to sexual attraction .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 382.4,
+    "end": 391.54,
+    "text": "Well , I did have a poppy seed bagel for breakfast , which could give a positive urine test for opiates but certainly not dilate my pupils , so I guess there 's no point in bringing it up .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 393.73,
+    "end": 394.95,
+    "text": "You and the waitress then ?",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 395.66,
+    "end": 398.84,
+    "text": "No . No , there 's nothing going on between P0003 and me .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 399.67,
+    "end": 401.68,
+    "text": "So , you 're open to a sexual relationship ?",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 403.07,
+    "end": 410.45,
+    "text": "Yeah . Yeah , I guess I am . Yeah , yeah it is good . Did you want to start now ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 404.81,
+    "end": 404.89,
+    "text": "Good .",
+    "speaker": "P0006",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 411.65,
+    "end": 413.22,
+    "text": "Why do n't we finish the section first .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 413.5,
+    "end": 416.36,
+    "text": "Oh . Okay . A little musical foreplay . Terrific .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 437.39,
+    "end": 437.83,
+    "text": "I ' m good , I ' m good to go .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 437.96,
+    "end": 438.15,
+    "text": "Me too .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 438.15,
+    "end": 438.44,
+    "text": "Oh , hey P0001 , what 's going on ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 452.64,
+    "end": 454.62,
+    "text": "I need your opinion on a matter of semiotics .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 455.4,
+    "end": 455.98,
+    "text": "I ' m sorry ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 456.72,
+    "end": 460.68,
+    "text": "Semiotics , the study of signs and symbols , it 's a branch of philosophy related to linguistics .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 463.44,
+    "end": 467.91,
+    "text": "Okay , sweetie , I know you think you 're explaining yourself , but you 're really not .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 470.88,
+    "end": 474.96,
+    "text": "Just come with me . Well ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 477.85,
+    "end": 478.19,
+    "text": "Well what ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 478.72,
+    "end": 479.55,
+    "text": "What does it mean ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 481.16,
+    "end": 482.69,
+    "text": "Oh , come on , you went to college .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 482.99,
+    "end": 483.65,
+    "text": "Yes , but I was eleven .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 486.98,
+    "end": 493.79,
+    "text": "Alright , look , a tie on the doorknob usually means someone does n't want to be disturbed because they 're , you know , getting busy .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 496.0,
+    "end": 497.6,
+    "text": "So you 're saying P0002 has a girl in there .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 497.8,
+    "end": 501.89,
+    "text": "Well , either that or he 's lost his tie rack and gotten really into Bryan Adams .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 503.26,
+    "end": 505.52,
+    "text": "Oh P0002 , you magnificent beast .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 507.08,
+    "end": 511.78,
+    "text": "We really should n't be standing here .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 513.34,
+    "end": 514.51,
+    "text": "This is very awkward .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 515.38,
+    "end": 518.31,
+    "text": "Oh , come on , you know , P0002 's had girls over before , right ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 518.71,
+    "end": 526.93,
+    "text": "Oh , yes , but there 's usually planning , courtship and advance notice . Last time I was able to book a cruise to the Arctic to see a solar eclipse .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 528.91,
+    "end": 532.03,
+    "text": "Wait , you had to leave the state because your roommate was having sex ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 532.17,
+    "end": 534.34,
+    "text": "I did n't have to , the dates just happened to coincide .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 538.45,
+    "end": 539.62,
+    "text": "So , do you know who 's in there ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 540.86,
+    "end": 548.59,
+    "text": "Well , there 's P0002 . And he 's either with P0006 or a 1930 's gangster .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 549.09,
+    "end": 559.36,
+    "text": "Hmmm . Good for him . Good for P0002 . Okay , night .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 559.77,
+    "end": 560.64,
+    "text": "No , no , wait , hold on .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 561.52,
+    "end": 562.02,
+    "text": "What 's the matter ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 563.02,
+    "end": 570.42,
+    "text": "I do n't know what the protocol is here . Do I stay , do I leave ? Do I wait to greet them with a refreshing beverage ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 573.18,
+    "end": 577.03,
+    "text": "Gee , P0001 , you 're asking the wrong girl . I ' m usually on the other side of the tie .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 597.28,
+    "end": 620.9,
+    "text": "Hi , P0002 . It 's me , P0001 . In the living room . I just , I wanted you to know I saw the tie . Message received . You 're welcome . You carry on . Give my best to P0006 .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 658.21,
+    "end": 658.64,
+    "text": "Big boy !",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 683.26,
+    "end": 694.6,
+    "text": "Someone touched my board . Oh God , my board . P0002 ! P0002 !",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 696.4,
+    "end": 697.51,
+    "text": "Hey , what 's the matter ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 697.8,
+    "end": 705.1,
+    "text": "My equations , someone 's tampered with my equations . Of course I ' m sure . Look at the beta - function of quantum chromodynamics , the sign 's been changed .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 700.18,
+    "end": 700.75,
+    "text": "Are you sure ?",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 706.01,
+    "end": 709.52,
+    "text": "Oh yeah . But does n't that fix the problem you ' ve been having ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 709.86,
+    "end": 715.46,
+    "text": "Are you insane ? Are you out of your mind ? Are you ... hey look , that fixes the problem I ' ve been having .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 716.8,
+    "end": 717.46,
+    "text": "You 're welcome .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 719.6,
+    "end": 720.89,
+    "text": "You did this ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 721.88,
+    "end": 728.26,
+    "text": "Yeah , I noticed it when I got up to get a glass of water , so I fixed it , now you can show that quarks are asymptotically free at high energies . Pretty cool ,",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 733.5,
+    "end": 735.73,
+    "text": "huh ? Listen , I got to hit the lab . Thanks for a great night .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 737.95,
+    "end": 739.2,
+    "text": "Thank you , I 'll see you at work .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 739.74,
+    "end": 741.03,
+    "text": "Uh - duh , hold on , hold on !",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 742.14,
+    "end": 742.43,
+    "text": "What ?",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 742.67,
+    "end": 744.16,
+    "text": "Who told you you could touch my board ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 745.17,
+    "end": 745.33,
+    "text": "No - one .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 745.9,
+    "end": 747.41,
+    "text": "I do n't come into your house and touch your board .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 748.09,
+    "end": 749.95,
+    "text": "There are no incorrect equations on my board .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 754.0,
+    "end": 756.42,
+    "text": "Oh , that is so ... so ...",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 758.79,
+    "end": 761.33,
+    "text": "I ' m sorry , I ' ve got to run , if you come up with an adjective , text me .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 765.84,
+    "end": 768.17,
+    "text": "Inconsiderate , that is the adjective , inconsiderate .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 771.07,
+    "end": 773.85,
+    "text": "You can stare at your board all day P0001 , she 's still going to be right .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 773.92,
+    "end": 775.62,
+    "text": "I ' m not staring , I ' m mulling .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 777.48,
+    "end": 780.27,
+    "text": "Oh , hey P0002 .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 782.12,
+    "end": 783.98,
+    "text": "Oh , hi .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 785.84,
+    "end": 789.53,
+    "text": "So , how 's it going ? Just pretty good , I 'd think you were doing very good .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 791.3,
+    "end": 796.1,
+    "text": "Pretty , very , there 's really no objective scale for delineating variations of good , why do you ask ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 796.27,
+    "end": 799.54,
+    "text": "Well , a little bird told me that you and P0006 hooked up last night . So , is it serious , do you like her ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 808.43,
+    "end": 816.23,
+    "text": "Wuh , I do n't ... th - th - th - that 's really two different questions , uh , I ' m not ... P0001 , we have to go !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 817.04,
+    "end": 820.27,
+    "text": "Boy , you 're wound awfully tight for a man who just had sexual intercourse .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 821.68,
+    "end": 825.43,
+    "text": "Alright , well , I 'll talk to you later , but , I am so happy for you P0002 .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 827.7,
+    "end": 849.92,
+    "text": "Thank you . What did she mean , she 's happy for me ? Is she happy because I ' m seeing someone , or is she happy because she thinks that I ' m happy , because anyone who cared for someone would want them to be happy , even if the reason for their happiness made the first person unhappy . You know , because the second person , though happy , is now romantically unavailable to the first person .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.0,
+    "end": 854.17,
+    "text": "Do you realize I may have to share a Nobel Prize with your booty call ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 858.13,
+    "end": 868.89,
+    "text": "You know what , I ' m being ridiculous . But who cares what P0003 thinks , P0006 is a terrific girl , she 's attractive , we like each other , she 's extremely intelligent .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 868.97,
+    "end": 875.51,
+    "text": "She 's not that intelligent . She got lucky . I do n't have to believe in it for her to be lucky .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 870.5,
+    "end": 873.83,
+    "text": "She fixed your equation . You do n't believe in luck .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 877.41,
+    "end": 888.53,
+    "text": "Regardless , I have a chance at a real relationship with P0006 , I ' m not going to pass that up for some hypothetical future happiness with a woman who may or may not want me to be happy with a woman who is currently making me happy .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 890.41,
+    "end": 892.65,
+    "text": "P0002 ? I still do n't care .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 891.02,
+    "end": 891.29,
+    "text": "Yeah .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 901.41,
+    "end": 902.42,
+    "text": "Hey , P0006 .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 903.13,
+    "end": 906.37,
+    "text": "Careful P0002 , liquid nitrogen , 320 degrees below zero .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 910.52,
+    "end": 916.98,
+    "text": "Brrrr . Why are you smashing a flash frozen banana .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 917.21,
+    "end": 919.07,
+    "text": "Because I ' ve got a bowl of Cheerios and I could n't find a knife .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 922.21,
+    "end": 923.14,
+    "text": "So anyway Hello .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 928.14,
+    "end": 929.17,
+    "text": "Uh , what are you doing ?",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 929.91,
+    "end": 936.21,
+    "text": "Just extending the intimacy . Do you want to slip over to the radiation lab and share a decontamination shower ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 940.27,
+    "end": 943.24,
+    "text": "Okay , uh , what exactly do you think 's going on between us ?",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 944.92,
+    "end": 947.98,
+    "text": "I ' m not sure , but I think I ' m about to discover how the banana felt .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 952.65,
+    "end": 964.44,
+    "text": "Listen , P0002 , neither of us are neuroscientists but we both understand the biochemistry of sex , I mean , dopamine in our brains is released across synapses causing pleasure . You stick electrodes in a rat 's brain , give him an orgasm button , he 'll push that thing until he starves to death .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 965.47,
+    "end": 966.49,
+    "text": "Who would n't ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 967.51,
+    "end": 973.1,
+    "text": "Well , the only difference between us and a rat is that you ca n't stick an electrode in our hypothalamus . That 's where you come in .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 976.02,
+    "end": 980.94,
+    "text": "Yeah , well , I ' m just glad to be a part of it . So what happens now ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 981.2,
+    "end": 983.54,
+    "text": "Well , I do n't know about your sex drive , but I ' m probably good till New Years .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 984.88,
+    "end": 985.24,
+    "text": "Oh .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 987.47,
+    "end": 987.83,
+    "text": "Okay .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 990.05,
+    "end": 990.53,
+    "text": "Thank you .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 990.56,
+    "end": 991.13,
+    "text": "Thank you !",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 995.12,
+    "end": 996.21,
+    "text": "You want to make plans for New Years .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 996.51,
+    "end": 997.77,
+    "text": "P0002 , please , you 're smothering me .",
+    "speaker": "P0006",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 997.99,
+    "end": 998.09,
+    "text": "Sorry .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1000.83,
+    "end": 1002.51,
+    "text": "Hey , look , it 's Doctor Stud !",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1004.74,
+    "end": 1005.4,
+    "text": "Doctor what ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1005.71,
+    "end": 1010.54,
+    "text": "The blogosphere is a - buzzing with news of you and P0006 making eine kleine bang - bang music .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1011.51,
+    "end": 1013.8,
+    "text": "Wha ... how did it get on the internet ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1013.83,
+    "end": 1014.55,
+    "text": "I put it there .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1015.82,
+    "end": 1017.75,
+    "text": "Well , how did you know about it ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1017.84,
+    "end": 1022.44,
+    "text": "A little bird told us . Apparently you are a magnificent beast .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1026.02,
+    "end": 1026.93,
+    "text": "Well , that part 's true !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1032.85,
+    "end": 1039.05,
+    "text": "You know , I think I may have misjudged this restaurant . I wo n't go out on a limb , but I think we may be looking at my new Tuesday hamburger .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1035.19,
+    "end": 1035.64,
+    "text": "No kidding .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1041.43,
+    "end": 1044.07,
+    "text": "Your old Tuesday hamburger will be so broken hearted .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1045.63,
+    "end": 1057.23,
+    "text": "Way ahead of you . I was thinking of moving Big Boy to Thursdays , and just dropping Soup Plantation . Yeah , the name always confused me anyway , Soup Plantation . You ca n't grow soup .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1051.66,
+    "end": 1052.05,
+    "text": "Really ?",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1060.93,
+    "end": 1062.6,
+    "text": "So , how 's everything .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1063.02,
+    "end": 1067.73,
+    "text": "Terrific , you 'll be happy to know that I plan to come here every Tuesday night for the foreseeable future .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1067.84,
+    "end": 1069.28,
+    "text": "Really , oh yay !",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1071.56,
+    "end": 1074.12,
+    "text": "Who do I speak to about permanently reserving this table ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1074.71,
+    "end": 1082.56,
+    "text": "Um , I do n't know , a psychiatrist ? So hey , how are things with you and P0006 ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1083.31,
+    "end": 1086.0,
+    "text": "Oh , to be honest , I do n't think it 's going to work out .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1086.84,
+    "end": 1092.68,
+    "text": "Oh , oh that 's too bad . Well hey , do n't worry , I ' m sure there is someone out there who is just right for you .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1096.75,
+    "end": 1103.21,
+    "text": "Well what did she mean by that ? Was that just a generic platitude or was that a subtle bid for attention ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1105.41,
+    "end": 1115.02,
+    "text": "You know why this hamburger surpasses the Big Boy ? This is a single decker hamburger whereas the Big Boy is a double decker . This has a much more satisfying meat to bun to condiment ratio .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1116.79,
+    "end": 1118.12,
+    "text": "Are you even listening to me ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1118.22,
+    "end": 1121.51,
+    "text": "Of course I ' m listening . Blah blah , hopeless P0003 delusion , blah blah blah .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1124.55,
+    "end": 1129.77,
+    "text": "Okay then . You know , you can grow the ingredients for soup . .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  }
+]

@@ -1,0 +1,1675 @@
+[
+  {
+    "start": 27.25,
+    "end": 27.63,
+    "text": "Checkmate .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 28.5,
+    "end": 29.79,
+    "text": "O - o - o - o - h ! Again ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 30.66,
+    "end": 36.17,
+    "text": "Obviously you 're not well suited for three - dimensional chess , perhaps three dimensional candyland would be more your speed .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 37.59,
+    "end": 38.63,
+    "text": "Just reset the board .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 38.84,
+    "end": 41.63,
+    "text": "It must be humbling to suck on so many different levels .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 45.05,
+    "end": 45.77,
+    "text": "Hi guys .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.19,
+    "end": 53.06,
+    "text": "Hey ! Yeah , right here . How was Nebraska ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 49.43,
+    "end": 49.95,
+    "text": "Did you get my mail .",
+    "speaker": "P0003",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 53.31,
+    "end": 54.75,
+    "text": "Oh , better than North Dakota !",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 61.09,
+    "end": 62.47,
+    "text": "I guess that joke 's only funny in Nebraska .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 63.67,
+    "end": 69.05,
+    "text": "From the data at hand you really ca n't draw that conclusion . All you can say with absolute certainty is that that joke is not funny here .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 75.92,
+    "end": 77.27,
+    "text": "Boy , it 's good to be back .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 78.66,
+    "end": 79.4,
+    "text": "How was your family ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 79.52,
+    "end": 81.76,
+    "text": "Ugh , it was the worst trip , everyone got sick over the weekend .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.15,
+    "end": 82.68,
+    "text": "Sick ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 82.76,
+    "end": 83.24,
+    "text": "Here we go .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 86.83,
+    "end": 87.94,
+    "text": "What kind of sick ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.33,
+    "end": 89.33,
+    "text": "Oh , the flu I guess .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 89.64,
+    "end": 93.26,
+    "text": "I do n't need you to guess , I need you to know , now when did the symptoms first appear ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 94.47,
+    "end": 95.3,
+    "text": "Maybe Friday .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 95.43,
+    "end": 97.48,
+    "text": "Friday , was that morning or afternoon ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 98.02,
+    "end": 99.08,
+    "text": "I ... I do n't ...",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 99.62,
+    "end": 101.54,
+    "text": "Think woman , who blew their nose and when ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 102.9,
+    "end": 106.36,
+    "text": "P0001 , relax , she does n't have any symptoms , I ' m sure she 's not contagious .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 106.55,
+    "end": 118.77,
+    "text": "Oh please , if influenza was only contagious after symptoms appear it would have died out thousands of years ago . Somewhere between tool using and cave painting , homo habilus would have figured out to kill the guy with the runny nose .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 120.45,
+    "end": 123.19,
+    "text": "P0003 , you 'll have to excuse P0001 , he 's a bit of a germophobe .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 123.29,
+    "end": 124.59,
+    "text": "Oh , it 's okay , I understand .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 124.79,
+    "end": 126.93,
+    "text": "Thanks for your consideration , now please leave .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 128.25,
+    "end": 130.74,
+    "text": "You 'd better go before he starts spraying you with Lysol .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 131.98,
+    "end": 133.99,
+    "text": "Okay , well , thank you for getting my mail .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 134.06,
+    "end": 135.03,
+    "text": "No problem . Welcome home .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 151.53,
+    "end": 151.79,
+    "text": "What ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 174.22,
+    "end": 175.54,
+    "text": "What the hell are you doing ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 175.96,
+    "end": 178.63,
+    "text": "I ' m making petrie dishes to grow throat cultures .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 180.3,
+    "end": 181.29,
+    "text": "With lime jello ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 181.58,
+    "end": 188.17,
+    "text": "I need a growth medium , and someone polished off the apricot yoghurt . Here , swab my throat .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 191.23,
+    "end": 191.83,
+    "text": "I do n't think so .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 192.16,
+    "end": 195.97,
+    "text": "P0002 ! If I ' m going to get ahead of this thing I need to find out what 's growing in my throat .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 198.74,
+    "end": 203.44,
+    "text": "P0001 , you are not sick . This is , but you are not .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 204.53,
+    "end": 212.44,
+    "text": "We have no idea what pathogen Typhoid P0003 has introduced into our environment . And having never been to Nebraska I ' m fairly certain that I have no cornhusking antibodies .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 216.58,
+    "end": 218.52,
+    "text": "P0001 , do n't you think you 're overreacting ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 218.79,
+    "end": 225.94,
+    "text": "When I ' m lying comatose in a hospital relying on inferior minds to cure me , these jello cultures and my accompanying notes will give them a fighting chance .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 230.84,
+    "end": 231.57,
+    "text": "I ' m going back to bed .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 232.77,
+    "end": 239.12,
+    "text": "Wait . Put this in the bathroom . I need to measure my fluid intake and output to make sure my kidneys are n't shutting down .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 234.79,
+    "end": 235.35,
+    "text": "What for ?",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 241.76,
+    "end": 243.68,
+    "text": "I mix pancake batter in this !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 245.52,
+    "end": 247.66,
+    "text": "No , that measuring cup has always been for urine .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 249.93,
+    "end": 256.45,
+    "text": "You had time to make a label for everything in this apartment , including the label maker , but you did n't have ten seconds to make one that said urine cup ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 258.91,
+    "end": 259.88,
+    "text": "It 's right here on the bottom .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 263.88,
+    "end": 264.24,
+    "text": "Huh .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 267.87,
+    "end": 270.36,
+    "text": "I guess I owe the Betty Crocker company a letter of apology .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 287.03,
+    "end": 294.15,
+    "text": "Oh , dear God . P0002 ! P0002 , I ' m sick ! P0002 ! P0002 I ' m sick !",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 299.9,
+    "end": 300.26,
+    "text": "P0002 !",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 305.65,
+    "end": 306.01,
+    "text": "P0002 !",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 311.4,
+    "end": 322.77,
+    "text": "P0002 . P0002 , my comforter fell down , and my sinuses hurt when I bend over . P0002 ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 330.68,
+    "end": 331.12,
+    "text": "Ow !",
+    "speaker": "P0001",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 334.7,
+    "end": 335.06,
+    "text": "Hey .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 338.65,
+    "end": 340.21,
+    "text": "P0002 , where are you ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 340.64,
+    "end": 341.3,
+    "text": "I ' m at work .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 343.04,
+    "end": 351.5,
+    "text": "At six - thirty in the morning ? On Sunday ? Why ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 345.55,
+    "end": 346.06,
+    "text": "Yes .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 349.32,
+    "end": 349.88,
+    "text": "Yes .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 351.57,
+    "end": 352.56,
+    "text": "They asked me to come in .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 353.18,
+    "end": 354.56,
+    "text": "Well , I did n't hear the phone ring .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 355.21,
+    "end": 356.11,
+    "text": "They texted me .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 357.99,
+    "end": 367.47,
+    "text": "Well , as I predicted , I am sick . My fever has been tracking up exponentially since 2 am , and I am producing sputum at an alarming rate .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 370.23,
+    "end": 371.28,
+    "text": "No kidding ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 371.52,
+    "end": 375.75,
+    "text": "No . Not only that , it has shifted from clear to milky green .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 375.79,
+    "end": 379.91,
+    "text": "Alright , well , get some rest and drink plenty of fluids .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 380.11,
+    "end": 384.06,
+    "text": "What else would I drink ? Gasses ? Solids ? Ionised plasma ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 385.56,
+    "end": 389.08,
+    "text": "Drink whatever you want . Then make soup .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 387.02,
+    "end": 390.02,
+    "text": "I want soup . We do n't have soup .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 390.62,
+    "end": 391.95,
+    "text": "I ' m at work , P0001 .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 395.73,
+    "end": 399.85,
+    "text": "Is that a dog ? In the lab ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 397.17,
+    "end": 397.82,
+    "text": "Yes ,",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 400.51,
+    "end": 401.16,
+    "text": "Yes ,",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 402.77,
+    "end": 411.59,
+    "text": "they 're training dogs to operate the centrifuge for when they need dogs to operate the centrifuge for blind scientists , I have to go .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 413.56,
+    "end": 417.5,
+    "text": "P0004 , it 's the phone .",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 419.47,
+    "end": 423.75,
+    "text": "I know it 's the phone , Ma , I hear the phone .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 424.41,
+    "end": 426.7,
+    "text": "Well who 's calling at this ungodly hour ?",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 427.36,
+    "end": 428.69,
+    "text": "I do n't know .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 429.3,
+    "end": 432.67,
+    "text": "Well ask them why they 're calling at this ungodly hour .",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 433.19,
+    "end": 440.33,
+    "text": "How can I ask them when I ' m talking to you ! Hello .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 441.93,
+    "end": 443.99,
+    "text": "P0004 , it 's P0002 , code Milky Green .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 444.06,
+    "end": 445.57,
+    "text": "Dear Lord , not Milky Green !",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 447.21,
+    "end": 448.15,
+    "text": "Affirmative , with fever .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 450.55,
+    "end": 452.85,
+    "text": "Who 's on the phone . Why is he calling .",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 451.11,
+    "end": 451.5,
+    "text": "P0002 .",
+    "speaker": "P0004",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 453.48,
+    "end": 454.65,
+    "text": "P0001 's sick .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 455.04,
+    "end": 457.08,
+    "text": "Were you playing with him ?",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 458.55,
+    "end": 461.85,
+    "text": "For God 's sake , Ma , I ' m twenty six years old .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 462.64,
+    "end": 467.03,
+    "text": "Excuse me Mr Grown - up . Whadda - ya want for breakfast .",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 467.52,
+    "end": 469.4,
+    "text": "Chocolate milk and eggoes please !",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 470.83,
+    "end": 473.57,
+    "text": "P0004 , listen to me . No , do n't , do n't ...",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 472.35,
+    "end": 473.28,
+    "text": "Hang on , call waiting .",
+    "speaker": "P0004",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 475.23,
+    "end": 475.61,
+    "text": "Hello .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 476.51,
+    "end": 477.88,
+    "text": "P0004 , I ' m sick .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 483.52,
+    "end": 491.15,
+    "text": "P0004 's sleeping , this is his mother . Why are you calling at this ungodly hour ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 493.12,
+    "end": 494.37,
+    "text": "I need soup .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 494.98,
+    "end": 505.87,
+    "text": "Then call your own mother . It was P0001 . It 's my own fault , I forgot the protocol we put in place after the great ear infection of ' 06 .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 500.23,
+    "end": 501.52,
+    "text": "I tried to stop you .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 507.41,
+    "end": 511.64,
+    "text": "You call P0005 , we need to find a place to lay low for the next eighteen to twenty four hours .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 511.66,
+    "end": 515.04,
+    "text": "Stand by . Ma , can my friends come over ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 515.15,
+    "end": 518.0,
+    "text": "I just had the carpets steamed .",
+    "speaker": "debbie_wolowitz",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 519.53,
+    "end": 523.87,
+    "text": "That 's a negatory . But there 's a Planet of the Apes marathon at the New Art today .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 524.74,
+    "end": 529.17,
+    "text": "Five movies , two hours apiece . It 's a start .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 532.83,
+    "end": 534.04,
+    "text": "Homeless crazy guy at table eighteen .",
+    "speaker": "cheryl",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 534.04,
+    "end": 534.44,
+    "text": "No ,",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 541.28,
+    "end": 546.3,
+    "text": "just crazy . P0001 , what are you doing here ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 546.92,
+    "end": 549.35,
+    "text": "I ' m sick , thank you very much .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 550.15,
+    "end": 552.11,
+    "text": "How could you have gotten it from me , I ' m not sick .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 552.25,
+    "end": 556.58,
+    "text": "You 're a carrier . All these people here are doomed . You 're doomed !",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 558.13,
+    "end": 561.41,
+    "text": "Shhh ! P0001 , what do you want .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 561.81,
+    "end": 562.85,
+    "text": "I want soup .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 566.56,
+    "end": 572.71,
+    "text": "Why did n't you just ... Why did n't you just have soup at home .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 573.52,
+    "end": 580.22,
+    "text": "P0003 , I have an IQ of 187 , do n't you imagine that if there were a way for me to have had soup at home I would have thought of it ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 581.89,
+    "end": 582.81,
+    "text": "You can have soup delivered .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 587.33,
+    "end": 596.45,
+    "text": "I did not think of that . Clearly febrile delirium is setting in , please bring me some soup while I still understand what a spoon is for .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 597.52,
+    "end": 598.98,
+    "text": "Okay , what kind of soup do you want .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 599.22,
+    "end": 605.5,
+    "text": "Well , my mother used to make me this split pea with little frankfurter slices and these home made croutons .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 606.27,
+    "end": 607.87,
+    "text": "We have Chicken Tortilla and Potato Leek .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 609.38,
+    "end": 612.84,
+    "text": "Can I get any of those with little frankfurter slices and home made croutons ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 613.86,
+    "end": 614.36,
+    "text": "No .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 615.38,
+    "end": 616.22,
+    "text": "Then surprise me .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 626.42,
+    "end": 628.6,
+    "text": "Would you call that moss green or forest green ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 643.91,
+    "end": 644.64,
+    "text": "Look at this , everyone went chimp .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 646.37,
+    "end": 649.61,
+    "text": "Well I 'd like to point out , I voted for orang - utan , but you shouted me down . .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 651.97,
+    "end": 654.31,
+    "text": "Oh , hi P0003 !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 655.89,
+    "end": 656.9,
+    "text": "Hey , where are you ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 657.16,
+    "end": 659.88,
+    "text": "I ' m ... uh ... at work .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 660.83,
+    "end": 661.7,
+    "text": "You sound funny .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 662.42,
+    "end": 666.25,
+    "text": "I ' m ... uh ... in a ... I ' m in a radiation suit . What 's up ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 666.66,
+    "end": 670.35,
+    "text": "Yeah , well I ' m at work too , and you 'll never guess who 's here infecting my entire station .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 670.93,
+    "end": 674.4,
+    "text": "P0001 's at the Cheesecake Factory . Just tell him to go home .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 675.0,
+    "end": 679.33,
+    "text": "He wo n't leave , he says he 's afraid he 'll pass out on the bus and someone will harvest his organs .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 680.46,
+    "end": 682.83,
+    "text": "He 's paranoid , and he 's established a nest .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 683.83,
+    "end": 685.46,
+    "text": "Can you please come get him ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 686.1,
+    "end": 698.58,
+    "text": "Uh , yeah , I 'd be ... I 'd be happy to P0003 . Oh my God there 's a breech in the radiation unit The whole city is in jeopardy , oh my God , Professor Googenfeil is melting , got ta go , bye !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 704.86,
+    "end": 705.98,
+    "text": "I feel really guilty .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 706.74,
+    "end": 707.85,
+    "text": "You did what you had to do .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 708.18,
+    "end": 712.71,
+    "text": "Take your stinking paws off my popcorn you damn dirty ape .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 717.84,
+    "end": 719.13,
+    "text": "Thanks for bringing me home .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 719.77,
+    "end": 729.96,
+    "text": "Oh , it 's okay , I did n't really need to work today , it 's not like I have rent or car payments or anything . Okay , well , you feel better .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 724.99,
+    "end": 725.77,
+    "text": "Good . Good .",
+    "speaker": "P0001",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 730.07,
+    "end": 732.33,
+    "text": "Wait , where are you going ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 733.6,
+    "end": 736.24,
+    "text": "Um , home , to write some bad checks .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 737.98,
+    "end": 739.11,
+    "text": "You 're going to leave me ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 739.75,
+    "end": 742.5,
+    "text": "P0001 , you are a grown man , have n't you ever been sick before ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 742.82,
+    "end": 745.2,
+    "text": "Well , of course , but , not by myself .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 746.27,
+    "end": 747.49,
+    "text": "Really , never ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 747.83,
+    "end": 753.16,
+    "text": "Well , once . When I was fifteen , and spending the summer at the Heidelberg Institute in Germany .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 753.47,
+    "end": 754.49,
+    "text": "Studying abroad ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 754.81,
+    "end": 767.54,
+    "text": "No , visiting professor . Anyway , the local cuisine was a little more sausage - based than I ' m used to , and the result was an internal blitzkrieg with my lower intestine playing the part of Czechoslovakia .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 769.38,
+    "end": 771.45,
+    "text": "And there was no - one there to take care of you ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 771.49,
+    "end": 777.63,
+    "text": "No . No , my mom had to fly back to Texas to help my dad because the house had slipped off the cinderblocks again .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 779.47,
+    "end": 779.92,
+    "text": "Again ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 780.12,
+    "end": 793.7,
+    "text": "It was tornado season . And it was an aluminum house . Anyway , the housekeeper in the faculty residence did n't speak any English , when I finally managed to convince her I was sick , she said ' MÃ¶chtest Du eine DarmspÃ¼lung ? '",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 794.34,
+    "end": 796.09,
+    "text": "What does that mean ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 796.43,
+    "end": 799.42,
+    "text": "Based on what happened next , I assume it means ' would you like an enema ? '",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 801.38,
+    "end": 801.74,
+    "text": "Okay ,",
+    "speaker": "P0003",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 803.33,
+    "end": 805.72,
+    "text": "sweetie , I 'll take care of you , what do you need ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 806.43,
+    "end": 809.4,
+    "text": "Well , my mom used to give me sponge baths .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 816.85,
+    "end": 820.22,
+    "text": "Okay , ground rules , no sponge baths , and definitely no enemas .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 821.86,
+    "end": 822.48,
+    "text": "Agreed .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 827.58,
+    "end": 830.87,
+    "text": "Here we go , ten and a half hours of apey goodness .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 834.47,
+    "end": 839.53,
+    "text": "Oh dammit , my glasses . Okay , I ' m blind here guys , can you help me find them ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 839.7,
+    "end": 844.1,
+    "text": "Sorry . Found 'em .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 847.69,
+    "end": 848.55,
+    "text": "Oh great .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 848.76,
+    "end": 850.21,
+    "text": "Sorry , do n't you have a spare .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 850.36,
+    "end": 851.35,
+    "text": "Yeah , at home .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 851.55,
+    "end": 855.07,
+    "text": "Well if you leave now , you can be back before the gorillas rip the crap out of Charlton Heston .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 856.07,
+    "end": 860.96,
+    "text": "Unless P0001 's there , in which case you 'll be trapped forever in his whiny hyper neurotic snot - web .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 869.28,
+    "end": 888.95,
+    "text": "Hi , P0003 . I was wondering , is P0001 still at the restaurant ? Okay , that was very nice of you . Okay , got ta go , got kind of a full blown Chernobyl thing here , got ta go , bye . He 's home , I ' m screwed . Ten and a half hours of apey blurriness .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 891.17,
+    "end": 891.75,
+    "text": "How about Lasic ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 893.01,
+    "end": 895.44,
+    "text": "You want me to get eye surgery ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 895.85,
+    "end": 899.97,
+    "text": "Would you rather go back to the apartment and deal with P0001 , or have a stranger carve out your corneas with a laser beam ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 903.26,
+    "end": 903.53,
+    "text": "Well ?",
+    "speaker": "P0004",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 903.62,
+    "end": 904.12,
+    "text": "I ' m thinking !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 906.83,
+    "end": 911.39,
+    "text": "Okay , nice and cosy , okay , I 'll see you later .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 912.0,
+    "end": 915.85,
+    "text": "Wait . Will you please rub this on my chest .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 917.3,
+    "end": 919.77,
+    "text": "Oh , P0001 , ca n't you do that yourself ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 919.86,
+    "end": 922.07,
+    "text": "Vaporub makes my hands smell funny .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 923.35,
+    "end": 926.83,
+    "text": "But P0001 ... I ca n't believe I ' m doing this .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 924.46,
+    "end": 924.65,
+    "text": "Please , please , please , please , please , please , please .",
+    "speaker": "P0001",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 938.31,
+    "end": 940.99,
+    "text": "No , no , counter - clockwise or my chest hair mats .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 945.45,
+    "end": 945.81,
+    "text": "Sorry .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 950.27,
+    "end": 951.69,
+    "text": "Can you sing ' Soft Kitty ' .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 954.59,
+    "end": 954.93,
+    "text": "What ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 955.61,
+    "end": 957.98,
+    "text": "My mom used to sing it to me when I was sick .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 958.15,
+    "end": 959.62,
+    "text": "I ' m sorry , honey , I do n't know it .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 959.69,
+    "end": 980.11,
+    "text": "I 'll teach you . ' Soft kitty , warm kitty , little ball of fur , happy kitty , sleepy kitty purr purr purr . ' Now you .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 986.88,
+    "end": 990.28,
+    "text": "Soft kitty , warm kitty ...",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 992.18,
+    "end": 995.91,
+    "text": "Little ball of fur . Keep rubbing .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 998.46,
+    "end": 1000.33,
+    "text": "Little ball of fur .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1015.2,
+    "end": 1016.47,
+    "text": "What do you see , what do you see .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1017.01,
+    "end": 1018.42,
+    "text": "The living room appears to be empty .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1018.52,
+    "end": 1024.64,
+    "text": "Okay , he must be in his bedroom . My spare glasses are in my bedroom , on my dresser , next to my Bat - signal .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1026.58,
+    "end": 1027.55,
+    "text": "I ' m not going in there .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1028.39,
+    "end": 1028.98,
+    "text": "P0005 ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1029.04,
+    "end": 1029.67,
+    "text": "No way , Jose .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1031.24,
+    "end": 1033.24,
+    "text": "Well I ca n't do it , I ca n't see anything .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1033.27,
+    "end": 1057.74,
+    "text": "It 's all right , wireless mini - cam and Bluetooth headset . We 'll be your eyes . One more thing . This is a subsonic impact sensor . If P0001 gets out of bed and starts to walk , this device will register it and send a signal to the laptop . At that point , based on the geography of the apartment and the ambulatory speed of a sick P0001 , you 'll have seven seconds to get out , glasses or no glasses .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1039.23,
+    "end": 1039.78,
+    "text": "Fine .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1059.06,
+    "end": 1060.54,
+    "text": "Wo n't my footsteps set it off ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1060.61,
+    "end": 1065.72,
+    "text": "No , you 'll be on your hands and knees . Now you 'll need to get the sensor as close as you can to P0001 's room .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1066.03,
+    "end": 1068.33,
+    "text": "Well , how do I carry it if I ' m on my hands and knees ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1073.71,
+    "end": 1079.85,
+    "text": "Stay low . Bear left . Now keep true . It means go straight .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1078.42,
+    "end": 1078.83,
+    "text": "What ?",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1080.42,
+    "end": 1081.87,
+    "text": "Then just say go straight .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1083.36,
+    "end": 1085.67,
+    "text": "You do n't stay go straight when you 're giving bearings , you say keep true .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1087.28,
+    "end": 1093.3,
+    "text": "Alright I just hit my head .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1094.27,
+    "end": 1099.82,
+    "text": "Because you did n't keep true . Okay , turn right .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1100.92,
+    "end": 1102.94,
+    "text": "The ... the picture 's breaking up .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1103.5,
+    "end": 1121.11,
+    "text": "Angle your head to the right . A little more . A little more . That 's it , now just keep true . Alright , you 're close enough to P0001 's room , deploy the sensor . Now turn it on .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1122.11,
+    "end": 1126.01,
+    "text": "It was n't on ? Then why did I have to crawl ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1123.74,
+    "end": 1124.03,
+    "text": "No .",
+    "speaker": "P0004",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1127.44,
+    "end": 1128.74,
+    "text": "Oh , I guess you did n't .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1132.97,
+    "end": 1133.74,
+    "text": "Okay , it 's on .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1134.07,
+    "end": 1136.72,
+    "text": "Good . From this point forward you will have to crawl .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1138.91,
+    "end": 1139.56,
+    "text": "I know .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1143.77,
+    "end": 1146.31,
+    "text": "Hang on , the sensor 's picking up something , turn your head back .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1152.9,
+    "end": 1153.88,
+    "text": "You rat bastard .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1155.72,
+    "end": 1157.61,
+    "text": "Told you the sensor would work .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1159.87,
+    "end": 1160.44,
+    "text": "Hi !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1161.1,
+    "end": 1163.04,
+    "text": "You deliberately stuck me with P0001 .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1163.34,
+    "end": 1165.49,
+    "text": "Well , I had to , you see what he 's like .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1165.72,
+    "end": 1167.92,
+    "text": "P0003 ! P0003 , I ' m hungry .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1168.79,
+    "end": 1173.79,
+    "text": "Uh , it 's okay , sweetie , good news , P0002 's home ! Here you go , good luck , bye .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1172.31,
+    "end": 1172.47,
+    "text": "No !",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1174.2,
+    "end": 1174.64,
+    "text": "W - wait !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1175.07,
+    "end": 1176.43,
+    "text": "P0002 , I ' m hungry !",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1176.78,
+    "end": 1178.61,
+    "text": "Wait ! P0003 ! Take me with you !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1188.71,
+    "end": 1189.85,
+    "text": "I want grilled cheese .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1207.85,
+    "end": 1210.59,
+    "text": "Do you think P0003 will come here and take care of us ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1212.44,
+    "end": 1214.79,
+    "text": "I do n't think P0003 's ever coming here again .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1218.36,
+    "end": 1227.49,
+    "text": "I ' m very congested . Can you go to the kitchen , and get me the turkey baster labelled mucus .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1221.78,
+    "end": 1223.1,
+    "text": "Yeah , so ?",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1231.44,
+    "end": 1233.31,
+    "text": "If I stand , I 'll vomit .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1234.95,
+    "end": 1236.69,
+    "text": "Under the sink , yellow Tupperware bowl .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  }
+]

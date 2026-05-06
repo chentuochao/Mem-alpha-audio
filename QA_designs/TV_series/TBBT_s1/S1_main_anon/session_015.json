@@ -1,0 +1,1612 @@
+[
+  {
+    "start": 1.38,
+    "end": 8.5,
+    "text": "On the other hand , some physicists are concerned that if the super collider actually works , it will create a black hole and swallow up the Earth ending life as we know it .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 9.07,
+    "end": 12.57,
+    "text": "Psh , what a bunch of crybabies . No guts , no glory man .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 14.34,
+    "end": 18.5,
+    "text": "Hey , check it out , the school of pharmacology is looking for volunteers .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 18.58,
+    "end": 28.18,
+    "text": "We are testing a new medication for social anxiety , panic attacks , agoraphobia and obsessive compulsive disorder . Why would they be looking for test subjects here ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 30.08,
+    "end": 38.11,
+    "text": "I do n't know , P0005 . Maybe the comic book store does n't have a bulletin board . What 's going on ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 38.4,
+    "end": 39.87,
+    "text": "Shhh ! Hot girl in P0001 's office .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 41.02,
+    "end": 45.09,
+    "text": "P0001 's office ? Is she lost ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 46.71,
+    "end": 49.05,
+    "text": "Do n't think so . I followed her here from the parking lot .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 51.58,
+    "end": 52.72,
+    "text": "Maybe she 's his lawyer .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 53.39,
+    "end": 60.58,
+    "text": "Well she 's free to examine my briefs . I know , I ' m disgusting , I should be punished . By her , oh look , I did it again .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 55.32,
+    "end": 55.53,
+    "text": "P0004 ...",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 61.42,
+    "end": 62.1,
+    "text": "Well , that should do it .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 62.51,
+    "end": 68.22,
+    "text": "Thank you for coming by . Hello .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 72.59,
+    "end": 73.9,
+    "text": "Oh , hey buddy .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 76.26,
+    "end": 77.2,
+    "text": "Buddy .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 78.58,
+    "end": 83.0,
+    "text": "Sorry I ' m late , I ' m working on a project that may take me up on the next space shuttle .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 84.35,
+    "end": 86.61,
+    "text": "How can you be late , I was n't expecting you at all .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 88.05,
+    "end": 92.11,
+    "text": "Nobody ever expects me , sometimes you just look and ... BAM ! P0004 .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 93.94,
+    "end": 95.38,
+    "text": "P0001 , are you going to introduce us ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 95.59,
+    "end": 101.21,
+    "text": "Oh , alright , this is Missy , Missy this is P0002 and P0005 and you ' ve already met P0004 .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 101.37,
+    "end": 102.2,
+    "text": "It 's nice to meet you .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 102.24,
+    "end": 108.32,
+    "text": "You too , swell , also . So , how do you two know each other .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 102.83,
+    "end": 103.0,
+    "text": "Yeah .",
+    "speaker": "P0004",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 108.85,
+    "end": 111.92,
+    "text": "Oh , he once spent nine months with my legs wrapped around his head .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 115.75,
+    "end": 116.32,
+    "text": "Excuse me ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 117.77,
+    "end": 122.0,
+    "text": "She 's my twin sister , she thinks she 's funny but frankly I ' ve never been able to see it .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 122.27,
+    "end": 124.87,
+    "text": "It 's because you have no measurable sense of humor , P0001 .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 125.22,
+    "end": 128.61,
+    "text": "How exactly would one measure a sense of humor ? A humormometer ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 130.67,
+    "end": 131.03,
+    "text": "Well ,",
+    "speaker": "P0004",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 132.72,
+    "end": 136.39,
+    "text": "I think you 're delightfully droll . Or as the French say , tres drole .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 137.75,
+    "end": 143.16,
+    "text": "Okay , so let me see if I got this . P0002 , P0004 and ... I ' m sorry what was your name again .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 174.63,
+    "end": 174.91,
+    "text": "P0005 .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 195.05,
+    "end": 196.98,
+    "text": "So Missy , what brings you all the way from Texas ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 197.1,
+    "end": 199.1,
+    "text": "Was it perhaps destiny , I think it was destiny .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 199.82,
+    "end": 201.73,
+    "text": "My friend 's getting married in Disneyland tomorrow night .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 201.83,
+    "end": 204.24,
+    "text": "Destiny , thy name is Anaheim .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 206.85,
+    "end": 209.43,
+    "text": "And I had to drop off some papers for P0001 to sign for my dad 's estate .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 209.88,
+    "end": 213.47,
+    "text": "The papers could have been mailed , Mom just sent you here to spy on me , did n't she .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 213.62,
+    "end": 215.84,
+    "text": "I guess that 's why they call you a genius .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 215.9,
+    "end": 227.04,
+    "text": "They call me a genius because I ' m a genius . Tell Mom that I currently weigh 165 pounds , and that I ' m having regular bowel movements . Enjoy the wedding , goodbye .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 227.09,
+    "end": 232.86,
+    "text": "Woah , woah . If the wedding 's not until tomorrow , why do n't you stay with us tonight ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 227.09,
+    "end": 227.84,
+    "text": "Woah , woah .",
+    "speaker": "P0004",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 233.19,
+    "end": 239.21,
+    "text": "Oh , I do n't think so . P0001 does n't like company . Even as a little boy he 'd send his imaginary friends home at the end of the day .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 240.18,
+    "end": 243.07,
+    "text": "They were not friends , they were imaginary colleagues .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 244.21,
+    "end": 246.36,
+    "text": "Look , you 're here , we have plenty of room .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 246.42,
+    "end": 247.25,
+    "text": "No we do n't .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 247.28,
+    "end": 249.78,
+    "text": "Come on , P0001 , she 's family .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 250.54,
+    "end": 252.58,
+    "text": "So what ? I do n't issue invitations to your mother .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 254.35,
+    "end": 256.61,
+    "text": "Well it would be nice not to have to drive out to Anaheim in rush hour .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 256.72,
+    "end": 258.05,
+    "text": "And do n't ever call me P0001 .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 259.17,
+    "end": 261.01,
+    "text": "So it 's settled . You 'll stay with us .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 261.28,
+    "end": 263.51,
+    "text": "I 'll walk you to your car . You 're in structure 3 level C , right ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 268.29,
+    "end": 269.23,
+    "text": "What just happened ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 272.05,
+    "end": 277.57,
+    "text": "So anyway , we 're eight years old , and P0001 converts my easy - bake oven to some kind of high - powered furnace .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 278.7,
+    "end": 279.51,
+    "text": "Hee - hee , just classic .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 281.27,
+    "end": 285.38,
+    "text": "I needed a place to fire ceramic semi - conductor substrates for home - made integrated circuits .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 286.18,
+    "end": 289.08,
+    "text": "He was trying to build some kind of armed robot to keep me out of his room .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 289.79,
+    "end": 292.47,
+    "text": "Made necessary by her insistence on going into my room .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 293.47,
+    "end": 298.66,
+    "text": "Anyway , I go to make those little corn muffins they give you , there 's a big flash , next thing you know my eyebrows are gone .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 298.81,
+    "end": 301.42,
+    "text": "Ha - ha , not your eyebrows ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 303.21,
+    "end": 307.27,
+    "text": "Yep . I had to go through the entire second grade with crooked eyebrows my Mom drew on .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 308.2,
+    "end": 312.59,
+    "text": "Is that what that was ? I just assumed that the second grade curriculum had rendered you quizzical .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 315.81,
+    "end": 318.67,
+    "text": "Hey , P0002 , you left your underwear in the dryer downstairs .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 325.13,
+    "end": 326.3,
+    "text": "Those are not mine .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 327.39,
+    "end": 331.24,
+    "text": "Really , they have your little name label in them .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 332.31,
+    "end": 353.75,
+    "text": "Yeah , no , I do , I use those ... uh ... just to polish up my ... spear - fishing equipment . I spear fish . When I ' m not crossbow hunting , I spear fish . Uh , P0003 , this is P0001 's twin sister , Missy . Missy , this is our neighbor P0003 .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 353.78,
+    "end": 354.04,
+    "text": "Hi .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 354.26,
+    "end": 356.01,
+    "text": "Wow , you do n't look that much alike .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 356.04,
+    "end": 357.07,
+    "text": "Can I get a hallelujah .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 359.15,
+    "end": 363.1,
+    "text": "Fraternal twins come from two separate eggs , they are no more alike than any other siblings .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 363.12,
+    "end": 363.59,
+    "text": "Hallelujah .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 365.85,
+    "end": 371.19,
+    "text": "Hey , guess what . I ' ve been accepted as a test subject for a new miracle drug to overcome pathological shyness .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 371.65,
+    "end": 373.01,
+    "text": "Hey , good for you , P0005 .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 373.18,
+    "end": 375.32,
+    "text": "Yes , I ' m very hopeful . Hello Missy .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 385.57,
+    "end": 394.79,
+    "text": "They mentioned there may be side effects . So , Missy . Have you ever met a man from the exotic subcontinent of India ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 396.42,
+    "end": 398.17,
+    "text": "Well , there 's Dr Patel at our church .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 398.31,
+    "end": 399.62,
+    "text": "Ah yes , Dr Patel , good man .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 400.85,
+    "end": 403.13,
+    "text": "Do you like motorcycles , 'cos I ride a hog .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 404.1,
+    "end": 407.56,
+    "text": "A hog ? You have a two cylinder scooter with a basket on the front .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 409.27,
+    "end": 411.29,
+    "text": "You still have to wear a helmet .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 413.15,
+    "end": 422.5,
+    "text": "Have you ever heard of the Kama Sutra ? The Indian sex book . In other words if you wonder wonder who wrote the book of love , it was us .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 415.05,
+    "end": 415.78,
+    "text": "The sex book ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 424.16,
+    "end": 426.33,
+    "text": "Hey , P0001 's sister 's pretty cute , I w ...",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 426.35,
+    "end": 427.2,
+    "text": "I was n't staring !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 429.73,
+    "end": 431.78,
+    "text": "I did n't say you were , I just said she was cute .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 432.61,
+    "end": 439.82,
+    "text": "Oh . Huh , um , maybe , if you like women who are tall ... and perfect .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 443.21,
+    "end": 445.09,
+    "text": "P0001 , why are you ignoring your sister ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 445.37,
+    "end": 448.06,
+    "text": "I ' m not ignoring my sister . I ' m ignoring all of you .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 451.68,
+    "end": 452.14,
+    "text": "I brought snacks .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 452.26,
+    "end": 453.72,
+    "text": "Oh my ! Gherkins and ...",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 454.91,
+    "end": 460.61,
+    "text": "Onion dip , it 's onion dip . We do n't entertain much .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 457.23,
+    "end": 457.91,
+    "text": "Oh .",
+    "speaker": "missy_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 463.04,
+    "end": 465.22,
+    "text": "Missy , do you enjoy pajamas ?",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 466.45,
+    "end": 466.99,
+    "text": "I guess .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 467.13,
+    "end": 470.54,
+    "text": "We Indians invented them . You 're welcome .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 472.66,
+    "end": 474.59,
+    "text": "Yeah , well my people invented circumcision .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 479.7,
+    "end": 480.46,
+    "text": "You 're welcome !",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 483.26,
+    "end": 485.32,
+    "text": "Missy , I ' m going to go get my nails done . Do you want to come ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 485.44,
+    "end": 486.83,
+    "text": "God yes . Thanks .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 487.74,
+    "end": 488.64,
+    "text": "You 're welcome .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 489.55,
+    "end": 490.45,
+    "text": "Bye guys .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 491.36,
+    "end": 491.81,
+    "text": "Bye Missy .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 491.92,
+    "end": 495.01,
+    "text": "Bye Missy , see you . Uh , yeah , no , uh , bye P0003 .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 493.03,
+    "end": 493.78,
+    "text": "Goodbye P0002 !",
+    "speaker": "P0003",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 497.78,
+    "end": 499.02,
+    "text": "Okay , you two have to back off .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 499.33,
+    "end": 500.72,
+    "text": "Why should I back off , you back off dude .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 500.76,
+    "end": 508.26,
+    "text": "Excuse me , this is my apartment and she 's my roommate 's sister . How do I have P0003 ? In what universe do I have P0003 ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 503.78,
+    "end": 505.11,
+    "text": "So what , you ' ve already got P0003 .",
+    "speaker": "P0004",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 509.56,
+    "end": 510.24,
+    "text": "So I can have P0003 ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 510.32,
+    "end": 510.9,
+    "text": "Hell , no !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 512.82,
+    "end": 519.43,
+    "text": "Excuse me , can I interject something . I ' m ordering pizza online , is everyone okay with pepperoni ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 521.95,
+    "end": 523.29,
+    "text": "P0001 , can I talk to you in private ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 523.63,
+    "end": 530.95,
+    "text": "I guess . Do n't worry , I was going to order you cheeseless . That 's okay . Lactose intolerance is nothing to be embarrassed about .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 527.69,
+    "end": 528.23,
+    "text": "Thank you .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 533.72,
+    "end": 535.81,
+    "text": "I ' m a fancy Indian man , we invented pajamas !",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 537.02,
+    "end": 539.07,
+    "text": "Hey , look at me , I do n't have a foreskin .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 546.79,
+    "end": 553.36,
+    "text": "P0001 , are you aware that your sister is an incredibly attractive woman ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 554.72,
+    "end": 566.48,
+    "text": "Hmmm ? She certainly has the symmetry and low body fat that western culture deems desirable . It 's noteworth that at other points in history , heavier women were the standard for beauty because their girth suggested affluence .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 568.02,
+    "end": 569.01,
+    "text": "That 's fascinating , but I ...",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 569.05,
+    "end": 570.77,
+    "text": "I did n't say it was fascinating , I said it was noteworthy .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 572.36,
+    "end": 580.63,
+    "text": "Alright , noted . But my point is that P0005 and P0004 ... they 're hitting on your sister .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 580.66,
+    "end": 580.95,
+    "text": "Oh .",
+    "speaker": "P0001",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 584.5,
+    "end": 591.41,
+    "text": "Okay . You know , I do n't want to criticise your rhetorical style but , we 'd be a lot further along in this conversation if you 'd begun with that thought .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 592.61,
+    "end": 593.47,
+    "text": "That 's great , but I ...",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 593.5,
+    "end": 596.91,
+    "text": "What I ' m saying is that we took quite an unnecessary detour from what I now understand to be your thesis .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 598.22,
+    "end": 604.17,
+    "text": "Whatever . You have to do something about it . Because she 's your sister .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 601.67,
+    "end": 602.34,
+    "text": "Why ?",
+    "speaker": "P0001",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 605.39,
+    "end": 611.41,
+    "text": "I do n't understand . Yes , we shared a uterus for nine months , but since then we ' ve pretty much gone our own separate ways .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 613.51,
+    "end": 622.38,
+    "text": "Okay , uh ... oh , consider this . With your father gone , it is your responsibility to make sure that Missy chooses a suitable mate .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 624.34,
+    "end": 635.66,
+    "text": "I had n't considered that . We do share DNA . So there is the possibility , however remote , that resting in her loins is the potential for another individual as remarkable as myself .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 628.24,
+    "end": 628.39,
+    "text": "Uh - huh .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 637.24,
+    "end": 645.32,
+    "text": "Exactly . And , you owe it to yourself and to posterity to protect the genetic integrity of your sister 's future offspring .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 647.76,
+    "end": 652.56,
+    "text": "You 're right . If someone wants to get at Missy 's fallopian tubes , they 'll have to go through me .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 662.75,
+    "end": 665.58,
+    "text": "I am Shiva the destroyer , I will have the woman !",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 667.45,
+    "end": 670.55,
+    "text": "I ' m warning you , I was judo champion at math camp .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 671.64,
+    "end": 681.19,
+    "text": "Alright , that 's enough juvenile squabbling , stop it , stop it I say . I ' m going to settle this right now . Neither of you are good enough for my sister .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 681.42,
+    "end": 682.96,
+    "text": "Who are you to decide that ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 682.98,
+    "end": 687.39,
+    "text": "He 's the man of his family , you have to respect his wishes . Say what ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 686.11,
+    "end": 693.53,
+    "text": "You 're out too , by the way . It 's nothing personal , I 'd just prefer if my future niece or nephew did n't become flatulent every time they eat an Eskimo pie .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 700.67,
+    "end": 702.13,
+    "text": "What are you so happy about ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 702.34,
+    "end": 705.21,
+    "text": "I ' m not happy , it 's the medication , I ca n't stop smiling .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 713.33,
+    "end": 719.47,
+    "text": "Now that P0002 's made me aware of how high the genetic stakes are , we have to face the fact that none of you are suitable mates for my sister .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 719.84,
+    "end": 722.11,
+    "text": "Wait a minute . P0002 made you aware of that ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 724.07,
+    "end": 725.24,
+    "text": "We all make mistakes , let 's move on .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 726.8,
+    "end": 728.86,
+    "text": "Excuse me , but I think you 're missing a big opportunity here .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 729.4,
+    "end": 730.1,
+    "text": "How so ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 730.41,
+    "end": 736.2,
+    "text": "Everybody knows genetic diversity produces the strongest offspring . Why not put a little mocha in the family latte .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 739.8,
+    "end": 747.78,
+    "text": "In principle you have a point , but as a practical matter , need I remind you that it takes experimental pharmaceuticals to simply enable you to speak to the opposite sex .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 749.09,
+    "end": 751.48,
+    "text": "I think you 're focussing entirely too much on the drugs .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 757.85,
+    "end": 760.97,
+    "text": "Is it 'cause I ' m Jewish , 'cause I 'd kill my Rabbi with a porkchop to be with your sister .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 768.71,
+    "end": 774.08,
+    "text": "This has nothing to do with religion . This has to do with the fact that you 're a tiny , tiny man who still lives with his mother .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 775.95,
+    "end": 777.81,
+    "text": "P0001 , you are really being unreasonable .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 778.2,
+    "end": 782.47,
+    "text": "Am I ? Here . Eat this cheese without farting and you can sleep with my sister .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 785.9,
+    "end": 786.62,
+    "text": "Oh really ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 790.06,
+    "end": 790.36,
+    "text": "Oops .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 792.55,
+    "end": 795.2,
+    "text": "P0001 , can I speak to you for a minute ? Alone ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 796.52,
+    "end": 800.66,
+    "text": "Why does everyone suddenly want to talk to me alone ? Usually nobody wants to be alone with me .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 807.14,
+    "end": 808.46,
+    "text": "We all make mistakes , let 's move on .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 811.13,
+    "end": 819.97,
+    "text": "Okay . I ' m not even going to ask why you 're pimping me out for cheese . But since when do you care at all about who I sleep with ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 820.48,
+    "end": 825.89,
+    "text": "Truthfully , I ' ve never given it any thought , but it has been pointed out to me that you carry DNA of great potential .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 826.1,
+    "end": 827.38,
+    "text": "What on earth are you talking about ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 827.52,
+    "end": 834.74,
+    "text": "Let me explain . You see , I ' m a superior genetic mutation , an improvement on the existing mediocre stock .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 836.14,
+    "end": 838.97,
+    "text": "And what do you mean , mediocre stock ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 839.47,
+    "end": 850.84,
+    "text": "That would be you . But residing within you is the potential for another me . Perhaps even taller , smarter and less prone to freckling , a P0001 2.0 if you will .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 852.49,
+    "end": 853.55,
+    "text": "P0001 2.0 ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 853.99,
+    "end": 862.5,
+    "text": "Exactly . Now , I am not saying that I should be the sole decider of who you mate with . If you 're not attracted to the suitor then the likelihood of conception would be reduced .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 862.56,
+    "end": 864.12,
+    "text": "You have got to be kidding me !",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 864.21,
+    "end": 867.58,
+    "text": "Not at all . Frequent coitus dramatically increases the odds of fertiliziation .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 869.43,
+    "end": 881.28,
+    "text": "Okay P0001 , sit down . Now I ' ve lived my whole life dealing with the fact that my twin brother is , as Mom puts it , one of God 's special little people .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 882.26,
+    "end": 896.56,
+    "text": "I always thought I was more like a cuckoo bird . You know , a superior creature whose egg is placed in the nest of ordinary birds . Of course the newly hatched cuckoo eats all the food , leaving the ordinary siblings to starve to death . Luckily for you , that 's where the metaphor ended .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 899.13,
+    "end": 916.41,
+    "text": "I thought it ended at cuckoo . Now you listen to me , if you want to start acting like a brother who cares about me , then terrific . Bring it on . But you try one time to tell me who I should be sleeping with , and you and I are going to go round and round the way we did when we were little . Remember ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 920.92,
+    "end": 922.16,
+    "text": "I have an alternate proposal .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 922.38,
+    "end": 922.94,
+    "text": "Go on .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 923.68,
+    "end": 933.65,
+    "text": "You donate eggs . We will place them in cryogenic storage . I will find an appropriate sperm donor for your eggs , have them fertilized and implanted in you , that way everybody wins .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 942.63,
+    "end": 945.47,
+    "text": "Correction . Missy can date whoever she wants .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 947.2,
+    "end": 949.18,
+    "text": "Look , we have to settle this .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 949.54,
+    "end": 954.1,
+    "text": "I agree . P0001 's sister is hiding at P0003 's because we ' ve all been hitting on her at the same time .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 954.19,
+    "end": 959.95,
+    "text": "She 's not hiding . She needed privacy to call her grandmother who 's apparently very sick . Oh , and then I believe she has to wash her hair .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 961.83,
+    "end": 963.59,
+    "text": "Oh , you poor , deluded bastard .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 964.37,
+    "end": 965.48,
+    "text": "Do n't start with me dude .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 965.53,
+    "end": 967.36,
+    "text": "You want to go again ? Let 's go . Okay .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 966.85,
+    "end": 966.99,
+    "text": "Sit down .",
+    "speaker": "P0002",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 968.85,
+    "end": 976.76,
+    "text": "If we 're going to fight over Missy , let 's do it the right way . The honorable way . And he 's down !",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 977.24,
+    "end": 977.63,
+    "text": "Come on ,",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 986.62,
+    "end": 987.65,
+    "text": "come on , get up .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 987.79,
+    "end": 988.02,
+    "text": "Stay down ,",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 994.26,
+    "end": 996.38,
+    "text": "bitch . Yeah , ha ha , natural selection at work .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 996.57,
+    "end": 997.73,
+    "text": "I weep for humanity .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 999.13,
+    "end": 1000.99,
+    "text": "Excuse me while I go tell Missy the good news .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1008.05,
+    "end": 1008.88,
+    "text": "Ah , hey P0002 .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1009.22,
+    "end": 1016.16,
+    "text": "Hi P0003 , how 's it going . Listen , that guy Mike that you were dating , is that still going on ? Nothing , just catching up . By the way , may I speak to Missy please ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1012.71,
+    "end": 1013.58,
+    "text": "Uh , pretty much , why ?",
+    "speaker": "P0003",
+    "dialog_type": "overlap"
+  },
+  {
+    "start": 1017.61,
+    "end": 1019.06,
+    "text": "Of course .",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1020.51,
+    "end": 1021.85,
+    "text": "Hi , P0002 , what 's up ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1022.06,
+    "end": 1025.46,
+    "text": "Well , since you 're leaving tomorrow I was wondering if you 'd like to go out to dinner with me ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1026.09,
+    "end": 1028.5,
+    "text": "That 's so sweet . But no thanks .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1030.14,
+    "end": 1032.76,
+    "text": "Oh . You have other plans , or ... ?",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1032.85,
+    "end": 1033.07,
+    "text": "No .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1035.32,
+    "end": 1035.68,
+    "text": "Oh .",
+    "speaker": "P0002",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1037.56,
+    "end": 1041.27,
+    "text": "Alright uh ... enjoy the rest of your evening .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1041.98,
+    "end": 1042.93,
+    "text": "Thanks . See you .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1050.1,
+    "end": 1052.18,
+    "text": "Um , here 's something we did n't anticipate .",
+    "speaker": "P0002",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1053.97,
+    "end": 1058.46,
+    "text": "What do you want , P0004 ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1060.25,
+    "end": 1064.82,
+    "text": "I ' m fine , thanks for asking . I ' ve come to call on Missy .",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1064.87,
+    "end": 1065.24,
+    "text": "Missy ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1069.43,
+    "end": 1070.08,
+    "text": "Hi P0004 .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1070.48,
+    "end": 1074.51,
+    "text": "The amazing P0004 . Do you like magic ?",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1074.79,
+    "end": 1075.69,
+    "text": "Not really . No .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1077.42,
+    "end": 1086.66,
+    "text": "Then you are in for a treat . Behold , an ordinary cane . Da - dah !",
+    "speaker": "P0004",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1090.34,
+    "end": 1090.7,
+    "text": "No .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1094.37,
+    "end": 1094.75,
+    "text": "Okay .",
+    "speaker": "P0004",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1104.69,
+    "end": 1105.05,
+    "text": "Missy ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1115.0,
+    "end": 1121.63,
+    "text": "Thank you . I apprec ... apprec ... appreeee ... oh - oh .",
+    "speaker": "P0005",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1123.91,
+    "end": 1124.03,
+    "text": "Oh ,",
+    "speaker": "P0003",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1125.69,
+    "end": 1127.33,
+    "text": "honey , is your medication wearing off ?",
+    "speaker": "P0003",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1130.83,
+    "end": 1133.6,
+    "text": "Oh , hi , cutie pie . I was hoping you 'd show up .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1161.49,
+    "end": 1164.64,
+    "text": "We had a dog who made a noise like that . Had to put him down .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1169.69,
+    "end": 1171.56,
+    "text": "Any news you want me to pass along to Mom ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1172.34,
+    "end": 1178.45,
+    "text": "Well , she might be interested to know that I have refocused my research from bosonic string theory to heteronic string theory .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1179.69,
+    "end": 1180.93,
+    "text": "Yeah , I 'll just tell her you said hey .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1183.56,
+    "end": 1188.05,
+    "text": "Okay , well , it was pleasant seeing you , other than that business with my testicles .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1190.48,
+    "end": 1191.51,
+    "text": "Come on , P0001 .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1197.85,
+    "end": 1204.2,
+    "text": "I want you to know I ' m very proud of you . Yup , I ' m always bragging to my friends about my brother the rocket scientist .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1200.02,
+    "end": 1200.56,
+    "text": "Really ?",
+    "speaker": "P0001",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1205.72,
+    "end": 1212.21,
+    "text": "You tell people I ' m a rocket scientist ? I ' m a theoretical physicist .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1209.64,
+    "end": 1210.15,
+    "text": "Well yeah .",
+    "speaker": "missy_cooper",
+    "dialog_type": "backchannel"
+  },
+  {
+    "start": 1212.61,
+    "end": 1213.69,
+    "text": "What 's the difference ?",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1213.74,
+    "end": 1214.85,
+    "text": "What 's the difference ?",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1216.8,
+    "end": 1217.35,
+    "text": "Goodbye P0001 .",
+    "speaker": "missy_cooper",
+    "dialog_type": "dialog"
+  },
+  {
+    "start": 1217.75,
+    "end": 1228.69,
+    "text": "My God ! Why do n't you just tell them I ' m a toll taker at the Golden Gate Bridge ? Rocket scientist , how humiliating .",
+    "speaker": "P0001",
+    "dialog_type": "dialog"
+  }
+]
