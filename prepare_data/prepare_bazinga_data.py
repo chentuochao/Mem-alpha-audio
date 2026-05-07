@@ -16,13 +16,21 @@ def fix_space_in_text(text):
 
 data_folder = "outputs/bazinga_data/"
 
+# qa_files = [
+#     "QA_designs/TV_series/TBBT_s1/speaker_atributted_qa_deanonymized.jsonl",
+#     "QA_designs/TV_series/TBBT_s1/long_context_QA_unmasked.jsonl",
+# ]
+# input_folder = f"outputs/bazinga/TheBigBangTheory/{Season}"
+
 qa_files = [
-    "QA_designs/TV_series/TBBT_s1/speaker_atributted_qa.jsonl",
-    "QA_designs/TV_series/TBBT_s1/long_context_QA_unmasked.jsonl",
+    "QA_designs/TV_series/TBBT_s1/speaker_atributted_qa_anonymized.jsonl",
+    "QA_designs/TV_series/TBBT_s1/long_context_QA_anonymized.jsonl",
 ]
+input_folder= "QA_designs/TV_series/TBBT_s1/S1_main_anon/"
+
 timestamp_file = "QA_designs/TV_series/TBBT_s1/S1_session_timeline.json"
 Season = "Season1"
-input_folder = f"outputs/bazinga/TheBigBangTheory/{Season}"
+
 split = "gt" # "pred"
 if split == "gt":
     speaker_map = None
@@ -31,7 +39,7 @@ else:
         speaker_map = json.load(f)
 
 use_gt_speaker = False
-output_path = os.path.join(data_folder, f"{Season}_{split}_SpeakerLabel{use_gt_speaker}.parquet")
+output_path = os.path.join(data_folder, f"{Season}_{split}_SpeakerLabel{use_gt_speaker}_anony.parquet")
 
 
 
