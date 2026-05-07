@@ -68,7 +68,8 @@ def get_out_dir(agent_config, args, batch_idx):
 def parse_args():
     parser = argparse.ArgumentParser(description="Memory Construction Step")
     parser.add_argument("--agent_config", type=str, required=True, help="Path to agent configuration YAML file")
-    parser.add_argument("--dataset", type=str, default="LOCOMO", choices=['squad', 'seamlessinteraction_gt', 'seamlessinteraction_pred', 'squad_test', 'hotpotqa', 'booksum', 'friends', 'wos46985', 'pubmed-rct', 'arxiv-classification', 'eurlex', 'accurate_retrieval', 'long_range_understanding', 'conflict_resolution', 'test_time_learning', "LOCOMO", "LongMemEval", "MemAgent_Bench", "memalpha", "memalpha_train", 'memalpha_sample', "detectiveqa", 'memoryagentbench', 'perltqa', 'narrativeqa', 'accurate_retrieval', 'test_time_learning', 'cr_train']) # Restricted choices
+    parser.add_argument("--dataset", type=str, default="LOCOMO", choices=['squad', 'seamlessinteraction', 'squad_test', 'hotpotqa', 'booksum', 'friends', 'wos46985', 'pubmed-rct', 'arxiv-classification', 'eurlex', 'accurate_retrieval', 'long_range_understanding', 'conflict_resolution', 'test_time_learning', "LOCOMO", "LongMemEval", "MemAgent_Bench", "memalpha", "memalpha_train", 'memalpha_sample', "detectiveqa", 'memoryagentbench', 'perltqa', 'narrativeqa', 'accurate_retrieval', 'test_time_learning', 'cr_train']) # Restricted choices
+    parser.add_argument("--parquet_path", type=str, default=None, help="Path to parquet file")
     parser.add_argument("--load_db_from", type=str, default=None) # Memory databse
     parser.add_argument("--chunk_size", type=int, default=4096, help="Chunk size for MemAgent_Bench dataset")  # add parameter chunk_size
     parser.add_argument("--save_process", action="store_true", help="Enable process tracking for Qwen models (saves detailed logs)")
@@ -368,17 +369,18 @@ def main():
     else:
         print(f"  Disabled memories: None")
 
-    conversation_creator = ConversationCreator(args.dataset, args.chunk_size)
+    conversation_creator = ConversationCreator(args.dataset, args.chunk_size, parquet_path = args.parquet_path)
 
     all_chunks = conversation_creator.chunks() # TODO: Note we don't skip already completed conversations in chunking process of conversation_creator.py since it's easy to mess up the index sequence in eval.py, but we can fix it later (return empty chunks instead of skipping)
 
     all_queries_and_answers = conversation_creator.get_query_and_answer()
 
     # Handle cases where some instances might have empty Q&A lists
+    # QA list = item[0] - [q_idx, question, answer, data_source, category]
     all_sources = []
     for item in all_queries_and_answers:
         if len(item) > 0:
-            all_sources.append(item[0][-1])
+            all_sources.append(item[0][3])
         else:
             # Default source for empty Q&A lists based on dataset
             all_sources.append(args.dataset)
@@ -386,7 +388,7 @@ def main():
     # just for debug
     for item in all_queries_and_answers:
         if len(item) > 0:
-            assert len(np.unique([x[-1] for x in item])) == 1, "all sources should be the same"
+            assert len(np.unique([x[3] for x in item])) == 1, "all sources should be the same"
 
     print(f"Processing {len(all_chunks)} conversations for dataset {args.dataset}...")
 

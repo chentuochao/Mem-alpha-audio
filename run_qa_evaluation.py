@@ -65,11 +65,12 @@ def get_out_dir(agent_config, args, batch_idx):
     return out_dir
 
 
-def load_custom_qa_from_dir(qa_dir, data_source='seamlessinteraction_gt'):
+def load_custom_qa_from_dir(qa_dir, data_source='seamlessinteraction'):
     """Load custom QA pairs from all JSON/JSONL files in a directory.
 
     Each file is treated as newline-delimited JSON (one object per line).
-    Returns a flat list of [q_idx, question, answer, data_source] tuples.
+    Returns a flat list of [q_idx, question, answer, data_source] tuples,
+    or [q_idx, question, answer, data_source, category] for seamlessinteraction.
     """
     qa_items = []
     q_idx = 0
@@ -88,7 +89,10 @@ def load_custom_qa_from_dir(qa_dir, data_source='seamlessinteraction_gt'):
                 question = item.get('question', '')
                 answer = item.get('answer', '')
                 if question:
-                    qa_items.append([q_idx, question, answer, data_source])
+                    entry = [q_idx, question, answer, data_source]
+                    if data_source in ['seamlessinteraction']:
+                        entry.append(item.get('category', ''))
+                    qa_items.append(entry)
                     q_idx += 1
     print(f"Loaded {len(qa_items)} custom QA items from {qa_dir}")
     return qa_items
@@ -97,7 +101,8 @@ def load_custom_qa_from_dir(qa_dir, data_source='seamlessinteraction_gt'):
 def parse_args():
     parser = argparse.ArgumentParser(description="QA Evaluation Step")
     parser.add_argument("--agent_config", type=str, required=True, help="Path to agent configuration YAML file")
-    parser.add_argument("--dataset", type=str, default="LOCOMO", choices=['squad', 'seamlessinteraction_gt', 'seamlessinteraction_pred', 'squad_test', 'hotpotqa', 'booksum', 'friends', 'wos46985', 'pubmed-rct', 'arxiv-classification', 'eurlex', 'accurate_retrieval', 'long_range_understanding', 'conflict_resolution', 'test_time_learning', "LOCOMO", "LongMemEval", "MemAgent_Bench", "memalpha", "memalpha_train", 'memalpha_sample', "detectiveqa", 'memoryagentbench', 'perltqa', 'narrativeqa', 'accurate_retrieval', 'test_time_learning', 'cr_train']) # Restricted choices
+    parser.add_argument("--dataset", type=str, default="LOCOMO", choices=['squad', 'seamlessinteraction', 'squad_test', 'hotpotqa', 'booksum', 'friends', 'wos46985', 'pubmed-rct', 'arxiv-classification', 'eurlex', 'accurate_retrieval', 'long_range_understanding', 'conflict_resolution', 'test_time_learning', "LOCOMO", "LongMemEval", "MemAgent_Bench", "memalpha", "memalpha_train", 'memalpha_sample', "detectiveqa", 'memoryagentbench', 'perltqa', 'narrativeqa', 'accurate_retrieval', 'test_time_learning', 'cr_train']) # Restricted choices
+    parser.add_argument("--parquet_path", type=str, default=None, help="Path to parquet file")
     parser.add_argument("--chunk_size", type=int, default=4096, help="Chunk size for MemAgent_Bench dataset")  # add parameter chunk_size
     parser.add_argument("--batch_size", type=int, default=32, help="Batch size for batch processing")
     parser.add_argument("--agentic_search", action="store_true", help="Use agentic memory search instead of simple batch processing")
@@ -306,15 +311,18 @@ def run_qa_evaluation_batch(
                     'dataset_type': 'MemAgent_Bench'
                 })
             else:
-                question_idx, question, answer, data_source = item
-                question_metadata.append({
+                question_idx, question, answer, data_source = item[:4]
+                meta_entry = {
                     'batch_idx': batch_idx,
                     'memory_idx': i,
                     'question': question,
                     'answer': answer,
                     'data_source': data_source,
                     'dataset_type': args.dataset
-                })
+                }
+                if len(item) >= 5:
+                    meta_entry['category'] = item[4]
+                question_metadata.append(meta_entry)
 
             all_questions.append(question)
 
@@ -439,7 +447,6 @@ def run_qa_evaluation_batch(
                 'answer': meta['answer'],
                 'category': meta['category'],
                 'retrieved_memory': retrieved_memory,
-                'step_info': step_info,
             }
         elif meta['dataset_type'] == 'MemAgent_Bench':
             result = {
@@ -449,7 +456,6 @@ def run_qa_evaluation_batch(
                 'category': meta['category'],
                 'source': meta['source'],
                 'retrieved_memory': retrieved_memory,
-                'step_info': step_info,
             }
         else:
             result = {
@@ -457,8 +463,9 @@ def run_qa_evaluation_batch(
                 'response': question_responses[i],
                 'answer': meta['answer'],
                 'retrieved_memory': retrieved_memory,
-                'step_info': step_info,
             }
+            if 'category' in meta:
+                result['category'] = meta['category']
 
         batch_results_dict[batch_idx].append(result)
 
@@ -494,7 +501,7 @@ def main():
     else:
         print(f"  Disabled memories: None")
 
-    conversation_creator = ConversationCreator(args.dataset, args.chunk_size)
+    conversation_creator = ConversationCreator(args.dataset, args.chunk_size, parquet_path = args.parquet_path)
 
     all_chunks = conversation_creator.chunks() # TODO: Note we don't skip already completed conversations in chunking process of conversation_creator.py since it's easy to mess up the index sequence in eval.py, but we can fix it later (return empty chunks instead of skipping)
 
@@ -510,7 +517,7 @@ def main():
     all_sources = []
     for item in all_queries_and_answers:
         if len(item) > 0:
-            all_sources.append(item[0][-1])
+            all_sources.append(item[0][3])  # index 3 is always data_source
         else:
             # Default source for empty Q&A lists based on dataset
             all_sources.append(args.dataset)
@@ -518,7 +525,7 @@ def main():
     # just for debug
     for item in all_queries_and_answers:
         if len(item) > 0:
-            assert len(np.unique([x[-1] for x in item])) == 1, "all sources should be the same"
+            assert len(np.unique([x[3] for x in item])) == 1, "all sources should be the same"
 
     print(f"Evaluating {len(all_chunks)} conversations for dataset {args.dataset}...")
 
