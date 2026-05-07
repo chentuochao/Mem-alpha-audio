@@ -13,6 +13,43 @@ from datetime import datetime, timedelta
 import json
 
 from tqdm import tqdm
+def get_out_dir(agent_config, args, batch_idx):
+    """Compute the output directory for a given batch item."""
+    # Create output directory path
+    if agent_config.get("model_name") is not None:
+        out_dir = f"./agents/{agent_config['agent_name']}_{agent_config['model_name'].replace('/', '_')}_{args.dataset}"
+    else:
+        out_dir = f"./agents/{agent_config['agent_name']}_{args.dataset}"
+
+    # Add parquet file base name if provided
+    if args.parquet_path is not None:
+        parquet_base = os.path.basename(args.parquet_path).replace(".parquet", "")
+        out_dir = out_dir + f"_{parquet_base}"
+
+    # Add external model info if using external model for question answering
+    # if agent_config.get('infer_with_full_memory', False) and agent_config.get('external_model_url'):
+    #     external_model_name = agent_config.get('external_model_name', 'qwen3-32b').replace('/', '_')
+    #     out_dir = out_dir + f"_ext_{external_model_name}"
+
+    if not agent_config['enable_thinking']:
+        out_dir = out_dir + "_no_thinking"
+
+    if args.exclude_memory:
+        out_dir = out_dir + "_exclude_" + "_".join(args.exclude_memory)
+
+    # Add max_new_tokens to the directory name
+    max_new_tokens = agent_config.get('max_new_tokens', 2048)
+    out_dir = out_dir + f"_tokens_{max_new_tokens}"
+
+    # Add rollout label if provided
+    if args.rollout_label is not None:
+        out_dir = out_dir + f"_rollout_{args.rollout_label}"
+
+    out_dir += f"/{batch_idx}"
+    return out_dir
+
+
+
 
 class ConversationCreator():
 
