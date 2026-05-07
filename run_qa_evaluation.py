@@ -10,7 +10,7 @@ import numpy as np
 import requests
 from conversation_creator import ConversationCreator
 from memory import Memory
-
+from conversation_creator import get_out_dir
 
 def load_agent_config(config_path):
     """Load agent configuration from YAML file."""
@@ -32,37 +32,6 @@ def load_agent_config(config_path):
 def get_results_filename(agentic_search=False):
     """Get the appropriate results filename based on search method."""
     return "agentic_results.json" if agentic_search else "results.json"
-
-
-def get_out_dir(agent_config, args, batch_idx):
-    """Compute the output directory for a given batch item."""
-    # Create output directory path
-    if agent_config.get("model_name") is not None:
-        out_dir = f"./agents/{agent_config['agent_name']}_{agent_config['model_name'].replace('/', '_')}_{args.dataset}"
-    else:
-        out_dir = f"./agents/{agent_config['agent_name']}_{args.dataset}"
-
-    # Add external model info if using external model for question answering
-    if agent_config.get('infer_with_full_memory', False) and agent_config.get('external_model_url'):
-        external_model_name = agent_config.get('external_model_name', 'qwen3-32b').replace('/', '_')
-        out_dir = out_dir + f"_ext_{external_model_name}"
-
-    if not agent_config['enable_thinking']:
-        out_dir = out_dir + "_no_thinking"
-
-    if args.exclude_memory:
-        out_dir = out_dir + "_exclude_" + "_".join(args.exclude_memory)
-
-    # Add max_new_tokens to the directory name
-    max_new_tokens = agent_config.get('max_new_tokens', 2048)
-    out_dir = out_dir + f"_tokens_{max_new_tokens}"
-
-    # Add rollout label if provided
-    if args.rollout_label is not None:
-        out_dir = out_dir + f"_rollout_{args.rollout_label}"
-
-    out_dir += f"/{batch_idx}"
-    return out_dir
 
 
 def load_custom_qa_from_dir(qa_dir, data_source='seamlessinteraction'):

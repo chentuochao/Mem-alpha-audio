@@ -14,6 +14,7 @@ from conversation_creator import ConversationCreator
 from agent import MemoryAgent
 from memory import Memory
 from functions import get_memory_tool_schemas
+from conversation_creator import get_out_dir
 
 
 def load_agent_config(config_path):
@@ -31,38 +32,6 @@ def load_agent_config(config_path):
             raise ValueError(f"Missing required field '{field}' in config file: {config_path}")
 
     return config
-
-
-def get_out_dir(agent_config, args, batch_idx):
-    """Compute the output directory for a given batch item."""
-    # Create output directory path
-    if agent_config.get("model_name") is not None:
-        out_dir = f"./agents/{agent_config['agent_name']}_{agent_config['model_name'].replace('/', '_')}_{args.dataset}"
-    else:
-        out_dir = f"./agents/{agent_config['agent_name']}_{args.dataset}"
-
-    # Add external model info if using external model for question answering
-    if agent_config.get('infer_with_full_memory', False) and agent_config.get('external_model_url'):
-        external_model_name = agent_config.get('external_model_name', 'qwen3-32b').replace('/', '_')
-        out_dir = out_dir + f"_ext_{external_model_name}"
-
-    if not agent_config['enable_thinking']:
-        out_dir = out_dir + "_no_thinking"
-
-    if args.exclude_memory:
-        out_dir = out_dir + "_exclude_" + "_".join(args.exclude_memory)
-
-    # Add max_new_tokens to the directory name
-    max_new_tokens = agent_config.get('max_new_tokens', 2048)
-    out_dir = out_dir + f"_tokens_{max_new_tokens}"
-
-    # Add rollout label if provided
-    if args.rollout_label is not None:
-        out_dir = out_dir + f"_rollout_{args.rollout_label}"
-
-    out_dir += f"/{batch_idx}"
-    return out_dir
-
 
 
 def parse_args():
@@ -96,6 +65,28 @@ def parse_args():
 
     args.exclude_memory = set(normalized_exclusions)
     return args
+
+
+def count_memory_tokens(state: dict, tokenizer) -> int:
+    """Count total tokens stored in a memory state (core + semantic + episodic)."""
+    total = 0
+    if state.get('core'):
+        core = state['core']
+        if isinstance(core, str):
+            total += len(tokenizer(core).input_ids)
+        elif isinstance(core, list):
+            for item in core:
+                if isinstance(item, str):
+                    total += len(tokenizer(item).input_ids)
+    for mem_type in ('semantic', 'episodic'):
+        for item in state.get(mem_type) or []:
+            total += len(tokenizer(list(item.values())[0]).input_ids)
+    return total
+
+
+def count_input_tokens(chunks: list, tokenizer) -> int:
+    """Count total tokens across all raw input chunks."""
+    return sum(len(tokenizer(c).input_ids) for c in chunks if isinstance(c, str))
 
 
 def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunks, batch_sources):
@@ -312,6 +303,19 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
         print("store memory ", f"{out_dir}/agent_state.json")
         with open(f"{out_dir}/agent_state.json", "w") as f:
             json.dump(state, f, indent=2)
+
+        # Compute and save compression ratio
+        input_tokens = count_input_tokens(batch_chunks[i], memory_agent_template.tokenizer)
+        memory_tokens = count_memory_tokens(state, memory_agent_template.tokenizer)
+        compression_ratio = input_tokens / memory_tokens if memory_tokens > 0 else float('inf')
+        compression_info = {
+            'input_tokens': input_tokens,
+            'memory_tokens': memory_tokens,
+            'compression_ratio': compression_ratio,
+        }
+        with open(f"{out_dir}/compression.json", "w") as f:
+            json.dump(compression_info, f, indent=2)
+        print(f"compression ratio: {compression_ratio:.2f}x  (input={input_tokens}, memory={memory_tokens})")
 
         # Save data instance info
         data_instance_info = {
