@@ -37,7 +37,7 @@ def load_agent_config(config_path):
 def parse_args():
     parser = argparse.ArgumentParser(description="Memory Construction Step")
     parser.add_argument("--agent_config", type=str, required=True, help="Path to agent configuration YAML file")
-    parser.add_argument("--dataset", type=str, default="LOCOMO", choices=['squad', 'seamlessinteraction', 'squad_test', 'hotpotqa', 'booksum', 'friends', 'wos46985', 'pubmed-rct', 'arxiv-classification', 'eurlex', 'accurate_retrieval', 'long_range_understanding', 'conflict_resolution', 'test_time_learning', "LOCOMO", "LongMemEval", "MemAgent_Bench", "memalpha", "memalpha_train", 'memalpha_sample', "detectiveqa", 'memoryagentbench', 'perltqa', 'narrativeqa', 'accurate_retrieval', 'test_time_learning', 'cr_train']) # Restricted choices
+    parser.add_argument("--dataset", type=str, default="LOCOMO", choices=['squad', 'seamlessinteraction', 'seamlessinteraction_options', 'squad_test', 'hotpotqa', 'booksum', 'friends', 'wos46985', 'pubmed-rct', 'arxiv-classification', 'eurlex', 'accurate_retrieval', 'long_range_understanding', 'conflict_resolution', 'test_time_learning', "LOCOMO", "LongMemEval", "MemAgent_Bench", "memalpha", "memalpha_train", 'memalpha_sample', "detectiveqa", 'memoryagentbench', 'perltqa', 'narrativeqa', 'accurate_retrieval', 'test_time_learning', 'cr_train']) # Restricted choices
     parser.add_argument("--parquet_path", type=str, default=None, help="Path to parquet file")
     parser.add_argument("--load_db_from", type=str, default=None) # Memory databse
     parser.add_argument("--chunk_size", type=int, default=4096, help="Chunk size for MemAgent_Bench dataset")  # add parameter chunk_size

@@ -62,7 +62,7 @@ class ConversationCreator():
             self.data = pd.read_parquet('data/memalpha/test.parquet')
             print(np.unique(self.data['data_source'].tolist(), return_counts=True))
 
-        elif dataset == 'seamlessinteraction':
+        elif dataset in ('seamlessinteraction', 'seamlessinteraction_options'):
             if parquet_path is None:
                 self.data = pd.read_parquet('outputs/test_gt.parquet')
             else:
@@ -176,7 +176,7 @@ class ConversationCreator():
         nltk.download('punkt', quiet=True)
         nltk.download('punkt_tab')
 
-        if self.dataset_name == 'memalpha' or self.dataset_name == 'memalpha_train' or self.dataset_name == 'memalpha_sample' or self.dataset_name == 'seamlessinteraction':
+        if self.dataset_name in ('memalpha', 'memalpha_train', 'memalpha_sample', 'seamlessinteraction', 'seamlessinteraction_options'):
 
             all_chunks = []
             for idx, row in tqdm(self.data.iterrows(), desc=f"Processing {self.dataset_name} chunks", unit="item", total=len(self.data)):
@@ -229,7 +229,7 @@ class ConversationCreator():
 
         all_queries_and_answers = []
 
-        if self.dataset_name == 'memalpha' or self.dataset_name == 'memalpha_train' or self.dataset_name == 'memalpha_sample' or self.dataset_name == 'memoryagentbench' or self.dataset_name == 'accurate_retrieval' or self.dataset_name == 'test_time_learning' or self.dataset_name == 'long_range_understanding' or self.dataset_name == 'seamlessinteraction':
+        if self.dataset_name in ('memalpha', 'memalpha_train', 'memalpha_sample', 'memoryagentbench', 'accurate_retrieval', 'test_time_learning', 'long_range_understanding', 'seamlessinteraction', 'seamlessinteraction_options'):
 
             for idx, row in tqdm(self.data.iterrows(), desc=f"Processing {self.dataset_name} Q&A", unit="item", total=len(self.data)):
                 # Parse questions and answers - they're stored as JSON strings in the parquet file
@@ -248,8 +248,8 @@ class ConversationCreator():
                     data_source = 'memalpha_train'
                 elif self.dataset_name == 'memalpha_sample':
                     data_source = 'memalpha_sample'
-                elif self.dataset_name == 'seamlessinteraction':
-                    data_source = 'seamlessinteraction'
+                elif self.dataset_name in ('seamlessinteraction', 'seamlessinteraction_options'):
+                    data_source = self.dataset_name
                 else:
                     data_source = 'memalpha'
                 queries_and_answers = []
@@ -260,7 +260,7 @@ class ConversationCreator():
 
                     if question:  # Only add if question exists
                         entry = [q_idx, question, answer, data_source]
-                        if self.dataset_name in ["seamlessinteraction"]:
+                        if self.dataset_name in ("seamlessinteraction", "seamlessinteraction_options"):
                             entry.append(qa_pair.get('type', ''))
                         queries_and_answers.append(entry)
 

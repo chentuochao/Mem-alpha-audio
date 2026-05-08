@@ -60,6 +60,35 @@ class AgentResultsEvaluator:
 
         return (rouge1_f1 + rouge2_f1 + rougeL_f1) / 3.0
 
+    @staticmethod
+    def _extract_option_letter(text: str) -> str:
+        """Extract the predicted option letter from a model response.
+
+        Checks (in priority order):
+        1. \\boxed{X} anywhere in the text
+        2. A bare uppercase letter (A-Z) at the very start of the text
+        3. The last standalone uppercase letter found in the text
+        Returns an empty string if nothing is found.
+        """
+        # 1. \boxed{X}
+        boxed = re.search(r'\\boxed\{([A-Za-z])\}', text)
+        if boxed:
+            return boxed.group(1).upper()
+
+        stripped = text.strip()
+
+        # 2. Starts with a single letter (optionally followed by . or ))
+        leading = re.match(r'^([A-Z])[\.\)\s]', stripped)
+        if leading:
+            return leading.group(1).upper()
+
+        # 3. Last standalone uppercase letter in the text
+        all_letters = re.findall(r'\b([A-Z])\b', stripped)
+        if all_letters:
+            return all_letters[-1].upper()
+
+        return ""
+
     def _compute_score(self, data_source, predicted_answer, gold_answer, question=None):
 
         if "<think>" and "</think>" in predicted_answer:
@@ -121,6 +150,21 @@ class AgentResultsEvaluator:
 
             else:
                 return 1.0 if gold_answer.lower() in predicted_answer.lower() else 0.0
+
+        elif data_source == 'seamlessinteraction_options':
+            # Rule-based multiple-choice scoring — no LLM judge needed.
+            # The model is instructed to answer with \boxed{A/B/C/...}.
+            # "C" (the appended "Not Sure" option) maps to not_sure (0.5).
+            # Matching the gold letter → correct (1.0); anything else → wrong (0.0).
+            predicted_letter = self._extract_option_letter(predicted_answer)
+            gold_letter = str(gold_answer).strip().upper()
+
+            if predicted_letter == 'C':
+                return 0.5  # not_sure
+            elif predicted_letter == gold_letter:
+                return 1.0  # correct
+            else:
+                return 0.0  # wrong
 
         elif "seamless" in data_source:
             template = (
