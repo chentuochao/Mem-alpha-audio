@@ -16,17 +16,17 @@ def fix_space_in_text(text):
 
 data_folder = "outputs/bazinga_data/"
 
-# qa_files = [
-#     "QA_designs/TV_series/TBBT_s1/speaker_atributted_qa_deanonymized.jsonl",
-#     "QA_designs/TV_series/TBBT_s1/long_context_QA_unmasked.jsonl",
-# ]
-# input_folder = f"outputs/bazinga/TheBigBangTheory/{Season}"
-
 qa_files = [
-    "QA_designs/TV_series/TBBT_s1/speaker_atributted_qa_anonymized.jsonl",
-    "QA_designs/TV_series/TBBT_s1/long_context_QA_anonymized.jsonl",
+    "QA_designs/TV_series/TBBT_s1/speaker_atributted_qa_deanonymized.jsonl",
+    "QA_designs/TV_series/TBBT_s1/long_context_QA_unmasked.jsonl",
 ]
-input_folder= "QA_designs/TV_series/TBBT_s1/S1_main_anon/"
+input_folder = f"outputs/bazinga/TheBigBangTheory/{Season}"
+
+# qa_files = [
+#     "QA_designs/TV_series/TBBT_s1/speaker_atributted_qa_anonymized.jsonl",
+#     "QA_designs/TV_series/TBBT_s1/long_context_QA_anonymized.jsonl",
+# ]
+# input_folder= "QA_designs/TV_series/TBBT_s1/S1_main_anon/"
 
 timestamp_file = "QA_designs/TV_series/TBBT_s1/S1_session_timeline.json"
 Season = "Season1"
@@ -98,6 +98,8 @@ for idx, json_file in enumerate(jsonl_files):
         
         turn_text = fix_space_in_text(turn['text']) 
         dialog_chunk += f"<{speaker}> {turn_text}\n"
+    print(dialog_chunk)
+    exit(0)
     chunks.append(dialog_chunk)
 
 print("speakers_pool = ", speakers_pool)
