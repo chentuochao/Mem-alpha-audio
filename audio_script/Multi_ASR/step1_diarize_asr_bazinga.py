@@ -43,6 +43,121 @@ SR = 16000
 # Model config  (identical to the original step1_diarize_asr.py)
 # ──────────────────────────────────────────────────────────────────────────────
 
+
+# ---------------------------------------------------------------------------
+# Step: Split Bazinga words into time-based chunks
+# ---------------------------------------------------------------------------
+TURN_GAP_TH = 1.5
+
+# Chunk duration constraints (seconds).
+CHUNK_MIN_DURATION = 60    # 1 minute
+CHUNK_MAX_DURATION = 600   # 10 minutes
+# Silence gap threshold: gaps larger than this are preferred split points.
+CHUNK_GAP_THRESHOLD = 3.0
+
+
+def find_split_points(all_words: List[Dict], gap_threshold: float = CHUNK_GAP_THRESHOLD):
+    """Find candidate split points where there are large silence gaps.
+
+    Scans the globally-sorted word list and records every position where
+    the gap between consecutive words exceeds gap_threshold.
+
+    Args:
+        all_words: list of word dicts sorted by start time (all speakers mixed).
+        gap_threshold: minimum silence gap (seconds) to be a candidate split.
+
+    Returns:
+        list of (index, gap_size) tuples.  index is the position *after* which
+        the split would occur (i.e., chunk boundary falls between
+        all_words[index] and all_words[index+1]).
+    """
+    splits = []
+    for i in range(1, len(all_words)):
+        gap = all_words[i]["start"] - all_words[i - 1]["end"]
+        if gap >= gap_threshold:
+            splits.append((i, gap))
+    return splits
+
+
+def chunk_words(
+    all_words: List[Dict],
+    min_dur: float = CHUNK_MIN_DURATION,
+    max_dur: float = CHUNK_MAX_DURATION,
+    gap_threshold: float = CHUNK_GAP_THRESHOLD,
+) -> List[List[Dict]]:
+    """Split a sorted word list into chunks respecting duration constraints.
+
+    Algorithm:
+        1. Accumulate words into the current chunk.
+        2. At each candidate split point (gap >= gap_threshold):
+           - If the current chunk duration >= min_dur, finalize it.
+        3. If the current chunk exceeds max_dur without a gap split point,
+           force-split at the largest gap seen so far within the chunk.
+        4. At the end, if the last chunk is too short (< min_dur), merge it
+           into the previous chunk.
+
+    Args:
+        all_words: globally sorted word list (all speakers).
+        min_dur: minimum chunk duration in seconds.
+        max_dur: maximum chunk duration in seconds.
+        gap_threshold: silence gap (seconds) that marks a natural boundary.
+
+    Returns:
+        list of chunks, where each chunk is a list of word dicts.
+    """
+    if not all_words:
+        return []
+
+    chunks = []
+    chunk_start_idx = 0
+
+    # Track the best (largest) gap within the current chunk for forced splits.
+    best_gap_idx = None
+    best_gap_size = -1.0
+
+    for i in range(1, len(all_words)):
+        gap = all_words[i]["start"] - all_words[i - 1]["end"]
+        chunk_duration = all_words[i - 1]["end"] - all_words[chunk_start_idx]["start"]
+
+        # Track the largest gap inside the current chunk.
+        if gap > best_gap_size:
+            best_gap_size = gap
+            best_gap_idx = i
+
+        # Natural split: large gap AND chunk is long enough.
+        if gap >= gap_threshold and chunk_duration >= min_dur:
+            chunks.append(all_words[chunk_start_idx:i])
+            chunk_start_idx = i
+            best_gap_idx = None
+            best_gap_size = -1.0
+            continue
+
+        # Forced split: chunk exceeds max duration.
+        if chunk_duration >= max_dur:
+            if best_gap_idx is not None and best_gap_idx > chunk_start_idx:
+                # Split at the largest gap we've seen in this chunk.
+                chunks.append(all_words[chunk_start_idx:best_gap_idx])
+                chunk_start_idx = best_gap_idx
+            else:
+                # No good gap found — hard-cut at current position.
+                chunks.append(all_words[chunk_start_idx:i])
+                chunk_start_idx = i
+            best_gap_idx = None
+            best_gap_size = -1.0
+
+    # Flush remaining words as the last chunk.
+    if chunk_start_idx < len(all_words):
+        last_chunk = all_words[chunk_start_idx:]
+        last_dur = last_chunk[-1]["end"] - last_chunk[0]["start"]
+
+        # If the last chunk is too short, merge it into the previous one.
+        if last_dur < min_dur and len(chunks) > 0:
+            chunks[-1].extend(last_chunk)
+        else:
+            chunks.append(last_chunk)
+
+    return chunks
+
 @dataclass
 class MultitalkerTranscriptionConfig:
     """Configuration for multi-talker transcription with NeMo ASR + diarization."""
@@ -186,23 +301,23 @@ def transcription_to_vad(transcripts: Dict[str, List[Dict]]) -> Dict[str, List[D
     return {spk: [{"start": seg["start"], "end": seg["end"]} for seg in segs] for spk, segs in transcripts.items()}
 
 
-def get_chunked_transcript(transcript: List[Dict], start_time: int, end_time: int) -> List[Dict]:
-    """
-    Get the chunked transcript for a given time range.
-    """
+# def get_chunked_transcript(transcript: List[Dict], start_time: int, end_time: int) -> List[Dict]:
+#     """
+#     Get the chunked transcript for a given time range.
+#     """
 
-    speaker_words: Dict[str, List[Dict]] = defaultdict(list)
-    chunked_transcript = []
+#     speaker_words: Dict[str, List[Dict]] = defaultdict(list)
+#     chunked_transcript = []
 
-    for seg in transcript:
-        if seg["start"] >= start_time and seg["end"] <= end_time:
-            seg["start"] -= start_time
-            seg["end"] -= start_time
-            chunked_transcript.append(seg)
-            speaker_words[seg["speaker"]].append(seg)
+#     for seg in transcript:
+#         if seg["start"] >= start_time and seg["end"] <= end_time:
+#             seg["start"] -= start_time
+#             seg["end"] -= start_time
+#             chunked_transcript.append(seg)
+#             speaker_words[seg["speaker"]].append(seg)
 
-    vad = transcription_to_vad(speaker_words)
-    return speaker_words, chunked_transcript, vad
+#     vad = transcription_to_vad(speaker_words)
+#     return speaker_words, chunked_transcript, vad
 
 
 
@@ -303,7 +418,7 @@ def main():
     num_processed = 0
     num_skipped = 0
     num_fail = 0
-    audio_chunk = SR*120
+    # audio_chunk = SR*120
     for sample in tqdm(dataset):
         print(f"\n{'=' * 70}")
         print(f"Processing episode: {sample['conv_id']}")
@@ -312,6 +427,8 @@ def main():
         print(f"{'=' * 70}")
 
         conv_id = sample["conv_id"]
+        if "Season02" in conv_id:
+            break
         # Where to save outputs
         save_dir = os.path.join(args.output_dir, conv_id)
         os.makedirs(save_dir, exist_ok=True)
@@ -320,21 +437,29 @@ def main():
         raw_transcript = sample['raw_transcript']
         chunk_id = 0
 
-        for t in range(0, T, audio_chunk):
-            start_time = t
-            end_time = t + audio_chunk
+        transcript_chunks = chunk_words(raw_transcript)
+
+        for chunk_id, chunk in enumerate(transcript_chunks):
+            start_time = int(SR*chunk[0]["start"])
+            end_time = int(SR*chunk[-1]["end"])
+
             if end_time > T:
                 end_time = T
             audio = raw_audio[start_time:end_time]
 
-            speaker_transcripts, chunked_transcript, vad_gt = get_chunked_transcript(raw_transcript, start_time/SR, end_time/SR)
+            speaker_transcripts: Dict[str, List[Dict]] = defaultdict(list)
+            for w in chunk:
+                w["start"] -= float(start_time)/SR
+                w["end"] -= float(start_time)/SR
+                speaker_transcripts[w["speaker"]].append(w)
+            vad_gt = transcription_to_vad(speaker_transcripts)
+
 
             diar_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "diart_pred.npy")
             word_list_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "transcript_pred.json")
             word_list_path_gt = os.path.join(save_dir, f"CHUNK_{chunk_id}", "transcript_gt.json")
             info_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "sample_info.json")
             vad_gt_path = os.path.join(save_dir, f"CHUNK_{chunk_id}", "vad_gt.json")
-
 
             if os.path.exists(diar_path) and os.path.exists(word_list_path) and os.path.exists(info_path):
                 print(f"  Skipping (already exists): {diar_path}")
@@ -389,7 +514,6 @@ def main():
             print(f"  Saved: {info_path}")
             num_processed += 1
             chunk_id += 1
-        break
 
     print(
         f"\nStep 1 (Bazinga) complete. "

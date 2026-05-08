@@ -234,7 +234,6 @@ class ConversationCreator():
             for idx, row in tqdm(self.data.iterrows(), desc=f"Processing {self.dataset_name} Q&A", unit="item", total=len(self.data)):
                 # Parse questions and answers - they're stored as JSON strings in the parquet file
                 qa_pairs = json.loads(row['questions_and_answers']) if isinstance(row['questions_and_answers'], str) else row['questions_and_answers']
-                print(row)
                 if 'data_source' in row:
                     data_source = row['data_source']
                 elif self.dataset_name == 'memoryagentbench':
@@ -262,7 +261,7 @@ class ConversationCreator():
                     if question:  # Only add if question exists
                         entry = [q_idx, question, answer, data_source]
                         if self.dataset_name in ["seamlessinteraction"]:
-                            entry.append(qa_pair.get('category', ''))
+                            entry.append(qa_pair.get('type', ''))
                         queries_and_answers.append(entry)
 
                 all_queries_and_answers.append(queries_and_answers)

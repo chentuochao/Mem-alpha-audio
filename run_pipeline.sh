@@ -23,21 +23,22 @@ PARQUET_PATH="$2"
 # ---------------------------------------------------------------------------- #
 # Build shared args
 # ---------------------------------------------------------------------------- #
-COMMON_ARGS=(
-    --dataset      "$DATASET"
-    --parquet_path "$PARQUET_PATH"
-)
+
 
 # ---------------------------------------------------------------------------- #
 # Step 1: Memory construction
 # ---------------------------------------------------------------------------- #
-echo "================================================================"
-echo "[STEP 1] Memory construction"
-echo "================================================================"
+# echo "================================================================"
+# echo "[STEP 1] Memory construction"
+# echo "================================================================"
 
-MEM_ARGS=("${COMMON_ARGS[@]}")
+# MEM_ARGS=("${COMMON_ARGS[@]}")
 
-python run_memory_construction.py -agent_config config/memalpha-qwen3-4b_agent_0.05-0.1.yaml  --batch_size 1 "${MEM_ARGS[@]}"
+# python run_memory_construction.py \
+#   --agent_config config/memalpha-qwen3-4b_agent_0.05-0.1.yaml \
+#   --dataset $DATASET \
+#   --parquet_path $PARQUET_PATH \
+#   --batch_size 1 \
 
 # ---------------------------------------------------------------------------- #
 # Step 2: QA evaluation
@@ -48,7 +49,11 @@ echo "================================================================"
 
 QA_ARGS=("${COMMON_ARGS[@]}")
 
-python run_qa_evaluation.py --agent_config config/memalpha-qwen3-4b_agent_0.05-0.1.yaml --batch_size 1  "${QA_ARGS[@]}" --force_reanswer_questions
+python run_qa_evaluation.py --agent_config config/memalpha-qwen3-4b_agent_0.05-0.1.yaml \
+    --force_reanswer_questions \
+    --dataset $DATASET \
+    --parquet_path $PARQUET_PATH \
+    --batch_size 1  \
 
 # ---------------------------------------------------------------------------- #
 # Step 3: Metric evaluation

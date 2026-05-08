@@ -29,6 +29,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
+from audio_script.eval.multitalker_metrics import compute_der_bruteforce
 
 
 # ── Inline helpers so the script is self-contained ────────────────────────────
@@ -83,34 +84,6 @@ def _der_for_perm(pred_aligned: np.ndarray, gt: np.ndarray,
                  "total": total_s, "acc_err": acc_err}
 
 
-def compute_der_bruteforce(pred: np.ndarray, gt: np.ndarray,
-                           frame_duration: float = 0.08
-                           ) -> Tuple[float, Dict]:
-    """
-    Brute-force DER: try all permutations of pred rows, pick the best.
-
-    Args:
-        pred: (N_pred, T) binary prediction matrix
-        gt:   (N_gt,   T) binary ground-truth matrix
-    Returns:
-        best_der, best_details  (details includes 'col_ind' for reordering)
-    """
-    N_pred = pred.shape[0]
-    N_gt = gt.shape[0]
-    best_der = float("inf")
-    best_details: Optional[Dict] = None
-
-    for perm in permutations(range(N_pred), N_gt):
-        pred_aligned = pred[list(perm)]
-        der, details = _der_for_perm(pred_aligned, gt, frame_duration)
-        if der < best_der:
-            best_der = der
-            best_details = details
-            best_details["col_ind"] = np.array(perm)
-
-    return best_der, best_details  # type: ignore[return-value]
-
-
 # ── Plotting ──────────────────────────────────────────────────────────────────
 
 _COLORS = ["#4C72B0", "#DD8452", "#55A868", "#C44E52",
@@ -150,8 +123,7 @@ def _raster_ax(ax: plt.Axes, mat: np.ndarray, title: str,
 
 
 def plot_and_eval(pred_npy: str,
-                  vad1_path: str,
-                  vad2_path: str,
+                  vads: List,
                   frame_duration: float = 0.08,
                   output_path: str = "diarization_plot.png",
                   speaker_names: Optional[Tuple[str, str]] = None):
@@ -169,25 +141,35 @@ def plot_and_eval(pred_npy: str,
     pred_mat = pred_raw.T  # (N_pred, T)
 
     # ── Build GT matrix ───────────────────────────────────────────────
-    vad1 = load_vad_json(vad1_path)
-    vad2 = load_vad_json(vad2_path)
-    gt_spk1 = vad_to_binary(vad1, T, frame_duration)
-    gt_spk2 = vad_to_binary(vad2, T, frame_duration)
-    gt_mat = np.stack([gt_spk1, gt_spk2], axis=0)  # (2, T)
+    # gt_spk1 = vad_to_binary(vad1, T, frame_duration)
+    # gt_spk2 = vad_to_binary(vad2, T, frame_duration)
+    # gt_mat = np.stack([gt_spk1, gt_spk2], axis=0)  # (2, T)
 
+    gt_mat = []
+    for vad in vads:
+        gt_spk = vad_to_binary(vad, T, frame_duration)
+        gt_mat.append(gt_spk)
+    gt_mat = np.stack(gt_mat, axis=0)  # (2, T)
+    print(gt_mat.shape, pred_mat.shape)
     # ── Compute DER ───────────────────────────────────────────────────
     # Binarize pred (threshold 0.5)
     pred_bin = (pred_mat >= 0.5).astype(np.float32)
     der, details = compute_der_bruteforce(pred_bin, gt_mat, frame_duration)
 
     col_ind = details["col_ind"]           # best permutation of pred rows
+    # col_ind
+    col_ind_new = []
+    for i in col_ind:
+        if i < pred_bin.shape[0]:
+            col_ind_new.append(i)
+    col_ind = col_ind_new
     pred_aligned = pred_bin[list(col_ind)] # (N_gt, T) reordered
 
     # ── Print summary ─────────────────────────────────────────────────
     print("=" * 60)
     print(f"  Prediction : {pred_npy}")
-    print(f"  GT VAD 1   : {vad1_path}")
-    print(f"  GT VAD 2   : {vad2_path}")
+    # print(f"  GT VAD 1   : {vad1_path}")
+    # print(f"  GT VAD 2   : {vad2_path}")
     print(f"  Frames     : {T}  |  frame_duration: {frame_duration} s")
     print(f"  Duration   : {T * frame_duration:.1f} s")
     print("-" * 60)
@@ -238,7 +220,7 @@ def plot_and_eval(pred_npy: str,
         fontsize=11, fontweight="bold", y=1.02,
     )
 
-    plt.savefig(os.path.join(output_path, "diart.png"), dpi=150, bbox_inches="tight")
+    plt.savefig(output_path, dpi=150, bbox_inches="tight")
     print(f"\nFigure saved → {output_path}")
     return der, details
 
@@ -275,11 +257,24 @@ def main():
     with open(args.sample_info) as f:
         info = json.load(f)
     sample_folder = os.path.dirname(args.sample_info)
-    pred_npy = info.get("diart_path") or os.path.join(
-        sample_folder, "diart_pred.npy"
+    pred_npy = os.path.join(
+        sample_folder, "diart_pred2.npy"
     )
-    vad1 = info["vad1_path"]
-    vad2 = info["vad2_path"]
+    if "vad_path" not in info.keys():
+        vad1 = info["vad1_path"]
+        vad2 = info["vad2_path"]
+        vad1 = load_vad_json(vad1_path)
+        vad2 = load_vad_json(vad2_path)
+        vads = [vad1, vad2]
+    else:
+        vad_path = info["vad_path"]
+        with open(vad_path, "r") as f:
+            vad_speaker = json.load(f)
+        vads = []
+        for speaker, segs in vad_speaker.items():
+            vads.append(segs)
+
+
     frame_dur = args.frame_duration or info.get("feat_len_sec", 0.08)
     spk_pair = info.get("spk_pair", "")
     spk_names: Optional[Tuple[str, str]] = None
@@ -291,7 +286,7 @@ def main():
     )
 
     # ── Run ───────────────────────────────────────────────────────────
-    plot_and_eval(pred_npy, vad1, vad2, frame_dur, out, spk_names)
+    plot_and_eval(pred_npy, vads, frame_dur, out, spk_names)
 
 
 if __name__ == "__main__":

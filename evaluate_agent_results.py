@@ -228,10 +228,14 @@ class AgentResultsEvaluator:
 
         # Group results by instance and evaluate
         instance_scores = {}
+        category_judgments: Dict[str, Dict[str, int]] = {}
 
         for result in results:
             # Get instance identifier (use index if no explicit instance_id)
             instance_id = result.get('instance_id', result.get('question_id', len(instance_scores)))
+            question_type = result.get('category', '')
+            if len(question_type)  == 0:
+                question_type = "unknown"
 
             score = self._compute_score(
                 data_source=data_source,
@@ -252,7 +256,12 @@ class AgentResultsEvaluator:
                     result['judgment'] = 'not_sure'
                 else:
                     result['judgment'] = 'wrong'
-            print(result['question'], result['judgment'] )
+
+                judgment = result['judgment']
+                if question_type not in category_judgments:
+                    category_judgments[question_type] = {'correct': 0, 'not_sure': 0, 'wrong': 0}
+                category_judgments[question_type][judgment] += 1
+
             # Group scores by instance
             if instance_id not in instance_scores:
                 instance_scores[instance_id] = []
@@ -298,6 +307,7 @@ class AgentResultsEvaluator:
             metrics["pct_correct"] = metrics["num_correct"] / total if total else 0.0
             metrics["pct_not_sure"] = metrics["num_not_sure"] / total if total else 0.0
             metrics["pct_wrong"] = metrics["num_wrong"] / total if total else 0.0
+            metrics["category_judgments"] = category_judgments
 
         return metrics
 
@@ -387,6 +397,30 @@ def main():
                 print(f"    correct:  {total_correct:>5} ({total_correct/total_q*100:.1f}%)")
                 print(f"    not_sure: {total_not_sure:>5} ({total_not_sure/total_q*100:.1f}%)")
                 print(f"    wrong:    {total_wrong:>5} ({total_wrong/total_q*100:.1f}%)")
+
+            # Aggregate per-category judgments across all agents
+            merged: Dict[str, Dict[str, int]] = {}
+            for m in metrics_list:
+                for cat, counts in m.get('category_judgments', {}).items():
+                    if cat not in merged:
+                        merged[cat] = {'correct': 0, 'not_sure': 0, 'wrong': 0}
+                    for k in ('correct', 'not_sure', 'wrong'):
+                        merged[cat][k] += counts.get(k, 0)
+
+            if merged:
+                print(f"\n  Breakdown by question type:")
+                header = f"    {'Category':<30} {'Total':>6}  {'correct':>8}  {'not_sure':>9}  {'wrong':>7}"
+                print(header)
+                print("    " + "-" * (len(header) - 4))
+                for cat in sorted(merged):
+                    c = merged[cat]['correct']
+                    n = merged[cat]['not_sure']
+                    w = merged[cat]['wrong']
+                    t = c + n + w
+                    print(f"    {cat:<30} {t:>6}  "
+                          f"{c:>4} ({c/t*100:4.1f}%)  "
+                          f"{n:>4} ({n/t*100:4.1f}%)  "
+                          f"{w:>4} ({w/t*100:4.1f}%)")
 
     print("\nMetrics saved to:", output_path)
 
