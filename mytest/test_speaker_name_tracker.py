@@ -44,7 +44,7 @@ def load_episode_chunks(
     timestamp: str = "2023-05-01",
     min_dur: float = 60.0,
     max_dur: float = 300.0,
-    gap_threshold: float = 3.0,
+    gap_threshold: float = 5.0,
 ):
     """Load and merge chunks from one or more JSON episode files.
 
@@ -137,7 +137,7 @@ def test_e2e_speaker_identification(dialogue_folder):
     )
     print(f"Found {len(jsonl_files)} jsonl files")
 
-    chunks, speakers_pool = load_episode_chunks(jsonl_files)
+    chunks, speakers_pool = load_episode_chunks(jsonl_files[0:3])
     print(f"Loaded {len(chunks)} chunks, {len(speakers_pool)} unique speakers")
 
     # for i in range(len(chunks)):
@@ -153,7 +153,7 @@ def test_e2e_speaker_identification(dialogue_folder):
     tracker.QWEN3_MODEL = os.getenv("QWEN_MODEL_NAME", os.getenv("QWEN3_MODEL", "Qwen/Qwen3-32B"))
 
     # Use first 3 chunks to keep the test fast
-    test_chunks = chunks[:3]
+    test_chunks = chunks
     registry = identify_speakers(test_chunks, enable_thinking=True)
 
     print("\n── Final Registry ──")
@@ -171,12 +171,11 @@ def test_e2e_speaker_identification(dialogue_folder):
             speaker_idx = int(sid.split("_")[1])
             if speaker_idx in gt_reverse:
                 gt_name = gt_reverse[speaker_idx]
-                match = rec.name.lower() in gt_name.lower() or gt_name.lower().startswith(rec.name.lower())
-                status = "✓" if match else "✗"
-                print(f"  {status} {sid}: predicted={rec.name}, ground_truth={gt_name}")
-            else:
-                print(f"  {sid}: predicted={rec.name}, ground_truth={None}")
-    
+                firstname_rec = rec.name.split()[0]
+                match = rec.name.lower() in gt_name.lower() or gt_name.lower().startswith(rec.name.lower()) or gt_name.lower().startswith(firstname_rec.lower())
+                print(f"  {rec.status} {sid}: predicted={rec.name}, ground_truth={gt_name}")
+
+
 
     # Reassign speaker labels in every chunk:
     #   identified   → real name      e.g. <Sheldon>
@@ -228,7 +227,7 @@ if __name__ == "__main__":
     print("=" * 60)
 
 
-    dialogue_folder = "outputs/bazinga/TheBigBangTheory/Season1" 
+    dialogue_folder = "outputs/bazinga/TheBigBangTheory/Season1"
     # Online tests (require Qwen API)
     # test_qwen_api_connection()
     test_e2e_speaker_identification(dialogue_folder)
