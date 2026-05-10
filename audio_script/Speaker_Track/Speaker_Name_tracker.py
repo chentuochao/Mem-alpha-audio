@@ -224,11 +224,11 @@ def identify_speakers(
     debugging difficult or ambiguous dialogues.
     """
     registry: dict[str, SpeakerRecord] = {}
-
     for i, dialogue in enumerate(dialogues):
         dialogue_id  = f"dialogue_{i + 1}"
         user_prompt  = build_extraction_prompt(dialogue, registry)
-
+        print("------user_prompt------")
+        print(user_prompt)
         raw_response = qwen3_chat(
             system=EXTRACTION_SYSTEM_PROMPT,
             user=user_prompt,
@@ -236,7 +236,8 @@ def identify_speakers(
             temperature=0.0,   # greedy — extraction should be deterministic
             max_tokens=1024,
         )
-
+        print("------raw_response------")
+        print(raw_response)
         # Qwen3 sometimes wraps JSON in ```json … ``` even with instructions;
         # strip fences defensively before parsing.
         cleaned = re.sub(r"^```[a-z]*\n?|```$", "", raw_response.strip(), flags=re.MULTILINE).strip()

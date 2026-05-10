@@ -126,6 +126,7 @@ def test_e2e_speaker_identification():
         "outputs", "bazinga", "TheBigBangTheory", "Season1",
         "TheBigBangTheory.Season01.Episode01.json",
     )
+    print(episode_path)
     if not os.path.exists(episode_path):
         print("[SKIP] test_e2e_speaker_identification — episode data not found")
         return
@@ -148,7 +149,7 @@ def test_e2e_speaker_identification():
 
     # Use first 3 chunks to keep the test fast
     test_chunks = chunks[:3]
-    registry = identify_speakers(test_chunks, enable_thinking=False)
+    registry = identify_speakers(test_chunks, enable_thinking=True)
 
     print("\n── Final Registry ──")
     for sid, rec in sorted(registry.items()):
@@ -205,11 +206,6 @@ if __name__ == "__main__":
     print("=" * 60)
     print("Running Speaker Name Tracker Tests")
     print("=" * 60)
-
-    # Offline unit tests (no API needed)
-    # test_strip_thinking()
-    # test_update_registry()
-    # test_build_extraction_prompt()
 
     # Online tests (require Qwen API)
     # test_qwen_api_connection()
