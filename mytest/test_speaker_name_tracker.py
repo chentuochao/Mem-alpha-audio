@@ -15,6 +15,7 @@ Usage:
     python mytest/test_speaker_name_tracker.py
 """
 
+import glob
 import json
 import os
 import sys
@@ -39,29 +40,39 @@ from prepare_data.prepare_bazinga_data import chunk_dialog, fix_space_in_text
 # ── Build chunks from episode data (mirrors prepare_bazinga_data.py) ─────────
 
 def load_episode_chunks(
-    json_path: str,
+    json_paths: list,
     timestamp: str = "2023-05-01",
     min_dur: float = 60.0,
     max_dur: float = 300.0,
     gap_threshold: float = 3.0,
 ):
-    with open(json_path, "r") as f:
-        dialog = json.load(f)
+    """Load and merge chunks from one or more JSON episode files.
 
-    sub_chunks = chunk_dialog(dialog, min_dur=min_dur, max_dur=max_dur, gap_threshold=gap_threshold)
-
+    Speaker IDs are assigned globally so the same real speaker name maps
+    to the same Speaker_X label across all input files.
+    """
     speakers_pool = {}
     chunks = []
-    for sub in sub_chunks:
-        dialog_chunk = ""
-        for turn in sub:
-            speaker = turn["speaker"]
-            if speaker not in speakers_pool:
-                speakers_pool[speaker] = len(speakers_pool)
-            anon_speaker = "Speaker_" + str(speakers_pool[speaker])
-            turn_text = fix_space_in_text(turn["text"])
-            dialog_chunk += f"<{anon_speaker}> {turn_text}\n"
-        chunks.append(dialog_chunk)
+
+    if isinstance(json_paths, str):
+        json_paths = [json_paths]
+
+    for json_path in json_paths:
+        with open(json_path, "r") as f:
+            dialog = json.load(f)
+
+        sub_chunks = chunk_dialog(dialog, min_dur=min_dur, max_dur=max_dur, gap_threshold=gap_threshold)
+
+        for sub in sub_chunks:
+            dialog_chunk = ""
+            for turn in sub:
+                speaker = turn["speaker"]
+                if speaker not in speakers_pool:
+                    speakers_pool[speaker] = len(speakers_pool)
+                anon_speaker = "Speaker_" + str(speakers_pool[speaker])
+                turn_text = fix_space_in_text(turn["text"])
+                dialog_chunk += f"<{anon_speaker}> {turn_text}\n"
+            chunks.append(dialog_chunk)
 
     return chunks, speakers_pool
 
@@ -120,20 +131,14 @@ def test_build_extraction_prompt():
 
 # ── Test 4: End-to-end with real Qwen API call on episode data ───────────────
 
-def test_e2e_speaker_identification():
-    episode_path = os.path.join(
-        os.path.dirname(__file__), "..",
-        "outputs", "bazinga", "TheBigBangTheory", "Season1",
-        "TheBigBangTheory.Season01.Episode01.json",
+def test_e2e_speaker_identification(dialogue_folder):
+    jsonl_files = sorted(
+        glob.glob(os.path.join(dialogue_folder, "*.json"))
     )
-    print(episode_path)
-    if not os.path.exists(episode_path):
-        print("[SKIP] test_e2e_speaker_identification — episode data not found")
-        return
+    print(f"Found {len(jsonl_files)} jsonl files")
 
-    chunks, speakers_pool = load_episode_chunks(episode_path)
-    print(f"\nLoaded {len(chunks)} chunks from Episode 01")
-    print(f"Speaker pool (ground truth): {speakers_pool}")
+    chunks, speakers_pool = load_episode_chunks(jsonl_files)
+    print(f"Loaded {len(chunks)} chunks, {len(speakers_pool)} unique speakers")
 
     # for i in range(len(chunks)):
     #     print(f"Chunk {i}:\n{chunks[i][:500]}\n...")
@@ -155,10 +160,6 @@ def test_e2e_speaker_identification():
     for sid, rec in sorted(registry.items()):
         print(f"  {sid:12s} → {rec.display_name:20s} [{rec.status}]  (evidence: {len(rec.evidence)})")
 
-    # Resolve the last test chunk
-    resolved = resolve_transcript(test_chunks[-1], registry)
-    print(f"\n── Resolved transcript (chunk 3) ──\n{resolved[:800]}")
-
     # Check that at least some speakers were identified
     identified = [sid for sid, rec in registry.items() if rec.name is not None]
     print(f"\nIdentified {len(identified)} / {len(registry)} speakers")
@@ -173,6 +174,25 @@ def test_e2e_speaker_identification():
                 match = rec.name.lower() in gt_name.lower() or gt_name.lower().startswith(rec.name.lower())
                 status = "✓" if match else "✗"
                 print(f"  {status} {sid}: predicted={rec.name}, ground_truth={gt_name}")
+            else:
+                print(f"  {sid}: predicted={rec.name}, ground_truth={None}")
+    
+
+    # Reassign speaker labels in every chunk:
+    #   identified   → real name      e.g. <Sheldon>
+    #   unidentified → Unknown_<sid>  e.g. <Unknown_Speaker_2>
+    def _resolved_label(sid: str, rec: "SpeakerRecord") -> str:
+        return rec.name if rec.name else f"Unknown_{sid}"
+
+    resolved_chunks = []
+    for chunk in test_chunks:
+        for sid, rec in registry.items():
+            chunk = chunk.replace(f"<{sid}>", f"<{_resolved_label(sid, rec)}>")
+        resolved_chunks.append(chunk)
+
+    print(f"\n── Resolved transcripts ({len(resolved_chunks)} chunks) ──")
+    for i, chunk in enumerate(resolved_chunks):
+        print(f"\n[Chunk {i}]\n{chunk[:500]}")
 
     assert len(identified) > 0, "Expected at least one speaker to be identified"
     print("[PASS] test_e2e_speaker_identification")
@@ -207,9 +227,11 @@ if __name__ == "__main__":
     print("Running Speaker Name Tracker Tests")
     print("=" * 60)
 
+
+    dialogue_folder = "outputs/bazinga/TheBigBangTheory/Season1" 
     # Online tests (require Qwen API)
     # test_qwen_api_connection()
-    test_e2e_speaker_identification()
+    test_e2e_speaker_identification(dialogue_folder)
 
     print("\n" + "=" * 60)
     print("All tests completed.")
