@@ -21,6 +21,8 @@ import os
 import sys
 import string
 
+import pandas as pd
+
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from openai import OpenAI
@@ -41,7 +43,7 @@ from prepare_data.prepare_bazinga_data import chunk_dialog, fix_space_in_text
 
 def load_episode_chunks(
     json_paths: list,
-    timestamp: str = "2023-05-01",
+    time_maps: dict,
     min_dur: float = 60.0,
     max_dur: float = 300.0,
     gap_threshold: float = 5.0,
@@ -58,13 +60,15 @@ def load_episode_chunks(
         json_paths = [json_paths]
 
     for json_path in json_paths:
+        session_name = os.path.basename(json_path)
+        timestamp = time_maps[session_name]
         with open(json_path, "r") as f:
             dialog = json.load(f)
 
         sub_chunks = chunk_dialog(dialog, min_dur=min_dur, max_dur=max_dur, gap_threshold=gap_threshold)
 
         for sub in sub_chunks:
-            dialog_chunk = ""
+            dialog_chunk = f"[Dialogue between multiple people on {timestamp}]\n"
             for turn in sub:
                 speaker = turn["speaker"]
                 if speaker not in speakers_pool:
@@ -77,72 +81,16 @@ def load_episode_chunks(
     return chunks, speakers_pool
 
 
-# ── Test 1: Unit test for strip_thinking ─────────────────────────────────────
-
-def test_strip_thinking():
-    raw = '<think>\nSome internal reasoning\n</think>\n{"extractions": []}'
-    cleaned = strip_thinking(raw)
-    assert cleaned == '{"extractions": []}', f"strip_thinking failed: {cleaned}"
-    print("[PASS] test_strip_thinking")
-
-
-# ── Test 2: Unit test for update_registry ────────────────────────────────────
-
-def test_update_registry():
-    registry = {}
-    extractions = [
-        {
-            "speaker_id": "Speaker_0",
-            "name": "Sheldon",
-            "cue_type": "vocative",
-            "evidence_utterance": "Sheldon, this was your idea.",
-            "confidence": 0.9,
-        },
-        {
-            "speaker_id": "Speaker_1",
-            "name": "Leonard",
-            "cue_type": "vocative",
-            "evidence_utterance": "Leonard, I don't think I can do this.",
-            "confidence": 0.9,
-        },
-    ]
-    registry = update_registry(registry, extractions, "test_dialogue_1")
-
-    assert registry["Speaker_0"].name == "Sheldon"
-    assert registry["Speaker_0"].status == "confirmed"  # conf >= 0.9
-    assert registry["Speaker_1"].name == "Leonard"
-    assert registry["Speaker_1"].status == "confirmed"
-    print("[PASS] test_update_registry")
-
-
-# ── Test 3: Unit test for build_extraction_prompt ────────────────────────────
-
-def test_build_extraction_prompt():
-    registry = {
-        "Speaker_0": SpeakerRecord(speaker_id="Speaker_0", name="Sheldon", status="confirmed"),
-    }
-    dialogue = "<Speaker_0> Hello\n<Speaker_1> Hi there"
-    prompt = build_extraction_prompt(dialogue, registry)
-    assert "Sheldon" in prompt
-    assert "Speaker_0" in prompt
-    assert "New dialogue to analyze" in prompt
-    print("[PASS] test_build_extraction_prompt")
-
-
 # ── Test 4: End-to-end with real Qwen API call on episode data ───────────────
 
-def test_e2e_speaker_identification(dialogue_folder):
+def test_e2e_speaker_identification(dialogue_folder, time_maps):
     jsonl_files = sorted(
         glob.glob(os.path.join(dialogue_folder, "*.json"))
     )
     print(f"Found {len(jsonl_files)} jsonl files")
 
-    chunks, speakers_pool = load_episode_chunks(jsonl_files[0:3])
+    chunks, speakers_pool = load_episode_chunks(jsonl_files[0:3], time_maps)
     print(f"Loaded {len(chunks)} chunks, {len(speakers_pool)} unique speakers")
-
-    # for i in range(len(chunks)):
-    #     print(f"Chunk {i}:\n{chunks[i][:500]}\n...")
-    # exit(0)
 
     # Override the module-level client/model to use the same env vars as evaluate_agent_results.py
     import audio_script.Speaker_Track.Speaker_Name_tracker as tracker
@@ -152,9 +100,7 @@ def test_e2e_speaker_identification(dialogue_folder):
     )
     tracker.QWEN3_MODEL = os.getenv("QWEN_MODEL_NAME", os.getenv("QWEN3_MODEL", "Qwen/Qwen3-32B"))
 
-    # Use first 3 chunks to keep the test fast
-    test_chunks = chunks
-    registry = identify_speakers(test_chunks, enable_thinking=True)
+    registry = identify_speakers(chunks, enable_thinking=True)
 
     print("\n── Final Registry ──")
     for sid, rec in sorted(registry.items()):
@@ -172,19 +118,22 @@ def test_e2e_speaker_identification(dialogue_folder):
             if speaker_idx in gt_reverse:
                 gt_name = gt_reverse[speaker_idx]
                 firstname_rec = rec.name.split()[0]
-                match = rec.name.lower() in gt_name.lower() or gt_name.lower().startswith(rec.name.lower()) or gt_name.lower().startswith(firstname_rec.lower())
-                print(f"  {rec.status} {sid}: predicted={rec.name}, ground_truth={gt_name}")
-
-
+                match = (
+                    rec.name.lower() in gt_name.lower()
+                    or gt_name.lower().startswith(rec.name.lower())
+                    or gt_name.lower().startswith(firstname_rec.lower())
+                )
+                status = "✓" if match else "✗"
+                print(f"  {status} [{rec.status}] {sid}: predicted={rec.name}, ground_truth={gt_name}")
 
     # Reassign speaker labels in every chunk:
-    #   identified   → real name      e.g. <Sheldon>
-    #   unidentified → Unknown_<sid>  e.g. <Unknown_Speaker_2>
+    #   identified   → real name        e.g. <Sheldon>
+    #   unidentified → Unknown_<sid>    e.g. <Unknown_Speaker_2>
     def _resolved_label(sid: str, rec: "SpeakerRecord") -> str:
         return rec.name if rec.name else f"Unknown_{sid}"
 
     resolved_chunks = []
-    for chunk in test_chunks:
+    for chunk in chunks:
         for sid, rec in registry.items():
             chunk = chunk.replace(f"<{sid}>", f"<{_resolved_label(sid, rec)}>")
         resolved_chunks.append(chunk)
@@ -196,41 +145,101 @@ def test_e2e_speaker_identification(dialogue_folder):
     assert len(identified) > 0, "Expected at least one speaker to be identified"
     print("[PASS] test_e2e_speaker_identification")
 
+    return resolved_chunks, speakers_pool
 
-# ── Test 5: Qwen API connectivity check ─────────────────────────────────────
 
-def test_qwen_api_connection():
-    import audio_script.Speaker_Track.Speaker_Name_tracker as tracker
-    tracker.client = OpenAI(
-        base_url=os.getenv("QWEN_URL", os.getenv("QWEN_BASE_URL", "http://localhost:8000/v1")),
-        api_key=os.getenv("OPENROUTER_API_KEY", os.getenv("QWEN_API_KEY", "EMPTY")),
-    )
-    tracker.QWEN3_MODEL = os.getenv("QWEN_MODEL_NAME", os.getenv("QWEN3_MODEL", "Qwen/Qwen3-32B"))
+# ── Save resolved chunks to parquet ─────────────────────────────────────────
 
-    try:
-        result = qwen3_chat(
-            system="You are a test assistant.",
-            user='Return exactly: {"status": "ok"}',
-            temperature=0.0,
-            max_tokens=64,
-        )
-        print(f"API response: {result}")
-        assert "ok" in result.lower(), f"Unexpected response: {result}"
-        print("[PASS] test_qwen_api_connection")
-    except Exception as e:
-        print(f"[SKIP] test_qwen_api_connection — API not reachable: {e}")
+def save_parquet(resolved_chunks, qas, output_path):
+    samples = [{
+        "instance_id": 0,
+        "prompt": "I will provide you with the conversation history between the different speakers and I need you to remember the details of the conversation for future reference.",
+        "chunks": json.dumps(resolved_chunks),
+        "questions_and_answers": json.dumps(qas),
+        "data_source": "seamlessinteraction",
+        "metadata": {"data_source": "seamlessinteraction", "metadata": "{}", "sample_id": 0},
+        "num_chunks": len(resolved_chunks),
+        "num_questions": len(qas),
+    }]
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    df = pd.DataFrame(samples)
+    df.to_parquet(output_path, index=False)
+    print(f"Saved {len(samples)} samples ({len(resolved_chunks)} chunks, {len(qas)} QA pairs) to {output_path}")
 
+
+def parse_qa(qa_files):
+    qas = []
+    for qa_file in qa_files:
+        question_type = os.path.basename(qa_file).replace(".jsonl", "")
+        # read jsonl file
+        print(qa_file)
+        with jsonlines.open(qa_file) as reader:
+            qa = [line for line in reader]
+        
+        for qa_item in qa:
+            question = qa_item["question"]
+            question_type = qa_item["category"]
+            if "options" in qa_item.keys():
+                options = qa_item["options"]
+                for k,v in options.items():
+                    question += f"\n{k}. {v}"
+                question += "\nC. not sure"
+            qas.append({
+                "question": question,
+                "answer": qa_item["answer"],
+                "type": question_type,
+                "gt_source": qa_item["gt_source"],
+            })
+    return qas
 
 if __name__ == "__main__":
     print("=" * 60)
     print("Running Speaker Name Tracker Tests")
     print("=" * 60)
 
+    anonymized = False
+    data_folder = "outputs/bazinga_data/"
+    Season = "Season1"
+    split = "gt" # "pred"
+    if split == "gt":
+        speaker_map = None
+    else:
+        with open(os.path.join(data_folder, "speaker_map.json"), "r") as f:
+            speaker_map = json.load(f)
 
-    dialogue_folder = "outputs/bazinga/TheBigBangTheory/Season1"
+
+    if anonymized:
+        qa_files = [
+            "QA_designs/TV_series/TBBT_s1/speaker_atributted_qa_anonymized.jsonl",
+            "QA_designs/TV_series/TBBT_s1/long_context_QA_anonymized.jsonl",
+        ]
+        input_folder= "QA_designs/TV_series/TBBT_s1/S1_main_anon/"
+        output_path = os.path.join(data_folder, f"{Season}_{split}_SpeakerLabelFalse_anony.parquet")
+
+    else:
+        qa_files = [
+            "QA_designs/TV_series/TBBT_s1/speaker_atributted_qa_deanonymized.jsonl",
+            "QA_designs/TV_series/TBBT_s1/long_context_QA_unmasked.jsonl",
+        ]
+        input_folder = f"outputs/bazinga/TheBigBangTheory/{Season}"
+        output_path = os.path.join(data_folder, f"{Season}_{split}_SpeakerLabelFalse.parquet")
+
+
+    timestamp_file = "QA_designs/TV_series/TBBT_s1/S1_session_timeline.json"
+    with open(timestamp_file, "r") as f:
+        time_info = json.load(f)
+    time_info = time_info["sessions"]
+    time_maps = {}
+    for item in time_info:
+        time_maps[item["source_file"]] = item["session_timeline_date"]
+
+
+    qas = parse_qa(qa_files)
+
     # Online tests (require Qwen API)
     # test_qwen_api_connection()
-    test_e2e_speaker_identification(dialogue_folder)
+    resolved_chunks, speakers_pool = test_e2e_speaker_identification(input_folder, time_maps)
+    save_parquet(resolved_chunks, qas, output_path)
 
     print("\n" + "=" * 60)
     print("All tests completed.")
