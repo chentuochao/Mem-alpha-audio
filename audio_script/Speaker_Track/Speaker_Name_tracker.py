@@ -61,7 +61,7 @@ def qwen3_chat(
     *,
     enable_thinking: bool = False,
     temperature: float = 0.7,
-    max_tokens: int = 1024,
+    max_tokens: int = 2048,
 ) -> str:
     """
     Single-turn chat with a Qwen3 model.
@@ -87,7 +87,9 @@ def qwen3_chat(
         temperature=temperature,
         max_tokens=max_tokens,
         # Qwen3 on vLLM / DashScope also accepts this flag in extra_body:
-        extra_body={"enable_thinking": enable_thinking},
+        extra_body={
+            "enable_thinking": enable_thinking,
+        },
     )
 
     raw = response.choices[0].message.content or ""
@@ -234,7 +236,7 @@ def identify_speakers(
             user=user_prompt,
             enable_thinking=enable_thinking,
             temperature=0.0,   # greedy — extraction should be deterministic
-            max_tokens=4096,
+            max_tokens=2048,
         )
         # print("------raw_response------")
         # print(raw_response)

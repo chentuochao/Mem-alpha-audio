@@ -20,7 +20,7 @@ import json
 import os
 import sys
 import string
-
+import jsonlines
 import pandas as pd
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
@@ -89,7 +89,7 @@ def test_e2e_speaker_identification(dialogue_folder, time_maps):
     )
     print(f"Found {len(jsonl_files)} jsonl files")
 
-    chunks, speakers_pool = load_episode_chunks(jsonl_files[0:3], time_maps)
+    chunks, speakers_pool = load_episode_chunks(jsonl_files, time_maps)
     print(f"Loaded {len(chunks)} chunks, {len(speakers_pool)} unique speakers")
 
     # Override the module-level client/model to use the same env vars as evaluate_agent_results.py
@@ -100,7 +100,7 @@ def test_e2e_speaker_identification(dialogue_folder, time_maps):
     )
     tracker.QWEN3_MODEL = os.getenv("QWEN_MODEL_NAME", os.getenv("QWEN3_MODEL", "Qwen/Qwen3-32B"))
 
-    registry = identify_speakers(chunks, enable_thinking=True)
+    registry = identify_speakers(chunks, enable_thinking=False)
 
     print("\n── Final Registry ──")
     for sid, rec in sorted(registry.items()):
@@ -131,16 +131,26 @@ def test_e2e_speaker_identification(dialogue_folder, time_maps):
     #   unidentified → Unknown_<sid>    e.g. <Unknown_Speaker_2>
     def _resolved_label(sid: str, rec: "SpeakerRecord") -> str:
         return rec.name if rec.name else f"Unknown_{sid}"
+    print(speakers_pool)
+    print(registry)
 
     resolved_chunks = []
     for chunk in chunks:
+        # replace <Speaker_X> labels with resolved names
         for sid, rec in registry.items():
             chunk = chunk.replace(f"<{sid}>", f"<{_resolved_label(sid, rec)}>")
+
+        # speakers_pool may contain speakers the tracker never saw (no registry entry);
+        # replace their raw <Speaker_X> labels with <Unknown_Speaker_X>.
+        for _, idx in speakers_pool.items():
+            sid = f"Speaker_{idx}"
+            if sid not in registry:
+                chunk = chunk.replace(f"<{sid}>", f"<Unknown_{sid}>")
         resolved_chunks.append(chunk)
 
-    print(f"\n── Resolved transcripts ({len(resolved_chunks)} chunks) ──")
-    for i, chunk in enumerate(resolved_chunks):
-        print(f"\n[Chunk {i}]\n{chunk[:500]}")
+    # print(f"\n── Resolved transcripts ({len(resolved_chunks)} chunks) ──")
+    # for i, chunk in enumerate(resolved_chunks):
+    #     print(f"\n[Chunk {i}]\n{chunk[:500]}")
 
     assert len(identified) > 0, "Expected at least one speaker to be identified"
     print("[PASS] test_e2e_speaker_identification")
@@ -175,7 +185,7 @@ def parse_qa(qa_files):
         print(qa_file)
         with jsonlines.open(qa_file) as reader:
             qa = [line for line in reader]
-        
+
         for qa_item in qa:
             question = qa_item["question"]
             question_type = qa_item["category"]
