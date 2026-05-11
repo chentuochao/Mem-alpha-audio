@@ -143,7 +143,8 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
         current_chunks = []
         for i, chunk_list in enumerate(batch_chunks):
             if chunk_idx < len(chunk_list):
-                current_chunks.append(prompts_wrt_datasource['unified_prompt'].format(context=chunk_list[chunk_idx], max_new_tokens=int(max_new_tokens * 0.8)))
+                prompt_key = 'unified_prompt_multispeaker' if "seamless" in batch_sources[i] else 'unified_prompt'
+                current_chunks.append(prompts_wrt_datasource[prompt_key].format(context=chunk_list[chunk_idx], max_new_tokens=int(max_new_tokens * 0.8)))
                 remaining_indices.append(i)
 
         if len(remaining_indices) == 0:
