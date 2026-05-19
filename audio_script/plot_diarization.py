@@ -178,6 +178,9 @@ def plot_and_eval(pred_npy: str,
     # ── Compute DER ───────────────────────────────────────────────────
     # Binarize pred (threshold 0.5)
     pred_bin = (pred_mat >= 0.5).astype(np.float32)
+    valid_speakers = int((pred_bin.sum(axis=1) > 0).sum())
+    print(f"Valid speakers (at least 1 active frame): {valid_speakers}", N_pred, N_gt)
+
 
     if N_gt > N_pred:
         pred_padded = np.zeros((N_gt, T), dtype=pred_bin.dtype)

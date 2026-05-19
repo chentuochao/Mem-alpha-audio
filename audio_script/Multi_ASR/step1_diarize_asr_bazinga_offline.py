@@ -30,6 +30,8 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple
 
+import gc
+
 import numpy as np
 import soundfile as sf
 import torch
@@ -38,7 +40,6 @@ from omegaconf import OmegaConf
 from tqdm import tqdm
 
 from audio_script.datasets.Bazinga_loader import BazingaDataset
-
 SR = 16000
 FRAME_LEN_SEC = 0.08
 
@@ -49,6 +50,77 @@ TURN_GAP_TH = 1.5
 CHUNK_MIN_DURATION = 60
 CHUNK_MAX_DURATION = 600
 CHUNK_GAP_THRESHOLD = 3.0
+
+@dataclass
+class MultitalkerTranscriptionConfig:
+    """Configuration for multi-talker transcription with NeMo ASR + diarization."""
+
+    diar_model: Optional[str] = None
+    diar_pretrained_name: Optional[str] = None
+    max_num_of_spks: Optional[int] = 4
+    parallel_speaker_strategy: bool = True
+    masked_asr: bool = True
+    mask_preencode: bool = False
+    cache_gating: bool = True
+    cache_gating_buffer_size: int = 2
+    single_speaker_mode: bool = False
+    feat_len_sec: float = 0.01
+
+    session_len_sec: float = -1
+    num_workers: int = 8
+    random_seed: Optional[int] = None
+    log: bool = False
+
+    streaming_mode: bool = True
+    spkcache_len: int = 188
+    spkcache_refresh_rate: int = 0
+    fifo_len: int = 188
+    chunk_len: int = 0
+    chunk_left_context: int = 0
+    chunk_right_context: int = 0
+
+    cuda: Optional[int] = None
+    allow_mps: bool = False
+    matmul_precision: str = "highest"
+
+    asr_model: Optional[str] = None
+    device: str = "cuda"
+    audio_file: Optional[str] = None
+    manifest_file: Optional[str] = None
+    att_context_size: Optional[List[int]] = field(default_factory=lambda: [70, 13])
+    use_amp: bool = True
+    debug_mode: bool = False
+    deploy_mode: bool = False
+    batch_size: int = 32
+    chunk_size: int = -1
+    shift_size: int = -1
+    left_chunks: int = 2
+    online_normalization: bool = False
+    output_path: Optional[str] = None
+    pad_and_drop_preencoded: bool = False
+    set_decoder: Optional[str] = None
+    generate_realtime_scripts: bool = False
+    spk_supervision: str = "diar"
+    binary_diar_preds: bool = False
+
+    verbose: bool = False
+    word_window: int = 50
+    sent_break_sec: float = 30.0
+    fix_prev_words_count: int = 5
+    update_prev_words_sentence: int = 5
+    left_frame_shift: int = -1
+    right_frame_shift: int = 0
+    min_sigmoid_val: float = 1e-2
+    discarded_frames: int = 8
+    print_time: bool = True
+
+    print_sample_indices: List[int] = field(default_factory=lambda: [0])
+    colored_text: bool = True
+    real_time_mode: bool = False
+    print_path: Optional[str] = None
+    ignored_initial_frame_steps: int = 5
+    finetune_realtime_ratio: float = 0.01
+
 
 
 def chunk_words(
@@ -128,9 +200,13 @@ def run_offline_diarization(
         sample_rate=SR,
         include_tensor_outputs=True,
     )
-    diar_probs = pred_tensors[0].squeeze(0)  # (T, S)
+    diar_probs = pred_tensors[0].squeeze(0).clone()  # (T, S)
     diar_probs[:, max_num_of_spks:] = 0.0
     diar_binary = (diar_probs > 0.5).cpu().numpy()
+    diar_probs = diar_probs.cpu()  # move off GPU before ASR runs
+    # Explicitly free GPU tensors so Python GC doesn't trigger during CUDA Graph capture
+    del pred_tensors, predicted_segments
+    torch.cuda.synchronize()
     return diar_binary, diar_probs
 
 
@@ -225,6 +301,32 @@ def merge_diar_and_asr(
 # Entry point
 # ──────────────────────────────────────────────────────────────────────────────
 
+def _disable_cuda_graphs(model):
+    """Disable CUDA graph optimization in NeMo ASR models.
+
+    NeMo does 2 warm-up runs then captures a CUDA graph on run 3.  With
+    variable-length audio chunks the graph replay accesses out-of-bounds
+    memory, producing cudaErrorIllegalAddress.  Flip every knob we know.
+    """
+    from omegaconf import open_dict
+
+    # 1. Module-level flags used by NeMo encoders
+    for module in model.modules():
+        for attr in ("use_graph", "_use_cuda_graph", "use_cuda_graph",
+                     "cuda_graph_mode", "_cuda_graph_mode"):
+            if hasattr(module, attr):
+                setattr(module, attr, False)
+
+    # 2. Decoding config: fused_batch_size=-1 disables CTC/RNNT CUDA graphs
+    try:
+        if hasattr(model, "cfg") and hasattr(model.cfg, "decoding"):
+            with open_dict(model.cfg.decoding):
+                if hasattr(model.cfg.decoding, "fused_batch_size"):
+                    model.cfg.decoding.fused_batch_size = -1
+    except Exception:
+        pass
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Step 1 (Bazinga — OFFLINE): Run multi-talker diarization + ASR "
@@ -277,31 +379,28 @@ def main():
     """
     Low latency mode
     """
-    diar_model.sortformer_modules.chunk_len = cfg.chunk_len if cfg.chunk_len > 0 else 6
-    diar_model.sortformer_modules.spkcache_len = cfg.spkcache_len
-    diar_model.sortformer_modules.chunk_left_context = cfg.chunk_left_context
-    diar_model.sortformer_modules.chunk_right_context = (
-        cfg.chunk_right_context if cfg.chunk_right_context > 0 else 7
-    )
-    diar_model.sortformer_modules.fifo_len = cfg.fifo_len
-    diar_model.sortformer_modules.spkcache_refresh_rate = cfg.spkcache_refresh_rate
+    # diar_model.sortformer_modules.chunk_len = cfg.chunk_len if cfg.chunk_len > 0 else 6
+    # diar_model.sortformer_modules.spkcache_len = cfg.spkcache_len
+    # diar_model.sortformer_modules.chunk_left_context = cfg.chunk_left_context
+    # diar_model.sortformer_modules.chunk_right_context = (
+    #     cfg.chunk_right_context if cfg.chunk_right_context > 0 else 7
+    # )
+    # diar_model.sortformer_modules.fifo_len = cfg.fifo_len
+    # diar_model.sortformer_modules.spkcache_refresh_rate = cfg.spkcache_refresh_rate
 
     """
     High latency mode
     """
-    # diar_model.sortformer_modules.chunk_len = 340
-    # diar_model.sortformer_modules.spkcache_len = 188
-    # diar_model.sortformer_modules.chunk_left_context = 0
-    # diar_model.sortformer_modules.chunk_right_context = 40
-    # diar_model.sortformer_modules.fifo_len = 40
-    # diar_model.sortformer_modules.spkcache_update_period = 300
+    diar_model.sortformer_modules.chunk_len = 340
+    diar_model.sortformer_modules.spkcache_len = 188
+    diar_model.sortformer_modules.chunk_left_context = 0
+    diar_model.sortformer_modules.chunk_right_context = 40
+    diar_model.sortformer_modules.fifo_len = 40
+    diar_model.sortformer_modules.spkcache_update_period = 300
 
-    print("Loading ASR model...")
-    asr_model = (
-        ASRModel.restore_from(args.asr_model_path)
-        .eval()
-        .to(device)
-    )
+    # ASR model is re-created per chunk to avoid CUDA graph state accumulation
+    # across variable-length inputs (causes cudaErrorIllegalAddress on chunk 3+).
+    asr_model_path = args.asr_model_path
 
     # ── Process each episode ────────────────────────────────────────
     num_processed = 0
@@ -331,6 +430,7 @@ def main():
         for chunk_id, chunk in enumerate(transcript_chunks):
             start_time = int(SR * chunk[0]["start"])
             end_time = int(SR * chunk[-1]["end"])
+            print("chunkid", chunk_id, (end_time - start_time)/16000.0)
             if end_time > T:
                 end_time = T
             audio = raw_audio[start_time:end_time]
@@ -356,27 +456,37 @@ def main():
                 num_skipped += 1
                 continue
 
-            try:
-                # Step 1: Offline diarization
-                diar_binary, diar_probs = run_offline_diarization(
-                    audio, diar_model, args.max_num_of_spks,
-                )
+            # try:
+            # Step 1: Offline diarization
+            diar_binary, diar_probs = run_offline_diarization(
+                audio, diar_model, args.max_num_of_spks,
+            )
 
-                # Step 2: Offline ASR
-                chunk_tag = f"{conv_id}_chunk{chunk_id}"
-                asr_hyp = run_offline_asr(audio, asr_model, tmp_dir, chunk_tag)
+            # Flush GPU cache so ASR model gets clean memory
+            torch.cuda.synchronize()
+            gc.collect()
+            torch.cuda.empty_cache()
 
-                # Step 3: Merge diarization + ASR
-                word_list = merge_diar_and_asr(
-                    diar_probs, asr_hyp, args.max_num_of_spks,
-                )
+            # Step 2: Offline ASR — fresh model each chunk to avoid CUDA graph state
+            asr_model = ASRModel.restore_from(asr_model_path).eval().to(device)
+            chunk_tag = f"{conv_id}_chunk{chunk_id}"
+            asr_hyp = run_offline_asr(audio, asr_model, tmp_dir, chunk_tag)
+            del asr_model
+            torch.cuda.synchronize()
+            gc.collect()
+            torch.cuda.empty_cache()
 
-            except Exception as e:
-                print(f"  Error processing {conv_id} chunk {chunk_id}: {e}")
-                import traceback
-                traceback.print_exc()
-                num_fail += 1
-                continue
+            # Step 3: Merge diarization + ASR
+            word_list = merge_diar_and_asr(
+                diar_probs, asr_hyp, args.max_num_of_spks,
+            )
+
+            # except Exception as e:
+            #     print(f"  Error processing {conv_id} chunk {chunk_id}: {e}")
+            #     import traceback
+            #     traceback.print_exc()
+            #     num_fail += 1
+            #     continue
 
             # ── Save outputs ────────────────────────────────────────
             os.makedirs(chunk_dir, exist_ok=True)
@@ -407,11 +517,10 @@ def main():
                 "time_stamp": [start_time, end_time],
                 "mode": "offline",
                 "diar_config": {
-                    "chunk_len": args.chunk_len,
-                    "chunk_right_context": args.chunk_right_context,
-                    "fifo_len": args.fifo_len,
-                    "spkcache_len": args.spkcache_len,
-                    "spkcache_update_period": args.spkcache_update_period,
+                    "chunk_len": cfg.chunk_len,
+                    "chunk_right_context": cfg.chunk_right_context,
+                    "fifo_len": cfg.fifo_len,
+                    "spkcache_len": cfg.spkcache_len,
                 },
             }
             with open(info_path, "w", encoding="utf-8") as fh:
@@ -421,7 +530,7 @@ def main():
             print(f"  Saved: {word_list_path}")
             print(f"  Saved: {info_path}")
             num_processed += 1
-
+        exit(0)
     # Cleanup temp dir
     try:
         os.rmdir(tmp_dir)

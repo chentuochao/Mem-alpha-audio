@@ -59,9 +59,10 @@ speaker_map.json (pred only)
 
 ```bash
 python run_memory_construction.py \
-  --agent_config config/memalpha-qwen3-4b_agent_0.05-0.1.yaml \
-  --dataset seamlessinteraction_gt \
-  --batch_size 1
+      --agent_config config/memalpha-qwen3-4b_agent_0.05-0.1.yaml \
+      --dataset seamlessinteraction_options \
+      --parquet_path ./outputs/bazinga_data/Season1_gt_SpeakerLabelFalse.parquet \
+      --batch_size 1
 ```
 
 Streams each conversation through a **vLLM**-hosted Qwen model chunk by chunk.
@@ -137,15 +138,51 @@ Parquet dataset (ConversationCreator)
 | `--exclude_memory` | Disable `core`, `semantic`, and/or `episodic` memory types |
 | `--rollout_label` | Suffix appended to the output directory name |
 | `--save_process` | Save detailed per-chunk logs (Qwen models) |
-
 ---
 
 ## Step C — QA Evaluation
 
+To lauch the QA generation, you should lauch the reward model (Qwen-32B) in an api server on the same node.
+
+### Setup API server
+First use
+```
+srun --pty --overlap --jobid <JOBID> bash
+```
+or
+```
+ssh gxxx
+```
+to open the second terminal on the same nodes. Then in the second terminal, launch the reward model by running ./launch_vllm.sh. Inside ./launch_vllm.sh, one thing important is that set "CUDA_VISIBLE_DEVICES" to designate which GPUs you are using for API server. For example, you want run memory agent on GPU0, then you need to server the reward model on GPU1 to avoid OOM.
+```
+CUDA_VISIBLE_DEVICES=1 python -m vllm.entrypoints.openai.api_server \
+    --model Qwen/Qwen3-32B \
+    --host 0.0.0.0 \
+    --port 8002 \
+    --tensor-parallel-size 1
+```
+Then go back to terminal 1. To check whether the reward model is running, run
+```
+curl http://localhost:8002/v1/models
+```
+
+
+### Setup memory_server
+In terminal 1, after the reward model is running, then run the memory_server.py in the background
+```
+QWEN_URL="http://localhost:8002/v1" python memory_server.py --port 5005  > server_outputs.log 2>&1 &
+```
+to check whether memory_server is running
+```
+curl http://127.0.0.1:5005/batch_process
+```
+
+### Running QA generation
 ```bash
 python run_qa_evaluation.py \
   --agent_config config/memalpha-qwen3-4b_agent_0.05-0.1.yaml \
-  --dataset seamlessinteraction_gt \
+  --dataset seamlessinteraction_options \
+  --parquet_path ./outputs/bazinga_data/Season1_gt_SpeakerLabelFalse.parquet \
   --batch_size 1
 ```
 
@@ -240,10 +277,5 @@ Example: `./agents/memalpha_Qwen_Qwen3-4B_seamlessinteraction_gt_tokens_2048/0/`
 
 QA accuracy
 ```
-QWEN_URL="http://localhost:8002/v1"  python evaluate_agent_results.py --base_dir ./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_seamlessinteraction_gt_ext_qwen3-32b_no_thinking_tokens_2048
-```
-
-Compression Ratio
-```
-QWEN_URL="http://localhost:8002/v1"  python evaluate_agent_results.py --base_dir ./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_seamlessinteraction_gt_ext_qwen3-32b_no_thinking_tokens_2048 --dataset seamlessinteraction_gt
+QWEN_URL="http://localhost:8002/v1"  python evaluate_agent_results.py --base_dir ./agents/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_seamlessinteraction_options_Season1_gt_SpeakerLabelFalse_no_thinking_tokens_2048
 ```

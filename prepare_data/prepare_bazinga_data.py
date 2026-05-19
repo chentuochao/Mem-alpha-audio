@@ -127,7 +127,7 @@ timestamp_file = "QA_designs/TV_series/TBBT_s1/S1_session_timeline.json"
 
 
 
-
+'''
 # load timestamp_file to json
 with open(timestamp_file, "r") as f:
     time_info = json.load(f)
@@ -143,7 +143,7 @@ for qa_file in qa_files:
     print(qa_file)
     with jsonlines.open(qa_file) as reader:
         qa = [line for line in reader]
-    
+
     for qa_item in qa:
         question = qa_item["question"]
         question_type = qa_item["category"]
@@ -196,12 +196,12 @@ for idx, json_file in enumerate(jsonl_files):
 
             turn_text = fix_space_in_text(turn['text'])
             dialog_chunk += f"<{speaker}> {turn_text}\n"
-        
+
         # print(dialog_chunk)
         # print("-"*100)
         chunks.append(dialog_chunk)
 
-    
+
 print("speakers_pool = ", speakers_pool)
 samples = []
 samples.append({
@@ -218,3 +218,4 @@ samples.append({
 df = pd.DataFrame(samples)
 df.to_parquet(output_path, index=False)
 print(f"Saved {len(samples)} samples to {output_path}")
+'''

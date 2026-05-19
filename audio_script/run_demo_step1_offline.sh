@@ -8,11 +8,20 @@ set -euo pipefail
 # Conda environments
 ENV1="nemo"   # NeMo environment (diarization + ASR)
 # Model paths
-DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/diar_streaming_sortformer_4spk-v2.1/diar_streaming_sortformer_4spk-v2.1.nemo"
+# DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/diar_streaming_sortformer_4spk-v2.1/diar_streaming_sortformer_4spk-v2.1.nemo"# Options
+# MAX_NUM_OF_SPKS=4
+
+# DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/ultra_diar_streaming_sortformer_8spk_v1/ultra_diar_streaming_sortformer_8spk_v1.nemo"
+# MAX_NUM_OF_SPKS=8
+
+
+DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/ultra_diar_streaming_sortformer_5spk_v1/ultra_diar_streaming_sortformer_5spk_v1.nemo"
+MAX_NUM_OF_SPKS=5
+
+
 ASR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/multitalker-parakeet-streaming-0.6b-v1/multitalker-parakeet-streaming-0.6b-v1.nemo"
 
-# Options
-MAX_NUM_OF_SPKS=4
+
 
 # Working directory (where the python scripts live)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -31,12 +40,11 @@ else
     echo "ERROR: Cannot locate conda. Set CONDA_EXE or adjust the script."
     exit 1
 fi
-
 # ──────────────────────────────────────────────────────────────────────
 #  Step 1a (OFFLINE): Diarization + ASR inference for Bazinga! dataset
 # ──────────────────────────────────────────────────────────────────────
 DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory/"
-OUTPUT_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step1_offline/"
+OUTPUT_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step1_spk5/"
 
 echo "============================================================"
 echo "  Step 1a (OFFLINE): Diarization + ASR  (conda env: ${ENV1})"

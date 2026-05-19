@@ -412,8 +412,6 @@ def main():
     diar_model.sortformer_modules.log = cfg.log
     diar_model.sortformer_modules.spkcache_refresh_rate = cfg.spkcache_refresh_rate
 
-    # print("Configuration complete:", cfg)
-
     # ── Process each episode ─────────────────────────────────────────
     num_processed = 0
     num_skipped = 0
@@ -514,7 +512,7 @@ def main():
             print(f"  Saved: {info_path}")
             num_processed += 1
             chunk_id += 1
-
+        exit(0)
     print(
         f"\nStep 1 (Bazinga) complete. "
         f"Processed {num_processed}, skipped {num_skipped} episodes, failes chunk {num_fail}."
