@@ -59,7 +59,7 @@ fi
 #  Step 1a: Diarization + ASR inference  (env1 — NeMo, needs GPU) for Bazinga! dataset
 # ──────────────────────────────────────────────────────────────────────
 DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory/"
-OUTPUT_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step1/"
+OUTPUT_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step1_largepad/"
 
 echo "============================================================"
 echo "  Step 1a: Diarization + ASR inference  (conda env: ${ENV1})"

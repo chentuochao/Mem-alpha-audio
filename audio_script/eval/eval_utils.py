@@ -168,7 +168,7 @@ def extract_text_from_transcript(transcript) -> str:
     return trans
 
 
-def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
+def build_speaker_transcripts(word_list: Dict[str, List[Dict]], pad_char = "") -> List[str]:
     """
     From a word_list dict {speaker_id: [{word, start, end, ...}, ...]},
     return a list of concatenated text strings for each non-empty speaker.
@@ -181,7 +181,7 @@ def build_speaker_transcripts(word_list: Dict[str, List[Dict]]) -> List[str]:
             continue
         trans = ""
         for word in word_list[speaker]:
-            trans += word["word"]
+            trans += (word["word"] + pad_char)
 
         trans = normalize_string(trans)
         transcripts_plain.append(trans)

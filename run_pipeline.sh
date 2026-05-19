@@ -34,11 +34,11 @@ PARQUET_PATH="$2"
 
 # MEM_ARGS=("${COMMON_ARGS[@]}")
 
-# python run_memory_construction.py \
-#   --agent_config config/memalpha-qwen3-4b_agent_0.05-0.1.yaml \
-#   --dataset $DATASET \
-#   --parquet_path $PARQUET_PATH \
-#   --batch_size 1 \
+python run_memory_construction.py \
+  --agent_config config/memalpha-qwen3-4b_agent_0.05-0.1.yaml \
+  --dataset $DATASET \
+  --parquet_path $PARQUET_PATH \
+  --batch_size 1 \
 
 # ---------------------------------------------------------------------------- #
 # Step 2: QA evaluation

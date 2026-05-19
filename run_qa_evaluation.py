@@ -55,8 +55,17 @@ def load_custom_qa_from_dir(qa_dir, data_source='seamlessinteraction'):
                 if not line:
                     continue
                 item = json.loads(line)
+                if "qa" in item:
+                    item = item["qa"]
                 question = item.get('question', '')
                 answer = item.get('answer', '')
+
+                if "options" in item.keys():
+                    options = item["options"]
+                    for k,v in options.items():
+                        question += f"\n{k}. {v}"
+                    question += "\nC. not sure"
+
                 if question:
                     entry = [q_idx, question, answer, data_source]
                     if data_source in ('seamlessinteraction', 'seamlessinteraction_options'):

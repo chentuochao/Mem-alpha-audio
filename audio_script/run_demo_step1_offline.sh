@@ -44,6 +44,8 @@ echo "============================================================"
 
 conda activate "${ENV1}"
 export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
+# Serialize CUDA ops so graph-capture races don't cause illegal memory access
+export CUDA_LAUNCH_BLOCKING=1
 
 python -m audio_script.Multi_ASR.step1_diarize_asr_bazinga_offline \
     --data_dir        "${DATA_PATH}" \

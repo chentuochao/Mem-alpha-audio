@@ -1,24 +1,24 @@
 """
 Plot and evaluate diarization predictions against ground-truth.
 
-Usage (standalone):
-    python plot_diarization.py \
-        --pred_npy  path/to/diart_pred.npy \
-        --vad1      path/to/vad1.json \
-        --vad2      path/to/vad2.json \
-        --frame_duration 0.08 \
-        --output    diarization_plot.png
+Usage:
+    python plot_diarization.py path/to/step1_largepad/T
 
-    # Or point at a sample_info.json produced by step1_diarize_asr.py:
-    python plot_diarization.py --sample_info path/to/sample_info.json
+    # optionally override frame duration:
+    python plot_diarization.py path/to/folder --frame_duration 0.08
+
+Recursively finds every sample_info.json under the given folder and, for each:
+  - Computes DER (diarization error rate) and saves a diarization_plot.png
+  - Computes cpWER (concatenated min-permutation WER) when transcript files exist
 
 Output:
-    - PNG figure: 3-panel plot (GT | Pred raw | Pred aligned to GT)
-    - Printed DER breakdown (miss / FA / confusion)
+    - PNG figure per sample: GT vs Pred (aligned) diarization
+    - Printed DER + cpWER breakdown per sample and batch summary
 """
 
 import argparse
 import json
+import math
 import os
 import sys
 from itertools import permutations
@@ -29,7 +29,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
-from audio_script.eval.multitalker_metrics import compute_der_bruteforce
+from audio_script.eval.multitalker_metrics import compute_der_bruteforce, calculate_session_cpWER, normalize_string
+from audio_script.eval.eval_utils import build_speaker_transcripts, eval_cpwer_seamlessinteraction
 
 
 # ── Inline helpers so the script is self-contained ────────────────────────────
@@ -82,6 +83,29 @@ def _der_for_perm(pred_aligned: np.ndarray, gt: np.ndarray,
     der = (miss_s + fa_s + conf_s) / total_s if total_s > 0 else 0.0
     return der, {"miss": miss_s, "fa": fa_s, "conf": conf_s,
                  "total": total_s, "acc_err": acc_err}
+
+
+# ── cpWER helper ──────────────────────────────────────────────────────────────
+
+
+def compute_cpwer(pred_word_list: Dict, gt_word_list: Dict) -> Tuple[float, List[str]]:
+    """
+    Compute cpWER between predicted and GT word-list dicts.
+
+    Both arguments use the format {speaker_id: [{word, start, end, ...}, ...]}.
+    Returns (cpwer_float, best_perm_speaker_ids).
+    """
+    hyp_texts, pred_speakers = build_speaker_transcripts(pred_word_list, pad_char = " ")
+    ref_texts, _gt_speakers = build_speaker_transcripts(gt_word_list, pad_char = " ")
+
+    if not hyp_texts or not ref_texts:
+        return float("nan"), []
+
+    # print(hyp_texts)
+    # print(ref_texts)
+    cpwer, _, _, best_perm_idx = calculate_session_cpWER(hyp_texts, ref_texts)
+    best_perm = [pred_speakers[i] for i in best_perm_idx]
+    return cpwer, best_perm
 
 
 # ── Plotting ──────────────────────────────────────────────────────────────────
@@ -150,20 +174,21 @@ def plot_and_eval(pred_npy: str,
         gt_spk = vad_to_binary(vad, T, frame_duration)
         gt_mat.append(gt_spk)
     gt_mat = np.stack(gt_mat, axis=0)  # (2, T)
-    print(gt_mat.shape, pred_mat.shape)
+    N_gt, T = gt_mat.shape
     # ── Compute DER ───────────────────────────────────────────────────
     # Binarize pred (threshold 0.5)
     pred_bin = (pred_mat >= 0.5).astype(np.float32)
-    der, details = compute_der_bruteforce(pred_bin, gt_mat, frame_duration)
 
+    if N_gt > N_pred:
+        pred_padded = np.zeros((N_gt, T), dtype=pred_bin.dtype)
+        pred_padded[:N_pred] = pred_bin
+    else:
+        pred_padded = pred_bin
+
+    der, details = compute_der_bruteforce(pred_padded, gt_mat, frame_duration)
     col_ind = details["col_ind"]           # best permutation of pred rows
     # col_ind
-    col_ind_new = []
-    for i in col_ind:
-        if i < pred_bin.shape[0]:
-            col_ind_new.append(i)
-    col_ind = col_ind_new
-    pred_aligned = pred_bin[list(col_ind)] # (N_gt, T) reordered
+    pred_aligned = pred_padded[list(col_ind)] # (N_gt, T) reordered
 
     # ── Print summary ─────────────────────────────────────────────────
     print("=" * 60)
@@ -179,7 +204,7 @@ def plot_and_eval(pred_npy: str,
     print(f"  Confusion  : {details['conf']:.2f} s")
     print(f"  Total Ref  : {details['total']:.2f} s")
     print(f"  Frame Acc  : {(1 - details['acc_err']) * 100:.2f} %")
-    print(f"  Best perm  : pred rows {list(col_ind)} → gt rows [0,1]")
+    print(f"  Best perm  : pred rows {list(col_ind)}")
     print("=" * 60)
 
     # ── Plot ──────────────────────────────────────────────────────────
@@ -229,14 +254,14 @@ def plot_and_eval(pred_npy: str,
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Plot and evaluate diarization predictions vs GT."
+        description="Plot and evaluate diarization predictions vs GT for all "
+                    "sample_info.json files found under a folder."
     )
-    group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument(
-        "--sample_info",
-        metavar="PATH",
-        help="Path to sample_info.json produced by step1_diarize_asr.py. "
-             "All other paths are inferred from it automatically.",
+    parser.add_argument(
+        "folder",
+        metavar="DIR",
+        help="Root folder to search recursively for sample_info.json files. "
+             "A diarization_plot.png is saved next to each one found.",
     )
     parser.add_argument(
         "--frame_duration",
@@ -245,48 +270,115 @@ def main():
         help="Duration of each frame in seconds (default: read from "
              "sample_info.json or 0.08).",
     )
-    parser.add_argument(
-        "--output",
-        metavar="PATH",
-        default=None,
-        help="Output PNG path. Defaults to <pred_npy_dir>/diarization_plot.png.",
-    )
     args = parser.parse_args()
 
-    # ── Resolve paths ─────────────────────────────────────────────────
-    with open(args.sample_info) as f:
-        info = json.load(f)
-    sample_folder = os.path.dirname(args.sample_info)
-    pred_npy = os.path.join(
-        sample_folder, "diart_pred2.npy"
-    )
-    if "vad_path" not in info.keys():
-        vad1 = info["vad1_path"]
-        vad2 = info["vad2_path"]
-        vad1 = load_vad_json(vad1_path)
-        vad2 = load_vad_json(vad2_path)
-        vads = [vad1, vad2]
-    else:
-        vad_path = info["vad_path"]
-        with open(vad_path, "r") as f:
-            vad_speaker = json.load(f)
-        vads = []
-        for speaker, segs in vad_speaker.items():
-            vads.append(segs)
+    root = args.folder
+    if not os.path.isdir(root):
+        print(f"ERROR: folder path is not a directory: {root}")
+        sys.exit(1)
+
+    sample_infos = []
+    for dirpath, _dirnames, filenames in os.walk(root):
+        if "sample_info.json" in filenames:
+            sample_infos.append(os.path.join(dirpath, "sample_info.json"))
+    sample_infos.sort()
+
+    if not sample_infos:
+        print(f"No sample_info.json files found under {root}")
+        sys.exit(1)
+
+    print(f"Found {len(sample_infos)} sample(s) under {root}\n")
+
+    results = []
+    for idx, si_path in enumerate(sample_infos):
+        print(f"[{idx}/{len(sample_infos)}] {si_path}")
+        if "Episode01" not in si_path:
+            continue
+        try:
+            with open(si_path) as f:
+                info = json.load(f)
+        except Exception as e:
+            print(f"  [SKIP] Cannot read: {e}")
+            continue
+
+        sample_folder = os.path.dirname(si_path)
+        pred_npy = os.path.join(sample_folder, "diart_pred.npy")
+        if not os.path.exists(pred_npy):
+            print(f"  [SKIP] Missing pred file: {pred_npy}")
+            continue
+
+        if "vad_path" not in info:
+            vad1_path = info.get("vad1_path")
+            vad2_path = info.get("vad2_path")
+            if not vad1_path or not vad2_path:
+                print(f"  [SKIP] No VAD paths in {si_path}")
+                continue
+            vads = [load_vad_json(vad1_path), load_vad_json(vad2_path)]
+        else:
+            with open(info["vad_path"]) as f:
+                vad_speaker = json.load(f)
+            vads = list(vad_speaker.values())
+
+        frame_dur = args.frame_duration or info.get("feat_len_sec", 0.08)
+
+        spk_names: Optional[Tuple[str, str]] = None
+        spk_pair = info.get("spk_pair", "")
+        if spk_pair and "_" in spk_pair:
+            parts = spk_pair.split("_", 1)
+            spk_names = (parts[0], parts[1])
+
+        out = os.path.join(sample_folder, "diarization_plot.png")
+
+        der, cpwer = None, None
+        # try:
+        der, details = plot_and_eval(pred_npy, vads, frame_dur, out, spk_names)
+        # except Exception as e:
+        #     print(f"  [ERROR] DER: {e}")
+
+        # ── cpWER ─────────────────────────────────────────────────────
+        pred_trans_path = info.get("pred_transcript_path")
+        gt_trans_path = info.get("transcript_path")  # bazinga: {spk: [words]}
 
 
-    frame_dur = args.frame_duration or info.get("feat_len_sec", 0.08)
-    spk_pair = info.get("spk_pair", "")
-    spk_names: Optional[Tuple[str, str]] = None
-    if spk_pair and "_" in spk_pair:
-        parts = spk_pair.split("_", 1)
-        spk_names = (parts[0], parts[1])
-    out = args.output or os.path.join(
-        sample_folder, "diarization_plot.png"
-    )
+        if pred_trans_path and os.path.exists(pred_trans_path):
+            try:
+                with open(pred_trans_path) as f:
+                    pred_word_list = json.load(f)
 
-    # ── Run ───────────────────────────────────────────────────────────
-    plot_and_eval(pred_npy, vads, frame_dur, out, spk_names)
+                if gt_trans_path and os.path.exists(gt_trans_path):
+                    with open(gt_trans_path) as f:
+                        gt_word_list = json.load(f)
+
+                    cpwer, best_perm = compute_cpwer(pred_word_list, gt_word_list)
+                else:
+                    print("  [SKIP cpWER] No GT transcript path in sample_info")
+
+                if cpwer is not None:
+                    if not math.isnan(cpwer):
+                        print(f"  cpWER : {cpwer * 100:.2f} %  (best perm: {best_perm})")
+            except Exception as e:
+                print(f"  [ERROR] cpWER: {e}")
+        else:
+            print("  [SKIP cpWER] pred_transcript_path missing or not found")
+
+        if der is not None:
+            entry = {"path": si_path, "der": der, **details}
+            if cpwer is not None:
+                entry["cpwer"] = cpwer
+            results.append(entry)
+
+    if results:
+        ders = [r["der"] for r in results]
+        cpwers = [r["cpwer"] for r in results if "cpwer" in r and not math.isnan(r["cpwer"])]
+        print("\n" + "=" * 60)
+        print(f"  Batch summary  ({len(results)} / {len(sample_infos)} processed)")
+        print(f"  DER  — Mean: {np.mean(ders) * 100:.2f}%  Median: {np.median(ders) * 100:.2f}%  "
+              f"Min: {np.min(ders) * 100:.2f}%  Max: {np.max(ders) * 100:.2f}%")
+        if cpwers:
+            print(f"  cpWER— Mean: {np.mean(cpwers) * 100:.2f}%  Median: {np.median(cpwers) * 100:.2f}%  "
+                  f"Min: {np.min(cpwers) * 100:.2f}%  Max: {np.max(cpwers) * 100:.2f}%  "
+                  f"({len(cpwers)} samples)")
+        print("=" * 60)
 
 
 if __name__ == "__main__":

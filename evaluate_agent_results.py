@@ -158,7 +158,7 @@ class AgentResultsEvaluator:
             # Matching the gold letter → correct (1.0); anything else → wrong (0.0).
             predicted_letter = self._extract_option_letter(predicted_answer)
             gold_letter = str(gold_answer).strip().upper()
-
+            gold_letter = gold_letter[0]
             if predicted_letter == 'C':
                 return 0.5  # not_sure
             elif predicted_letter == gold_letter:
