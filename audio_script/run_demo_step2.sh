@@ -15,8 +15,8 @@ EMBEDDING_MODEL_DIR="/checkpoint/seamless/tuochao/Models/huggingface//wespeaker-
 MAX_NUM_OF_SPKS=4
 SIMILARITY_THRESHOLD=0.65
 EMBEDDING_DEVICE="cuda:0"
-DATA_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step1"
-OUTPUT_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step2"
+DATA_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step1_offline"
+OUTPUT_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step2_offline"
 
 # Working directory (where the python scripts live)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

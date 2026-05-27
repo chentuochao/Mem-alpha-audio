@@ -536,7 +536,7 @@ def eval_der_cpwer(entry, word_list, diar_result, local_speakers):
 
         # cpWER — build references from in-memory GT transcripts (Bazinga
         # word-level dicts use "word" key instead of "text")
-        spk_hypothesis, speakers_pred = build_speaker_transcripts(word_list)
+        spk_hypothesis, speakers_pred = build_speaker_transcripts(word_list, pad_char = " ")
         spk_reference = []
         for spk in speakers:
             if spk not in trans_data:
@@ -732,23 +732,23 @@ def main():
             print(f"local_to_global", local_to_global, list(word_list.keys()))
             ### check whether it requires global speaker merge
             merged = False
-            if len(set(local_to_global.values())) < len(local_to_global):
-                print(f"Global speaker merge")
-                # Merge local speakers that were matched to the same global speaker
-                diar_result, word_list, local_to_global = merge_speakers_by_global(
-                    diar_result, word_list, local_to_global
-                )
+            # if len(set(local_to_global.values())) < len(local_to_global):
+            #     print(f"Global speaker merge")
+            #     # Merge local speakers that were matched to the same global speaker
+            #     diar_result, word_list, local_to_global = merge_speakers_by_global(
+            #         diar_result, word_list, local_to_global
+            #     )
 
-                print("local_to_global after merge", local_to_global)
-                merged = True
-                num_merged += 1
+            #     print("local_to_global after merge", local_to_global)
+            #     merged = True
+            #     num_merged += 1
 
             # ── Evaluate DER & cpWER after merge ─────────────────────────
 
-            der, cpwer, best_perm_der, best_perm_cpwer = eval_der_cpwer(entry, word_list, diar_result, list(word_list.keys()))
+            # der, cpwer, best_perm_der, best_perm_cpwer = eval_der_cpwer(entry, word_list, diar_result, list(word_list.keys()))
             # best_perm_cpwer List = ["speaker_1", "speaker_0", ...]
-            all_ders_merged.append(der)
-            all_cpwers_merged.append(cpwer)
+            # all_ders_merged.append(der)
+            # all_cpwers_merged.append(cpwer)
 
             for local_id, global_id in local_to_global.items():
                 if local_id in best_perm_cpwer:
@@ -781,7 +781,10 @@ def main():
             #     speaker_cluster_pred[local_id].append(global_id)
 
             ## parse the conversation level transcript
-            dialog = parse_transcript_morespeakers(word_list)
+            if entry.get("dataset") == "bazinga":
+                dialog = parse_transcript_morespeakers(word_list, interval_character = ' ')
+            else:
+                dialog = parse_transcript_morespeakers(word_list)
             # modify local speaker to globale speaker
             dialog_pred = []
             for sent in dialog:
@@ -859,19 +862,24 @@ def main():
     print(f"Accuracy: {tp_total / (tp_total + fp_total + fn_total)}")
 
     avg_der = np.mean(all_ders)
-    avg_der_merged = np.mean(all_ders_merged)
+    # avg_der_merged = np.mean(all_ders_merged)
     median_der = np.median(all_ders)
-    median_der_merged = np.median(all_ders_merged)
+    # median_der_merged = np.median(all_ders_merged)
 
     avg_cpwer = np.mean(all_cpwers)
     avg_cpwer_merged = np.mean(all_cpwers_merged)
     median_cpwer = np.median(all_cpwers)
     median_cpwer_merged = np.median(all_cpwers_merged)
-    print("  Merge times = ", num_merged)
-    print(f"  Avg DER before merge = {avg_der:.4f}, after merge = {avg_der_merged:.4f}")
-    print(f"  Median DER before merge = {median_der:.4f}, after merge = {median_der_merged:.4f}")
-    print(f"  Avg cpWER before merge = {avg_cpwer:.4f}, after merge = {avg_cpwer_merged:.4f}")
-    print(f"  Median cpWER before merge = {median_cpwer:.4f}, after merge = {median_cpwer_merged:.4f}")
+    # print("  Merge times = ", num_merged)
+    # print(f"  Avg DER before merge = {avg_der:.4f}, after merge = {avg_der_merged:.4f}")
+    # print(f"  Median DER before merge = {median_der:.4f}, after merge = {median_der_merged:.4f}")
+    # print(f"  Avg cpWER before merge = {avg_cpwer:.4f}, after merge = {avg_cpwer_merged:.4f}")
+    # print(f"  Median cpWER before merge = {median_cpwer:.4f}, after merge = {median_cpwer_merged:.4f}")
+
+    print(f"  Avg DER before merge = {avg_der:.4f}")
+    print(f"  Median DER before merge = {median_der:.4f}")
+    print(f"  Avg cpWER before merge = {avg_cpwer:.4f}")
+    print(f"  Median cpWER before merge = {median_cpwer:.4f}")
 
     print("err_info: ", err_info)
 

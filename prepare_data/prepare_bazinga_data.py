@@ -4,89 +4,8 @@ import os
 import glob
 import jsonlines
 import string
+from .preprocess_utils import chunk_dialog, fix_space_in_text
 
-def chunk_dialog(dialog, min_dur=60.0, max_dur=600.0, gap_threshold=4.0):
-    """
-    Split a flat list of utterance dicts into smaller conversation chunks.
-
-    Strategy:
-      1. A natural boundary is detected when the silence gap between two
-         consecutive utterances exceeds `gap_threshold` seconds.
-      2. A chunk is cut at the earliest natural boundary AFTER `min_dur` seconds
-         have accumulated, or hard-cut at `max_dur` regardless.
-      3. If no boundary is found before `max_dur`, the chunk is cut between the
-         two utterances whose gap is the largest within the window.
-
-    Args:
-        dialog: list of utterance dicts with keys 'start', 'end', 'text', 'speaker'.
-        min_dur: minimum chunk duration in seconds.
-        max_dur: maximum chunk duration in seconds.
-        gap_threshold: silence gap (seconds) that marks a natural boundary.
-
-    Returns:
-        List of lists, each inner list is a group of utterance dicts.
-    """
-    if not dialog:
-        return []
-
-    chunks = []
-    chunk_start = 0  # index into dialog
-
-    while chunk_start < len(dialog):
-        chunk_begin_time = dialog[chunk_start]["start"]
-        best_gap_idx = None   # index of utterance *after* which to cut (largest gap)
-        best_gap_val = -1.0
-
-        i = chunk_start
-        max_end_so_far = dialog[chunk_start]["end"]
-        while i < len(dialog):
-            max_end_so_far = max(max_end_so_far, dialog[i]["end"])
-            elapsed = max_end_so_far - chunk_begin_time
-
-            # Compute gap to next utterance (if any)
-            if i + 1 < len(dialog):
-                gap = dialog[i + 1]["start"] - max_end_so_far
-            else:
-                gap = 0.0
-
-            # Track largest gap seen so far (fallback hard-cut)
-            if gap > best_gap_val:
-                best_gap_val = gap
-                best_gap_idx = i
-
-            # Natural boundary after min_dur
-            if elapsed >= min_dur and gap >= gap_threshold:
-                chunks.append(dialog[chunk_start: i + 1])
-                chunk_start = i + 1
-                break
-
-            # Hard cut at max_dur
-            if elapsed >= max_dur:
-                # Cut at the largest gap seen within the window
-                cut_at = best_gap_idx if best_gap_idx is not None else i
-                chunks.append(dialog[chunk_start: cut_at + 1])
-                chunk_start = cut_at + 1
-                break
-
-            i += 1
-        else:
-            # Reached end of dialog — append remaining utterances to the last chunk
-            if chunks:
-                chunks[-1] = chunks[-1] + dialog[chunk_start:]
-            else:
-                chunks.append(dialog[chunk_start:])
-            break
-
-    return chunks
-
-
-def fix_space_in_text(text):
-    punctuation_pattern = [" " + c for c in string.punctuation]
-    punctuation_pattern.append(" n't")
-    # punctuation_pattern.extend([" 'm", " 's", " 've", " 're", " 'll", " 'd", " 'n", " 't", " 'y", " 'z"])
-    for pattern in punctuation_pattern:
-        text = text.replace(pattern, pattern.strip())
-    return text
 
 
 anonymized = True
@@ -123,11 +42,6 @@ timestamp_file = "QA_designs/TV_series/TBBT_s1/S1_session_timeline.json"
 
 
 
-
-
-
-
-'''
 # load timestamp_file to json
 with open(timestamp_file, "r") as f:
     time_info = json.load(f)
@@ -218,4 +132,3 @@ samples.append({
 df = pd.DataFrame(samples)
 df.to_parquet(output_path, index=False)
 print(f"Saved {len(samples)} samples to {output_path}")
-'''
