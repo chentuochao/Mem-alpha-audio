@@ -7,8 +7,6 @@ set -euo pipefail
 
 # Conda environment
 ENV1="vibevoice"   # VibeVoice environment (diarization + ASR)
-
-DATA_PATH="/checkpoint/seamless/tuochao/data/Mix_Mosaic/naturalistic/test/"
 MODEL_PATH="microsoft/VibeVoice-ASR"
 
 # Options
@@ -18,8 +16,6 @@ TEMPERATURE=0.0
 TOP_P=1.0
 NUM_BEAMS=1
 ATTN_IMPL="auto"   # auto | flash_attention_2 | sdpa | eager
-
-OUTPUT_DIR="/storage/home/tuochao/mem_projects/demo_output_vibevoice/"
 # Working directory (where the python scripts live)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -42,13 +38,41 @@ fi
 #  Step 1a: Diarization + ASR inference  (VibeVoice, needs GPU)
 # ──────────────────────────────────────────────────────────────────────
 
+# echo "============================================================"
+# echo "  Step 1a: Diarization + ASR inference  (conda env: ${ENV1})"
+# echo "============================================================"
+
+# DATA_PATH="/checkpoint/seamless/tuochao/data/Mix_Mosaic/naturalistic/test/"
+# OUTPUT_DIR="/storage/home/tuochao/mem_projects/demo_output_vibevoice/"
+
+# conda activate "${ENV1}"
+# export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
+# python "${SCRIPT_DIR}/Multi_ASR/step1_vibevoice.py" \
+#     --data_dir         "${DATA_PATH}" \
+#     --model_path       "${MODEL_PATH}" \
+#     --device           "${DEVICE}" \
+#     --max_new_tokens   "${MAX_NEW_TOKENS}" \
+#     --temperature      "${TEMPERATURE}" \
+#     --top_p            "${TOP_P}" \
+#     --num_beams        "${NUM_BEAMS}" \
+#     --attn_implementation "${ATTN_IMPL}" \
+#     --output_dir       "${OUTPUT_DIR}"
+
+
+# ──────────────────────────────────────────────────────────────────────
+#  Step 1a: Diarization + ASR inference  (VibeVoice, needs GPU) on Bazinga dataset
+# ──────────────────────────────────────────────────────────────────────
+
 echo "============================================================"
 echo "  Step 1a: Diarization + ASR inference  (conda env: ${ENV1})"
 echo "============================================================"
 
+DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory/"
+OUTPUT_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step1_vibevoice2/"
+
 conda activate "${ENV1}"
 export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
-python "${SCRIPT_DIR}/Multi_ASR/step1_vibevoice.py" \
+python "${SCRIPT_DIR}/Multi_ASR/step1_vibevoice_bazinga.py" \
     --data_dir         "${DATA_PATH}" \
     --model_path       "${MODEL_PATH}" \
     --device           "${DEVICE}" \
@@ -58,17 +82,3 @@ python "${SCRIPT_DIR}/Multi_ASR/step1_vibevoice.py" \
     --num_beams        "${NUM_BEAMS}" \
     --attn_implementation "${ATTN_IMPL}" \
     --output_dir       "${OUTPUT_DIR}"
-
-# ──────────────────────────────────────────────────────────────────────
-#  Step 1b: Evaluate DER + cpWER  (same env, no GPU needed)
-# ──────────────────────────────────────────────────────────────────────
-
-# echo ""
-# echo "============================================================"
-# echo "  Step 1b: Evaluate DER + cpWER"
-# echo "============================================================"
-
-# python "${SCRIPT_DIR}/step1_eval.py" \
-#     --data_dir "${OUTPUT_DIR}"
-
-# conda deactivate

@@ -40,16 +40,13 @@ from omegaconf import OmegaConf
 from tqdm import tqdm
 
 from audio_script.datasets.Bazinga_loader import BazingaDataset
+from prepare_data.preprocess_utils import chunk_dialog, transcription_to_vad
 SR = 16000
 FRAME_LEN_SEC = 0.08
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Chunk splitting (same logic as streaming version)
 # ──────────────────────────────────────────────────────────────────────────────
-TURN_GAP_TH = 1.5
-CHUNK_MIN_DURATION = 60
-CHUNK_MAX_DURATION = 600
-CHUNK_GAP_THRESHOLD = 3.0
 
 @dataclass
 class MultitalkerTranscriptionConfig:
@@ -120,65 +117,6 @@ class MultitalkerTranscriptionConfig:
     print_path: Optional[str] = None
     ignored_initial_frame_steps: int = 5
     finetune_realtime_ratio: float = 0.01
-
-
-
-def chunk_words(
-    all_words: List[Dict],
-    min_dur: float = CHUNK_MIN_DURATION,
-    max_dur: float = CHUNK_MAX_DURATION,
-    gap_threshold: float = CHUNK_GAP_THRESHOLD,
-) -> List[List[Dict]]:
-    if not all_words:
-        return []
-
-    chunks = []
-    chunk_start_idx = 0
-    best_gap_idx = None
-    best_gap_size = -1.0
-
-    for i in range(1, len(all_words)):
-        gap = all_words[i]["start"] - all_words[i - 1]["end"]
-        chunk_duration = all_words[i - 1]["end"] - all_words[chunk_start_idx]["start"]
-
-        if gap > best_gap_size:
-            best_gap_size = gap
-            best_gap_idx = i
-
-        if gap >= gap_threshold and chunk_duration >= min_dur:
-            chunks.append(all_words[chunk_start_idx:i])
-            chunk_start_idx = i
-            best_gap_idx = None
-            best_gap_size = -1.0
-            continue
-
-        if chunk_duration >= max_dur:
-            if best_gap_idx is not None and best_gap_idx > chunk_start_idx:
-                chunks.append(all_words[chunk_start_idx:best_gap_idx])
-                chunk_start_idx = best_gap_idx
-            else:
-                chunks.append(all_words[chunk_start_idx:i])
-                chunk_start_idx = i
-            best_gap_idx = None
-            best_gap_size = -1.0
-
-    if chunk_start_idx < len(all_words):
-        last_chunk = all_words[chunk_start_idx:]
-        last_dur = last_chunk[-1]["end"] - last_chunk[0]["start"]
-        if last_dur < min_dur and len(chunks) > 0:
-            chunks[-1].extend(last_chunk)
-        else:
-            chunks.append(last_chunk)
-
-    return chunks
-
-
-def transcription_to_vad(transcripts: Dict[str, List[Dict]]) -> Dict[str, List[Dict]]:
-    return {
-        spk: [{"start": seg["start"], "end": seg["end"]} for seg in segs]
-        for spk, segs in transcripts.items()
-    }
-
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Offline diarization + ASR
@@ -425,8 +363,18 @@ def main():
         T = raw_audio.shape[0]
         raw_transcript = sample["raw_transcript"]
 
-        transcript_chunks = chunk_words(raw_transcript)
+        # transcript_chunks = chunk_words(raw_transcript)
+        transcript_chunks = chunk_dialog(raw_transcript, min_dur=60.0, max_dur=300.0, gap_threshold=3.0)
+        print(len(transcript_chunks))
+        exit(0)
+        # print("chunk_words with old")
+        # for i in range(0, len(transcript_chunks)-1):
+        #     print(f"gap{i}", transcript_chunks[i][-1]['end'], transcript_chunks[i+1][0]['start'])
 
+        # print("chunk_words with new")
+        # for i in range(0, len(transcript_chunks2)-1):
+        #     print(f"gap{i}", transcript_chunks2[i][-1]['end'], transcript_chunks2[i+1][0]['start'])
+        # exit(0)
         for chunk_id, chunk in enumerate(transcript_chunks):
             start_time = int(SR * chunk[0]["start"])
             end_time = int(SR * chunk[-1]["end"])
@@ -530,8 +478,6 @@ def main():
             print(f"  Saved: {word_list_path}")
             print(f"  Saved: {info_path}")
             num_processed += 1
-        exit(0)
-    # Cleanup temp dir
     try:
         os.rmdir(tmp_dir)
     except OSError:
