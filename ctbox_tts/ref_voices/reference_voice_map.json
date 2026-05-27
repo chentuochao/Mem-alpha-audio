@@ -1,0 +1,139 @@
+{
+  "dataset": "sdialog/voices-libritts",
+  "target_sample_rate": 24000,
+  "reference_duration_sec": 10.0,
+  "reference_voice_map": {
+    "Wang Xiaohong": "ref_voices/wang_xiaohong.wav",
+    "Li Ting": "ref_voices/li_ting.wav",
+    "Wang Xiaoming": "ref_voices/wang_xiaoming.wav",
+    "Liu Li": "ref_voices/liu_li.wav",
+    "Zhang Wei": "ref_voices/zhang_wei.wav",
+    "Zhao Ming": "ref_voices/zhao_ming.wav",
+    "Zhang Wen": "ref_voices/zhang_wen.wav",
+    "Li Ming": "ref_voices/li_ming.wav",
+    "Chen Hua": "ref_voices/chen_hua.wav",
+    "Liu Qiang": "ref_voices/liu_qiang.wav"
+  },
+  "selected_metadata": [
+    {
+      "profile_name": "Wang Xiaohong",
+      "assigned_gender": "F",
+      "reference_audio": "ref_voices/wang_xiaohong.wav",
+      "libritts_identifier": "14",
+      "libritts_speaker_name": "Kristin LeMoine",
+      "libritts_subset": "train-clean-360",
+      "libritts_file_name": "14_Kristin_LeMoine.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    },
+    {
+      "profile_name": "Li Ting",
+      "assigned_gender": "F",
+      "reference_audio": "ref_voices/li_ting.wav",
+      "libritts_identifier": "16",
+      "libritts_speaker_name": "Alys AtteWater",
+      "libritts_subset": "train-clean-360",
+      "libritts_file_name": "16_Alys_AtteWater.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    },
+    {
+      "profile_name": "Wang Xiaoming",
+      "assigned_gender": "M",
+      "reference_audio": "ref_voices/wang_xiaoming.wav",
+      "libritts_identifier": "17",
+      "libritts_speaker_name": "Gord Mackenzie",
+      "libritts_subset": "train-clean-360",
+      "libritts_file_name": "17_Gord_Mackenzie.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    },
+    {
+      "profile_name": "Liu Li",
+      "assigned_gender": "F",
+      "reference_audio": "ref_voices/liu_li.wav",
+      "libritts_identifier": "19",
+      "libritts_speaker_name": "Kara Shallenberg",
+      "libritts_subset": "train-clean-100",
+      "libritts_file_name": "19_Kara_Shallenberg.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    },
+    {
+      "profile_name": "Zhang Wei",
+      "assigned_gender": "M",
+      "reference_audio": "ref_voices/zhang_wei.wav",
+      "libritts_identifier": "25",
+      "libritts_speaker_name": "John Gonzalez",
+      "libritts_subset": "train-other-500",
+      "libritts_file_name": "25_John_Gonzalez.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    },
+    {
+      "profile_name": "Zhao Ming",
+      "assigned_gender": "M",
+      "reference_audio": "ref_voices/zhao_ming.wav",
+      "libritts_identifier": "26",
+      "libritts_speaker_name": "Denny Sayers",
+      "libritts_subset": "train-clean-100",
+      "libritts_file_name": "26_Denny_Sayers.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    },
+    {
+      "profile_name": "Zhang Wen",
+      "assigned_gender": "M",
+      "reference_audio": "ref_voices/zhang_wen.wav",
+      "libritts_identifier": "27",
+      "libritts_speaker_name": "Sean McKinley",
+      "libritts_subset": "train-clean-100",
+      "libritts_file_name": "27_Sean_McKinley.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    },
+    {
+      "profile_name": "Li Ming",
+      "assigned_gender": "M",
+      "reference_audio": "ref_voices/li_ming.wav",
+      "libritts_identifier": "29",
+      "libritts_speaker_name": "Linton",
+      "libritts_subset": "train-other-500",
+      "libritts_file_name": "29_Linton.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    },
+    {
+      "profile_name": "Chen Hua",
+      "assigned_gender": "M",
+      "reference_audio": "ref_voices/chen_hua.wav",
+      "libritts_identifier": "31",
+      "libritts_speaker_name": "Martin Clifton",
+      "libritts_subset": "train-other-500",
+      "libritts_file_name": "31_Martin_Clifton.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    },
+    {
+      "profile_name": "Liu Qiang",
+      "assigned_gender": "M",
+      "reference_audio": "ref_voices/liu_qiang.wav",
+      "libritts_identifier": "36",
+      "libritts_speaker_name": "Chip",
+      "libritts_subset": "train-other-500",
+      "libritts_file_name": "36_Chip.wav",
+      "source_total_duration_s": 30.0,
+      "saved_duration_s": 10.0,
+      "sample_rate": 24000
+    }
+  ]
+}
