@@ -245,13 +245,14 @@ def resolve_registry(
       1. Collect all candidate names from evidence.
       2. Group spelling variants via fuzzy matching.
       3. Score each canonical name = sum(confidence) across all matching evidence.
-      4. Pick the highest-scoring candidate.
-      5. Set status based on evidence strength.
+      4. Rank all candidates by score (not just the best).
 
-    Then cross-validate: if two speakers got the same name, keep only the
-    one with the stronger score and demote the other.
+    Then cross-validate iteratively: if two speakers claim the same name,
+    the weaker one falls back to its next-best candidate, and we repeat
+    until there are no conflicts or no more candidates.
     """
-    name_scores: dict[str, dict[str, float]] = {}
+    speaker_candidates: dict[str, list[tuple[str, float, int]]] = {}
+    speaker_canon_maps: dict[str, dict[str, str]] = {}
 
     for sid, rec in registry.items():
         if not rec.evidence:
@@ -259,74 +260,86 @@ def resolve_registry(
 
         raw_names = [_extract_name_from_evidence(e) for e in rec.evidence]
         raw_names = [n for n in raw_names if n]
-
         if not raw_names:
             continue
 
         canon_map = _group_name_variants(raw_names, threshold=fuzzy_threshold)
+        speaker_canon_maps[sid] = canon_map
         scores: dict[str, float] = defaultdict(float)
         counts: dict[str, int] = defaultdict(int)
-        for ev, raw_name in zip(rec.evidence, [_extract_name_from_evidence(e) for e in rec.evidence]):
+        for ev in rec.evidence:
+            raw_name = _extract_name_from_evidence(ev)
             if not raw_name:
                 continue
             canon = canon_map.get(raw_name.lower(), raw_name.lower())
             scores[canon] += ev.confidence
             counts[canon] += 1
 
-        if not scores:
+        ranked = sorted(scores.keys(), key=lambda n: -scores[n])
+        speaker_candidates[sid] = [(n, scores[n], counts[n]) for n in ranked]
+
+    _assign_with_fallback(registry, speaker_candidates, speaker_canon_maps, confirm_threshold)
+    return registry
+
+
+def _assign_with_fallback(
+    registry: dict[str, SpeakerRecord],
+    speaker_candidates: dict[str, list[tuple[str, float, int]]],
+    speaker_canon_maps: dict[str, dict[str, str]],
+    confirm_threshold: int,
+) -> None:
+    """
+    Greedily assign names: each speaker gets its top candidate, then
+    conflicts are resolved by keeping the stronger claim and bumping
+    the weaker speaker to its next candidate. Repeats until stable.
+    """
+    pick_idx: dict[str, int] = {sid: 0 for sid in speaker_candidates}
+
+    for _ in range(len(speaker_candidates) + 1):
+        assignments: dict[str, list[tuple[str, float]]] = defaultdict(list)
+        for sid, candidates in speaker_candidates.items():
+            idx = pick_idx[sid]
+            if idx < len(candidates):
+                name, score, _ = candidates[idx]
+                assignments[name].append((sid, score))
+
+        conflict = False
+        for name, claimants in assignments.items():
+            if len(claimants) <= 1:
+                continue
+            claimants.sort(key=lambda x: -x[1])
+            for sid, _ in claimants[1:]:
+                pick_idx[sid] += 1
+                conflict = True
+
+        if not conflict:
+            break
+
+    for sid, candidates in speaker_candidates.items():
+        rec = registry[sid]
+        idx = pick_idx[sid]
+        if idx >= len(candidates):
+            rec.name = None
+            rec.status = "unknown"
             continue
 
-        best_name = max(scores, key=lambda n: scores[n])
-        best_score = scores[best_name]
-        best_count = counts[best_name]
-
+        best_name, best_score, best_count = candidates[idx]
         rec.name = best_name.title()
-        name_scores[sid] = {best_name: best_score}
 
+        canon_map = speaker_canon_maps.get(sid, {})
         high_conf_count = sum(
             1 for ev in rec.evidence
             if ev.confidence >= 0.7
-            and canon_map.get(_extract_name_from_evidence(ev, "").lower(), "") == best_name
+            and canon_map.get((_extract_name_from_evidence(ev, "") or "").lower(), "") == best_name
         )
         if high_conf_count >= confirm_threshold or best_score >= 1.8:
             rec.status = "confirmed"
         elif best_count >= 1:
             rec.status = "candidate"
 
-    _cross_validate(registry, name_scores)
-    return registry
-
 
 def _extract_name_from_evidence(ev: Evidence, default: str | None = None) -> str | None:
-    """Extract the candidate name stored alongside evidence.
-
-    We piggyback on the cue_type field naming: the evidence raw_text
-    contains the utterance, but we need the candidate name.  Since
-    buffer_evidence stores Evidence per extraction and the name is set
-    on the record, we attach the name to Evidence via a lightweight
-    attribute.  If not present, return default.
-    """
     return getattr(ev, "_candidate_name", default)
-
-
-def _cross_validate(
-    registry: dict[str, SpeakerRecord],
-    name_scores: dict[str, dict[str, float]],
-) -> None:
-    """If two speakers resolved to the same name, keep only the stronger one."""
-    name_to_sids: dict[str, list[tuple[str, float]]] = defaultdict(list)
-    for sid, scores in name_scores.items():
-        for name, score in scores.items():
-            name_to_sids[name].append((sid, score))
-
-    for name, sid_list in name_to_sids.items():
-        if len(sid_list) <= 1:
-            continue
-        sid_list.sort(key=lambda x: -x[1])
-        for sid, _ in sid_list[1:]:
-            rec = registry[sid]
-            rec.name = None
-            rec.status = "unknown"
 
 
 # Backward-compatible alias
