@@ -165,6 +165,20 @@ def test_e2e_speaker_identification(dialogue_folder):
     assert len(identified) > 0, "Expected at least one speaker to be identified"
     print("[PASS] test_e2e_speaker_identification")
 
+    speaker_name_map = {}
+    for original_name, idx in speakers_pool.items():
+        sid = f"Speaker_{idx}"
+        if sid in registry and registry[sid].name:
+            speaker_name_map[original_name] = registry[sid].name
+        else:
+            speaker_name_map[original_name] = f"Unknown_speaker{idx:03d}"
+
+    out_path = os.path.join(dialogue_folder, "speaker_name_map.json")
+    with open(out_path, "w") as f:
+        json.dump(speaker_name_map, f, indent=2)
+    print(f"\nSaved speaker name map to {out_path}")
+    print(json.dumps(speaker_name_map, indent=2))
+
     return resolved_chunks, speakers_pool
 
 
