@@ -239,7 +239,7 @@ def identify_speakers(
             max_tokens=2048,
         )
         # print("------raw_response------")
-        # print(raw_response)
+        print(raw_response)
         # Qwen3 sometimes wraps JSON in ```json … ``` even with instructions;
         # strip fences defensively before parsing.
         # remove think process
