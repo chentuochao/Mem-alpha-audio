@@ -336,7 +336,6 @@ def main():
 
         transcript_chunks = chunk_dialog(raw_transcript, min_dur=60.0, max_dur=300.0, gap_threshold=3.0)
         print(f"  Split into {len(transcript_chunks)} chunk(s)")
-        exit(0)
 
         for chunk_id, chunk in enumerate(transcript_chunks):
             start_sample = int(SR * chunk[0]["start"])

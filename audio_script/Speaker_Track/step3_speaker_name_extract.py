@@ -5,9 +5,7 @@ import sys
 import string
 import jsonlines
 import pandas as pd
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-
+import argparse
 from openai import OpenAI
 from audio_script.Speaker_Track.Speaker_Name_tracker import (
     identify_speakers,
@@ -28,24 +26,12 @@ def fix_space_in_text(text):
     return text
 
 
-# def load_dialog(dialog):
-#     dialog_chunk = ""
-#     for turn in dialog:
-#         speaker = turn["speaker"]
-#         if speaker not in speakers_pool:
-#             speakers_pool[speaker] = len(speakers_pool)
-#         anon_speaker = "Speaker_" + str(speakers_pool[speaker])
-#         turn_text = fix_space_in_text(turn["text"])
-
-#         if use_gt_speaker:
-#             dialog_chunk += f"<{speaker}> {turn_text}\n"
-#         else:
-#             dialog_chunk += f"<{anon_speaker}> {turn_text}\n"
-#     chunks.append(dialog_chunk)
 
 def load_gt_episode_chunks(dialogue_folder):
     ### find all subfolder with {xxx}/{xxx}/parsed_dialog_gt.json sub-folders
     subfolders = glob.glob(os.path.join(dialogue_folder, "*", "*", "parsed_dialog_gt.json"))
+    # sorted the subfolders
+    subfolders = sorted(subfolders)
     print(f"Found {len(subfolders)} subfolders")
 
     folder_names = []
@@ -56,10 +42,9 @@ def load_gt_episode_chunks(dialogue_folder):
         folder_name = os.path.dirname(subfolder)
         folder_names.append(folder_name)
 
-        gt_file = os.path.join(folder_name, "parsed_dialog_gt.json")
-        with open(gt_file, "r") as f:
+        with open(subfolder, "r") as f:
             dialog = json.load(f)
-        
+
         dialog_chunk = f"[Dialogue between multiple people]\n"
         for turn in dialog:
             speaker = turn["speaker"]
@@ -67,25 +52,55 @@ def load_gt_episode_chunks(dialogue_folder):
                 speakers_pool[speaker] = len(speakers_pool)
             anon_speaker = "Speaker_" + str(speakers_pool[speaker])
             turn_text = fix_space_in_text(turn["text"])
-            
+
             dialog_chunk += f"{anon_speaker}: {turn_text}\n"
 
         chunks.append(dialog_chunk)
 
     return chunks, speakers_pool, folder_names
-    
+
+
+
+def load_pred_episode_chunks(dialogue_folder):
+    ### find all subfolder with {xxx}/{xxx}/parsed_dialog_gt.json sub-folders
+    subfolders = glob.glob(os.path.join(dialogue_folder, "*", "*", "parsed_dialog_pred.json"))
+    # sorted the subfolders
+    subfolders = sorted(subfolders)
+    print(f"Found {len(subfolders)} subfolders")
+
+    folder_names = []
+    speakers_pool = {}
+    chunks = []
+
+    for subfolder in subfolders:
+        folder_name = os.path.dirname(subfolder)
+        folder_names.append(folder_name)
+
+        with open(subfolder, "r") as f:
+            dialog = json.load(f)
+
+        dialog_chunk = f"[Dialogue between multiple people]\n"
+        for turn in dialog:
+            speaker = turn["speaker"]
+            if speaker not in speakers_pool:
+                speakers_pool[speaker] = len(speakers_pool)
+            anon_speaker = "Speaker_" + str(speakers_pool[speaker])
+            turn_text = fix_space_in_text(turn["text"])
+
+            dialog_chunk += f"{anon_speaker}: {turn_text}\n"
+
+        chunks.append(dialog_chunk)
+
+    return chunks, speakers_pool, folder_names
+
 
 
 # ── Test 4: End-to-end with real Qwen API call on episode data ───────────────
 
 def test_e2e_speaker_identification(dialogue_folder):
-    jsonl_files = sorted(
-        glob.glob(os.path.join(dialogue_folder, "*.json"))
-    )
-    print(f"Found {len(jsonl_files)} jsonl files")
-
-    chunks, speakers_pool, folder_list = load_gt_episode_chunks(dialogue_folder)
+    chunks, speakers_pool, folder_list = load_pred_episode_chunks(dialogue_folder)
     print(f"Loaded {len(chunks)} chunks, {len(speakers_pool)} unique speakers")
+    chunks = chunks[:20]
 
     # Override the module-level client/model to use the same env vars as evaluate_agent_results.py
     import audio_script.Speaker_Track.Speaker_Name_tracker as tracker
