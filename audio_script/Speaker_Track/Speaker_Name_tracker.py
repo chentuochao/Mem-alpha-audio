@@ -9,7 +9,9 @@
 import json
 import os
 import re
+from collections import Counter, defaultdict
 from dataclasses import dataclass, field
+from difflib import SequenceMatcher
 from typing import Literal, Optional
 
 from openai import OpenAI
@@ -164,19 +166,53 @@ def build_extraction_prompt(dialogue: str, registry: dict[str, SpeakerRecord]) -
 Analyze the dialogue. Return only valid JSON with no markdown fences."""
 
 
-# ── Registry update logic (unchanged logic, same as before) ──────────────────
+# ── Fuzzy name grouping ──────────────────────────────────────────────────────
 
-def update_registry(
+def _name_similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+
+def _group_name_variants(
+    names: list[str], threshold: float = 0.80
+) -> dict[str, str]:
+    """Map each name variant to a canonical form (most frequent spelling)."""
+    if not names:
+        return {}
+    counts = Counter(n.lower() for n in names)
+    sorted_names = sorted(set(n.lower() for n in names), key=lambda n: -counts[n])
+    canonical_map: dict[str, str] = {}
+    groups: list[list[str]] = []
+
+    for name in sorted_names:
+        merged = False
+        for group in groups:
+            if _name_similarity(name, group[0]) >= threshold:
+                group.append(name)
+                merged = True
+                break
+        if not merged:
+            groups.append([name])
+
+    for group in groups:
+        canon = max(group, key=lambda n: counts[n])
+        for variant in group:
+            canonical_map[variant] = canon
+    return canonical_map
+
+
+# ── Registry update logic (buffer evidence, defer name assignment) ───────────
+
+def buffer_evidence(
     registry: dict[str, SpeakerRecord],
     extractions: list[dict],
     dialogue_id: str,
     min_confidence: float = 0.5,
-    confirm_threshold: int = 2,
 ) -> dict[str, SpeakerRecord]:
+    """Append evidence to the registry without resolving names yet."""
     for ext in extractions:
-        sid   = ext["speaker_id"]
-        name  = ext["name"].strip().title()
-        conf  = float(ext["confidence"])
+        sid  = ext["speaker_id"]
+        name = ext["name"].strip().title()
+        conf = float(ext["confidence"])
 
         if conf < min_confidence:
             continue
@@ -185,33 +221,116 @@ def update_registry(
             registry[sid] = SpeakerRecord(speaker_id=sid)
 
         rec = registry[sid]
-        ev  = Evidence(
+        ev = Evidence(
             dialogue_id=dialogue_id,
             cue_type=ext["cue_type"],
             raw_text=ext["evidence_utterance"],
             confidence=conf,
         )
+        ev._candidate_name = name  # type: ignore[attr-defined]
         rec.evidence.append(ev)
 
-        # Conflict: a different name was already assigned
-        if rec.name and rec.name.lower() != name.lower():
-            prior_max_conf = max((e.confidence for e in rec.evidence[:-1]), default=0)
-            if conf > prior_max_conf + 0.2:
-                # New evidence is significantly stronger — override
-                rec.name   = name
-                rec.status = "candidate"
-            continue  # otherwise keep old name
+    return registry
 
-        rec.name = name
 
-        # Promote status
-        high_conf_count = sum(1 for e in rec.evidence if e.confidence >= 0.7)
-        if conf >= 0.9 or high_conf_count >= confirm_threshold:
+def resolve_registry(
+    registry: dict[str, SpeakerRecord],
+    confirm_threshold: int = 2,
+    fuzzy_threshold: float = 0.80,
+) -> dict[str, SpeakerRecord]:
+    """
+    Resolve speaker names from buffered evidence using weighted voting.
+
+    For each speaker:
+      1. Collect all candidate names from evidence.
+      2. Group spelling variants via fuzzy matching.
+      3. Score each canonical name = sum(confidence) across all matching evidence.
+      4. Pick the highest-scoring candidate.
+      5. Set status based on evidence strength.
+
+    Then cross-validate: if two speakers got the same name, keep only the
+    one with the stronger score and demote the other.
+    """
+    name_scores: dict[str, dict[str, float]] = {}
+
+    for sid, rec in registry.items():
+        if not rec.evidence:
+            continue
+
+        raw_names = [_extract_name_from_evidence(e) for e in rec.evidence]
+        raw_names = [n for n in raw_names if n]
+
+        if not raw_names:
+            continue
+
+        canon_map = _group_name_variants(raw_names, threshold=fuzzy_threshold)
+        scores: dict[str, float] = defaultdict(float)
+        counts: dict[str, int] = defaultdict(int)
+        for ev, raw_name in zip(rec.evidence, [_extract_name_from_evidence(e) for e in rec.evidence]):
+            if not raw_name:
+                continue
+            canon = canon_map.get(raw_name.lower(), raw_name.lower())
+            scores[canon] += ev.confidence
+            counts[canon] += 1
+
+        if not scores:
+            continue
+
+        best_name = max(scores, key=lambda n: scores[n])
+        best_score = scores[best_name]
+        best_count = counts[best_name]
+
+        rec.name = best_name.title()
+        name_scores[sid] = {best_name: best_score}
+
+        high_conf_count = sum(
+            1 for ev in rec.evidence
+            if ev.confidence >= 0.7
+            and canon_map.get(_extract_name_from_evidence(ev, "").lower(), "") == best_name
+        )
+        if high_conf_count >= confirm_threshold or best_score >= 1.8:
             rec.status = "confirmed"
-        elif rec.status == "unknown":
+        elif best_count >= 1:
             rec.status = "candidate"
 
+    _cross_validate(registry, name_scores)
     return registry
+
+
+def _extract_name_from_evidence(ev: Evidence, default: str | None = None) -> str | None:
+    """Extract the candidate name stored alongside evidence.
+
+    We piggyback on the cue_type field naming: the evidence raw_text
+    contains the utterance, but we need the candidate name.  Since
+    buffer_evidence stores Evidence per extraction and the name is set
+    on the record, we attach the name to Evidence via a lightweight
+    attribute.  If not present, return default.
+    """
+    return getattr(ev, "_candidate_name", default)
+
+
+def _cross_validate(
+    registry: dict[str, SpeakerRecord],
+    name_scores: dict[str, dict[str, float]],
+) -> None:
+    """If two speakers resolved to the same name, keep only the stronger one."""
+    name_to_sids: dict[str, list[tuple[str, float]]] = defaultdict(list)
+    for sid, scores in name_scores.items():
+        for name, score in scores.items():
+            name_to_sids[name].append((sid, score))
+
+    for name, sid_list in name_to_sids.items():
+        if len(sid_list) <= 1:
+            continue
+        sid_list.sort(key=lambda x: -x[1])
+        for sid, _ in sid_list[1:]:
+            rec = registry[sid]
+            rec.name = None
+            rec.status = "unknown"
+
+
+# Backward-compatible alias
+update_registry = buffer_evidence
 
 
 # ── Main pipeline ────────────────────────────────────────────────────────────
@@ -219,33 +338,32 @@ def update_registry(
 def identify_speakers(
     dialogues: list[str],
     enable_thinking: bool = False,
+    confirm_threshold: int = 2,
+    fuzzy_threshold: float = 0.80,
 ) -> dict[str, SpeakerRecord]:
     """
-    Process dialogues one by one, accumulating speaker name evidence.
-    Set enable_thinking=True to surface Qwen3's chain-of-thought for
-    debugging difficult or ambiguous dialogues.
+    Two-phase speaker identification robust to ASR/diarization noise.
+
+    Phase 1: Process each dialogue, extract name cues, and buffer all
+             evidence without committing to any name assignment.
+    Phase 2: Resolve names via weighted voting across all accumulated
+             evidence, with fuzzy matching to merge spelling variants
+             and cross-validation to prevent duplicate assignments.
     """
     registry: dict[str, SpeakerRecord] = {}
+
+    # Phase 1: buffer evidence from all dialogues
     for i, dialogue in enumerate(dialogues):
         dialogue_id  = f"dialogue_{i + 1}"
         user_prompt  = build_extraction_prompt(dialogue, registry)
-        # print("------user_prompt------")
-        # print(user_prompt)
         raw_response = qwen3_chat(
             system=EXTRACTION_SYSTEM_PROMPT,
             user=user_prompt,
             enable_thinking=enable_thinking,
-            temperature=0.0,   # greedy — extraction should be deterministic
+            temperature=0.0,
             max_tokens=2048,
         )
-        # print("------raw_response------")
-        # print(raw_response)
-        # Qwen3 sometimes wraps JSON in ```json … ``` even with instructions;
-        # strip fences defensively before parsing.
-        # remove think process
         raw_response = re.sub(r"<think>.*?</think>", "", raw_response, flags=re.DOTALL).strip()
-
-
         cleaned = re.sub(r"^```[a-z]*\n?|```$", "", raw_response.strip(), flags=re.MULTILINE).strip()
 
         try:
@@ -255,11 +373,25 @@ def identify_speakers(
             print(f"[{dialogue_id}] JSON parse error: {e}\nRaw output:\n{raw_response}")
             extractions = []
 
-        registry = update_registry(registry, extractions, dialogue_id)
+        registry = buffer_evidence(registry, extractions, dialogue_id)
 
-        print(f"\n[{dialogue_id}] Registry snapshot:")
-        for sid, rec in sorted(registry.items()):
-            print(f"  {sid:12s} → {rec.display_name:20s} [{rec.status}]")
+        print(f"\n[{dialogue_id}] Evidence buffered: "
+              f"{sum(len(r.evidence) for r in registry.values())} total cues")
+
+    # Phase 2: resolve names from all buffered evidence
+    registry = resolve_registry(
+        registry,
+        confirm_threshold=confirm_threshold,
+        fuzzy_threshold=fuzzy_threshold,
+    )
+
+    print("\n── Final resolved registry ──")
+    for sid, rec in sorted(registry.items()):
+        ev_summary = []
+        for ev in rec.evidence:
+            cand = getattr(ev, "_candidate_name", "?")
+            ev_summary.append(f"{cand}({ev.confidence:.1f})")
+        print(f"  {sid:12s} → {rec.display_name:20s} [{rec.status}]  evidence: {', '.join(ev_summary)}")
 
     return registry
 
