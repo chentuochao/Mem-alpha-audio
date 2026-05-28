@@ -187,9 +187,19 @@ class AgentResultsEvaluator:
                 predicted_answer=predicted_answer
             )
 
+            # response = self.client.chat.completions.create(
+            #     model=self.qwen_model,
+            #     messages=[{"role": "user", "content": prompt}],
+            #     extra_body={
+            #         "chat_template_kwargs": {"enable_thinking": False},
+            #     }
+            # )
+
             response = self.client.chat.completions.create(
                 model=self.qwen_model,
                 messages=[{"role": "user", "content": prompt}],
+                temperature=0.0,
+                max_tokens=8,
                 extra_body={
                     "chat_template_kwargs": {"enable_thinking": False},
                 }

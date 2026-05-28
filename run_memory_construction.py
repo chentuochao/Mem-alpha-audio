@@ -1,7 +1,30 @@
 import os
 
-os.environ['HF_HOME'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
-os.environ['HF_HUB_CACHE'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+# os.environ['HF_HOME'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+# os.environ['HF_HUB_CACHE'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+os.environ.setdefault(
+    "HF_HOME",
+    "/gscratch/intelligentsystems/common_datasets/minimind_dataset/en_dataset/hf_cache"
+)
+os.environ.setdefault("HF_HUB_CACHE", os.environ["HF_HOME"])
+os.environ.setdefault("TRANSFORMERS_CACHE", os.environ["HF_HOME"])
+os.environ.setdefault(
+    "TORCH_HOME",
+    "/gscratch/intelligentsystems/wencheng/torch_cache"
+)
+os.environ.setdefault(
+    "TMPDIR",
+    "/gscratch/intelligentsystems/wencheng/tmp"
+)
+os.environ.setdefault(
+    "HF_DATASETS_CACHE",
+    "/gscratch/intelligentsystems/common_datasets/minimind_dataset/en_dataset/hf_datasets"
+)
+os.environ.setdefault("HF_DATASETS_TRUST_REMOTE_CODE", "1")
+os.environ.setdefault(
+    "TTS_HOME",
+    "/gscratch/intelligentsystems/wencheng/.coqui"
+)
 
 from datetime import datetime
 import json

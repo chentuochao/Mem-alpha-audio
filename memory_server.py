@@ -120,7 +120,7 @@ class MemoryProcessor:
                     response = self.client.chat.completions.create(
                         model=self.model_name,
                         messages=messages,
-                        temperature=0.1,  # Low temperature for consistent analysis
+                        temperature=0,  # Low temperature for consistent analysis
                         max_tokens=512,
                         extra_body={
                             "chat_template_kwargs": {"enable_thinking": False},
@@ -546,7 +546,7 @@ INSTRUCTIONS:
             response = self.client.chat.completions.create(
                 model=self.model_name,
                 messages=messages,
-                temperature=0.7,
+                temperature=0,
                 max_tokens=2048
             )
 
@@ -574,7 +574,7 @@ INSTRUCTIONS:
         return results
 
     def agentic_search_and_respond(self, memory_data: Dict[str, Any], question: str,
-                                  max_iterations: int = 5, temperature: float = 0.7,
+                                  max_iterations: int = 5, temperature: float = 0,
                                   max_tokens: int = 2048) -> Tuple[str, List[Dict[str, Any]], Dict[str, Any]]:
         """
         Perform iterative memory search using function calling to find the best answer.
@@ -1098,7 +1098,7 @@ def _process_function_batch(data):
                                 model=processor.model_name,
                                 prompt=batch_prompts,
                                 max_tokens=512,
-                                temperature=0.1,
+                                temperature=0,
                                 stream=False
                             )
 
@@ -1118,7 +1118,7 @@ def _process_function_batch(data):
                             model=processor.model_name,
                             prompt=all_prompts,
                             max_tokens=512,
-                            temperature=0.1,
+                            temperature=0,
                             stream=False
                         )
 
@@ -1148,7 +1148,7 @@ def _process_function_batch(data):
                                 response = processor.client.chat.completions.create(
                                     model=processor.model_name,
                                     messages=messages,
-                                    temperature=0.1,
+                                    temperature=0,
                                     max_tokens=512,
                                     extra_body={
                                         "chat_template_kwargs": {"enable_thinking": False},
@@ -1168,7 +1168,7 @@ def _process_function_batch(data):
                             response = processor.client.chat.completions.create(
                                 model=processor.model_name,
                                 messages=messages,
-                                temperature=0.1,
+                                temperature=0,
                                 max_tokens=512,
                                 extra_body={
                                     "chat_template_kwargs": {"enable_thinking": False},
@@ -1376,7 +1376,7 @@ def agentic_process():
         memories = data.get('memories', [])
         questions = data.get('questions', [])
         max_iterations = data.get('max_iterations', 5)
-        temperature = data.get('temperature', 0.7)
+        temperature = data.get('temperature', 0)
         max_tokens = data.get('max_tokens', 2048)
 
         if not memories or not questions:
@@ -1487,7 +1487,7 @@ def batch_process():
         memories = data.get('memories', [])
         questions = data.get('questions', [])
         max_tokens = data.get('max_tokens', 2048)
-        temperature = data.get('temperature', 0.7)
+        temperature = data.get('temperature', 0)
         enable_thinking = data.get('enable_thinking', False)
 
         # Configurable batch sizes
