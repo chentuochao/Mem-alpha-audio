@@ -147,8 +147,8 @@ def process_episode(
     raw_audio: np.ndarray = sample["audio"]
     T = raw_audio.shape[0]
     raw_transcript: List[Dict] = sample["raw_transcript"]
-
-    transcript_chunks = chunk_dialog(raw_transcript)
+    # CHUNK_MIN_DURATION, CHUNK_MAX_DURATION, CHUNK_GAP_THRESHOLD
+    transcript_chunks = chunk_dialog(raw_transcript, min_dur=CHUNK_MIN_DURATION, max_dur=CHUNK_MAX_DURATION, gap_threshold=CHUNK_GAP_THRESHOLD)
     print(f"  Split into {len(transcript_chunks)} chunk(s)")
 
     num_processed = num_skipped = num_fail = 0
@@ -227,12 +227,6 @@ def run_dataset(
 ) -> Tuple[int, int, int]:
     """Iterate the dataset, run ``process_episode`` for each, and print a summary."""
     os.makedirs(output_dir, exist_ok=True)
-    chunk_kwargs = dict(
-        min_dur=chunk_min_dur,
-        max_dur=chunk_max_dur,
-        gap_threshold=chunk_gap_threshold,
-    )
-
     total_processed = total_skipped = total_fail = 0
 
     for sample in tqdm(dataset):
@@ -252,7 +246,6 @@ def run_dataset(
             sample=sample,
             backend=backend,
             output_dir=output_dir,
-            chunk_kwargs=chunk_kwargs,
             dataset_name=dataset_name,
         )
         total_processed += p
