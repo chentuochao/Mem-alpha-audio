@@ -1,7 +1,4 @@
 # Core ML/DL Frameworks
-torch==2.6.0
-torchvision==0.21.0
-torchaudio==2.6.0
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.1
@@ -9,8 +6,6 @@ scipy==1.14.0
 
 # Transformers and LLM Libraries
 transformers==4.51.3
-vllm==0.8.5
-sglang==0.4.6.post4
 qwen-agent==0.0.29
 qwen-vl-utils==0.0.11
 litellm
@@ -27,15 +22,9 @@ accelerate==1.7.0
 wandb==0.19.11
 
 # Megatron and Distributed Training
-megatron-core @ git+https://github.com/NVIDIA/Megatron-LM.git@408eb7186a68ba4d30ee6cc8b05b4de6ba702148
 
-apex @ git+https://github.com/NVIDIA/apex.git@90055a9188f907e1fd78d9099aa45252efd62efb
-transformer_engine @ git+https://github.com/NVIDIA/TransformerEngine.git@c55e425ac5751c72bfa656560fc7c65ab7d895e9
 
 # Flash Attention
-flash-attn==2.7.4.post1
-flashinfer-python==0.2.2.post1+cu124torch2.6
-xformers==0.0.29.post2
 
 # Data Processing
 datasets==3.6.0
@@ -98,7 +87,6 @@ dill==0.3.8
 msgpack==1.0.8
 
 # Triton and Specialized Kernels
-triton==3.2.0
 liger_kernel==0.5.9
 einops==0.8.0
 
@@ -111,10 +99,7 @@ pytest-rerunfailures==14.0
 pytest-xdist==3.6.1
 
 # NVIDIA and Hardware-specific
-nvidia-modelopt>=0.23.2
 tensorstore
-nvidia-cuda-runtime-cu12==12.4.127
-nvidia-nccl-cu12==2.21.5
 nvidia-ml-py==12.575.51
 cupy-cuda12x==13.2.0
 
@@ -163,5 +148,4 @@ websockets==15.0.1
 xxhash==3.5.0
 yarl==1.9.4
 ipdb==0.13.13
-torchdata==0.11.0
 pyext==0.7

@@ -1,7 +1,14 @@
 import os
 
-os.environ['HF_HOME'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
-os.environ['HF_HUB_CACHE'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+# os.environ['HF_HOME'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+# os.environ['HF_HUB_CACHE'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+os.environ.setdefault("HF_HOME", "/gscratch/intelligentsystems/wencheng/hf_cache")
+os.environ.setdefault("HF_HUB_CACHE", os.path.join(os.environ["HF_HOME"], "hub"))
+os.environ.setdefault("HUGGINGFACE_HUB_CACHE", os.environ["HF_HUB_CACHE"])
+os.environ.setdefault("TRANSFORMERS_CACHE", os.environ["HF_HOME"])
+os.environ.setdefault("HF_DATASETS_CACHE", "/gscratch/intelligentsystems/wencheng/hf_datasets")
+os.environ.setdefault("TORCH_HOME", "/gscratch/intelligentsystems/wencheng/torch_cache")
+os.environ.setdefault("TMPDIR", "/gscratch/intelligentsystems/wencheng/tmp")
 
 import json
 import yaml
@@ -350,9 +357,11 @@ def run_qa_evaluation_batch(
         # Make request to memory server
         payload = {
             "memories": batch_memories_for_server,
-            'questions': questions_for_server
+            "questions": questions_for_server,
+            "temperature": 0.0,
+            "enable_thinking": False,
+            "qwen_batch_size": 1,
         }
-
         # Choose endpoint based on agentic_search flag
         base_url = agent_config['external_model_url']
         if base_url.endswith('/batch_process'):

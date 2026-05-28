@@ -234,7 +234,27 @@ class ConversationCreator():
             for idx, row in tqdm(self.data.iterrows(), desc=f"Processing {self.dataset_name} Q&A", unit="item", total=len(self.data)):
                 # Parse questions and answers - they're stored as JSON strings in the parquet file
                 qa_pairs = json.loads(row['questions_and_answers']) if isinstance(row['questions_and_answers'], str) else row['questions_and_answers']
-                if 'data_source' in row:
+                # if 'data_source' in row:
+                #     data_source = row['data_source']
+                # elif self.dataset_name == 'memoryagentbench':
+                #     data_source = 'memoryagentbench'
+                # elif self.dataset_name == 'accurate_retrieval':
+                #     data_source = 'accurate_retrieval'
+                # elif self.dataset_name == 'test_time_learning':
+                #     data_source = 'test_time_learning'
+                # elif self.dataset_name == 'long_range_understanding':
+                #     data_source = 'long_range_understanding'
+                # elif self.dataset_name == 'memalpha_train':
+                #     data_source = 'memalpha_train'
+                # elif self.dataset_name == 'memalpha_sample':
+                #     data_source = 'memalpha_sample'
+                # elif self.dataset_name in ('seamlessinteraction', 'seamlessinteraction_options'):
+                #     data_source = self.dataset_name
+                # else:
+                #     data_source = 'memalpha'
+                if self.dataset_name in ('seamlessinteraction', 'seamlessinteraction_options'):
+                    data_source = self.dataset_name
+                elif 'data_source' in row:
                     data_source = row['data_source']
                 elif self.dataset_name == 'memoryagentbench':
                     data_source = 'memoryagentbench'
@@ -248,8 +268,6 @@ class ConversationCreator():
                     data_source = 'memalpha_train'
                 elif self.dataset_name == 'memalpha_sample':
                     data_source = 'memalpha_sample'
-                elif self.dataset_name in ('seamlessinteraction', 'seamlessinteraction_options'):
-                    data_source = self.dataset_name
                 else:
                     data_source = 'memalpha'
                 queries_and_answers = []
