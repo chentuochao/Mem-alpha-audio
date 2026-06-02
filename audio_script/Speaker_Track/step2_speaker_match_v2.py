@@ -102,7 +102,7 @@ class GlobalSpeakerPool:
         spk = GlobalSpeaker(
             global_id=self._next_id,
             name=f"GLOBAL_SPK_{self._next_id}",
-            embedding=embedding.copy(),
+            embedding=embedding.clone(),
             weight=1,
             transcriptions=[transcription],
         )
@@ -683,15 +683,18 @@ def main():
         print(f"{'=' * 60}")
 
         for entry in samples:
-            spk_pair = entry.get("spk_pair", "")
-            print(spk_pair)
             if entry.get("dataset") == "bazinga":
                 speaker_gt = entry["speakers"]
-                bias = float(entry["time_stamp"][0])  # unit: samples
+                bias = float(entry["time_stamp"][0]) # unit in sample
+                spk_pair = entry.get("conv_id", "")
+                chunk_id = entry.get("chunk_id", "")
+                conv_id = f"CHUNK_{chunk_id}"
             else:
                 speaker_gt = spk_pair.split("_")
+                conv_id = entry.get("conv_id", "")
+                spk_pair = entry.get("spk_pair", "")
                 bias = 0
-            conv_id = entry.get("conv_id", "")
+
             audio_file = entry["audio_file"]
             diar_path = entry["diart_path"]
             pred_transcript_path = entry["pred_transcript_path"]

@@ -163,13 +163,18 @@ def main():
 
         chunk_hyps = []
         chunk_refs = []
+        hyps_cat = ""
+        refs_cat = ""
         for pred_spk, gt_spk in sorted(pred_to_gt.items()):
             chunk_hyps.append(pred_by_speaker[pred_spk])
+            hyps_cat += pred_by_speaker[pred_spk]
             chunk_refs.append(gt_by_speaker[gt_spk])
+            refs_cat += gt_by_speaker[gt_spk]
             matched_speakers += 1
 
         if chunk_hyps:
             chunk_wer = word_error_rate(chunk_hyps, chunk_refs, use_cer=args.use_cer)
+            # chunk_wer = word_error_rate([hyps_cat], [refs_cat], use_cer=args.use_cer)
             per_chunk_wers.append(chunk_wer)
             all_hypotheses.extend(chunk_hyps)
             all_references.extend(chunk_refs)

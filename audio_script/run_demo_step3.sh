@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# ──────────────────────────────────────────────────────────────────────
+#  Configuration — edit these to match your setup
+# ──────────────────────────────────────────────────────────────────────
+
+# Conda environments
+ENV1="mem"   # NeMo environment (diarization + ASR)
+# Model paths
+
+# ──────────────────────────────────────────────────────────────────────
+#  Locate conda
+# ──────────────────────────────────────────────────────────────────────
+
+if [ -f "$HOME/miniconda3/etc/profile.d/conda.sh" ]; then
+    source "$HOME/miniconda3/etc/profile.d/conda.sh"
+elif [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
+    source "$HOME/anaconda3/etc/profile.d/conda.sh"
+elif [ -n "${CONDA_EXE:-}" ]; then
+    source "$(dirname "$(dirname "$CONDA_EXE")")/etc/profile.d/conda.sh"
+else
+    echo "ERROR: Cannot locate conda. Set CONDA_EXE or adjust the script."
+    exit 1
+fi
+
+conda activate "${ENV1}"
+export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
+export QWEN_URL="http://localhost:8002/v1"
+
+DATA_PATH="./Audio_Results/nemo-offline/TheBigBangTheory/step2/"
+
+
+python audio_script/Speaker_Track/step3_speaker_name_extract.py \
+    --data_dir  "${DATA_PATH}"

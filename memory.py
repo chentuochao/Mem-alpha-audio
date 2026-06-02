@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 from sklearn.metrics.pairwise import cosine_similarity
 from rank_bm25 import BM25Okapi
 from memalpha.utils import count_tokens
+import random
 
 
 class Memory:
@@ -48,6 +49,8 @@ class Memory:
         self.episodic_embedding_ids: List[str] = []
         self.including_core = including_core
 
+        self._rng = random.Random(1)
+
     def is_memory_type_enabled(self, memory_type: str) -> bool:
         """Check if a memory type is enabled for this run."""
         memory_type = memory_type.lower()
@@ -78,7 +81,7 @@ class Memory:
         if self.is_memory_type_enabled("core") and self.core is not None:
             # Core is now a simple string
             total_length += count_tokens(self.core)
-        
+
         # Handle semantic and episodic memories
         for mem_type, mem_list in [("semantic", self.semantic), ("episodic", self.episodic)]:
             if not self.is_memory_type_enabled(mem_type):
@@ -101,12 +104,13 @@ class Memory:
                         if hasattr(content, 'dtype'):
                             print(f"  Has dtype: {content.dtype}")
                     total_length += count_tokens(content)
-        
+
         return total_length
 
     def _generate_memory_id(self) -> str:
         """Generate a unique ID for a memory item."""
-        return str(uuid.uuid4())[:4]  # Using first 4 characters of UUID
+        # return str(uuid.uuid4())[:4]  # Using first 4 characters of UUID
+        return uuid.UUID(int=self._rng.getrandbits(128), version=4).hex[:4]
 
     def _content_exists(self, memory_type: str, content: str) -> bool:
         """Check if content already exists in the specified memory type."""
@@ -152,13 +156,13 @@ class Memory:
                 return f"<{title}>\nEmpty.\n</{title}>"
             else:
                 return f"Empty."
-        
+
         # Convert each memory dict to a string representation
         formatted_lines = []
         for mem in lines:
             for mem_id, content in mem.items():
                 formatted_lines.append(f"[{mem_id}] {content}")
-        
+
         body = "\n".join(formatted_lines)
         if title:
             return f"<{title}>\n{body}\n</{title}>"
@@ -167,14 +171,14 @@ class Memory:
 
     def render_system_prompt(self, status: str = "chat", query: str = None, max_num_of_recent_chunks: int = None) -> List[Dict[str, str]]:
         """Return the system prompt expected by the model.
-        
+
         Args:
             status: The mode of operation, can be:
                 - "memorie": For memorizing and storing information
                 - "chat": For normal conversation and information retrieval
                 - "rethink": For memory consolidation and reorganization
         """
-        
+
         query = query or ""
         semantic_enabled = self.is_memory_type_enabled("semantic")
         episodic_enabled = self.is_memory_type_enabled("episodic")
@@ -199,12 +203,12 @@ class Memory:
         else:
             episodic_items = []
             semantic_items = []
-        
+
         # Handle core memory based on including_core flag
         core_memory_section = ""
         if self.including_core and self.core is not None:
             core_memory_section = f"<core_memory>\n{self.core}\n</core_memory>"
-        
+
         memory_blocks_sections = []
         if core_memory_section:
             memory_blocks_sections.append(core_memory_section)
@@ -216,7 +220,7 @@ class Memory:
             memory_blocks = "\n\n".join(memory_blocks_sections)
         else:
             memory_blocks = "No memories are currently enabled."
-        
+
         if status == "memorie":
             # System prompt for memorizing mode - focus on understanding and storing information
             memory_type_instructions = []
@@ -273,7 +277,7 @@ Meanwhile, you will be queried only once, so make sure to call all the memory in
             return [
                 {"role": "system", "content": system_prompt},
             ]
-        
+
         elif status == "rethink":
             # System prompt for memory consolidation mode
             system_prompt = f'''You are a memory consolidation specialist tasked with optimizing the memory system's organization and efficiency.
@@ -295,7 +299,7 @@ CONSOLIDATION OBJECTIVES:
             # System prompt for answering mode - focus on retrieving and using stored information
             showing_all_semantic = True if not semantic_enabled else len(semantic_items) == len(self.semantic)
             showing_all_episodic = True if not episodic_enabled else len(episodic_items) == len(self.episodic)
-            
+
             semantic_section = ""
             if semantic_enabled:
                 if showing_all_semantic:
@@ -364,10 +368,10 @@ CONSOLIDATION OBJECTIVES:
         # Check if trying to insert core memory when core is not available
         if memory_type == 'core' and not self.including_core:
             raise ValueError("Core memory is not available. Set including_core=True to use core memory.")
-        
+
         if memory_type == 'core' and self.core is None:
             raise ValueError("Core memory is not initialized. Set including_core=True to use core memory.")
-        
+
         if memory_type == 'core':
             # Core memory can only be updated, not inserted
             raise ValueError("Core memory cannot be inserted. Use memory_update to modify core memory content.")
@@ -376,23 +380,23 @@ CONSOLIDATION OBJECTIVES:
             if self._content_exists(memory_type, content):
                 # Return None to indicate that insertion was skipped
                 return None
-            
+
             # For semantic and episodic memories, use the existing logic
             memory_id = self._generate_memory_id()
             getattr(self, memory_type).append({memory_id: content})
-            
+
             # Generate and store embedding for semantic and episodic memories
             if memory_type in ['semantic', 'episodic']:
                 embedding = self._get_embedding(content)
                 # Add embedding to matrix
                 embedding_matrix = getattr(self, f"{memory_type}_embedding_matrix")
                 embedding_ids = getattr(self, f"{memory_type}_embedding_ids")
-                
+
                 # Append embedding to matrix
                 new_matrix = np.vstack([embedding_matrix, embedding.reshape(1, -1)])
                 setattr(self, f"{memory_type}_embedding_matrix", new_matrix)
                 embedding_ids.append(memory_id)
-            
+
             return {memory_id: content}
 
     def memory_update(self, memory_type: str, new_content: str, memory_id: str=None):
@@ -403,10 +407,10 @@ CONSOLIDATION OBJECTIVES:
         # Check if trying to update core memory when core is not available
         if memory_type == 'core' and not self.including_core:
             raise ValueError("Core memory is not available. Set including_core=True to use core memory.")
-        
+
         if memory_type == 'core' and self.core is None:
             raise ValueError("Core memory is not initialized. Set including_core=True to use core memory.")
-        
+
         if memory_type == 'core':
             # For core memory, replace the entire content with 512 token limit
             token_count = count_tokens(new_content)
@@ -416,15 +420,15 @@ CONSOLIDATION OBJECTIVES:
                 truncation_msg = " [content exceeds 512 tokens, truncated]"
                 truncation_msg_tokens = count_tokens(truncation_msg)
                 target_tokens = 512 - truncation_msg_tokens
-                
+
                 # Simple truncation by splitting into words and reducing
                 words = new_content.split()
                 truncated_content = new_content
-                
+
                 while count_tokens(truncated_content) > target_tokens and words:
                     words.pop()  # Remove last word
                     truncated_content = " ".join(words)
-                
+
                 self.core = truncated_content + truncation_msg
             else:
                 self.core = new_content
@@ -436,17 +440,17 @@ CONSOLIDATION OBJECTIVES:
                 if memory_id in mem:
                     mem_list[i] = {memory_id: new_content}
                     break
-            
+
             # Update embedding for semantic and episodic memories
             if memory_type in ['semantic', 'episodic']:
                 embedding = self._get_embedding(new_content)
                 embedding_matrix = getattr(self, f"{memory_type}_embedding_matrix")
                 embedding_ids = getattr(self, f"{memory_type}_embedding_ids")
-                
+
                 # Find and update the embedding in the matrix
                 idx = embedding_ids.index(memory_id)
                 embedding_matrix[idx] = embedding
-            
+
             updated_memory = {memory_id: new_content}
             return updated_memory
 
@@ -458,10 +462,10 @@ CONSOLIDATION OBJECTIVES:
         # Check if trying to delete core memory when core is not available
         if memory_type == 'core' and not self.including_core:
             raise ValueError("Core memory is not available. Set including_core=True to use core memory.")
-        
+
         if memory_type == 'core' and self.core is None:
             raise ValueError("Core memory is not initialized. Set including_core=True to use core memory.")
-        
+
         if memory_type == 'core':
             # For core memory, clear the entire content
             self.core = ""
@@ -473,12 +477,12 @@ CONSOLIDATION OBJECTIVES:
                 if memory_id in mem:
                     mem_list.pop(i)
                     break
-            
+
             # Delete corresponding embedding for semantic and episodic memories
             if memory_type in ['semantic', 'episodic']:
                 embedding_matrix = getattr(self, f"{memory_type}_embedding_matrix")
                 embedding_ids = getattr(self, f"{memory_type}_embedding_ids")
-                
+
                 # Find and remove the embedding from the matrix
                 try:
                     idx = embedding_ids.index(memory_id)
@@ -499,31 +503,31 @@ CONSOLIDATION OBJECTIVES:
 
     def memory_search(self, memory_type: str, query: str, top_k: int = None, min_score: float = 0.0, search_method: str = "bm25") -> List[Tuple[Dict[str, str], float]]:
         """Search for memories using BM25 or text embedding similarity. Note that the whole Core Memory is in the system prompt so you don't need to search it.
-        
+
         Args:
             memory_type: Type of memory to search ('semantic' or 'episodic')
             query: Search query string
             top_k: Maximum number of results to return (None for all)
             min_score: Minimum score threshold (BM25 score or cosine similarity)
             search_method: Search method to use ('bm25' or 'text-embedding')
-            
+
         Returns:
             List of tuples containing (memory_dict, score) sorted by score descending
         """
         # Core memory doesn't support searching since it's always included in context
         if memory_type == 'core':
             raise ValueError("Core memory doesn't support searching. Core memory is always included in the system prompt.")
-        
+
         # For semantic and episodic memories only
         if memory_type not in ['semantic', 'episodic']:
             raise ValueError(f"Invalid memory_type: {memory_type}. Only 'semantic' and 'episodic' are supported for searching.")
-        
+
         self._ensure_memory_type_enabled(memory_type)
-        
+
         mem_list = getattr(self, memory_type)
         if not mem_list or not query.strip():
             return []
-        
+
         if search_method == "bm25":
             return self._search_bm25(memory_type, query, top_k, min_score)
         elif search_method == "text-embedding":
@@ -534,50 +538,50 @@ CONSOLIDATION OBJECTIVES:
     def _search_bm25(self, memory_type: str, query: str, top_k: int = None, min_score: float = 0.0) -> List[Tuple[Dict[str, str], float]]:
         """Search using BM25 ranking algorithm with rank_bm25 library."""
         mem_list = getattr(self, memory_type)
-        
+
         # Tokenize query
         query_tokens = self._tokenize(query)
         if not query_tokens:
             return []
-        
+
         # Prepare documents and their metadata
         documents = []
         doc_contents = []
-        
+
         for mem in mem_list:
             for memory_id, content in mem.items():
                 documents.append((memory_id, content))
                 doc_contents.append(content)
-        
+
         if not documents:
             return []
-        
+
         # Tokenize all documents
         tokenized_corpus = []
         for content in doc_contents:
             doc_tokens = self._tokenize(content)
             tokenized_corpus.append(doc_tokens)
-        
+
         # Create BM25 object
         bm25 = BM25Okapi(tokenized_corpus)
-        
+
         # Get scores for the query
         doc_scores = bm25.get_scores(query_tokens)
-        
+
         # Create results with scores
         results = []
         for i, (memory_id, content) in enumerate(documents):
             score = doc_scores[i]
             if score >= min_score:
                 results.append(({memory_id: content}, score))
-        
+
         # Sort by score descending
         results.sort(key=lambda x: x[1], reverse=True)
-        
+
         # Apply top_k limit if specified
         if top_k is not None:
             results = results[:top_k]
-        
+
         return results
 
     def _search_embedding(self, memory_type: str, query: str, top_k: int = None, min_score: float = 0.0) -> List[Tuple[Dict[str, str], float]]:
@@ -585,38 +589,38 @@ CONSOLIDATION OBJECTIVES:
         mem_list = getattr(self, memory_type)
         embedding_matrix = getattr(self, f"{memory_type}_embedding_matrix")
         embedding_ids = getattr(self, f"{memory_type}_embedding_ids")
-        
+
         if not mem_list or embedding_matrix.shape[0] == 0:
             return []
-        
+
         # Get query embedding
         query_embedding = self._get_embedding(query)
         if np.allclose(query_embedding, 0):  # Check if embedding generation failed
             return []
-        
+
         # Batch calculate cosine similarity for all embeddings at once
         similarities = cosine_similarity(
-            query_embedding.reshape(1, -1), 
+            query_embedding.reshape(1, -1),
             embedding_matrix
         )[0]  # Extract the first (and only) row
-        
+
         results = []
-        
+
         # Create a mapping from memory_id to content for fast lookup
         id_to_content = {}
         for mem in mem_list:
             id_to_content.update(mem)
-        
+
         # Combine similarities with memory content
         for i, (memory_id, similarity) in enumerate(zip(embedding_ids, similarities)):
             if similarity >= min_score and memory_id in id_to_content:
                 results.append(({memory_id: id_to_content[memory_id]}, similarity))
-        
+
         # Sort by similarity descending
         results.sort(key=lambda x: x[1], reverse=True)
-        
+
         # Apply top_k limit if specified
         if top_k is not None:
             results = results[:top_k]
-        
+
         return results

@@ -1,30 +1,8 @@
 import os
 
-# os.environ['HF_HOME'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
-# os.environ['HF_HUB_CACHE'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
-os.environ.setdefault(
-    "HF_HOME",
-    "/gscratch/intelligentsystems/common_datasets/minimind_dataset/en_dataset/hf_cache"
-)
-os.environ.setdefault("HF_HUB_CACHE", os.environ["HF_HOME"])
-os.environ.setdefault("TRANSFORMERS_CACHE", os.environ["HF_HOME"])
-os.environ.setdefault(
-    "TORCH_HOME",
-    "/gscratch/intelligentsystems/wencheng/torch_cache"
-)
-os.environ.setdefault(
-    "TMPDIR",
-    "/gscratch/intelligentsystems/wencheng/tmp"
-)
-os.environ.setdefault(
-    "HF_DATASETS_CACHE",
-    "/gscratch/intelligentsystems/common_datasets/minimind_dataset/en_dataset/hf_datasets"
-)
-os.environ.setdefault("HF_DATASETS_TRUST_REMOTE_CODE", "1")
-os.environ.setdefault(
-    "TTS_HOME",
-    "/gscratch/intelligentsystems/wencheng/.coqui"
-)
+os.environ['HF_HOME'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+os.environ['HF_HUB_CACHE'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":4096:8"
 
 from datetime import datetime
 import json
@@ -38,6 +16,19 @@ from agent import MemoryAgent
 from memory import Memory
 from functions import get_memory_tool_schemas
 from conversation_creator import get_out_dir
+import torch
+import random
+
+SEED_NUM = 0
+def init_random_seed():
+    torch.manual_seed(SEED_NUM)
+    np.random.seed(SEED_NUM)
+    random.seed(SEED_NUM)
+    torch.cuda.manual_seed(SEED_NUM)
+    torch.cuda.manual_seed_all(SEED_NUM)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
 
 
 def load_agent_config(config_path):
@@ -156,6 +147,7 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
     batch_final_responses = {i: [] for i in range(batch_size)}
 
     print("max_chunks = ", max_chunks)
+    max_chunks = 2
     for chunk_idx in range(max_chunks):
         # pass chunk by chunk
         print(f"[DEBUG] Processing chunk {chunk_idx + 1}/{max_chunks}")
@@ -167,10 +159,9 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
         for i, chunk_list in enumerate(batch_chunks):
             if chunk_idx < len(chunk_list):
                 prompt_key = 'unified_prompt_multispeaker' if "seamlessinteraction" in batch_sources[i] else 'unified_prompt'
-                print("prompt_key - ", prompt_key)
+                # prompt_key = 'unified_prompt'
                 current_chunks.append(prompts_wrt_datasource[prompt_key].format(context=chunk_list[chunk_idx], max_new_tokens=int(max_new_tokens * 0.8)))
                 remaining_indices.append(i)
-
         if len(remaining_indices) == 0:
             break
 
@@ -199,7 +190,8 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
             thinking_sampling_params = SamplingParams(
                 temperature=0.7,
                 max_tokens=thinking_budget,
-                stop_token_ids=[memory_agent_template.tokenizer.eos_token_id]
+                stop_token_ids=[memory_agent_template.tokenizer.eos_token_id],
+                seed=SEED_NUM,
             )
 
             outputs = memory_agent_template.model.generate(prompts, thinking_sampling_params)
@@ -240,7 +232,8 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
                 remaining_sampling_params = SamplingParams(
                     temperature=0.7,
                     max_tokens=max_new_tokens - thinking_budget,
-                    stop_token_ids=[memory_agent_template.tokenizer.eos_token_id]
+                    stop_token_ids=[memory_agent_template.tokenizer.eos_token_id],
+                    seed = SEED_NUM,
                 )
                 second_outputs = memory_agent_template.model.generate(second_gen_texts, remaining_sampling_params)
                 second_gen_responses = [output.outputs[0].text.strip() for output in second_outputs]
@@ -266,7 +259,8 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
             sampling_params = SamplingParams(
                 temperature=0.0,
                 max_tokens=max_new_tokens,
-                stop_token_ids=[memory_agent_template.tokenizer.eos_token_id]
+                stop_token_ids=[memory_agent_template.tokenizer.eos_token_id],
+                seed=SEED_NUM,
             )
             outputs = memory_agent_template.model.generate(prompts, sampling_params)
             final_responses = [output.outputs[0].text.strip() for output in outputs]
@@ -380,7 +374,7 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
 
 
 def main():
-
+    init_random_seed()
     args = parse_args()
 
     # Load agent configuration
@@ -402,25 +396,23 @@ def main():
 
     all_chunks = conversation_creator.chunks() # TODO: Note we don't skip already completed conversations in chunking process of conversation_creator.py since it's easy to mess up the index sequence in eval.py, but we can fix it later (return empty chunks instead of skipping)
 
-    all_queries_and_answers = conversation_creator.get_query_and_answer()
-
+    # all_queries_and_answers = conversation_creator.get_query_and_answer()
     # Handle cases where some instances might have empty Q&A lists
     # QA list = item[0] - [q_idx, question, answer, data_source, category]
-    all_sources = []
-    for item in all_queries_and_answers:
-        if len(item) > 0:
-            all_sources.append(item[0][3])
-        else:
-            # Default source for empty Q&A lists based on dataset
-            all_sources.append(args.dataset)
+    # all_sources = []
+    # for item in all_queries_and_answers:
+    #     if len(item) > 0:
+    #         all_sources.append(item[0][3])
+    #     else:
+    #         # Default source for empty Q&A lists based on dataset
+    #         all_sources.append(args.dataset)
 
-    # just for debug
-    for item in all_queries_and_answers:
-        if len(item) > 0:
-            assert len(np.unique([x[3] for x in item])) == 1, "all sources should be the same"
-
+    # # just for debug
+    # for item in all_queries_and_answers:
+    #     if len(item) > 0:
+    #         assert len(np.unique([x[3] for x in item])) == 1, "all sources should be the same"
+    all_sources = conversation_creator.data['data_source'].tolist()
     print(f"Processing {len(all_chunks)} conversations for dataset {args.dataset}...")
-
     # Process all conversations using batch processing
     all_indices = list(range(len(all_chunks)))
     for i in range(0, len(all_indices), args.batch_size):

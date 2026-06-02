@@ -100,7 +100,7 @@ def load_pred_episode_chunks(dialogue_folder):
 def test_e2e_speaker_identification(dialogue_folder):
     chunks, speakers_pool, folder_list = load_pred_episode_chunks(dialogue_folder)
     print(f"Loaded {len(chunks)} chunks, {len(speakers_pool)} unique speakers")
-    chunks = chunks[:20]
+    # chunks = chunks[:20]
 
     # Override the module-level client/model to use the same env vars as evaluate_agent_results.py
     import audio_script.Speaker_Track.Speaker_Name_tracker as tracker
@@ -173,7 +173,7 @@ def test_e2e_speaker_identification(dialogue_folder):
         else:
             speaker_name_map[original_name] = f"Unknown_speaker{idx:03d}"
 
-    out_path = os.path.join(dialogue_folder, "speaker_name_map.json")
+    out_path = os.path.join(dialogue_folder, "extracted_speaker_name.json")
     with open(out_path, "w") as f:
         json.dump(speaker_name_map, f, indent=2)
     print(f"\nSaved speaker name map to {out_path}")

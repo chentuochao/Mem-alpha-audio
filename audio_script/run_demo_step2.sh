@@ -9,14 +9,14 @@ set -euo pipefail
 ENV2="mem"   # WeSpeaker / Resemblyzer environment (speaker embeddings)
 
 
-EMBEDDING_MODEL_DIR="/checkpoint/seamless/tuochao/Models/huggingface//wespeaker-voxceleb-resnet293-LM"
+EMBEDDING_MODEL_DIR="/checkpoint/seamless/tuochao/Models/huggingface/wespeaker-voxceleb-resnet293-LM"
 
 # Options
 MAX_NUM_OF_SPKS=4
 SIMILARITY_THRESHOLD=0.65
 EMBEDDING_DEVICE="cuda:0"
-DATA_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step1_offline"
-OUTPUT_DIR="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory/step2_offline"
+DATA_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/vibevoice/TheBigBangTheory/step1"
+OUTPUT_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/vibevoice/TheBigBangTheory/step2"
 
 # Working directory (where the python scripts live)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -49,7 +49,7 @@ echo "============================================================"
 conda activate "${ENV2}"
 export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
 
-python "${SCRIPT_DIR}/Speaker_Track/step2_speaker_match.py" \
+python "${SCRIPT_DIR}/Speaker_Track/step2_speaker_match_v2.py" \
     --data_dir            "${DATA_DIR}" \
     --embedding_model_dir "${EMBEDDING_MODEL_DIR}" \
     --similarity_threshold "${SIMILARITY_THRESHOLD}" \

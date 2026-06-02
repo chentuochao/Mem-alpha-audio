@@ -24,20 +24,24 @@ import pandas as pd
 from prepare_data.preprocess_utils import fix_space_in_text
 
 
-def load_chunks_pred(data_dir: str, use_extracted_name: bool = False) -> list[str]:
-    map_path = os.path.join(args.data_dir, "speaker_name_map.json")
-    with open(map_path, "r") as f:
-        speaker_name_map = json.load(f)
-    
+
+def load_time_maps(time_info_path: str) -> dict:
+    with open(time_info_path, "r") as f:
+        time_info = json.load(f)
+    time_info = time_info["sessions"]
+    time_maps = {}
+    for item in time_info:
+        keyname = item["source_file"].replace(".json", "")
+        time_maps[keyname] = item["session_timeline_date"]
+    return time_maps
+
+def load_chunks_gt(data_dir: str) -> list[str]:
     # time_info_path = os.path.join(data_dir, "time_info.json")
     time_info_path = "QA_designs/bazinga/TBBT/s1_arc/S1_session_timeline.json"
-    with open(time_info_path, "r") as f:
-        time_maps = json.load(f)
-    
-    print(f"Loaded speaker name map with {len(speaker_name_map)} entries")
+    time_maps = load_time_maps(time_info_path)
 
     subfolders = sorted(
-        glob.glob(os.path.join(data_dir, "*", "*", "parsed_dialog_pred.json"))
+        glob.glob(os.path.join(data_dir, "*", "*", "parsed_dialog_gt.json"))
     )
     print(f"Found {len(subfolders)} dialogue files")
 
@@ -45,8 +49,42 @@ def load_chunks_pred(data_dir: str, use_extracted_name: bool = False) -> list[st
     for path in subfolders:
         with open(path, "r") as f:
             dialog = json.load(f)
-        
-        session_name = os.path.basename(os.path.dirname(path))
+
+        session_name = path.split("/")[-3]
+        timestamp = time_maps[session_name]
+
+        dialog_chunk = f"[Dialogue between multiple people on {timestamp}]\n"
+        for turn in dialog:
+            raw_speaker = turn["speaker"]
+            speaker = raw_speaker
+
+            turn_text = fix_space_in_text(turn["text"])
+            dialog_chunk += f"<{speaker}> {turn_text}\n"
+
+        chunks.append(dialog_chunk)
+
+    return chunks
+
+def load_chunks_pred(data_dir: str, use_extracted_name: bool = False) -> list[str]:
+    map_path = os.path.join(data_dir, "extracted_speaker_name.json")
+    with open(map_path, "r") as f:
+        speaker_name_map = json.load(f)
+
+    # time_info_path = os.path.join(data_dir, "time_info.json")
+    time_info_path = "QA_designs/bazinga/TBBT/s1_arc/S1_session_timeline.json"
+    time_maps = load_time_maps(time_info_path)
+    print(f"Loaded speaker name map with {len(speaker_name_map)} entries")
+
+    subfolders = sorted(
+        glob.glob(os.path.join(data_dir, "*", "*", "parsed_dialog_pred.json"))
+    )
+    print(f"Found {len(subfolders)} dialogue files")
+    print(time_maps)
+    chunks = []
+    for path in subfolders:
+        with open(path, "r") as f:
+            dialog = json.load(f)
+        session_name = path.split("/")[-3]
         timestamp = time_maps[session_name]
 
         dialog_chunk = f"[Dialogue between multiple people on {timestamp}]\n"
@@ -77,9 +115,11 @@ def main():
         "--output", type=str, default=None,
         help="Output parquet path (default: <data_dir>/dataset.parquet)",
     )
+
     args = parser.parse_args()
 
-    chunks = load_chunks_pred(args.data_dir)
+    chunks = load_chunks_pred(args.data_dir, use_extracted_name = False)
+    # chunks = load_chunks_gt(args.data_dir)
     print(f"Loaded {len(chunks)} chunks")
 
     samples = [{
@@ -88,8 +128,8 @@ def main():
                   "different speakers and I need you to remember the details of "
                   "the conversation for future reference.",
         "chunks": json.dumps(chunks),
-        "data_source": "seamlessinteraction",
-        "metadata": json.dumps({"data_source": "seamlessinteraction", "sample_id": 0}),
+        "data_source": "seamlessinteraction_options",
+        "metadata": json.dumps({"data_source": "seamlessinteraction_options", "sample_id": 0}),
         "num_chunks": len(chunks),
     }]
 

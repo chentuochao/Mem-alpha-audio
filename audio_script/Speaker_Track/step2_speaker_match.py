@@ -674,15 +674,18 @@ def main():
         print(f"Cluster speakers: {speaker_ids}  ({len(samples)} sample(s))")
         print(f"{'='*60}")
         for entry in samples:
-            spk_pair = entry.get("spk_pair", "")
-            print(spk_pair)
             if entry.get("dataset") == "bazinga":
                 speaker_gt = entry["speakers"]
                 bias = float(entry["time_stamp"][0]) # unit in sample
+                spk_pair = entry.get("conv_id", "")
+                chunk_id = entry.get("chunk_id", "")
+                conv_id = f"CHUNK_{chunk_id}"
             else:
                 speaker_gt = spk_pair.split("_")
+                conv_id = entry.get("conv_id", "")
+                spk_pair = entry.get("spk_pair", "")
                 bias = 0
-            conv_id = entry.get("conv_id", "")
+
             audio_file = entry["audio_file"]
             diar_path = entry["diart_path"]
             sample_dir = entry["sample_dir"]
@@ -691,10 +694,9 @@ def main():
             result_key = f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
             unique_id = f"{spk_pair}_{conv_id}" if spk_pair and conv_id else ""
             print(f"\n{'='*60}")
-            print(f"\nProcessing entry: {result_key}, {pred_transcript_path}")
+            print(f"\nProcessing entry: {result_key}, {pred_transcript_path}", spk_pair, conv_id)
             print(f"{'='*60}")
-            # if conv_id != "V01_S0066_I00000137":
-            #     continue
+
             output_sample_folder = os.path.join(output_dir, spk_pair, conv_id)
             os.makedirs(output_sample_folder, exist_ok=True)
             # add unique speaker id annotatiion from groundtruth in Seamless
@@ -829,11 +831,11 @@ def main():
                 json.dump(dialog_pred_json, f, indent=2)
             with open(os.path.join(output_sample_folder, f"parsed_dialog_gt.json"), "w") as f:
                 json.dump(dialog_gt_json, f, indent=2)
-            # exit(0)
         # ── Summary ──────────────────────────────────────────────────────
         # global_pool.summary()
     # print(speaker_cluster_pred)
     # print(speaker_cluster_gt)
+
 
     # build the speaker map from the  speaker_cluster_pred
     speaker_map = {}

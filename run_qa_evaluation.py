@@ -1,14 +1,14 @@
 import os
 
-# os.environ['HF_HOME'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
-# os.environ['HF_HUB_CACHE'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
-os.environ.setdefault("HF_HOME", "/gscratch/intelligentsystems/wencheng/hf_cache")
-os.environ.setdefault("HF_HUB_CACHE", os.path.join(os.environ["HF_HOME"], "hub"))
-os.environ.setdefault("HUGGINGFACE_HUB_CACHE", os.environ["HF_HUB_CACHE"])
-os.environ.setdefault("TRANSFORMERS_CACHE", os.environ["HF_HOME"])
-os.environ.setdefault("HF_DATASETS_CACHE", "/gscratch/intelligentsystems/wencheng/hf_datasets")
-os.environ.setdefault("TORCH_HOME", "/gscratch/intelligentsystems/wencheng/torch_cache")
-os.environ.setdefault("TMPDIR", "/gscratch/intelligentsystems/wencheng/tmp")
+os.environ['HF_HOME'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+os.environ['HF_HUB_CACHE'] = '/checkpoint/seamless/tuochao/Models/huggingface/'
+# os.environ.setdefault("HF_HOME", "/gscratch/intelligentsystems/wencheng/hf_cache")
+# os.environ.setdefault("HF_HUB_CACHE", os.path.join(os.environ["HF_HOME"], "hub"))
+# os.environ.setdefault("HUGGINGFACE_HUB_CACHE", os.environ["HF_HUB_CACHE"])
+# os.environ.setdefault("TRANSFORMERS_CACHE", os.environ["HF_HOME"])
+# os.environ.setdefault("HF_DATASETS_CACHE", "/gscratch/intelligentsystems/wencheng/hf_datasets")
+# os.environ.setdefault("TORCH_HOME", "/gscratch/intelligentsystems/wencheng/torch_cache")
+# os.environ.setdefault("TMPDIR", "/gscratch/intelligentsystems/wencheng/tmp")
 
 import json
 import yaml
@@ -492,7 +492,8 @@ def main():
 
     all_chunks = conversation_creator.chunks() # TODO: Note we don't skip already completed conversations in chunking process of conversation_creator.py since it's easy to mess up the index sequence in eval.py, but we can fix it later (return empty chunks instead of skipping)
 
-    all_queries_and_answers = conversation_creator.get_query_and_answer()
+    assert(args.custom_qa_dir is not None)
+    # all_queries_and_answers = conversation_creator.get_query_and_answer()
 
     # Override QA with custom files if --custom_qa_dir is specified.
     # Assumes a single conversation instance (batch_size=1, chunk_count=1).

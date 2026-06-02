@@ -6,3 +6,6 @@ data/memalpha
 data/memoryagentbench.DS_Store
 **/.DS_Store
 agents/
+Audio_Results/
+logs/
+server_outputs.log
