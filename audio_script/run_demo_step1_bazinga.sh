@@ -22,33 +22,25 @@ METHOD="${METHOD:-nemo-streaming}"
 
 # I/O
 DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory/"
-OUTPUT_BASE="/storage/home/tuochao/mem_projects/Outputs/TheBigBangTheory"
+OUTPUT_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/${METHOD}/TheBigBangTheory/step1"
 PYTHONPATH_ROOT="/storage/home/tuochao/Mem-alpha-audio"
 DEVICE="cuda"
-
-# Optional episode filters (leave empty to disable)
-INCLUDE_SUBSTR=""   # e.g. "Season01"
-EXCLUDE_SUBSTR=""   # e.g. "Season02"
 
 # Optional season filter: bash array of substrings. An episode is processed
 # only if its conv_id contains at least one of these substrings. Leave the
 # array empty (SEASON_FILTER=()) to process every episode.
 #   e.g.  SEASON_FILTER=("Season01" "Season02")
-SEASON_FILTER=("Season02" "Season03")
+SEASON_FILTER=("Season01")
 
-# Chunking (shared by all backends)
-CHUNK_MIN_DUR=60.0
-CHUNK_MAX_DUR=300.0
-CHUNK_GAP_THRESHOLD=3.0
 
 # ── NeMo backend args (used by nemo-streaming and nemo-offline) ──────
 ENV_NEMO="nemo"
 # 4-speaker model
-# DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/diar_streaming_sortformer_4spk-v2.1/diar_streaming_sortformer_4spk-v2.1.nemo"
-# MAX_NUM_OF_SPKS=4
+DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/diar_streaming_sortformer_4spk-v2.1/diar_streaming_sortformer_4spk-v2.1.nemo"
+MAX_NUM_OF_SPKS=4
 # 8-speaker model
-DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/ultra_diar_streaming_sortformer_8spk_v1/ultra_diar_streaming_sortformer_8spk_v1.nemo"
-MAX_NUM_OF_SPKS=8
+# DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/ultra_diar_streaming_sortformer_8spk_v1/ultra_diar_streaming_sortformer_8spk_v1.nemo"
+# MAX_NUM_OF_SPKS=8
 # 5-speaker model
 # DIAR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/ultra_diar_streaming_sortformer_5spk_v1/ultra_diar_streaming_sortformer_5spk_v1.nemo"
 # MAX_NUM_OF_SPKS=5
@@ -71,15 +63,12 @@ ATTN_IMPL="auto"   # auto | flash_attention_2 | sdpa | eager
 case "${METHOD}" in
     nemo-streaming)
         CONDA_ENV="${ENV_NEMO}"
-        OUTPUT_DIR="${OUTPUT_BASE}/step1_nemo_streaming/"
         ;;
     nemo-offline)
         CONDA_ENV="${ENV_NEMO}"
-        OUTPUT_DIR="${OUTPUT_BASE}/step1_nemo_offline/"
         ;;
     vibevoice)
         CONDA_ENV="${ENV_VIBEVOICE}"
-        OUTPUT_DIR="${OUTPUT_BASE}/step1_vibevoice/"
         ;;
     *)
         echo "ERROR: unknown METHOD='${METHOD}'"
@@ -127,16 +116,7 @@ COMMON_ARGS=(
     --data_dir             "${DATA_PATH}"
     --output_dir           "${OUTPUT_DIR}"
     --device               "${DEVICE}"
-    --chunk_min_dur        "${CHUNK_MIN_DUR}"
-    --chunk_max_dur        "${CHUNK_MAX_DUR}"
-    --chunk_gap_threshold  "${CHUNK_GAP_THRESHOLD}"
 )
-if [ -n "${INCLUDE_SUBSTR}" ]; then
-    COMMON_ARGS+=(--include_substr "${INCLUDE_SUBSTR}")
-fi
-if [ -n "${EXCLUDE_SUBSTR}" ]; then
-    COMMON_ARGS+=(--exclude_substr "${EXCLUDE_SUBSTR}")
-fi
 if [ "${#SEASON_FILTER[@]}" -gt 0 ]; then
     COMMON_ARGS+=(--season_filter "${SEASON_FILTER[@]}")
 fi
