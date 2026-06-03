@@ -281,6 +281,17 @@ def main():
         choices=["flash_attention_2", "sdpa", "eager", "auto"],
         help="Attention implementation ('auto' selects best for device)",
     )
+    parser.add_argument(
+        "--season_filter",
+        type=str,
+        nargs="*",
+        default=[],
+        help=(
+            "Optional list of substrings (e.g. 'Season01' 'Season02'). "
+            "Only episodes whose conv_id contains at least one of these "
+            "substrings are processed; empty list disables the filter."
+        ),
+    )
     args = parser.parse_args()
 
     # Auto-select attention implementation
@@ -319,14 +330,14 @@ def main():
 
     for sample in tqdm(dataset):
         conv_id = sample["conv_id"]
+        if args.season_filter and not any(s in conv_id for s in args.season_filter):
+            print(f"Skip {conv_id} (no match in season_filter={args.season_filter})")
+            continue
         print(f"\n{'=' * 70}")
         print(f"Processing episode: {conv_id}")
         print(f"  Speakers : {sample['speakers']}")
         print(f"  Audio    : {sample['audio_path']}")
         print(f"{'=' * 70}")
-        if "Season01" not in conv_id:
-            print("Skip!!!")
-            break
         save_dir = os.path.join(args.output_dir, conv_id)
         os.makedirs(save_dir, exist_ok=True)
 

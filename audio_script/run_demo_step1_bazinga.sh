@@ -30,6 +30,12 @@ DEVICE="cuda"
 INCLUDE_SUBSTR=""   # e.g. "Season01"
 EXCLUDE_SUBSTR=""   # e.g. "Season02"
 
+# Optional season filter: bash array of substrings. An episode is processed
+# only if its conv_id contains at least one of these substrings. Leave the
+# array empty (SEASON_FILTER=()) to process every episode.
+#   e.g.  SEASON_FILTER=("Season01" "Season02")
+SEASON_FILTER=("Season02" "Season03")
+
 # Chunking (shared by all backends)
 CHUNK_MIN_DUR=60.0
 CHUNK_MAX_DUR=300.0
@@ -130,6 +136,9 @@ if [ -n "${INCLUDE_SUBSTR}" ]; then
 fi
 if [ -n "${EXCLUDE_SUBSTR}" ]; then
     COMMON_ARGS+=(--exclude_substr "${EXCLUDE_SUBSTR}")
+fi
+if [ "${#SEASON_FILTER[@]}" -gt 0 ]; then
+    COMMON_ARGS+=(--season_filter "${SEASON_FILTER[@]}")
 fi
 
 # Backend-specific args.

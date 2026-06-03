@@ -224,6 +224,7 @@ def run_dataset(
     backend: BaseBackend,
     output_dir: str,
     dataset_name: str = DATASET_NAME,
+    season_filter: Optional[List[str]] = None,
 ) -> Tuple[int, int, int]:
     """Iterate the dataset, run ``process_episode`` for each, and print a summary."""
     os.makedirs(output_dir, exist_ok=True)
@@ -231,9 +232,9 @@ def run_dataset(
 
     for sample in tqdm(dataset):
         conv_id = sample["conv_id"]
-        if "Season01" not in conv_id:
-            print("Skip!!!")
-            break
+        if season_filter and not any(s in conv_id for s in season_filter):
+            print(f"Skip {conv_id} (no match in season_filter={season_filter})")
+            continue
 
         print(f"\n{'=' * 70}")
         print(f"Processing episode: {conv_id}")
@@ -282,6 +283,17 @@ def add_common_args(parser: argparse.ArgumentParser) -> argparse.ArgumentParser:
         choices=["cuda", "cpu", "mps", "xpu", "auto"],
         help="Device to run inference on.",
     )
+    parser.add_argument(
+        "--season_filter",
+        type=str,
+        nargs="*",
+        default=[],
+        help=(
+            "Optional list of substrings (e.g. 'Season01' 'Season02'). "
+            "Only episodes whose conv_id contains at least one of these "
+            "substrings are processed; empty list disables the filter."
+        ),
+    )
     return parser
 
 
@@ -313,6 +325,7 @@ def main():
         backend=backend,
         output_dir=args.output_dir,
         dataset_name=DATASET_NAME,
+        season_filter=args.season_filter,
     )
 
 
