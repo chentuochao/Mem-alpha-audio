@@ -46,8 +46,8 @@ from typing import Dict, List, Optional, Tuple
 # Defaults
 # ----------------------------------------------------------------------------
 HERE = Path(__file__).resolve().parent
-DEFAULT_DATA = HERE.parent / "perlTQA" / "perltmem_en_v2.json"
-DEFAULT_OUTPUT_DIR = HERE / "tts_outputs" / "perltqa"
+# DEFAULT_DATA = HERE.parent / "perlTQA" / "perltmem_en_v2.json"
+# DEFAULT_OUTPUT_DIR = HERE / "tts_outputs" / "perltqa"
 DEFAULT_REF_DIR = HERE / "ref_voices" / "perltqa"
 DEFAULT_HF_DATASET = "sdialog/voices-libritts"
 DEFAULT_TARGET_SR = 24000
@@ -457,8 +457,8 @@ def generate_all(
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--data", type=Path, default=DEFAULT_DATA)
-    ap.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    # ap.add_argument("--data", type=Path, default=DEFAULT_DATA)
+    # ap.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     ap.add_argument("--ref-dir", type=Path, default=DEFAULT_REF_DIR)
     ap.add_argument("--ref-map", type=Path, default=None,
                     help="reference map JSON (default: <ref-dir>/reference_voice_map.json)")
@@ -478,7 +478,8 @@ def main() -> None:
     args = ap.parse_args()
 
     ref_map_path = args.ref_map or (args.ref_dir / "reference_voice_map.json")
-
+    args.data = Path("/checkpoint/seamless/tuochao/data/PerLTQA/Dataset/en_v2/perltmem_en_v2.json")
+    args.output_dir = Path("/checkpoint/seamless/tuochao/data/PerLTQA/audio")
     # 1) parse + count -----------------------------------------------------
     with args.data.open(encoding="utf-8") as f:
         data = json.load(f)
