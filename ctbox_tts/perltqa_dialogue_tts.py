@@ -139,6 +139,70 @@ def parse_line(line: str) -> Tuple[Optional[str], str]:
     return name, text
 
 
+# Name folding: "liu rui" / "Liu Rui" / "liu_rui" / "LIU-RUI" -> one speaker.
+# Populated by build_canonical_map(); maps a normalized key -> canonical spelling.
+_CANON: Dict[str, str] = {}
+
+
+def _name_key(name: str) -> str:
+    """Case- and separator-insensitive key: spaces, '_' and '-' are equivalent."""
+    return re.sub(r"[\s_\-]+", " ", name.strip().lower()).strip()
+
+
+def canonicalize(name: str) -> str:
+    """Fold a speaker name to its canonical spelling (case/separator-insensitive)."""
+    if not name:
+        return name
+    return _CANON.get(_name_key(name), name.strip())
+
+
+def build_canonical_map(data: dict) -> Tuple[Dict[str, str], int]:
+    """
+    Scan every speaker name (dialogue lines + profile protagonist + supporting
+    characters) and pick one canonical spelling per case-insensitive key.
+    Representative = the spelling that occurs most often; ties prefer a
+    capitalized first letter, then the longer string, then alphabetical.
+
+    Returns (canon_map, num_merged) where num_merged is the number of distinct
+    spellings that were folded away (i.e. total variants - unique speakers).
+    """
+    variants: Counter = Counter()
+    for _, pv in data.items():
+        for _, dv in (pv.get("dialogues", {}) or {}).items():
+            for _, lines in (dv.get("contents", {}) or {}).items():
+                if not isinstance(lines, list):
+                    continue
+                for ln in lines:
+                    name, _ = parse_line(ln)
+                    if name:
+                        variants[name.strip()] += 1
+        prof = pv.get("profile", {}) or {}
+        if isinstance(prof, dict) and prof.get("Protagonist"):
+            variants[str(prof["Protagonist"]).strip()] += 1
+        rels = pv.get("social_relationship", {}) or {}
+        if isinstance(rels, dict):
+            for rv in rels.values():
+                if isinstance(rv, dict) and rv.get("Supporting Characters"):
+                    variants[str(rv["Supporting Characters"]).strip()] += 1
+
+    groups: Dict[str, List[Tuple[str, int]]] = {}
+    for name, cnt in variants.items():
+        groups.setdefault(_name_key(name), []).append((name, cnt))
+
+    canon: Dict[str, str] = {}
+    num_merged = 0
+    for key, items in groups.items():
+        # representative: most frequent; ties prefer no '_'/'-' separators,
+        # then a capitalized first letter, then the longer string, then alpha.
+        items.sort(key=lambda x: (-x[1],
+                                  1 if re.search(r"[_\-]", x[0]) else 0,
+                                  0 if x[0][:1].isupper() else 1,
+                                  -len(x[0]), x[0]))
+        canon[key] = items[0][0]
+        num_merged += len(items) - 1  # extra spellings folded into the canon
+    return canon, num_merged
+
+
 def resolve_block(profile: str, dialogue_id: str, timestamp: str,
                   lines: List[str]) -> Optional[DialogueBlock]:
     """
@@ -150,6 +214,8 @@ def resolve_block(profile: str, dialogue_id: str, timestamp: str,
     conversation.
     """
     parsed = [parse_line(ln) for ln in lines if ln and ln.strip()]
+    # Fold case variants of the same name to one canonical speaker.
+    parsed = [(canonicalize(n) if n else None, t) for n, t in parsed]
     if not parsed:
         return None
 
@@ -182,19 +248,38 @@ def resolve_block(profile: str, dialogue_id: str, timestamp: str,
     return DialogueBlock(profile, dialogue_id, timestamp, turns, order)
 
 
-def parse_dataset(data: dict) -> Tuple[List[DialogueBlock], Counter, dict, Counter]:
+def _profile_gender(pv: dict) -> str:
+    """Owner (protagonist) gender from profile.Gender -> 'M'/'F'/'unknown'."""
+    g = str((pv.get("profile", {}) or {}).get("Gender", "")).strip().lower()
+    if g.startswith("m"):
+        return "M"
+    if g.startswith("f"):
+        return "F"
+    return "unknown"
+
+
+def parse_dataset(data: dict) -> Tuple[List[dict], Counter, dict, Counter]:
     """
-    Returns (blocks, speaker_counter, skip_stats, party_count_dist).
-    `speaker_counter` counts utterances per speaker across ALL blocks
-    (including skipped ones) so the "count all speakers" step is complete.
+    Returns (profile_groups, speaker_counter, skip_stats, party_count_dist).
+
+    profile_groups is a list grouped by profile owner, in dataset order:
+        [{"profile": <owner name>,
+          "gender":  "M" | "F" | "unknown",   # the owner's gender
+          "blocks":  [DialogueBlock, ...]},    # that owner's usable blocks
+         ...]
+    Only profiles with at least one usable block are included.
+
+    `speaker_counter` counts utterances per (canonical) speaker across ALL
+    blocks so the "count all speakers" step is complete.
     `party_count_dist` maps #speakers -> #accepted blocks.
     """
-    blocks: List[DialogueBlock] = []
+    profile_groups: List[dict] = []
     speaker_counter: Counter = Counter()
     skip = Counter()
     party_dist: Counter = Counter()
 
     for profile, pv in data.items():
+        group_blocks: List[DialogueBlock] = []
         dialogues = pv.get("dialogues", {}) or {}
         for dialogue_id, dv in dialogues.items():
             contents = dv.get("contents", {}) or {}
@@ -202,18 +287,26 @@ def parse_dataset(data: dict) -> Tuple[List[DialogueBlock], Counter, dict, Count
                 if not isinstance(lines, list):
                     skip["non_list"] += 1
                     continue
-                # Count every named speaker for the global tally.
+                # Count every named speaker for the global tally (case-folded).
                 for ln in lines:
                     name, _ = parse_line(ln)
                     if name:
-                        speaker_counter[name] += 1
+                        speaker_counter[canonicalize(name)] += 1
                 block = resolve_block(profile, dialogue_id, timestamp, lines)
                 if block is None:
                     skip["unusable"] += 1
                     continue
-                blocks.append(block)
+                group_blocks.append(block)
                 party_dist[len(block.parties)] += 1
-    return blocks, speaker_counter, skip, party_dist
+
+        if group_blocks:
+            profile_groups.append({
+                "profile": profile,
+                "gender": _profile_gender(pv),
+                "blocks": group_blocks,
+            })
+
+    return profile_groups, speaker_counter, skip, party_dist
 
 
 def build_gender_map(data: dict) -> Dict[str, str]:
@@ -221,6 +314,7 @@ def build_gender_map(data: dict) -> Dict[str, str]:
     gender: Dict[str, str] = {}
 
     def set_if_absent(name, g):
+        name = canonicalize(name) if name else name
         if name and g and name not in gender:
             gender[name] = g
 
@@ -417,7 +511,7 @@ def prepare_reference_voices(
 # TTS generation
 # ----------------------------------------------------------------------------
 def generate_all(
-    blocks: List[DialogueBlock],
+    profile_groups: List[dict],
     ref_map: Dict[str, str],
     output_dir: Path,
     limit: int,
@@ -429,47 +523,59 @@ def generate_all(
     # Make every pulled reference voice visible to the generator.
     cdt.REFERENCE_VOICE_MAP.update(ref_map)
 
-    selected = blocks if limit <= 0 else blocks[:limit]
-    print(f"[generate] synthesising {len(selected)} / {len(blocks)} "
-          f"dialogue blocks -> {output_dir}")
+    total_blocks = sum(len(g["blocks"]) for g in profile_groups)
+    budget = total_blocks if limit <= 0 else min(limit, total_blocks)
+    print(f"[generate] synthesising up to {budget} / {total_blocks} dialogue "
+          f"blocks across {len(profile_groups)} profiles -> {output_dir}")
 
-    ok, skipped, failed = 0, 0, 0
-    for idx, block in enumerate(selected):
-        out = (output_dir / safe_filename(block.profile)
-               / safe_filename(block.dialogue_id))
-        # the multispeaker function writes channel_map.json; use it as the marker
-        done_marker = out / "channel_map.json"
-        if done_marker.exists() and not overwrite:
-            skipped += 1
-            continue
+    ok, skipped, failed, seen = 0, 0, 0, 0
+    # outer loop: profiles ; inner loop: that profile's blocks
+    for group in profile_groups:
+        if seen >= budget:
+            break
+        profile = group["profile"]
+        profile_dir = output_dir / safe_filename(profile)
+        print(f"[generate] profile {profile!r} ({group['gender']}): "
+              f"{len(group['blocks'])} block(s)")
 
-        # every party must have a reference voice
-        missing = [p for p in block.parties
-                   if p not in cdt.REFERENCE_VOICE_MAP]
-        if missing:
-            print(f"[generate][skip] {block.profile}/{block.dialogue_id}: "
-                  f"no reference voice for {missing}", file=sys.stderr)
-            skipped += 1
-            continue
+        for block in group["blocks"]:
+            if seen >= budget:
+                break
+            seen += 1
 
-        # ordered list of {speaker_name: text} turns
-        speaker_texts = [{name: text} for name, text in block.turns]
-        try:
-            cdt.generate_multispeaker_dialogue_tts(
-                speaker_names=block.parties,
-                speaker_texts=speaker_texts,
-                output_dir=str(out),
-            )
-            ok += 1
-            print(f"[generate] ({idx + 1}/{len(selected)}) "
-                  f"{block.profile}/{block.dialogue_id}: "
-                  f"{len(block.parties)} speakers "
-                  f"[{', '.join(block.parties)}] "
-                  f"({len(block.turns)} turns)")
-        except Exception as e:  # keep going on a single bad block
-            failed += 1
-            print(f"[generate][FAIL] {block.profile}/{block.dialogue_id}: {e}",
-                  file=sys.stderr)
+            out = profile_dir / safe_filename(block.dialogue_id)
+            # the multispeaker function writes channel_map.json; use it as marker
+            done_marker = out / "channel_map.json"
+            if done_marker.exists() and not overwrite:
+                skipped += 1
+                continue
+
+            # every party must have a reference voice
+            missing = [p for p in block.parties
+                       if p not in cdt.REFERENCE_VOICE_MAP]
+            if missing:
+                print(f"[generate][skip] {profile}/{block.dialogue_id}: "
+                      f"no reference voice for {missing}", file=sys.stderr)
+                skipped += 1
+                continue
+
+            # ordered list of {speaker_name: text} turns
+            speaker_texts = [{name: text} for name, text in block.turns]
+            try:
+                cdt.generate_multispeaker_dialogue_tts(
+                    speaker_names=block.parties,
+                    speaker_texts=speaker_texts,
+                    output_dir=str(out),
+                )
+                ok += 1
+                print(f"[generate]   ({seen}/{budget}) {block.dialogue_id}: "
+                      f"{len(block.parties)} speakers "
+                      f"[{', '.join(block.parties)}] "
+                      f"({len(block.turns)} turns)")
+            except Exception as e:  # keep going on a single bad block
+                failed += 1
+                print(f"[generate][FAIL] {profile}/{block.dialogue_id}: {e}",
+                      file=sys.stderr)
 
     print(f"[generate] done. ok={ok} skipped={skipped} failed={failed}")
 
@@ -514,17 +620,35 @@ def main() -> None:
     with args.data.open(encoding="utf-8") as f:
         data = json.load(f)
 
-    blocks, speaker_counter, skip, party_dist = parse_dataset(data)
+    # Build the case-insensitive name map first; both parse_dataset and
+    # build_gender_map rely on canonicalize().
+    global _CANON
+    _CANON, num_merged = build_canonical_map(data)
+    if num_merged:
+        print(f"[count] case-folded {num_merged} case-variant name(s) "
+              f"into their canonical speakers")
+
+    profile_groups, speaker_counter, skip, party_dist = parse_dataset(data)
     gender_map = build_gender_map(data)
     speakers = sorted(speaker_counter.keys())
+    total_blocks = sum(len(g["blocks"]) for g in profile_groups)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     stats_path = args.output_dir / "speaker_stats.json"
     stats = {
         "num_unique_speakers": len(speakers),
-        "num_dialogue_blocks": len(blocks),
+        "num_profiles": len(profile_groups),
+        "num_dialogue_blocks": total_blocks,
         "party_count_distribution": {str(k): v for k, v in sorted(party_dist.items())},
         "skipped_blocks": dict(skip),
+        "profiles": [
+            {
+                "profile": g["profile"],
+                "gender": g["gender"],
+                "num_blocks": len(g["blocks"]),
+            }
+            for g in profile_groups
+        ],
         "speakers": [
             {
                 "name": name,
@@ -538,7 +662,8 @@ def main() -> None:
         json.dump(stats, f, ensure_ascii=False, indent=2)
 
     print(f"[count] unique speakers: {len(speakers)}")
-    print(f"[count] dialogue blocks: {len(blocks)} "
+    print(f"[count] profiles: {len(profile_groups)}")
+    print(f"[count] dialogue blocks: {total_blocks} "
           f"(by #speakers: {dict(sorted(party_dist.items()))})")
     print(f"[count] skipped blocks: {dict(skip)}")
     print(f"[count] gender resolved for {sum(1 for s in speakers if s in gender_map)} "
@@ -570,7 +695,7 @@ def main() -> None:
 
     # 3) generate ----------------------------------------------------------
     generate_all(
-        blocks=blocks,
+        profile_groups=profile_groups,
         ref_map=ref_map,
         output_dir=args.output_dir,
         limit=args.limit,
