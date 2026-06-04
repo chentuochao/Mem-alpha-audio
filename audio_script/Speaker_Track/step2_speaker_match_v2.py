@@ -17,9 +17,7 @@ import argparse
 import glob
 import json
 import os
-from abc import ABC, abstractmethod
 from collections import Counter, defaultdict
-from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple
 
 import numpy as np
@@ -40,151 +38,15 @@ from audio_script.eval.multitalker_metrics import (
     normalize_string,
     compute_der_bruteforce,
 )
-
-
-# ─── Embedding backends ──────────────────────────────────────────────
-
-class EmbeddingBackend(ABC):
-    @abstractmethod
-    def extract(self, audio_file: str) -> np.ndarray:
-        """Return a 1-D numpy embedding for the given audio file."""
-        ...
-
-
-class WeSpeakerBackend(EmbeddingBackend):
-    def __init__(self, model_dir: str, device: int = 0):
-        import wespeaker
-        self.model = wespeaker.load_model(model_dir)
-        self.model.set_device(device)
-
-    def extract(self, audio_file: str) -> np.ndarray:
-        embedding = self.model.extract_embedding(audio_file)
-        if isinstance(embedding, list):
-            embedding = np.array(embedding)
-        return embedding.flatten()
-
-
-# ─── Global speaker data ─────────────────────────────────────────────
-
-
-@dataclass
-class GlobalSpeaker:
-    """A speaker in the global pool, aggregated across multiple audio files."""
-
-    global_id: int
-    name: str
-    embedding: np.ndarray
-    weight: int = 1
-    transcriptions: List[Dict] = field(default_factory=list)
-
-
-# ─── Global speaker pool ─────────────────────────────────────────────
-
-
-class GlobalSpeakerPool:
-    """
-    Maintains a pool of globally-unique speakers.  Local speakers from
-    each audio file are matched against the pool one-by-one.
-    """
-
-    def __init__(self, similarity_threshold: float = 0.65):
-        self.similarity_threshold = similarity_threshold
-        self.speakers: List[GlobalSpeaker] = []
-        self._next_id = 0
-
-    @staticmethod
-    def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
-        return float(np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b) + 1e-8))
-
-    def _create_speaker(
-        self, embedding: np.ndarray, transcription: Dict
-    ) -> GlobalSpeaker:
-        spk = GlobalSpeaker(
-            global_id=self._next_id,
-            name=f"GLOBAL_SPK_{self._next_id}",
-            embedding=embedding.clone(),
-            weight=1,
-            transcriptions=[transcription],
-        )
-        self.speakers.append(spk)
-        self._next_id += 1
-        return spk
-
-    def _find_closest(
-        self, embedding: np.ndarray
-    ) -> Tuple[Optional[GlobalSpeaker], float]:
-        if not self.speakers:
-            return None, -1.0
-        best_spk, best_sim = None, -1.0
-        for spk in self.speakers:
-            sim = self.cosine_similarity(embedding, spk.embedding)
-            if sim > best_sim:
-                best_spk, best_sim = spk, sim
-        return best_spk, best_sim
-
-    def register_speaker(
-        self, embedding: np.ndarray, transcription: Dict
-    ) -> GlobalSpeaker:
-        """
-        Match a local speaker embedding against the global pool.
-        Merges into existing speaker (weighted-average embedding update) or
-        creates a new one.
-        """
-        best_spk, best_sim = self._find_closest(embedding)
-
-        if best_spk is not None and best_sim >= self.similarity_threshold:
-            old_w = best_spk.weight
-            new_w = old_w + 1
-            best_spk.embedding = (best_spk.embedding * old_w + embedding) / new_w
-            best_spk.weight = new_w
-            best_spk.transcriptions.append(transcription)
-            print(
-                f"  -> Matched {best_spk.name} (sim={best_sim:.4f}, weight={new_w})"
-            )
-            return best_spk
-
-        new_spk = self._create_speaker(embedding, transcription)
-        print(f"  -> New {new_spk.name} (best_sim={best_sim:.4f})")
-        return new_spk
-
-    def register_audio_speakers(
-        self, audio_file: str, local_speakers: Dict
-    ) -> Dict[str, str]:
-        """
-        Register all local speakers from one audio file into the global pool.
-
-        Returns:
-            Mapping from local speaker id to global speaker name.
-        """
-        print(f"\nRegistering speakers from: {audio_file}")
-        mapping = {}
-        for local_id, info in local_speakers.items():
-            print(f"  Local speaker '{local_id}':")
-            transcription = {
-                "audio_file": audio_file,
-                "local_speaker_id": local_id,
-                "text": info["text"],
-                "segments": [
-                    {"start": s, "end": e, "words": w}
-                    for s, e, w in info["segments"]
-                ],
-            }
-            global_spk = self.register_speaker(info["embedding"], transcription)
-            mapping[local_id] = global_spk.name
-        return mapping
-
-    def summary(self):
-        print(f"\n{'=' * 70}")
-        print(f"Global Speaker Pool: {len(self.speakers)} unique speaker(s)")
-        print(f"{'=' * 70}")
-        for spk in self.speakers:
-            print(f"\n  {spk.name}  (weight={spk.weight})")
-            for t in spk.transcriptions:
-                print(f"    [{t['audio_file']}] local_id={t['local_speaker_id']}")
-                text_preview = t["text"][:120]
-                if len(t["text"]) > 120:
-                    text_preview += "..."
-                print(f"      Text: {text_preview}")
+from audio_script.Speaker_Track.speaker_pool import (
+    EmbeddingBackend,
+    WeSpeakerBackend,
+    GlobalSpeaker,
+    GlobalSpeakerPool,
+    ASNormSpeakerPool,
+    TwoPassSpeakerCluster,
+    build_linker,
+)
 
 
 # ─── Audio segmentation helpers ──────────────────────────────────────
@@ -349,6 +211,7 @@ def process_single_audio(
             "embedding": embedding,
             "text": full_text,
             "segments": text_segs,
+            "duration": total_dur,
         }
 
         print(
@@ -635,6 +498,34 @@ def main():
         default="cuda:0",
         help="Device for speaker embedding extraction",
     )
+    parser.add_argument(
+        "--linker",
+        type=str,
+        default="greedy",
+        choices=["greedy", "asnorm", "twopass"],
+        help="Cross-file speaker linker: 'greedy' (online cosine, original), "
+             "'asnorm' (online AS-norm + robust centroids), or "
+             "'twopass' (batch agglomerative/spectral clustering).",
+    )
+    parser.add_argument(
+        "--cluster_method",
+        type=str,
+        default="ahc",
+        choices=["ahc", "spectral"],
+        help="Clustering algorithm for '--linker twopass'.",
+    )
+    parser.add_argument(
+        "--centroid_mode",
+        type=str,
+        default="weighted_mean",
+        choices=["weighted_mean", "trimmed_mean", "medoid"],
+        help="Centroid update strategy for '--linker asnorm'.",
+    )
+    parser.add_argument(
+        "--use_asnorm_affinity",
+        action="store_true",
+        help="AS-norm the affinity matrix before clustering ('--linker twopass').",
+    )
     args = parser.parse_args()
 
     output_dir = args.output_dir or args.data_dir
@@ -667,15 +558,40 @@ def main():
     )
 
     all_results: Dict[str, Dict] = {}
-    global_pool = GlobalSpeakerPool(similarity_threshold=args.similarity_threshold)
+
+    # ── Build the cross-file speaker linker ──────────────────────────
+    if args.linker == "asnorm":
+        linker = build_linker(
+            "asnorm",
+            similarity_threshold=args.similarity_threshold,
+            centroid_mode=args.centroid_mode,
+        )
+    elif args.linker == "twopass":
+        linker = build_linker(
+            "twopass",
+            similarity_threshold=args.similarity_threshold,
+            method=args.cluster_method,
+            use_asnorm=args.use_asnorm_affinity,
+        )
+    else:
+        linker = build_linker(
+            "greedy", similarity_threshold=args.similarity_threshold
+        )
+    print(f"Using speaker linker: {args.linker}")
+
     speaker_cluster_gt: Dict[str, List[str]] = {}
     speaker_cluster_pred: Dict[str, List[str]] = {}
     all_ders: List[float] = []
     all_cpwers: List[float] = []
-
     err_info: List[str] = []
+
+    # ── Phase 1: per-file embedding extraction + registration ────────
+    # Runs uniformly for online (greedy/asnorm) and batch (twopass) linkers:
+    # every local speaker is registered with the linker, and the per-entry
+    # context needed for phase 2 is stashed.  The authoritative global mapping
+    # is read back from linker.finalize() afterwards.
+    entry_contexts: List[Dict] = []
     for cluster in clusters:
-        # Each cluster uses one global speaker pool.
         speaker_ids = cluster["speaker_ids"]
         samples = cluster["samples"]
         print(f"{'=' * 60}")
@@ -685,14 +601,14 @@ def main():
         for entry in samples:
             if entry.get("dataset") == "bazinga":
                 speaker_gt = entry["speakers"]
-                bias = float(entry["time_stamp"][0]) # unit in sample
+                bias = float(entry["time_stamp"][0])  # unit in sample
                 spk_pair = entry.get("conv_id", "")
                 chunk_id = entry.get("chunk_id", "")
                 conv_id = f"CHUNK_{chunk_id}"
             else:
-                speaker_gt = spk_pair.split("_")
                 conv_id = entry.get("conv_id", "")
                 spk_pair = entry.get("spk_pair", "")
+                speaker_gt = spk_pair.split("_")
                 bias = 0
 
             audio_file = entry["audio_file"]
@@ -736,65 +652,96 @@ def main():
                 bias=bias,
             )
 
-            local_to_global = global_pool.register_audio_speakers(
-                result_key, local_speakers
+            # Register with the linker.  Online linkers resolve the mapping
+            # immediately; batch linkers buffer and resolve in finalize().
+            linker.add_audio_speakers(result_key, local_speakers)
+
+            entry_contexts.append(
+                {
+                    "entry": entry,
+                    "result_key": result_key,
+                    "spk_pair": spk_pair,
+                    "conv_id": conv_id,
+                    "audio_file": audio_file,
+                    "speaker_gt": speaker_gt,
+                    "best_perm_cpwer": best_perm_cpwer,
+                    "word_list": word_list,
+                    "output_sample_folder": output_sample_folder,
+                }
             )
-            print("local_to_global", local_to_global, list(word_list.keys()))
 
-            for local_id, global_id in local_to_global.items():
-                if local_id in best_perm_cpwer:
-                    gt_id = best_perm_cpwer.index(local_id)
-                    spk_label_gt = speaker_gt[gt_id]
-                else:
-                    # Local speaker not matched with GT -> mark as false positive.
-                    spk_label_gt = f"FP_{spk_pair}_{conv_id}"
-                speaker_cluster_pred.setdefault(global_id, []).append(spk_label_gt)
+    # ── Resolve the authoritative global mapping ─────────────────────
+    all_mappings = linker.finalize()
 
-            # ── Parse conversation-level transcripts ─────────────────────
-            if entry.get("dataset") == "bazinga":
-                dialog = parse_transcript_morespeakers(word_list, interval_character=" ")
+    # ── Phase 2: apply global mapping, parse + write transcripts ─────
+    for ctx in entry_contexts:
+        entry = ctx["entry"]
+        result_key = ctx["result_key"]
+        spk_pair = ctx["spk_pair"]
+        conv_id = ctx["conv_id"]
+        audio_file = ctx["audio_file"]
+        speaker_gt = ctx["speaker_gt"]
+        best_perm_cpwer = ctx["best_perm_cpwer"]
+        word_list = ctx["word_list"]
+        output_sample_folder = ctx["output_sample_folder"]
+
+        local_to_global = all_mappings.get(result_key, {})
+        print("local_to_global", local_to_global, list(word_list.keys()))
+
+        for local_id, global_id in local_to_global.items():
+            if local_id in best_perm_cpwer:
+                gt_id = best_perm_cpwer.index(local_id)
+                spk_label_gt = speaker_gt[gt_id]
             else:
-                dialog = parse_transcript_morespeakers(word_list)
+                # Local speaker not matched with GT -> mark as false positive.
+                spk_label_gt = f"FP_{spk_pair}_{conv_id}"
+            speaker_cluster_pred.setdefault(global_id, []).append(spk_label_gt)
 
-            dialog_pred = []
-            for sent in dialog:
-                if sent["speaker"] in local_to_global:
-                    sent["speaker"] = local_to_global[sent["speaker"]]
-                    dialog_pred.append(sent)
+        # ── Parse conversation-level transcripts ─────────────────────
+        if entry.get("dataset") == "bazinga":
+            dialog = parse_transcript_morespeakers(word_list, interval_character=" ")
+        else:
+            dialog = parse_transcript_morespeakers(word_list)
 
-            if entry.get("dataset") == "bazinga":
-                # transcript_path: {speaker: [{word, start, end, ...}]}
-                with open(entry["transcript_path"], "r") as f:
-                    trans_data = json.load(f)
-                dialog_gt = parse_transcript_morespeakers(
-                    trans_data, interval_character=" "
-                )
-            else:
-                dialog_gt = []
-                with open(entry["transcript1_path"], "r") as f:
-                    dialog_gt.extend(json.load(f))
-                with open(entry["transcript2_path"], "r") as f:
-                    dialog_gt.extend(json.load(f))
-            dialog_gt.sort(key=lambda x: x["start"])
+        dialog_pred = []
+        for sent in dialog:
+            if sent["speaker"] in local_to_global:
+                sent["speaker"] = local_to_global[sent["speaker"]]
+                dialog_pred.append(sent)
 
-            dialog_gt_json = parse_turn(dialog_gt)
-            print_turns(dialog_gt_json)
+        if entry.get("dataset") == "bazinga":
+            # transcript_path: {speaker: [{word, start, end, ...}]}
+            with open(entry["transcript_path"], "r") as f:
+                trans_data = json.load(f)
+            dialog_gt = parse_transcript_morespeakers(
+                trans_data, interval_character=" "
+            )
+        else:
+            dialog_gt = []
+            with open(entry["transcript1_path"], "r") as f:
+                dialog_gt.extend(json.load(f))
+            with open(entry["transcript2_path"], "r") as f:
+                dialog_gt.extend(json.load(f))
+        dialog_gt.sort(key=lambda x: x["start"])
 
-            dialog_pred_json = parse_turn(dialog_pred)
-            print_turns(dialog_pred_json)
+        dialog_gt_json = parse_turn(dialog_gt)
+        print_turns(dialog_gt_json)
 
-            all_results[result_key] = {
-                "spk_pair": spk_pair,
-                "conv_id": conv_id,
-                "audio_file": audio_file,
-                "dialog": dialog,
-                "dialog_gt": dialog_gt,
-                "local_to_global_mapping": local_to_global,
-            }
-            with open(os.path.join(output_sample_folder, "parsed_dialog_pred.json"), "w") as f:
-                json.dump(dialog_pred_json, f, indent=2)
-            with open(os.path.join(output_sample_folder, "parsed_dialog_gt.json"), "w") as f:
-                json.dump(dialog_gt_json, f, indent=2)
+        dialog_pred_json = parse_turn(dialog_pred)
+        print_turns(dialog_pred_json)
+
+        all_results[result_key] = {
+            "spk_pair": spk_pair,
+            "conv_id": conv_id,
+            "audio_file": audio_file,
+            "dialog": dialog,
+            "dialog_gt": dialog_gt,
+            "local_to_global_mapping": local_to_global,
+        }
+        with open(os.path.join(output_sample_folder, "parsed_dialog_pred.json"), "w") as f:
+            json.dump(dialog_pred_json, f, indent=2)
+        with open(os.path.join(output_sample_folder, "parsed_dialog_gt.json"), "w") as f:
+            json.dump(dialog_gt_json, f, indent=2)
 
     # ── Build speaker_map from speaker_cluster_pred ──────────────────
     speaker_map: Dict[str, str] = {}
