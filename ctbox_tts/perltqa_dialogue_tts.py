@@ -50,6 +50,9 @@ HERE = Path(__file__).resolve().parent
 # DEFAULT_OUTPUT_DIR = HERE / "tts_outputs" / "perltqa"
 DEFAULT_REF_DIR = HERE / "ref_voices" / "perltqa"
 DEFAULT_HF_DATASET = "sdialog/voices-libritts"
+# Local copy of the voice-bank dataset (download it here to avoid streaming over
+# HTTP, which can fail with "[Errno 9] Bad file descriptor"). See --help.
+DEFAULT_LOCAL_DATASET_DIR = HERE / "voices-libritts"
 DEFAULT_TARGET_SR = 24000
 DEFAULT_REF_DURATION_SEC = 10.0
 
@@ -271,6 +274,7 @@ def prepare_reference_voices(
     hf_dataset: str,
     target_sr: int,
     ref_duration: float,
+    local_dataset_dir: Optional[Path] = None,
 ) -> dict:
     """
     Ensure every speaker in `speakers` has a unique cached reference wav.
@@ -307,10 +311,29 @@ def prepare_reference_voices(
         save_ref_map(ref_map_path, payload)
         return payload
 
-    print(f"[prepare] {len(pending)} / {len(speakers)} speakers need a voice. "
-          f"Streaming {hf_dataset} ...")
+    print(f"[prepare] {len(pending)} / {len(speakers)} speakers need a voice.")
 
-    ds = load_dataset(hf_dataset, split="train", streaming=True)
+    # Prefer a locally-downloaded copy (reading parquet from disk avoids the
+    # flaky streaming-over-HTTP path that throws "[Errno 9] Bad file descriptor").
+    local_dir = Path(local_dataset_dir) if local_dataset_dir else None
+    if local_dir and local_dir.exists():
+        files = sorted(str(p) for p in local_dir.rglob("*.parquet"))
+        if not files:
+            raise FileNotFoundError(
+                f"--local-dataset-dir {local_dir} has no .parquet files. "
+                f"Download the dataset there first, e.g.:\n"
+                f"    huggingface-cli download {hf_dataset} --repo-type dataset "
+                f"--local-dir {local_dir} --include 'data/*.parquet'"
+            )
+        print(f"[prepare] loading {len(files)} local parquet shard(s) from "
+              f"{local_dir}")
+        ds = load_dataset("parquet", data_files=files, split="train",
+                          streaming=True)
+    else:
+        print(f"[prepare] no local copy at {local_dir}; "
+              f"streaming {hf_dataset} from the HuggingFace hub ...")
+        ds = load_dataset(hf_dataset, split="train", streaming=True)
+
     ds = ds.cast_column("audio", Audio(decode=False))
 
     target_len = int(target_sr * ref_duration)
@@ -463,6 +486,13 @@ def main() -> None:
     ap.add_argument("--ref-map", type=Path, default=None,
                     help="reference map JSON (default: <ref-dir>/reference_voice_map.json)")
     ap.add_argument("--hf-dataset", default=DEFAULT_HF_DATASET)
+    ap.add_argument(
+        "--local-dataset-dir", type=Path, default=DEFAULT_LOCAL_DATASET_DIR,
+        help="local dir holding the downloaded voice-bank parquet files. "
+             "If it exists, voices are read from disk instead of streamed. "
+             "Download with: huggingface-cli download "
+             "sdialog/voices-libritts --repo-type dataset "
+             "--local-dir <dir> --include 'data/*.parquet'")
     ap.add_argument("--target-sr", type=int, default=DEFAULT_TARGET_SR)
     ap.add_argument("--ref-duration", type=float, default=DEFAULT_REF_DURATION_SEC)
     ap.add_argument("--limit", type=int, default=5,
@@ -530,6 +560,7 @@ def main() -> None:
             hf_dataset=args.hf_dataset,
             target_sr=args.target_sr,
             ref_duration=args.ref_duration,
+            local_dataset_dir=args.local_dataset_dir,
         )
 
     ref_map = payload.get("reference_voice_map", {})
