@@ -237,29 +237,52 @@ def generate_dialogue_tts(
                 }
             )
 
-    left_chunks = []
-    right_chunks = []
-    turn_metadata = []
-
-    cursor = 0
-
-    for turn_idx, turn in enumerate(turns):
+    # 1) Render every turn's waveform first, so we can place them on a shared
+    #    timeline with inter-turn gaps/overlaps from get_interval().
+    rendered = []  # list of (turn, wav, num_samples)
+    for turn in turns:
         wav = _generate_tts(
             speaker_name=turn["speaker_name"],
             text=turn["text"],
             exaggeration=exaggeration,
             cfg_weight=cfg_weight,
         )
+        rendered.append((turn, wav, len(wav)))
 
-        num_samples = len(wav)
-        zero_padding = np.zeros(num_samples, dtype=np.float32)
-
-        if turn["channel"] == "left":
-            left_chunks.append(wav)
-            right_chunks.append(zero_padding)
+    # 2) Compute the absolute start sample of each turn.
+    #    get_interval() returns an inter-turn offset in SAMPLES:
+    #        gap > 0  -> silence inserted between turns
+    #        gap < 0  -> the next turn starts before the previous ends (overlap)
+    #    The first turn always starts at 0; starts are clamped to be >= 0.
+    placements = []  # list of (start, end, gap)
+    prev_end = 0
+    for idx, (turn, wav, num_samples) in enumerate(rendered):
+        if idx == 0:
+            gap = 0
+            start = 0
         else:
-            left_chunks.append(zero_padding)
-            right_chunks.append(wav)
+            gap = int(get_interval(_SAMPLE_RATE))
+            start = max(0, prev_end + gap)
+        end = start + num_samples
+        placements.append((start, end, gap))
+        prev_end = end
+
+    total_len = max((end for _, end, _ in placements), default=0)
+
+    # 3) Add each turn into its channel buffer at its absolute offset.
+    #    Using += (not assignment) so overlapping turns mix instead of
+    #    overwriting one another.
+    left_buffer = np.zeros(total_len, dtype=np.float32)
+    right_buffer = np.zeros(total_len, dtype=np.float32)
+    turn_metadata = []
+
+    for turn_idx, ((turn, wav, num_samples), (start, end, gap)) in enumerate(
+        zip(rendered, placements)
+    ):
+        if turn["channel"] == "left":
+            left_buffer[start:end] += wav
+        else:
+            right_buffer[start:end] += wav
 
         turn_metadata.append(
             {
@@ -268,18 +291,19 @@ def generate_dialogue_tts(
                 "speaker_name": turn["speaker_name"],
                 "channel": turn["channel"],
                 "text": turn["text"],
-                "start_sample": int(cursor),
-                "end_sample": int(cursor + num_samples),
+                "gap_samples": int(gap),
+                "gap_sec": float(gap / _SAMPLE_RATE),
+                "start_sample": int(start),
+                "end_sample": int(end),
                 "num_samples": int(num_samples),
-                "start_sec": float(cursor / _SAMPLE_RATE),
-                "end_sec": float((cursor + num_samples) / _SAMPLE_RATE),
+                "start_sec": float(start / _SAMPLE_RATE),
+                "end_sec": float(end / _SAMPLE_RATE),
             }
         )
 
-        cursor += num_samples
-
-    speaker1_tts = np.concatenate(left_chunks).astype(np.float32)
-    speaker2_tts = np.concatenate(right_chunks).astype(np.float32)
+    # Overlapping turns on the same channel can sum past [-1, 1]; clip to be safe.
+    speaker1_tts = np.clip(left_buffer, -1.0, 1.0).astype(np.float32)
+    speaker2_tts = np.clip(right_buffer, -1.0, 1.0).astype(np.float32)
 
     # 显式 zero padding，保证两个 np array 长度完全一致
     target_len = max(len(speaker1_tts), len(speaker2_tts))
@@ -346,5 +370,202 @@ def generate_dialogue_tts(
     return {
         "speaker1_tts": speaker1_tts,
         "speaker2_tts": speaker2_tts,
+        "metadata": metadata,
+    }
+
+
+# ============================================================
+# 5. 多人版本：支持任意说话人数量
+# ============================================================
+def generate_multispeaker_dialogue_tts(
+    speaker_names: List[str],
+    speaker_texts: List[Dict[str, str]],
+    output_dir: str = "tts_outputs",
+    save_per_speaker_npy: bool = True,
+    save_multichannel_wav: bool = True,
+    save_mono_wav: bool = True,
+    save_json: bool = True,
+    exaggeration: Optional[float] = None,
+    cfg_weight: Optional[float] = None,
+    use_intervals: bool = True,
+) -> Dict[str, Any]:
+    """
+    Generate multi-channel dialogue TTS for an arbitrary number of speakers.
+
+    Args:
+        speaker_names: ordered list of distinct speaker names. Each speaker
+            gets its own dedicated channel; channel index == position in this
+            list. Every name must exist in REFERENCE_VOICE_MAP.
+        speaker_texts: the conversation as an ordered list of turns. Each turn
+            is a dict mapping a speaker name to that turn's text, e.g.
+                [{"Alice": "Hi Bob, Carol."},
+                 {"Bob":   "Hey Alice!"},
+                 {"Carol": "Good to see you both."}]
+            List order == speaking order. A turn dict normally holds a single
+            {name: text} pair; if it holds several, they are flattened into
+            consecutive turns in insertion order.
+        output_dir: where to write outputs.
+        save_per_speaker_npy: save each speaker's isolated track as <name>_TTS.npy.
+        save_multichannel_wav: save an N-channel wav (one channel per speaker).
+        save_mono_wav: save a mono mix-down of all speakers.
+        save_json: save channel_map.json with per-speaker channels + per-turn
+            timing (including the gap/overlap chosen for each turn).
+        exaggeration, cfg_weight: optional Chatterbox knobs (forwarded per turn).
+        use_intervals: if True, insert get_interval() gaps/overlaps between
+            turns; if False, turns are placed strictly back-to-back.
+
+    Returns:
+        {
+            "speaker_tts": {name: np.ndarray, ...},  # per-speaker isolated tracks
+            "mono_mix": np.ndarray,                   # all speakers summed (mono)
+            "metadata": dict,
+        }
+    """
+    if not speaker_names:
+        raise ValueError("speaker_names must be a non-empty list.")
+    if len(set(speaker_names)) != len(speaker_names):
+        raise ValueError(f"speaker_names must be unique, got: {speaker_names}")
+
+    # name -> channel index
+    channel_of = {name: i for i, name in enumerate(speaker_names)}
+    num_channels = len(speaker_names)
+
+    # ---- flatten the ordered turns into (speaker_name, text) pairs ----
+    turns: List[Tuple[str, str]] = []
+    for turn_idx, turn in enumerate(speaker_texts):
+        if not isinstance(turn, dict) or not turn:
+            raise ValueError(
+                f"speaker_texts[{turn_idx}] must be a non-empty "
+                f"{{speaker_name: text}} dict, got: {turn!r}"
+            )
+        for name, text in turn.items():
+            if name not in channel_of:
+                raise ValueError(
+                    f"speaker_texts[{turn_idx}] references unknown speaker "
+                    f"{name!r}; not in speaker_names {speaker_names}."
+                )
+            text = (text or "").strip()
+            if text:
+                turns.append((name, text))
+
+    if not turns:
+        raise ValueError("speaker_texts contains no non-empty turns.")
+
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # 1) render every turn's waveform
+    rendered = []  # list of (name, wav, num_samples)
+    for name, text in turns:
+        wav = _generate_tts(
+            speaker_name=name,
+            text=text,
+            exaggeration=exaggeration,
+            cfg_weight=cfg_weight,
+        )
+        rendered.append((name, wav, len(wav)))
+
+    # 2) place each turn on a shared timeline with gaps/overlaps
+    #    gap > 0 -> silence between turns; gap < 0 -> overlap (clamped to >= 0)
+    placements = []  # list of (start, end, gap)
+    prev_end = 0
+    for idx, (name, wav, num_samples) in enumerate(rendered):
+        if idx == 0:
+            gap = 0
+            start = 0
+        else:
+            gap = int(get_interval(_SAMPLE_RATE)) if use_intervals else 0
+            start = max(0, prev_end + gap)
+        end = start + num_samples
+        placements.append((start, end, gap))
+        prev_end = end
+
+    total_len = max((end for _, end, _ in placements), default=0)
+
+    # 3) mix each turn into its speaker's channel buffer (+= so overlaps blend)
+    channels = [np.zeros(total_len, dtype=np.float32) for _ in range(num_channels)]
+    turn_metadata = []
+    for turn_idx, ((name, wav, num_samples), (start, end, gap)) in enumerate(
+        zip(rendered, placements)
+    ):
+        ch = channel_of[name]
+        channels[ch][start:end] += wav
+        turn_metadata.append(
+            {
+                "turn_index": turn_idx,
+                "speaker_name": name,
+                "channel": ch,
+                "text": turns[turn_idx][1],
+                "gap_samples": int(gap),
+                "gap_sec": float(gap / _SAMPLE_RATE),
+                "start_sample": int(start),
+                "end_sample": int(end),
+                "num_samples": int(num_samples),
+                "start_sec": float(start / _SAMPLE_RATE),
+                "end_sec": float(end / _SAMPLE_RATE),
+            }
+        )
+
+    # clip each isolated channel to [-1, 1] (same-speaker overlaps can sum)
+    channels = [np.clip(c, -1.0, 1.0).astype(np.float32) for c in channels]
+    speaker_tts = {name: channels[channel_of[name]] for name in speaker_names}
+
+    # mono mix-down: sum all channels, normalize if it would clip
+    mono_mix = np.sum(np.stack(channels, axis=0), axis=0).astype(np.float32)
+    peak = float(np.max(np.abs(mono_mix))) if total_len else 0.0
+    if peak > 1.0:
+        mono_mix = (mono_mix / peak * 0.95).astype(np.float32)
+
+    # ---- save outputs ----
+    per_speaker_files = {}
+    if save_per_speaker_npy:
+        for name in speaker_names:
+            f = output_dir / f"{_safe_filename(name)}_TTS.npy"
+            np.save(f, speaker_tts[name])
+            per_speaker_files[name] = str(f)
+
+    multichannel_wav_file = output_dir / "dialogue_multichannel_TTS.wav"
+    if save_multichannel_wav:
+        multi = np.stack(channels, axis=0)  # [num_channels, T]
+        ta.save(str(multichannel_wav_file), torch.from_numpy(multi), _SAMPLE_RATE)
+
+    mono_wav_file = output_dir / "dialogue_mono_TTS.wav"
+    if save_mono_wav:
+        ta.save(
+            str(mono_wav_file),
+            torch.from_numpy(mono_mix).unsqueeze(0),  # [1, T]
+            _SAMPLE_RATE,
+        )
+
+    metadata_file = output_dir / "channel_map.json"
+    metadata = {
+        "sample_rate": _SAMPLE_RATE,
+        "num_samples": int(total_len),
+        "duration_sec": float(total_len / _SAMPLE_RATE),
+        "num_speakers": num_channels,
+        "use_intervals": bool(use_intervals),
+        "channel_map": {
+            name: {
+                "channel": channel_of[name],
+                "speaker_name": name,
+                "npy_file": per_speaker_files.get(name),
+            }
+            for name in speaker_names
+        },
+        "files": {
+            "per_speaker_npy": per_speaker_files if save_per_speaker_npy else None,
+            "multichannel_wav": str(multichannel_wav_file) if save_multichannel_wav else None,
+            "mono_wav": str(mono_wav_file) if save_mono_wav else None,
+            "channel_map_json": str(metadata_file) if save_json else None,
+        },
+        "turns": turn_metadata,
+    }
+    if save_json:
+        with metadata_file.open("w", encoding="utf-8") as f:
+            json.dump(metadata, f, ensure_ascii=False, indent=2)
+
+    return {
+        "speaker_tts": speaker_tts,
+        "mono_mix": mono_mix,
         "metadata": metadata,
     }

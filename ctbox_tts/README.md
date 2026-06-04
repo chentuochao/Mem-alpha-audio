@@ -4,6 +4,17 @@ This module wraps Chatterbox TTS into a simple Python function for two-speaker d
 
 Directly import and call the function in Python.
 
+
+---
+
+my use to generate the perlTQA synthezied dialogue
+python perltqa_dialogue_tts.py --count-only      # stats only (verified ✓)
+python perltqa_dialogue_tts.py --prepare-only     # build the 550-voice bank
+python perltqa_dialogue_tts.py --limit 5          # test: first 5 dialogues
+python perltqa_dialogue_tts.py --limit 0          # full run (heavy)
+Useful flags: --skip-prepare (reuse existing map), --overwrite, --ref-dir, --output-dir.
+
+
 ---
 
 ## Installation

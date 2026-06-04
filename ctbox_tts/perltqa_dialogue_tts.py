@@ -111,20 +111,16 @@ def guess_gender_from_relationship(rel: str) -> Optional[str]:
 # Dataset parsing
 # ----------------------------------------------------------------------------
 class DialogueBlock:
-    """One `contents` timestamped block: an ordered two-party conversation."""
+    """One `contents` timestamped block: an ordered multi-party conversation."""
 
-    __slots__ = ("profile", "dialogue_id", "timestamp", "turns",
-                 "party1", "party2", "strict_alternating")
+    __slots__ = ("profile", "dialogue_id", "timestamp", "turns", "parties")
 
-    def __init__(self, profile, dialogue_id, timestamp, turns,
-                 party1, party2, strict_alternating):
+    def __init__(self, profile, dialogue_id, timestamp, turns, parties):
         self.profile = profile
         self.dialogue_id = dialogue_id
         self.timestamp = timestamp
-        self.turns = turns                      # list[(speaker, text)]
-        self.party1 = party1
-        self.party2 = party2
-        self.strict_alternating = strict_alternating
+        self.turns = turns                      # list[(speaker, text)] in order
+        self.parties = parties                  # distinct speakers, first-seen order
 
 
 def parse_line(line: str) -> Tuple[Optional[str], str]:
@@ -143,9 +139,12 @@ def parse_line(line: str) -> Tuple[Optional[str], str]:
 def resolve_block(profile: str, dialogue_id: str, timestamp: str,
                   lines: List[str]) -> Optional[DialogueBlock]:
     """
-    Turn a raw list of lines into an ordered two-party block, resolving
-    name-less ("...: text") lines via strict alternation. Returns None for
-    blocks that are not cleanly two-party.
+    Turn a raw list of lines into an ordered multi-party block with >= 2
+    speakers. Name-less ("...: text") lines are only recoverable in the
+    two-party case (via strict alternation); a block that has name-less lines
+    but is not exactly two-party can't attribute them and is skipped.
+    Returns None for blocks that can't be turned into a clean >=2-speaker
+    conversation.
     """
     parsed = [parse_line(ln) for ln in lines if ln and ln.strip()]
     if not parsed:
@@ -157,38 +156,40 @@ def resolve_block(profile: str, dialogue_id: str, timestamp: str,
         if name and name not in order:
             order.append(name)
 
-    if len(order) != 2:
-        return None  # 1-party, 3+-party, or unparseable -> skip
+    has_nameless = any(name is None for name, _ in parsed)
 
-    party1, party2 = order[0], order[1]
-
-    # Resolve name-less lines by alternation.
-    turns: List[Tuple[str, str]] = []
-    last = None
-    strict = True
-    for name, text in parsed:
-        if name is None:
-            name = party2 if last == party1 else party1
-        if name not in (party1, party2):
+    if has_nameless:
+        # Can only repair name-less lines when exactly two parties are named.
+        if len(order) != 2:
             return None
-        if last is not None and name == last:
-            strict = False  # two consecutive turns by the same speaker
-        turns.append((name, text))
-        last = name
+        party1, party2 = order[0], order[1]
+        turns: List[Tuple[str, str]] = []
+        last = None
+        for name, text in parsed:
+            if name is None:
+                name = party2 if last == party1 else party1
+            turns.append((name, text))
+            last = name
+        return DialogueBlock(profile, dialogue_id, timestamp, turns, order)
 
-    return DialogueBlock(profile, dialogue_id, timestamp, turns,
-                         party1, party2, strict)
+    # Fully-named: support any number of speakers, but require a real dialogue.
+    if len(order) < 2:
+        return None  # monologue / single speaker -> skip
+    turns = [(name, text) for name, text in parsed]
+    return DialogueBlock(profile, dialogue_id, timestamp, turns, order)
 
 
-def parse_dataset(data: dict) -> Tuple[List[DialogueBlock], Counter, dict]:
+def parse_dataset(data: dict) -> Tuple[List[DialogueBlock], Counter, dict, Counter]:
     """
-    Returns (blocks, speaker_counter, skip_stats).
+    Returns (blocks, speaker_counter, skip_stats, party_count_dist).
     `speaker_counter` counts utterances per speaker across ALL blocks
     (including skipped ones) so the "count all speakers" step is complete.
+    `party_count_dist` maps #speakers -> #accepted blocks.
     """
     blocks: List[DialogueBlock] = []
     speaker_counter: Counter = Counter()
     skip = Counter()
+    party_dist: Counter = Counter()
 
     for profile, pv in data.items():
         dialogues = pv.get("dialogues", {}) or {}
@@ -205,10 +206,11 @@ def parse_dataset(data: dict) -> Tuple[List[DialogueBlock], Counter, dict]:
                         speaker_counter[name] += 1
                 block = resolve_block(profile, dialogue_id, timestamp, lines)
                 if block is None:
-                    skip["not_two_party"] += 1
+                    skip["unusable"] += 1
                     continue
                 blocks.append(block)
-    return blocks, speaker_counter, skip
+                party_dist[len(block.parties)] += 1
+    return blocks, speaker_counter, skip, party_dist
 
 
 def build_gender_map(data: dict) -> Dict[str, str]:
@@ -391,17 +393,6 @@ def prepare_reference_voices(
 # ----------------------------------------------------------------------------
 # TTS generation
 # ----------------------------------------------------------------------------
-def split_turns(block: DialogueBlock) -> Tuple[List[str], List[str]]:
-    """speaker1 = party1 (first speaker), speaker2 = party2, in order."""
-    s1, s2 = [], []
-    for name, text in block.turns:
-        if name == block.party1:
-            s1.append(text)
-        else:
-            s2.append(text)
-    return s1, s2
-
-
 def generate_all(
     blocks: List[DialogueBlock],
     ref_map: Dict[str, str],
@@ -417,19 +408,20 @@ def generate_all(
 
     selected = blocks if limit <= 0 else blocks[:limit]
     print(f"[generate] synthesising {len(selected)} / {len(blocks)} "
-          f"two-party dialogue blocks -> {output_dir}")
+          f"dialogue blocks -> {output_dir}")
 
     ok, skipped, failed = 0, 0, 0
     for idx, block in enumerate(selected):
         out = (output_dir / safe_filename(block.profile)
                / safe_filename(block.dialogue_id))
-        wav_path = out / "dialogue_TTS.wav"
-        if wav_path.exists() and not overwrite:
+        # the multispeaker function writes channel_map.json; use it as the marker
+        done_marker = out / "channel_map.json"
+        if done_marker.exists() and not overwrite:
             skipped += 1
             continue
 
-        # both parties must have a reference voice
-        missing = [p for p in (block.party1, block.party2)
+        # every party must have a reference voice
+        missing = [p for p in block.parties
                    if p not in cdt.REFERENCE_VOICE_MAP]
         if missing:
             print(f"[generate][skip] {block.profile}/{block.dialogue_id}: "
@@ -437,21 +429,20 @@ def generate_all(
             skipped += 1
             continue
 
-        s1, s2 = split_turns(block)
+        # ordered list of {speaker_name: text} turns
+        speaker_texts = [{name: text} for name, text in block.turns]
         try:
-            cdt.generate_dialogue_tts(
-                speaker1_name=block.party1,
-                speaker2_name=block.party2,
-                speaker1_text=s1,
-                speaker2_text=s2,
+            cdt.generate_multispeaker_dialogue_tts(
+                speaker_names=block.parties,
+                speaker_texts=speaker_texts,
                 output_dir=str(out),
             )
             ok += 1
             print(f"[generate] ({idx + 1}/{len(selected)}) "
                   f"{block.profile}/{block.dialogue_id}: "
-                  f"{block.party1} <> {block.party2} "
-                  f"({len(s1)}+{len(s2)} turns)"
-                  f"{'' if block.strict_alternating else ' [non-alternating]'}")
+                  f"{len(block.parties)} speakers "
+                  f"[{', '.join(block.parties)}] "
+                  f"({len(block.turns)} turns)")
         except Exception as e:  # keep going on a single bad block
             failed += 1
             print(f"[generate][FAIL] {block.profile}/{block.dialogue_id}: {e}",
@@ -492,7 +483,7 @@ def main() -> None:
     with args.data.open(encoding="utf-8") as f:
         data = json.load(f)
 
-    blocks, speaker_counter, skip = parse_dataset(data)
+    blocks, speaker_counter, skip, party_dist = parse_dataset(data)
     gender_map = build_gender_map(data)
     speakers = sorted(speaker_counter.keys())
 
@@ -500,7 +491,8 @@ def main() -> None:
     stats_path = args.output_dir / "speaker_stats.json"
     stats = {
         "num_unique_speakers": len(speakers),
-        "num_two_party_blocks": len(blocks),
+        "num_dialogue_blocks": len(blocks),
+        "party_count_distribution": {str(k): v for k, v in sorted(party_dist.items())},
         "skipped_blocks": dict(skip),
         "speakers": [
             {
@@ -511,12 +503,12 @@ def main() -> None:
             for name, _ in speaker_counter.most_common()
         ],
     }
-    args.output_dir.mkdir(parents=True, exist_ok=True)
     with stats_path.open("w", encoding="utf-8") as f:
         json.dump(stats, f, ensure_ascii=False, indent=2)
 
     print(f"[count] unique speakers: {len(speakers)}")
-    print(f"[count] two-party dialogue blocks: {len(blocks)}")
+    print(f"[count] dialogue blocks: {len(blocks)} "
+          f"(by #speakers: {dict(sorted(party_dist.items()))})")
     print(f"[count] skipped blocks: {dict(skip)}")
     print(f"[count] gender resolved for {sum(1 for s in speakers if s in gender_map)} "
           f"/ {len(speakers)} speakers")
