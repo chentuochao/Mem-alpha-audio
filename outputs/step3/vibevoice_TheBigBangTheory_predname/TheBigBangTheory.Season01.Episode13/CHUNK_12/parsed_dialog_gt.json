@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 7.300000000000137,
+    "text": "The Brady Bunch . Okay , Sammy Hagar replaced David Lee Roth as the lead singer in what group ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.269999999999982,
+    "end": 12.95,
+    "text": "The Brady Bunch ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 16.029999999999973,
+    "end": 37.40000000000005,
+    "text": "Van Halen . Alright , Madonna was married to this Ridgemont High alum . Oh my God , Sean Penn ! I go outside and I talk to people . Alright , here , what actor holds the record for being named people magazine 's sexiest man alive ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 25.470000000000027,
+    "end": 26.749999999999954,
+    "text": "How do you know these things ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.930000000000064,
+    "end": 50.38000000000007,
+    "text": "William Shatner . Then it 's got to be Patrick Stewart . Formal protest ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.850000000000136,
+    "end": 43.25999999999999,
+    "text": "Wait , I do n't think it 's Shatner ."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.98000000000002,
+    "end": 65.63000000000007,
+    "text": "No . Alright , singer who sang ' Oops I Did It Again . ' Okay , Tweetie Bird , taught he taw a what ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.74000000000001,
+    "end": 70.29999999999995,
+    "text": "Romulan ."
+  },
+  {
+    "speaker": "penny",
+    "start": 74.98000000000002,
+    "end": 77.8900000000001,
+    "text": "Yes . He taught he taw a Romulan ."
+  }
+]

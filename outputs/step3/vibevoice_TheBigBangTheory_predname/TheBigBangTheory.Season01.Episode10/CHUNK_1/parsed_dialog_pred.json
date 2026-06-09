@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 12.84,
+    "end": 24.57,
+    "text": "I don't guess. As a scientist, I reach conclusions based on observation and experimentation. Although, as I'm saying this, it occurs to me you may have been employing a rhetorical device, rendering my response moot. I have a conclusion based on an observation."
+  },
+  {
+    "speaker": "Penny",
+    "start": 13.32,
+    "end": 14.87,
+    "text": "You'll never guess what just happened. What was that?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.67,
+    "end": 18.23,
+    "text": "Oh, I give up. Believe it or not, personal growth. What happened?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 18.23,
+    "end": 22.53,
+    "text": "Alright, remember when I auditioned for that workshop production of Rent, but I didn't get it and I couldn't figure out why?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 24.57,
+    "end": 26.72,
+    "text": "No, you don't. No, he doesn't."
+  },
+  {
+    "speaker": "Penny",
+    "start": 27.1,
+    "end": 30.95,
+    "text": "Well, the girl they picked to play Mimi, she dropped out and they asked me to replace her."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 30.95,
+    "end": 33.07,
+    "text": "Well, congratulations. What a lucky break."
+  },
+  {
+    "speaker": "Penny",
+    "start": 33.07,
+    "end": 37.86,
+    "text": "It's not a big deal, just a one-night showcase, but they invite a lot of casting people and agents, so you never know."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.86,
+    "end": 38.68,
+    "text": "I think I know."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 38.68,
+    "end": 39.86,
+    "text": "No, you don't."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 40.28,
+    "end": 41.79,
+    "text": "He doesn't."
+  },
+  {
+    "speaker": "Penny",
+    "start": 41.79,
+    "end": 44.3,
+    "text": "It's this Friday at eight. You guys want to come?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.62,
+    "end": 46.82,
+    "text": "Because, uh, Friday, we are attending a symposium on molecular positronium."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 53.16,
+    "end": 54.84,
+    "text": "I think that's a week from Tuesday at six."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.84,
+    "end": 57.92,
+    "text": "No, it's this Friday. At eight."
+  },
+  {
+    "speaker": "Penny",
+    "start": 57.92,
+    "end": 62.66,
+    "text": "Ah, too bad. Well, I gotta get to rehearsal. See you guys. Next time."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 61.22,
+    "end": 61.74,
+    "text": "See ya."
+  }
+]

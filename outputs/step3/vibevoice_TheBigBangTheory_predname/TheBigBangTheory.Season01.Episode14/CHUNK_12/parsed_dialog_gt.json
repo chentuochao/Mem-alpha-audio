@@ -1,0 +1,38 @@
+[
+  {
+    "speaker": "penny",
+    "start": 6.250000001273293e-05,
+    "end": 0.72006250000004,
+    "text": "Bye guys ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.3100625000001855,
+    "end": 5.190062500000022,
+    "text": "My turn on the time machine ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.800062500000195,
+    "end": 54.81006250000014,
+    "text": "It worked . It really worked . They said I was mad , but it worked . Oh no , not Morlocks ! Not flesh - eating Morlocks ! He - e - e - e - e - e - e - elp !"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.14006250000011,
+    "end": 74.60006250000015,
+    "text": "Sheldon , are you okay ? It is a little big for the living room , is n't it ? I ' m glad you agree . I hired some guys to help us move it , come on in fellas ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.660062500000095,
+    "end": 69.48006249999999,
+    "text": "We have to get rid of the time machine . Yeah , that 's the problem , it 's too big ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 78.25006250000001,
+    "end": 81.79006249999998,
+    "text": "Oh no , Morlocks ? Eat him , eat him . Aaaaargh . Leonard ! ! ! ! ! ! ! !"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.2,
+    "text": "So , do you know who 's in there ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.409999999999968,
+    "end": 10.039999999999917,
+    "text": "Well , there 's Leonard . And he 's either with Lesley Winkle or a 1930 's gangster ."
+  },
+  {
+    "speaker": "penny",
+    "start": 10.639999999999986,
+    "end": 23.489999999999963,
+    "text": "Hmmm . Good for him . Good for Leonard . Okay , night . What 's the matter ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.319999999999936,
+    "end": 31.62999999999995,
+    "text": "No , no , wait , hold on . I do n't know what the protocol is here . Do I stay , do I leave ? Do I wait to greet them with a refreshing beverage ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 34.729999999999905,
+    "end": 38.57999999999993,
+    "text": "Gee , Sheldon , you 're asking the wrong girl . I ' m usually on the other side of the tie ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.82999999999993,
+    "end": 73.12,
+    "text": "Hi , Leonard . It 's me , Sheldon . In the living room . I just , I wanted you to know I saw the tie . Message received ."
+  }
+]

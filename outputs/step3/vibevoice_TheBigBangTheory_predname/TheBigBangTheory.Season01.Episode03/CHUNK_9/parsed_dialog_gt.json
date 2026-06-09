@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 11.559999999999945,
+    "text": "I 'll just tell her that you had a routine colonoscopy and have n't quite bounced back . But I thought you wanted to cancel ? Why would she be expecting me ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.759999999999991,
+    "end": 46.83,
+    "text": "Give me the phone . I ca n't because if I do n't show up she 'll still be expecting you . Stop asking me all these questions , I need to take another shower . Oh , yeah , no . Turns out that Raj and Howard had to work , and Sheldon had a colonoscopy and he has n't quite bounced back yet . You 're kidding , well , then , that 's something we have in common . We both have people in our lives who ... want to nip intestinal polyps in the bud ."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.960000000000036,
+    "end": 21.38999999999994,
+    "text": "So are the rest of the guys meeting us here ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 33.069999999999936,
+    "end": 39.790000000000035,
+    "text": "Ooh , my uncle just had a colonoscopy . How ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 53.25,
+    "end": 56.52999999999993,
+    "text": "So , what 's new in the world of physics ? Really , nothing ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.41999999999996,
+    "end": 71.88999999999999,
+    "text": "Nothing . Well , with the exception of string theory , not much has happened since the 1930 's , and you ca n't prove string theory , at best you can say ' hey , look , my idea has an internal logical consistency . '"
+  },
+  {
+    "speaker": "penny",
+    "start": 72.25,
+    "end": 76.38,
+    "text": "Ah . Well I ' m sure things will pick up ."
+  }
+]

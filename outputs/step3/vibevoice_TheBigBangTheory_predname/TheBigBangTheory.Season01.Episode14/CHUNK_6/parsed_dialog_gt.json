@@ -1,0 +1,32 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 4.060000000000014,
+    "text": "It only moves in time . It would be worse than useless in a swamp ."
+  },
+  {
+    "speaker": "penny",
+    "start": 9.870000000000005,
+    "end": 12.600000000000023,
+    "text": "Pathetic . All of you , completely pathetic ."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 18.399999999999977,
+    "end": 18.889999999999986,
+    "text": "My turn !"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.40999999999997,
+    "end": 60.58000000000004,
+    "text": "Leonard , it 's two in the morning . So it 's my turn . Why did you set it for the day before yesterday ? You ca n't . If you were to prevent yourself from buying it in the past , you would not have it available in the present to travel back and stop yourself from buying it , ergo you would still have it . This is a classic rookie time travel mistake ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.32999999999997,
+    "end": 50.379999999999995,
+    "text": "So ? Because I want to go back and keep myself from getting a time machine ."
+  }
+]

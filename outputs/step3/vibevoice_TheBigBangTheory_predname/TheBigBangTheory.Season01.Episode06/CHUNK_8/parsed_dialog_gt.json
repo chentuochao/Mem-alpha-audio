@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 8.380000000000063,
+    "text": "Happy Halloween . If it 's any consolation , I thought that homo - habilus line really put him in his place ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.180000000000064,
+    "end": 18.620000000000072,
+    "text": "What 's that ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.620000000000005,
+    "end": 24.7,
+    "text": "Tea . When people are upset the cultural convention is to bring them hot beverages ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.840000000000032,
+    "end": 45.65000000000009,
+    "text": "There there . You want to talk about it ? Good . There there was really all I had . Good night Leonard ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 37.460000000000036,
+    "end": 44.550000000000026,
+    "text": "No . Good night Sheldon ."
+  },
+  {
+    "speaker": "penny",
+    "start": 52.54000000000008,
+    "end": 90.5100000000001,
+    "text": "Hey Leonard . Hey , I just wanted to make sure you 're okay . I ' m so sorry about what happened . Yes it is . That 's why I broke up with him , he always does stuff like that . Well , I ran into him last week and , he was ... just , all apologetic , about how he 's changed , he was just going on and on and I believed him , and I ' m an idiot because I always believe guys like that and ... I ca n't go back to my party because he 's there , and I know you do n't want to hear this and I ' m upset and I ' m really drunk and I just want to ..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.80000000000007,
+    "end": 63.67000000000003,
+    "text": "Hi Penny . I ' m fine . It 's not your fault ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 70.15000000000009,
+    "end": 71.41000000000008,
+    "text": "So why was he at your party ?"
+  }
+]

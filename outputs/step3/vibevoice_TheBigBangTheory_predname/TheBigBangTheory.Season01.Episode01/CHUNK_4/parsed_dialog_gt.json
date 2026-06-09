@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 4.019999999999993,
+    "text": "Okay , well , make yourself at home . You 're very welcome ."
+  },
+  {
+    "speaker": "penny",
+    "start": 2.089999999999975,
+    "end": 2.5899999999999865,
+    "text": "Okay , thankyou ."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.569999999999993,
+    "end": 14.559999999999956,
+    "text": "This looks like some serious stuff , Leonard , did you do this ? Wow ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.289999999999964,
+    "end": 23.11999999999996,
+    "text": "Actually that 's my work . Yeah , well , it 's just some quantum mechanics , with a little string theory doodling around the edges . That part there , that 's just a joke , it 's a spoof of the Bourne - Oppenheimer approximation ."
+  },
+  {
+    "speaker": "penny",
+    "start": 25.189999999999998,
+    "end": 38.469999999999985,
+    "text": "So you 're like , one of those , beautiful mind genius guys . This is really impressive . Holy smokes ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.049999999999955,
+    "end": 30.249999999999954,
+    "text": "Yeah ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.839999999999975,
+    "end": 35.760000000000005,
+    "text": "I have a board . If you like boards , this is my board ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.98999999999995,
+    "end": 50.25,
+    "text": "If by holy smokes you mean a derivative restatement of the kind of stuff you can find scribbled on the wall of any men 's room at MIT , sure . Oh , come on . Who has n't seen this differential below ' here I sit broken hearted ? '"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.75,
+    "end": 57.849999999999966,
+    "text": "What ? At least I did n't have to invent twenty - six dimensions just to make the math come out . In what universe ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 55.25,
+    "end": 65.26999999999998,
+    "text": "I did n't invent them , they 're there . In all of them , that is the point . Um , Penny , that 's where I sit ."
+  },
+  {
+    "speaker": "penny",
+    "start": 60.25999999999999,
+    "end": 66.60999999999996,
+    "text": "Uh , do you guys mind if I start ? So , sit next to me ."
+  }
+]

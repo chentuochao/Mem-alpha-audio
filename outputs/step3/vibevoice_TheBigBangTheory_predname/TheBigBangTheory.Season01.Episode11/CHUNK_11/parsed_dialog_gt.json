@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 2.7,
+    "text": "Soft kitty , warm kitty ..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 5.2999999999999545,
+    "end": 9.029999999999973,
+    "text": "Little ball of fur . Keep rubbing ."
+  },
+  {
+    "speaker": "penny",
+    "start": 11.580000000000041,
+    "end": 13.450000000000045,
+    "text": "Little ball of fur ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.32000000000005,
+    "end": 46.06000000000002,
+    "text": "What do you see , what do you see . Okay , he must be in his bedroom . My spare glasses are in my bedroom , on my dresser , next to my Bat - signal . Raj ? Well I ca n't do it , I ca n't see anything ."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 30.129999999999995,
+    "end": 31.390000000000054,
+    "text": "The living room appears to be empty ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 39.69999999999993,
+    "end": 78.84000000000003,
+    "text": "I ' m not going in there . It 's all right , wireless mini - cam and Bluetooth headset . We 'll be your eyes . One more thing . This is a subsonic impact sensor . If Sheldon gets out of bed and starts to walk , this device will register it and send a signal to the laptop . At that point , based on the geography of the apartment and the ambulatory speed of a sick Sheldon , you 'll have seven seconds to get out , glasses or no glasses . No , you 'll be on your hands and knees . Now you 'll need to get the sensor as close as you can to Sheldon 's room ."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 42.15999999999997,
+    "end": 42.79000000000008,
+    "text": "No way , Jose ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.35000000000002,
+    "end": 52.550000000000026,
+    "text": "Fine ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.17999999999995,
+    "end": 81.44999999999993,
+    "text": "Wo n't my footsteps set it off ? Well , how do I carry it if I ' m on my hands and knees ?"
+  }
+]

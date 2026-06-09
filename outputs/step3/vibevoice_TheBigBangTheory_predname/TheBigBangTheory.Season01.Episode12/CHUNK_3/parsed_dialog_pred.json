@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 1.7,
+    "end": 15.04,
+    "text": "I've decided you're right. My career is not over. But since the arrival of Dennis Kim has rendered my research pointless, I just have to find something else to focus on. So I've decided I'm going to collaborate with you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 4.62,
+    "end": 5.57,
+    "text": "Hey, hey. Great."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 11.11,
+    "end": 12.05,
+    "text": "Great."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 17.64,
+    "end": 18.88,
+    "text": "Great."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 19.41,
+    "end": 19.61,
+    "text": "So what exactly is it you do? I know you chatter on about it all the time, but I've never really paid attention."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 26.9,
+    "end": 32.88,
+    "text": "Okay, well, right now I'm designing an experiment to study the soft component of cosmic radiation at sea level, but I really don't need any help."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.88,
+    "end": 54.77,
+    "text": "Oh, sure you do. Now see, what's this here in the schematic? Is that a laser array? No, hmm. What happens if you use argon lasers instead of helium neon? Are you sure? Pretty sure is not very scientific. Is this how you normally work? Just hunches and guesses and stuff?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 38.21,
+    "end": 38.71,
+    "text": "Yes."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.15,
+    "end": 49.72,
+    "text": "It would blow up. Pretty sure."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.65,
+    "end": 55.85,
+    "text": "Okay. Sheldon, I understand that you're going through a bit of a career crisis. You're searching for some other area where you can feel valuable and productive, but I need to tell you something, and I want you to listen carefully."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 66.55,
+    "end": 67.4,
+    "text": "All right."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 67.4,
+    "end": 69.0,
+    "text": "Go away."
+  }
+]

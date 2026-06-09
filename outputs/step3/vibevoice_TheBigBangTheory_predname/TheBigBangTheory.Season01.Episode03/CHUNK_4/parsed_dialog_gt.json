@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.930000000000007,
+    "end": 4.740000000000021,
+    "text": "Shall I count down from three ?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 5.019999999999982,
+    "end": 6.2,
+    "text": "No , I think it needs to be spontaneous ."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 14.490000000000009,
+    "end": 37.69,
+    "text": "What do you think . Fair enough . On the plus side , it was a good kiss , reasonable technique , no extraneous spittle . On the other hand , no arousal . None . Thank you ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 15.329999999999984,
+    "end": 18.110000000000024,
+    "text": "You proposed the experiment , I think you should present your findings first ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 30.110000000000014,
+    "end": 43.44999999999999,
+    "text": "None ? Ah . Well , thank you for your time . None at all ?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 48.129999999999995,
+    "end": 56.53999999999998,
+    "text": "Sheldon , if you were a robot , and I knew and you did n't , would you want me to tell you ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.839999999999975,
+    "end": 65.34999999999998,
+    "text": "That depends . When I learn that I ' m a robot , will I be able to handle it ?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 67.24000000000001,
+    "end": 70.17000000000002,
+    "text": "Maybe , although the history of science - fiction is not on your side ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.36000000000001,
+    "end": 78.50999999999999,
+    "text": "Uh , let me ask you this . When I learn that I ' m a robot , would I be bound by Asimov 's three laws of robotics ?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 80.13,
+    "end": 82.79000000000002,
+    "text": "You might be bound by them right now ."
+  }
+]

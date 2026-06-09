@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.5900000000000005,
+    "text": "Is there a theme ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 1.3199999999999932,
+    "end": 16.389999999999997,
+    "text": "Um , yeah , Halloween . As usual , I ' m not following . Sure . Fine . Of course ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.809999999999988,
+    "end": 6.090000000000001,
+    "text": "Yes , but are the costumes random , or genre specific ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.599999999999994,
+    "end": 12.579999999999995,
+    "text": "He 's asking if we can come as anyone from science - fiction , fantasy ..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.009999999999991,
+    "end": 19.689999999999994,
+    "text": "What about comic - books ? Anime ? TV , film , D&D , Manga , Greek Gods , Roman Gods , Norse Gods ..."
+  },
+  {
+    "speaker": "penny",
+    "start": 22.249999999999986,
+    "end": 36.519999999999996,
+    "text": "Anything you want , okay ? Any costume you want . Bye ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 38.959999999999994,
+    "end": 40.599999999999994,
+    "text": "Gentlemen , to the sewing machines ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.260000000000005,
+    "end": 42.849999999999994,
+    "text": "I 'll get it ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 48.15999999999998,
+    "end": 48.30999999999999,
+    "text": "Bjow"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.42999999999999,
+    "end": 72.9,
+    "text": "Oh , no ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.02,
+    "end": 75.66999999999999,
+    "text": "Oh no !"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 77.07000000000001,
+    "end": 80.94999999999999,
+    "text": "Make way for the fastest man alive . Oh no !"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 82.11,
+    "end": 84.17999999999999,
+    "text": "See , this is why I wanted to have a costume meeting ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 85.11,
+    "end": 87.04,
+    "text": "We all have other costumes , we can change ."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 87.77,
+    "end": 92.30999999999999,
+    "text": "Or , we could walk right behind each other all night and look like one person going really fast ."
+  }
+]

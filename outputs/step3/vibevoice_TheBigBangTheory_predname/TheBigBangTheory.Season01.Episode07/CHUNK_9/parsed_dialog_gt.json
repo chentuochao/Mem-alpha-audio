@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.0,
+    "end": 0.67999999999995,
+    "text": "How about soup ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.8700000000000045,
+    "end": 2.2599999999999456,
+    "text": "Yeah , we can always divide soup ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.3500000000000227,
+    "end": 2.9999999999999547,
+    "text": "What about the won - tons ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 9.959999999999923,
+    "end": 25.050000000000022,
+    "text": "Oh , hey guys , what 's up ? Yeah . Okay . So ? She 's not my friend . Friends do not get their friends care bears all sweaty ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.740000000000009,
+    "end": 12.609999999999967,
+    "text": "It 's Halo night ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 19.399999999999977,
+    "end": 34.14999999999998,
+    "text": "Well , with Wolowitz spending all of his time with your friend Christy , Right , anyway , uh , with Wolowitz occupied elsewhere , we had something we wanted to ask you . Sheldon ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.35000000000002,
+    "end": 47.300000000000026,
+    "text": "Yes . Penny , we would very much appreciate it if you would be the fourth member of our Halo team . I do n't think I need to tell you what an honor this is ."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.70999999999992,
+    "end": 60.469999999999914,
+    "text": "Oh , that 's so sweet . But I ' m going out dancing with a girlfriend . Well , for Penny it 's dancing night . No ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 53.48000000000002,
+    "end": 59.93999999999994,
+    "text": "You ca n't go out , it 's Halo night . You go dancing every Wednesday ?"
+  }
+]
