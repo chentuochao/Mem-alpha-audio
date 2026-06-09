@@ -526,6 +526,14 @@ def main():
         action="store_true",
         help="AS-norm the affinity matrix before clustering ('--linker twopass').",
     )
+    parser.add_argument(
+        "--debug_dir",
+        type=str,
+        default=None,
+        help="If set (with '--linker twopass'), save clustering figures "
+             "(PCA scatter + affinity heatmap) to this folder. "
+             "Defaults to '<output_dir>/debug' when only the flag is given.",
+    )
     args = parser.parse_args()
 
     output_dir = args.output_dir or args.data_dir
@@ -672,6 +680,11 @@ def main():
 
     # ── Resolve the authoritative global mapping ─────────────────────
     all_mappings = linker.finalize()
+
+    # ── Visualise the two-pass clustering for debugging ──────────────
+    if isinstance(linker, TwoPassSpeakerCluster):
+        debug_dir = args.debug_dir or os.path.join(output_dir, "debug")
+        linker.visualize(debug_dir, prefix=f"twopass_{args.cluster_method}")
 
     # ── Phase 2: apply global mapping, parse + write transcripts ─────
     for ctx in entry_contexts:
