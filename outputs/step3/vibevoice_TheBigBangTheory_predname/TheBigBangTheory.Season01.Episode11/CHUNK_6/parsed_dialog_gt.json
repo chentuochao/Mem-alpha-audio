@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 6.0900000000001,
+    "text": "Why did n't you just ... Why did n't you just have soup at home ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.960000000000036,
+    "end": 13.630000000000063,
+    "text": "Penny , I have an IQ of 187 , do n't you imagine that if there were a way for me to have had soup at home I would have thought of it ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 15.330000000000041,
+    "end": 16.120000000000072,
+    "text": "You can have soup delivered ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 20.770000000000095,
+    "end": 49.67000000000003,
+    "text": "I did not think of that . Clearly febrile delirium is setting in , please bring me some soup while I still understand what a spoon is for . Well , my mother used to make me this split pea with little frankfurter slices and these home made croutons . Can I get any of those with little frankfurter slices and home made croutons ? Then surprise me ."
+  },
+  {
+    "speaker": "penny",
+    "start": 30.960000000000036,
+    "end": 32.360000000000085,
+    "text": "Okay , what kind of soup do you want ."
+  },
+  {
+    "speaker": "penny",
+    "start": 39.710000000000036,
+    "end": 41.300000000000026,
+    "text": "We have Chicken Tortilla and Potato Leek ."
+  },
+  {
+    "speaker": "penny",
+    "start": 47.30000000000007,
+    "end": 47.80000000000007,
+    "text": "No ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.860000000000014,
+    "end": 62.04000000000008,
+    "text": "Would you call that moss green or forest green ?"
+  }
+]

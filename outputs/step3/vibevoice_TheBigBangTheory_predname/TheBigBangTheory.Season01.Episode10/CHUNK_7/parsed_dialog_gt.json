@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.9200000000000272,
+    "text": "Leonard , Leonard , Leonard ..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.089999999999918,
+    "end": 8.119999999999958,
+    "text": "Let it go , Sheldon , the murderer was the first mate whether it makes sense to you or not ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.17999999999995,
+    "end": 18.430000000000017,
+    "text": "No , that 's the least of our worries . I ' ve been doing some research on addiction , both the biochemical and behavioral aspects , and I think there 's a problem with the current version of our lie ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.899999999999977,
+    "end": 21.820000000000004,
+    "text": "What are you talking about , it 's fine , she bought it , it 's over ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.16999999999996,
+    "end": 37.729999999999976,
+    "text": "Sadly , it 's not . Substance abuse is a lifelong struggle , but beyond that I have realized that the Leo I described would not have agreed to go to rehab . Because Leo is a middle child ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.51999999999998,
+    "end": 40.73999999999997,
+    "text": "Why not ? There is no Leo , how can you say that ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.08999999999992,
+    "end": 65.30999999999995,
+    "text": "You did n't read the bio , did you ? He 's not just a middle child , he 's the quintessential middle child , from a broken home to boot . Psychologically speaking , the attention he gets by rebelling even to the point of self - destruction is more emotionally valuable than the help he would get at rehab . Great , what is it ? Fine ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 59.76999999999998,
+    "end": 62.77999999999997,
+    "text": "I ' ve got a solution . Get out ."
+  }
+]

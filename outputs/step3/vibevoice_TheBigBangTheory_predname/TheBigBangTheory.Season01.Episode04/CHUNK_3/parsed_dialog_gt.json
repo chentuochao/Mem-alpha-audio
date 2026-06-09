@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 22.2,
+    "text": "Oh , yay ! How come you did n't go into work today . So you got canned , huh ? Well , maybe it 's all for the best , you know I always say , when one door closes , another one opens ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.150000000000034,
+    "end": 16.519999999999992,
+    "text": "I ' m taking a sabbatical , because I wo n't kow - tow to mediocre minds . Theoretical physicists do not get canned . But yeah ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.069999999999993,
+    "end": 84.60000000000002,
+    "text": "No it does n't . Not unless the two doors are connected by relays , or there are motion sensors involved . Or the first door closing causes a change of air pressure that acts upon the second door . Slow down . Slow down , please slow down . Look , you 're not leaving yourself enough space between cars . No , no . Let me do the math for you , this car weighs let 's say 4,000 lb , now add say 140 for me , 120 for you . Oh , I ' m sorry , did I insult you ? Is your body mass somehow tied into your self worth ? Interesting . Anyway , that gives us a total weight of , let 's say , 4,400 lb . Fine . We 're travelling forward at , good Lord , 51 miles an hour . Now let 's assume that your brakes are new and the callipers are aligned , still , by the time we come to a stop , we 'll be occupying the same space as that Buick in front of us , an impossibility that nature will quickly resolve into death , mutilation and ... oh look , they built a new put - put course ."
+  },
+  {
+    "speaker": "penny",
+    "start": 29.340000000000032,
+    "end": 44.769999999999996,
+    "text": "No , no , I meant ... Never mind . We 're fine . Oh , sure I am ."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.5,
+    "end": 51.7,
+    "text": "120 ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 57.55000000000001,
+    "end": 58.06000000000002,
+    "text": "Well , yeah ."
+  },
+  {
+    "speaker": "penny",
+    "start": 64.07,
+    "end": 64.97000000000003,
+    "text": "Let 's say 4,390 ."
+  }
+]

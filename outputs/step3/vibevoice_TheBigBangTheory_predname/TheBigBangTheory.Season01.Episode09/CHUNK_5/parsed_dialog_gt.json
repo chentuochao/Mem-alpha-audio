@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "penny",
+    "start": 3.090000000000032,
+    "end": 3.649999999999932,
+    "text": "It was a joke ."
+  },
+  {
+    "speaker": "penny",
+    "start": 10.289999999999964,
+    "end": 12.409999999999922,
+    "text": "Yup , tip your waitresses , I ' m here all week ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.090000000000032,
+    "end": 18.96999999999998,
+    "text": "Penny , just to save you from further awkwardness know that I ' m perfectly comfortable with the two of us climbing the stairs in silence ."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.549999999999955,
+    "end": 34.52999999999993,
+    "text": "Oh yeah , me too . Zip it , lock it . Put it in your pocket . So you and Leonard ... Little misunderstanding , huh ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.99000000000001,
+    "end": 38.639999999999944,
+    "text": "Oh dear God ! A little misunder ... Galileo and the Pope had a little misunderstanding ."
+  },
+  {
+    "speaker": "penny",
+    "start": 43.15999999999997,
+    "end": 57.409999999999926,
+    "text": "Anyway , I was talking to Leonard this morning and I think he feels really bad about it . Well how do you feel ? Well I ' m just asking if it 's difficult to be fighting with your best friend ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.889999999999986,
+    "end": 70.02999999999997,
+    "text": "Huh . I do n't understand the question . Oh . I had n't thought about it like that . I wonder if I ' ve been experiencing physiological manifestations of some sort of unconscious emotional turmoil . I could n't poop this morning ."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.02999999999997,
+    "end": 68.15999999999997,
+    "text": "Wait ... what ?"
+  }
+]

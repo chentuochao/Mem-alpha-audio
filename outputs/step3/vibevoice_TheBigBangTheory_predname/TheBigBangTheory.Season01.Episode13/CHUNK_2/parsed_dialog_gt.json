@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.749999999999983,
+    "text": "Let 's put it to a vote . All those in favour ..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.799999999999983,
+    "end": 16.019999999999992,
+    "text": "Point of order . I move that any vote on team names should be unanimous . No man should be forced to emblazon his chest with the bengal tiger , when common sense dictates it should be an army ant . I will yield ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.819999999999993,
+    "end": 26.369999999999987,
+    "text": "Will the gentleman from the great state of denial yield for a question ? After we go through the exercise of an annoying series of votes , all of which the gentleman will lose , does he then intend to threaten to quit if he does not get his way ? I move we are the Army Ants , all those in favour ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.389999999999986,
+    "end": 23.73999999999999,
+    "text": "He does ."
+  },
+  {
+    "speaker": "penny",
+    "start": 28.5,
+    "end": 48.02999999999999,
+    "text": "Good afternoon , and welcome to today 's physics bowl practice round . I ' m Penny , and I 'll be your host , because apparently I did n't have anything else to do on a Saturday afternoon , and is n't that just a little sad ? Gentlemen , are you ready ? You know , it 's none of my business , but is n't a guy who ca n't speak in front of women going to hold you back a little ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.16999999999999,
+    "end": 42.36999999999999,
+    "text": "Yes ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 42.45999999999998,
+    "end": 42.67,
+    "text": "Of course ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 42.849999999999994,
+    "end": 43.290000000000006,
+    "text": "Fire away ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.28,
+    "end": 59.27999999999999,
+    "text": "Oh , uh , he 'll be okay once the women are mixed into the crowd . He only has a problem when they 're one on one and smell nice . I was actually the one who noticed , okay , let 's just start ."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.870000000000005,
+    "end": 83.88,
+    "text": "Oh , thanks Raj , it 's vanilla oil . Okay , the first question is on the topic of optics . What is the shortest light pulse ever produced ? Dr Cooper . That is correct . Good for you , sweetie . Okay , next question . What is the quantum mechanical effect used to encode data on hard disk drives ? Howard . Right ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.06,
+    "end": 69.46,
+    "text": "And of course , the answer is 130 adoseconds ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 70.43,
+    "end": 70.90999999999997,
+    "text": "I knew that too ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 80.75,
+    "end": 86.89,
+    "text": "And of course , the answer is giant magneto resistance . But I answered , it 's called teamwork ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 83.99000000000001,
+    "end": 93.25999999999999,
+    "text": "Hey , I buzzed in . Do n't you think I should answer the engineering questions ? I am an engineer ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 93.5,
+    "end": 96.82,
+    "text": "By that logic I should answer all the anthropology questions because I ' m a mammal ."
+  }
+]

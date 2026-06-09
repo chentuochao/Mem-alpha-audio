@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 2.5700000000000047,
+    "text": "Okay , here you go , Leonard , one tequila sunrise ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.019999999999982,
+    "end": 19.45999999999998,
+    "text": "Thank you . This drink is a wonderful example of how liquids with different specific gravities interact in a cylindrical container . Thank you . Whatever you recommend ."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.399999999999977,
+    "end": 43.44000000000001,
+    "text": "Okay , Raj , what 'll it be ? Uh , how about a grasshopper . I make a mean grasshopper . Okay ? Good . Coming up . Sheldon , what are you going to have ? Okay , can you please order a cocktail , I need to practice mixing drinks . That 's , um , rum and coke without the rum . So coke ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.069999999999993,
+    "end": 47.09999999999998,
+    "text": "I 'll have a diet coke . Fine . I 'll have a virgin cuba libre . Yes , Yes . And would you make it diet ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 52.89999999999998,
+    "end": 59.79999999999997,
+    "text": "There 's a can in the fridge . Then swim to Cuba ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.76999999999998,
+    "end": 64.69,
+    "text": "A cuba libre traditionally comes in a tall glass with a lime wedge . Bartenders are supposed to have people skills ."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.44,
+    "end": 70.48999999999995,
+    "text": "Okay , Raj , here you go . Alright , who 's next ?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 71.04000000000002,
+    "end": 72.61999999999995,
+    "text": "I 'd like to try a slippery nipple ."
+  }
+]

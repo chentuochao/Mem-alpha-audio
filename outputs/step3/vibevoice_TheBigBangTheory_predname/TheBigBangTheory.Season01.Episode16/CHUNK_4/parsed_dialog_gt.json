@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.7900000000000318,
+    "text": "He came with a manual ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.900000000000034,
+    "end": 13.670000000000016,
+    "text": "Question , how am I going to get Leonard a present before the party ? I do n't drive , and the only things available within walking distance are a Thai restaurant and a gas station . I suppose I could wrap up an order of mee krob and a couple of lottery scratchers ."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.730000000000018,
+    "end": 33.29000000000002,
+    "text": "Okay , let 's do this , um , I will drive Sheldon to get a present , and Howard , you need to get rid of Leonard for about two hours . And then Raj , you bring the stuff across the hall and start setting up . Entertain them . Stare at them and make them feel uncomfortable ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 20.25999999999999,
+    "end": 29.45999999999999,
+    "text": "No problem . What if guests show up ? What if they 're women ?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 43.43000000000001,
+    "end": 63.63000000000005,
+    "text": "Hey ! How 's it going ? So , listen , the New Art is showing the revised definitive cut of Blade Runner . No , you ' ve seen the 25th anniversary final cut . This one has eight seconds of previously unseen footage . They say it completely changes the tone of the film ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 44.68000000000001,
+    "end": 47.33,
+    "text": "Hey . Fine ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.56999999999999,
+    "end": 54.97000000000003,
+    "text": "Seen it ."
+  }
+]

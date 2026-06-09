@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.6600000000000363,
+    "text": "Sheldon , why are you ignoring your sister ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.160000000000025,
+    "end": 4.780000000000041,
+    "text": "I ' m not ignoring my sister . I ' m ignoring all of you ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 8.470000000000027,
+    "end": 17.120000000000015,
+    "text": "I brought snacks . Onion dip , it 's onion dip . We do n't entertain much ."
+  },
+  {
+    "speaker": "missy_cooper",
+    "start": 9.050000000000011,
+    "end": 14.220000000000038,
+    "text": "Oh my ! Gherkins and ... Oh ."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 19.83000000000004,
+    "end": 27.100000000000033,
+    "text": "Missy , do you enjoy pajamas ? We Indians invented them . You 're welcome ."
+  },
+  {
+    "speaker": "missy_cooper",
+    "start": 23.24000000000001,
+    "end": 23.54000000000003,
+    "text": "I guess ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 29.450000000000045,
+    "end": 37.07000000000001,
+    "text": "Yeah , well my people invented circumcision . You 're welcome !"
+  },
+  {
+    "speaker": "penny",
+    "start": 40.05000000000001,
+    "end": 50.56999999999999,
+    "text": "Missy , I ' m going to go get my nails done . Do you want to come ? You 're welcome . Goodbye Leonard !"
+  },
+  {
+    "speaker": "missy_cooper",
+    "start": 42.23000000000002,
+    "end": 47.24000000000001,
+    "text": "God yes . Thanks . Bye guys ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 48.150000000000034,
+    "end": 48.540000000000035,
+    "text": "Bye Missy ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.710000000000036,
+    "end": 67.47000000000004,
+    "text": "Bye Missy , see you . Uh , yeah , no , uh , bye Penny . Excuse me , this is my apartment and she 's my roommate 's sister . How do I have Penny ? In what universe do I have Penny ? Hell , no !"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 54.56999999999999,
+    "end": 67.09000000000005,
+    "text": "Okay , you two have to back off . So what , you ' ve already got Penny . So I can have Penny ?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 56.120000000000005,
+    "end": 57.510000000000005,
+    "text": "Why should I back off , you back off dude ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.61000000000007,
+    "end": 87.74000000000007,
+    "text": "Excuse me , can I interject something . I ' m ordering pizza online , is everyone okay with pepperoni ? I guess . Do n't worry , I was going to order you cheeseless . That 's okay . Lactose intolerance is nothing to be embarrassed about ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 78.74000000000007,
+    "end": 85.02000000000004,
+    "text": "Sheldon , can I talk to you in private ? Thank you ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 90.51000000000005,
+    "end": 92.59999999999997,
+    "text": "I ' m a fancy Indian man , we invented pajamas !"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 93.81,
+    "end": 95.86000000000007,
+    "text": "Hey , look at me , I do n't have a foreskin ."
+  }
+]

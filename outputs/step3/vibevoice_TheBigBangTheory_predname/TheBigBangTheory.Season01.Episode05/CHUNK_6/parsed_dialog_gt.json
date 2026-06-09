@@ -1,0 +1,38 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 31.95999999999999,
+    "text": "Oh God , my board . Leonard ! Leonard ! My equations , someone 's tampered with my equations . Of course I ' m sure . Look at the beta - function of quantum chromodynamics , the sign 's been changed . Are you insane ? Are you out of your mind ? Are you ... hey look , that fixes the problem I ' ve been having . You did this ? Cool ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 7.659999999999968,
+    "end": 20.759999999999945,
+    "text": "Hey , what 's the matter ? Are you sure ? Oh yeah . But does n't that fix the problem you ' ve been having ?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 28.059999999999945,
+    "end": 46.889999999999944,
+    "text": "You 're welcome . Yeah , I noticed it when I got up to get a glass of water , so I fixed it , now you can show that quarks are asymptotically free at high energies . Pretty cool , huh ? Listen , I got to hit the lab . Thanks for a great night ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 49.210000000000036,
+    "end": 50.460000000000036,
+    "text": "Thank you , I 'll see you at work ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.0,
+    "end": 58.66999999999996,
+    "text": "Uh - duh , hold on , hold on ! Who told you you could touch my board ? I do n't come into your house and touch your board ."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 53.39999999999998,
+    "end": 61.210000000000036,
+    "text": "What ? No - one . There are no incorrect equations on my board ."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 2.1900000000000093,
+    "text": "I imagine there are n't many kosher corn - huskers ."
+  },
+  {
+    "speaker": "christy_vanderbilt",
+    "start": 5.589999999999918,
+    "end": 9.809999999999945,
+    "text": "But you 're still taking me shopping , right ? Okay , I 'll go pack my stuff ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 7.139999999999986,
+    "end": 22.550000000000022,
+    "text": "Anything you want . When they perfect human cloning I ' m going to order twelve of those . Who cares , last night she pulled off her blouse and I wept !"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.50999999999999,
+    "end": 20.229999999999972,
+    "text": "Howard , ca n't you see she 's using you ?"
+  },
+  {
+    "speaker": "penny",
+    "start": 23.620000000000005,
+    "end": 30.279999999999973,
+    "text": "Look , Howard , I know her , okay , she 'll have sex with anyone as long as they keep buying her things . Yeah ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 29.199999999999932,
+    "end": 37.20999999999992,
+    "text": "Really ? Yay ! If you 'll excuse me , I have some Bar - Mitzvah bonds to cash ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 46.65999999999997,
+    "end": 71.57999999999993,
+    "text": "I ' m sorry , we can not do this without Wolowitz . Let me walk you through it , our standard is , the steamed dumpling appetizer , General Tso 's chicken , beef with broccoli , shrimp with lobster sauce and vegetable lo - main . Do you see the problem ? Our entire order is predicated on four dumplings and four entrees divided among four people ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 49.69999999999993,
+    "end": 51.58,
+    "text": "We ca n't order Chinese food without Wolowitz ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 63.92999999999995,
+    "end": 65.43999999999994,
+    "text": "I see problem ."
+  }
+]

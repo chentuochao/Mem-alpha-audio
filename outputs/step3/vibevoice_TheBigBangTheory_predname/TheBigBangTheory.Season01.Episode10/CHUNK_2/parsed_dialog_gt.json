@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 18.040000000000003,
+    "text": "You just lied to Penny . And you did it so casually , no rapid breathing , no increase in perspiration . So , lack of a physiological response while lying is characteristic of a violent sociopath . No , I imagine if you were going to kill me you 'd have done it a long time ago ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.1699999999999875,
+    "end": 6.959999999999991,
+    "text": "Yes , I did . So ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.930000000000007,
+    "end": 20.299999999999994,
+    "text": "Sheldon , are you worried about your safety . That 's very true ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.00999999999999,
+    "end": 48.86999999999999,
+    "text": "Leonard , Leonard , Leonard ..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.349999999999994,
+    "end": 56.55,
+    "text": "What ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.35999999999999,
+    "end": 76.22000000000001,
+    "text": "I need to speak to you . It 's important ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 74.19999999999999,
+    "end": 91.26000000000002,
+    "text": "It 's two o'clock in the morning I highly doubt that . Go away . . Are you still out there ? What ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 87.56,
+    "end": 94.33000000000001,
+    "text": "Yes . You 're right , it can wait until morning ."
+  }
+]

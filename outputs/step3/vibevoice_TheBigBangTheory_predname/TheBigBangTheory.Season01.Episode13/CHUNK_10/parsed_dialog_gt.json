@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.730000000000018,
+    "end": 15.120000000000005,
+    "text": "Sorry , I panicked . Um , eight . Point four ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 5.490000000000009,
+    "end": 5.900000000000046,
+    "text": "Then guess ."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 16.939999999999987,
+    "end": 22.900000000000045,
+    "text": "PMS . I ' m sorry , that 's incorrect . AA , if you can answer correctly , the match is yours ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 26.290000000000077,
+    "end": 28.58000000000004,
+    "text": "He does n't have it . He 's got squat ."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 38.33000000000004,
+    "end": 39.34000000000003,
+    "text": "AA , I need your answer ."
+  },
+  {
+    "speaker": "dmitri",
+    "start": 41.710000000000036,
+    "end": 62.31000000000006,
+    "text": "The answer is minus eight by alpha . Answering question . Winning physics bowl . Here I am janitor , in former Soviet Union I am physicist . Leningrad Politechnica . Go Polar Bears ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.440000000000055,
+    "end": 53.65999999999997,
+    "text": "Hang on , hang on a second , that 's not our answer . What are you doing ? How do you know anything about physics ?"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.989999999999992,
+    "text": "I am the Swordmaster !"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.11999999999999,
+    "end": 25.869999999999987,
+    "text": "Wooh , I ' m all sweaty , anybody want to log on to second life and go swimming , I just built a virtual pool ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.269999999999982,
+    "end": 30.089999999999986,
+    "text": "No , I ca n't look at you or your avatar right now ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 34.400000000000006,
+    "end": 35.38000000000001,
+    "text": "Sounds like your neighbor 's home ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 37.79999999999998,
+    "end": 43.38000000000001,
+    "text": "Excuse me . Oh , right , right right right right ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.389999999999986,
+    "end": 42.650000000000006,
+    "text": "Do n't forget the mail you took accidentally on purpose so you 'd have an excuse to talk to her ."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 45.19,
+    "end": 47.53,
+    "text": "Stealing snail mail , very old school , I like it ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 49.31,
+    "end": 52.39999999999999,
+    "text": "Penny , the mailman did it again , he ... Oh ! Sorry ."
+  },
+  {
+    "speaker": "penny",
+    "start": 52.94999999999999,
+    "end": 56.209999999999994,
+    "text": "Um , no , hi Leonard , this is Doug , Doug , this is my neighbor Leonard ."
+  },
+  {
+    "speaker": "doug",
+    "start": 56.66999999999999,
+    "end": 57.44999999999999,
+    "text": "What 's up bro ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.23999999999998,
+    "end": 86.60999999999999,
+    "text": "Not much . Bro . Uh , yeah , uh , I just , I got your mail again , here . Oh no , that 's probably not such a good idea . Civil servants have a documented propensity to , you know , snap . No problem . Bye . Oh , and , bye , bro !"
+  },
+  {
+    "speaker": "penny",
+    "start": 64.20999999999998,
+    "end": 70.92,
+    "text": "Is , is everything okay . Thank you , I ' ve got to talk to that mailman ."
+  },
+  {
+    "speaker": "penny",
+    "start": 80.13999999999999,
+    "end": 81.91,
+    "text": "Okay , well , thank you , again ."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 6.409999999999994,
+    "text": "Mahalo 's a nice touch . Interesting , you should lead with that ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.6499999999999915,
+    "end": 4.879999999999993,
+    "text": "Do you know there are only eight consonants in the Hawaiian language ."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 7.789999999999992,
+    "end": 21.909999999999997,
+    "text": "Oh , God , Look at this buffet . I love America . Of course , but it 's all Indian food . You ca n't find a bagel in Mumbai to save your life . Schmear me ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.030000000000001,
+    "end": 15.169999999999998,
+    "text": "You do n't have buffets in India ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.560000000000002,
+    "end": 35.19,
+    "text": "Well here 's an interesting turn of events . A more plausible explanation is that his work in robotics has made an amazing leap forward ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.689999999999998,
+    "end": 30.70999999999999,
+    "text": "What . Howard brought a date ?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 36.50999999999999,
+    "end": 46.67,
+    "text": "Hey , what up , science bitches ? May I introduce my special lady friend , Summer . Right . Sorry ."
+  },
+  {
+    "speaker": "summer",
+    "start": 43.92999999999999,
+    "end": 45.400000000000006,
+    "text": "I already told you , touching 's extra ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.16999999999999,
+    "end": 49.80999999999999,
+    "text": "Here comes our new boss , be polite ."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 50.829999999999984,
+    "end": 56.34,
+    "text": "Hi fellas , Eric Gablehouser . Howard , nice to meet you , and you are ?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 53.329999999999984,
+    "end": 54.05000000000001,
+    "text": "Howard Wolowitz ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.66999999999999,
+    "end": 67.14999999999999,
+    "text": "An actual real scientist . How was that ? I ca n't believe he fired me ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 68.69,
+    "end": 73.64,
+    "text": "Well , you did call him a glorified high - school science teacher whose last successful experiment was lighting his own farts ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.87,
+    "end": 78.6,
+    "text": "In my defence , I prefaced that by saying ' with all due respect . '"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 81.13,
+    "end": 81.22,
+    "text": "Morning"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.53999999999999,
+    "end": 81.78,
+    "text": "Morning ."
+  }
+]

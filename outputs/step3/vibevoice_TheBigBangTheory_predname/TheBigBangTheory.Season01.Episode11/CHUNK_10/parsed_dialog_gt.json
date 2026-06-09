@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.2699999999999818,
+    "text": "Well ?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.36000000000001364,
+    "end": 0.8600000000000136,
+    "text": "I ' m thinking !"
+  },
+  {
+    "speaker": "penny",
+    "start": 3.57000000000005,
+    "end": 8.010000000000058,
+    "text": "Okay , nice and cosy , okay , I 'll see you later ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.740000000000009,
+    "end": 21.499999999999954,
+    "text": "Wait . Will you please rub this on my chest . Vaporub makes my hands smell funny . Please , please , please , please , please , please , please ."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.039999999999964,
+    "end": 23.410000000000036,
+    "text": "Oh , Sheldon , ca n't you do that yourself ? But Sheldon ... I ca n't believe I ' m doing this ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.049999999999955,
+    "end": 37.51000000000006,
+    "text": "No , no , counter - clockwise or my chest hair mats ."
+  },
+  {
+    "speaker": "penny",
+    "start": 42.190000000000055,
+    "end": 42.39000000000006,
+    "text": "Sorry ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.00999999999999,
+    "end": 76.85000000000002,
+    "text": "Can you sing ' Soft Kitty ' . My mom used to sing it to me when I was sick . I 'll teach you . ' Soft kitty , warm kitty , little ball of fur , happy kitty , sleepy kitty , purr purr purr . ' Now you ."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.33000000000004,
+    "end": 56.360000000000014,
+    "text": "What ? I ' m sorry , honey , I do n't know it ."
+  }
+]

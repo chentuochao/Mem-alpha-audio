@@ -1,0 +1,38 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 22.380000000000006,
+    "text": "Leonard ! Leonard ! Leonard . Leonard , my comforter fell down , and my sinuses hurt when I bend over . Leonard ?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.78000000000003,
+    "end": 30.98000000000003,
+    "text": "Ow !"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.80000000000001,
+    "end": 56.22000000000004,
+    "text": "Hey . I ' m at work . Yes . Yes . They asked me to come in . They texted me ."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.75,
+    "end": 90.12,
+    "text": "Leonard , where are you ? At six - thirty in the morning ? On Sunday ? Why ? Well , I did n't hear the phone ring . Well , as I predicted , I am sick . My fever has been tracking up exponentially since 2 am , and I am producing sputum at an alarming rate . No . Not only that , it has shifted from clear to milky green . What else would I drink ? Gasses ? Solids ? Ionised plasma ? I want soup . We do n't have soup ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 70.33000000000004,
+    "end": 79.7,
+    "text": "No kidding ? Alright , well , get some rest and drink plenty of fluids ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 85.66000000000003,
+    "end": 92.05000000000001,
+    "text": "Drink whatever you want . Then make soup . I ' m at work , Sheldon ."
+  }
+]
