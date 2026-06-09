@@ -35,7 +35,7 @@ def load_time_maps(time_info_path: str) -> dict:
         time_maps[keyname] = item["session_timeline_date"]
     return time_maps
 
-def load_chunks_gt(data_dir: str) -> list[str]:
+def load_chunks_gt(data_dir: str, output_root: str = None) -> list[str]:
     # time_info_path = os.path.join(data_dir, "time_info.json")
     time_info_path = "QA_designs/bazinga/TBBT/s1_arc/S1_session_timeline.json"
     time_maps = load_time_maps(time_info_path)
@@ -54,6 +54,7 @@ def load_chunks_gt(data_dir: str) -> list[str]:
         timestamp = time_maps[session_name]
 
         dialog_chunk = f"[Dialogue between multiple people on {timestamp}]\n"
+        named_dialog = []
         for turn in dialog:
             raw_speaker = turn["speaker"]
             speaker = raw_speaker
@@ -61,11 +62,29 @@ def load_chunks_gt(data_dir: str) -> list[str]:
             turn_text = fix_space_in_text(turn["text"])
             dialog_chunk += f"<{speaker}> {turn_text}\n"
 
+            named_dialog.append(dict(turn))
+
         chunks.append(dialog_chunk)
+
+        # Save the raw chunk mirroring the input layout under output_root,
+        # e.g. outputs/step3/{show}/{episode}/parsed_dialog_gt.json
+        if output_root is not None:
+            rel = os.path.relpath(os.path.dirname(path), data_dir)
+            out_dir = os.path.join(output_root, rel)
+            os.makedirs(out_dir, exist_ok=True)
+            with open(os.path.join(out_dir, "parsed_dialog_gt.json"), "w") as f:
+                json.dump(named_dialog, f, indent=2, ensure_ascii=False)
+
+    if output_root is not None:
+        print(f"Saved {len(subfolders)} dialogue chunk(s) under {output_root}")
 
     return chunks
 
-def load_chunks_pred(data_dir: str, use_extracted_name: bool = False) -> list[str]:
+def load_chunks_pred(
+    data_dir: str,
+    use_extracted_name: bool = False,
+    output_root: str = None
+) -> list[str]:
     map_path = os.path.join(data_dir, "extracted_speaker_name.json")
     with open(map_path, "r") as f:
         speaker_name_map = json.load(f)
@@ -88,17 +107,37 @@ def load_chunks_pred(data_dir: str, use_extracted_name: bool = False) -> list[st
         timestamp = time_maps[session_name]
 
         dialog_chunk = f"[Dialogue between multiple people on {timestamp}]\n"
+        named_dialog = []
         for turn in dialog:
             raw_speaker = turn["speaker"]
+            resolved_speaker = speaker_name_map.get(raw_speaker, raw_speaker)
             if use_extracted_name:
-                speaker = speaker_name_map.get(raw_speaker, raw_speaker)
+                speaker = resolved_speaker
             else:
                 speaker = raw_speaker
 
             turn_text = fix_space_in_text(turn["text"])
             dialog_chunk += f"<{speaker}> {turn_text}\n"
 
+            # raw turn with the speaker replaced by the recognized name
+            new_turn = dict(turn)
+            new_turn["speaker"] = resolved_speaker
+            named_dialog.append(new_turn)
+
         chunks.append(dialog_chunk)
+
+        # Save the raw chunk (with replaced names) mirroring the input layout
+        # under output_root, e.g. outputs/step3/{show}/{episode}/parsed_dialog_pred.json
+        rel = os.path.relpath(os.path.dirname(path), data_dir)
+
+        if output_root is not None:
+            out_dir = os.path.join(output_root, rel)
+            os.makedirs(out_dir, exist_ok=True)
+            with open(os.path.join(out_dir, "parsed_dialog_pred.json"), "w") as f:
+                json.dump(named_dialog, f, indent=2, ensure_ascii=False)
+
+    if output_root is not None:
+        print(f"Saved {len(subfolders)} named dialogue chunk(s) under {output_root}")
 
     return chunks
 
@@ -111,15 +150,21 @@ def main():
         "--data_dir", type=str, required=True,
         help="Root folder with {show}/{episode}/parsed_dialog_pred.json",
     )
+    # parser.add_argument(
+    #     "--output", type=str, default=None,
+    #     help="Output parquet path (default: <data_dir>/dataset.parquet)",
+    # )
     parser.add_argument(
-        "--output", type=str, default=None,
-        help="Output parquet path (default: <data_dir>/dataset.parquet)",
+        "--output_root", type=str, default="outputs/step3",
+        help="Root dir to save named dialogue chunks (default: outputs/step3)",
     )
 
     args = parser.parse_args()
 
-    chunks = load_chunks_pred(args.data_dir, use_extracted_name = False)
-    # chunks = load_chunks_gt(args.data_dir)
+    chunks = load_chunks_pred(
+        args.data_dir, use_extracted_name=True, output_root=args.output_root
+    )
+    # chunks = load_chunks_gt(args.data_dir, output_root=args.output_root)
     print(f"Loaded {len(chunks)} chunks")
 
     samples = [{
@@ -133,7 +178,7 @@ def main():
         "num_chunks": len(chunks),
     }]
 
-    output_path = args.output or os.path.join(args.data_dir, "dataset.parquet")
+    output_path = args.output or os.path.join(args.output_root, "dataset.parquet")
     df = pd.DataFrame(samples)
     df.to_parquet(output_path, index=False)
     print(f"Saved {len(samples)} samples ({len(chunks)} chunks) to {output_path}")
