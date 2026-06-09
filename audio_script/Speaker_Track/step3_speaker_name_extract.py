@@ -71,6 +71,7 @@ def load_pred_episode_chunks(dialogue_folder):
     folder_names = []
     speakers_pool = {}
     chunks = []
+    chunks_raw = []
 
     for subfolder in subfolders:
         folder_name = os.path.dirname(subfolder)
@@ -79,6 +80,7 @@ def load_pred_episode_chunks(dialogue_folder):
         with open(subfolder, "r") as f:
             dialog = json.load(f)
 
+        chunks_raw.append(dialog)
         dialog_chunk = f"[Dialogue between multiple people]\n"
         for turn in dialog:
             speaker = turn["speaker"]
@@ -91,14 +93,14 @@ def load_pred_episode_chunks(dialogue_folder):
 
         chunks.append(dialog_chunk)
 
-    return chunks, speakers_pool, folder_names
+    return chunks_raw, chunks, speakers_pool, folder_names
 
 
 
 # ── Test 4: End-to-end with real Qwen API call on episode data ───────────────
 
 def test_e2e_speaker_identification(dialogue_folder):
-    chunks, speakers_pool, folder_list = load_pred_episode_chunks(dialogue_folder)
+    chunks_raw, chunks, speakers_pool, folder_list = load_pred_episode_chunks(dialogue_folder)
     print(f"Loaded {len(chunks)} chunks, {len(speakers_pool)} unique speakers")
     # chunks = chunks[:20]
 
