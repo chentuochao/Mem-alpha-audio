@@ -475,6 +475,9 @@ class TwoPassSpeakerCluster(BaseGlobalSpeakerLinker):
         self.max_speakers = max_speakers
         # Buffered per-local-speaker records.
         self._buffer: List[Dict] = []
+        # Populated by finalize(); kept for debugging / visualisation.
+        self._embeddings: Optional[np.ndarray] = None
+        self._labels: Optional[np.ndarray] = None
 
     def add_audio_speakers(
         self, audio_key: str, local_speakers: Dict[str, Dict]
@@ -664,6 +667,10 @@ class TwoPassSpeakerCluster(BaseGlobalSpeakerLinker):
         embeddings = np.stack([r["embedding"] for r in self._buffer], axis=0)
         labels = self._cluster(embeddings)
 
+        # Keep around for debugging / visualisation.
+        self._embeddings = embeddings
+        self._labels = labels
+
         # Build GlobalSpeaker objects (centroid = weighted mean of members).
         clusters: Dict[int, List[int]] = defaultdict(list)
         for idx, lab in enumerate(labels):
@@ -703,6 +710,156 @@ class TwoPassSpeakerCluster(BaseGlobalSpeakerLinker):
             f"speaker(s) into {len(self.speakers)} global speaker(s)."
         )
         return self._mappings
+
+    def visualize(self, debug_dir: str, prefix: str = "twopass") -> List[str]:
+        """
+        Render the clustering for inspection and save figures to *debug_dir*.
+
+        Must be called after :meth:`finalize`.  Produces:
+          * ``{prefix}_scatter.png``  - 2-D PCA projection of all local-speaker
+            embeddings, coloured by predicted global cluster.
+          * ``{prefix}_affinity.png`` - cosine-affinity matrix reordered by
+            cluster, with cluster block boundaries drawn.
+
+        Returns the list of written file paths (empty if matplotlib is missing
+        or there is nothing to plot).
+        """
+        if self._embeddings is None or self._labels is None:
+            print("[TwoPass.visualize] Nothing to plot - call finalize() first.")
+            return []
+
+        names = [
+            f"{r['audio_key']}#{r['local_id']}" for r in self._buffer
+        ]
+        cluster_names = [
+            self._mappings[r["audio_key"]][r["local_id"]] for r in self._buffer
+        ]
+        affinity = self._affinity(self._embeddings)
+        return plot_clustering(
+            embeddings=self._embeddings,
+            labels=np.asarray(self._labels),
+            affinity=affinity,
+            item_names=names,
+            cluster_names=cluster_names,
+            debug_dir=debug_dir,
+            prefix=prefix,
+            title=f"TwoPass ({self.method})",
+        )
+
+
+# ─── Visualisation ───────────────────────────────────────────────────
+
+def _pca_2d(embeddings: np.ndarray) -> np.ndarray:
+    """Project rows to 2-D via PCA (numpy SVD, no sklearn dependency)."""
+    x = np.asarray(embeddings, dtype=np.float64)
+    x = x - x.mean(axis=0, keepdims=True)
+    # Economy SVD: principal axes are the rows of Vt.
+    _, _, vt = np.linalg.svd(x, full_matrices=False)
+    comps = vt[:2] if vt.shape[0] >= 2 else np.vstack([vt, np.zeros_like(vt[:1])])
+    return x @ comps.T
+
+
+def plot_clustering(
+    embeddings: np.ndarray,
+    labels: np.ndarray,
+    affinity: np.ndarray,
+    item_names: List[str],
+    cluster_names: List[str],
+    debug_dir: str,
+    prefix: str = "cluster",
+    title: str = "Speaker clustering",
+) -> List[str]:
+    """
+    Save a 2-D scatter and an affinity heatmap visualising a clustering.
+
+    Imports matplotlib lazily with the non-interactive 'Agg' backend so it is
+    safe on headless machines and adds no hard dependency.
+    """
+    import os
+
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+    except Exception as exc:  # pragma: no cover - depends on runtime env
+        print(f"[plot_clustering] matplotlib unavailable ({exc}); skipping plots.")
+        return []
+
+    os.makedirs(debug_dir, exist_ok=True)
+    labels = np.asarray(labels)
+    n = embeddings.shape[0]
+    uniq = sorted(set(labels.tolist()))
+    # Map each label to a colour (version-robust across matplotlib releases).
+    n_colors = max(len(uniq), 1)
+    try:
+        cmap = plt.colormaps["tab20"].resampled(n_colors)
+    except Exception:
+        from matplotlib import cm
+        cmap = cm.get_cmap("tab20", n_colors)
+    lab_to_color = {lab: cmap(i) for i, lab in enumerate(uniq)}
+    written: List[str] = []
+
+    # ── 1. 2-D PCA scatter ───────────────────────────────────────────
+    proj = _pca_2d(embeddings)
+    fig, ax = plt.subplots(figsize=(9, 7))
+    for lab in uniq:
+        m = labels == lab
+        # Use the human-readable global name for the legend if available.
+        gname = next(
+            (cluster_names[i] for i in range(n) if labels[i] == lab), str(lab)
+        )
+        ax.scatter(
+            proj[m, 0], proj[m, 1],
+            s=80, alpha=0.8, color=lab_to_color[lab],
+            edgecolors="k", linewidths=0.5,
+            label=f"{gname} (n={int(m.sum())})",
+        )
+    # Annotate individual points when the plot is not too crowded.
+    if n <= 40:
+        for i in range(n):
+            ax.annotate(
+                item_names[i], (proj[i, 0], proj[i, 1]),
+                fontsize=6, alpha=0.7,
+                xytext=(3, 3), textcoords="offset points",
+            )
+    ax.set_title(f"{title} - {len(uniq)} cluster(s), {n} local speakers (PCA 2-D)")
+    ax.set_xlabel("PC1")
+    ax.set_ylabel("PC2")
+    ax.legend(fontsize=7, loc="best", framealpha=0.8)
+    fig.tight_layout()
+    scatter_path = os.path.join(debug_dir, f"{prefix}_scatter.png")
+    fig.savefig(scatter_path, dpi=150)
+    plt.close(fig)
+    written.append(scatter_path)
+
+    # ── 2. Affinity heatmap reordered by cluster ─────────────────────
+    order = np.argsort(labels, kind="stable")
+    aff = np.asarray(affinity)[np.ix_(order, order)]
+    fig, ax = plt.subplots(figsize=(8, 7))
+    im = ax.imshow(aff, cmap="viridis", aspect="auto")
+    fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04, label="affinity")
+    # Draw block boundaries between clusters.
+    sorted_labels = labels[order]
+    boundaries = np.where(np.diff(sorted_labels) != 0)[0] + 0.5
+    for b in boundaries:
+        ax.axhline(b, color="red", linewidth=0.8)
+        ax.axvline(b, color="red", linewidth=0.8)
+    ax.set_title(f"{title} - affinity matrix (reordered by cluster)")
+    ax.set_xlabel("local speaker (sorted by cluster)")
+    ax.set_ylabel("local speaker (sorted by cluster)")
+    if n <= 40:
+        ax.set_xticks(range(n))
+        ax.set_yticks(range(n))
+        ax.set_xticklabels([item_names[i] for i in order], rotation=90, fontsize=5)
+        ax.set_yticklabels([item_names[i] for i in order], fontsize=5)
+    fig.tight_layout()
+    heatmap_path = os.path.join(debug_dir, f"{prefix}_affinity.png")
+    fig.savefig(heatmap_path, dpi=150)
+    plt.close(fig)
+    written.append(heatmap_path)
+
+    print(f"[plot_clustering] wrote {len(written)} figure(s) to {debug_dir}")
+    return written
 
 
 # ─── Factory ─────────────────────────────────────────────────────────
