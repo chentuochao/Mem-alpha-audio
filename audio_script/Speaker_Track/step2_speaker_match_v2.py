@@ -311,6 +311,11 @@ def discover_samples(data_dir: str) -> List[Dict]:
         transcript_path = os.path.join(sample_dir, "transcript_pred.json")
         if not os.path.exists(diar_path) or not os.path.exists(transcript_path):
             continue
+
+        # *** debug ***
+        if "Season01" not in sample_dir:
+            continue
+
         with open(info_path, "r") as f:
             info = json.load(f)
         info["sample_dir"] = sample_dir
@@ -541,7 +546,8 @@ def main():
             f"Processing cluster: {cluster['speaker_ids']} "
             f"with {len(cluster['samples'])} sample(s)"
         )
-
+    # print(clusters)
+    # exit(0)
     total_samples = sum(len(c["samples"]) for c in clusters)
     print(
         f"Found {total_samples} sample(s) in {len(clusters)} "
