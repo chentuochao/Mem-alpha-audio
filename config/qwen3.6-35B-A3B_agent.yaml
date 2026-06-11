@@ -1,0 +1,17 @@
+agent_name: "qwen3.6-35b-a3b"
+# NOTE: confirm the exact HuggingFace repo id for this model.
+# MoE model: all ~35B params load into VRAM (only ~3B active per token).
+model_name: "Qwen/Qwen3.6-35B-A3B"
+enable_thinking: false
+vllm: true
+max_new_tokens: 2048
+
+# vLLM init knobs (consumed by MemoryAgentPrompting in agent_prompting.py).
+# 2x H100 80GB node -> shard the 35B MoE weights across both GPUs.
+tensor_parallel_size: 2
+gpu_memory_utilization: 0.9
+# max_model_len: 32768   # uncomment to cap context if you hit OOM on long inputs
+
+infer_with_full_memory: true
+external_model_url: http://127.0.0.1:5005/batch_process
+api_key: EMPTY
