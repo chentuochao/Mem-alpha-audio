@@ -159,11 +159,20 @@ def main():
         help="Root dir to save named dialogue chunks (default: outputs/step3)",
     )
 
+    parser.add_argument(
+        "--use_gt_name", action='store_true'
+    )
+
     args = parser.parse_args()
 
-    chunks = load_chunks_pred(
-        args.data_dir, use_extracted_name=True, output_root=args.output_root
-    )
+    if args.use_gt_name:
+        chunks = load_chunks_gt(args.data_dir, output_root=args.output_root)
+        output_path = os.path.join(args.output_root, "dataset_gt_name.parquet")
+    else:
+        chunks = load_chunks_pred(
+            args.data_dir, use_extracted_name=True, output_root=args.output_root
+        )
+        output_path = os.path.join(args.output_root, "dataset_pred_name.parquet")
     # chunks = load_chunks_gt(args.data_dir, output_root=args.output_root)
     print(f"Loaded {len(chunks)} chunks")
 
@@ -178,7 +187,7 @@ def main():
         "num_chunks": len(chunks),
     }]
 
-    output_path = args.output or os.path.join(args.output_root, "dataset.parquet")
+
     df = pd.DataFrame(samples)
     df.to_parquet(output_path, index=False)
     print(f"Saved {len(samples)} samples ({len(chunks)} chunks) to {output_path}")

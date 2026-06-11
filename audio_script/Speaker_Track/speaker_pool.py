@@ -665,6 +665,7 @@ class TwoPassSpeakerCluster(BaseGlobalSpeakerLinker):
             return {}
 
         embeddings = np.stack([r["embedding"] for r in self._buffer], axis=0)
+        print("embeddings shape", embeddings.shape)
         labels = self._cluster(embeddings)
 
         # Keep around for debugging / visualisation.
@@ -825,7 +826,7 @@ def plot_clustering(
     ax.set_title(f"{title} - {len(uniq)} cluster(s), {n} local speakers (PCA 2-D)")
     ax.set_xlabel("PC1")
     ax.set_ylabel("PC2")
-    ax.legend(fontsize=7, loc="best", framealpha=0.8)
+    # ax.legend(fontsize=7, loc="best", framealpha=0.8)
     fig.tight_layout()
     scatter_path = os.path.join(debug_dir, f"{prefix}_scatter.png")
     fig.savefig(scatter_path, dpi=150)
