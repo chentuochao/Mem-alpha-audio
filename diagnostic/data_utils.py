@@ -1,0 +1,184 @@
+#!/usr/bin/env python3
+"""
+data_utils.py — loading & parsing for the Mem-alpha error tracer.
+
+Handles everything that touches disk or raw JSON shapes:
+    - answer parsing      : extract_choice, gold_letter
+    - QA + dialog loading : load_qa, DialogResolver, evidence_texts
+    - memory flattening   : memory_records, retrieved_records
+
+Each loader returns plain dicts/lists so the cascade and matcher stay decoupled
+from the on-disk schema.
+"""
+
+import os
+import re
+import json
+import string
+
+from matching import _utterance
+
+
+# --------------------------------------------------------------------------- #
+# Text normalization (applied at load time)
+# --------------------------------------------------------------------------- #
+def fix_space_in_text(text):
+    """Collapse Penn-Treebank spacing so the dialog source matches the memory store.
+
+    Removes the space before punctuation ("Hi ." -> "Hi.") and before contraction
+    tails ("ca n't" -> "can't", "they 're" -> "they're"). The apostrophe/quote
+    characters are intentionally EXCLUDED from the generic punctuation pass so that
+    opening quotes ("said 'soft") are not glued onto the previous word; only the
+    explicit contraction suffixes below are joined.
+    """
+    if not text:
+        return text
+    patterns = [" " + c for c in string.punctuation if c not in "'\""]
+    patterns += [" n't", " 'm", " 's", " 've", " 're", " 'll", " 'd",
+                 " 't", " 'y", " 'z"]
+    for p in patterns:
+        text = text.replace(p, p.strip())
+    return text
+
+
+# --------------------------------------------------------------------------- #
+# Correctness scoring (reuses the \boxed{X} convention from evaluate_agent_results.py)
+# --------------------------------------------------------------------------- #
+def extract_choice(text):
+    """Extract a single multiple-choice letter from a model response."""
+    if not text:
+        return None
+    m = re.search(r'\\boxed\{([A-Za-z])\}', text)
+    if m:
+        return m.group(1).upper()
+    # Fallbacks: "answer is A", "(A)", leading "A."
+    m = re.search(r'answer\s*(?:is|:)\s*\(?([A-Za-z])\)?', text, re.IGNORECASE)
+    if m:
+        return m.group(1).upper()
+    m = re.search(r'\(([A-Za-z])\)', text)
+    if m:
+        return m.group(1).upper()
+    m = re.match(r'\s*([A-Za-z])[.)]', text)
+    if m:
+        return m.group(1).upper()
+    return None
+
+
+def gold_letter(answer):
+    """'A. Invite Penny over for lunch' -> 'A'."""
+    if not answer:
+        return None
+    m = re.match(r'\s*([A-Za-z])[.)]', answer.strip())
+    return m.group(1).upper() if m else None
+
+
+# --------------------------------------------------------------------------- #
+# QA + dialog loading
+# --------------------------------------------------------------------------- #
+def load_qa(qa_file):
+    """Read a QA jsonl (one object per line) into a list of dicts."""
+    items = []
+    with open(qa_file) as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                items.append(json.loads(line))
+    return items
+
+
+class DialogResolver:
+    """Resolve a gt_source `file` (e.g. '.../Episode02.json') to its turn list.
+
+    Searches the given roots recursively by basename and caches loaded dialogs.
+    Each question's evidence_turns index into ITS OWN file, so we must load the
+    right dialog per source rather than assuming a single transcript.
+    """
+
+    def __init__(self, roots):
+        self.index = {}      # basename -> path
+        self.cache = {}      # path -> turns
+        for root in roots:
+            if not root or not os.path.isdir(root):
+                continue
+            for dirpath, _, files in os.walk(root):
+                for fn in files:
+                    if fn.endswith(".json"):
+                        self.index.setdefault(fn, os.path.join(dirpath, fn))
+
+    def turns_for(self, file_field):
+        base = os.path.basename(file_field or "")
+        path = self.index.get(base)
+        if not path:
+            return None
+        if path not in self.cache:
+            try:
+                with open(path) as f:
+                    self.cache[path] = json.load(f)
+            except Exception:
+                self.cache[path] = None
+        return self.cache[path]
+
+
+def evidence_texts(qa, resolver, min_turn_words=3):
+    """Return (texts, unresolved_files) for a QA item's gold evidence turns.
+
+    texts: list of "speaker: text" strings pulled from each source's own dialog.
+    Turns whose utterance has fewer than `min_turn_words` words are dropped (too
+    short to match reliably). If that would drop ALL turns, the unfiltered list is
+    kept so the question is not lost.
+    unresolved_files: source files that could not be located on disk.
+    """
+    out, unresolved = [], []
+    gt = qa.get("gt_source", {})
+    sources = gt.get("sources")
+    if sources is None and "evidence_turns" in gt:          # single-source schema
+        sources = [gt]
+    for src in (sources or []):
+        turns = resolver.turns_for(src.get("file", ""))
+        if not turns:
+            unresolved.append(src.get("file", ""))
+            continue
+        for ti in src.get("evidence_turns", []):
+            if 0 <= ti < len(turns):
+                t = turns[ti]
+                out.append(f"{t.get('speaker','?')}: {fix_space_in_text(t.get('text',''))}")
+
+    filtered = [t for t in out if len(_utterance(t).split()) >= min_turn_words]
+    return (filtered if filtered else out), unresolved
+
+
+# --------------------------------------------------------------------------- #
+# Memory flattening
+# --------------------------------------------------------------------------- #
+def _records_from_blob(blob):
+    """Turn a memory blob (core str + episodic/semantic lists of {hash:text}) into
+    a flat list of records {id, mtype, text}, preserving the unit hash id and type."""
+    records, episodic = [], []
+    if not blob:
+        return records, episodic
+    core = blob.get("core")
+    if isinstance(core, list):
+        core = " ".join(str(x) for x in core)
+    if core:
+        records.append({"id": "core", "mtype": "core", "text": fix_space_in_text(core)})
+    for mtype in ("episodic", "semantic"):
+        for d in blob.get(mtype) or []:
+            if isinstance(d, dict) and d:
+                uid, text = next(iter(d.items()))
+            else:
+                uid, text = None, str(d)
+            rec = {"id": uid, "mtype": mtype, "text": fix_space_in_text(text)}
+            records.append(rec)
+            if mtype == "episodic":
+                episodic.append(rec)
+    return records, episodic
+
+
+def memory_records(state):
+    """Stored agent_state -> (all_records, episodic_records)."""
+    return _records_from_blob(state)
+
+
+def retrieved_records(retrieved):
+    """results.json retrieved_memory -> (all_records, episodic_records)."""
+    return _records_from_blob(retrieved)
