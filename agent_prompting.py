@@ -53,6 +53,19 @@ class MemoryAgentPrompting(MemoryAgent):
         if agent_config.get("max_model_len") is not None:
             vllm_overrides["max_model_len"] = agent_config["max_model_len"]
 
+        # enforce_eager=True skips torch.compile + CUDA-graph capture. For
+        # hybrid Mamba/attention MoE models (Qwen3-Next style) that capture
+        # phase is extremely slow and can appear to hang on multi-GPU TP, so
+        # this is the recommended escape hatch. Slower per-token inference but
+        # reliable, fast startup. Omit / set false once startup is confirmed.
+        if agent_config.get("enforce_eager") is not None:
+            vllm_overrides["enforce_eager"] = bool(agent_config["enforce_eager"])
+
+        # Generic passthrough for any other vLLM LLM(...) kwargs from config.
+        extra = agent_config.get("vllm_kwargs") or {}
+        if isinstance(extra, dict):
+            vllm_overrides.update(extra)
+
         # Run the base __init__ with the module-level LLM symbol temporarily
         # wrapped so our overrides are applied to the engine it builds. This
         # keeps agent.py untouched while still inheriting any other __init__
