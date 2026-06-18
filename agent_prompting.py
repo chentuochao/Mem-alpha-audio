@@ -61,6 +61,27 @@ class MemoryAgentPrompting(MemoryAgent):
         if agent_config.get("enforce_eager") is not None:
             vllm_overrides["enforce_eager"] = bool(agent_config["enforce_eager"])
 
+        # --- TEXT-ONLY loading for Qwen3.5/3.6 VL checkpoints --------------
+        # Qwen3_5ForConditionalGeneration is a vision-language model. Memory
+        # construction is text-only, so we disable the multimodal tower:
+        #   * limit_mm_per_prompt={"image":0,"video":0} -> skip the max-image
+        #     warmup forward pass that HANGS engine startup.
+        #   * gdn_prefill_backend="triton" -> skip the FlashInfer Gated-DeltaNet
+        #     JIT compile that also stalls the first prefill.
+        # These match the verified-working settings from test_load_qwen.py.
+        # Both can be overridden from config (set to null to drop them).
+        if "limit_mm_per_prompt" in agent_config:
+            if agent_config["limit_mm_per_prompt"] is not None:
+                vllm_overrides["limit_mm_per_prompt"] = agent_config["limit_mm_per_prompt"]
+        else:
+            vllm_overrides["limit_mm_per_prompt"] = {"image": 0, "video": 0}
+
+        if "gdn_prefill_backend" in agent_config:
+            if agent_config["gdn_prefill_backend"] is not None:
+                vllm_overrides["gdn_prefill_backend"] = agent_config["gdn_prefill_backend"]
+        else:
+            vllm_overrides["gdn_prefill_backend"] = "triton"
+
         # Generic passthrough for any other vLLM LLM(...) kwargs from config.
         extra = agent_config.get("vllm_kwargs") or {}
         if isinstance(extra, dict):
