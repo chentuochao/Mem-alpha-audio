@@ -69,6 +69,27 @@ def _utterance(turn):
     return turn.split(": ", 1)[1] if ": " in turn else turn
 
 
+def _speaker(turn):
+    """The 'speaker' part before the first ': ' (complement of _utterance)."""
+    return turn.split(": ", 1)[0] if ": " in turn else ""
+
+
+def speaker_match(gt_name, pred_name):
+    """Fuzzy speaker-name match (gold vs predicted/transcription name).
+
+    Tolerates first-name-only and partial predictions, e.g. predicted 'Sheldon'
+    matches gold 'sheldon_cooper'. Not exact: a predicted name matches if it is a
+    substring of the gold name, or the gold name starts with the predicted name or
+    its first token.
+    """
+    if not gt_name or not pred_name:
+        return False
+    g = gt_name.strip().lower()
+    p = pred_name.strip().lower()
+    first_p = p.split()[0] if p.split() else p
+    return (p in g) or g.startswith(p) or g.startswith(first_p)
+
+
 def _ngrams(tokens, n):
     return set(zip(*(tokens[i:] for i in range(n)))) if len(tokens) >= n else set()
 
@@ -192,12 +213,20 @@ class LLMJudge:
 # --------------------------------------------------------------------------- #
 # Layered presence test
 # --------------------------------------------------------------------------- #
-def _turn_present(turn, records, emb, judge):
+def _turn_present(turn, records, emb, judge, match_speaker=False):
     """Is a single evidence turn present in any memory record? Returns (bool, info).
 
-    `records` are dicts {id, mtype, text}. The returned info reports which memory
-    unit matched (memory_id, memory_type), how (method), and the score.
+    `records` are dicts {id, mtype, text} (and {speaker} when match_speaker is used).
+    The returned info reports which memory unit matched (memory_id, memory_type),
+    how (method), and the score.
+
+    If match_speaker is True, only records whose speaker fuzzily matches the
+    evidence turn's speaker are considered — so a turn counts as present only when
+    BOTH its content and its speaker are preserved.
     """
+    if match_speaker:
+        spk = _speaker(turn)
+        records = [r for r in records if speaker_match(spk, r.get("speaker", ""))]
     if not records:
         return False, {"method": "none", "score": 0.0, "memory_id": None, "memory_type": None}
 
@@ -225,18 +254,21 @@ def _turn_present(turn, records, emb, judge):
     return False, out
 
 
-def present(evidence_turns, records, emb, judge):
+def present(evidence_turns, records, emb, judge, match_speaker=False):
     """Coverage-based presence over a SET of evidence turns.
 
     Returns (matched: bool, info) where matched means coverage >= COVERAGE_TAU.
     info["matches"] lists, per evidence turn, whether it was found and in which
     memory unit (memory_id / memory_type), so attribution is fully auditable.
+
+    match_speaker=True additionally requires the matched record's speaker to
+    fuzzily match the evidence turn's speaker (used for the transcription stage).
     """
     if not evidence_turns:
         return False, {"coverage": 0.0, "matched": 0, "total": 0, "missing": [], "matches": []}
     hits, missing, matches = 0, [], []
     for t in evidence_turns:
-        ok, tinfo = _turn_present(t, records, emb, judge)
+        ok, tinfo = _turn_present(t, records, emb, judge, match_speaker=match_speaker)
         matches.append({
             "turn": t[:120],
             "found": ok,

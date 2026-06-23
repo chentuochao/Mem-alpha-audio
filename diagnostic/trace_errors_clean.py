@@ -45,46 +45,14 @@ except Exception:
     pass
 
 from matching import (
-    EmbeddingMatcher, LLMJudge, lexical_score,
+    EmbeddingMatcher, LLMJudge,
     present, evidence_rank, LEX_TAU, EMB_TAU,
 )
 from data_utils import (
     extract_choice, gold_letter, load_qa, DialogResolver,
     evidence_texts, evidence_episodes, TranscriptLoader,
-    memory_records, retrieved_records, fix_space_in_text,
+    memory_records, retrieved_records,
 )
-
-
-# --------------------------------------------------------------------------- #
-# Construction sub-classification
-# --------------------------------------------------------------------------- #
-def construction_subtype(missing_turns, chunks_fc):
-    """Decide extraction vs update/deletion for the turns missing from the store.
-
-    For each missing turn:
-      - if it appears in some chunk's raw_chunk (so the agent saw it) but in no
-        function_call write -> extraction (never captured).
-      - if it appears in a function_call's arguments (it WAS written) yet is gone
-        from the final store -> update/deletion (later overwritten/removed).
-    """
-    written, in_raw = 0, 0
-    for t in missing_turns:
-        saw_raw = any(lexical_score(t, ch.get("raw_chunk", "")) >= LEX_TAU for ch in chunks_fc)
-        wrote = False
-        for ch in chunks_fc:
-            for fc in ch.get("function_calls", []):
-                args = fc.get("function_call", {}).get("arguments", "")
-                content = args if isinstance(args, str) else json.dumps(args)
-                if lexical_score(t, content) >= LEX_TAU:
-                    wrote = True
-                    break
-            if wrote:
-                break
-        in_raw += int(saw_raw)
-        written += int(wrote)
-    subtype = "update/deletion" if written > 0 else "extraction"
-    return subtype, {"missing_turns": len(missing_turns),
-                     "seen_in_raw": in_raw, "written_then_lost": written}
 
 
 # --------------------------------------------------------------------------- #
@@ -99,20 +67,7 @@ def trace(args):
         results = json.load(f)
     with open(os.path.join(args.instance_dir, "agent_state.json")) as f: # load agent state from the agent state file
         state = json.load(f)
-    chunks_fc = []
-    cf_path = os.path.join(args.instance_dir, "chunks_and_function_calls.json")
-    if os.path.exists(cf_path):
-        with open(cf_path) as f:
-            chunks_fc = json.load(f)
-        # Normalize the construction trace at load so it tokenizes like the
-        # (already-normalized) evidence turns and memory units.
-        for ch in chunks_fc:
-            ch["raw_chunk"] = fix_space_in_text(ch.get("raw_chunk", ""))
-            for fc in ch.get("function_calls", []):
-                call = fc.get("function_call", {})
-                if isinstance(call.get("arguments"), str):
-                    call["arguments"] = fix_space_in_text(call["arguments"])
-                    
+
     # global memory records from agent_states.json
     store_records, episodic_records = memory_records(state)
 
@@ -185,30 +140,29 @@ def trace(args):
         # Matched only within the evidence's OWN episode(s); the transcribed dialogue
         # is the input to memory construction, so a drop here is upstream of the agent.
         trans_info = None
-        # if transcript.available:
-        #     episodes = evidence_episodes(qa)
-        #     trans_records = transcript.records_for_episodes(episodes)
-        #     if trans_records:
-        #         # require BOTH content and speaker name to be preserved
-        #         in_transcript, trans_info = present(ev_list, trans_records, emb, judge,
-        #                                             match_speaker=True)
-        #         if not in_transcript:
-        #             rec["stage"] = "transcription"
-        #             rec["detail"] = {"transcript_coverage": trans_info,
-        #                              "episodes": sorted(episodes)}
-        #             findings.append(rec)
-        #             continue
-        #     else:
-        #         trans_info = {"note": "transcript_unavailable_for_episode",
-        #                       "episodes": sorted(episodes)}
+        if transcript.available:
+            episodes = evidence_episodes(qa)
+            trans_records = transcript.records_for_episodes(episodes)
+            if trans_records:
+                # require BOTH content and speaker name to be preserved
+                in_transcript, trans_info = present(ev_list, trans_records, emb, judge,
+                                                    match_speaker=True)
+                if not in_transcript:
+                    rec["stage"] = "transcription"
+                    rec["detail"] = {"transcript_coverage": trans_info,
+                                     "episodes": sorted(episodes)}
+                    findings.append(rec)
+                    continue
+            else:
+                trans_info = {"note": "transcript_unavailable_for_episode",
+                              "episodes": sorted(episodes)}
 
         # --- STAGE: construction (is evidence in the stored memory?) ---
         in_store, store_info = present(ev_list, store_records, emb, judge)
         if not in_store:
-            subtype, sub_info = construction_subtype(store_info["missing"], chunks_fc)
-            rec["stage"] = f"construction:{subtype}"
+            rec["stage"] = "construction"
             rec["detail"] = {"transcript_coverage": trans_info,
-                             "store_coverage": store_info, **sub_info}
+                             "store_coverage": store_info}
             findings.append(rec)
             continue
 
@@ -252,7 +206,7 @@ def _summarize_and_save(args, findings, emb, judge):
     order = ["gate:no_parseable_answer", "gate:qa_not_found", "gate:no_gold_evidence",
              "gate:evidence_file_unavailable",
              "transcription",
-             "construction:extraction", "construction:update/deletion",
+             "construction",
              "retrieval", "response"]
     for k in order:
         if buckets.get(k):

@@ -4,7 +4,8 @@ data_utils.py — loading & parsing for the Mem-alpha error tracer.
 
 Handles everything that touches disk or raw JSON shapes:
     - answer parsing      : extract_choice, gold_letter
-    - QA + dialog loading : load_qa, DialogResolver, evidence_texts
+    - QA + dialog loading : load_qa, DialogResolver, evidence_texts, evidence_episodes
+    - transcribed dialog  : TranscriptLoader (ASR + speaker naming, per episode)
     - memory flattening   : memory_records, retrieved_records
 
 Each loader returns plain dicts/lists so the cascade and matcher stay decoupled
@@ -145,6 +146,80 @@ def evidence_texts(qa, resolver, min_turn_words=3):
 
     filtered = [t for t in out if len(_utterance(t).split()) >= min_turn_words]
     return (filtered if filtered else out), unresolved
+
+
+def evidence_episodes(qa):
+    """Episode name(s) a question's gold evidence comes from, derived from the
+    gt_source `file` basenames (without the .json extension). e.g.
+    'TheBigBangTheory.Season01.Episode02.json' -> 'TheBigBangTheory.Season01.Episode02'.
+    Used to scope transcription matching to the evidence's OWN episode."""
+    gt = qa.get("gt_source", {})
+    sources = gt.get("sources")
+    if sources is None and "evidence_turns" in gt:
+        sources = [gt]
+    episodes = set()
+    for src in (sources or []):
+        base = os.path.basename(src.get("file", ""))
+        if base.endswith(".json"):
+            base = base[:-len(".json")]
+        if base:
+            episodes.add(base)
+    return episodes
+
+
+# --------------------------------------------------------------------------- #
+# Transcribed dialogue (ASR + speaker-naming step, BEFORE memory construction)
+# --------------------------------------------------------------------------- #
+class TranscriptLoader:
+    """Loads the transcribed dialogue produced upstream of memory construction.
+
+    Layout: <root>/<episode>/CHUNK_*/parsed_dialog_pred.json, each a list of turns
+    {speaker, start, end, text}. `episode_records` concatenates all of an episode's
+    chunks into matcher records {id, mtype='transcript', text}, cached per episode.
+    Matching is scoped per episode (the transcript carries the episode), so we never
+    match evidence across episodes here.
+    """
+
+    def __init__(self, root, pred_filename="parsed_dialog_pred.json"):
+        self.root = root
+        self.pred_filename = pred_filename
+        self.cache = {}      # episode -> records
+        self.available = bool(root) and os.path.isdir(root)
+
+    @staticmethod
+    def _chunk_key(name):
+        m = re.search(r"(\d+)", name)
+        return (0, int(m.group(1))) if m else (1, name)
+
+    def episode_records(self, episode):
+        if episode in self.cache:
+            return self.cache[episode]
+        records = []
+        epdir = os.path.join(self.root, episode) if self.root else ""
+        if epdir and os.path.isdir(epdir):
+            for ch in sorted(os.listdir(epdir), key=self._chunk_key):
+                p = os.path.join(epdir, ch, self.pred_filename)
+                if not os.path.isfile(p):
+                    continue
+                try:
+                    with open(p) as f:
+                        turns = json.load(f)
+                except Exception:
+                    continue
+                for i, t in enumerate(turns):
+                    speaker = t.get("speaker", "?")
+                    text = fix_space_in_text(f"{speaker}: {t.get('text','')}")
+                    records.append({"id": f"{episode}/{ch}:{i}", "mtype": "transcript",
+                                    "speaker": speaker, "text": text})
+        self.cache[episode] = records
+        return records
+
+    def records_for_episodes(self, episodes):
+        """Concatenated transcript records for a set of episodes (union)."""
+        out = []
+        for ep in episodes:
+            out.extend(self.episode_records(ep))
+        return out
 
 
 # --------------------------------------------------------------------------- #

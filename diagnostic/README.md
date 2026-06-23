@@ -54,6 +54,11 @@ GATES
   • evidence dialog file unavailable          ▶ gate:evidence_file_unavailable
   • no usable gold evidence                   ▶ gate:no_gold_evidence
    │
+TRANSCRIPTION — is the evidence in the TRANSCRIBED dialogue? (parsed_dialog_pred.json)
+   ├─ no  ▶ transcription                 (ASR or speaker-naming dropped it, BEFORE construction)
+   │ yes                                   (matched only within the evidence's OWN episode;
+   │                                        requires BOTH content AND speaker name to match)
+   │
 CONSTRUCTION  — is the evidence in the FULL stored memory? (agent_state.json)
    ├─ no  ▶ construction:extraction       (agent saw it, never wrote it)
    │      ▶ construction:update/deletion  (it was written, then lost)
@@ -82,6 +87,12 @@ require enough turns to match.
 The **construction vs retrieval vs response** decision is just `present()` applied
 first to the full store, then to the retrieved set, with the same `COVERAGE_TAU`
 as the boundary each time.
+
+The **transcription** stage uses `present(..., match_speaker=True)`: a turn counts
+as preserved only if its content matches **and** the transcript's predicted speaker
+fuzzily matches the gold speaker (`matching.speaker_match` — e.g. predicted
+`Sheldon` matches gold `sheldon_cooper`). So it catches both ASR content loss and
+speaker mis-attribution by the diarization/naming step.
 
 ### Lexical matching (the default signal)
 
@@ -128,7 +139,8 @@ raise `COVERAGE_TAU` toward 1.0 to require (nearly) all evidence present.
 | `agent_state.json` | `--instance_dir` | the full stored memory (`core` / `episodic` / `semantic`) |
 | `chunks_and_function_calls.json` | `--instance_dir` | *optional* — splits construction into extraction vs update/deletion |
 | QA file (`merged_95.jsonl`) | `--qa_file` | questions, options, gold answer, `gt_source.evidence_turns` |
-| dialog transcripts | `--dialog_root` | resolves `evidence_turns` → actual turn text |
+| gold dialog transcripts | `--dialog_root` | resolves `evidence_turns` → actual gold turn text |
+| transcribed dialogue | `--transcript_root` | *optional* — the ASR + speaker-naming output (`<root>/<episode>/CHUNK_*/parsed_dialog_pred.json`) fed into memory construction; enables the `transcription` stage |
 
 Notes:
 - `chunks_and_function_calls.json` is only read on the construction branch. Without
@@ -185,6 +197,7 @@ Each matched turn records **which memory unit** it matched (`memory_id` hash,
 | `--instance_dir` | (a run under `memory_result/`) | dir with `results.json` / `agent_state.json` / `chunks_and_function_calls.json` |
 | `--qa_file` | `outputs/tmp_folder_for_95_qs/merged_95.jsonl` | QA jsonl with `gt_source.evidence_turns` |
 | `--dialog_root` | `outputs/bazinga/TheBigBangTheory/Season1` | dir(s) searched recursively for evidence dialog files |
+| `--transcript_root` | `outputs/step3/vibevoice_TheBigBangTheory_predname` | transcribed dialogue root for the `transcription` stage (set `''` to disable) |
 | `--min_turn_words` | `3` | drop evidence turns whose utterance has fewer than N words (set `0` to disable) |
 | `--out` | `<instance_dir>/error_trace.json` | output path |
 
