@@ -207,10 +207,6 @@ class LLMJudge:
                 temperature=0.0, max_tokens=8,
                 extra_body={"chat_template_kwargs": {"enable_thinking": False}},
             )
-            print(prompt)
-            print(r.choices[0].message.content )
-            print()
-            print()
             return "yes" in (r.choices[0].message.content or "").strip().lower()
         except Exception as e:
             print(f"[judge] error ({e})")
@@ -255,7 +251,6 @@ def _turn_present(turn, records, emb, judge, match_speaker=False,
             return True, info("emb", round(es, 3), ei)
     if use_judge and judge.enabled and len(_utterance(turn).strip()) > JUDGE_MIN_CHARS:
         for wi, i in lex[:3]:
-            print("lex = ", wi, i)
             if judge.entails(turn, records[i]["text"]):
                 return True, info("llm", None, i)
     out = info("miss", round(best_lex, 3), best_i)   # best_unit kept for debugging the miss
