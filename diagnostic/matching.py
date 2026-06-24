@@ -213,7 +213,8 @@ class LLMJudge:
 # --------------------------------------------------------------------------- #
 # Layered presence test
 # --------------------------------------------------------------------------- #
-def _turn_present(turn, records, emb, judge, match_speaker=False):
+def _turn_present(turn, records, emb, judge, match_speaker=False,
+                  use_emb=True, use_judge=True):
     """Is a single evidence turn present in any memory record? Returns (bool, info).
 
     `records` are dicts {id, mtype, text} (and {speaker} when match_speaker is used).
@@ -241,11 +242,11 @@ def _turn_present(turn, records, emb, judge, match_speaker=False):
     best_lex, best_i = lex[0]
     if best_lex >= LEX_TAU:
         return True, info("lex", round(best_lex, 3), best_i)
-    if emb.enabled:
+    if use_emb and emb.enabled:
         es, ei = emb.best_score_idx(turn, [r["text"] for r in records])
         if es >= EMB_TAU:
             return True, info("emb", round(es, 3), ei)
-    if judge.enabled:
+    if use_judge and judge.enabled:
         for _, i in lex[:3]:
             if judge.entails(turn, records[i]["text"]):
                 return True, info("llm", None, i)
@@ -254,7 +255,8 @@ def _turn_present(turn, records, emb, judge, match_speaker=False):
     return False, out
 
 
-def present(evidence_turns, records, emb, judge, match_speaker=False):
+def present(evidence_turns, records, emb, judge, match_speaker=False,
+            use_emb=False, use_judge=False):
     """Coverage-based presence over a SET of evidence turns.
 
     Returns (matched: bool, info) where matched means coverage >= COVERAGE_TAU.
@@ -263,12 +265,17 @@ def present(evidence_turns, records, emb, judge, match_speaker=False):
 
     match_speaker=True additionally requires the matched record's speaker to
     fuzzily match the evidence turn's speaker (used for the transcription stage).
+
+    use_emb / use_judge let a caller disable the embedding or LLM-judge tiers for
+    THIS call even when emb.enabled / judge.enabled are globally on (e.g. run the
+    construction stage lexical-only). Lexical matching is always on.
     """
     if not evidence_turns:
         return False, {"coverage": 0.0, "matched": 0, "total": 0, "missing": [], "matches": []}
     hits, missing, matches = 0, [], []
     for t in evidence_turns:
-        ok, tinfo = _turn_present(t, records, emb, judge, match_speaker=match_speaker)
+        ok, tinfo = _turn_present(t, records, emb, judge, match_speaker=match_speaker,
+                                  use_emb=use_emb, use_judge=use_judge)
         matches.append({
             "turn": t[:120],
             "found": ok,

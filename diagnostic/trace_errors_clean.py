@@ -145,8 +145,7 @@ def trace(args):
             trans_records = transcript.records_for_episodes(episodes)
             if trans_records:
                 # require BOTH content and speaker name to be preserved
-                in_transcript, trans_info = present(ev_list, trans_records, emb, judge,
-                                                    match_speaker=True)
+                in_transcript, trans_info = present(ev_list, trans_records, emb, judge, match_speaker=True, use_emb=False, use_judge=False)
                 if not in_transcript:
                     rec["stage"] = "transcription"
                     rec["detail"] = {"transcript_coverage": trans_info,
@@ -158,7 +157,7 @@ def trace(args):
                               "episodes": sorted(episodes)}
 
         # --- STAGE: construction (is evidence in the stored memory?) ---
-        in_store, store_info = present(ev_list, store_records, emb, judge)
+        in_store, store_info = present(ev_list, store_records, emb, judge, use_judge=True)
         if not in_store:
             rec["stage"] = "construction"
             rec["detail"] = {"transcript_coverage": trans_info,
@@ -168,7 +167,7 @@ def trace(args):
 
         # --- STAGE: retrieval (was evidence shown to the QA model?) ---
         retr_records, _ = retrieved_records(res.get("retrieved_memory"))
-        in_retrieved, retr_info = present(ev_list, retr_records, emb, judge)
+        in_retrieved, retr_info = present(ev_list, retr_records, emb, judge, use_judge=True)
         if not in_retrieved:
             best_rank, ranks = evidence_rank(ev_list, episodic_records)
             rec["stage"] = "retrieval"
@@ -232,7 +231,7 @@ def _summarize_and_save(args, findings, emb, judge):
 def parse_args():
     p = argparse.ArgumentParser(description="Cascade error attribution for Mem-alpha QA.")
     p.add_argument("--instance_dir",
-                   default="memory_result/minimal_memory_agent_qwen_converted_YuWangX_Memalpha-4B_seamlessinteraction_options_Season1_vibevoice_gt_name_no_thinking_tokens_2048/0",
+                   default=None,
                    help="Dir with results.json / agent_state.json / chunks_and_function_calls.json")
     p.add_argument("--qa_file", default="outputs/tmp_folder_for_95_qs/merged_95.jsonl",
                    help="QA jsonl with gt_source.evidence_turns")
