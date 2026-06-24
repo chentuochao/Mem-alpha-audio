@@ -236,7 +236,8 @@ def _turn_present(turn, records, emb, judge, match_speaker=False,
         spk = _speaker(turn)
         records = [r for r in records if speaker_match(spk, r.get("speaker", ""))]
     if not records:
-        return False, {"method": "none", "score": 0.0, "memory_id": None, "memory_type": None}
+        return False, {"method": "none", "score": 0.0, "memory_id": None,
+                       "memory_type": None, "top3_lex": []}
 
     def info(method, score, i):
         r = records[i]
@@ -246,20 +247,30 @@ def _turn_present(turn, records, emb, judge, match_speaker=False,
 
     lex = sorted(((lexical_score(turn, r["text"]), i) for i, r in enumerate(records)),
                  key=lambda x: -x[0])
+    # Top-3 lexical candidates, recorded on every result (hit OR miss) so the trace
+    # always shows which memory units were the closest lexical neighbours.
+    top3 = [{"memory_id": records[i].get("id"), "memory_type": records[i].get("mtype"),
+             "score": round(s, 3)} for s, i in lex[:3]]
     best_lex, best_i = lex[0]
     if best_lex >= LEX_TAU:
-        return True, info("lex", round(best_lex, 3), best_i)
+        out = info("lex", round(best_lex, 3), best_i)
+        out["top3_lex"] = top3
+        return True, out
     if use_emb and emb.enabled:
         es, ei = emb.best_score_idx(turn, [r["text"] for r in records])
         if es >= EMB_TAU:
-            return True, info("emb", round(es, 3), ei)
+            out = info("emb", round(es, 3), ei)
+            out["top3_lex"] = top3
+            return True, out
     if use_judge and judge.enabled and len(_utterance(turn).strip()) > JUDGE_MIN_CHARS:
         for wi, i in lex[:3]:
-            print("lex = ", wi, i)
             if judge.entails(turn, records[i]["text"]):
-                return True, info("llm", None, i)
+                out = info("llm", None, i)
+                out["top3_lex"] = top3
+                return True, out
     out = info("miss", round(best_lex, 3), best_i)   # best_unit kept for debugging the miss
     out["matched"] = False
+    out["top3_lex"] = top3
     return False, out
 
 
@@ -291,6 +302,8 @@ def present(evidence_turns, records, emb, judge, match_speaker=False,
             "memory_type": tinfo.get("memory_type") if ok else None,
             "method": tinfo.get("method"),
             "score": tinfo.get("score"),
+            # Top-3 lexical neighbours, recorded even on a miss for debugging.
+            "top3_lex": tinfo.get("top3_lex", []),
         })
         if ok:
             hits += 1
