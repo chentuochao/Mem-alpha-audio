@@ -62,6 +62,14 @@ def parse_args():
     parser.add_argument("--batch_size", type=int, default=32, help="Batch size for batch processing")
     parser.add_argument("--rollout_label", type=str, default=None, help="Label to append to output directory path, e.g., rollout_1")
     parser.add_argument(
+        "--compression_strategy",
+        type=str,
+        default="x2",
+        help="Compression strategy controlling memory verbosity + per-chunk token budget. "
+             "Must match a key under 'compression_strategies' in config/prompts_wrt_datasource_compression.yaml "
+             "(e.g. x1.5, x2, x3, x5). Names are nominal targets, not exact ratios."
+    )
+    parser.add_argument(
         "--exclude_memory",
         nargs='*',
         default=[],
@@ -109,8 +117,27 @@ def count_input_tokens(chunks: list, tokenizer) -> int:
 def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunks, batch_sources):
     """Process chunks and build memory for a batch of conversations."""
 
-    with open('config/prompts_wrt_datasource.yaml', 'r') as f:
+    # Use the compression-enabled prompt config (adds {compression_instruction}
+    # placeholder + compression_strategies block on top of the original prompts).
+    with open('config/prompts_wrt_datasource_compression.yaml', 'r') as f:
         prompts_wrt_datasource = yaml.safe_load(f)
+
+    # Resolve the compression strategy (verbosity instruction + token-budget multiplier).
+    compression_strategies = prompts_wrt_datasource.get('compression_strategies', {})
+    if args.compression_strategy not in compression_strategies:
+        raise ValueError(
+            f"Unknown --compression_strategy '{args.compression_strategy}'. "
+            f"Available: {', '.join(sorted(compression_strategies.keys()))}"
+        )
+    strategy = compression_strategies[args.compression_strategy]
+    compression_instruction = strategy['instruction']
+    budget_ratio = float(strategy.get('budget_ratio', 1.0))
+    base_max_new_tokens = agent_config.get('max_new_tokens', 2048)
+    # Hard per-chunk output cap for this strategy. Smaller cap -> smaller memory -> higher ratio.
+    effective_max_new_tokens = max(64, int(base_max_new_tokens * budget_ratio))
+    print(f"[DEBUG] Compression strategy '{args.compression_strategy}': "
+          f"budget_ratio={budget_ratio}, max_new_tokens={effective_max_new_tokens} "
+          f"(base={base_max_new_tokens})")
 
     batch_size = len(batch_chunks)
 
@@ -155,7 +182,7 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
         # pass chunk by chunk
         print(f"[DEBUG] Processing chunk {chunk_idx + 1}/{max_chunks}")
 
-        max_new_tokens = agent_config.get('max_new_tokens', 2048)
+        max_new_tokens = effective_max_new_tokens
 
         remaining_indices = []
         current_chunks = []
@@ -163,7 +190,11 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
             if chunk_idx < len(chunk_list):
                 prompt_key = 'unified_prompt_multispeaker' if "seamlessinteraction" in batch_sources[i] else 'unified_prompt'
                 # prompt_key = 'unified_prompt'
-                current_chunks.append(prompts_wrt_datasource[prompt_key].format(context=chunk_list[chunk_idx], max_new_tokens=int(max_new_tokens * 0.8)))
+                current_chunks.append(prompts_wrt_datasource[prompt_key].format(
+                    context=chunk_list[chunk_idx],
+                    max_new_tokens=int(max_new_tokens * 0.8),
+                    compression_instruction=compression_instruction,
+                ))
                 remaining_indices.append(i)
         if len(remaining_indices) == 0:
             break
@@ -188,7 +219,7 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
         if agent_config['enable_thinking']:
             # First generation until thinking budget
             thinking_budget = agent_config.get('thinking_budget', 1024)
-            max_new_tokens = agent_config.get('max_new_tokens', 2048)
+            max_new_tokens = effective_max_new_tokens
 
             thinking_sampling_params = SamplingParams(
                 temperature=0.7,
@@ -258,7 +289,7 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
                 final_responses[idx] = first_responses[idx].strip()
         else:
             # Single generation without thinking budget
-            max_new_tokens = agent_config.get('max_new_tokens', 2048)
+            max_new_tokens = effective_max_new_tokens
             sampling_params = SamplingParams(
                 temperature=0.0,
                 max_tokens=max_new_tokens,

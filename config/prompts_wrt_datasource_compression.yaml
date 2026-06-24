@@ -1,0 +1,118 @@
+unified_prompt: "Remember the following content chunk by completing these steps:\n\n1. **Core Memory Update**: Maintain an understanding of the user, or a summary of what the user is reading, or a set of classification rules summarized from the classification examples (label 1: meaning; label 2: meaning, etc.). Keep updates brief (a few sentences maximum).\n\n2. **Memory Storage**:\n   - **Episodic Memory**: Record user actions, user's friends' actions and assistant actions with timestamps (format: \"At timestamp t, user did X\")\n   - **Semantic Memory**: Record key facts and information (format: \"John is User's 18-year-old friend\", \"Harry Potter author: J.K. Rowling\", \"Sample: xxx; Label: xxx\")\n\n<new_chunk>\n{context}\n</new_chunk>\n\n**Important**: Response limit is {max_new_tokens} tokens. {compression_instruction}"
+
+unified_prompt_multispeaker: "Remember the following multi-speaker conversation chunk by completing these steps:\n\nThe conversation involves multiple speakers identified by <speaker_name> tags (e.g., <sheldon_cooper>, <leonard_hofstadter>). Pay close attention to WHO says or does WHAT.\n\n1. **Core Memory Update**: Maintain a summary of the conversation participants, their relationships, and the overall context of the conversation so far. Keep updates brief (a few sentences maximum).\n\n2. **Memory Storage**:\n   - **Episodic Memory**: Record specific actions, statements, or events with speaker attribution and timestamps (format: \"At timestamp t,, speaker_name did X\",  - **Semantic Memory**: Record key facts about speakers, their traits, relationships, preferences, and referenced knowledge (format: \"sheldon_cooper is leonard_hofstadter's roommate\", \"leonard_hofstadter is a physicist\", \"sheldon_cooper has a sister who works at Fuddruckers\")\n\n<new_chunk>\n{context}\n</new_chunk>\n\n**Important**: Response limit is {max_new_tokens} tokens. {compression_instruction}"
+
+# Compression strategies for ablating the memory compression ratio.
+# Each strategy controls TWO knobs together:
+#   * instruction  -> soft guidance injected as {compression_instruction} into the
+#                     unified prompts above (tells the model how aggressively to compress).
+#   * budget_ratio -> multiplies agent_config.max_new_tokens to give the HARD per-chunk
+#                     output cap (the strongest lever: the model cannot write more memory
+#                     than this allows). Smaller budget -> smaller memory -> higher ratio.
+# Names are nominal targets, not exact ratios. Select one with --compression_strategy.
+compression_strategies:
+  x1.5:
+    instruction: "Preserve almost all details. Record every distinct fact, action, statement, and specific value as a SEPARATE memory item. Do not merge or omit specifics — favor completeness over brevity."
+    budget_ratio: 1.0
+  x2:
+    instruction: "Be concise and brief in all memory updates. Record the important facts and actions, merging closely related details and dropping filler and small talk."
+    budget_ratio: 0.6
+  x3:
+    instruction: "Be compact. Store only the key facts and main events. Merge related details into single memory items and skip minor or redundant information."
+    budget_ratio: 0.4
+  x5:
+    instruction: "Be highly aggressive. Store only the few most essential, high-level facts and outcomes. Heavily summarize and merge; drop all but the most critical information."
+    budget_ratio: 0.25
+
+squad:
+    query_prompt: null
+    including_core: true
+
+hotpotqa:
+    query_prompt: null
+    including_core: true
+
+booksum:
+    query_prompt: "Your core memory contains a comprehensive book summary. Use this information to fulfill the user's request."
+    including_core: true
+
+infbench_sum_eng_shots2:
+    query_prompt: "Your core memory contains a comprehensive book summary. Use this information to fulfill the user's request."
+    including_core: true
+
+pubmed-rct:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
+my_custom_source:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
+seamlessinteraction:
+    query_prompt: null
+    including_core: true
+
+seamlessinteraction_options:
+    query_prompt: "Use your memory to answer the following multiple-choice question. Select the single best option from the choices provided.\n\nWhen answering, put your final answer in the format of \\boxed{A} (or B, C, D, etc.). Note that the label is a single character."
+    including_core: true
+
+ttl_train:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Your semantic memory likely includes example labels. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
+perltqa:
+    query_prompt: null
+    including_core: true
+
+lme_train:
+    query_prompt: null
+    including_core: true
+
+accurate_retrieval:
+    query_prompt: null
+    including_core: true
+
+ruler_qa1_197K:
+    query_prompt: null
+    including_core: true
+
+ruler_qa2_421K:
+    query_prompt: null
+    including_core: true
+
+infbench_qa_eng_shots2:
+    query_prompt: "The book has been memorized in the memory. Answer the question as briefly as possible. Only output the answer with no other text."
+    including_core: true
+
+longmemeval_s*:
+    query_prompt: null
+    including_core: true
+
+long_range_understanding:
+    query_prompt: "Your core memory contains a comprehensive book summary. Use this information to fulfill the user's request."
+    including_core: true
+
+test_time_learning:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Your semantic memory likely includes example labels. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
+
+icl_banking77_5900shot_balance:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Your semantic memory likely includes example labels. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
+icl_clinic150_7050shot_balance:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Your semantic memory likely includes example labels. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
+icl_nlu_8296shot_balance:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Your semantic memory likely includes example labels. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
+icl_trec_coarse_6600shot_balance:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
+
+icl_trec_fine_6400shot_balance:
+    query_prompt: "Your core memory is used to store the classification rules of the articles. Identify the meaning of each class and how the article is classified. Fulfill the user's request with the core memory.\n\nWhen answering questions, you should put the final prediction in the format of \\boxed{label}. Note that the label is a single number."
+    including_core: true
