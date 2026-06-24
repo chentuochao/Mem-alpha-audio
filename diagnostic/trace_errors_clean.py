@@ -46,7 +46,7 @@ except Exception:
 
 from matching import (
     EmbeddingMatcher, LLMJudge,
-    present, evidence_rank, LEX_TAU, EMB_TAU,
+    present, evidence_rank, LEX_TAU, EMB_TAU, COVERAGE_TAU,
 )
 from data_utils import (
     extract_choice, gold_letter, load_qa, DialogResolver,
@@ -166,8 +166,24 @@ def trace(args):
             continue
 
         # --- STAGE: retrieval (was evidence shown to the QA model?) ---
+        # The retrieved memory is a SUBSET of the full store, sharing the same unit
+        # ids. So we don't re-run the matcher (and its LLM-judge calls) here: we
+        # reuse the construction matches (evidence turn -> matched memory id, or
+        # None) and just check whether that id is among the retrieved unit ids.
         retr_records, _ = retrieved_records(res.get("retrieved_memory"))
-        in_retrieved, retr_info = present(ev_list, retr_records, emb, judge, use_judge=True)
+        retrieved_ids = {r.get("id") for r in retr_records}
+        retr_matches, hits = [], 0
+        for m in store_info["matches"]:
+            mid = m.get("memory_id")
+            in_retr = bool(m.get("found")) and mid is not None and mid in retrieved_ids
+            retr_matches.append({"turn": m["turn"], "memory_id": mid,
+                                 "found": m.get("found"), "retrieved": in_retr})
+            hits += int(in_retr)
+        total = len(retr_matches)
+        cov = hits / total if total else 0.0
+        in_retrieved = cov >= COVERAGE_TAU
+        retr_info = {"coverage": round(cov, 3), "matched": hits, "total": total,
+                     "matches": retr_matches}
         if not in_retrieved:
             best_rank, ranks = evidence_rank(ev_list, episodic_records)
             rec["stage"] = "retrieval"

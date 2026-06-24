@@ -33,6 +33,8 @@ import numpy as np
 LEX_TAU = 0.6        # per-turn: fraction of a turn's n-grams present in a unit
 EMB_TAU = 0.55       # per-turn cosine for text-embedding-3-small
 COVERAGE_TAU = 0.5   # evidence is "present" if >= this fraction of its turns are found
+JUDGE_MIN_CHARS = 15 # skip the LLM judge for utterances this short (too little
+                     # content to entail reliably; would only add noise/cost)
 
 
 # --------------------------------------------------------------------------- #
@@ -251,7 +253,7 @@ def _turn_present(turn, records, emb, judge, match_speaker=False,
         es, ei = emb.best_score_idx(turn, [r["text"] for r in records])
         if es >= EMB_TAU:
             return True, info("emb", round(es, 3), ei)
-    if use_judge and judge.enabled:
+    if use_judge and judge.enabled and len(_utterance(turn).strip()) > JUDGE_MIN_CHARS:
         for wi, i in lex[:3]:
             print("lex = ", wi, i)
             if judge.entails(turn, records[i]["text"]):
