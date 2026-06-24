@@ -59,7 +59,7 @@ def parse_args():
     parser.add_argument("--load_db_from", type=str, default=None) # Memory databse
     parser.add_argument("--chunk_size", type=int, default=4096, help="Chunk size for MemAgent_Bench dataset")  # add parameter chunk_size
     parser.add_argument("--save_process", action="store_true", help="Enable process tracking for Qwen models (saves detailed logs)")
-    parser.add_argument("--batch_size", type=int, default=32, help="Batch size for batch processing")
+    parser.add_argument("--batch_size", type=int, default=1, help="Batch size for batch processing")
     parser.add_argument("--rollout_label", type=str, default=None, help="Label to append to output directory path, e.g., rollout_1")
     parser.add_argument(
         "--exclude_memory",
@@ -150,7 +150,6 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
     batch_final_responses = {i: [] for i in range(batch_size)}
 
     print("max_chunks = ", max_chunks)
-    max_chunks = 2
     for chunk_idx in range(max_chunks):
         # pass chunk by chunk
         print(f"[DEBUG] Processing chunk {chunk_idx + 1}/{max_chunks}")
