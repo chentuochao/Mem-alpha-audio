@@ -202,9 +202,14 @@ class LLMJudge:
             r = self.client.chat.completions.create(
                 model=self.model,
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.0, max_tokens=4,
+                temperature=0.0, max_tokens=8,
+                extra_body={"chat_template_kwargs": {"enable_thinking": False}},
             )
-            return "yes" in r.choices[0].message.content.strip().lower()
+            print(prompt)
+            print(r.choices[0].message.content )
+            print()
+            print()
+            return "yes" in (r.choices[0].message.content or "").strip().lower()
         except Exception as e:
             print(f"[judge] error ({e})")
             return None
@@ -247,7 +252,8 @@ def _turn_present(turn, records, emb, judge, match_speaker=False,
         if es >= EMB_TAU:
             return True, info("emb", round(es, 3), ei)
     if use_judge and judge.enabled:
-        for _, i in lex[:3]:
+        for wi, i in lex[:3]:
+            print("lex = ", wi, i)
             if judge.entails(turn, records[i]["text"]):
                 return True, info("llm", None, i)
     out = info("miss", round(best_lex, 3), best_i)   # best_unit kept for debugging the miss

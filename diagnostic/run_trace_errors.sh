@@ -20,7 +20,7 @@ export QWEN_MODEL_NAME="${QWEN_MODEL_NAME:-Qwen/Qwen3-32B}"
 unset OPENAI_API_KEY
 
 # --- target instance ------------------------------------------------------- #
-INSTANCE_DIR="${1:-./memory_result/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_Season1_vibevoice_extracted_name_no_thinking_tokens_2048/0}"
+INSTANCE_DIR="${1:-./agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_Season1_vibevoice_extracted_name_no_thinking_tokens_2048/0}"
 
 PYTHONPATH=. python diagnostic/trace_errors_clean.py \
     --instance_dir "$INSTANCE_DIR"
