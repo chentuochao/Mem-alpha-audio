@@ -31,7 +31,7 @@ seamlessinteraction:
     including_core: true
 
 seamlessinteraction_options:
-    query_prompt: "Use your memory to answer the following multiple-choice question. Select the single best option from the choices provided.\n\nWhen answering, put your final answer in the format of \\boxed{A} (or B, C, D, etc.). Note that the label is a single character."
+    query_prompt: "Use your memory to answer the following multiple-choice question. Select the single best option from the choices provided.\n\nWhen answering, put your final answer in the format of \\boxed{A} (or B, C, D, etc.). Note that the label is a single character. If the memory is empty, irrelevant, incomplete, ambiguous, or does not directly support the answer, select exactly: not sure."
     including_core: true
 
 ttl_train:
