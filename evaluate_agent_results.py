@@ -273,6 +273,17 @@ class AgentResultsEvaluator:
             except Exception as e:
                 logger.warning(f"Could not load memory state from {memory_state_path}: {e}")
 
+        # Load compression ratio
+        compression_path = os.path.join(agent_dir, "compression.json")
+        compression_ratio = None
+        if os.path.exists(compression_path):
+            try:
+                with open(compression_path, 'r') as f:
+                    compression_info = json.load(f)
+                compression_ratio = compression_info.get('compression_ratio')
+            except Exception as e:
+                logger.warning(f"Could not load compression info from {compression_path}: {e}")
+
         if not results:
             logger.warning(f"No results found in {results_path}")
             return {
@@ -344,6 +355,7 @@ class AgentResultsEvaluator:
             "max_instance_score": np.max(scores) if scores else 0.0,
             "std_instance_score": np.std(scores) if scores else 0.0,
             "total_memory_length": total_memory_length,
+            "compression_ratio": compression_ratio,
             # Keep backward compatibility
             "num_questions": len(instance_scores),
             "avg_score": np.mean(scores) if scores else 0.0,
@@ -434,12 +446,18 @@ def main():
         memory_lengths = [m.get('total_memory_length', 0) for m in metrics_list]
         avg_memory_length = np.mean(memory_lengths) if memory_lengths else 0.0
 
+        compression_ratios = [m.get('compression_ratio') for m in metrics_list
+                              if m.get('compression_ratio') is not None]
+        avg_compression_ratio = np.mean(compression_ratios) if compression_ratios else None
+
         print(f"  Total agents:                     {len(metrics_list)}")
         print(f"  Total instances:                  {total_instances}")
         print(f"  Avg score per instance:           {overall_avg:.3f}")
         print(f"  Min/Max instance score:           {overall_min:.3f} / {overall_max:.3f}")
         print(f"  Std across agents:                {overall_std:.3f}")
         print(f"  Avg memory tokens:                {avg_memory_length:.0f}")
+        if avg_compression_ratio is not None:
+            print(f"  Avg compression ratio:            {avg_compression_ratio:.3f}")
 
         if "seamless" in data_source:
             total_correct = sum(m.get('num_correct', 0) for m in metrics_list)
