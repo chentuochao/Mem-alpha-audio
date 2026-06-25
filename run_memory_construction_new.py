@@ -176,7 +176,7 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
     batch_function_calls_log = [[] for _ in range(batch_size)]
     batch_final_responses = {i: [] for i in range(batch_size)}
 
-    print("max_chunks = ", max_chunks)
+    # print("max_chunks = ", max_chunks)
     for chunk_idx in range(max_chunks):
         # pass chunk by chunk
         print(f"[DEBUG] Processing chunk {chunk_idx + 1}/{max_chunks}")
