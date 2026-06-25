@@ -41,9 +41,11 @@ def get_out_dir(agent_config, args, batch_idx):
     max_new_tokens = agent_config.get('max_new_tokens', 2048)
     out_dir = out_dir + f"_tokens_{max_new_tokens}"
 
-    # Add compression strategy so different ratios don't overwrite each other
+    # Add compression strategy so different ratios don't overwrite each other.
+    # The 'default' strategy is the legacy behavior ("Be concise and brief in all
+    # memory updates") and keeps the original folder name without a postfix.
     compression_strategy = getattr(args, 'compression_strategy', None)
-    if compression_strategy is not None:
+    if compression_strategy is not None and compression_strategy != 'default':
         out_dir = out_dir + f"_comp_{compression_strategy}"
 
     # Add rollout label if provided
