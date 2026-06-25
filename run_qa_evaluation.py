@@ -92,6 +92,13 @@ def parse_args():
     parser.add_argument("--batch_size", type=int, default=32, help="Batch size for batch processing")
     parser.add_argument("--agentic_search", action="store_true", help="Use agentic memory search instead of simple batch processing")
     parser.add_argument("--rollout_label", type=str, default=None, help="Label to append to output directory path, e.g., rollout_1")
+    parser.add_argument(
+        "--compression_strategy",
+        type=str,
+        default="x2",
+        help="Compression strategy used during memory construction. Must match the value passed to "
+             "run_memory_construction_new.py so the correct memory folder (suffixed '_comp_<strategy>') is loaded."
+    )
     parser.add_argument("--force_reanswer_questions", action="store_true", help="Force reanswering all questions even if results file already exists")
     parser.add_argument("--custom_qa_dir", type=str, default=None,
                         help="Directory containing custom QA JSON/JSONL files to use instead of dataset QA. "
