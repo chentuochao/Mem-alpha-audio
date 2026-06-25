@@ -95,9 +95,11 @@ def parse_args():
     parser.add_argument(
         "--compression_strategy",
         type=str,
-        default="x2",
+        default="default",
         help="Compression strategy used during memory construction. Must match the value passed to "
-             "run_memory_construction_new.py so the correct memory folder (suffixed '_comp_<strategy>') is loaded."
+             "run_memory_construction_new.py so the correct memory folder (suffixed '_comp_<strategy>') is loaded. "
+             "The 'default' strategy uses the legacy prompt 'Be concise and brief in all memory updates' and "
+             "loads the original folder without a '_comp_' postfix."
     )
     parser.add_argument("--force_reanswer_questions", action="store_true", help="Force reanswering all questions even if results file already exists")
     parser.add_argument("--custom_qa_dir", type=str, default=None,
