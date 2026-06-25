@@ -64,10 +64,11 @@ def parse_args():
     parser.add_argument(
         "--compression_strategy",
         type=str,
-        default="x2",
+        default="default",
         help="Compression strategy controlling memory verbosity + per-chunk token budget. "
              "Must match a key under 'compression_strategies' in config/prompts_wrt_datasource_compression.yaml "
-             "(e.g. x1.5, x2, x3, x5). Names are nominal targets, not exact ratios."
+             "(e.g. default, x1.5, x2, x3, x5). Names are nominal targets, not exact ratios. "
+             "The 'default' strategy is the legacy behavior and writes to the original folder without a '_comp_' postfix."
     )
     parser.add_argument(
         "--exclude_memory",
