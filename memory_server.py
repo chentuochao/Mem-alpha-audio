@@ -514,7 +514,9 @@ INSTRUCTIONS:
 - If information is available in memory, reference it appropriately
 - If memory is insufficient to answer a question, acknowledge this clearly
 - Provide helpful and contextual responses based on the available memory
-- Be concise but comprehensive in your answers"""
+- Be concise but comprehensive in your answers
+- If the memory is insufficient to answer a question, MUST select not sure
+"""
 
         return system_prompt
 
