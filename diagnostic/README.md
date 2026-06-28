@@ -315,7 +315,7 @@ Once `:8002` answers, `bash diagnostic/run_trace_errors.sh <INSTANCE_DIR>` runs 
 the judge enabled. If you don't want the judge, run lexical-only by unsetting the key:
 `env -u OPENROUTER_API_KEY python diagnostic/trace_errors_new.py --instance_dir ...`.
 
----
+<!-- ---
 
 ## Code layout
 
@@ -383,8 +383,9 @@ bash diagnostic/run_probe_errors.sh memory_result/<run_name>/0 http://127.0.0.1:
 
 The two tools are complementary: run the matching cascade as cheap triage, then the
 behavioral probe to causally confirm the suspect buckets.
+-->
 
----
+--- 
 
 ## Known limitations
 
