@@ -191,6 +191,28 @@ class TranscriptLoader:
         m = re.search(r"(\d+)", name)
         return (0, int(m.group(1))) if m else (1, name)
 
+    def chunk_records(self, episode, chunk):
+        """Transcript records for ONE chunk (<root>/<episode>/<chunk>/pred file).
+        Cached per (episode, chunk)."""
+        key = (episode, chunk)
+        if key in self.cache:
+            return self.cache[key]
+        records = []
+        p = os.path.join(self.root, episode, chunk, self.pred_filename) if self.root else ""
+        if p and os.path.isfile(p):
+            try:
+                with open(p) as f:
+                    turns = json.load(f)
+            except Exception:
+                turns = []
+            for i, t in enumerate(turns):
+                speaker = t.get("speaker", "?")
+                text = fix_space_in_text(f"{speaker}: {t.get('text','')}")
+                records.append({"id": f"{episode}/{chunk}:{i}", "mtype": "transcript",
+                                "speaker": speaker, "text": text})
+        self.cache[key] = records
+        return records
+
     def episode_records(self, episode):
         if episode in self.cache:
             return self.cache[episode]
@@ -198,19 +220,7 @@ class TranscriptLoader:
         epdir = os.path.join(self.root, episode) if self.root else ""
         if epdir and os.path.isdir(epdir):
             for ch in sorted(os.listdir(epdir), key=self._chunk_key):
-                p = os.path.join(epdir, ch, self.pred_filename)
-                if not os.path.isfile(p):
-                    continue
-                try:
-                    with open(p) as f:
-                        turns = json.load(f)
-                except Exception:
-                    continue
-                for i, t in enumerate(turns):
-                    speaker = t.get("speaker", "?")
-                    text = fix_space_in_text(f"{speaker}: {t.get('text','')}")
-                    records.append({"id": f"{episode}/{ch}:{i}", "mtype": "transcript",
-                                    "speaker": speaker, "text": text})
+                records.extend(self.chunk_records(episode, ch))
         self.cache[episode] = records
         return records
 
@@ -219,6 +229,13 @@ class TranscriptLoader:
         out = []
         for ep in episodes:
             out.extend(self.episode_records(ep))
+        return out
+
+    def records_for_chunks(self, chunks):
+        """Concatenated transcript records for a set of (episode, chunk) pairs."""
+        out = []
+        for ep, ch in chunks:
+            out.extend(self.chunk_records(ep, ch))
         return out
 
 
