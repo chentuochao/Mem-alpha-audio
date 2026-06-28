@@ -363,9 +363,27 @@ def present_sentencewise(evidence_turns, records, match_speaker=True):
             w = len(_content_tokens(s)) or 1
             best = max((lexical_score(s, r["text"]) for r in recs), default=0.0)
             ok = best >= LEX_TAU
+            info = {"sentence": s[:80], "found": ok, "score": round(best, 3), "weight": w}
+            if not ok:
+                # Diagnose the miss against the FULL (all-speaker) candidate pool:
+                #   speaker_mismatch -> the content IS in the transcript, but spoken by
+                #                       a different speaker than the gold attribution
+                #   low_lex          -> no turn (even ignoring speaker) clears LEX_TAU
+                best_any, any_spk = 0.0, None
+                for r in records:
+                    sc = lexical_score(s, r["text"])
+                    if sc > best_any:
+                        best_any, any_spk = sc, r.get("speaker")
+                if best_any >= LEX_TAU:
+                    info["reason"] = "speaker_mismatch"
+                    info["found_under_speaker"] = any_spk
+                    info["any_speaker_score"] = round(best_any, 3)
+                else:
+                    info["reason"] = "low_lex"
+                    info["best_any_score"] = round(best_any, 3)
             total_w += w
             found_w += w if ok else 0
-            sent_info.append({"sentence": s[:80], "found": ok, "score": round(best, 3), "weight": w})
+            sent_info.append(info)
 
         cov = (found_w / total_w) if total_w else 0.0
         turn_ok = bool(recs) and cov >= COVERAGE_TAU

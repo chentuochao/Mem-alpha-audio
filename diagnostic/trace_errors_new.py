@@ -154,6 +154,24 @@ def evidence_episodes(qa):
     return episodes
 
 
+def evidence_chunks(qa):
+    """(episode, chunk) pairs a question's gold evidence comes from.
+
+    The new `file` is '<episode>/CHUNK_n/parsed_dialog_gt.json', so its first two
+    path components are the episode dir and the chunk dir. Used to scope the
+    transcription match to the evidence's OWN chunk (not the whole episode)."""
+    gt = qa.get("gt_source", {})
+    sources = gt.get("sources")
+    if sources is None and "evidence_turns" in gt:
+        sources = [gt]
+    chunks = set()
+    for src in (sources or []):
+        parts = (src.get("file", "") or "").replace("\\", "/").split("/")
+        if len(parts) >= 2 and parts[0] and parts[1]:
+            chunks.add((parts[0], parts[1]))
+    return chunks
+
+
 # --------------------------------------------------------------------------- #
 # Main cascade
 # --------------------------------------------------------------------------- #
@@ -232,12 +250,13 @@ def trace(args):
             rec["partial_evidence_unresolved"] = unresolved
 
         # --- STAGE: transcription (did ASR + speaker-naming preserve the evidence?) ---
-        # Matched only within the evidence's OWN episode(s); the transcribed dialogue
+        # Matched only within the evidence's OWN chunk(s); the transcribed dialogue
         # is the input to memory construction, so a drop here is upstream of the agent.
         trans_info = None
         if transcript.available:
-            episodes = evidence_episodes(qa)
-            trans_records = transcript.records_for_episodes(episodes)
+            chunks = evidence_chunks(qa)
+            trans_records = transcript.records_for_chunks(chunks)
+            chunk_names = sorted("/".join(c) for c in chunks)
             if trans_records:
                 # Require BOTH content and speaker name to be preserved. Gold turns are
                 # speaker-merged blobs while the pred transcript is finely segmented, so
@@ -248,12 +267,12 @@ def trace(args):
                 if not in_transcript:
                     rec["stage"] = "transcription"
                     rec["detail"] = {"transcript_coverage": trans_info,
-                                     "episodes": sorted(episodes)}
+                                     "chunks": chunk_names}
                     findings.append(rec)
                     continue
             else:
-                trans_info = {"note": "transcript_unavailable_for_episode",
-                              "episodes": sorted(episodes)}
+                trans_info = {"note": "transcript_unavailable_for_chunk",
+                              "chunks": chunk_names}
 
         # --- STAGE: construction (is evidence in the stored memory?) ---
         in_store, store_info = present(ev_list, store_records, emb, judge, use_judge=True)
