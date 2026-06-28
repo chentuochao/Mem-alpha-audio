@@ -239,6 +239,57 @@ see consistent text.
 
 ---
 
+## Alternative: behavioral probe (`probe_errors.py`)
+
+`trace_errors_clean.py` attributes by **matching** — does the gold evidence string
+still *appear* in the memory/transcript? That is correlational and sensitive to
+`LEX_TAU`/`EMB_TAU`/`COVERAGE_TAU`, and it is blind to paraphrase (memory
+construction *rewrites* content, so matching over-counts construction errors).
+
+`probe_errors.py` attributes **behaviorally / causally** instead: it re-runs the
+real QA model (same `/batch_process` server) on curated contexts and asks whether
+the **answer flips**. It needs no matching thresholds and is immune to paraphrase.
+
+It uses **exact provenance** rather than fuzzy localization: every memory unit is
+created by a `new_memory_insert` recorded in `chunks_and_function_calls.json`, and
+the returned unit id (e.g. `cd61`) is the *same* id stored in `agent_state.json`.
+So "the memory constructed from turn T" = the **final** stored units whose insert
+lives in the chunk that contained T (chunks are non-overlapping). Only final
+memory is used → a single `construction` bucket (no extraction vs update split).
+
+Per **failed** question (the real run got it wrong), up to three oracle QA
+re-answers:
+
+```
+C-probe : final memory units traced to the evidence chunk(s)   ── QA ──▶ correct?
+   ├─ no  ▶ T-probe: the matched transcript turns (raw ASR)    ── QA ──▶ correct?
+   │          ├─ yes ▶ construction   (transcript had it, store lost it)
+   │          └─ no  ▶ transcription  (ASR/naming dropped it upstream)
+   └─ yes ▶ rescue: actual retrieved_memory ∪ evidence units   ── QA ──▶ correct?
+              ├─ yes ▶ retrieval   (store had it, retriever didn't surface it)
+              └─ no  ▶ response    (it was shown, model still wrong)
+```
+
+`rescue` is the counterfactual-rescue test the matching tracer lists below as
+"not yet implemented": inject the missing evidence into the *real* retrieved
+context and re-answer, controlling for distractors/context size.
+
+```bash
+# memory server must be running (same one used to produce results.json)
+bash diagnostic/run_probe_errors.sh memory_result/<run_name>/0 http://127.0.0.1:5005/batch_process
+# writes <instance_dir>/error_probe.json
+```
+
+Key flags: `--server_url` (QA endpoint), `--no_core` (drop the global core string
+from the construction context), `--qa_file` / `--dialog_root` / `--transcript_root`
+(as above). Caveats: QA stochasticity (multiple-choice has a guess floor — consider
+majority vote / a no-context baseline gate); the C-probe feeds a small focused
+context so it is mildly optimistic, which is exactly why `rescue` is used to confirm
+retrieval; multi-chunk evidence unions all provenance units.
+
+The two tools are complementary: run the matching cascade as cheap triage, then
+the behavioral probe to causally confirm the suspect buckets.
+
 ## Known limitations
 
 - **Lexical-only misses paraphrase/synonyms** → can over-count construction

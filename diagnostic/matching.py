@@ -316,6 +316,74 @@ def present(evidence_turns, records, emb, judge, match_speaker=False,
     }
 
 
+SENT_MIN_CONTENT_TOKENS = 2   # sentences with fewer content words are too short to match reliably
+
+
+def _split_sentences(utterance):
+    """Split an utterance into sentences on . ! ? boundaries (empties dropped)."""
+    return [s.strip() for s in re.split(r"[.!?]+", utterance) if s.strip()]
+
+
+def present_sentencewise(evidence_turns, records, match_speaker=True):
+    """Coverage test that decomposes each evidence turn into sentences before matching.
+
+    A gold evidence turn is often a speaker-MERGE of several utterances, which both
+    (a) spreads its content across several finely-segmented transcript turns and
+    (b) invents spurious cross-sentence n-grams that match nothing — so scoring the
+    whole turn against a single candidate under-counts. Splitting on sentence
+    boundaries removes the phantom n-grams and lets each sentence land in the single
+    transcript turn that actually contains it.
+
+    Per turn: drop trivially short sentences (< SENT_MIN_CONTENT_TOKENS content
+    words); each remaining sentence is "found" if its best lexical score over the
+    (same-speaker) candidates clears LEX_TAU; the turn is preserved if the
+    content-token-weighted fraction of found sentences clears COVERAGE_TAU (the
+    fact-bearing sentence thus weighs more than filler). Overall presence = fraction
+    of preserved turns >= COVERAGE_TAU. Lexical-only, matching the transcription
+    stage (which runs without the embedding / judge tiers).
+    """
+    if not evidence_turns:
+        return False, {"coverage": 0.0, "matched": 0, "total": 0, "missing": [], "matches": []}
+
+    hits, missing, matches = 0, [], []
+    for t in evidence_turns:
+        recs = records
+        if match_speaker:
+            spk = _speaker(t)
+            recs = [r for r in records if speaker_match(spk, r.get("speaker", ""))]
+
+        sub = [s for s in _split_sentences(_utterance(t))
+               if len(_content_tokens(s)) >= SENT_MIN_CONTENT_TOKENS]
+        if not sub:                         # all sentences trivial -> fall back to whole utterance
+            whole = _utterance(t)
+            sub = [whole] if _content_tokens(whole) else []
+
+        sent_info, found_w, total_w = [], 0.0, 0.0
+        for s in sub:
+            w = len(_content_tokens(s)) or 1
+            best = max((lexical_score(s, r["text"]) for r in recs), default=0.0)
+            ok = best >= LEX_TAU
+            total_w += w
+            found_w += w if ok else 0
+            sent_info.append({"sentence": s[:80], "found": ok, "score": round(best, 3), "weight": w})
+
+        cov = (found_w / total_w) if total_w else 0.0
+        turn_ok = bool(recs) and cov >= COVERAGE_TAU
+        matches.append({"turn": t[:120], "found": turn_ok, "method": "sentencewise",
+                        "score": round(cov, 3), "speaker_records": len(recs),
+                        "sentences": sent_info})
+        if turn_ok:
+            hits += 1
+        else:
+            missing.append(t[:80])
+
+    cov = hits / len(evidence_turns)
+    return cov >= COVERAGE_TAU, {
+        "coverage": round(cov, 3), "matched": hits, "total": len(evidence_turns),
+        "missing": missing[:6], "matches": matches,
+    }
+
+
 def evidence_rank(evidence_turns, episodic_records):
     """For each evidence turn, its best episodic match's rank (1-based) and id.
 
