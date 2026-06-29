@@ -19,8 +19,19 @@ export QWEN_MODEL_NAME="${QWEN_MODEL_NAME:-Qwen/Qwen3-32B}"
 # Embedding matcher OFF: it enables only when OPENAI_API_KEY is set.
 unset OPENAI_API_KEY
 
-# --- target instance ------------------------------------------------------- #
+# --- target instance -------------------------------------------------------  for old 95 QA#
+# INSTANCE_DIR="${1:-./agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_Season1_vibevoice_extracted_name_no_thinking_tokens_2048/0}"
+
+# PYTHONPATH=. python diagnostic/trace_errors_clean.py \
+#     --instance_dir "$INSTANCE_DIR" \
+#     --qa_file outputs/tmp_folder_for_key_phrases_qa/merged_qa/merged_qa.jsonl \
+#     --min_turn_words 3
+
+
+# --- target instance -------------------------------------------------------  for new 250 QA#
 INSTANCE_DIR="${1:-./agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_Season1_vibevoice_extracted_name_no_thinking_tokens_2048/0}"
 
-PYTHONPATH=. python diagnostic/trace_errors_clean.py \
-    --instance_dir "$INSTANCE_DIR"
+PYTHONPATH=. python diagnostic/trace_errors_new.py \
+    --instance_dir "$INSTANCE_DIR" \
+    --qa_file outputs/tmp_folder_for_key_phrases_qa/merged_qa/merged_qa.jsonl \
+    --min_turn_words 3

@@ -305,6 +305,7 @@ def discover_samples(data_dir: str) -> List[Dict]:
     """
     # ── 1. Collect samples grouped by first-level sub-folder ─────────
     subfolder_samples: Dict[str, List[Dict]] = defaultdict(list)
+    print("folders = ", data_dir, glob.glob(os.path.join(data_dir, "*", "*", "sample_info.json")))
     for info_path in sorted(glob.glob(os.path.join(data_dir, "*", "*", "sample_info.json"))):
         sample_dir = os.path.dirname(info_path)
         diar_path = os.path.join(sample_dir, "diart_pred.npy")
@@ -313,8 +314,8 @@ def discover_samples(data_dir: str) -> List[Dict]:
             continue
 
         # *** debug ***
-        if "Season01" not in sample_dir:
-            continue
+        # if "Season01" not in sample_dir:
+        #     continue
 
         with open(info_path, "r") as f:
             info = json.load(f)
@@ -534,7 +535,7 @@ def main():
     parser.add_argument(
         "--debug_dir",
         type=str,
-        default=None,
+        default="./debug",
         help="If set (with '--linker twopass'), save clustering figures "
              "(PCA scatter + affinity heatmap) to this folder. "
              "Defaults to '<output_dir>/debug' when only the flag is given.",
@@ -554,8 +555,7 @@ def main():
             f"Processing cluster: {cluster['speaker_ids']} "
             f"with {len(cluster['samples'])} sample(s)"
         )
-    # print(clusters)
-    # exit(0)
+
     total_samples = sum(len(c["samples"]) for c in clusters)
     print(
         f"Found {total_samples} sample(s) in {len(clusters)} "
@@ -744,10 +744,10 @@ def main():
         dialog_gt.sort(key=lambda x: x["start"])
 
         dialog_gt_json = parse_turn(dialog_gt)
-        print_turns(dialog_gt_json)
+        # print_turns(dialog_gt_json)
 
         dialog_pred_json = parse_turn(dialog_pred)
-        print_turns(dialog_pred_json)
+        # print_turns(dialog_pred_json)
 
         all_results[result_key] = {
             "spk_pair": spk_pair,
