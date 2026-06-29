@@ -13,10 +13,13 @@ EMBEDDING_MODEL_DIR="/checkpoint/seamless/tuochao/Models/huggingface/wespeaker-v
 
 # Options
 MAX_NUM_OF_SPKS=4
-SIMILARITY_THRESHOLD=0.65
+SIMILARITY_THRESHOLD=0.5
 EMBEDDING_DEVICE="cuda:0"
-DATA_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/vibevoice/TheBigBangTheory/step1"
-OUTPUT_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/vibevoice/TheBigBangTheory/step2"
+# DATA_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/vibevoice/TheBigBangTheory/step1"
+# OUTPUT_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/vibevoice/TheBigBangTheory/step2_greedy2"
+
+DATA_DIR="/home/tuochao/Mem-alpha-audio/Audio_Results/vibevoice/PerLTQA/step1/Wang_Xiaoming/"
+OUTPUT_DIR="/home/tuochao/Mem-alpha-audio/Audio_Results/vibevoice/PerLTQA/step2/Wang_Xiaoming"
 
 # Working directory (where the python scripts live)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -54,6 +57,7 @@ python "${SCRIPT_DIR}/Speaker_Track/step2_speaker_match_v2.py" \
     --embedding_model_dir "${EMBEDDING_MODEL_DIR}" \
     --similarity_threshold "${SIMILARITY_THRESHOLD}" \
     --embedding_device    "${EMBEDDING_DEVICE}" \
-    --output_dir "${OUTPUT_DIR}"
+    --output_dir "${OUTPUT_DIR}" \
+    # --linker twopass --cluster_method ahc
 
 conda deactivate
