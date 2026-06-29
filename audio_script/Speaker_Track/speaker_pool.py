@@ -131,6 +131,69 @@ class BaseGlobalSpeakerLinker(ABC):
         """Return the authoritative {audio_key: {local_id: global_name}} map."""
         return self._mappings
 
+    # -- persistence (single-file pool state) -----------------------------
+    def save(self, path: str) -> None:
+        """Serialize the global speaker pool to a single ``.npz`` file.
+
+        Stores only what greedy/online linking needs to continue across runs:
+        per-speaker centroid + weight + id + name, plus ``next_id``.  The
+        running per-chunk transcripts are intentionally *not* stored here -
+        they already live in the per-chunk ``parsed_dialog_pred.json`` files.
+        """
+        import os as _os
+
+        out_dir = _os.path.dirname(_os.path.abspath(path))
+        _os.makedirs(out_dir, exist_ok=True)
+
+        if self.speakers:
+            embeddings = np.stack(
+                [_as_vec(s.embedding) for s in self.speakers], axis=0
+            ).astype(np.float32)
+            weights = np.asarray([s.weight for s in self.speakers], dtype=np.float32)
+            global_ids = np.asarray([s.global_id for s in self.speakers], dtype=np.int64)
+            names = np.asarray([s.name for s in self.speakers], dtype=object)
+        else:
+            embeddings = np.zeros((0, 0), dtype=np.float32)
+            weights = np.zeros((0,), dtype=np.float32)
+            global_ids = np.zeros((0,), dtype=np.int64)
+            names = np.asarray([], dtype=object)
+
+        np.savez(
+            path,
+            embeddings=embeddings,
+            weights=weights,
+            global_ids=global_ids,
+            names=names,
+            next_id=np.int64(self._next_id),
+        )
+        print(f"[pool] saved {len(self.speakers)} global speaker(s) -> {path}")
+
+    def load(self, path: str) -> None:
+        """Restore a pool previously written by :meth:`save` (in place)."""
+        data = np.load(path, allow_pickle=True)
+        embeddings = data["embeddings"]
+        weights = data["weights"]
+        global_ids = data["global_ids"]
+        names = data["names"]
+
+        self.speakers = []
+        for i in range(len(global_ids)):
+            emb = _as_vec(embeddings[i])
+            w = float(weights[i])
+            self.speakers.append(
+                GlobalSpeaker(
+                    global_id=int(global_ids[i]),
+                    name=str(names[i]),
+                    embedding=emb.copy(),
+                    weight=w,
+                    transcriptions=[],
+                    members=[emb.copy()],
+                    member_weights=[w],
+                )
+            )
+        self._next_id = int(data["next_id"])
+        print(f"[pool] loaded {len(self.speakers)} global speaker(s) <- {path}")
+
     # -- shared utilities -------------------------------------------------
     @staticmethod
     def _transcription(audio_key: str, local_id: str, info: Dict) -> Dict:

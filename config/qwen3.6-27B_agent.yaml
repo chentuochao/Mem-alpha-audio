@@ -7,7 +7,7 @@ max_new_tokens: 2048
 
 # vLLM init knobs (consumed by MemoryAgentPrompting in agent_prompting.py).
 # 2x H100 80GB node -> shard the 27B dense model across both GPUs.
-tensor_parallel_size: 2
+tensor_parallel_size: 1   # single-GPU test (was 2); revert to 2 for multi-GPU
 gpu_memory_utilization: 0.9
 # Hybrid Mamba/attention (Qwen3-Next) models hang/stall in torch.compile +
 # CUDA-graph capture on multi-GPU. enforce_eager skips that phase for a fast,

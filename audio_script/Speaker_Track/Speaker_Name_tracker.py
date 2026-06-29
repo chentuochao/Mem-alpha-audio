@@ -346,10 +346,62 @@ def _extract_name_from_evidence(ev: Evidence, default: str | None = None) -> str
 update_registry = buffer_evidence
 
 
+# ── Registry (de)serialization for incremental runs ──────────────────────────
+
+def _evidence_to_dict(ev: Evidence) -> dict:
+    return {
+        "dialogue_id": ev.dialogue_id,
+        "cue_type": ev.cue_type,
+        "raw_text": ev.raw_text,
+        "confidence": ev.confidence,
+        "candidate_name": getattr(ev, "_candidate_name", None),
+    }
+
+
+def _evidence_from_dict(d: dict) -> Evidence:
+    ev = Evidence(
+        dialogue_id=d["dialogue_id"],
+        cue_type=d["cue_type"],
+        raw_text=d["raw_text"],
+        confidence=float(d["confidence"]),
+    )
+    ev._candidate_name = d.get("candidate_name")  # type: ignore[attr-defined]
+    return ev
+
+
+def registry_to_dict(registry: dict[str, SpeakerRecord]) -> dict:
+    """Serialize a registry to a plain JSON-able dict (keyed by speaker id)."""
+    return {
+        sid: {
+            "name": rec.name,
+            "status": rec.status,
+            "evidence": [_evidence_to_dict(e) for e in rec.evidence],
+        }
+        for sid, rec in registry.items()
+    }
+
+
+def registry_from_dict(d: dict) -> dict[str, SpeakerRecord]:
+    """Inverse of :func:`registry_to_dict`."""
+    registry: dict[str, SpeakerRecord] = {}
+    for sid, rec_d in d.items():
+        rec = SpeakerRecord(
+            speaker_id=sid,
+            name=rec_d.get("name"),
+            status=rec_d.get("status", "unknown"),
+        )
+        rec.evidence = [_evidence_from_dict(e) for e in rec_d.get("evidence", [])]
+        registry[sid] = rec
+    return registry
+
+
 # ── Main pipeline ────────────────────────────────────────────────────────────
 
 def identify_speakers(
     dialogues: list[str],
+    dialogue_ids: Optional[list[str]] = None,
+    registry: Optional[dict[str, SpeakerRecord]] = None,
+    processed_ids: Optional[set] = None,
     enable_thinking: bool = False,
     confirm_threshold: int = 2,
     fuzzy_threshold: float = 0.80,
@@ -362,12 +414,27 @@ def identify_speakers(
     Phase 2: Resolve names via weighted voting across all accumulated
              evidence, with fuzzy matching to merge spelling variants
              and cross-validation to prevent duplicate assignments.
-    """
-    registry: dict[str, SpeakerRecord] = {}
 
-    # Phase 1: buffer evidence from all dialogues
-    for i, dialogue in enumerate(dialogues):
-        dialogue_id  = f"dialogue_{i + 1}"
+    Incremental use (season-by-season): pass an existing ``registry`` and a
+    ``processed_ids`` set (both loaded from the persistent state file).
+    Dialogues whose ``dialogue_id`` is already in ``processed_ids`` are skipped
+    (no LLM call), so only new chunks incur extraction cost; Phase 2 then
+    re-resolves names over the *entire* accumulated evidence.  ``processed_ids``
+    is updated in place.  ``dialogue_ids`` should be stable across runs (the
+    caller uses each chunk's folder path).
+    """
+    if registry is None:
+        registry = {}
+    if processed_ids is None:
+        processed_ids = set()
+    if dialogue_ids is None:
+        dialogue_ids = [f"dialogue_{i + 1}" for i in range(len(dialogues))]
+
+    # Phase 1: buffer evidence from all (new) dialogues
+    for dialogue, dialogue_id in zip(dialogues, dialogue_ids):
+        if dialogue_id in processed_ids:
+            print(f"[{dialogue_id}] already processed; skipping LLM extraction")
+            continue
         user_prompt  = build_extraction_prompt(dialogue, registry)
         raw_response = qwen3_chat(
             system=EXTRACTION_SYSTEM_PROMPT,
@@ -392,6 +459,7 @@ def identify_speakers(
             extractions = []
 
         registry = buffer_evidence(registry, extractions, dialogue_id)
+        processed_ids.add(dialogue_id)
 
         print(f"\n[{dialogue_id}] Evidence buffered: "
               f"{sum(len(r.evidence) for r in registry.values())} total cues")

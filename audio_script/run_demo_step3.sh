@@ -30,6 +30,14 @@ export QWEN_URL="http://localhost:8002/v1"
 
 DATA_PATH="./Audio_Results/nemo-offline/TheBigBangTheory/step2/"
 
+# Incremental (season-by-season) cross-run state: a single JSON file holding the
+# speaker pool + evidence registry + processed chunks. Set STATE_PATH to reuse
+# it across runs (only new chunks hit the LLM); leave empty for a one-shot run.
+STATE_PATH="${STATE_PATH:-}"
 
-python audio_script/Speaker_Track/step3_speaker_name_extract.py \
-    --data_dir  "${DATA_PATH}"
+STEP3_ARGS=(--data_dir "${DATA_PATH}")
+if [ -n "${STATE_PATH}" ]; then
+    STEP3_ARGS+=(--state_path "${STATE_PATH}")
+fi
+
+python audio_script/Speaker_Track/step3_speaker_name_extract.py "${STEP3_ARGS[@]}"
