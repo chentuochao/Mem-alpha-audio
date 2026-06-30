@@ -194,10 +194,13 @@ def run_speaker_identification(dialogue_folder, state_path=None, season_filter=N
 
     # Record which season this run covered (reserved key; downstream consumers
     # only look speakers up by key, so this metadata is ignored by them).
+    # if season_filter:
+    #     speaker_name_map["__season_filter__"] = season_filter
     if season_filter:
-        speaker_name_map["__season_filter__"] = season_filter
+        out_path = os.path.join(dialogue_folder, f"extracted_speaker_name_{season_filter}.json")
+    else:
+        out_path = os.path.join(dialogue_folder, "extracted_speaker_name.json")
 
-    out_path = os.path.join(dialogue_folder, "extracted_speaker_name.json")
     with open(out_path, "w") as f:
         json.dump(speaker_name_map, f, indent=2)
     print(f"\nSaved speaker name map to {out_path}")

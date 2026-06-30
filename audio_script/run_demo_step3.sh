@@ -28,12 +28,12 @@ conda activate "${ENV1}"
 export PYTHONPATH="/storage/home/tuochao/Mem-alpha-audio"
 export QWEN_URL="http://localhost:8002/v1"
 
-DATA_PATH="./Audio_Results/nemo-offline/TheBigBangTheory/step2/"
+DATA_PATH="./Audio_Results/vibevoice/TheBigBangTheory/step2_sequence/"
 
 # Incremental (season-by-season) cross-run state: a single JSON file holding the
 # speaker pool + evidence registry + processed chunks. Set STATE_PATH to reuse
 # it across runs (only new chunks hit the LLM); leave empty for a one-shot run.
-STATE_PATH="${DATA_PATH}/speakers_name_pool.json"   #"${STATE_PATH:-}"
+STATE_PATH="${DATA_PATH}/speakers_name_state.json"   #"${STATE_PATH:-}"
 
 # Single-season filter (e.g. "Season03"); empty = process all chunks. Recorded
 # in the saved extracted_speaker_name.json under "__season_filter__".
@@ -42,7 +42,7 @@ SEASON_FILTER="Season03"   #"${SEASON_FILTER:-}"
 STEP3_ARGS=(--data_dir "${DATA_PATH}")
 if [ -n "${STATE_PATH}" ]; then
     STEP3_ARGS+=(--state_path "${STATE_PATH}")
-    STEP3_ARGS+=(--update_pool)
+    # STEP3_ARGS+=(--update_pool)
 fi
 if [ -n "${SEASON_FILTER}" ]; then
     STEP3_ARGS+=(--season_filter "${SEASON_FILTER}")

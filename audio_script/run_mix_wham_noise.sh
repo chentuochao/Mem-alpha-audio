@@ -9,11 +9,11 @@
 set -euo pipefail
 
 DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory"
-SNRS=(10 5 0)
-NOISE_POOL_MINUTES=60
+SNRS=(15 10 5)
+NOISE_POOL_MINUTES=30
 SEED=0
 # Only mix episodes whose id contains one of these substrings (empty = all).
-SEASON_FILTER=("Season01" "Season02")
+SEASON_FILTER=("Season01" "Season02" "Season03")
 PYTHONPATH_ROOT="/storage/home/tuochao/Mem-alpha-audio"
 
 # conda env that has datasets + soundfile + librosa (reuse the nemo env).

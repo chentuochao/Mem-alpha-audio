@@ -18,11 +18,13 @@ set -euo pipefail
 # ──────────────────────────────────────────────────────────────────────
 
 # Which backend to run (override via env: METHOD=vibevoice ./run...)
-METHOD="${METHOD:-nemo-streaming}"
+DATASET="${1:?Usage: $0 <DATASET>}"
+METHOD="${METHOD:-vibevoice}"
+
 
 # I/O
-DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory/"
-OUTPUT_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/${METHOD}/TheBigBangTheory/step1"
+DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/${DATASET}/"
+OUTPUT_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/${METHOD}/${DATASET}/step1"
 PYTHONPATH_ROOT="/storage/home/tuochao/Mem-alpha-audio"
 DEVICE="cuda"
 
@@ -30,8 +32,8 @@ DEVICE="cuda"
 # only if its conv_id contains at least one of these substrings. Leave the
 # array empty (SEASON_FILTER=()) to process every episode.
 #   e.g.  SEASON_FILTER=("Season01" "Season02")
-SEASON_FILTER=("Season02" "Season03")
-
+# SEASON_FILTER=("Season01" "Season02" "Season03")
+SEASON_FILTER=("Season01")
 
 # ── NeMo backend args (used by nemo-streaming and nemo-offline) ──────
 ENV_NEMO="nemo"
