@@ -192,11 +192,18 @@ def process(
                 sf.write(out_wav, mix, sr)
                 print(f"  [ok]   {episode_id} @ SNR {snr:g} -> {out_wav}")
 
-            # Copy every sidecar txt for this episode (verbatim, unchanged times).
-            for txt_path in glob.glob(os.path.join(data_dir, episode_id + "*.txt")):
-                dst = os.path.join(out_dir, os.path.basename(txt_path))
-                if overwrite or not os.path.exists(dst):
-                    shutil.copy2(txt_path, dst)
+            # Copy the per-episode sidecars verbatim (timestamps unchanged, so
+            # they stay aligned with the noisy audio): the annotation txt and
+            # the ground-truth transcript / vad jsons.
+            for pattern in (
+                episode_id + "*.txt",
+                episode_id + "*_gt_transcript.json",
+                episode_id + "*_gt_vad.json",
+            ):
+                for src in glob.glob(os.path.join(data_dir, pattern)):
+                    dst = os.path.join(out_dir, os.path.basename(src))
+                    if overwrite or not os.path.exists(dst):
+                        shutil.copy2(src, dst)
 
     print("\nDone. Point run_demo_step1_bazinga.sh's DATA_PATH at one of the "
           "_SNRx folders above to run the pipeline on noisy audio.")
