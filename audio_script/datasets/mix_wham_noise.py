@@ -42,7 +42,7 @@ import glob
 import io
 import os
 import shutil
-from typing import List
+from typing import List, Optional
 
 import numpy as np
 import soundfile as sf
@@ -159,11 +159,14 @@ def process(
     sr: int,
     rng: np.random.Generator,
     overwrite: bool,
+    season_filter: Optional[List[str]] = None,
 ) -> None:
     wav_files = sorted(glob.glob(os.path.join(data_dir, "*" + WAV_SUFFIX)))
     if not wav_files:
         raise ValueError(f"No '*{WAV_SUFFIX}' files found in {data_dir!r}")
     print(f"Found {len(wav_files)} episode(s) in {data_dir}")
+    if season_filter:
+        print(f"Season filter: {season_filter}")
 
     out_dirs = {snr: out_dir_for_snr(data_dir, snr) for snr in snrs}
     for d in out_dirs.values():
@@ -174,6 +177,9 @@ def process(
 
     for wav_path in wav_files:
         episode_id = os.path.basename(wav_path).replace(WAV_SUFFIX, "")
+        if season_filter and not any(s in episode_id for s in season_filter):
+            print(f"  [skip] {episode_id} (no match in season_filter)")
+            continue
         speech, _ = librosa.load(wav_path, sr=sr, mono=True)
         speech = speech.astype(np.float32)
 
@@ -221,6 +227,10 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--seed", type=int, default=0, help="RNG seed for noise sampling.")
     p.add_argument("--overwrite", action="store_true",
                    help="Re-mix and overwrite existing output wavs/txts.")
+    p.add_argument("--season_filter", type=str, nargs="*", default=[],
+                   help=("Optional substrings (e.g. 'Season01' 'Season02'). Only "
+                         "episodes whose id contains at least one are processed; "
+                         "empty list disables the filter."))
     return p
 
 
@@ -235,6 +245,7 @@ def main() -> None:
         sr=args.sr,
         rng=rng,
         overwrite=args.overwrite,
+        season_filter=args.season_filter,
     )
 
 

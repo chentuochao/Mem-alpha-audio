@@ -12,6 +12,8 @@ DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory"
 SNRS=(10 5 0)
 NOISE_POOL_MINUTES=60
 SEED=0
+# Only mix episodes whose id contains one of these substrings (empty = all).
+SEASON_FILTER=("Season01" "Season02")
 PYTHONPATH_ROOT="/storage/home/tuochao/Mem-alpha-audio"
 
 # conda env that has datasets + soundfile + librosa (reuse the nemo env).
@@ -28,8 +30,14 @@ conda activate "${CONDA_ENV}" || true
 
 export PYTHONPATH="${PYTHONPATH_ROOT}"
 
-python -m audio_script.datasets.mix_wham_noise \
-    --data_dir            "${DATA_PATH}" \
-    --snr                 "${SNRS[@]}" \
-    --noise_pool_minutes  "${NOISE_POOL_MINUTES}" \
+MIX_ARGS=(
+    --data_dir            "${DATA_PATH}"
+    --snr                 "${SNRS[@]}"
+    --noise_pool_minutes  "${NOISE_POOL_MINUTES}"
     --seed                "${SEED}"
+)
+if [ "${#SEASON_FILTER[@]}" -gt 0 ]; then
+    MIX_ARGS+=(--season_filter "${SEASON_FILTER[@]}")
+fi
+
+python -m audio_script.datasets.mix_wham_noise "${MIX_ARGS[@]}"
