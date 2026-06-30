@@ -62,8 +62,6 @@ from audio_script.Multi_ASR.step1_bazinga import add_common_args, run_dataset
 DATASET_NAME = "perltqa"
 
 # Mixed-audio candidates, in preference order (librosa down-mixes to mono).
-_AUDIO_CANDIDATES = ("dialogue_mono_TTS.wav", "dialogue_multichannel_TTS.wav")
-
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Annotation -> flat word list
@@ -107,11 +105,11 @@ def _words_from_annotation(ann: Dict, speaker_fallback: str) -> List[Dict]:
 
 def _load_mixed_audio(folder: str, sample_rate: int) -> Tuple[np.ndarray, str]:
     """Load the dialogue's mixed mono audio (resampled to ``sample_rate``)."""
-    for name in _AUDIO_CANDIDATES:
-        path = os.path.join(folder, name)
-        if os.path.exists(path):
-            audio, _ = librosa.load(path, sr=sample_rate, mono=True)
-            return audio.astype(np.float32), path
+    path = os.path.join(folder, "dialogue_mono_TTS.wav")
+    print("*"*10, path)
+    if os.path.exists(path):
+        audio, _ = librosa.load(path, sr=sample_rate, mono=True)
+        return audio.astype(np.float32), path
     raise FileNotFoundError(
         f"No mixed-audio wav ({' / '.join(_AUDIO_CANDIDATES)}) found in {folder}"
     )
@@ -165,7 +163,7 @@ class PerLTQADataset:
 
     def __getitem__(self, idx: int) -> Dict[str, Any]:
         folder = self.conversations[idx]
-        conv_id = os.path.relpath(folder, self.data_dir).replace(os.sep, "/")
+        conv_id = os.path.relpath(folder, self.data_dir).replace(os.sep, "_")
 
         audio, audio_path = _load_mixed_audio(folder, self.sample_rate)
 

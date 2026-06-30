@@ -16,11 +16,13 @@ from audio_script.Speaker_Track.Speaker_Name_tracker import (
     EXTRACTION_SYSTEM_PROMPT,
     build_extraction_prompt,
     strip_thinking,
+    registry_to_dict,
+    registry_from_dict,
 )
 def fix_space_in_text(text):
     punctuation_pattern = [" " + c for c in string.punctuation]
     punctuation_pattern.append(" n't")
-    # punctuation_pattern.extend([" 'm", " 's", " 've", " 're", " 'll", " 'd", " 'n", " 't", " 'y", " 'z"])
+    punctuation_pattern.extend([" 'm", " 's", " 've", " 're", " 'll", " 'd", " 'n", " 't", " 'y", " 'z"])
     for pattern in punctuation_pattern:
         text = text.replace(pattern, pattern.strip())
     return text
@@ -61,15 +63,19 @@ def load_gt_episode_chunks(dialogue_folder):
 
 
 
-def load_pred_episode_chunks(dialogue_folder):
-    ### find all subfolder with {xxx}/{xxx}/parsed_dialog_gt.json sub-folders
+def load_pred_episode_chunks(dialogue_folder, speakers_pool=None):
+    ### find all subfolder with {xxx}/{xxx}/parsed_dialog_pred.json sub-folders
     subfolders = glob.glob(os.path.join(dialogue_folder, "*", "*", "parsed_dialog_pred.json"))
     # sorted the subfolders
     subfolders = sorted(subfolders)
     print(f"Found {len(subfolders)} subfolders")
 
+    # speakers_pool maps a (global) speaker label -> stable Speaker_<idx>.
+    # Pass in a persistent pool so the same global speaker keeps the same index
+    # across incremental (season-by-season) runs; new speakers are appended.
+    if speakers_pool is None:
+        speakers_pool = {}
     folder_names = []
-    speakers_pool = {}
     chunks = []
 
     for subfolder in subfolders:
@@ -95,12 +101,56 @@ def load_pred_episode_chunks(dialogue_folder):
 
 
 
-# ── Test 4: End-to-end with real Qwen API call on episode data ───────────────
+# ── Persistent state (single JSON file across incremental runs) ──────────────
 
-def test_e2e_speaker_identification(dialogue_folder):
-    chunks, speakers_pool, folder_list = load_pred_episode_chunks(dialogue_folder)
+def load_state(state_path):
+    """Load {speakers_pool, processed_chunks, registry} from one JSON file.
+
+    Returns (speakers_pool, processed_ids, registry). Missing file -> empty
+    state, so the first run starts fresh.
+    """
+    if state_path and os.path.exists(state_path):
+        with open(state_path, "r") as f:
+            state = json.load(f)
+        speakers_pool = state.get("speakers_pool", {})
+        processed_ids = set(state.get("processed_chunks", []))
+        registry = registry_from_dict(state.get("registry", {}))
+        print(
+            f"[state] loaded {len(speakers_pool)} speaker(s), "
+            f"{len(processed_ids)} processed chunk(s) <- {state_path}"
+        )
+        return speakers_pool, processed_ids, registry
+    if state_path:
+        print(f"[state] no existing state at {state_path}; starting fresh")
+    return {}, set(), {}
+
+
+def save_state(state_path, speakers_pool, processed_ids, registry):
+    out_dir = os.path.dirname(os.path.abspath(state_path))
+    os.makedirs(out_dir, exist_ok=True)
+    state = {
+        "speakers_pool": speakers_pool,
+        "processed_chunks": sorted(processed_ids),
+        "registry": registry_to_dict(registry),
+    }
+    with open(state_path, "w") as f:
+        json.dump(state, f, indent=2)
+    print(
+        f"[state] saved {len(speakers_pool)} speaker(s), "
+        f"{len(processed_ids)} processed chunk(s) -> {state_path}"
+    )
+
+
+# ── End-to-end speaker name identification (incremental-aware) ────────────────
+
+def run_speaker_identification(dialogue_folder, state_path=None):
+    # Restore cross-run state (empty on first run / when --state_path omitted).
+    speakers_pool, processed_ids, registry = load_state(state_path)
+
+    chunks, speakers_pool, folder_names = load_pred_episode_chunks(
+        dialogue_folder, speakers_pool=speakers_pool
+    )
     print(f"Loaded {len(chunks)} chunks, {len(speakers_pool)} unique speakers")
-    # chunks = chunks[:20]
 
     # Override the module-level client/model to use the same env vars as evaluate_agent_results.py
     import audio_script.Speaker_Track.Speaker_Name_tracker as tracker
@@ -110,68 +160,32 @@ def test_e2e_speaker_identification(dialogue_folder):
     )
     tracker.QWEN3_MODEL = os.getenv("QWEN_MODEL_NAME", os.getenv("QWEN3_MODEL", "Qwen/Qwen3-32B"))
 
-    registry = identify_speakers(chunks, enable_thinking=False)
+    # Incremental: only new chunks (by folder path) hit the LLM; Phase 2 then
+    # re-resolves names over ALL accumulated evidence.
+    registry = identify_speakers(
+        chunks,
+        dialogue_ids=folder_names,
+        registry=registry,
+        processed_ids=processed_ids,
+        enable_thinking=False,
+    )
 
     print("\n── Final Registry ──")
     for sid, rec in sorted(registry.items()):
         print(f"  {sid:12s} → {rec.display_name:20s} [{rec.status}]  (evidence: {len(rec.evidence)})")
 
-    # Check that at least some speakers were identified
     identified = [sid for sid, rec in registry.items() if rec.name is not None]
     print(f"\nIdentified {len(identified)} / {len(registry)} speakers")
 
-    # Verify against ground truth
-    gt_reverse = {v: k for k, v in speakers_pool.items()}
-    for sid, rec in registry.items():
-        if rec.name:
-            speaker_idx = int(sid.split("_")[1])
-            if speaker_idx in gt_reverse:
-                gt_name = gt_reverse[speaker_idx]
-                firstname_rec = rec.name.split()[0]
-                match = (
-                    rec.name.lower() in gt_name.lower()
-                    or gt_name.lower().startswith(rec.name.lower())
-                    or gt_name.lower().startswith(firstname_rec.lower())
-                )
-                status = "✓" if match else "✗"
-                print(f"  {status} [{rec.status}] {sid}: predicted={rec.name}, ground_truth={gt_name}")
-
-    # Reassign speaker labels in every chunk:
-    #   identified   → real name        e.g. <Sheldon>
-    #   unidentified → Unknown_<sid>    e.g. <Unknown_Speaker_2>
-    def _resolved_label(sid: str, rec: "SpeakerRecord") -> str:
-        return rec.name if rec.name else f"Unknown_{sid}"
-    print(speakers_pool)
-    print(registry)
-
-    resolved_chunks = []
-    for chunk in chunks:
-        # replace <Speaker_X> labels with resolved names
-        for sid, rec in registry.items():
-            chunk = chunk.replace(f"<{sid}>", f"<{_resolved_label(sid, rec)}>")
-
-        # speakers_pool may contain speakers the tracker never saw (no registry entry);
-        # replace their raw <Speaker_X> labels with <Unknown_Speaker_X>.
-        for _, idx in speakers_pool.items():
-            sid = f"Speaker_{idx}"
-            if sid not in registry:
-                chunk = chunk.replace(f"<{sid}>", f"<Unknown_{sid}>")
-        resolved_chunks.append(chunk)
-
-    # print(f"\n── Resolved transcripts ({len(resolved_chunks)} chunks) ──")
-    # for i, chunk in enumerate(resolved_chunks):
-    #     print(f"\n[Chunk {i}]\n{chunk[:500]}")
-
-    assert len(identified) > 0, "Expected at least one speaker to be identified"
-    print("[PASS] test_e2e_speaker_identification")
-
+    # Build the cumulative {global_speaker_id: resolved_name} map. speakers_pool
+    # spans every speaker seen across all runs so far, so this map is complete.
     speaker_name_map = {}
-    for original_name, idx in speakers_pool.items():
+    for global_id, idx in speakers_pool.items():
         sid = f"Speaker_{idx}"
         if sid in registry and registry[sid].name:
-            speaker_name_map[original_name] = registry[sid].name
+            speaker_name_map[global_id] = registry[sid].name
         else:
-            speaker_name_map[original_name] = f"Unknown_speaker{idx:03d}"
+            speaker_name_map[global_id] = f"Unknown_speaker{idx:03d}"
 
     out_path = os.path.join(dialogue_folder, "extracted_speaker_name.json")
     with open(out_path, "w") as f:
@@ -179,8 +193,11 @@ def test_e2e_speaker_identification(dialogue_folder):
     print(f"\nSaved speaker name map to {out_path}")
     print(json.dumps(speaker_name_map, indent=2))
 
-    return resolved_chunks, speakers_pool
+    # Persist updated state for the next incremental run.
+    if state_path and args.update_pool:
+        save_state(state_path, speakers_pool, processed_ids, registry)
 
+    return speaker_name_map, speakers_pool
 
 
 def main():
@@ -191,11 +208,25 @@ def main():
         "--data_dir",
         type=str,
         required=True,
-        help="Directory containing Friends *.en.wav and *.txt episode files",
+        help="Step-2 output dir containing */*/parsed_dialog_pred.json",
     )
-
+    parser.add_argument(
+        "--state_path",
+        type=str,
+        default=None,
+        help="Single JSON file holding the cross-run name state "
+             "(speaker pool + evidence registry + processed chunks). "
+             "If it exists it is loaded so only new chunks hit the LLM and "
+             "names are re-resolved over all evidence; updated state is saved "
+             "back here. Omit for a one-shot run.",
+    )
+    parser.add_argument(
+        "--update_pool",
+        action="store_true",
+        help="whether update the pool file or not",
+    )
     args = parser.parse_args()
-    resolved_chunks, speakers_pool = test_e2e_speaker_identification(args.data_dir)
+    run_speaker_identification(args.data_dir, state_path=args.state_path)
 
 
 if __name__ == "__main__":

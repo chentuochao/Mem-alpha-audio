@@ -30,7 +30,7 @@ DEVICE="cuda"
 # only if its conv_id contains at least one of these substrings. Leave the
 # array empty (SEASON_FILTER=()) to process every episode.
 #   e.g.  SEASON_FILTER=("Season01" "Season02")
-SEASON_FILTER=("Season01")
+SEASON_FILTER=("Season02" "Season03")
 
 
 # ── NeMo backend args (used by nemo-streaming and nemo-offline) ──────

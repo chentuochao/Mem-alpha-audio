@@ -287,7 +287,35 @@ export OPENROUTER_API_KEY=...   # LLM entailment judge (construction stage)
 # (also reads a .env if python-dotenv is installed)
 ```
 
----
+### Launching the local LLM backend (for the judge / probe)
+
+The LLM judge (and `probe_errors.py`'s QA server) talk to a local vLLM endpoint on
+`:8002`. `run_trace_errors.sh` already points there (`QWEN_URL=http://localhost:8002/v1`),
+so it will **hang** until the server is up. On a SLURM allocation, bring it up on the
+**same node** as your job:
+
+```bash
+# 1) open a second shell ON THE SAME NODE as your running job
+srun --pty --overlap --jobid <JOBID> bash
+
+# 2) in that second shell, start vLLM (serves the Qwen judge on :8002)
+./launch_vllm.sh
+
+# 3) check vLLM is serving
+curl http://localhost:8002/v1/models
+
+# 4) (only for probe_errors.py) start the memory QA server, pointed at vLLM
+QWEN_URL="http://localhost:8002/v1" python memory_server.py --port 5005 > server_outputs.log 2>&1 &
+
+# 5) back in the FIRST shell, sanity-check the QA endpoint
+curl http://127.0.0.1:5005/batch_process
+```
+
+Once `:8002` answers, `bash diagnostic/run_trace_errors.sh <INSTANCE_DIR>` runs with
+the judge enabled. If you don't want the judge, run lexical-only by unsetting the key:
+`env -u OPENROUTER_API_KEY python diagnostic/trace_errors_new.py --instance_dir ...`.
+
+<!-- ---
 
 ## Code layout
 
@@ -355,8 +383,9 @@ bash diagnostic/run_probe_errors.sh memory_result/<run_name>/0 http://127.0.0.1:
 
 The two tools are complementary: run the matching cascade as cheap triage, then the
 behavioral probe to causally confirm the suspect buckets.
+-->
 
----
+--- 
 
 ## Known limitations
 

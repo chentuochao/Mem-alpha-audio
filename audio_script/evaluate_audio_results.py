@@ -295,8 +295,8 @@ def main():
     results = []
     for idx, si_path in enumerate(sample_infos):
         print(f"[{idx}/{len(sample_infos)}] {si_path}")
-        if "Season01" not in si_path:
-            continue
+        # if "Season02" not in si_path:
+        #     continue
         try:
             with open(si_path) as f:
                 info = json.load(f)

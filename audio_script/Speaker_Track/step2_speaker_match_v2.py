@@ -48,6 +48,7 @@ from audio_script.Speaker_Track.speaker_pool import (
     build_linker,
 )
 
+NEW_FORMAT_DATASETS = ["bazinga", "perltqa"]
 
 # ─── Audio segmentation helpers ──────────────────────────────────────
 def segment_audio_by_diarization(
@@ -289,23 +290,21 @@ def merge_speakers_by_global(
     return merged_diar, merged_word_list, local_to_global_new
 
 
-def discover_samples(data_dir: str) -> List[Dict]:
+def discover_samples(data_dir: str, season_filter: Optional[List[str]] = None) -> List[Dict]:
     """
-    Walk the directory tree and find all sample folders containing
-    sample_info.json produced by Step 1.
+    Walk the directory tree and return all sample entries (in sorted path
+    order) matching ``data_dir/*/*/sample_info.json`` produced by Step 1.
 
-    First-level sub-folder names are expected to be speaker-pair IDs joined
-    by ``_`` (e.g. ``P0043_P0108``).  Sub-folders that share any speaker ID
-    are transitively clustered together.
+    No speaker clustering is performed - samples are returned as a single flat
+    list so they are processed strictly in path order (important for the
+    order-dependent online/greedy linker).
 
-    Returns a list of cluster dicts, each with:
-      - ``speaker_ids``: sorted list of all unique speaker IDs in the cluster
-      - ``samples``: list of entry dicts (augmented with ``sample_dir``,
-        ``diart_path``, ``transcript_path``)
+    Each entry is the parsed ``sample_info.json`` dict augmented with
+    ``sample_dir``, ``diart_path`` and ``pred_transcript_path``.
     """
-    # ── 1. Collect samples grouped by first-level sub-folder ─────────
-    subfolder_samples: Dict[str, List[Dict]] = defaultdict(list)
-    print("folders = ", data_dir, glob.glob(os.path.join(data_dir, "*", "*", "sample_info.json")))
+
+    samples: List[Dict] = []
+    # print(glob.glob(os.path.join(data_dir, "*", "*", "sample_info.json")))
     for info_path in sorted(glob.glob(os.path.join(data_dir, "*", "*", "sample_info.json"))):
         sample_dir = os.path.dirname(info_path)
         diar_path = os.path.join(sample_dir, "diart_pred.npy")
@@ -313,54 +312,19 @@ def discover_samples(data_dir: str) -> List[Dict]:
         if not os.path.exists(diar_path) or not os.path.exists(transcript_path):
             continue
 
-        # *** debug ***
-        # if "Season01" not in sample_dir:
-        #     continue
+        # Optional season filter: only keep samples whose path contains one of
+        # the given substrings (e.g. ["Season01"]). Empty/None = keep all.
+        if season_filter and not any(s in sample_dir for s in season_filter):
+            continue
 
         with open(info_path, "r") as f:
             info = json.load(f)
         info["sample_dir"] = sample_dir
         info["diart_path"] = diar_path
         info["pred_transcript_path"] = transcript_path
-        group_key = os.path.basename(os.path.dirname(sample_dir))
-        subfolder_samples[group_key].append(info)
+        samples.append(info)
 
-    # ── 2. Union-Find to cluster sub-folders sharing a speaker ID ────
-    parent: Dict[str, str] = {}
-
-    def find(x: str) -> str:
-        while parent[x] != x:
-            parent[x] = parent[parent[x]]
-            x = parent[x]
-        return x
-
-    def union(a: str, b: str) -> None:
-        ra, rb = find(a), find(b)
-        if ra != rb:
-            parent[ra] = rb
-
-    subfolder_speakers: Dict[str, List[str]] = {}
-    for folder_name in subfolder_samples:
-        spk_ids = folder_name.split("_")
-        subfolder_speakers[folder_name] = spk_ids
-        for sid in spk_ids:
-            parent.setdefault(sid, sid)
-        for i in range(1, len(spk_ids)):
-            union(spk_ids[0], spk_ids[i])
-
-    # ── 3. Group sub-folders by their cluster root ───────────────────
-    cluster_map: Dict[str, Dict] = defaultdict(
-        lambda: {"speaker_ids": set(), "samples": []}
-    )
-    for folder_name, entries in subfolder_samples.items():
-        root = find(subfolder_speakers[folder_name][0])
-        cluster_map[root]["speaker_ids"].update(subfolder_speakers[folder_name])
-        cluster_map[root]["samples"].extend(entries)
-
-    return [
-        {"speaker_ids": sorted(v["speaker_ids"]), "samples": v["samples"]}
-        for v in cluster_map.values()
-    ]
+    return samples
 
 
 def eval_der_cpwer(entry, word_list, diar_result, local_speakers):
@@ -378,8 +342,8 @@ def eval_der_cpwer(entry, word_list, diar_result, local_speakers):
     """
     frame_duration = entry.get("feat_len_sec", 0.08)
 
-    if entry.get("dataset") == "bazinga":
-        # ── Bazinga format ────────────────────────────────────────────────
+    if entry.get("dataset") in NEW_FORMAT_DATASETS:
+        # ── Bazinga format ────────────────────────────────────────────────s
         speakers = entry["speakers"]
 
         with open(entry["vad_path"]) as f:
@@ -505,6 +469,29 @@ def main():
         help="Device for speaker embedding extraction",
     )
     parser.add_argument(
+        "--pool_path",
+        type=str,
+        default=None,
+        help="Single .npz file holding the cross-run global speaker pool. "
+             "If it exists it is loaded before processing (so new data is "
+             "matched against / appended to existing speakers); the updated "
+             "pool is written back here afterwards. Omit for a one-shot run.",
+    )
+    parser.add_argument(
+        "--update_pool",
+        action="store_true",
+        help="whether update the pool file or not",
+    )
+
+    parser.add_argument(
+        "--season_filter",
+        type=str,
+        nargs="*",
+        default=[],
+        help="Optional substrings (e.g. Season01 Season02). Only samples whose "
+             "path contains one of these are processed; empty = all.",
+    )
+    parser.add_argument(
         "--linker",
         type=str,
         default="greedy",
@@ -549,19 +536,9 @@ def main():
 
     # ── Discover samples from Step 1 output ──────────────────────────
     # args.data_dir format -> args.data_dir/*/*/sample_info.json
-    clusters = discover_samples(args.data_dir)
-    for cluster in clusters:
-        print(
-            f"Processing cluster: {cluster['speaker_ids']} "
-            f"with {len(cluster['samples'])} sample(s)"
-        )
-
-    total_samples = sum(len(c["samples"]) for c in clusters)
-    print(
-        f"Found {total_samples} sample(s) in {len(clusters)} "
-        f"speaker cluster(s) under {args.data_dir}"
-    )
-    if not clusters:
+    samples = discover_samples(args.data_dir, season_filter=args.season_filter)
+    print(f"Found {len(samples)} sample(s) under {args.data_dir}")
+    if not samples:
         print("No samples found. Check your --data_dir path.")
         return
 
@@ -593,6 +570,12 @@ def main():
         )
     print(f"Using speaker linker: {args.linker}")
 
+    # ── Restore a persistent pool for incremental (season-by-season) runs ──
+    if args.pool_path and os.path.exists(args.pool_path):
+        linker.load(args.pool_path)
+    elif args.pool_path:
+        print(f"[pool] no existing pool at {args.pool_path}; starting fresh")
+
     speaker_cluster_gt: Dict[str, List[str]] = {}
     speaker_cluster_pred: Dict[str, List[str]] = {}
     all_ders: List[float] = []
@@ -605,87 +588,85 @@ def main():
     # context needed for phase 2 is stashed.  The authoritative global mapping
     # is read back from linker.finalize() afterwards.
     entry_contexts: List[Dict] = []
-    for cluster in clusters:
-        speaker_ids = cluster["speaker_ids"]
-        samples = cluster["samples"]
+    for entry in samples:
+        if entry.get("dataset") in NEW_FORMAT_DATASETS:
+            speaker_gt = entry["speakers"]
+            bias = float(entry["time_stamp"][0])  # unit in sample
+            spk_pair = entry.get("conv_id", "")
+            chunk_id = entry.get("chunk_id", "")
+            conv_id = f"CHUNK_{chunk_id}"
+        else:
+            conv_id = entry.get("conv_id", "")
+            spk_pair = entry.get("spk_pair", "")
+            speaker_gt = spk_pair.split("_")
+            bias = 0
+
+        audio_file = entry["audio_file"]
+        diar_path = entry["diart_path"]
+        pred_transcript_path = entry["pred_transcript_path"]
+        frame_duration = entry.get("feat_len_sec", 0.08)
+        result_key = (
+            f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
+        )
+        unique_id = f"{spk_pair}_{conv_id}" if spk_pair and conv_id else ""
+        print(f"\n{'=' * 60}")
+        print(f"\nProcessing entry: {result_key}, {pred_transcript_path}")
         print(f"{'=' * 60}")
-        print(f"Cluster speakers: {speaker_ids}  ({len(samples)} sample(s))")
-        print(f"{'=' * 60}")
 
-        for entry in samples:
-            if entry.get("dataset") == "bazinga":
-                speaker_gt = entry["speakers"]
-                bias = float(entry["time_stamp"][0])  # unit in sample
-                spk_pair = entry.get("conv_id", "")
-                chunk_id = entry.get("chunk_id", "")
-                conv_id = f"CHUNK_{chunk_id}"
-            else:
-                conv_id = entry.get("conv_id", "")
-                spk_pair = entry.get("spk_pair", "")
-                speaker_gt = spk_pair.split("_")
-                bias = 0
+        output_sample_folder = os.path.join(output_dir, spk_pair, conv_id)
+        os.makedirs(output_sample_folder, exist_ok=True)
 
-            audio_file = entry["audio_file"]
-            diar_path = entry["diart_path"]
-            pred_transcript_path = entry["pred_transcript_path"]
-            frame_duration = entry.get("feat_len_sec", 0.08)
-            result_key = (
-                f"{spk_pair}/{conv_id}" if spk_pair and conv_id else audio_file
-            )
-            unique_id = f"{spk_pair}_{conv_id}" if spk_pair and conv_id else ""
-            print(f"\n{'=' * 60}")
-            print(f"\nProcessing entry: {result_key}, {pred_transcript_path}")
-            print(f"{'=' * 60}")
+        # Annotate ground-truth speaker ids.
+        for spk in speaker_gt:
+            speaker_cluster_gt.setdefault(spk, []).append(spk)
 
-            output_sample_folder = os.path.join(output_dir, spk_pair, conv_id)
-            os.makedirs(output_sample_folder, exist_ok=True)
+        with open(pred_transcript_path, "r") as f:
+            word_list = json.load(f)
+        diar_result = np.load(diar_path)
 
-            # Annotate ground-truth speaker ids per cluster.
-            for spk in speaker_gt:
-                speaker_cluster_gt.setdefault(spk, []).append(spk)
+        # ── Evaluate DER & cpWER ─────────────────────────────────────
+        der, cpwer, best_perm_der, best_perm_cpwer = eval_der_cpwer(
+            entry, word_list, diar_result, list(word_list.keys())
+        )
+        all_ders.append(der)
+        all_cpwers.append(cpwer)
 
-            with open(pred_transcript_path, "r") as f:
-                word_list = json.load(f)
-            diar_result = np.load(diar_path)
+        local_speakers = process_single_audio(
+            audio_file,
+            word_list,
+            diar_result,
+            embedding_backend,
+            temp_dir,
+            unique_id=unique_id,
+            frame_duration=frame_duration,
+            bias=bias,
+        )
 
-            # ── Evaluate DER & cpWER ─────────────────────────────────────
-            der, cpwer, best_perm_der, best_perm_cpwer = eval_der_cpwer(
-                entry, word_list, diar_result, list(word_list.keys())
-            )
-            all_ders.append(der)
-            all_cpwers.append(cpwer)
+        # Register with the linker.  Online linkers resolve the mapping
+        # immediately; batch linkers buffer and resolve in finalize().
+        linker.add_audio_speakers(result_key, local_speakers)
 
-            local_speakers = process_single_audio(
-                audio_file,
-                word_list,
-                diar_result,
-                embedding_backend,
-                temp_dir,
-                unique_id=unique_id,
-                frame_duration=frame_duration,
-                bias=bias,
-            )
-
-            # Register with the linker.  Online linkers resolve the mapping
-            # immediately; batch linkers buffer and resolve in finalize().
-            linker.add_audio_speakers(result_key, local_speakers)
-
-            entry_contexts.append(
-                {
-                    "entry": entry,
-                    "result_key": result_key,
-                    "spk_pair": spk_pair,
-                    "conv_id": conv_id,
-                    "audio_file": audio_file,
-                    "speaker_gt": speaker_gt,
-                    "best_perm_cpwer": best_perm_cpwer,
-                    "word_list": word_list,
-                    "output_sample_folder": output_sample_folder,
-                }
-            )
+        entry_contexts.append(
+            {
+                "entry": entry,
+                "result_key": result_key,
+                "spk_pair": spk_pair,
+                "conv_id": conv_id,
+                "audio_file": audio_file,
+                "speaker_gt": speaker_gt,
+                "best_perm_cpwer": best_perm_cpwer,
+                "word_list": word_list,
+                "output_sample_folder": output_sample_folder,
+            }
+        )
 
     # ── Resolve the authoritative global mapping ─────────────────────
     all_mappings = linker.finalize()
+
+    # ── Persist the updated pool for the next incremental run ─────────
+    if args.pool_path is not None and args.update_pool:
+        print(f"saving to {args.pool_path}....")
+        linker.save(args.pool_path)
 
     # ── Visualise the two-pass clustering for debugging ──────────────
     if isinstance(linker, TwoPassSpeakerCluster):
@@ -705,7 +686,7 @@ def main():
         output_sample_folder = ctx["output_sample_folder"]
 
         local_to_global = all_mappings.get(result_key, {})
-        print("local_to_global", local_to_global, list(word_list.keys()))
+        # print("local_to_global", local_to_global, list(word_list.keys()))
 
         for local_id, global_id in local_to_global.items():
             if local_id in best_perm_cpwer:
@@ -717,7 +698,7 @@ def main():
             speaker_cluster_pred.setdefault(global_id, []).append(spk_label_gt)
 
         # ── Parse conversation-level transcripts ─────────────────────
-        if entry.get("dataset") == "bazinga":
+        if entry.get("dataset") in NEW_FORMAT_DATASETS:
             dialog = parse_transcript_morespeakers(word_list, interval_character=" ")
         else:
             dialog = parse_transcript_morespeakers(word_list)
@@ -728,7 +709,7 @@ def main():
                 sent["speaker"] = local_to_global[sent["speaker"]]
                 dialog_pred.append(sent)
 
-        if entry.get("dataset") == "bazinga":
+        if entry.get("dataset") in NEW_FORMAT_DATASETS:
             # transcript_path: {speaker: [{word, start, end, ...}]}
             with open(entry["transcript_path"], "r") as f:
                 trans_data = json.load(f)
