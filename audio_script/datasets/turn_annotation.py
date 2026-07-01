@@ -34,7 +34,7 @@ def _is_valid_seg(seg):
     if ('end' in seg) and ('start' in seg):
         if seg['start'] is None or seg['end'] is None:
             return False
-        if seg['start'] >= seg['end']:
+        if seg['start'] > seg['end']:
             return False
         return True
     else:
@@ -507,6 +507,7 @@ class AlignedProcess():
             ):
         self.interval_character = interval_character
         self.turn_gap_threshold = turn_gap_threshold
+        
         self.trp_separated_by = trp_separated_by
         self.pre_silence = pre_silence
         self.post_silence = post_silence
@@ -991,8 +992,8 @@ def pairwise_remove_backchannels_multi(dialogs, speaker_labels,
         all_dialog.extend(d)
         all_bc.extend(b)
 
-    all_dialog.sort(key=lambda k: (k['start'], -k['end']))
-    all_bc.sort(key=lambda k: (k['start'], -k['end']))
+    all_dialog.sort(key=lambda k: (k['start'], k['end']))
+    all_bc.sort(key=lambda k: (k['start'], k['end']))
 
     assert len(all_dialog) + len(all_bc) == len(dialogs)
     return all_dialog, all_bc
@@ -1076,8 +1077,8 @@ def pairwise_remove_backchannels2_multi(dialogs, speaker_labels,
         all_dialog.extend(d)
         all_bc.extend(b)
 
-    all_dialog.sort(key=lambda k: (k['start'], -k['end']))
-    all_bc.sort(key=lambda k: (k['start'], -k['end']))
+    all_dialog.sort(key=lambda k: (k['start'], k['end']))
+    all_bc.sort(key=lambda k: (k['start'], k['end']))
 
     assert len(all_dialog) + len(all_bc) == len(dialogs)
     return all_dialog, all_bc
@@ -1292,7 +1293,7 @@ class AlignedProcess_Morespeakers():
                       + [x | {"dialog_type": "overlap"} for x in overlaps])
 
             # Sort by time.
-            tagged.sort(key=lambda k: (k['start'], -k['end']))
+            tagged.sort(key=lambda k: (k['start'], k['end']))
 
             # Replace internal label with the human-readable speaker name.
             for utt in tagged:
@@ -1309,13 +1310,13 @@ class AlignedProcess_Morespeakers():
         per-speaker lists into one timeline.
 
         Returns:
-            list of utterance dicts sorted by (start, -end).
+            list of utterance dicts sorted by (start, end).
         """
         per_speaker = self.get_parsed_dialog()
         combined = []
         for spk_list in per_speaker:
             combined.extend(spk_list)
-        combined.sort(key=lambda k: (k['start'], -k['end']))
+        combined.sort(key=lambda k: (k['start'], k['end']))
         return combined
 
     def print_final_diag(self):
@@ -1394,6 +1395,7 @@ class AlignedProcess_Morespeakers():
                     continue
 
                 next_w = segments[wi + 1]
+                # print(w['word'], next_w["start"], w["end"], next_w["start"] - w["end"], self.turn_gap_threshold)
                 # Split into separate turns when the gap exceeds threshold.
                 if (next_w["start"] - w["end"]) > self.turn_gap_threshold:
                     if wi == 0:
