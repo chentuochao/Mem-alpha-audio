@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 6.859999999999999,
+    "end": 12.34,
+    "text": "It's a trap! It's a trap! It's a trap!"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 35.06,
+    "end": 40.91,
+    "text": "Tom. Congratulations, I see you did your laundry."
+  },
+  {
+    "speaker": "Penny",
+    "start": 41.279999999999994,
+    "end": 47.17,
+    "text": "Hey. Well, sort of. I brought new clothes, okay? Is Leonard around?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.78,
+    "end": 43.71,
+    "text": "How does one sort of?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 47.17,
+    "end": 49.01,
+    "text": "He's upstairs at Alicia's."
+  },
+  {
+    "speaker": "Penny",
+    "start": 49.01,
+    "end": 49.21,
+    "text": "Oh, alright, that's cool, no biggie. Said he'd help me set up my printer, but I guess I can wait. What exactly is he doing up there?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.28,
+    "end": 56.480000000000004,
+    "text": "From what I can only perceive as a tactical move to destroy me, he is with Wallowitz and Cutherpolly setting up her stereo."
+  },
+  {
+    "speaker": "Penny",
+    "start": 63.37,
+    "end": 66.72,
+    "text": "Oh, they're all up there, huh? Hm, typical."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.36,
+    "end": 67.56,
+    "text": "It's axiomatically atypical. Up until recently, they did not know Alicia and had no encounters with her in her previous location. They never went upstairs to visit the former tenants, so if your characterization of their behavior is typical, it's demonstrably fallacious."
+  }
+]

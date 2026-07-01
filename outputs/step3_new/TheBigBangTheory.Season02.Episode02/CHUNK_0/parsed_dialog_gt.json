@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 2.4899999999999998,
+    "text": "Worst Renaissance Fair ever."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.710000000000001,
+    "end": 6.299999999999999,
+    "text": "Please let it go, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.779999999999999,
+    "end": 30.39,
+    "text": "It was rife with historical inaccuracies. For example, the tavern girl serving flagons of mead, now her costume was obviously Germanic, but in 1487 the Bavarian purity laws or Rhineheitsgebot severely limited the availability of mead. At best they would have had some sort of spiced wine. Oh-ho! Really? Well here's another nit for you. The flagons would not have been made of polypropylene."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.520000000000003,
+    "end": 23.900000000000002,
+    "text": "You're nitpicking."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 31.04,
+    "end": 40.36,
+    "text": "Renaissance fairs aren't about historical accuracy. They're about taking chubby girls who work at Kinko's and lacing them up in corsets so tight their bosom jumps out and says howdy."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 42.27,
+    "end": 45.83,
+    "text": "Bosoms would not have said howdy in the fifteenth century. If anything they would have said\" huzzah!\""
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 46.45,
+    "end": 51.39,
+    "text": "I don't care what the bosoms say, Sheldon, I just want to be part of the conversation."
+  },
+  {
+    "speaker": "penny",
+    "start": 52.78,
+    "end": 56.76,
+    "text": "Hi guys. Looks like you've been to the Renaissance fair. I'm hoping."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.550000000000004,
+    "end": 63.970000000000006,
+    "text": "Renaissance fair? More of a medieval slash age of enlightenment slash any excuse to wear a codpiece fair."
+  },
+  {
+    "speaker": "penny",
+    "start": 65.33,
+    "end": 67.8,
+    "text": "Okay, fine, whatever, um, you guys, this is my friend Eric."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 67.94999999999999,
+    "end": 68.16999999999999,
+    "text": "Hello."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 69.39999999999999,
+    "end": 74.57,
+    "text": "Hi. So, yeah, good to see you."
+  },
+  {
+    "speaker": "eric",
+    "start": 71.22999999999999,
+    "end": 71.85,
+    "text": "Hey."
+  },
+  {
+    "speaker": "penny",
+    "start": 76.0,
+    "end": 81.69,
+    "text": "Yeah, yeah, it's good to see you too. We should really go. Bye guys."
+  },
+  {
+    "speaker": "eric",
+    "start": 80.03999999999999,
+    "end": 80.11999999999999,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "eric",
+    "start": 82.5,
+    "end": 82.99,
+    "text": "Like your hat."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 85.19999999999999,
+    "end": 86.36999999999999,
+    "text": "Thanks, my mom made it."
+  }
+]

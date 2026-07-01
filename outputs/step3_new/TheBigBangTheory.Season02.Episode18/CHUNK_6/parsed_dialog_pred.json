@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 9.100000000000001,
+    "end": 17.95,
+    "text": "They dance, they sweat, they clump. Actually, I'm thinking about this one stripper named Vega. But sure, calcium sulfate could work."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 23.18,
+    "end": 24.91,
+    "text": "Are you thinking about adding a desiccant like calcium sulfate? Oh."
+  },
+  {
+    "speaker": "Penny",
+    "start": 24.92,
+    "end": 27.62,
+    "text": "Ew. I've got a spaghetti strainer in the kitchen."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.53,
+    "end": 32.12,
+    "text": "Let's think out of the box for a moment. How about a molecular sieve? Wow."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 35.27,
+    "end": 38.67,
+    "text": "Hey, we could liberate some microporous charcoal from the chem lab."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 38.67,
+    "end": 38.870000000000005,
+    "text": "Oh, great. Yeah, Raj, why don't you and Howard go get the charcoal? Leonard, why don't you start working on some preliminary website designs? I'll make some space in our apartment so we can move the manufacturing process."
+  },
+  {
+    "speaker": "Penny",
+    "start": 48.61,
+    "end": 50.44,
+    "text": "Well, what's wrong with my apartment?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 50.56,
+    "end": 52.16,
+    "text": "It's not my apartment."
+  },
+  {
+    "speaker": "Penny",
+    "start": 52.74,
+    "end": 54.22,
+    "text": "Wait, wait, what am I gonna do?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.22,
+    "end": 56.92,
+    "text": "Uh, hey, it's your business. Do whatever you want."
+  },
+  {
+    "speaker": "Penny",
+    "start": 56.92,
+    "end": 64.05,
+    "text": "Oh. Okay, cool. I'm gonna take a nap."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 69.26,
+    "end": 73.09,
+    "text": "I'm still tweaking things a little bit, but this will give you the general idea of the website."
+  }
+]

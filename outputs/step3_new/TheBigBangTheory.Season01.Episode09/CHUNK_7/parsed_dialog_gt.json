@@ -1,0 +1,140 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.9500000000000455,
+    "text": "Okay, I' m leaving for the conference."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.269999999999982,
+    "end": 4.649999999999977,
+    "text": "Have fun presenting my lucky hunch."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.670000000000073,
+    "end": 11.680000000000064,
+    "text": "Sheldon I didn't mean it like that. I don't know, I wasn't choosing my... No, no not at all. A little bit."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.3700000000000045,
+    "end": 9.379999999999995,
+    "text": "Then why did you say it. Were you trying to impress Penny?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.960000000000036,
+    "end": 14.259999999999991,
+    "text": "How'd that work out for you?"
+  },
+  {
+    "speaker": "penny",
+    "start": 15.029999999999973,
+    "end": 16.00999999999999,
+    "text": "Leonard, ready to go?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.120000000000005,
+    "end": 18.409999999999968,
+    "text": "Libido 1, truth zero."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 21.139999999999986,
+    "end": 25.090000000000032,
+    "text": "Okay, I' m going to ask you one more time, we did the work together, lets present the paper together."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 25.090000000000032,
+    "end": 28.980000000000018,
+    "text": "And I' m telling you for the last time it's pandering, it's undignified and bite me."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 31.860000000000014,
+    "end": 32.25,
+    "text": "Let's go."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.10000000000002,
+    "end": 33.65999999999997,
+    "text": "Bye Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.81000000000006,
+    "end": 34.74000000000001,
+    "text": "Goodbye Penny."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.23000000000002,
+    "end": 46.930000000000064,
+    "text": "Oooh, one of these days, Pkshhhh!"
+  },
+  {
+    "speaker": "penny",
+    "start": 50.49000000000001,
+    "end": 51.129999999999995,
+    "text": "There you go."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.690000000000055,
+    "end": 52.97000000000003,
+    "text": "You're right, this side does look better."
+  },
+  {
+    "speaker": "penny",
+    "start": 53.23000000000002,
+    "end": 55.690000000000055,
+    "text": "No, no, I didn't say better, I said less stained."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 58.120000000000005,
+    "end": 59.360000000000014,
+    "text": "I just checked the house, there's probably twenty, twenty- five people in there."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.860000000000014,
+    "end": 65.80000000000007,
+    "text": "You're kidding. All? In particle physics, twenty five is Woodstock."
+  },
+  {
+    "speaker": "penny",
+    "start": 61.690000000000055,
+    "end": 62.40999999999997,
+    "text": "Is that all?"
+  },
+  {
+    "speaker": "penny",
+    "start": 67.37,
+    "end": 69.64999999999998,
+    "text": "Oh, well, then good!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 69.80000000000007,
+    "end": 71.76999999999998,
+    "text": "I wasn't expecting such a crowd, I' m a little nervous."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 72.09000000000003,
+    "end": 74.01999999999998,
+    "text": "It's okay, just open with a joke, you'll be fine."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 75.07000000000005,
+    "end": 96.81000000000006,
+    "text": "A joke. Okay. How about this, um, okay, uh there's this farmer, and he has these chickens, but they won't lay any eggs. So, he calls a physicist to help. The physicist then does some calculations, and he says, um, I have a solution, but it only works with spherical chickens in a vacuum. Right?"
+  }
+]

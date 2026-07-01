@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 3.0,
+    "text": "Okay, here you go, Leonard, one tequila sunrise."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.019999999999982,
+    "end": 12.600000000000023,
+    "text": "Thank you. This drink is a wonderful example of how liquids with different specific gravities interact in a cylindrical container. Thank you."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.399999999999977,
+    "end": 15.399999999999977,
+    "text": "Okay, Raj, what'll it be?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.230000000000018,
+    "end": 19.45999999999998,
+    "text": "Whatever you recommend."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.78000000000003,
+    "end": 25.54000000000002,
+    "text": "Uh, how about a grasshopper. I make a mean grasshopper. Okay? Good. Coming up. Sheldon, what are you going to have?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.069999999999993,
+    "end": 27.399999999999977,
+    "text": "I'll have a diet coke."
+  },
+  {
+    "speaker": "penny",
+    "start": 29.120000000000005,
+    "end": 32.31999999999999,
+    "text": "Okay, can you please order a cocktail, I need to practice mixing drinks."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.360000000000014,
+    "end": 34.69999999999999,
+    "text": "Fine. I'll have a virgin cuba libre."
+  },
+  {
+    "speaker": "penny",
+    "start": 37.620000000000005,
+    "end": 43.629999999999995,
+    "text": "That's, um, rum and coke without the rum. So coke."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.89999999999998,
+    "end": 40.44999999999999,
+    "text": "Yes,"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.78000000000003,
+    "end": 44.25,
+    "text": "Yes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 46.19,
+    "end": 47.31,
+    "text": "And would you make it diet?"
+  },
+  {
+    "speaker": "penny",
+    "start": 52.89999999999998,
+    "end": 54.06,
+    "text": "There's a can in the fridge."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.76999999999998,
+    "end": 58.60999999999996,
+    "text": "A cuba libre traditionally comes in a tall glass with a lime wedge."
+  },
+  {
+    "speaker": "penny",
+    "start": 58.77000000000004,
+    "end": 59.94,
+    "text": "Then swim to Cuba."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.56999999999999,
+    "end": 64.69,
+    "text": "Bartenders are supposed to have people skills."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.44,
+    "end": 70.48999999999995,
+    "text": "Okay, Raj, here you go. Alright, who's next?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 71.04000000000002,
+    "end": 72.61999999999995,
+    "text": "I'd like to try a slippery nipple."
+  }
+]

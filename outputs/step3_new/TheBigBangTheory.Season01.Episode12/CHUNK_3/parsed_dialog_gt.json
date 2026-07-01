@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 14.740000000000009,
+    "text": "Hey. I' ve decided you're right. My career is not over. But, since the arrival of Dennis Kim has rendered my research pointless, I just have to find something else to focus on. So I' ve decided, I' m going to collaborate with you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.1299999999999955,
+    "end": 1.4600000000000364,
+    "text": "Hey."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 5.009999999999991,
+    "end": 5.600000000000023,
+    "text": "Great."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 11.329999999999984,
+    "end": 12.03000000000003,
+    "text": "Great."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.160000000000025,
+    "end": 18.53000000000003,
+    "text": "Great."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.610000000000014,
+    "end": 25.819999999999993,
+    "text": "What exactly is it you do? I know you chatter on about it all the time, but I' ve never really paid attention."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.120000000000005,
+    "end": 32.900000000000034,
+    "text": "Okay, well, right now I' m designing an experiment to study the soft component of cosmic radiation at sea- level, but I really don't need any help."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.30000000000001,
+    "end": 46.09000000000003,
+    "text": "Oh, sure you do. Now, see, what's this here in the schematic, is that a laser array? No. Hmmm. What happens if you use argon lasers instead of helium neon?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.379999999999995,
+    "end": 38.75999999999999,
+    "text": "Yes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 46.360000000000014,
+    "end": 49.670000000000016,
+    "text": "It would blow up. Pretty sure."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.650000000000034,
+    "end": 48.28000000000003,
+    "text": "Are you sure?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.03000000000003,
+    "end": 54.670000000000016,
+    "text": "Pretty sure's not very scientific, is this how you normally work, just hunches and guesses and stuff?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.920000000000016,
+    "end": 69.0,
+    "text": "Okay, Sheldon, I understand that you're going through a bit of a career crisis, you're searching for some other area where you can feel valuable and productive but I need to tell you something and I want you to listen carefully. Go away."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.88999999999999,
+    "end": 67.36000000000001,
+    "text": "Alright."
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 5.540000000000077,
+    "text": "No, you don't understand, during acceleration it needs to stay perfectly level and provide... yeah, okay, it's a shelf."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.360000000000014,
+    "end": 12.990000000000009,
+    "text": "Now, I notice you're using titanium, did you give any consideration to carbon nanotubes, they're lighter, cheaper and half twice the tensile strength."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 13.800000000000068,
+    "end": 19.040000000000077,
+    "text": "Sheldon, there's a diploma in my office that says I have a masters in engineering."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.090000000000032,
+    "end": 28.180000000000064,
+    "text": "And you also have a note from your mother that says I love you, bubbula. But neither of those is a cogent argument for titanium over nanotubes."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 29.06000000000006,
+    "end": 31.510000000000105,
+    "text": "Sheldon. Go away."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.760000000000105,
+    "end": 30.24000000000001,
+    "text": "Yes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.180000000000064,
+    "end": 34.680000000000064,
+    "text": "Did Leonard tell you to say that?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 35.16000000000008,
+    "end": 36.430000000000064,
+    "text": "No, I thought of it all by myself."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.680000000000064,
+    "end": 43.74000000000001,
+    "text": "Huh. It can't be a coincidence. There must be some causal link I' m missing."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 47.38000000000011,
+    "end": 48.74000000000001,
+    "text": "Go away."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.460000000000036,
+    "end": 58.97000000000003,
+    "text": "Curiouser and curiouser."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 64.2600000000001,
+    "end": 64.7600000000001,
+    "text": "Is he here?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 65.07000000000005,
+    "end": 66.33000000000004,
+    "text": "If he were, I wouldn't be."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 67.42000000000007,
+    "end": 73.24000000000001,
+    "text": "Do you know what he did. He watched me work for ten minutes, and then started to design a simple piece of software that could replace me."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 75.49000000000001,
+    "end": 76.59000000000003,
+    "text": "Is that even possible?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 77.0,
+    "end": 78.03000000000009,
+    "text": "As it turns out, yes."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 80.54000000000008,
+    "end": 82.24000000000001,
+    "text": "Something's got to be done about him, Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 82.34000000000003,
+    "end": 88.06000000000006,
+    "text": "Like what? He'll never be able to cope with the fact that some fifteen year- old kid is smarter and more accomplished than he is."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 88.7700000000001,
+    "end": 91.82000000000005,
+    "text": "Well, what if something were to happen to this boy so he was no longer a threat to Sheldon?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 94.15000000000009,
+    "end": 95.53000000000009,
+    "text": "Then our problem would be solved."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 97.2600000000001,
+    "end": 101.81000000000006,
+    "text": "Hang on, are we talking about murdering Dennis Kim? I' m not saying no."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 103.97000000000003,
+    "end": 106.15000000000009,
+    "text": "We don't have to go that far, there are other means available."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 106.44000000000005,
+    "end": 109.95000000000005,
+    "text": "We can't send him back to North Korea. He knows how to get out."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 111.85000000000002,
+    "end": 115.47000000000003,
+    "text": "The only thing we need to do is make this Kim kid lose his focus."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 115.67000000000007,
+    "end": 120.3900000000001,
+    "text": "That won't happen, he's not interested in anything but physics. What?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 118.7700000000001,
+    "end": 133.46000000000004,
+    "text": "What about biology? You know, biology? The one thing that can completely derail a world class mind. Yeah, so, when I was fifteen I met Denise Polmerry and my grade point average fell from a 5.0 to a 1.8."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 126.68000000000006,
+    "end": 127.35000000000002,
+    "text": "Howard, he's fifteen."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 135.0,
+    "end": 135.85000000000002,
+    "text": "She was sleeping with you?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 136.49,
+    "end": 140.47000000000003,
+    "text": "No, I just wasted a lot of time thinking about what it would be like if she did."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 142.20000000000005,
+    "end": 150.97000000000003,
+    "text": "Oh, good, you're all here. Look, I' ve decided that if the three of you drop whatever it is you're working on and join me, we could lick cold fusion in less than a decade, twelve years tops."
+  }
+]

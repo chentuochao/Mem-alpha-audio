@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.1600000000000819,
+    "text": "But I don't have a problem."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.330000000000041,
+    "end": 5.529999999999973,
+    "text": "Sheldon, you need to learn how to drive."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 5.889999999999986,
+    "end": 7.330000000000041,
+    "text": "This madness has to stop."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.740000000000009,
+    "end": 15.25,
+    "text": "Penny's taking you to the DMV, I'm going to bed. Because rock breaks scissors, goodnight."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.009999999999991,
+    "end": 12.82000000000005,
+    "text": "Why Penny?"
+  },
+  {
+    "speaker": "penny",
+    "start": 16.590000000000032,
+    "end": 18.720000000000027,
+    "text": "All right, come on Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.720000000000027,
+    "end": 31.07000000000005,
+    "text": "Hold on, I have one condition. We have to stop at Pottery Barn. And Radio Shack. And the comic book store."
+  },
+  {
+    "speaker": "penny",
+    "start": 20.879999999999995,
+    "end": 21.300000000000068,
+    "text": "What?"
+  },
+  {
+    "speaker": "penny",
+    "start": 24.370000000000005,
+    "end": 24.460000000000036,
+    "text": "Okay."
+  },
+  {
+    "speaker": "penny",
+    "start": 27.960000000000036,
+    "end": 28.290000000000077,
+    "text": "Fine."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.35000000000002,
+    "end": 33.41000000000008,
+    "text": "All right!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 33.41000000000008,
+    "end": 34.879999999999995,
+    "text": "Ooh, I want to go to the comic book store."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 53.59000000000003,
+    "end": 54.610000000000014,
+    "text": "I like comic books."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.879999999999995,
+    "end": 65.75,
+    "text": "I just don't see why I need a driver's license, Albert Einstein never had a driver's license."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 67.37,
+    "end": 70.48000000000002,
+    "text": "Yeah, but Albert Einstein didn't make me wet myself at 40 miles an hour."
+  },
+  {
+    "speaker": "penny",
+    "start": 71.72000000000003,
+    "end": 82.36000000000001,
+    "text": "Yeah, and I never wanted to kick Albert Einstein in the nuts. You know, I gotta ask, why didn't you just get a license at 16 like everybody else?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 82.69000000000005,
+    "end": 84.16000000000008,
+    "text": "I was otherwise engaged."
+  },
+  {
+    "speaker": "penny",
+    "start": 86.08000000000004,
+    "end": 86.51999999999998,
+    "text": "Doing what?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 87.42000000000007,
+    "end": 96.61000000000001,
+    "text": "Examining perturbative amplitudes in n=4 supersymmetric theories leading to a re-examination of the ultraviolet properties of multi-loop n=8 supergravity using modern twistor theory."
+  }
+]

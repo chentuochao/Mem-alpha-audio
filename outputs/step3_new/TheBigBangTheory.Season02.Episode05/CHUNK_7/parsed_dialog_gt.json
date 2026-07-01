@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.7200000000000273,
+    "text": "Well, how'bout when you were 17?"
+  },
+  {
+    "speaker": "dmv_lady#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 3.909999999999968,
+    "end": 12.580000000000041,
+    "text": "Take this to the testing area, put your name at the top, sign the bottom, answer the questions, bring it back, next! Application?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.710000000000036,
+    "end": 18.120000000000005,
+    "text": "I'm actually more of a theorist."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 21.019999999999982,
+    "end": 23.529999999999973,
+    "text": "The application in your hand, give it to her."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.779999999999973,
+    "end": 24.100000000000023,
+    "text": "Oh."
+  },
+  {
+    "speaker": "dmv_lady#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 28.290000000000077,
+    "end": 32.67000000000007,
+    "text": "Take this to the testing area, put your name at the top, sign the bottom, answer the questions, bring it back, next!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.02999999999997,
+    "end": 35.940000000000055,
+    "text": "Excuse me, but I have some concerns about these questions."
+  },
+  {
+    "speaker": "dmv_lady#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 36.67000000000007,
+    "end": 41.960000000000036,
+    "text": "Look at that sign up there. Does it say I give a damn?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.58000000000004,
+    "end": 39.960000000000036,
+    "text": "Yes?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.02999999999997,
+    "end": 45.48000000000002,
+    "text": "No."
+  },
+  {
+    "speaker": "dmv_lady#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 45.690000000000055,
+    "end": 46.49000000000001,
+    "text": "That's because I don't."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.02999999999997,
+    "end": 59.05000000000007,
+    "text": "Just, look, see, this first question makes no sense, how many car lengths should you leave in front of you when driving? There's no possible way to answer that, a car length is not a standardized unit of measure."
+  },
+  {
+    "speaker": "dmv_lady#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 60.01999999999998,
+    "end": 61.960000000000036,
+    "text": "Look at the sign."
+  },
+  {
+    "speaker": "penny",
+    "start": 62.930000000000064,
+    "end": 64.85000000000002,
+    "text": "Sheldon, it's C, just put down C."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 64.98000000000002,
+    "end": 65.98000000000002,
+    "text": "I don't need your help, Penny."
+  },
+  {
+    "speaker": "dmv_lady#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 66.13,
+    "end": 70.17000000000007,
+    "text": "Listen to that little girl, honey, put C. Next!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 70.18000000000006,
+    "end": 71.08000000000004,
+    "text": "No, no, wait, no, hang on, look at this next question."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 71.26999999999998,
+    "end": 73.81000000000006,
+    "text": "Sheldon, why are you arguing with the DMV?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.11000000000001,
+    "end": 94.70000000000005,
+    "text": "How else are they going to learn? Look, question 2, when are roadways most slippery? Now, okay, there are three answers, none of which are correct. The correct answer is, when covered by a film of liquid sufficient to reduce the coefficient of static friction between the tire and the road to essentially zero, but not so deep as to introduce a new source of friction."
+  }
+]

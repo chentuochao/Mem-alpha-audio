@@ -1,0 +1,158 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.910000000000025,
+    "text": "Check your messages."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 4.350000000000023,
+    "end": 11.439999999999998,
+    "text": "All right, this is an exact duplicate of the Wolowitz Zero-Gravity Human Waste Disposal System as deployed on the International Space Station."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 11.620000000000005,
+    "end": 15.080000000000041,
+    "text": "Don't you mean the Wolowitz Zero-Gravity Human Waste Distribution System?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.090000000000032,
+    "end": 17.090000000000032,
+    "text": "Good one."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 18.100000000000023,
+    "end": 18.600000000000023,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 20.33000000000004,
+    "end": 33.50999999999999,
+    "text": "Yeah, ha, it's hilarious. Now, here's an approximation of the spare parts available on the Space Station. We gotta find a way, using nothing but this, to reinforce this so the waste material avoids the spinning turbine."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 33.879999999999995,
+    "end": 35.19,
+    "text": "You mean so it doesn't hit the fan?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.97000000000003,
+    "end": 48.09000000000003,
+    "text": "Yeah, I have to say, I thought the toilet humour would get less funny with repetition. Apparently, there is no law of diminishing comedic returns with space poop."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 53.670000000000016,
+    "end": 55.68000000000001,
+    "text": "Hey Leonard. You busy?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.210000000000036,
+    "end": 54.93000000000001,
+    "text": "Hey Stuart."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.85000000000002,
+    "end": 56.860000000000014,
+    "text": "Um..."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 56.879999999999995,
+    "end": 58.22000000000003,
+    "text": "Classified, Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 59.00999999999999,
+    "end": 62.539999999999964,
+    "text": "Yeah, it's a regular Manhattan Project. What's up?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 63.77999999999997,
+    "end": 67.5,
+    "text": "Well, tonight's my date with Penny and since we haven't been able to connect by phone..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 67.60000000000002,
+    "end": 71.22000000000003,
+    "text": "Yeah, I'm sorry, it's been broken. Yeah, that too. Everything's broken."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 69.02999999999997,
+    "end": 69.55000000000007,
+    "text": "Or e-mail."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 72.35000000000002,
+    "end": 75.46000000000004,
+    "text": "Anyway, I was just wondering if you had any last-minute advice."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 77.11000000000001,
+    "end": 102.84000000000003,
+    "text": "All right, well, off the top of my head, I think the most important thing with Penny is to go really slow. I mean, glacial. You know, guys come onto her all the time, so, you need to, like, set yourself apart. You know, be a little shy, don't make too much eye contact. And, you know, treat her with, like, cool detachment and, and, and, you know, fear."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 86.55000000000007,
+    "end": 86.97000000000003,
+    "text": "Okay."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 104.32000000000005,
+    "end": 104.72000000000003,
+    "text": "Fear?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 105.17000000000007,
+    "end": 109.31000000000006,
+    "text": "Yeah, like, you're afraid that if you touch her, she'll break."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 110.89999999999998,
+    "end": 112.83000000000004,
+    "text": "Well, that plays right into my wheelhouse."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 115.46000000000004,
+    "end": 117.00999999999999,
+    "text": "Good, good. Well, you kids have fun tonight."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 117.10000000000002,
+    "end": 120.27999999999997,
+    "text": "Thanks, Leonard. What is that thing anyway?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 121.38,
+    "end": 124.17000000000007,
+    "text": "You don't know what this is? Good. Get out."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 122.90999999999997,
+    "end": 123.20000000000005,
+    "text": "No."
+  }
+]

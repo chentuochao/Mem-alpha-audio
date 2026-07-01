@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.0,
+    "end": 0.67999999999995,
+    "text": "How about soup?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.8700000000000045,
+    "end": 2.3199999999999363,
+    "text": "Yeah, we can always divide soup."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.3500000000000227,
+    "end": 3.3999999999999773,
+    "text": "What about the won- tons?"
+  },
+  {
+    "speaker": "penny",
+    "start": 9.959999999999923,
+    "end": 11.42999999999995,
+    "text": "Oh, hey guys, what's up?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.740000000000009,
+    "end": 12.75,
+    "text": "It's Halo night."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.350000000000023,
+    "end": 17.91999999999996,
+    "text": "Yeah. Okay. So?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 19.399999999999977,
+    "end": 22.399999999999977,
+    "text": "Well, with Wolowitz spending all of his time with your friend Christy,"
+  },
+  {
+    "speaker": "penny",
+    "start": 22.469999999999914,
+    "end": 25.25999999999999,
+    "text": "She's not my friend. Friends do not get their friends care bears all sweaty."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.299999999999955,
+    "end": 34.14999999999998,
+    "text": "Right, anyway, uh, with Wolowitz occupied elsewhere, we had something we wanted to ask you. Sheldon?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.35000000000002,
+    "end": 34.789999999999964,
+    "text": "Yes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.139999999999986,
+    "end": 47.42999999999995,
+    "text": "Penny, we would very much appreciate it if you would be the fourth member of our Halo team. I don't think I need to tell you what an honor this is."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.70999999999992,
+    "end": 53.309999999999945,
+    "text": "Oh, that's so sweet. But I' m going out dancing with a girlfriend."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 53.48000000000002,
+    "end": 55.20999999999992,
+    "text": "You can't go out, it's Halo night."
+  },
+  {
+    "speaker": "penny",
+    "start": 56.629999999999995,
+    "end": 60.469999999999914,
+    "text": "Well, for Penny it's dancing night. No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.620000000000005,
+    "end": 59.93999999999994,
+    "text": "You go dancing every Wednesday?"
+  }
+]

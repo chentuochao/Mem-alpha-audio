@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 6.53,
+    "end": 9.04,
+    "text": "Like talking to a chimp. We're not flying. We're taking the train."
+  },
+  {
+    "speaker": "Penny",
+    "start": 8.84,
+    "end": 10.26,
+    "text": "Okay, now that I've been completely insulted, have a good flight. Oh, cool."
+  },
+  {
+    "speaker": "Howard",
+    "start": 10.26,
+    "end": 15.24,
+    "text": "Yeah, cool. Seven times as long as flying and costs almost twice as much."
+  },
+  {
+    "speaker": "Penny",
+    "start": 15.42,
+    "end": 17.46,
+    "text": "Well, then why are you doing it?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 17.26,
+    "end": 23.08,
+    "text": "Yeah, I wish. Well, we had a vote. Three of us voted for airplane, Sheldon voted for train, so we're taking the train."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.76,
+    "end": 28.1,
+    "text": "Well, don't say it like that, Leonard. Say it like, we're taking the train."
+  },
+  {
+    "speaker": "Unknown_speaker006",
+    "start": 41.209999999999994,
+    "end": 41.61,
+    "text": "Our whole universe was in a hot, dense state. Then nearly 14 billion years ago, expansion started. Wait, the Earth began to cool. The autotrophs began to drool. Neanderthals developed tools. We built a wall. We built the pyramids. Math, science, history, unraveling the mystery. It all started with a big bang."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.22,
+    "end": 58.48,
+    "text": "Hey, we're all going over to the Apple store to make fun of the guys at the Genius Bar. You wanna come?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 59.31,
+    "end": 63.480000000000004,
+    "text": "Oh, I always enjoy that, but I'm a little busy. I'm simplifying the task of packing for our trip. By attaching RFID tags to my clothing, it will enable my laptop to read and identify the items with this wand. I will then cross-reference them against destination, anticipate activity spectrum, weather conditions, duration of trip, etc."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 62.32,
+    "end": 63.28,
+    "text": "What are you doing?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 81.49,
+    "end": 86.99,
+    "text": "Well, that does sound much simpler. How long is this gonna take?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 86.99,
+    "end": 87.19,
+    "text": "Assuming I can keep up this pace, three hours, eleven minutes, plus however long it takes to conclude this fairly pointless conversation."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 94.14,
+    "end": 101.42,
+    "text": "Wow. Teasing the guys at the Apple store seems a little redundant now. I wouldn't expect you to. I'll see you later."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 98.76,
+    "end": 99.95,
+    "text": "I don't follow."
+  }
+]

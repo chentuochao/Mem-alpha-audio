@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.25,
+    "text": "Told you."
+  },
+  {
+    "speaker": "employment_office_assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 3.240000000000009,
+    "end": 6.25,
+    "text": "So, Mr. Cooper, you're looking for a job."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.580000000000041,
+    "end": 10.049999999999955,
+    "text": "A menial job. Like yours."
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 11.159999999999968,
+    "end": 21.870000000000005,
+    "text": "Why, thank you for noticing. I'm Menial Employee of the Month. Do you have a particular field in mind?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.409999999999968,
+    "end": 38.200000000000045,
+    "text": "I do. For thousands of years, the lowest classes of the human race have spent their lives labouring to erect monuments under the lash of their betters, until finally they dropped down and became one with the dust through which they trudged. Do you have anything like that?"
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 40.92999999999995,
+    "end": 41.40999999999997,
+    "text": "No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.16999999999996,
+    "end": 44.50999999999999,
+    "text": "Shouldn't you check your database?"
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 46.91999999999996,
+    "end": 47.370000000000005,
+    "text": "No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.66999999999996,
+    "end": 52.710000000000036,
+    "text": "You didn't really type."
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 54.370000000000005,
+    "end": 58.60000000000002,
+    "text": "I didn't really have to. So, how about construction?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.92999999999995,
+    "end": 69.57000000000005,
+    "text": "Oh, that would be good! Sawing, hammering, eating out of a lunch pail as my working-class fellows and I sit perched precariously on a girder high above the metropolis."
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 71.34000000000003,
+    "end": 75.24000000000001,
+    "text": "No, no. This is putting up sheetrock at a housing project in Rosemead."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.96000000000004,
+    "end": 80.47000000000003,
+    "text": "I could do that. One question. What's sheetrock?"
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 77.88999999999999,
+    "end": 79.48000000000002,
+    "text": "Good. Yes?"
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 82.37,
+    "end": 87.30999999999995,
+    "text": "Moving on. How about doing deliveries for a florist?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 87.63999999999999,
+    "end": 90.72000000000003,
+    "text": "That seems acceptable. I don't drive."
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 88.87,
+    "end": 89.88999999999999,
+    "text": "Do you have your own car?"
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 92.37,
+    "end": 99.20000000000005,
+    "text": "Of course you don't. Mr. Cooper, let me just ask you a question. What was your last job?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 99.44000000000005,
+    "end": 104.97000000000003,
+    "text": "Senior theoretical particle physicist at CalTech, focusing on M theory, or, in layman's terms, string theory."
+  },
+  {
+    "speaker": "assistant#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 106.48000000000002,
+    "end": 109.34000000000003,
+    "text": "I see. Just give me a second. Security!"
+  }
+]

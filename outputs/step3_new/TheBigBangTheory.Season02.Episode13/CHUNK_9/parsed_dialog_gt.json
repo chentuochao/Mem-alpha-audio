@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 4.009999999999991,
+    "text": "Hey, this isn't so bad. A bit like vertical swimming."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 6.350000000000023,
+    "end": 8.240000000000009,
+    "text": "Hey, look at you, Cooper. You're almost halfway to the top."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.430000000000064,
+    "end": 21.220000000000027,
+    "text": "I am? I was wrong. It IS a fear of heights. Not really. I feel somewhat like an inverse tangent function that's approaching an asymptote."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 22.129999999999995,
+    "end": 23.139999999999986,
+    "text": "Are you saying you're stuck?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.270000000000095,
+    "end": 26.280000000000086,
+    "text": "What part of an inverse tangent function approaching an asymptote did you not understand?"
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 27.520000000000095,
+    "end": 30.430000000000064,
+    "text": "Understood all that. I'm not a mowon. Just keep going."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.540000000000077,
+    "end": 32.57000000000005,
+    "text": "Yeah, I don't think I can."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 32.74000000000001,
+    "end": 34.270000000000095,
+    "text": "Well, then. Cwimb back down."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.270000000000095,
+    "end": 36.73000000000002,
+    "text": "No, that doesn't seem any more likely."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 38.58000000000004,
+    "end": 39.280000000000086,
+    "text": "So what's the pwan, Cooper?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.24000000000001,
+    "end": 43.57000000000005,
+    "text": "Well, it's not exactly a plan but I think I'm going to pass out."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.22000000000003,
+    "end": 56.10000000000002,
+    "text": "I'm sorry. Can we please just do it one more time?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 56.41000000000008,
+    "end": 59.879999999999995,
+    "text": "Okay. 1, 2, 1, 2, 3 and..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 63.85000000000002,
+    "end": 64.41000000000008,
+    "text": "It's a little"
+  }
+]

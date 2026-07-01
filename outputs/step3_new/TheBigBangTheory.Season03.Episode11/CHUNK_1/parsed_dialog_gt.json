@@ -1,0 +1,254 @@
+[
+  {
+    "speaker": "penny",
+    "start": 7.9899999999999975,
+    "end": 12.099999999999994,
+    "text": "I just love decorating the Christmas tree. It makes me feel like a little girl again."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.429999999999993,
+    "end": 14.149999999999991,
+    "text": "We didn't have a tree when I was growing up."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.61999999999999,
+    "end": 15.429999999999993,
+    "text": "Really? Why not?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 15.759999999999991,
+    "end": 23.319999999999993,
+    "text": "Mmm, in my family, holidays weren't so much celebrated as studied for their anthropological and psychological implications on human society."
+  },
+  {
+    "speaker": "penny",
+    "start": 24.17,
+    "end": 26.929999999999993,
+    "text": "Oh, sounds festive. Did you at least give presents?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.459999999999994,
+    "end": 34.39,
+    "text": "Mmm, in a way. We presented papers, and then broke off into focus groups and critiqued each other."
+  },
+  {
+    "speaker": "penny",
+    "start": 37.33999999999999,
+    "end": 38.25999999999999,
+    "text": "Sheldon, what about you? Did you have a Christmas tree?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.69,
+    "end": 52.8,
+    "text": "Oh, yes. We had a tree, we had a manger, we had an inflatable Santa Claus with plastic reindeer on the front lawn. And to make things even more jolly, there were so many blinking lights on the house they induced neighbourhood-wide seizures."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.219999999999985,
+    "end": 56.239999999999995,
+    "text": "So I take it you don't want to help us trim the tree."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.32000000000001,
+    "end": 64.7,
+    "text": "I do not. But if you insist on decorating a spider-infested fire hazard in my home I would request that you add this."
+  },
+  {
+    "speaker": "penny",
+    "start": 65.11,
+    "end": 65.60000000000001,
+    "text": "What is it?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.83999999999999,
+    "end": 70.49999999999999,
+    "text": "You're kidding, right? It's a bust of Sir Isaac Newton."
+  },
+  {
+    "speaker": "penny",
+    "start": 72.71999999999998,
+    "end": 74.48,
+    "text": "Oh, sure, sure, yeah. Very Christmassy."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 74.55999999999999,
+    "end": 78.93999999999998,
+    "text": "Wait, excuse me, but it's much more Christmassy than anything you've put on the tree."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 79.33,
+    "end": 79.99,
+    "text": "Here we go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.35000000000001,
+    "end": 99.93999999999998,
+    "text": "December 25, 1642, Julian calendar, Sir Isaac Newton is born. Jesus, on the other hand, was actually born in the summer. His birthday was moved to coincide with a traditional pagan holiday that celebrated the winter solstice with lit fires and slaughtered goats. Which, frankly, sounds like more fun than 12 hours of church with my mother followed by a fruitcake."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 101.61999999999999,
+    "end": 103.05,
+    "text": "Merry Newton-mas, everyone."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 104.05999999999999,
+    "end": 106.7,
+    "text": "I sense that's not sincere, although I have no idea why."
+  },
+  {
+    "speaker": "penny",
+    "start": 107.92,
+    "end": 110.80999999999999,
+    "text": "No, it's fine. Look, Sir Isaac can go right next to this little candy cane."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 110.83999999999999,
+    "end": 113.02,
+    "text": "No. Isaac goes at the top of the tree."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 113.86999999999999,
+    "end": 114.99,
+    "text": "No, he doesn't."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 115.32000000000001,
+    "end": 121.13000000000001,
+    "text": "I understand. You dispute Newton's claim that he invented calculus and you want to put Gottfried Leibniz on the top."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 122.52,
+    "end": 124.04,
+    "text": "Yeah, you got me. I'm a Leibniz man."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 124.79,
+    "end": 127.74,
+    "text": "Well, perhaps when your mother gets here, she'll talk some sense into you."
+  },
+  {
+    "speaker": "penny",
+    "start": 128.61,
+    "end": 130.32,
+    "text": "What? Your... your mother's coming? When?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 130.62,
+    "end": 131.10000000000002,
+    "text": "Tomorrow."
+  },
+  {
+    "speaker": "penny",
+    "start": 131.93,
+    "end": 133.17000000000002,
+    "text": "When were you going to tell me?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 133.82999999999998,
+    "end": 134.64,
+    "text": "Um, tomorrow?"
+  },
+  {
+    "speaker": "penny",
+    "start": 135.2,
+    "end": 137.14,
+    "text": "Why were you keeping this a secret?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 137.7,
+    "end": 138.74,
+    "text": "Well, I just, I thought..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 138.85000000000002,
+    "end": 144.52999999999997,
+    "text": "If I can interject here, obviously Leonard is concerned that his mother won't approve of you as his mate."
+  },
+  {
+    "speaker": "penny",
+    "start": 145.32999999999998,
+    "end": 148.94,
+    "text": "Why wouldn't she approve of me? I'm adorable."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 149.74,
+    "end": 150.62,
+    "text": "You are, it's just..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 150.73000000000002,
+    "end": 167.17000000000002,
+    "text": "If I can interject again. Leonard comes from a remarkably high-achieving family, who have all chosen high-achieving partners. He probably feels that it's doubtful that his mother will be overly impressed with his dating a woman whose most significant achievement is memorizing the Cheesecake Factory menu."
+  },
+  {
+    "speaker": "penny",
+    "start": 167.17000000000002,
+    "end": 172.77999999999997,
+    "text": "Hey, it's a big menu. There's two pages just for desserts."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 174.25,
+    "end": 176.67000000000002,
+    "text": "I know. And those specials, they change every day."
+  },
+  {
+    "speaker": "penny",
+    "start": 177.63,
+    "end": 192.14,
+    "text": "Okay, you know what? It's lame when I say it, it's just ridiculous when you pile on. So what did she say when you told her we were going out? You didn't tell her we were going out, did you? Why not?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 180.7,
+    "end": 181.63,
+    "text": "Okay, sorry."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 185.70999999999998,
+    "end": 186.43,
+    "text": "Um..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 189.76,
+    "end": 190.22999999999996,
+    "text": "Um..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 193.09999999999997,
+    "end": 193.57999999999998,
+    "text": "Um..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 194.52999999999997,
+    "end": 198.54999999999995,
+    "text": "Leonard, I'm no expert on meditation, but if you're trying to calm yourself down, I believe the word is Om."
+  }
+]

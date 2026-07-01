@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Ramona",
+    "start": 3.8199999999999994,
+    "end": 7.88,
+    "text": "Cooper. Hi, Leonard. Thanks. Where should I put this?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 5.22,
+    "end": 10.78,
+    "text": "Uh, hey, Ramona, come on in. Uh, the kitchen's fine. Hey, what are you doing?"
+  },
+  {
+    "speaker": "Ramona",
+    "start": 10.78,
+    "end": 12.16,
+    "text": "I need to see this."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.04,
+    "end": 22.34,
+    "text": "The viewing area's right over there. Sheldon, your girl, date person, Ramona's here."
+  },
+  {
+    "speaker": "Ramona",
+    "start": 24.64,
+    "end": 28.42,
+    "text": "Oh, sorry I'm late. I just got so caught up reading the draft of your latest paper."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 28.220000000000002,
+    "end": 33.96,
+    "text": "Oh, hello. Did you enjoy the humorous footnote where I illustrate mirror symmetry by likening it to the Flash playing tennis with himself?"
+  },
+  {
+    "speaker": "Ramona",
+    "start": 33.96,
+    "end": 34.160000000000004,
+    "text": "So funny! But the idea that you might be able to incorporate gravity, I have to tell you, I found it physically exhilarating."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 43.88,
+    "end": 46.8,
+    "text": "My hypotheses tend to have that effect."
+  },
+  {
+    "speaker": "Ramona",
+    "start": 48.12,
+    "end": 53.14,
+    "text": "I'm sorry I didn't bring enough for your friends. I assumed we were going to be alone."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.22,
+    "end": 63.5,
+    "text": "Oh. Yeah, no, we were just going to watch, right? No, come on now, we're going out."
+  },
+  {
+    "speaker": "Ramona",
+    "start": 63.5,
+    "end": 65.19,
+    "text": "Oh, come on, we'll be quiet."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 66.39,
+    "end": 66.59,
+    "text": "Let's go. Okay, you two. Just have a nice, whatever this is."
+  }
+]

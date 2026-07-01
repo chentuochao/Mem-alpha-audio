@@ -1,0 +1,140 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 4.309999999999945,
+    "text": "I'll go talk to her. Want to come with?"
+  },
+  {
+    "speaker": "penny",
+    "start": 6.519999999999982,
+    "end": 6.940000000000055,
+    "text": "Go!"
+  },
+  {
+    "speaker": "penny",
+    "start": 13.0,
+    "end": 13.370000000000005,
+    "text": "Wow."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 19.789999999999964,
+    "end": 20.57000000000005,
+    "text": "Oh, no."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 20.779999999999973,
+    "end": 20.879999999999995,
+    "text": "Wha??"
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 23.07000000000005,
+    "end": 27.450000000000045,
+    "text": "You were right. Your larynx is terribly inflamed. I mean, I've never seen anything like it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.50999999999999,
+    "end": 27.879999999999995,
+    "text": "I knew it! What do I do?"
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 33.83000000000004,
+    "end": 35.960000000000036,
+    "text": "You're going to need to stop talking immediately. Du-du-du-du! Immediately."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.42999999999995,
+    "end": 35.460000000000036,
+    "text": "For how..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.49000000000001,
+    "end": 40.85000000000002,
+    "text": "Hey."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 45.370000000000005,
+    "end": 46.450000000000045,
+    "text": "Oh, hi, honey."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 50.98000000000002,
+    "end": 56.299999999999955,
+    "text": "Sheldon. What's going on?"
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 57.01999999999998,
+    "end": 58.90999999999997,
+    "text": "I just performed a Sheldonectomy."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 61.059999999999945,
+    "end": 67.37,
+    "text": "Careful, if you don't get it all, it'll only come back worse. Listen, we need to talk."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 65.10000000000002,
+    "end": 65.63999999999999,
+    "text": "Gotcha."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 68.61000000000001,
+    "end": 71.86000000000001,
+    "text": "Oh-oh. Do we need to talk or do we\" need to talk\"?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.77999999999997,
+    "end": 73.86000000000001,
+    "text": "I don't know what that means."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 74.97000000000003,
+    "end": 78.25,
+    "text": "Okay, why don't you just tell me what it is you have to tell me?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 78.38,
+    "end": 89.53999999999996,
+    "text": "Okay, um, well, look, it's just that things between you and me have been going pretty quick. It's just a little scary."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 86.76999999999998,
+    "end": 87.32000000000005,
+    "text": "And?"
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 90.08000000000004,
+    "end": 92.45000000000005,
+    "text": "Well, yeah, but scary good, right?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 92.96000000000004,
+    "end": 93.64999999999998,
+    "text": "Sure,"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 96.00999999999999,
+    "end": 97.45000000000005,
+    "text": "when is scary not good?"
+  }
+]

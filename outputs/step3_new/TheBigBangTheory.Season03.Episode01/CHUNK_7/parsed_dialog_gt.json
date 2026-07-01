@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 6.840000000000032,
+    "text": "Oh, you think you're so clever. Well, let me just tell you, while I do not currently have a scathing retort, you check your e-mail periodically for a doozy."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.480000000000018,
+    "end": 13.889999999999986,
+    "text": "So much for our friendship with Sheldon."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 16.16999999999996,
+    "end": 17.870000000000005,
+    "text": "Well, we'll always have the night the heat went out."
+  },
+  {
+    "speaker": "penny",
+    "start": 20.970000000000027,
+    "end": 21.33000000000004,
+    "text": "Hi."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.43999999999994,
+    "end": 24.799999999999955,
+    "text": "Hey."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.539999999999964,
+    "end": 31.110000000000014,
+    "text": "Listen, since we got, you know, interrupted last night, I didn't have a chance to give you this."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.620000000000005,
+    "end": 37.72000000000003,
+    "text": "Oh, Leonard, you shouldn't have. Oh, boy! What is it?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.120000000000005,
+    "end": 43.309999999999945,
+    "text": "It's a snowflake. From the North Pole."
+  },
+  {
+    "speaker": "penny",
+    "start": 44.92999999999995,
+    "end": 46.14999999999998,
+    "text": "Are you serious?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 46.549999999999955,
+    "end": 50.59000000000003,
+    "text": "Uh-huh. It'll last forever. I preserved it in a one percent solution of polyvinyl acetal resin."
+  },
+  {
+    "speaker": "penny",
+    "start": 55.39999999999998,
+    "end": 59.539999999999964,
+    "text": "Oh, my God. That's the most romantic thing anyone's ever said to me that I didn't understand."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 61.17999999999995,
+    "end": 65.42999999999995,
+    "text": "It's actually a pretty simple process. You see, cyanoacrylate are monomers which polymerize on..."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.9500000000000455,
+    "text": "Those are movies."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.0599999999999454,
+    "end": 9.419999999999959,
+    "text": "Well of course they're movies. Were you expecting me to come up with an example involving a real life time machine? That's absurd."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 11.970000000000027,
+    "end": 13.230000000000018,
+    "text": "Come on, guys, push."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 13.379999999999995,
+    "end": 16.5,
+    "text": "If I push any harder I' m going to give birth to my colon."
+  },
+  {
+    "speaker": "penny",
+    "start": 17.799999999999955,
+    "end": 19.75999999999999,
+    "text": "Oh, hey guys."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 21.059999999999945,
+    "end": 24.480000000000018,
+    "text": "Uh, hi Penny. Take a break, guys!"
+  },
+  {
+    "speaker": "penny",
+    "start": 26.32000000000005,
+    "end": 26.99000000000001,
+    "text": "What are you doing?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.129999999999995,
+    "end": 29.789999999999964,
+    "text": "Oh, just, you know, moving a... time machine."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.66999999999996,
+    "end": 33.23000000000002,
+    "text": "Yeah, okay, neat, but I really got to get to work, so..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.950000000000045,
+    "end": 39.370000000000005,
+    "text": "No problem. Hang on."
+  },
+  {
+    "speaker": "penny",
+    "start": 43.860000000000014,
+    "end": 45.41999999999996,
+    "text": "But, what about your time machine."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.65999999999997,
+    "end": 47.59000000000003,
+    "text": "Some things are more important than toys."
+  },
+  {
+    "speaker": "penny",
+    "start": 56.200000000000045,
+    "end": 57.450000000000045,
+    "text": "Oh, I' m scared."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.110000000000014,
+    "end": 59.379999999999995,
+    "text": "Don't worry baby, I' ve got you."
+  },
+  {
+    "speaker": "penny",
+    "start": 60.43999999999994,
+    "end": 61.539999999999964,
+    "text": "Oh, Leonard."
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "speaker": "penny",
+    "start": 6.250000001273293e-05,
+    "end": 3.850062500000149,
+    "text": "Sit on the damn couch. What do you mean, nope? What's wrong with it?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.8500625000001492,
+    "end": 0.8800625000001219,
+    "text": "Nope."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 5.580062500000167,
+    "end": 7.390062500000113,
+    "text": "Nothing, it's what's wrong with him."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.72006250000004,
+    "end": 9.97006250000004,
+    "text": "It's exactly the same..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.040062500000204,
+    "end": 15.580062500000167,
+    "text": "Penny, Penny, I think I know what to do. Sheldon, I have some bad news."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.030062500000213,
+    "end": 16.61006250000014,
+    "text": "More?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.580062500000167,
+    "end": 21.73006250000003,
+    "text": "I'm afraid so. You know the cashew chicken I get you Monday nights?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.820062500000176,
+    "end": 23.500062500000013,
+    "text": "Yes. From Szechuan Palace."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.670062500000085,
+    "end": 27.040062500000204,
+    "text": "Szechuan Palace closed two years ago."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.73006250000003,
+    "end": 32.97006250000004,
+    "text": "What? Wh-Where did my cashew chicken come from?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.72006250000004,
+    "end": 34.810062500000186,
+    "text": "Golden Dragon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.28006250000021,
+    "end": 48.53006250000021,
+    "text": "No. No, this isn't right. Our food always comes in Szechuan Palace containers."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.83006250000017,
+    "end": 56.19006250000007,
+    "text": "Yeah, well, before they went out of business, I bought 4,000 containers. I keep them in the trunk of my car."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.34006250000016,
+    "end": 61.95006250000006,
+    "text": "But. Oh, this changes everything."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 64.61006250000014,
+    "end": 66.13006250000012,
+    "text": "I thought that might take his mind off the cushion."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.5500625000002,
+    "end": 69.53006250000021,
+    "text": "What's real? What isn't? How can I know?"
+  },
+  {
+    "speaker": "penny",
+    "start": 71.93006250000008,
+    "end": 73.13006250000012,
+    "text": "You did make that up, right?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.19006250000007,
+    "end": 74.13006250000012,
+    "text": "Oh, God, I wish I had."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.34006250000016,
+    "end": 76.43006250000008,
+    "text": "Leonard?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 77.72006250000004,
+    "end": 78.31006250000019,
+    "text": "Yeah, buddy?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 78.5400625000002,
+    "end": 79.68006250000008,
+    "text": "I still don't like this cushion."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 85.14006250000011,
+    "end": 87.49006250000002,
+    "text": "Okay, first of all, Penny, thank you for coming."
+  },
+  {
+    "speaker": "penny",
+    "start": 87.7600625,
+    "end": 88.5500625000002,
+    "text": "Thanks for the shoes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 90.0500625000002,
+    "end": 104.48006250000003,
+    "text": "Penny is an amazing shot. I think we have a real chance to win this week. Okay. Now, we all run out. Sheldon and I will cut to the left behind these trees. Raj, Howard and Leslie flank to the right behind the rocks. Then we'll all have a great view as Penny runs out and kills everyone else in sight."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 93.2700625,
+    "end": 93.83006250000017,
+    "text": "What's the plan?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 105.37006250000013,
+    "end": 107.7900625000002,
+    "text": "Right, just one thing before we start."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 107.82006250000018,
+    "end": 108.50006250000001,
+    "text": "What is it, Sheldon?"
+  },
+  {
+    "speaker": "penny",
+    "start": 110.09006250000016,
+    "end": 112.46006250000005,
+    "text": "What the hell?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 114.0500625000002,
+    "end": 115.47006250000004,
+    "text": "That was for my cushion."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 116.62006250000013,
+    "end": 118.50006250000001,
+    "text": "Sheldon, Penny was our only hope."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 118.7700625,
+    "end": 122.67006250000009,
+    "text": "I'm sorry, Leonard. But revenge is a dish best served cold."
+  },
+  {
+    "speaker": "penny",
+    "start": 125.8000625000002,
+    "end": 126.53006250000021,
+    "text": "Screw that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 129.6600625000001,
+    "end": 130.99006250000002,
+    "text": "She can't shoot me. She's dead."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 131.68006250000008,
+    "end": 132.73006250000003,
+    "text": "He's right. You can't."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 139.0200625,
+    "end": 141.5000625,
+    "text": "Well, if we're going to descend into anarchy"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 146.96006250000005,
+    "end": 148.0400625000002,
+    "text": "Okay, see you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 149.0100625,
+    "end": 150.96006250000005,
+    "text": "Where are you going?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 151.94006250000007,
+    "end": 153.12006250000013,
+    "text": "Surrender, then Denny's."
+  }
+]

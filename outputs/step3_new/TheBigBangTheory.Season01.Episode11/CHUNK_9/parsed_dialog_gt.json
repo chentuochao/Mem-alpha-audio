@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 3.3700000000000045,
+    "text": "Okay, ground rules, no sponge baths, and definitely no enemas."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 5.009999999999991,
+    "end": 5.6299999999999955,
+    "text": "Agreed."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 10.730000000000018,
+    "end": 14.019999999999982,
+    "text": "Here we go, ten and a half hours of apey goodness."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.620000000000005,
+    "end": 22.67999999999995,
+    "text": "Oh dammit, my glasses. Okay, I' m blind here guys, can you help me find them?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 22.850000000000023,
+    "end": 27.25,
+    "text": "Sorry. Found'em."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 30.840000000000032,
+    "end": 31.699999999999932,
+    "text": "Oh great."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 31.909999999999968,
+    "end": 33.360000000000014,
+    "text": "Sorry, don't you have a spare."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.50999999999999,
+    "end": 34.5,
+    "text": "Yeah, at home."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 34.69999999999993,
+    "end": 38.22000000000003,
+    "text": "Well if you leave now, you can be back before the gorillas rip the crap out of Charlton Heston."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 39.22000000000003,
+    "end": 44.110000000000014,
+    "text": "Unless Sheldon's there, in which case you'll be trapped forever in his whiny hyper neurotic snot- web."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.42999999999995,
+    "end": 72.10000000000002,
+    "text": "Hi, Penny. I was wondering, is Sheldon still at the restaurant? Okay, that was very nice of you. Okay, got ta go, got kind of a full blown Chernobyl thing here, got ta go, bye. He's home, I' m screwed. Ten and a half hours of apey blurriness."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 74.31999999999994,
+    "end": 74.89999999999998,
+    "text": "How about Lasic?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.15999999999997,
+    "end": 78.59000000000003,
+    "text": "You want me to get eye surgery?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 79.0,
+    "end": 83.12,
+    "text": "Would you rather go back to the apartment and deal with Sheldon, or have a stranger carve out your corneas with a laser beam?"
+  }
+]

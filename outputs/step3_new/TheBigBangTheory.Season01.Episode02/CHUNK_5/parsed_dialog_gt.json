@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.37000000000000455,
+    "text": "Sheldon?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.230000000000018,
+    "end": 13.589999999999975,
+    "text": "Sheldon?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.100000000000023,
+    "end": 26.460000000000036,
+    "text": "Hello?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.440000000000055,
+    "end": 40.75999999999999,
+    "text": "Sheldon!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 41.40999999999997,
+    "end": 43.01999999999998,
+    "text": "Sssshhhh! Penny's sleeping."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 44.549999999999955,
+    "end": 49.90999999999997,
+    "text": "Are you insane, you can't just break into a woman's apartment in the middle of the night and clean."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.27999999999997,
+    "end": 59.73000000000002,
+    "text": "I had no choice. I couldn't sleep knowing that just outside my bedroom was our living room, and just outside our living room was that hallway, and immediately adjacent to that hallway was... this."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.120000000000005,
+    "end": 66.65999999999997,
+    "text": "Do you realize that if Penny wakes up, there is no reasonable explanation as to why we're here?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.13,
+    "end": 68.64999999999998,
+    "text": "I just gave you a reasonable explanation."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 69.55999999999995,
+    "end": 75.13999999999999,
+    "text": "No, no. You gave me an explanation, it's reasonableness will be determined by a jury of your peers."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.40999999999997,
+    "end": 78.53999999999996,
+    "text": "Don't be ridiculous. I have no peers."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 79.5,
+    "end": 83.32000000000005,
+    "text": "Sheldon, we have to get out of here."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 84.26999999999998,
+    "end": 86.62,
+    "text": "You might want to speak in a lower register."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 87.5,
+    "end": 87.92999999999995,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 88.80999999999995,
+    "end": 97.39999999999998,
+    "text": "Evolution has made women sensitive to high pitched noises while they sleep, so that they'll be roused by a crying baby. If you want to avoid waking her, speak in a lower register."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 99.54999999999995,
+    "end": 100.69000000000005,
+    "text": "That's ridiculous."
+  }
+]

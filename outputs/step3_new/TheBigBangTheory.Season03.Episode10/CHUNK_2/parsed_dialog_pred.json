@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 7.41,
+    "end": 9.8,
+    "text": "Howard never let her go. I am. Are you interested in physics?"
+  },
+  {
+    "speaker": "Bernadette",
+    "start": 9.600000000000001,
+    "end": 10.0,
+    "text": "So, Leonard, Howard says you're working on fundamental tests of quantum mechanics. I find it fascinating. If I hadn't gone into microbiology, I probably would have gone into physics. Or ice dancing."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 17.7,
+    "end": 17.9,
+    "text": "Actually, my tests of the Aronov-Bomb quantum interference effect have reached an interesting point. Right now we're testing the phase shift due to an electric potential."
+  },
+  {
+    "speaker": "Bernadette",
+    "start": 25.23,
+    "end": 26.47,
+    "text": "That's amazing."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.58,
+    "end": 39.54,
+    "text": "Yes, Leonard's work is nearly as amazing as third graders growing lima beans in wet paper towels. While I appreciate the, oh snap, I'm uncomfortable having your moist breath in my face."
+  },
+  {
+    "speaker": "Bernadette",
+    "start": 42.76,
+    "end": 46.82,
+    "text": "Are you going to try to set up the voltages using tunnel junctions?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.82,
+    "end": 50.38,
+    "text": "Yes, I am. You want to see a simulation on my laptop?"
+  },
+  {
+    "speaker": "Bernadette",
+    "start": 50.38,
+    "end": 55.97,
+    "text": "Oh, yeah, show me. In microbiology, the most exciting thing I get to work with is yeast."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.85,
+    "end": 60.51,
+    "text": "Howard. Your shoes are delightful."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 58.04,
+    "end": 58.84,
+    "text": "Yeah?"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Cooper",
+    "start": 6.58,
+    "end": 10.8,
+    "text": "Never mind, what's your announcement? Hey, Koopa, I hear you're gonna be on the radio with Ira Fwedo from Science Friday next week."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 10.600000000000001,
+    "end": 19.97,
+    "text": "Oh, good, my turn. Well, this is very exciting, and I wanted you to be among the first to know. Thank you, Kripke, for depriving me of the opportunity to share my news with my friends. My thank you was not sincere."
+  },
+  {
+    "speaker": "Cooper",
+    "start": 16.05,
+    "end": 17.42,
+    "text": "My pleasure."
+  },
+  {
+    "speaker": "Cooper",
+    "start": 19.97,
+    "end": 20.169999999999998,
+    "text": "Hmm, but my pleasure is. Let me ask you a question. At what point did National Public Radio have to start scraping the bottom of the barrel for its guests? Eh, don't answer, it's rhetorical."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.0,
+    "end": 33.2,
+    "text": "Why are you such a stupid hen? That is also rhetorical."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 40.2,
+    "end": 42.41,
+    "text": "Sorry you had to hear that."
+  },
+  {
+    "speaker": "Cooper",
+    "start": 42.41,
+    "end": 44.78,
+    "text": "Are you really gonna be on NPR?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 44.78,
+    "end": 44.980000000000004,
+    "text": "Yes, they're interviewing me by phone from my office regarding the recent so-called discovery of magnetic monopoles and spin ices. It's pledge week and they're trying to goose the ratings with little controversy."
+  },
+  {
+    "speaker": "Cooper",
+    "start": 56.39,
+    "end": 58.61,
+    "text": "Very cool. Congratulations."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 58.61,
+    "end": 58.81,
+    "text": "Thank you. My mother is very excited. She's convening her Bible study group to listen in and then pray for my soul."
+  }
+]

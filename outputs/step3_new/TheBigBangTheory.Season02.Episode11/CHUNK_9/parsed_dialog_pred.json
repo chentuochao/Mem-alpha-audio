@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 0.0,
+    "end": 9.96,
+    "text": "Nice save, genius. Eggnog. It's just rum. It stopped being eggnog like half an hour ago."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.760000000000002,
+    "end": 16.48,
+    "text": "Lactose. Smoothies."
+  },
+  {
+    "speaker": "Penny",
+    "start": 17.86,
+    "end": 19.86,
+    "text": "Smoother than you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 20.58,
+    "end": 23.62,
+    "text": "Well, it's Christmas. Just give me this one."
+  },
+  {
+    "speaker": "Penny",
+    "start": 24.78,
+    "end": 28.6,
+    "text": "Okay. Merry Christmas."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 33.2,
+    "end": 36.38,
+    "text": "By the way, my leg is killing me. Thanks for asking."
+  },
+  {
+    "speaker": "Penny",
+    "start": 44.86,
+    "end": 47.65,
+    "text": "Merry Christmas. How's your leg?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.1,
+    "end": 49.52,
+    "text": "Merry Christmas. Very good. Thanks for asking. Come on in."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.0,
+    "end": 61.24,
+    "text": "Oh, good. Penny, you're here to exchange gifts. You'll be pleased to know I'm prepared for whatever you have to offer."
+  },
+  {
+    "speaker": "Penny",
+    "start": 62.52,
+    "end": 63.58,
+    "text": "Okay, here."
+  }
+]

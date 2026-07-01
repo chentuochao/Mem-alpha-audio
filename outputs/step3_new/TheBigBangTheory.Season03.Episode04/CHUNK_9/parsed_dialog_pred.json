@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 5.18,
+    "end": 7.51,
+    "text": "I was making a joke. Sorry, go ahead and make your joke."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 7.31,
+    "end": 7.71,
+    "text": "I'm the boss. I make the jokes. This is not the time for joking. We're doing serious research, which requires complete and utter focus."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 13.67,
+    "end": 16.34,
+    "text": "Alright, let's buckle down and work."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.05,
+    "end": 47.47,
+    "text": "I need an aspirin."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 47.47,
+    "end": 48.87,
+    "text": "Top desk drawer."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.95,
+    "end": 56.21,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.21,
+    "end": 57.11,
+    "text": "Alright."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 65.91,
+    "end": 69.21,
+    "text": "That was fun. Thank you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 72.28,
+    "end": 77.29,
+    "text": "Okay. Tomorrow you're gonna get a card in the mail, just throw it away."
+  }
+]
