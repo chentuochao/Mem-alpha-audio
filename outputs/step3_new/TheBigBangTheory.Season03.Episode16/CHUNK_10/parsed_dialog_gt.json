@@ -1,0 +1,194 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.18000000000006366,
+    "text": "Did he just somehow give me the finger?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.19000000000005457,
+    "end": 2.259999999999991,
+    "text": "Not just the finger. The moving finger."
+  },
+  {
+    "speaker": "penny",
+    "start": 3.240000000000009,
+    "end": 4.230000000000018,
+    "text": "Hey, Stuart."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 9.050000000000068,
+    "end": 12.170000000000073,
+    "text": "Oh, hey, Penny. Wow. Hi."
+  },
+  {
+    "speaker": "penny",
+    "start": 12.840000000000032,
+    "end": 14.440000000000055,
+    "text": "What's going on?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 14.800000000000068,
+    "end": 18.910000000000082,
+    "text": "Nothing. I'm just getting ready to close up and head out."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.530000000000086,
+    "end": 21.610000000000014,
+    "text": "Ah. Cool. Got any fun plans?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 21.700000000000045,
+    "end": 36.56000000000006,
+    "text": "Oh, yeah. Big night tonight. Gonna share a can of tuna with the cat. Not even my cat. I just feed it. Some nights it doesn't even show up."
+  },
+  {
+    "speaker": "penny",
+    "start": 29.200000000000045,
+    "end": 30.210000000000036,
+    "text": "Oh, nice."
+  },
+  {
+    "speaker": "penny",
+    "start": 38.42000000000007,
+    "end": 51.35000000000002,
+    "text": "Oh, okay. Well, I was hoping, um, you could do me a favour. Well, I'm kind of responsible for Sheldon missing Stan Lee, and I really want to make it up to him. So I was hoping you could give me his phone number so maybe I can arrange for them to meet."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 41.98000000000002,
+    "end": 43.020000000000095,
+    "text": "Sure, yeah, name it."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 51.50999999999999,
+    "end": 53.40000000000009,
+    "text": "Oh, I'm sorry, I don't have his phone number."
+  },
+  {
+    "speaker": "penny",
+    "start": 53.620000000000005,
+    "end": 55.79000000000008,
+    "text": "Hmm. Damn. All right. Thank you."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 56.81000000000006,
+    "end": 61.49000000000001,
+    "text": "Mm-hmm. Wait. I have his address."
+  },
+  {
+    "speaker": "penny",
+    "start": 62.42000000000007,
+    "end": 63.80000000000007,
+    "text": "Really? Great!"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 64.40000000000009,
+    "end": 65.96000000000004,
+    "text": "But I can't give it to you."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.32000000000005,
+    "end": 68.98000000000002,
+    "text": "Then why did you tell me you had it?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 69.07000000000005,
+    "end": 76.30000000000007,
+    "text": "I don't know. Just chatting. You're looking at a guy who could very well get stood up by a stray cat tonight."
+  },
+  {
+    "speaker": "penny",
+    "start": 77.99000000000001,
+    "end": 79.6400000000001,
+    "text": "I'm sorry, Stuart. Thanks anyway."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 80.95000000000005,
+    "end": 86.76999999999998,
+    "text": "Mm-hmm. Wait. Maybe we can make a deal."
+  },
+  {
+    "speaker": "penny",
+    "start": 84.70000000000005,
+    "end": 84.87000000000012,
+    "text": "Yeah?"
+  },
+  {
+    "speaker": "penny",
+    "start": 87.96000000000004,
+    "end": 88.94000000000005,
+    "text": "What kind of deal?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 89.69000000000005,
+    "end": 93.60000000000014,
+    "text": "I will give you the address if you go to my cousin's wedding with me."
+  },
+  {
+    "speaker": "penny",
+    "start": 94.10000000000014,
+    "end": 95.6400000000001,
+    "text": "You're extorting a date out of me?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 95.86000000000013,
+    "end": 99.18000000000006,
+    "text": "I kind of have to. The cousin who's getting married is the cousin I usually go to weddings with."
+  },
+  {
+    "speaker": "penny",
+    "start": 101.55999999999995,
+    "end": 102.34000000000015,
+    "text": "Can I bring Leonard?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 103.60000000000014,
+    "end": 107.02999999999997,
+    "text": "Sure. What the hell. We'll tell people he's your cousin."
+  },
+  {
+    "speaker": "penny",
+    "start": 105.16000000000008,
+    "end": 105.46000000000004,
+    "text": "Deal."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 110.37000000000012,
+    "end": 117.67000000000007,
+    "text": "This is Stan Lee's front door. We were on Stan Lee's curb, then we were on Stan Lee's walk, and now we're at Stan Lee's front door."
+  },
+  {
+    "speaker": "penny",
+    "start": 118.56999999999994,
+    "end": 119.01999999999998,
+    "text": "Yup."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 120.27999999999997,
+    "end": 126.26999999999998,
+    "text": "Oh, Lord, you just rang Stan Lee's doorbell. At Stan Lee's house. We're about to go in and have milk and cookies with Stan Lee."
+  },
+  {
+    "speaker": "penny",
+    "start": 126.31999999999994,
+    "end": 128.52999999999997,
+    "text": "Okay, sweetie, I don't know if we're gonna have cookies."
+  }
+]

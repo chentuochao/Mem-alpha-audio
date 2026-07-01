@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 4.539999999999964,
+    "text": "Oh! Hello."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.730000000000018,
+    "end": 10.599999999999909,
+    "text": "Time to do your laundry, huh?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.139999999999986,
+    "end": 14.349999999999909,
+    "text": "It's Saturday night. Saturday is laundry night."
+  },
+  {
+    "speaker": "penny",
+    "start": 15.039999999999964,
+    "end": 20.5,
+    "text": "I know. Every Saturday at 8:15, easy to anticipate."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.819999999999936,
+    "end": 24.860000000000014,
+    "text": "What are you implying?"
+  },
+  {
+    "speaker": "penny",
+    "start": 25.329999999999927,
+    "end": 35.51999999999998,
+    "text": "I'm implying that you're a creature of habit, and if something were to prevent you from doing your laundry on Saturday at 8:15, you might find it unpleasant."
+  },
+  {
+    "speaker": "penny",
+    "start": 42.16999999999996,
+    "end": 43.379999999999995,
+    "text": "Knuckle under, my ass."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.17999999999995,
+    "end": 58.129999999999995,
+    "text": "Oh, no, are all the machines taken? What are you gonna do?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.19999999999993,
+    "end": 64.17999999999995,
+    "text": "No problem, I'll just do my laundry another night."
+  },
+  {
+    "speaker": "penny",
+    "start": 65.50999999999999,
+    "end": 73.61000000000001,
+    "text": "Another night? Well, I guess you can try, but deep inside your heart you'll know that laundry night is always Saturday night."
+  }
+]

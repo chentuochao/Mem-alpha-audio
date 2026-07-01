@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 5.79,
+    "end": 8.42,
+    "text": "I have three words for you: Wrath of Khan. I got the Mars rover stuck in a ditch."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 8.850000000000001,
+    "end": 10.08,
+    "text": "Oh, thank God you're here. What's the emergency? Where?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 10.1,
+    "end": 18.84,
+    "text": "On a dusty highway just outside Bakersfield. Where do you think? On Mars! Yeah, baby, I'll be right in."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 20.41,
+    "end": 23.14,
+    "text": "You brought a girl to the Mars rover control room?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 23.14,
+    "end": 23.34,
+    "text": "Yeah, I picked her up in the bar. She's a doctor. One free barium enema and my mother won't care. She's not Jewish."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.23,
+    "end": 33.28,
+    "text": "Wait a minute, so the eye patch and the insults worked?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 33.28,
+    "end": 33.480000000000004,
+    "text": "No, there were three other guys with eye patches. It was a fiasco. What did work was, how'd you like to visit a secret government facility?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.06,
+    "end": 43.98,
+    "text": "So what exactly do you want us to do?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 43.98,
+    "end": 49.88,
+    "text": "I need you and Raj to help me get the rover out of the ditch, and I need you to get Stephanie out before somebody notices she's here. She doesn't exactly have clearance."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.88,
+    "end": 50.080000000000005,
+    "text": "Really? They don't let strange women from honky-tonks come in and play with two hundred million dollar government projects on distant planets?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 56.02,
+    "end": 60.52,
+    "text": "Yes, I was bad. Maybe she'll spank me. Can we please move on?"
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 61.41,
+    "end": 65.44,
+    "text": "Hey, Howard, is everything okay? Hey, Howard, you know it's getting late, so do I get to drive this thing or what?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 65.44,
+    "end": 65.64,
+    "text": "Yeah, no, I'm sorry, but something's come up. Kind of a Mars rover. Mars rover. Can Howard come over?"
+  }
+]

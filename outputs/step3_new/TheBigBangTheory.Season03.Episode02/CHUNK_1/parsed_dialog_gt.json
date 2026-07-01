@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.6599999999999966,
+    "text": "Sheldon, dinner's here."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.3199999999999932,
+    "end": 2.25,
+    "text": "Tandoori Palace?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.7299999999999898,
+    "end": 3.9799999999999898,
+    "text": "No, we went somewhere new."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 7.889999999999986,
+    "end": 9.810000000000002,
+    "text": "You're good-naturedly ribbing me, aren't you?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.829999999999984,
+    "end": 12.22999999999999,
+    "text": "No, look, Mumbai Palace."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.329999999999984,
+    "end": 18.19999999999999,
+    "text": "Why? Why would we change? We had a perfectly good palace. Tandoori Palace is our palace."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 19.67999999999998,
+    "end": 21.060000000000002,
+    "text": "Trust me, this will be just fine."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 22.039999999999992,
+    "end": 24.22,
+    "text": "You are the authority on just fine."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.060000000000002,
+    "end": 27.789999999999992,
+    "text": "What's that supposed to mean?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 28.849999999999994,
+    "end": 31.419999999999987,
+    "text": "Yeah, exactly. Not bad, but not great."
+  },
+  {
+    "speaker": "penny",
+    "start": 34.26999999999998,
+    "end": 35.25999999999999,
+    "text": "What are they talking about?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.78,
+    "end": 35.97,
+    "text": "I don't know"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.34,
+    "end": 38.119999999999976,
+    "text": "I know. As I'm sure you're aware..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.25,
+    "end": 38.25999999999999,
+    "text": "Duh-duh-duh-duh-duh-duh."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.129999999999995,
+    "end": 52.22999999999999,
+    "text": "If that's Morse code, that's terrible. As I was saying, you and Leonard had a disappointing sexual encounter. Earlier this evening, Leonard characterized it as just fine. So what you're seeing here is a continuation of the mocking that followed."
+  },
+  {
+    "speaker": "penny",
+    "start": 55.869999999999976,
+    "end": 60.56,
+    "text": "Okay, yeah, well, I'm just gonna go eat my dinner elsewhere. Maybe an airplane headed for a mountainside."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.19,
+    "end": 66.76999999999998,
+    "text": "Penny, wait. Aagh! What is wrong with you?"
+  }
+]

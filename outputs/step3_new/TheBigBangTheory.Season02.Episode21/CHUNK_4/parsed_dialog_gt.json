@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 1.8899999999999864,
+    "text": "Just go, I'll catch up with you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.359999999999957,
+    "end": 2.849999999999966,
+    "text": "Alright."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 4.099999999999966,
+    "end": 6.599999999999966,
+    "text": "Oh, we should have a plan in case one of us gets lucky."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.359999999999957,
+    "end": 18.16999999999996,
+    "text": "Okay, uh, if I get lucky I'll take her to my stately manor outside Gotham City, and if you get lucky, I'll sleep on the moon."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 20.16999999999996,
+    "end": 20.659999999999968,
+    "text": "Sounds like a plan."
+  },
+  {
+    "speaker": "penny",
+    "start": 23.489999999999952,
+    "end": 25.609999999999957,
+    "text": "Hang on, I think the emergency key is around here somewhere."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.70999999999998,
+    "end": 32.389999999999986,
+    "text": "We have a bowl. Our keys go in a bowl. You should get a bowl."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.19,
+    "end": 37.81999999999999,
+    "text": "So, how did the beautiful mind of Sheldon Cooper forget his key in the first place."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.81,
+    "end": 39.71999999999997,
+    "text": "I left them in the bowl."
+  },
+  {
+    "speaker": "penny",
+    "start": 40.96999999999997,
+    "end": 45.799999999999955,
+    "text": "Oh-oh. I just remembered where the emergency key is. In your apartment."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.120000000000005,
+    "end": 44.620000000000005,
+    "text": "Where?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 46.370000000000005,
+    "end": 47.75,
+    "text": "What's it doing in my apartment?"
+  },
+  {
+    "speaker": "penny",
+    "start": 47.829999999999984,
+    "end": 51.01999999999998,
+    "text": "Well, I went in there a few weeks ago when you guys weren't home, and I forgot it there."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.16999999999996,
+    "end": 53.14999999999998,
+    "text": "You were in my... why would you... what are you saying?"
+  },
+  {
+    "speaker": "penny",
+    "start": 53.64999999999998,
+    "end": 57.10999999999996,
+    "text": "It's not a big deal, I was making coffee and I ran out of milk."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.139999999999986,
+    "end": 64.16999999999996,
+    "text": "You're the milk thief! Leonard said I was crazy but I knew that carton felt lighter."
+  },
+  {
+    "speaker": "penny",
+    "start": 66.38,
+    "end": 71.40999999999997,
+    "text": "Alright, Sheldon, let's just calm down and we'll call the building manager, he'll come open your door, you just eat your dinner here while you're waiting."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 71.71999999999997,
+    "end": 85.91999999999996,
+    "text": "Eat? My dinner? In your apartment? Sure, why not? And after the sun's down we can all pile in my pick-up and go skinny-dipping down at the creek.'Cause today's the day to stop making sense."
+  },
+  {
+    "speaker": "penny",
+    "start": 74.75,
+    "end": 75.38,
+    "text": "Yeah, why not?"
+  }
+]

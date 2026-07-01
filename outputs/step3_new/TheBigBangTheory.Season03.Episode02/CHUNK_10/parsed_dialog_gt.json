@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "professor_crawley",
+    "start": 0.0,
+    "end": 4.459999999999923,
+    "text": "What's your deal? Are they planning to outsource my job to Bangalore?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 7.019999999999982,
+    "end": 10.509999999999991,
+    "text": "I'm from New Delhi. Maybe you should find another entomologist."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.729999999999905,
+    "end": 14.769999999999982,
+    "text": "No, no. We're here, let's settle this. Professor, can you identify our cricket?"
+  },
+  {
+    "speaker": "professor_crawley",
+    "start": 14.919999999999959,
+    "end": 31.319999999999936,
+    "text": "Of course I can. I can identify every insect and arachnid on the planet. Not that that's going to keep me from having to move in with my daughter in Oxnard. And we're not talking Oxnard at the beach. No! We're talking Oxnard in the onion fields."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 35.639999999999986,
+    "end": 37.07999999999993,
+    "text": "Well, could you look at Toby?"
+  },
+  {
+    "speaker": "professor_crawley",
+    "start": 37.74000000000001,
+    "end": 42.08999999999992,
+    "text": "Toby? What a stupid name for a cricket."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.52999999999997,
+    "end": 44.95999999999992,
+    "text": "Told you."
+  },
+  {
+    "speaker": "professor_crawley",
+    "start": 46.39999999999998,
+    "end": 47.25999999999999,
+    "text": "It's a field cricket."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 47.289999999999964,
+    "end": 47.45999999999992,
+    "text": "Yes!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.74000000000001,
+    "end": 50.1099999999999,
+    "text": "No, no, wait. Dr. Crawley, are you sure?"
+  },
+  {
+    "speaker": "professor_crawley",
+    "start": 50.319999999999936,
+    "end": 57.99000000000001,
+    "text": "Young man, I've been studying insects since I was eight years old. You know what they used to call me in school? Creepy Crawley."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.6099999999999,
+    "end": 61.95999999999992,
+    "text": "Cruel as that may be, that is not in itself a credential."
+  },
+  {
+    "speaker": "professor_crawley",
+    "start": 64.39999999999998,
+    "end": 94.78999999999996,
+    "text": "Let me show you something. See that? That's a Crawley's dung beetle. I discovered it after spending six months slogging through a Bornean rain forest, while my wife was back home shacking up with a two-bit ornithologist who lives on a sailboat and likes to wear boot-cut jeans! So, when I tell you that that's a common field cricket, you can take that to the damn bank! Cause God knows I can't. That tramp took me for everything!"
+  }
+]

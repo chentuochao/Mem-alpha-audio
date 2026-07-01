@@ -1,0 +1,32 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 11.83,
+    "end": 13.75,
+    "text": "It doesn't feel like an arm. Alrighty."
+  },
+  {
+    "speaker": "Raj",
+    "start": 35.12,
+    "end": 41.62,
+    "text": "Stars are pretty, aren't they? That's beautiful, dude. You should, you should write that down before someone steals it."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 41.97,
+    "end": 43.82,
+    "text": "Up above the world so high, like little diamonds in the sky. So when do the meteors get here?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 43.82,
+    "end": 47.72,
+    "text": "The meteors don't get here. The earth is moving into their path."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 47.81,
+    "end": 58.05,
+    "text": "I can feel it. I can feel the earth moving. It's moving too fast. Raj, slow it down."
+  }
+]

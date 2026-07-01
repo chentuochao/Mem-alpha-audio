@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 3.4099999999999997,
+    "end": 5.71,
+    "text": "I'll pick you up in ten minutes. But I thought we were gonna play Halo tonight."
+  },
+  {
+    "speaker": "Howard",
+    "start": 5.51,
+    "end": 5.91,
+    "text": "Gentlemen, adieu. What am I supposed to do, Leonard? There's a woman out there anxious to have sex with me. You understand, right?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 18.0,
+    "end": 19.96,
+    "text": "Nevertheless, I must depart."
+  },
+  {
+    "speaker": "Howard",
+    "start": 19.96,
+    "end": 25.94,
+    "text": "By the way, did I tell you Leslie pulled some strings and got me on the research trip to Geneva to check out the CERN Super Collider?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 25.94,
+    "end": 28.22,
+    "text": "That's not fair. You're not even a physicist."
+  },
+  {
+    "speaker": "Howard",
+    "start": 28.22,
+    "end": 30.45,
+    "text": "Okay, there are two ways of looking at this."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 30.45,
+    "end": 31.44,
+    "text": "Get out."
+  },
+  {
+    "speaker": "Leslie Winkle",
+    "start": 34.94,
+    "end": 36.96,
+    "text": "No, not at all. You're improving."
+  },
+  {
+    "speaker": "Howard",
+    "start": 38.06,
+    "end": 42.78,
+    "text": "Thank you. It helps when I get to practice with a real woman."
+  },
+  {
+    "speaker": "Leslie Winkle",
+    "start": 44.38,
+    "end": 49.96,
+    "text": "Hey, listen, Saturday my sister's getting married. I want you to come with me. It's black tie."
+  },
+  {
+    "speaker": "Howard",
+    "start": 50.06,
+    "end": 55.720000000000006,
+    "text": "Yeah, gee, I'd really rather not. When I go to weddings, it's to... scam on chunky bridesmaids. I don't know what I would do with a date."
+  },
+  {
+    "speaker": "Leslie Winkle",
+    "start": 54.04,
+    "end": 55.52,
+    "text": "Why not?"
+  }
+]

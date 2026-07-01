@@ -1,0 +1,146 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 8.400000000000091,
+    "text": "sure, sisters. Holy crap on a cracker."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.040000000000077,
+    "end": 22.389999999999986,
+    "text": "Sheldon? What are you doing?!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.269999999999982,
+    "end": 27.090000000000032,
+    "text": "It's Morse code."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.970000000000027,
+    "end": 29.690000000000055,
+    "text": "Why?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.15000000000009,
+    "end": 32.01999999999998,
+    "text": "So we can communicate through the wall."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.680000000000064,
+    "end": 35.84000000000003,
+    "text": "We are communicating through the wall."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.75,
+    "end": 38.91000000000008,
+    "text": "Yes, but the communication is not encrypted."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.35000000000002,
+    "end": 41.79000000000008,
+    "text": "I don't know Morse code."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 42.32000000000005,
+    "end": 46.55000000000007,
+    "text": "It's very simple. This is A this is B this is C..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 46.75,
+    "end": 60.08000000000004,
+    "text": "Sheldon, I'm not going to learn Morse code at three o'clock in the morning! Don't come in here, don't come in here, don't come in here, don't Aw! What's going on?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.710000000000036,
+    "end": 50.450000000000045,
+    "text": "All right."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.47000000000003,
+    "end": 62.40000000000009,
+    "text": "Shh! Ramona's sleeping on the couch."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.430000000000064,
+    "end": 64.5,
+    "text": "I know. When is she going home?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 64.56000000000006,
+    "end": 68.25999999999999,
+    "text": "Never, that's the problem. I need your help."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 68.32000000000005,
+    "end": 69.73000000000002,
+    "text": "What are you talking about?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.94000000000005,
+    "end": 72.67000000000007,
+    "text": "I'm invoking the Skynet clause of our friendship agreement."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.80000000000007,
+    "end": 79.10000000000002,
+    "text": "That only applies if you need me to help you destroy an artificial intelligence you created that's taking over the Earth."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 80.43000000000006,
+    "end": 81.33000000000004,
+    "text": "Come on! Don't nitpick!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 83.32000000000005,
+    "end": 83.86000000000001,
+    "text": "Good night."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 84.31000000000006,
+    "end": 89.22000000000003,
+    "text": "Shh. All right, I'm invoking our bodysnatchers clause."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 90.66000000000008,
+    "end": 95.50999999999999,
+    "text": "The bodysnatchers clause requires me to help you destroy someone we know who's been replaced with an alien pod."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 95.54000000000008,
+    "end": 97.34000000000003,
+    "text": "Yes. She's in the living room. Go, I'll wait here."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 98.88000000000011,
+    "end": 100.81999999999994,
+    "text": "Sheldon, what are you doing out of bed?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 100.99000000000001,
+    "end": 101.92000000000007,
+    "text": "Now! Do it!"
+  }
+]

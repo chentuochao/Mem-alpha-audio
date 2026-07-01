@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 6.669999999999959,
+    "text": "Hey, aren't you having breakfast? Are you experimenting with nutritional suppositories again?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.6499999999999773,
+    "end": 2.009999999999991,
+    "text": "Yes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 9.210000000000036,
+    "end": 10.289999999999964,
+    "text": "Not in these pants."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.039999999999964,
+    "end": 14.57000000000005,
+    "text": "So, how'd it go with Ramona last night?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 15.200000000000045,
+    "end": 21.33000000000004,
+    "text": "Oh, great. She's smart, insightful and she has a very unique way of, you know, revering me."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 24.029999999999973,
+    "end": 26.360000000000014,
+    "text": "Here's your spinach mushroom omelette."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.120000000000005,
+    "end": 30.230000000000018,
+    "text": "Thank you. Did anyone touch it?"
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 30.450000000000045,
+    "end": 32.76999999999998,
+    "text": "Gloves were worn by everyone involved. I was vigilant."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.42999999999995,
+    "end": 38.620000000000005,
+    "text": "Ramona pointed out that I've been wasting 20 minutes a day standing on cafeteria lines."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 38.639999999999986,
+    "end": 41.710000000000036,
+    "text": "Time which would be better spent tackling the great physics problems of our day."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 42.129999999999995,
+    "end": 45.879999999999995,
+    "text": "You don't tackle the big issues, Ramona. You fence with them. En garde."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.01999999999998,
+    "end": 54.360000000000014,
+    "text": "Riposte."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.360000000000014,
+    "end": 55.40999999999997,
+    "text": "Touche. Ah, hey Leslie."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 54.360000000000014,
+    "end": 59.940000000000055,
+    "text": "Morning. So, Sheldon, I see you're organizing your papers for the Smithsonian Museum of Dumbassery."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 62.110000000000014,
+    "end": 65.38999999999999,
+    "text": "There won't be any room until they get rid of the permanent Leslie Winkle exhibit."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.74000000000001,
+    "end": 68.75,
+    "text": "Oh, good one."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 70.10000000000002,
+    "end": 74.00999999999999,
+    "text": "I see you got a grad student to fight your battles for you. I'll let you keep your lunch money today."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 75.60000000000002,
+    "end": 81.10000000000002,
+    "text": "Okay, Dr. Cooper is on the verge of a breakthrough. If you're going to stay, you'll have to be respectful and quiet."
+  }
+]

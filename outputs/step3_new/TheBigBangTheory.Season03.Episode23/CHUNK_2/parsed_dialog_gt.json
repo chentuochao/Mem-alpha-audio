@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 1.8799999999999955,
+    "text": "Happy now? I'm moving the dirty sock."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 4.689999999999998,
+    "end": 7.969999999999999,
+    "text": "Thank you. Raj, keep an eye out for the other one."
+  },
+  {
+    "speaker": "penny",
+    "start": 9.899999999999977,
+    "end": 11.639999999999986,
+    "text": "Hey, guys, this is my friend Zack."
+  },
+  {
+    "speaker": "zack_johnson",
+    "start": 12.259999999999991,
+    "end": 15.139999999999986,
+    "text": "Hey. Whoa! Is that the laser? It's bitchin'."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.97999999999999,
+    "end": 13.399999999999977,
+    "text": "Hello."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.569999999999993,
+    "end": 29.120000000000005,
+    "text": "Yes. In 1917, when Albert Einstein established the theoretic foundation for the laser in his paper Zur Quantentheorie der Strahlung, his fondest hope was that the resultant device be bitchin'."
+  },
+  {
+    "speaker": "zack_johnson",
+    "start": 30.599999999999994,
+    "end": 32.31,
+    "text": "Well, mission accomplished."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.39999999999998,
+    "end": 45.31999999999999,
+    "text": "Let me explain what we're doing here. Um, in 1969, the astronauts on Apollo 11 positioned reflectors on the surface of the moon, and we're going to shoot a laser off one of them and let the light bounce back into this photomultiplier."
+  },
+  {
+    "speaker": "penny",
+    "start": 46.370000000000005,
+    "end": 48.06,
+    "text": "Oh! That's very cool."
+  },
+  {
+    "speaker": "zack_johnson",
+    "start": 48.28999999999999,
+    "end": 50.859999999999985,
+    "text": "One question. How can you be sure it won't blow up?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.45999999999998,
+    "end": 53.25,
+    "text": "The laser?"
+  },
+  {
+    "speaker": "zack_johnson",
+    "start": 53.31,
+    "end": 53.879999999999995,
+    "text": "The moon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.329999999999984,
+    "end": 59.079999999999984,
+    "text": "See, now this is a man for Penny."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.670000000000016,
+    "end": 62.99000000000001,
+    "text": "Uh, that's a great question, Zack."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 63.25999999999999,
+    "end": 63.829999999999984,
+    "text": "No, it's not."
+  },
+  {
+    "speaker": "penny",
+    "start": 64.43,
+    "end": 65.82999999999998,
+    "text": "Sheldon! Play nice."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.92000000000002,
+    "end": 73.17000000000002,
+    "text": "Well it's not a great question. How could somebody possibly think we're going to blow up the moon? That's a great question."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 75.5,
+    "end": 78.03999999999996,
+    "text": "Don't worry about the moon. We, we set our laser to stun."
+  },
+  {
+    "speaker": "zack_johnson",
+    "start": 79.44999999999999,
+    "end": 79.83999999999997,
+    "text": "Smart."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 81.34999999999997,
+    "end": 85.82999999999998,
+    "text": "Now, we'll be able to see the beam when it leaves, but it won't be strong enough when it comes back to be seen by the naked eye."
+  }
+]

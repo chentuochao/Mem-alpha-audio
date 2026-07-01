@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.8100000000000023,
+    "text": "He offered to send you to the North Pole?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.0,
+    "end": 7.449999999999989,
+    "text": "Yes. In fact, he was quite enthusiastic. He said,\" Frankly, if I could send you tonight, I would.\""
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.639999999999986,
+    "end": 11.560000000000002,
+    "text": "Okay, well, do you want to go?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.269999999999982,
+    "end": 31.299999999999983,
+    "text": "Of course not. I'm a theoretical physicist, a career I chose in no small part because it's indoors, but if I'm able to detect slow-moving magnetic monopoles there, I will be the scientist to confirm string theory. People will write books about me. Third-graders will create macaroni-art dioramas depicting scenes from my life."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.25,
+    "end": 36.079999999999984,
+    "text": "Sure, maybe a tableau of me trying to pummel you to death."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.95999999999998,
+    "end": 38.69999999999999,
+    "text": "Sarcasm?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 39.72999999999999,
+    "end": 40.120000000000005,
+    "text": "Maybe."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 42.22999999999999,
+    "end": 47.72,
+    "text": "I'm on the horns of a dilemma. Can you imagine me, Sheldon Cooper, at the North Pole?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.079999999999984,
+    "end": 49.81999999999999,
+    "text": "Easy peasy, I'm doing it right now."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.51999999999998,
+    "end": 69.70999999999998,
+    "text": "I'm not good with cold, Leonard. How often have we had to leave a movie theatre because I got a headache from drinking the Icee too fast? I can't go. How can you say that? The scientific opportunity of a lifetime presents itself and my best friend says don't go. Listen to you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.41999999999999,
+    "end": 61.25,
+    "text": "Well, then don't go."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 67.89999999999998,
+    "end": 68.91999999999999,
+    "text": "All right, then go."
+  }
+]

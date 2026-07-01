@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 2.73,
+    "end": 4.76,
+    "text": "Penny. Hello. What is shaking?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 6.72,
+    "end": 8.5,
+    "text": "Hey, Sheldon. I'm sorry?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 8.5,
+    "end": 8.7,
+    "text": "It's colloquial, a conversation opener. So, do you find the weather satisfying? Are you currently cheering in the triumph of some local sports team?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 18.54,
+    "end": 21.32,
+    "text": "What's wrong with you? You're freaking me out."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 21.32,
+    "end": 26.34,
+    "text": "I'm striking up a casual conversation with you. Sup?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 30.67,
+    "end": 32.73,
+    "text": "Please don't do that."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.73,
+    "end": 32.93,
+    "text": "All right, but I'm given to understand that when you have something awkward to discuss with someone, it's more palatable to preface it with banal chit-chat."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.77,
+    "end": 43.57,
+    "text": "So this wasn't the awkward part?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 45.33,
+    "end": 46.81,
+    "text": "No."
+  },
+  {
+    "speaker": "Penny",
+    "start": 48.71,
+    "end": 52.49,
+    "text": "Oh. All right. Sup?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 53.91,
+    "end": 54.11,
+    "text": "Oh, good. I used that right. Anyway, you're aware that Leonard has entered into a new romantic relationship which includes a sexual component?"
+  }
+]

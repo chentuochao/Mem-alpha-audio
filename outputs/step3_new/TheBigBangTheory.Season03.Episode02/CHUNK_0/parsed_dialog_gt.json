@@ -1,0 +1,188 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 3.6,
+    "text": "Sheldon, you're wrong. Wolverine was not born with bone claws."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.7399999999999998,
+    "end": 8.46,
+    "text": "Howard, you know me to be a very smart man. Don't you think if I were wrong, I'd know it?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 9.83,
+    "end": 10.52,
+    "text": "Okay, first of all..."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 10.55,
+    "end": 13.0,
+    "text": "Give it up, dude, you're arguing with a crazy person."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.09,
+    "end": 16.68,
+    "text": "I'm not crazy. My mother had me tested."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.3,
+    "end": 18.56,
+    "text": "Hey, guys."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 19.28,
+    "end": 19.98,
+    "text": "What are you doing here?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.21,
+    "end": 21.61,
+    "text": "What do you mean? It's new comic book night."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 21.86,
+    "end": 26.81,
+    "text": "Yeah, but since you and Penny finally hooked up, we thought you two would be having bouncy naked yum-yum night."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.38,
+    "end": 29.93,
+    "text": "There's more to life than sex, Raj."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 30.090000000000003,
+    "end": 32.43,
+    "text": "Okay, who had Leonard flames out with Penny in less than 24 hours\"?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.55,
+    "end": 32.86,
+    "text": "I did."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.56,
+    "end": 37.77,
+    "text": "Nothing flamed out. We don't have to have sex every night, you know."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 37.87,
+    "end": 40.28,
+    "text": "You don't have to, but it's highly recommended."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 40.45,
+    "end": 45.85,
+    "text": "Yeah, take advantage of that window of opportunity before it slams shut on your little dinky."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.39,
+    "end": 51.4,
+    "text": "It's not a matter of opportunity. We're getting to know each other. There's a learning curve."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 51.55,
+    "end": 56.67,
+    "text": "What's there to learn? You get naked, do nasty things to each other, then somebody makes scrambled eggs and salami. Easy peasy."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.08,
+    "end": 62.37,
+    "text": "Perhaps what Leonard is obliquely referring to is the occurrence of some sort of sexual dysfunction."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 62.88,
+    "end": 64.47,
+    "text": "Okay, who had Leonard gets a floppy disk?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.6,
+    "end": 70.3,
+    "text": "Oh, a clever, albeit obsolete, euphemism for insufficient blood flow to the male sex organ."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.91,
+    "end": 76.75999999999999,
+    "text": "Nothing like that happened, all right? The sex was just fine."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 77.27,
+    "end": 81.61,
+    "text": "Just fine? Oh, dude, the fourth Harry Potter movie was just fine."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 83.03999999999999,
+    "end": 86.91,
+    "text": "I'm not saying it was bad, I'm just saying it... wasn't great."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 87.19,
+    "end": 91.03999999999999,
+    "text": "Okay, when you say\" it wasn't great, do you mean for both of you? Because we can totally see it not being great for her. Am I right?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 91.13999999999999,
+    "end": 91.32,
+    "text": "Oh, yeah."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 93.19,
+    "end": 96.41999999999999,
+    "text": "To tell you the truth, I think we were both a little, I don't know..."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 96.50999999999999,
+    "end": 97.83,
+    "text": "Disappointed? Let down?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 97.88999999999999,
+    "end": 99.21,
+    "text": "Ashamed? Horrified? Repulsed?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 100.0,
+    "end": 102.94999999999999,
+    "text": "All I know is, it wasn't the way I dreamed it would be."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 103.86999999999999,
+    "end": 105.5,
+    "text": "Sex is never the way I dream it's gonna be."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 108.33999999999999,
+    "end": 111.1,
+    "text": "That's because in your dreams you're a horse from the waist down."
+  }
+]

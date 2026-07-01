@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 2.089999999999975,
+    "text": "Okay. Well, thank you."
+  },
+  {
+    "speaker": "penny",
+    "start": 25.029999999999973,
+    "end": 28.44999999999999,
+    "text": "Oh, God, no, I can't. Sheldon honey, I don't want things to be weird between us."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.139999999999986,
+    "end": 35.56,
+    "text": "Won't it also be weird if I have to say hello to you every morning on my way to work and you're living in a refrigerator box and washing your hair with rain water?"
+  },
+  {
+    "speaker": "penny",
+    "start": 38.129999999999995,
+    "end": 39.25999999999999,
+    "text": "I'll pay you back as soon as I can."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.10999999999996,
+    "end": 48.15999999999997,
+    "text": "Of course you will. It's impossible to pay me back sooner than you can. Assuming you subscribe to a linear understanding of time and causality."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.5,
+    "end": 52.94,
+    "text": "I'm regretting this already."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.27999999999997,
+    "end": 62.139999999999986,
+    "text": "You know, I've given the matter some thought, and I think I'd be willing to be a house pet to a race of super-intelligent aliens."
+  }
+]

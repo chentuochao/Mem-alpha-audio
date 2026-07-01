@@ -1,0 +1,152 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.0700000000000074,
+    "text": "My mother's coming to visit."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 4.290000000000006,
+    "end": 5.439999999999998,
+    "text": "How about that, you were right."
+  },
+  {
+    "speaker": "penny",
+    "start": 37.170000000000016,
+    "end": 38.129999999999995,
+    "text": "It's out of order."
+  },
+  {
+    "speaker": "woman#unknown#TheBigBangTheory.Season02.Episode15",
+    "start": 38.640000000000015,
+    "end": 41.27000000000001,
+    "text": "Yes, I can read the sign, I'm just pondering the implications."
+  },
+  {
+    "speaker": "penny",
+    "start": 43.72,
+    "end": 45.920000000000016,
+    "text": "I think it implies that the elevator doesn't work."
+  },
+  {
+    "speaker": "woman#unknown#TheBigBangTheory.Season02.Episode15",
+    "start": 48.52000000000001,
+    "end": 70.27000000000001,
+    "text": "Again, I can read the sign. But the sign and the tape are covered with a layer of dust, which indicates that the elevator has been non-functional for a significant amount of time. Which suggests either a remarkable passivity among the, I assume, 24 to 36 residents of this building based on the number of mailboxes and given typical urban population density or a shared delusion of functionality."
+  },
+  {
+    "speaker": "penny",
+    "start": 72.31,
+    "end": 73.55000000000001,
+    "text": "You must be Leonard's mother."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 75.96000000000001,
+    "end": 77.89000000000001,
+    "text": "Oh, I don't know if I must be, but yes."
+  },
+  {
+    "speaker": "penny",
+    "start": 78.46000000000001,
+    "end": 80.11000000000001,
+    "text": "Uh, I'm Penny. I'm his neighbour."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 80.33000000000001,
+    "end": 81.56,
+    "text": "Oh, Dr. Beverley Hofstadter."
+  },
+  {
+    "speaker": "penny",
+    "start": 82.03,
+    "end": 83.00999999999999,
+    "text": "Oh, nice to meet you."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 83.75,
+    "end": 85.57,
+    "text": "Oh, you're a hand shaker. Interesting."
+  },
+  {
+    "speaker": "penny",
+    "start": 86.33000000000001,
+    "end": 90.59,
+    "text": "Uh, why don't you come with me. I'll walk you to the apartment."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 90.68,
+    "end": 93.41,
+    "text": "Oh, all right. Would you like to exchange pleasantries on the way?"
+  },
+  {
+    "speaker": "penny",
+    "start": 94.88,
+    "end": 95.80000000000001,
+    "text": "Yeah, sure, I guess."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 95.83000000000001,
+    "end": 96.5,
+    "text": "All right, you start."
+  },
+  {
+    "speaker": "penny",
+    "start": 98.59,
+    "end": 101.47,
+    "text": "Okay. You know, I've always been curious. What was Leonard like when he was little?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 101.59,
+    "end": 103.84,
+    "text": "Oh, I think you mean young. He's always been little."
+  },
+  {
+    "speaker": "penny",
+    "start": 105.32,
+    "end": 107.21000000000001,
+    "text": "Right, okay. What was he like when he was young?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 107.37,
+    "end": 108.69,
+    "text": "You'll have to be more specific."
+  },
+  {
+    "speaker": "penny",
+    "start": 109.97,
+    "end": 115.75,
+    "text": "Oh, um, okay, like, five or six. Five."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 117.03,
+    "end": 129.02,
+    "text": "Oh, well, at that age he was well enmeshed in what Freud would call the phallic stage of psychosexual development. An outmoded theory, of course, but the boy did spend most of his waking hours with a tight grasp on his penis."
+  },
+  {
+    "speaker": "penny",
+    "start": 131.02,
+    "end": 132.91,
+    "text": "Yeah, Leonard mentioned you were a psychiatrist."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 133.3,
+    "end": 136.48,
+    "text": "Well, that is one of my degrees. My primary field is neuroscience."
+  },
+  {
+    "speaker": "penny",
+    "start": 137.14000000000001,
+    "end": 138.79,
+    "text": "Oh, well, I'm an actress."
+  }
+]

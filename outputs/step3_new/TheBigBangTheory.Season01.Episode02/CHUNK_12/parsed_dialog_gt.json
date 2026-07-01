@@ -1,0 +1,158 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.29000000000001,
+    "end": 17.149999999999864,
+    "text": "Six two inch dowels. One package, Phillips head screws."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.720000000000027,
+    "end": 14.970000000000027,
+    "text": "Check."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.269999999999982,
+    "end": 17.559999999999945,
+    "text": "Check."
+  },
+  {
+    "speaker": "penny",
+    "start": 17.8599999999999,
+    "end": 24.389999999999873,
+    "text": "Guys, seriously, I grew up on a farm, okay, I rebuilt a tractor engine when I was like twelve, I think I can put together a cheap Swedish media center."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.589999999999918,
+    "end": 27.419999999999845,
+    "text": "No, please, we insist, it's the least we can do considering."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.569999999999936,
+    "end": 30.319999999999936,
+    "text": "Considering what? How great this place looks?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 31.980000000000018,
+    "end": 41.86999999999989,
+    "text": "Oh boy, I was afraid of this. These instructions are a pictographic representation of the least imaginative way to assemble these components. This right here is why Sweden has no space program."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.5,
+    "end": 33.789999999999964,
+    "text": "What?"
+  },
+  {
+    "speaker": "penny",
+    "start": 42.48000000000002,
+    "end": 45.069999999999936,
+    "text": "Well, uh, it looked pretty good in the store."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.50999999999999,
+    "end": 53.0,
+    "text": "It is an inefficient design, for example Penny has a flat screen TV, which means all the space behind it is wasted. And control it how?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.419999999999845,
+    "end": 56.26999999999998,
+    "text": "We could put her stereo back there. Run an infra- red repeater, photocell here, emitter here, easy peasy."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 58.19999999999982,
+    "end": 59.33999999999992,
+    "text": "Good point, how you gon na cool it?"
+  },
+  {
+    "speaker": "penny",
+    "start": 59.399999999999864,
+    "end": 60.289999999999964,
+    "text": "Hey guys, I got this."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.669999999999845,
+    "end": 64.16999999999985,
+    "text": "Hang on Penny. How about fans, here and here?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 64.34999999999991,
+    "end": 65.97000000000003,
+    "text": "Also inefficient, and might be loud."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 66.01999999999998,
+    "end": 69.98000000000002,
+    "text": "How about liquid coolant? Maybe a little aquarium pump here, run some quarter inch PVC..."
+  },
+  {
+    "speaker": "penny",
+    "start": 70.25,
+    "end": 71.84999999999991,
+    "text": "Guys, this is actually really simple."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 72.96000000000004,
+    "end": 80.26999999999998,
+    "text": "Hold on, honey, men at work. The PVC comes down here, maybe a little corrugated sheet metal as a radiator here."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 80.33999999999992,
+    "end": 83.48000000000002,
+    "text": "Oh, really, show me where we put a drip tray, a sluice and an overflow reservoir?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 83.54999999999995,
+    "end": 85.97000000000003,
+    "text": "And if water is involved we're going to have to ground the crap out of the thing."
+  },
+  {
+    "speaker": "penny",
+    "start": 87.74000000000001,
+    "end": 97.56999999999994,
+    "text": "Guys, it's hot in here, I think I'll just take off all my clothes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 97.57999999999993,
+    "end": 102.08999999999992,
+    "text": "Oh, I' ve got it. How about if we replace panels A, B and F and crossbar H with aircraft grade aluminium."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 102.3599999999999,
+    "end": 103.88999999999987,
+    "text": "Right, then the entire thing's one big heat sink."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 103.91999999999985,
+    "end": 110.67999999999984,
+    "text": "Perfect, Leonard, why don't you and Sheldon go down to the junk yard and pick up about six square meters of scrap aluminium, Raj and I will run down to my lab and get the oxy- acetaline torch. Done."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 109.59999999999991,
+    "end": 111.03999999999996,
+    "text": "Meet back here in an hour? Got it."
+  },
+  {
+    "speaker": "penny",
+    "start": 115.23000000000002,
+    "end": 116.66999999999985,
+    "text": "Okay, this place does look pretty good."
+  }
+]

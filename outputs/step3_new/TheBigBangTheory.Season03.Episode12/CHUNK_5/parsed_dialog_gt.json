@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 30.590000000000032,
+    "text": "You know, the best thing about being in a committed, monogamous, mutually supportive relationship is that even if you have different ideas, you can have a spirited debate, yet still care for, even make love with... Want your fish? I knew you were going to do that. Doesn't make me psychic! Attaboy, Leonard, make it worse. What's going on?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.25999999999999,
+    "end": 41.379999999999995,
+    "text": "We scored. I'm the wingman."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 46.049999999999955,
+    "end": 46.40999999999997,
+    "text": "Hey."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.09000000000003,
+    "end": 51.51999999999998,
+    "text": "Laser."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 52.67999999999995,
+    "end": 57.32000000000005,
+    "text": "Had a great night last night. I don't like to kiss and tell, but somebody made it to eighth base."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.76999999999998,
+    "end": 62.58000000000004,
+    "text": "What the hell is eighth base?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 62.879999999999995,
+    "end": 70.23000000000002,
+    "text": "Seventh base with shirt off. Well, my shirt. How'd things go with Penny?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 70.28999999999996,
+    "end": 71.89999999999998,
+    "text": "Oh, couldn't be better."
+  }
+]

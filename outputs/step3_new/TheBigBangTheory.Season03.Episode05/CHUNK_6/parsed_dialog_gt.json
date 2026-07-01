@@ -1,0 +1,128 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 5.639999999999986,
+    "text": "So, Penny tells me you're working as a waitress to put yourself through grad school. That's pretty great, what are you studying?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 5.889999999999986,
+    "end": 7.0,
+    "text": "Microbiology."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 7.480000000000018,
+    "end": 10.389999999999986,
+    "text": "Oh, cool. So you could study me."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 12.07000000000005,
+    "end": 13.009999999999991,
+    "text": "I don't understand."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 14.379999999999995,
+    "end": 17.889999999999986,
+    "text": "Microbiology is the study of tiny living things."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 18.550000000000068,
+    "end": 19.82000000000005,
+    "text": "I know, I'm studying it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 22.370000000000005,
+    "end": 29.800000000000068,
+    "text": "And I said you could study me'cause I'm a tiny living thing. It's a joke."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 30.139999999999986,
+    "end": 30.980000000000018,
+    "text": "Are you sure?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 36.84000000000003,
+    "end": 37.47000000000003,
+    "text": "Do you like science-fiction?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 38.22000000000003,
+    "end": 38.700000000000045,
+    "text": "No."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 39.0,
+    "end": 39.85000000000002,
+    "text": "Role-playing games?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 40.23000000000002,
+    "end": 42.54000000000008,
+    "text": "Like in the bedroom or like Dungeons and Dragons?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 43.65000000000009,
+    "end": 44.030000000000086,
+    "text": "Either."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 44.430000000000064,
+    "end": 44.80000000000007,
+    "text": "No."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.09000000000003,
+    "end": 49.629999999999995,
+    "text": "Gonna be a long night."
+  },
+  {
+    "speaker": "penny",
+    "start": 50.180000000000064,
+    "end": 51.020000000000095,
+    "text": "Yeah, well, it's your fault."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.48000000000002,
+    "end": 53.30000000000007,
+    "text": "I had to ask. You didn't have to say yes."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 56.22000000000003,
+    "end": 58.47000000000003,
+    "text": "You like magic? Okay."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 57.210000000000036,
+    "end": 57.879999999999995,
+    "text": "Not really."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.63,
+    "end": 66.86000000000001,
+    "text": "Long, long night."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.00999999999999,
+    "end": 77.91000000000008,
+    "text": "I play my endless serpent. Raj will play ecstatic frenzy, which means Larry will have to play chaos overlord, then Captain Sweatpants, molten river. I play nightshade dryad, game, set and match."
+  }
+]

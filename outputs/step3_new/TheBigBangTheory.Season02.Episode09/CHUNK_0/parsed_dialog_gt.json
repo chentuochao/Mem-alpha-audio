@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.3399999999999999,
+    "text": "Penny, hello."
+  },
+  {
+    "speaker": "penny",
+    "start": 2.22,
+    "end": 2.73,
+    "text": "Hey, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.6300000000000003,
+    "end": 4.4399999999999995,
+    "text": "What is shaking?"
+  },
+  {
+    "speaker": "penny",
+    "start": 7.790000000000001,
+    "end": 8.63,
+    "text": "I'm sorry?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.91,
+    "end": 17.57,
+    "text": "It's colloquial, a conversation opener. So, do you find the weather satisfying? Are you currently sharing in the triumph of some local sports team?"
+  },
+  {
+    "speaker": "penny",
+    "start": 19.439999999999998,
+    "end": 20.84,
+    "text": "What's wrong with you? you're freaking me out."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.259999999999998,
+    "end": 25.58,
+    "text": "I'm striking up a casual conversation with you. S'u'up?"
+  },
+  {
+    "speaker": "penny",
+    "start": 31.49,
+    "end": 32.25,
+    "text": "Please don't do that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.53,
+    "end": 39.400000000000006,
+    "text": "All right, But I'm given to understand that when you have something awkward to discuss with someone, it's more palatable to preface it with banal chit chat."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.6,
+    "end": 43.230000000000004,
+    "text": "So, this wasn't the awkward part?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 46.190000000000005,
+    "end": 46.620000000000005,
+    "text": "No."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.45,
+    "end": 53.03,
+    "text": "Oh, all right. S'u'up?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.86,
+    "end": 63.33,
+    "text": "Oh, good, I used that right. Anyway, you're aware that Leonard has entered into a new romantic relationship which includes a sexual component?"
+  }
+]

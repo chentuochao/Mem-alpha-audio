@@ -1,0 +1,188 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 10.75,
+    "text": "Well, this sandwich is an unmitigated disaster. I asked for turkey and roast beef with lettuce and swiss on wholewheat. Turkey and roast beef with swiss and lettuce on wholewheat."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 7.13,
+    "end": 7.78,
+    "text": "What did they give you?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.900000000000002,
+    "end": 28.8,
+    "text": "It's the right ingredients but in the wrong order. In a proper sandwich the cheese is adjacent to the bread to create a moisture barrier against the lettuce. They might as well have dragged this thing through a car wash."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 30.700000000000003,
+    "end": 31.740000000000002,
+    "text": "I don't believe it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.810000000000002,
+    "end": 33.46,
+    "text": "I know, it's basic culinary science."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.4,
+    "end": 39.31,
+    "text": "Some guy is auctioning off a miniature time machine prop from the original film and no- one is bidding on it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 39.34,
+    "end": 41.61,
+    "text": "A time machine from the movie The Time Machine?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.47,
+    "end": 44.69,
+    "text": "No, a time machine from Sophie's Choice."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 45.63,
+    "end": 49.25,
+    "text": "Boy, Sophie could have used a time machine in that movie. Did you see it, it's rough."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 51.47,
+    "end": 52.15,
+    "text": "Oh, that's cool."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.410000000000004,
+    "end": 55.47,
+    "text": "Uh- huh. Yeah. And that's my bid."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 52.800000000000004,
+    "end": 53.79,
+    "text": "It's only$ 800?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 55.54,
+    "end": 56.76,
+    "text": "You bid$ 800."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 57.0,
+    "end": 61.46,
+    "text": "It was a spur of the moment thing, I figured it would go for thousands and I just wanted to be a part of it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.290000000000006,
+    "end": 63.89,
+    "text": "There's only 30 seconds left in the auction."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 64.0,
+    "end": 65.07000000000001,
+    "text": "Do you have$ 800?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 65.13,
+    "end": 67.23,
+    "text": "Not to blow on a miniature time machine."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 67.6,
+    "end": 71.79,
+    "text": "Don't worry, the way these things work there's people waiting' til the last second to bid, and then they swoop in and get it, it's called sniping."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 71.81,
+    "end": 77.11,
+    "text": "Fifteen seconds. Ten, nine, eight..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.92,
+    "end": 73.23,
+    "text": "Come on, snipers."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 78.27,
+    "end": 79.28,
+    "text": "Where are your snipers?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 80.34,
+    "end": 83.75,
+    "text": "Five. Four. Three. Two."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 80.85,
+    "end": 83.83,
+    "text": "Snipe. Snipe. Snipe! SNIPE!"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 86.21000000000001,
+    "end": 90.32000000000001,
+    "text": "One. Congratulations, you are the proud owner of a miniature time machine."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 86.75,
+    "end": 86.81,
+    "text": "Aaaa- aw!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 91.73,
+    "end": 92.46000000000001,
+    "text": "You lucky duck."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 93.25,
+    "end": 97.4,
+    "text": "I wonder why no- one else bid, this is a classic piece of sci- fi movie memorabilia."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 97.5,
+    "end": 99.43,
+    "text": "Yeah, I know, I still can't afford it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 99.74,
+    "end": 103.48,
+    "text": "Why don't we share it? We'll each put in two hundred bucks and we'll take turns having it in our homes."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 103.53,
+    "end": 108.02,
+    "text": "A time share time machine? I' m in. Sheldon?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 108.26,
+    "end": 112.09,
+    "text": "Need you ask? But I still don't understand why no- one else bid."
+  }
+]

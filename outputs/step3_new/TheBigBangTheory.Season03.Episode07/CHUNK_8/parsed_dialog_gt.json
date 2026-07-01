@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 12.75,
+    "text": "Leonard, will you just let me handle this, please? Look, let's just... Sheldon, please,"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.299999999999955,
+    "end": 18.99000000000001,
+    "text": "Always is a long time. Sure. Always."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.61999999999989,
+    "end": 23.089999999999918,
+    "text": "You know, how about we buy you this robot, and then we all go home?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.960000000000036,
+    "end": 25.660000000000082,
+    "text": "I want that one."
+  },
+  {
+    "speaker": "penny",
+    "start": 27.710000000000036,
+    "end": 29.019999999999982,
+    "text": "Okay, you can have that one."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 29.210000000000036,
+    "end": 33.62999999999988,
+    "text": "Oh, come on, he's just going to play with it twice, and then it'll end up in his closet with all the other junk."
+  },
+  {
+    "speaker": "penny",
+    "start": 35.65000000000009,
+    "end": 36.92000000000007,
+    "text": "Buy him the robot, Leonard."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.37999999999988,
+    "end": 40.17000000000007,
+    "text": "Can I get this comic book, too?"
+  },
+  {
+    "speaker": "penny",
+    "start": 40.77999999999997,
+    "end": 41.24000000000001,
+    "text": "Yes, you can."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 48.07999999999993,
+    "end": 48.67000000000007,
+    "text": "We meet again."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 57.180000000000064,
+    "end": 60.16000000000008,
+    "text": "So what did Justin say when you told him he couldn't sleep on your couch?"
+  },
+  {
+    "speaker": "penny",
+    "start": 60.6099999999999,
+    "end": 63.49000000000001,
+    "text": "He's a musician. He'll sleep in his own vomit, if he has to."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.57999999999993,
+    "end": 76.11999999999989,
+    "text": "I should have asked for much more than a comic book and a robot."
+  }
+]

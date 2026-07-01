@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 20.319999999999997,
+    "text": "Fellow warriors, this is Sheldor the Conqueror. We are about to enter Axel's fortress. Now this is a long run, so let's do another bladder check. Alright Barry, we'll wait for you again, but you really should see a doctor. Sheldor is AFK."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 25.65,
+    "end": 27.74,
+    "text": "Penny, are you experiencing some sort of difficulty?"
+  },
+  {
+    "speaker": "penny",
+    "start": 27.869999999999997,
+    "end": 30.139999999999997,
+    "text": "Yes, I can't get my stupid door open."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.569999999999997,
+    "end": 37.660000000000004,
+    "text": "You appear to have put your car key in the door lock, are you aware of that? Alright then."
+  },
+  {
+    "speaker": "penny",
+    "start": 34.9,
+    "end": 35.65,
+    "text": "Yeah!"
+  },
+  {
+    "speaker": "penny",
+    "start": 38.760000000000005,
+    "end": 42.04,
+    "text": "Dammit, dammit, dammit, dammit, dammit, dammit."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.14,
+    "end": 45.56,
+    "text": "Would it be possible for you to do this a little more quietly?"
+  },
+  {
+    "speaker": "penny",
+    "start": 46.940000000000005,
+    "end": 48.53,
+    "text": "I can't get the damned key out."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.830000000000005,
+    "end": 56.120000000000005,
+    "text": "Well that's not surprising. That Baldwin lock on your door uses traditional edge mounted cylinders, whereas the key for your Volkswagon uses a centre cylinder system."
+  },
+  {
+    "speaker": "penny",
+    "start": 57.75,
+    "end": 59.370000000000005,
+    "text": "Thankyou, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 61.0,
+    "end": 66.64,
+    "text": "You're welcome. Point of inquiry, why did you put your car key in the door lock?"
+  },
+  {
+    "speaker": "penny",
+    "start": 66.75,
+    "end": 77.03999999999999,
+    "text": "Why? I'll tell you why. Because today I had an audition, it took me two hours to get there, I waited an hour for my turn, and before I could even start they told me I looked too Midwest for the part. Too Midwest? What the hell does that even mean?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 77.36,
+    "end": 84.5,
+    "text": "Well, the American Midwest was mostly settled by Scandinavian and Germanic peoples who, well they have a characteristic facial bone structure...."
+  },
+  {
+    "speaker": "penny",
+    "start": 85.17,
+    "end": 100.53,
+    "text": "I know what it means, Sheldon! God, you know, I have been in L.A. for almost two years now, and I haven't got a single acting job, I have accomplished nothing, haven't gotten a raise at work, haven't even had sex in six months, and just now when I was walking up those stairs a fly flew in my mouth and I ate it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 101.19,
+    "end": 105.50999999999999,
+    "text": "Well, actually, insects are a dietary staple in many cultures, they're almost pure protein."
+  },
+  {
+    "speaker": "penny",
+    "start": 106.96,
+    "end": 107.08,
+    "text": "Oh, sonofabitch!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 109.42,
+    "end": 113.11999999999999,
+    "text": "I believe the condensation on your frozen foods weakened the structural integrity of the bag."
+  }
+]

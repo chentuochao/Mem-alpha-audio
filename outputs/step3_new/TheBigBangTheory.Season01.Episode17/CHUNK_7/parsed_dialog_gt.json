@@ -1,0 +1,152 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.9199999999999591,
+    "text": "Are you asking me out?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.9499999999999318,
+    "end": 12.6099999999999,
+    "text": "Um... yes... I am... asking you out. I was just going off your comment about the nice guy..."
+  },
+  {
+    "speaker": "penny",
+    "start": 7.689999999999941,
+    "end": 8.569999999999936,
+    "text": "Wow."
+  },
+  {
+    "speaker": "penny",
+    "start": 12.719999999999914,
+    "end": 14.649999999999977,
+    "text": "No, I know, I got that. Yeah, totally."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.67999999999995,
+    "end": 18.909999999999968,
+    "text": ".. thing and honest but, it's no big deal... Yes what?"
+  },
+  {
+    "speaker": "penny",
+    "start": 16.339999999999918,
+    "end": 16.659999999999968,
+    "text": "Yes."
+  },
+  {
+    "speaker": "penny",
+    "start": 20.289999999999964,
+    "end": 21.779999999999973,
+    "text": "Yes, I will go out with you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.5,
+    "end": 24.8599999999999,
+    "text": "Really?"
+  },
+  {
+    "speaker": "penny",
+    "start": 27.579999999999927,
+    "end": 27.93999999999994,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "penny",
+    "start": 30.299999999999955,
+    "end": 32.819999999999936,
+    "text": "Why not, I mean, what do I have to lose?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.629999999999995,
+    "end": 33.979999999999905,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 36.639999999999986,
+    "end": 37.40999999999997,
+    "text": "That's the spirit."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.14999999999998,
+    "end": 56.77999999999997,
+    "text": "Show me your citrus peels. Gei wo kan, ni jud di zi pei. Show me your citrus peels. Gei wo kan, ni jud di zi pei. Show me your..."
+  },
+  {
+    "speaker": "penny",
+    "start": 57.049999999999955,
+    "end": 63.219999999999914,
+    "text": "Sheldon. I' m sorry. Look, do you have a second."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 63.57999999999993,
+    "end": 65.33999999999992,
+    "text": "A second what? Pair of underwear?"
+  },
+  {
+    "speaker": "penny",
+    "start": 66.02999999999997,
+    "end": 69.30999999999995,
+    "text": "I was just wondering if I could talk to you? It's about Leonard."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.93999999999994,
+    "end": 72.77999999999997,
+    "text": "Why me? Why not Koothrappali or Wolowitz?"
+  },
+  {
+    "speaker": "penny",
+    "start": 73.12,
+    "end": 77.87,
+    "text": "Well, Raj can't talk to me unless he's drunk, and Wolowitz is, you know, disgusting."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 79.68999999999994,
+    "end": 80.83999999999992,
+    "text": "Yes, I suppose he is."
+  },
+  {
+    "speaker": "penny",
+    "start": 83.16999999999996,
+    "end": 85.33999999999992,
+    "text": "All I' m saying is, you know Leonard the best."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 85.63999999999999,
+    "end": 115.63999999999999,
+    "text": "Not necessarily. I' m often surprised by my lack of familiarity with Leonard. Just the other day I discovered, he not only has a loofah, he hides it. Why do you suppose a man would be ashamed of having a loofah? I myself prefer to have my excess epithelial cells slough off naturally, but I don't condemn those who seek to accelerate the process. And until recently I had no idea that despite his lactose intolerance, he can tolerate small amounts of non- fat ice cream without producing a noxious gas that I maintain in the right concentration could be weaponized."
+  },
+  {
+    "speaker": "penny",
+    "start": 118.25,
+    "end": 120.00999999999999,
+    "text": "Leonard might come home, can we talk in my apartment."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 120.80999999999995,
+    "end": 121.56999999999994,
+    "text": "We're not done?"
+  },
+  {
+    "speaker": "penny",
+    "start": 122.80999999999995,
+    "end": 123.42999999999995,
+    "text": "No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 124.67999999999995,
+    "end": 127.89999999999998,
+    "text": "Ach, why not? We're already through the looking glass anyway."
+  }
+]

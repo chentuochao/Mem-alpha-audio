@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 5.159999999999997,
+    "text": "Well, Stephanie, since Leonard seems to be dropping the conversational ball, I guess I'll just have to pick it up."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.859999999999985,
+    "end": 14.73999999999998,
+    "text": "Have you ever witnessed a violent crime?"
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 17.92999999999998,
+    "end": 18.47,
+    "text": "No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.659999999999997,
+    "end": 20.75999999999999,
+    "text": "Good. What's your favourite fruit?"
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 22.089999999999975,
+    "end": 23.339999999999975,
+    "text": "Ih-uh, strawberries."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.569999999999993,
+    "end": 29.909999999999997,
+    "text": "Hmm, technically not a fruit, but all right. Where did you do your medical internship?"
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 30.109999999999985,
+    "end": 32.099999999999994,
+    "text": "Uh, Lawrence Memorial in Galveston, Texas."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.16,
+    "end": 34.129999999999995,
+    "text": "Really? That's where I was born!"
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 35.42999999999998,
+    "end": 36.73999999999998,
+    "text": "You're kidding!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.03999999999999,
+    "end": 43.390000000000015,
+    "text": "I spent so much of my childhood at that hospital. When I was 12, I got to ride there in a helicopter."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 45.03,
+    "end": 45.72,
+    "text": "Why, what-what-what happened?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.849999999999994,
+    "end": 50.34,
+    "text": "Radiation burns. A little mishap while I was building my own cat scanner."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 51.23999999999998,
+    "end": 53.96000000000001,
+    "text": "I'm sorry, you tried to build your own cat scanner?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.119999999999976,
+    "end": 66.44999999999996,
+    "text": "No, I didn't try, I succeeded. In fact, I was briefly able to see the inside of my sister's guinea pig, Snowball, before he caught fire. It led to an interesting expression in our house, not a snowball's chance in a cat scanner."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 69.4,
+    "end": 70.22999999999999,
+    "text": "Uh, Sheldon?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 71.71000000000001,
+    "end": 81.66999999999999,
+    "text": "Excuse me. When I come back, just for fun, the subject will be alternative history. Specifically, how would the civil war have gone differently if Lincoln had been a robot sent from the future?"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.3700000000000001,
+    "text": "Hmmm."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.85,
+    "end": 4.289999999999999,
+    "text": "The problem appears to be unsolvable."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 4.619999999999999,
+    "end": 6.51,
+    "text": "Maybe you could run some computer simulations."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 6.809999999999999,
+    "end": 8.76,
+    "text": "There are too many variables. It would take forever."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.19,
+    "end": 18.81,
+    "text": "We've got to be missing something. Let's start again. The movie is playing here at 7:20, here at 7:40, here at 8:10 and here at 8:45."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.34,
+    "end": 21.28,
+    "text": "Right, these theatres have to be eliminated."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 21.34,
+    "end": 24.79,
+    "text": "Why? They're state-of-the-art digital projection, 20-channel surround sound."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.88,
+    "end": 31.029999999999998,
+    "text": "Yes, but they have no Icee machines. Despite my aggressive letter-writing campaign, I might add."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 32.540000000000006,
+    "end": 34.7,
+    "text": "What about the multiplex here? The seats are terrific."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.760000000000005,
+    "end": 38.800000000000004,
+    "text": "They have Twizzlers instead of Red Vines. No amount of lumbar support can compensate for that."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.53,
+    "end": 45.150000000000006,
+    "text": "Well, it's gonna take at least an hour to eat, and I don't see a Sheldon-approved restaurant proximate to a Sheldon-approved theatre."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 46.68,
+    "end": 47.56,
+    "text": "We could eat after the movie."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.49,
+    "end": 51.85,
+    "text": "Unacceptable, the delay would result in tomorrow morning's bowel movement occurring at work."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 52.760000000000005,
+    "end": 64.21,
+    "text": "Hang on, hang on. There's a 7-Eleven here. We smuggle Slurpies, which are essentially Icees, in under our coats, after having a pleasant meal either here, here or here."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 65.42999999999999,
+    "end": 67.52,
+    "text": "Wow. I don't see how we missed that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.64999999999999,
+    "end": 70.33999999999999,
+    "text": "Excuse me, in what universe are Slurpies Icees?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 73.21,
+    "end": 74.03,
+    "text": "That's how we missed it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 75.47999999999999,
+    "end": 79.86999999999999,
+    "text": "Sheldon, would you be prepared, on a non-precedential basis, to create an emergency ad-hoc Slurpie-Icee equivalency?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 80.99,
+    "end": 83.36,
+    "text": "Oh, Leonard, you know I can't do that."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 85.11,
+    "end": 87.42999999999999,
+    "text": "Okay, I guess we only have one option."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 88.03,
+    "end": 89.11,
+    "text": "Yep, I don't see any way around it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 90.38,
+    "end": 90.89999999999999,
+    "text": "Bye, Sheldon."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 90.95,
+    "end": 91.16,
+    "text": "See ya."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 91.28,
+    "end": 92.0,
+    "text": "Later, dude."
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.0,
+    "end": 2.23,
+    "text": "Count me out. You want me to use my intelligence in a tawdry competition? Would you ask Picasso to play Pictionary? Would you ask Noah Webster to play Boggle? Would you ask Jacques Cousteau to play Go Fish?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 15.86,
+    "end": 19.45,
+    "text": "What? Come on, you need a four-person team. We're four people."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 19.45,
+    "end": 24.9,
+    "text": "By that reasoning, we should also play bridge, hold up a hupa, and enter the Olympic bobsled competition."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 28.28,
+    "end": 37.96,
+    "text": "Sheldon, what? Do I need to quote Spock's dying words to you? The needs of the many outweigh the needs of the few."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.18,
+    "end": 33.54,
+    "text": "No, don't."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.96,
+    "end": 41.64,
+    "text": "Or the one. Damn it, I'll do it."
+  },
+  {
+    "speaker": "Raj",
+    "start": 73.39,
+    "end": 87.26,
+    "text": "Okay. First order of physics, board business. We need a truly kick-ass team name. Suggestions? I like it."
+  },
+  {
+    "speaker": "Howard",
+    "start": 80.64,
+    "end": 85.76,
+    "text": "How about the perpetual motion squad? It's beyond the laws of physics, plus a little heads up for the ladies. Perpetual motion squad. We can go all night."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 81.04,
+    "end": 82.56,
+    "text": "The ladies?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 87.26,
+    "end": 92.96,
+    "text": "I don't. Teams are traditionally named after fierce creatures, thus intimidating one's opponent."
+  },
+  {
+    "speaker": "Raj",
+    "start": 92.96,
+    "end": 94.78,
+    "text": "Then we could be the Bengal tigers."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 94.78,
+    "end": 100.68,
+    "text": "Poor choice. Yeah, gram for gram, no animal exceeds the relative fighting strength of the army ant."
+  },
+  {
+    "speaker": "Raj",
+    "start": 100.82,
+    "end": 105.2,
+    "text": "Maybe so. But you can't incinerate a Bengal tiger with a magnifying glass."
+  }
+]

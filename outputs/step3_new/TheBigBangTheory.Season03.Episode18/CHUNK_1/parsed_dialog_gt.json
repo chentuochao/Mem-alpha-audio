@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.0,
+    "end": 0.7099999999999937,
+    "text": "Well, good for him."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 1.1899999999999977,
+    "end": 5.6299999999999955,
+    "text": "Yeah, the one thing the William Shatner of theoretical physics needed was an ego boost."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 24.319999999999993,
+    "end": 24.64999999999999,
+    "text": "Didn't it"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 49.15999999999998,
+    "end": 51.769999999999996,
+    "text": "look like that spear was going to go right through your skull?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 52.969999999999985,
+    "end": 53.57000000000001,
+    "text": "No."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.769999999999996,
+    "end": 57.39999999999999,
+    "text": "Hey, you didn't want a Slurpee at 7-Eleven, you don't get glasses."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 61.08999999999999,
+    "end": 65.87999999999998,
+    "text": "Oh, that will be another congratulatory call for me. Uh, mute, please."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 66.11,
+    "end": 67.18999999999998,
+    "text": "Uh, hang on, flaming arrow."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.98,
+    "end": 97.21,
+    "text": "Hello? Oh, Chancellor Morton, how are you, sir? Yes, I was expecting your call three years ago. I see. Wait. What happens if I choose not to give a speech? Uh-huh. And if I don't want to forfeit the award? Well, you've got that tied up in a neat little bow. All right. Thank you. Problem."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 97.79,
+    "end": 98.12999999999998,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 99.43999999999998,
+    "end": 103.07000000000001,
+    "text": "They expect me to give a speech at the banquet. I can't give a speech."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 103.36999999999999,
+    "end": 111.76,
+    "text": "Well, no, you're mistaken. You give speeches all the time. What you can't do is shut up."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 113.74999999999999,
+    "end": 119.61,
+    "text": "Yeah, before the movie, you did 20 minutes on why guacamole turns brown. It turned brown while you were talking."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 120.55999999999999,
+    "end": 125.86,
+    "text": "I am perfectly comfortable speaking to small groups. I cannot speak to large crowds."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 126.04,
+    "end": 127.37999999999998,
+    "text": "What, to you, is a large crowd?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 127.77999999999999,
+    "end": 133.43,
+    "text": "Any group big enough to trample me to death. General rule of thumb is 36 adults or 70 children."
+  },
+  {
+    "speaker": "penny",
+    "start": 135.2,
+    "end": 142.69,
+    "text": "Sheldon, congratulations. Brought you cheesecake from work. You know,'cause of your award, not because a busboy sneezed on it."
+  }
+]

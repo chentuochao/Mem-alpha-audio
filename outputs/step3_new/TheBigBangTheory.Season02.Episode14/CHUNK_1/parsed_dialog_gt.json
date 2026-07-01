@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.3499999999999943,
+    "text": "They're right, it was the only option."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.319999999999993,
+    "end": 19.549999999999997,
+    "text": "Ooh,"
+  },
+  {
+    "speaker": "penny",
+    "start": 30.489999999999995,
+    "end": 32.67,
+    "text": "ooh, shut the door, shut the door. Just do it!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.719999999999985,
+    "end": 32.05999999999999,
+    "text": "Why?"
+  },
+  {
+    "speaker": "penny",
+    "start": 38.57000000000001,
+    "end": 39.290000000000006,
+    "text": "Get inside and shut the door."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.32000000000001,
+    "end": 40.41000000000001,
+    "text": "Well, you didn't specify."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.730000000000004,
+    "end": 43.719999999999985,
+    "text": "Is Leonard around?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.040000000000006,
+    "end": 48.14,
+    "text": "He went to the movies without me. It was the only option."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.14999999999999,
+    "end": 62.290000000000006,
+    "text": "I'm sorry, I don't understand which social situation this is. Could you give me some guidance as to how to proceed?"
+  },
+  {
+    "speaker": "penny",
+    "start": 62.92,
+    "end": 66.67999999999999,
+    "text": "The building manager's showing an apartment downstairs, and I haven't paid my rent."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.98,
+    "end": 73.7,
+    "text": "Oh, I see. Penny, I'm not sure I'm comfortable harbouring a fugitive from the 2311 North Los Robles Corporation."
+  },
+  {
+    "speaker": "penny",
+    "start": 74.83,
+    "end": 80.10000000000001,
+    "text": "It's no big deal. I'm just a little behind on my bills because they cut back my hours at the restaurant and my car broke down."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 80.55999999999999,
+    "end": 84.27999999999999,
+    "text": "If you recall, I pointed out the\" check engine\" light to you several months ago."
+  },
+  {
+    "speaker": "penny",
+    "start": 85.33,
+    "end": 95.88000000000001,
+    "text": "Well the\" check engine\" light is fine. It's still blinking away. It's the stupid engine that stopped working. It cost me like twelve hundred dollars to fix it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 97.04,
+    "end": 100.67999999999999,
+    "text": "You know, it occurs to me you could solve all your problems by obtaining more money."
+  }
+]
