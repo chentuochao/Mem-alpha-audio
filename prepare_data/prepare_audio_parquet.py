@@ -57,7 +57,7 @@ def load_chunks_gt(
     output_root: str = None,
     season_filter: str = None,
     time_info_path: str = DEFAULT_TIME_INFO_PATH,
-) -> list[str]:
+) -> tuple[list[str], list[str]]:
     time_maps = load_time_maps(time_info_path)
 
     subfolders = sorted(
@@ -71,6 +71,7 @@ def load_chunks_gt(
           + (f" (season_filter={season_filter})" if season_filter else ""))
 
     chunks = []
+    chunk_folders = []      # per-chunk provenance: "{episode}/{CHUNK_N}", chunk-aligned
     for path in subfolders:
         with open(path, "r") as f:
             dialog = json.load(f)
@@ -94,6 +95,9 @@ def load_chunks_gt(
             named_dialog.append(dict(turn))
 
         chunks.append(dialog_chunk)
+        # Relative folder of THIS chunk (e.g. "<episode>/CHUNK_3"); its position in
+        # `chunk_folders` is the chunk_idx used in chunks_and_function_calls.json.
+        chunk_folders.append(os.path.relpath(os.path.dirname(path), data_dir))
 
         # Save the raw chunk mirroring the input layout under output_root,
         # e.g. outputs/step3/{show}/{episode}/parsed_dialog_gt.json
@@ -107,7 +111,7 @@ def load_chunks_gt(
     if output_root is not None:
         print(f"Saved {len(subfolders)} dialogue chunk(s) under {output_root}")
 
-    return chunks
+    return chunks, chunk_folders
 
 def load_chunks_pred(
     data_dir: str,
@@ -115,7 +119,7 @@ def load_chunks_pred(
     output_root: str = None,
     season_filter: str = None,
     time_info_path: str = DEFAULT_TIME_INFO_PATH,
-) -> list[str]:
+) -> tuple[list[str], list[str]]:
     map_path = os.path.join(data_dir, "extracted_speaker_name.json")
     with open(map_path, "r") as f:
         speaker_name_map = json.load(f)
@@ -139,6 +143,7 @@ def load_chunks_pred(
     print(f"Found {len(subfolders)} dialogue files"
           + (f" (season_filter={season_filter})" if season_filter else ""))
     chunks = []
+    chunk_folders = []      # per-chunk provenance: "{episode}/{CHUNK_N}", chunk-aligned
     for path in subfolders:
         with open(path, "r") as f:
             dialog = json.load(f)
@@ -172,6 +177,9 @@ def load_chunks_pred(
         # Save the raw chunk (with replaced names) mirroring the input layout
         # under output_root, e.g. outputs/step3/{show}/{episode}/parsed_dialog_pred.json
         rel = os.path.relpath(os.path.dirname(path), data_dir)
+        # Relative folder of THIS chunk (e.g. "<episode>/CHUNK_3"); its position in
+        # `chunk_folders` is the chunk_idx used in chunks_and_function_calls.json.
+        chunk_folders.append(rel)
 
         if output_root is not None:
             out_dir = os.path.join(output_root, rel)
@@ -182,7 +190,7 @@ def load_chunks_pred(
     if output_root is not None:
         print(f"Saved {len(subfolders)} named dialogue chunk(s) under {output_root}")
 
-    return chunks
+    return chunks, chunk_folders
 
 
 def main():
@@ -227,7 +235,7 @@ def main():
     season_suffix = f"_{season}" if season else ""
 
     if args.use_gt_name:
-        chunks = load_chunks_gt(
+        chunks, chunk_folders = load_chunks_gt(
             args.data_dir, output_root=args.output_root,
             season_filter=season, time_info_path=args.time_info_path,
         )
@@ -235,7 +243,7 @@ def main():
             args.output_root, f"dataset_gt_name{season_suffix}.parquet"
         )
     else:
-        chunks = load_chunks_pred(
+        chunks, chunk_folders = load_chunks_pred(
             args.data_dir, use_extracted_name=True, output_root=args.output_root,
             season_filter=season, time_info_path=args.time_info_path,
         )
@@ -250,6 +258,10 @@ def main():
                   "different speakers and I need you to remember the details of "
                   "the conversation for future reference.",
         "chunks": json.dumps(chunks),
+        # Per-chunk source folder ("{episode}/CHUNK_N"), index-aligned with `chunks`
+        # so chunk_folders[chunk_idx] recovers the origin of chunk `chunk_idx` in
+        # chunks_and_function_calls.json. Used to map QA evidence -> memory ids.
+        "chunk_folders": json.dumps(chunk_folders),
         "data_source": "seamlessinteraction_options",
         "metadata": json.dumps({"data_source": "seamlessinteraction_options", "sample_id": 0}),
         "num_chunks": len(chunks),
