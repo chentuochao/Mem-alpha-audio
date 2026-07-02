@@ -11,6 +11,9 @@ unified_prompt_multispeaker: "Remember the following multi-speaker conversation 
 #                     than this allows). Smaller budget -> smaller memory -> higher ratio.
 # Names are nominal targets, not exact ratios. Select one with --compression_strategy.
 compression_strategies:
+  default:
+    instruction: "Be concise and brief in all memory updates"
+    budget_ratio: 1.0
   x1.5:
     instruction: "Preserve almost all details. Record every distinct fact, action, statement, and specific value as a SEPARATE memory item. Do not merge or omit specifics — favor completeness over brevity."
     budget_ratio: 1.0
