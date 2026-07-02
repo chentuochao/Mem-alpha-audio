@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 7.1,
+    "end": 14.12,
+    "text": "Alright, say hello to your mother for me. What? I didn't say outside."
+  },
+  {
+    "speaker": "Howard",
+    "start": 15.5,
+    "end": 18.78,
+    "text": "You said you were going for a walk. So what, you're just gonna walk up and down the stairs?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 18.78,
+    "end": 23.86,
+    "text": "No, of course not. That would be odd and suspicious behavior."
+  },
+  {
+    "speaker": "Howard",
+    "start": 24.38,
+    "end": 32.01,
+    "text": "Hey, Red Bulls. Here, boy. Which way are you going? I parked my scooter down the block."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 28.62,
+    "end": 29.8,
+    "text": "Which way are you going?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.01,
+    "end": 33.32,
+    "text": "I'm going the other way."
+  },
+  {
+    "speaker": "Howard",
+    "start": 34.88,
+    "end": 42.29,
+    "text": "Bye. Actually, I'm this way. What's with hot dogs?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.29,
+    "end": 45.13,
+    "text": "No. I mean, I have no idea what you smell."
+  },
+  {
+    "speaker": "Howard",
+    "start": 45.13,
+    "end": 48.21,
+    "text": "I definitely smell raw hot dog."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 48.21,
+    "end": 50.32,
+    "text": "Perhaps you're getting a brain tumor."
+  },
+  {
+    "speaker": "Howard",
+    "start": 50.84,
+    "end": 53.29,
+    "text": "Alright. Have a nice walk."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 53.29,
+    "end": 55.8,
+    "text": "Mm, bye, Shel. Have a nice scoop."
+  },
+  {
+    "speaker": "Howard",
+    "start": 57.44,
+    "end": 61.58,
+    "text": "You might wanna stand back. I'm sitting on top of 13 horses here."
+  }
+]

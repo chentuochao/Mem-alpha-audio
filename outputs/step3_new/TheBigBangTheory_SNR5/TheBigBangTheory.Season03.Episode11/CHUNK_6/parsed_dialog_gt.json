@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.7400000000000091,
+    "text": "What's so funny?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 1.3800000000001091,
+    "end": 4.530000000000086,
+    "text": "That's exactly what I say during orgasms. Yikes."
+  },
+  {
+    "speaker": "penny",
+    "start": 5.1400000000001,
+    "end": 10.13000000000011,
+    "text": "You know what? I could use a drink. Do you want to stop for a drink? I do, I'll teach you."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 8.540000000000077,
+    "end": 9.200000000000045,
+    "text": "Oh, I don't drink."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.32000000000005,
+    "end": 16.07000000000005,
+    "text": "Leonard? Leonard? Leonard?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.780000000000086,
+    "end": 18.230000000000018,
+    "text": "What is it?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.0,
+    "end": 21.850000000000023,
+    "text": "I made tea."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.74000000000001,
+    "end": 23.63000000000011,
+    "text": "I don't want tea."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 25.170000000000073,
+    "end": 30.07000000000005,
+    "text": "I didn't make tea for you. This is my tea."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 31.690000000000055,
+    "end": 33.09000000000003,
+    "text": "Then why are you telling me?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.58000000000004,
+    "end": 34.8900000000001,
+    "text": "It's a conversation starter."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 36.430000000000064,
+    "end": 38.48000000000002,
+    "text": "That's a lousy conversation starter."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.66000000000008,
+    "end": 40.610000000000014,
+    "text": "Oh, is it? We're conversing. Checkmate."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.020000000000095,
+    "end": 44.110000000000014,
+    "text": "What do you want, Sheldon?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.48000000000002,
+    "end": 51.06000000000006,
+    "text": "What I want is to be departing the Starship Enterprise in a one-man shuttle craft headed to the planetoid I rule known as Sheldon Alpha Five."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.030000000000086,
+    "end": 56.33000000000004,
+    "text": "I want that too. Why are you here?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.22000000000003,
+    "end": 64.5200000000001,
+    "text": "To comfort you, of course. No, that's not going to work at all, I'll comfort you from over here."
+  }
+]

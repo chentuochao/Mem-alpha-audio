@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.37000000000000455,
+    "text": "Yes?"
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 4.610000000000014,
+    "end": 5.720000000000027,
+    "text": "I saw your light on."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.350000000000023,
+    "end": 7.019999999999982,
+    "text": "Is everything all right?"
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 7.610000000000014,
+    "end": 8.870000000000005,
+    "text": "Yeah, I just couldn't sleep."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.769999999999982,
+    "end": 13.149999999999977,
+    "text": "Me neither. Oh, look what I'm reading. It's you."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 14.230000000000018,
+    "end": 15.620000000000005,
+    "text": "I thought you already read it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 15.75,
+    "end": 19.610000000000014,
+    "text": "I did, but it's been a while, and I wanted to sound smart over breakfast."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 20.870000000000005,
+    "end": 22.120000000000005,
+    "text": "Aw, you're smart."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.460000000000036,
+    "end": 24.279999999999973,
+    "text": "Oh, good. Wasn't sure it was coming across."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 24.559999999999945,
+    "end": 38.309999999999945,
+    "text": "What chapter are you on? Oh, the extragalactic distance ladder. Want to know a little secret? I wrote the section on the Wilson-Bappu Effect completely naked."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.149999999999977,
+    "end": 27.379999999999995,
+    "text": "Uh, six."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.34000000000003,
+    "end": 34.629999999999995,
+    "text": "Sure."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.129999999999995,
+    "end": 41.5,
+    "text": "Really?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.960000000000036,
+    "end": 45.129999999999995,
+    "text": "Uh, sure doesn't read that way."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 46.190000000000055,
+    "end": 62.75,
+    "text": "Here, let me show you. When we consider the brightness of pulsating variable stars, we start to see a possible explanation for some of the discrepancies found in Hubble's constant."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.75,
+    "end": 64.38999999999999,
+    "text": "Wow. You really make science come alive."
+  }
+]

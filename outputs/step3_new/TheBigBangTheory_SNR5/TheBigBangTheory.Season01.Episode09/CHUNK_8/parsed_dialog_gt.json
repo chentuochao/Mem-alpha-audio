@@ -1,0 +1,140 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.9800000000000182,
+    "text": "Oh, sorry, I' ve just, I' ve heard it before."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 3.310000000000059,
+    "end": 4.790000000000077,
+    "text": "Let's roll. Hey, nice suit."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.830000000000041,
+    "end": 5.7700000000000955,
+    "text": "It's a classic, right?"
+  },
+  {
+    "speaker": "penny",
+    "start": 7.430000000000064,
+    "end": 9.32000000000005,
+    "text": "I really should have brought my own car."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.259999999999991,
+    "end": 27.340000000000032,
+    "text": "So, in conclusion, the data show that at temperatures approaching absolute zero, the moment of inertia changes, and the solid becomes a super- solid, which clearly appears to be a previously unknown state of matter. Thank you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 32.520000000000095,
+    "end": 33.860000000000014,
+    "text": "Are there any questions?"
+  },
+  {
+    "speaker": "voice#unknown#TheBigBangTheory.Season01.Episode09",
+    "start": 34.1400000000001,
+    "end": 36.10000000000002,
+    "text": "Yeah. What the hell was that?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 39.15000000000009,
+    "end": 40.00999999999999,
+    "text": "Any other questions?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.83000000000004,
+    "end": 61.90000000000009,
+    "text": "Doctor Sheldon Cooper here, I am the lead author of this particular paper. Thank you. And you, sir, you have completely skipped over the part where I was walking through the park, and I saw these children on a merry- go- round, which started me thinking about the moment of inertia in gasses like helium at temperatures approaching absolute zero."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.0,
+    "end": 64.67000000000007,
+    "text": "I didn't skip it, it's just an anecdote. It's not science."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.03000000000009,
+    "end": 73.66000000000008,
+    "text": "Oh, I see, was the apple falling on Newton's head, was that just an anecdote? No, no that's true, gravity would have been apparent to me without the apple."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 69.33000000000004,
+    "end": 70.37,
+    "text": "You are not Isaac Newton."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 74.18000000000006,
+    "end": 76.04000000000008,
+    "text": "You can not possibly be that arrogant."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.07000000000005,
+    "end": 77.93000000000006,
+    "text": "You continue to underestimate me, my good man."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 78.86000000000001,
+    "end": 82.70000000000005,
+    "text": "Look, if you weren't happy with my presentation then maybe you should have given it with me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 82.72000000000003,
+    "end": 87.6400000000001,
+    "text": "As I have explained repeatedly, unlike you, I don't need validation from lesser minds. No offence."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 88.3900000000001,
+    "end": 92.25,
+    "text": "Really, so why did you come? I didn't screw it up."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 89.59000000000003,
+    "end": 97.22000000000003,
+    "text": "Because I knew you'd screw this up. Oh, please. I admit, that spherical chicken joke, that was hilarious. But it was straight downhill from there."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 97.86000000000001,
+    "end": 118.43000000000006,
+    "text": "I' ve had enough of your condescension. Maybe I didn't go to college when I was eleven like you, maybe I got my doctorate at 24 instead of 16, but you are not the only person who is smarter than everyone else in this room. No offense. And I am clearly not the only person who is tormented by insecurity and has an ego in need of constant validation."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 118.46000000000004,
+    "end": 119.8900000000001,
+    "text": "So you admit that you're an egotist?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 119.99000000000001,
+    "end": 120.69000000000005,
+    "text": "Yes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 122.24000000000001,
+    "end": 128.47000000000003,
+    "text": "My name is Dr Leonard Hofstadter, and I could never please my parents so I need to get all my self- esteem from strangers like you. But he's worse."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 128.95000000000005,
+    "end": 130.08000000000004,
+    "text": "Okay, that is it."
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 19.729999999999905,
+    "text": "Oh, dear. I am the master of my own bladder. Leonard and Penny. Leonard and Penny. Leonard and Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 23.5,
+    "end": 24.219999999999914,
+    "text": "Oh, my..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.979999999999905,
+    "end": 34.39999999999998,
+    "text": "God, Sheldon. What the hell are you doing out there?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.389999999999986,
+    "end": 38.319999999999936,
+    "text": "I heard a noise."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.90999999999997,
+    "end": 43.059999999999945,
+    "text": "It was us. We knocked over a lamp."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.92999999999995,
+    "end": 45.26999999999998,
+    "text": "Why would you knock over a lamp?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.95999999999992,
+    "end": 47.67999999999995,
+    "text": "We were going to have..."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.370000000000005,
+    "end": 51.809999999999945,
+    "text": "He doesn't need to know what we were doing, Leonard."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.5,
+    "end": 57.19999999999993,
+    "text": "Oh! No, she's right, I don't need to know what you were doing. Carry on."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 57.94999999999993,
+    "end": 59.76999999999998,
+    "text": "What are you doing? Use the door."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 61.219999999999914,
+    "end": 66.44999999999993,
+    "text": "Good thinking. Perhaps I'll check the perimeter and make some warm milk."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.89999999999998,
+    "end": 68.56999999999994,
+    "text": "Great, you do that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.13999999999999,
+    "end": 71.20999999999992,
+    "text": "Would you like me to bring you some warm milk?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.26999999999998,
+    "end": 73.7299999999999,
+    "text": "I'm lactose intolerant."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 73.96999999999991,
+    "end": 79.75999999999999,
+    "text": "And you don't wish to alarm me with any more loud noises, very thoughtful. Warm milk, Penny?"
+  },
+  {
+    "speaker": "penny",
+    "start": 80.05999999999995,
+    "end": 80.65999999999997,
+    "text": "No, thanks."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.88999999999999,
+    "end": 85.13,
+    "text": "Fine. Good night to you, sir. Miss."
+  }
+]

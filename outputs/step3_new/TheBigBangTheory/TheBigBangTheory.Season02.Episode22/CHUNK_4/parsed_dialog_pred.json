@@ -1,0 +1,152 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 10.100000000000001,
+    "end": 13.97,
+    "text": "Um, it's Stewart. He wants to talk about Penny. I don't want to talk about Penny."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 13.770000000000001,
+    "end": 14.17,
+    "text": "You're not going to answer it? You're making an assumption. Perhaps the comic book store is on fire. We need your assistance."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 22.13,
+    "end": 24.18,
+    "text": "Why would he call me?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 24.18,
+    "end": 29.73,
+    "text": "We don't know. And if you don't answer the phone, we can't know."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 30.59,
+    "end": 33.81,
+    "text": "I'm not answering the phone, Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 36.79,
+    "end": 38.95,
+    "text": "Answer the phone, Leonard."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 41.43,
+    "end": 43.99,
+    "text": "There. It went to voicemail."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.23,
+    "end": 51.61,
+    "text": "Aren't you going to check your messages?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 53.73,
+    "end": 54.94,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 54.94,
+    "end": 55.14,
+    "text": "You have to check your messages, Leonard. The leaving of a message is one half of a social contract, which is completed by the checking of the message. If that contract breaks down, then all social contracts break down, and we descend into anarchy."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 69.73,
+    "end": 72.65,
+    "text": "It must be hell inside your head."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 74.57,
+    "end": 85.31,
+    "text": "At times. You mean code red the hospital emergency alert, code red the computer worm, or code red the cherry flavored soft drink from the makers of Mountain Dew?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 85.69,
+    "end": 86.09,
+    "text": "Guys, we have a code red. Look, I was going over the schematics on my zero G toilet, and I made a teeny tiny mistake on the specifications for the diverter valve."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 92.6,
+    "end": 94.08,
+    "text": "How teeny tiny?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 94.08,
+    "end": 96.41,
+    "text": "It's gonna fail after about ten flushes."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 96.53,
+    "end": 98.79,
+    "text": "But the mission is for six months."
+  },
+  {
+    "speaker": "Howard",
+    "start": 98.79,
+    "end": 98.99000000000001,
+    "text": "See, that's the code red. It's kind of like, uh, jack in the box. No one knows exactly when, but at some point, something way worse than a puppet is gonna pop out of that box."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 108.81,
+    "end": 110.7,
+    "text": "Have you notified NASA?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 110.7,
+    "end": 110.9,
+    "text": "No. You crazy? What am I gonna say? I screwed up your toilet, and pretty soon there's gonna be crap floating all over your nice, shiny space station?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 117.47,
+    "end": 118.91,
+    "text": "So what are you gonna do?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 118.91,
+    "end": 121.57,
+    "text": "I'm gonna figure out how to fix it. Then I'll tell them."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 121.57,
+    "end": 123.11,
+    "text": "So what do you need us for?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 123.11,
+    "end": 125.11,
+    "text": "He can't figure out how to fix it."
+  },
+  {
+    "speaker": "Howard",
+    "start": 125.43,
+    "end": 127.74,
+    "text": "Hey, you said you were gonna be supportive."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 127.74,
+    "end": 132.29,
+    "text": "I'm trying, but you have to admit this is pretty damn funny. I agree. It's the juxtaposition of the high-tech nature of space exploration against the banality of a malfunctioning toilet that provides the comic fodder here."
+  }
+]

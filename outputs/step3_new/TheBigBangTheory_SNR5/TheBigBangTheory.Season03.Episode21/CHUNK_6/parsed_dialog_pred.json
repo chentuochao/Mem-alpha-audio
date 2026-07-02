@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Elizabeth",
+    "start": 3.76,
+    "end": 9.05,
+    "text": "I saw your light on. Yeah, I just couldn't sleep."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 5.609999999999999,
+    "end": 7.18,
+    "text": "Yes? Is everything alright?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 9.05,
+    "end": 13.52,
+    "text": "Me neither. Look what I'm eating. Q."
+  },
+  {
+    "speaker": "Elizabeth",
+    "start": 13.78,
+    "end": 15.62,
+    "text": "I thought you already read it."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 15.62,
+    "end": 20.1,
+    "text": "I did, but it's been a while, and I wanted to sound smart over breakfast."
+  },
+  {
+    "speaker": "Elizabeth",
+    "start": 20.1,
+    "end": 22.12,
+    "text": "Well, you're smart."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 22.12,
+    "end": 24.66,
+    "text": "Oh, good. Wasn't sure it was coming across."
+  },
+  {
+    "speaker": "Elizabeth",
+    "start": 25.1,
+    "end": 38.62,
+    "text": "What chapter are you on? Oh, the extragalactic distance flatter. Wanna know a little secret? I wrote the section on the Wilson-Baffo effect completely naked."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 26.95,
+    "end": 28.25,
+    "text": "Uh, six."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 33.91,
+    "end": 34.72,
+    "text": "Sure."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 40.98,
+    "end": 45.52,
+    "text": "Really? Uh, sure doesn't read that way."
+  },
+  {
+    "speaker": "Elizabeth",
+    "start": 45.52,
+    "end": 45.720000000000006,
+    "text": "Here, let me show you. When we consider the brightness of pulsating variable stars, we start to see a possible explanation of the phenomena which references found in Hubble's constant."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 58.87,
+    "end": 64.39,
+    "text": "Wow. You really make science come alive."
+  }
+]

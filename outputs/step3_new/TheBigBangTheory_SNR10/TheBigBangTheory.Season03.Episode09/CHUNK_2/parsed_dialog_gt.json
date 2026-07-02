@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.1800000000000068,
+    "text": "Never mind, what's your announcement?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.25,
+    "end": 6.710000000000008,
+    "text": "Oh, good, my turn. Well, this is very exciting and I wanted you to be among the first to know..."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 6.8700000000000045,
+    "end": 10.439999999999998,
+    "text": "Hey, Cooper, I hear you're going to be on the wadio with Ira Fwatow from Science Fwiday next week."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.509999999999991,
+    "end": 16.039999999999992,
+    "text": "Thank you, Kripke, for depriving me of the opportunity to share my news with my friends."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 16.25,
+    "end": 16.819999999999993,
+    "text": "My pweasure."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.460000000000008,
+    "end": 19.900000000000006,
+    "text": "My thank you was not sincere."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 20.560000000000002,
+    "end": 31.870000000000005,
+    "text": "But my pweasure is. Let me ask you a question, at what point did National Public Wadio have to start scwaping the bottom of the bawwel for its guests? Eh, don't answer, it's wetowical."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.66999999999999,
+    "end": 41.889999999999986,
+    "text": "Why are you such a stupid head? That is also rhetorical. I'm sorry you had to hear that."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.97999999999999,
+    "end": 44.72,
+    "text": "Are you really going to be on NPR?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.139999999999986,
+    "end": 55.66,
+    "text": "Yes, they're interviewing me by phone from my office, regarding the recent so-called discovery of magnetic monopoles in spin-ices. It's pledge week and they're trying to goose the ratings with a little controversy."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 57.26999999999998,
+    "end": 58.79999999999998,
+    "text": "Very cool, congratulations."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.829999999999984,
+    "end": 64.76999999999998,
+    "text": "Thank you. My mother is very excited. She's convening her Bible study group to listen in, and then pray for my soul."
+  }
+]

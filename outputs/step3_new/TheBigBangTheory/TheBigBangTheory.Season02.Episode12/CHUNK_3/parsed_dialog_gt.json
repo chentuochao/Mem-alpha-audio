@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 2.8799999999999955,
+    "text": "He said maybe we should enter you in the killer robot competition."
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 11.840000000000032,
+    "end": 13.639999999999986,
+    "text": "Howard, the phone is ringing!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 22.600000000000023,
+    "end": 25.340000000000032,
+    "text": "Here's a crazy idea, Ma, answer it!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 26.24000000000001,
+    "end": 36.22000000000003,
+    "text": "Hello? All right, hold on. It's your friend, Leonard! He wants to know why you're not at school today!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 37.129999999999995,
+    "end": 38.18000000000001,
+    "text": "I don't go to school, Ma. I work at a university. I don't want to talk to anybody."
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 38.06,
+    "end": 40.56,
+    "text": "That's a school! Now pick up the phone! Should I ask Leonard to bring over your homework?!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 51.129999999999995,
+    "end": 56.079999999999984,
+    "text": "I don't have homework. I'm a grown man with a master's degree in engineering!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 56.85000000000002,
+    "end": 61.870000000000005,
+    "text": "Excuse me, Mr. Fancy-Pants. Want me to get you a Popsicle?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 62.639999999999986,
+    "end": 63.410000000000025,
+    "text": "Cherry, please!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 64.19,
+    "end": 68.07,
+    "text": "I ate the cherry. All that's left is green."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 69.17000000000002,
+    "end": 70.53000000000003,
+    "text": "You make me want to kill myself."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 72.76999999999998,
+    "end": 73.29000000000002,
+    "text": "What's going on?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.62,
+    "end": 80.25,
+    "text": "I don't know, now they're just yelling about Popsicles. Sounds like Penny really got to him."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 80.38999999999999,
+    "end": 92.57999999999998,
+    "text": "I'm not surprised. Despite his hard and crusty shell, Howard is a very sensitive man. Do you know he writes poetry? Mostly about men from Nantucket and hermits named Dave, but he does it with real sensitivity."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 93.66000000000003,
+    "end": 96.69999999999999,
+    "text": "Hey, Hofstadter. Word around the pwasma wab is you built a wobot?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 96.72000000000003,
+    "end": 98.53000000000003,
+    "text": "Yes, we did, Kripke."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 99.82,
+    "end": 101.34000000000003,
+    "text": "His name is Monte."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 101.62,
+    "end": 113.03000000000003,
+    "text": "Well, if you have any dewusions about entewing him against my wobot, the Kwipke Kwippler in the Southern California Wobot Fighting League Wound Wobin Invitational, aka the S.C.aw.F.L.aw.aw.I., his name is gonna be Swrap Metal."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 114.19,
+    "end": 116.30000000000001,
+    "text": "Come on, is that really necessary?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 116.35000000000002,
+    "end": 137.06,
+    "text": "Leonard, I believe it is. This is trash talk, and trash talk is a traditional component in all sporting events. Kripke, your robot is inferior and it will be defeated by ours because ours exceeds yours in both design and execution. Also, I'm given to understand that your mother is overweight."
+  }
+]

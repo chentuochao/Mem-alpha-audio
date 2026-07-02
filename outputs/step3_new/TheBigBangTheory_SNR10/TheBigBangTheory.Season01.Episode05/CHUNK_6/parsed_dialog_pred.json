@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.0,
+    "end": 16.68,
+    "text": "Oh god, my board. Leonard. Leonard. My equations. Someone's tampered with my equations. Of course I'm sure. Look at the beta function of quantum chromodynamics. The sign's been changed."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 11.030000000000001,
+    "end": 11.99,
+    "text": "Hey, what's the matter? Are you sure?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 17.08,
+    "end": 20.75,
+    "text": "Yeah. But doesn't that fix the problem you've been having?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 20.75,
+    "end": 32.49,
+    "text": "Are you insane? Are you out of your mind? Are you, hey, look, that fixes the problem I've been having. You did this?"
+  },
+  {
+    "speaker": "Leslie",
+    "start": 32.29,
+    "end": 32.690000000000005,
+    "text": "You're welcome. Yeah, I noticed it when I got up to get a glass of water, so I fixed it, and now you can show that quarks are asymptotically free at high energies. Pretty cool, huh?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 41.97,
+    "end": 43.33,
+    "text": "Cool?"
+  },
+  {
+    "speaker": "Leslie",
+    "start": 43.93,
+    "end": 47.29,
+    "text": "Listen, I gotta get to the lab. Thanks for a great night."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 48.45,
+    "end": 50.61,
+    "text": "Thank you. I'll see you at work."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 50.61,
+    "end": 58.86,
+    "text": "Hold on, hold on. Who told you you could touch my board? Yeah, I don't come into your house and touch your board."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 52.87,
+    "end": 53.68,
+    "text": "What?"
+  },
+  {
+    "speaker": "Leslie",
+    "start": 55.73,
+    "end": 56.86,
+    "text": "No one."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 58.86,
+    "end": 61.21,
+    "text": "There are no incorrect equations on my board."
+  }
+]

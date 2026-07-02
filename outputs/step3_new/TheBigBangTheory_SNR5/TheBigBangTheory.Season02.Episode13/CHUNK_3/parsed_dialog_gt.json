@@ -1,0 +1,176 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.170000000000016,
+    "text": "What's up with Ichabod?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.5400000000000205,
+    "end": 4.5800000000000125,
+    "text": "Oh he's trying to make a new friend."
+  },
+  {
+    "speaker": "penny",
+    "start": 4.760000000000019,
+    "end": 6.25,
+    "text": "Oh really? Well, good for him."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.450000000000017,
+    "end": 9.349999999999994,
+    "text": "Well, unless he's makes one out of wood like Gepetto, I don't think it's gonna happen."
+  },
+  {
+    "speaker": "penny",
+    "start": 12.650000000000006,
+    "end": 13.740000000000009,
+    "text": "Well, how did you guys become friends?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.890000000000015,
+    "end": 19.580000000000013,
+    "text": "There was a flier on the bulletin board at the university. Roommate wanted. Whistlers need not apply."
+  },
+  {
+    "speaker": "penny",
+    "start": 21.189999999999998,
+    "end": 22.329999999999984,
+    "text": "And you moved in anyway?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.420000000000016,
+    "end": 27.370000000000005,
+    "text": "I assumed he was joking. You'd be surprised how many particle physicists have a whimsical side."
+  },
+  {
+    "speaker": "penny",
+    "start": 28.850000000000023,
+    "end": 31.389999999999986,
+    "text": "Well, what about Howard and Raj, I mean how did you become friends with them?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 31.560000000000002,
+    "end": 36.079999999999984,
+    "text": "I don't know, how do carbon atoms form a benzene ring? Proximity and valence electrons."
+  },
+  {
+    "speaker": "penny",
+    "start": 38.120000000000005,
+    "end": 42.379999999999995,
+    "text": "Well yeah, sure. When you put it that way. But it all worked out, right?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.35000000000002,
+    "end": 45.72000000000003,
+    "text": "I suppose. I do miss whistling though."
+  },
+  {
+    "speaker": "penny",
+    "start": 46.920000000000016,
+    "end": 47.94999999999999,
+    "text": "Oh come on, really?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.95999999999998,
+    "end": 50.160000000000025,
+    "text": "First warning."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 55.670000000000016,
+    "end": 59.51999999999998,
+    "text": "Penny Penny Penny.This is for you."
+  },
+  {
+    "speaker": "penny",
+    "start": 61.00999999999999,
+    "end": 61.75999999999999,
+    "text": "Hello Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 63.74000000000001,
+    "end": 64.74000000000001,
+    "text": "Hi."
+  },
+  {
+    "speaker": "penny",
+    "start": 66.72000000000003,
+    "end": 67.59000000000003,
+    "text": "What is this?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.88,
+    "end": 75.50999999999999,
+    "text": "It's a questionnaire I devised. I'm having some difficulty bonding with a colleague at work, so I'm doing a little research to better understand why my current friends like me."
+  },
+  {
+    "speaker": "penny",
+    "start": 77.59000000000003,
+    "end": 83.07,
+    "text": "Yes. Well, that is a good question. But is this really the best way to figure it out?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 83.19,
+    "end": 91.97000000000003,
+    "text": "Yeah, I agree, the social sciences are largely hokum. But, short of putting electrodes in your brain and monitoring your response to my companionship, this is the best I can do."
+  },
+  {
+    "speaker": "penny",
+    "start": 93.63999999999999,
+    "end": 103.74000000000001,
+    "text": "Okay, question 1. Rank the following aspects of Sheldon Cooper in order of appeal. Intelligence. Ruthless attention to hygiene. Playfulness. Java applet writing?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 106.45999999999998,
+    "end": 118.84000000000003,
+    "text": "I know, I may have started off with a fairly obvious one. You did an aspect of my most appealing trait, playfulness. Why don't you just go ahead and write that number 1. I'm afraid you're on your own for the rest. It should take you no more than 3 hours."
+  },
+  {
+    "speaker": "penny",
+    "start": 119.34000000000003,
+    "end": 121.60000000000002,
+    "text": "Wait! How many questions are on this thing?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 121.69999999999999,
+    "end": 127.67000000000002,
+    "text": "Only 211. Don't worry, in deference to you, I've kept them on a high school graduate reading level."
+  },
+  {
+    "speaker": "penny",
+    "start": 130.20999999999998,
+    "end": 131.29000000000002,
+    "text": "Thanks pal."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 131.39,
+    "end": 132.94,
+    "text": "You got it, buddy."
+  },
+  {
+    "speaker": "penny",
+    "start": 134.90000000000003,
+    "end": 139.14,
+    "text": "Sheldon honey, did you ever consider making friends by being, I don't know, pleasant?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 140.32999999999998,
+    "end": 145.90000000000003,
+    "text": "Well that's certainly a thought-provoking hypothesis. May I suggest it as the topic for your essay."
+  }
+]

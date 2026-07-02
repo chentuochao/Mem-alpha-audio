@@ -1,0 +1,164 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 2.0399999999999636,
+    "text": "Oh, um, I, I can come back."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.689999999999941,
+    "end": 6.8799999999999955,
+    "text": "D-don't be silly. We're neighbours, we're going to run into each other, may as well get used to it."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.049999999999955,
+    "end": 9.340000000000032,
+    "text": "Yeah, I guess you're right."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.100000000000023,
+    "end": 25.449999999999932,
+    "text": "You used to it yet? Me neither. Oh, Sheldon seemed think that I would be upset about you hanging out with him. But I just want you to know it's fine."
+  },
+  {
+    "speaker": "penny",
+    "start": 16.899999999999977,
+    "end": 17.090000000000032,
+    "text": "Nope."
+  },
+  {
+    "speaker": "penny",
+    "start": 25.600000000000023,
+    "end": 28.149999999999977,
+    "text": "Oh, oh, good, because, um, his mother called me."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 30.25,
+    "end": 30.850000000000023,
+    "text": "His mother?"
+  },
+  {
+    "speaker": "penny",
+    "start": 30.93999999999994,
+    "end": 33.819999999999936,
+    "text": "Yeah, she wants me to take him shopping for sheets and towels."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.75,
+    "end": 36.66999999999996,
+    "text": "I was going to do that."
+  },
+  {
+    "speaker": "penny",
+    "start": 37.60000000000002,
+    "end": 39.98000000000002,
+    "text": "Oh, well, then you, you do it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.110000000000014,
+    "end": 41.65999999999997,
+    "text": "No, I don't want to do it. You can do it."
+  },
+  {
+    "speaker": "penny",
+    "start": 42.610000000000014,
+    "end": 44.07999999999993,
+    "text": "Okay, you can take him for shoes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 44.50999999999999,
+    "end": 45.91999999999996,
+    "text": "I just took him for shoes."
+  },
+  {
+    "speaker": "penny",
+    "start": 46.27999999999997,
+    "end": 48.59000000000003,
+    "text": "Well, all I know is he says they hurt his feet."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 50.549999999999955,
+    "end": 53.93999999999994,
+    "text": "Fine. I'll take him for shoes next Saturday."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.44999999999993,
+    "end": 59.069999999999936,
+    "text": "Oh, no, no, no, a bunch of us from work are going to Disneyland next Saturday and Sheldon wants to come."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.629999999999995,
+    "end": 62.00999999999999,
+    "text": "You're taking him to Disneyland?"
+  },
+  {
+    "speaker": "penny",
+    "start": 62.069999999999936,
+    "end": 65.0,
+    "text": "Well, he heard me making plans on the phone. Was I going to say no?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 67.46000000000004,
+    "end": 72.79999999999995,
+    "text": "All right. But let me know if you're going to stuff him with junk food. I don't want to bring home a nice dinner for him and see it go to waste."
+  },
+  {
+    "speaker": "penny",
+    "start": 73.71000000000004,
+    "end": 78.69999999999993,
+    "text": "We're going to Disneyland. He's going to eat junk food."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 79.61000000000001,
+    "end": 81.03999999999996,
+    "text": "All I'm saying is give me a heads-up."
+  },
+  {
+    "speaker": "penny",
+    "start": 82.49000000000001,
+    "end": 83.93999999999994,
+    "text": "Okay, whatever."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 85.38999999999999,
+    "end": 90.91999999999996,
+    "text": "And don't let him go on Space Mountain after he eats. He'll say he can handle it, but I promise you'll end up with churro puke on your shoes."
+  },
+  {
+    "speaker": "penny",
+    "start": 92.32999999999993,
+    "end": 93.75,
+    "text": "All right, got it. Is there anything else?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 93.97000000000003,
+    "end": 97.40999999999997,
+    "text": "Yeah, don't let Goofy near him. He'll have nightmares and I'll have to deal with it."
+  },
+  {
+    "speaker": "penny",
+    "start": 98.46000000000004,
+    "end": 99.73000000000002,
+    "text": "What's the problem with Goofy?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 100.12,
+    "end": 101.55999999999995,
+    "text": "Wish I knew. He's fine with Pluto."
+  }
+]

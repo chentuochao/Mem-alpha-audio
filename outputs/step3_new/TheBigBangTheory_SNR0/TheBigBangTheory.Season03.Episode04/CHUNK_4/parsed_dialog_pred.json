@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 2.9899999999999998,
+    "end": 8.34,
+    "text": "I'm sorry. I understand. The entire life seems to be crumbling around you, and your future appears bleak at best."
+  },
+  {
+    "speaker": "Benny",
+    "start": 8.88,
+    "end": 10.3,
+    "text": "Me too, I'm just, I'm a little on edge. Thank you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 10.3,
+    "end": 18.47,
+    "text": "You're wrong about Hinduism and cows. Rock, guess what? Professor Rothwell is looking for someone to join the Stellar Evolution Research Team."
+  },
+  {
+    "speaker": "Benny",
+    "start": 18.47,
+    "end": 23.58,
+    "text": "You're kidding, that's fantastic. Come on, what are you waiting for? Call him and set up an interview. I want it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.6,
+    "end": 28.38,
+    "text": "That's happening, right? Nailed it. Dr. Kuthrabali, come on in. I was surprised to hear you were interested in joining our little team. Give me up on those trans-Neptunian objects, are we?"
+  },
+  {
+    "speaker": "Benny",
+    "start": 35.88,
+    "end": 36.080000000000005,
+    "text": "No, no, it's a very promising area. In a perfect world, I'd spend seven more years on it. But I just couldn't pass up the opportunity to work with you on your tremendously exciting and not yet conclusively disproved hypothesis."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 47.0,
+    "end": 50.82,
+    "text": "Splendid. Please sit down. Come on, have your sherry."
+  },
+  {
+    "speaker": "Benny",
+    "start": 50.82,
+    "end": 52.64,
+    "text": "A little early, isn't it?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 52.64,
+    "end": 54.94,
+    "text": "Not on Proxima Centauri."
+  },
+  {
+    "speaker": "Benny",
+    "start": 54.94,
+    "end": 55.14,
+    "text": "It's very good. It's very amusing. But if you don't mind, I'll hold off until sunset on Titan."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 61.51,
+    "end": 65.78,
+    "text": "Well done. I have a feeling you're going to fit in just fine, Dr. Kuthrabali."
+  },
+  {
+    "speaker": "Benny",
+    "start": 65.78,
+    "end": 67.02,
+    "text": "Thank you, sir."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 70.15,
+    "end": 70.35000000000001,
+    "text": "No, no, no, you're right on time. Dr. Kuthrabali, may I present Dr. Milstead from MIT. She'll be heading up our data analysis team."
+  },
+  {
+    "speaker": "Penny",
+    "start": 77.05,
+    "end": 77.45,
+    "text": "I'm sorry, am I late? Nice to meet you, Dr. Kuthrabali. I read your paper on tachyon object size distribution. I really enjoyed it."
+  },
+  {
+    "speaker": "Penny",
+    "start": 88.81,
+    "end": 91.76,
+    "text": "How did you correct for the selection bias?"
+  },
+  {
+    "speaker": "Benny",
+    "start": 91.76,
+    "end": 97.31,
+    "text": "Well, I ran a simulation. Allow me to correct for the observational efficiency."
+  },
+  {
+    "speaker": "Penny",
+    "start": 97.31,
+    "end": 99.41,
+    "text": "That's just fascinating."
+  },
+  {
+    "speaker": "Benny",
+    "start": 99.41,
+    "end": 104.73,
+    "text": "Thank you. Would you like to hear more about it in my podcast?"
+  }
+]

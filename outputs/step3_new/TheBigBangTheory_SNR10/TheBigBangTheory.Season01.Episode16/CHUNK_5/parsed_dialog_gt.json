@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.2899999999999636,
+    "text": "Oh. Pass."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.37000000000000455,
+    "end": 3.2899999999999636,
+    "text": "Come on, afterwards there's a Q& A with Harrison Ford's body double."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.139999999999986,
+    "end": 11.539999999999964,
+    "text": "Look, I am in the Halo battle of my life here, there's this kid in Copenhagen, he has no immune system so all he does is sit in his bubble and play Halo 24/7."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 12.529999999999973,
+    "end": 14.659999999999968,
+    "text": "Can't you play him some other time?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.710000000000036,
+    "end": 16.090000000000032,
+    "text": "Not if you believe his doctors."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 20.430000000000064,
+    "end": 21.600000000000023,
+    "text": "Oh my God, do you smell gas."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.769999999999982,
+    "end": 24.049999999999955,
+    "text": "No."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 24.08000000000004,
+    "end": 24.389999999999986,
+    "text": "Yeah, no."
+  },
+  {
+    "speaker": "penny",
+    "start": 30.16999999999996,
+    "end": 31.620000000000005,
+    "text": "Alright, you know they have DVDs over there."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.680000000000064,
+    "end": 36.98000000000002,
+    "text": "Yes, but they have DVD burners over here. Leonard needs a DVD burner."
+  },
+  {
+    "speaker": "penny",
+    "start": 38.549999999999955,
+    "end": 52.26999999999998,
+    "text": "Sheldon, a gift shouldn't be something someone needs, it should be something fun, you know, something they wouldn't buy for themselves. Well, it's a fun sweater, it's got a bold geometric print."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.26999999999998,
+    "end": 44.82000000000005,
+    "text": "You mean, like a sweater?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.89999999999998,
+    "end": 54.75,
+    "text": "Is it the geometry that makes it fun."
+  },
+  {
+    "speaker": "penny",
+    "start": 55.77999999999997,
+    "end": 61.59000000000003,
+    "text": "Okay, the point is, one of the ways we show we care about people is by putting thought and imagination into the gifts we give them."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.49000000000001,
+    "end": 72.16999999999996,
+    "text": "Okay, I see, so not a DVD burner. Something he wouldn't buy for himself. Something fun. Something like... oh, an 802.11n wireless router."
+  },
+  {
+    "speaker": "penny",
+    "start": 65.99000000000001,
+    "end": 66.62,
+    "text": "Exactly."
+  }
+]

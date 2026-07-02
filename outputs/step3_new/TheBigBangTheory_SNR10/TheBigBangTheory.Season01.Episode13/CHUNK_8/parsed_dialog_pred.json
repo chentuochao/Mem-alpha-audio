@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 7.79,
+    "end": 12.51,
+    "text": "Is your T-shirt? No. It stands for Perpetual Motion Squad."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 12.31,
+    "end": 14.72,
+    "text": "PMS. It's a couple days early. Oh, right, of course. What was I thinking?"
+  },
+  {
+    "speaker": "Dr. Gablehouser",
+    "start": 16.13,
+    "end": 22.529999999999998,
+    "text": "Good afternoon, everyone, and welcome to this year's Physics Bowl. Today's preliminary match features two great teams, AA versus PMS."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 30.91,
+    "end": 32.62,
+    "text": "All night long, y'all."
+  },
+  {
+    "speaker": "Dr. Gablehouser",
+    "start": 36.83,
+    "end": 37.03,
+    "text": "Okay, well, let's jump right in. First question. For ten points, what is the ISO spin singlet partner of the Pi Zero Maison?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.79,
+    "end": 48.71,
+    "text": "PMS, the Ada Maison."
+  },
+  {
+    "speaker": "Dr. Gablehouser",
+    "start": 48.71,
+    "end": 53.67,
+    "text": "Correct. All the protest, on what grounds?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 53.67,
+    "end": 56.16,
+    "text": "The Velcro on my wrist brace caught on my shirt."
+  },
+  {
+    "speaker": "Dr. Gablehouser",
+    "start": 56.65,
+    "end": 56.85,
+    "text": "Denied. All right, for ten points, what is the lightest element on Earth with no stable isotope? AA."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 64.99,
+    "end": 67.06,
+    "text": "And of course, the answer is Technetium."
+  },
+  {
+    "speaker": "Dr. Gablehouser",
+    "start": 67.06,
+    "end": 67.26,
+    "text": "Terrific. Next question. What is the force between two uncharged plates due to quantum vacuum fluctuation? PMS."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 76.3,
+    "end": 78.76,
+    "text": "Sheldon can suck on the Casimir effect."
+  },
+  {
+    "speaker": "Dr. Gablehouser",
+    "start": 78.76,
+    "end": 91.23,
+    "text": "Correct. How does a quantum computer factor large numbers? PMS. Correct."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 89.41,
+    "end": 90.49,
+    "text": "Shor's algorithm."
+  }
+]

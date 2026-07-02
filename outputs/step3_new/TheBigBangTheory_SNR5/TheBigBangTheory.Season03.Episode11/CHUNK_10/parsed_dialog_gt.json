@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.22000000000002728,
+    "text": "going on?"
+  },
+  {
+    "speaker": "penny",
+    "start": 1.4500000000000455,
+    "end": 1.990000000000009,
+    "text": "You're in trouble."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 2.0399999999999636,
+    "end": 7.919999999999959,
+    "text": "Why didn't you tell me you were tapping my homegirl? Did I say that right?"
+  },
+  {
+    "speaker": "penny",
+    "start": 9.899999999999977,
+    "end": 14.860000000000014,
+    "text": "Yeah, not bad, not bad."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.840000000000032,
+    "end": 17.779999999999973,
+    "text": "Are you guys drunk?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 18.789999999999964,
+    "end": 36.17999999999995,
+    "text": "Well, I hope so. Otherwise, why would we have stopped at Del Taco? Now, how could you not tell me you were in a relationship with this lovely, charming young woman? You're welcome. Is it because she's uneducated, trapped in a menial service position?"
+  },
+  {
+    "speaker": "penny",
+    "start": 30.110000000000014,
+    "end": 30.629999999999995,
+    "text": "Oh, thank you."
+  },
+  {
+    "speaker": "penny",
+    "start": 37.00999999999999,
+    "end": 38.89999999999998,
+    "text": "What the hell happened to lovely and charming?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.40999999999997,
+    "end": 47.710000000000036,
+    "text": "How come you didn't tell me that you and Father were getting a divorce? How come you didn't tell me you had surgery? How come you didn't tell me my dog died?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 48.460000000000036,
+    "end": 56.5,
+    "text": "Wait, wait, wait, wait, wait. What I hear you saying is that you want a more intimate mother-son relationship."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 57.59000000000003,
+    "end": 58.110000000000014,
+    "text": "I do."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 68.22000000000003,
+    "end": 70.63999999999999,
+    "text": "There. It's late. Now, go to bed."
+  }
+]

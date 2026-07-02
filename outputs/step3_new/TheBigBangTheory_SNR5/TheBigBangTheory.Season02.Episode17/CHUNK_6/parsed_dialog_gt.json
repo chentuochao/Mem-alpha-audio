@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 2.240000000000009,
+    "text": "You forgot your flash drive, You forgot your flash drive"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.3799999999999955,
+    "end": 6.560000000000059,
+    "text": "Only ten hours, 55 minutes to go."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 17.540000000000077,
+    "end": 19.030000000000086,
+    "text": "It's hot in here. Must be Summer."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 31.870000000000005,
+    "end": 33.60000000000002,
+    "text": "So, where you gals headed?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.860000000000014,
+    "end": 50.23000000000002,
+    "text": "Okay, I've found the perfect solution. We get off the train at the next stop in Oxnard. We then take the 1:13 train back to Union Station. We take a cab back to the apartment, get my flash drive, and then race to San Luis Obispo, where, assuming the lights are with us and minimal traffic, we'll meet the train."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 50.98000000000002,
+    "end": 51.85000000000002,
+    "text": "I've got a better idea."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.17000000000007,
+    "end": 53.42000000000007,
+    "text": "Are you going to be sarcastic?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.65000000000009,
+    "end": 62.34000000000003,
+    "text": "Boy, you take all the fun out of it for me.But look, Penny's home. Why don't we just call her, have her go in the apartment, get your flash drive and e-mail you the paper?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.54000000000008,
+    "end": 70.96000000000004,
+    "text": "But the flash drive is in a locked drawer in my desk. The key is hidden in my room. Penny would have to go into my room. People don't go in my room!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 65.19000000000005,
+    "end": 65.57000000000005,
+    "text": "So?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 67.46000000000004,
+    "end": 67.67000000000007,
+    "text": "So?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 69.2600000000001,
+    "end": 69.58000000000004,
+    "text": "So?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.72000000000003,
+    "end": 76.81000000000006,
+    "text": "I see. Well, it seems once again, you're caught between a rock and a crazy place."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 79.5,
+    "end": 80.88,
+    "text": "Oh, I hate when that happens."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 83.16000000000008,
+    "end": 87.78000000000009,
+    "text": "It's hot in here. It must be Summer. It's hot in here. Must be Summer. It's hot in here. Must be Summer."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 88.47000000000003,
+    "end": 90.07000000000005,
+    "text": "It's hot in here. Must be Summer."
+  },
+  {
+    "speaker": "summer_glau",
+    "start": 92.31000000000006,
+    "end": 93.03000000000009,
+    "text": "That's cute."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 93.18000000000006,
+    "end": 97.67000000000007,
+    "text": "Really? I just made it up. Have you seen Slumdog Millionaire?"
+  },
+  {
+    "speaker": "summer_glau",
+    "start": 99.53000000000009,
+    "end": 100.46000000000004,
+    "text": "Oh, yeah, I loved it."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 100.7700000000001,
+    "end": 101.94000000000005,
+    "text": "It's loosely based on my life."
+  }
+]

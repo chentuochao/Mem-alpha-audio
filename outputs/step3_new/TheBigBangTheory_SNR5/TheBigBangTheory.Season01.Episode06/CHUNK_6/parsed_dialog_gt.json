@@ -1,0 +1,350 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 3.169999999999959,
+    "text": "Neeeeooooowwwww! Close! Neeeeeoooooowwwww!"
+  },
+  {
+    "speaker": "patty",
+    "start": 0.11000000000001364,
+    "end": 0.7899999999999636,
+    "text": "Uh, a choo- choo train?"
+  },
+  {
+    "speaker": "patty",
+    "start": 4.560000000000059,
+    "end": 6.460000000000036,
+    "text": "A brain damaged choo- choo train?"
+  },
+  {
+    "speaker": "cheryl",
+    "start": 8.440000000000055,
+    "end": 12.389999999999986,
+    "text": "How wasted am I?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.370000000000005,
+    "end": 15.360000000000014,
+    "text": "Neeeeeooooowwwwww!"
+  },
+  {
+    "speaker": "vicki",
+    "start": 17.340000000000032,
+    "end": 22.279999999999973,
+    "text": "I still don't get it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.25999999999999,
+    "end": 25.289999999999964,
+    "text": "I' m the Doppler Effect."
+  },
+  {
+    "speaker": "vicki",
+    "start": 26.100000000000023,
+    "end": 29.039999999999964,
+    "text": "Okay, if that is some sort of learning disability, I think it's very insensitive."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 31.950000000000045,
+    "end": 33.99000000000001,
+    "text": "Why don't you just tell people you're a zebra?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.85000000000002,
+    "end": 37.799999999999955,
+    "text": "Well, why don't you just tell people you're one of the seven dwarves."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.289999999999964,
+    "end": 39.190000000000055,
+    "text": "Because I' m Frodo."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.389999999999986,
+    "end": 41.190000000000055,
+    "text": "Yes, well, I' m the Doppler Effect."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.379999999999995,
+    "end": 43.960000000000036,
+    "text": "Oh no."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.60000000000002,
+    "end": 44.91999999999996,
+    "text": "What?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.56000000000006,
+    "end": 46.379999999999995,
+    "text": "That's Penny's ex- boyfriend."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.42999999999995,
+    "end": 51.57000000000005,
+    "text": "What do you suppose he's doing here? Besides disrupting the local gravity field."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.84000000000003,
+    "end": 55.90999999999997,
+    "text": "If he were any bigger, he'd have moons orbiting him."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.039999999999964,
+    "end": 60.440000000000055,
+    "text": "Oh, snap. So I guess we'll be leaving now."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 61.22000000000003,
+    "end": 66.78999999999996,
+    "text": "Why should we leave? For all we know, he crashed the party and Penny doesn't even want him here.."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.14999999999998,
+    "end": 69.57000000000005,
+    "text": "You have a back- up hypothesis."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 70.67999999999995,
+    "end": 71.96000000000004,
+    "text": "Maybe they just want to be friends."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.94000000000005,
+    "end": 75.97000000000003,
+    "text": "Or maybe she wants to be friends, and he wants something more."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.58000000000004,
+    "end": 78.11000000000001,
+    "text": "Then he and I are on equal ground."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 78.74000000000001,
+    "end": 80.54999999999995,
+    "text": "Yes, but you're much closer to it than he is."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 83.00999999999999,
+    "end": 89.52999999999997,
+    "text": "Look, if this was 15,000 years ago, by virtue of his size and strength, Kurt would be entitled to his choice of female partners."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 89.60000000000002,
+    "end": 94.24000000000001,
+    "text": "And male partners. Animal partners. Large primordial eggplants, pretty much whatever tickled his fancy."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 95.95000000000005,
+    "end": 104.19000000000005,
+    "text": "Yes, but our society has undergone a paradigm shift, in the information age, Sheldon, you and I are the alpha males. We shouldn't have to back down."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 104.86000000000001,
+    "end": 107.45000000000005,
+    "text": "True. Why don't you text him that and see if he backs down?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 109.60000000000002,
+    "end": 113.74000000000001,
+    "text": "No. I' m going to assert my dominance face to face."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 114.83000000000004,
+    "end": 118.37,
+    "text": "Face to face? Are you going to wait for him to sit down, or are you going to stand on a coffee table?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 120.25,
+    "end": 122.06000000000006,
+    "text": "Hello Penny. Hello Kurt."
+  },
+  {
+    "speaker": "penny",
+    "start": 122.49000000000001,
+    "end": 124.45000000000005,
+    "text": "Oh, hey guys. You having a good time?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 124.88,
+    "end": 129.01999999999998,
+    "text": "Given the reaction to my costume, this party is a scathing indictment of the American education system."
+  },
+  {
+    "speaker": "kurt",
+    "start": 130.20000000000005,
+    "end": 131.90999999999997,
+    "text": "What, you're a zebra, right?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 133.23000000000002,
+    "end": 134.45000000000005,
+    "text": "Yet another child left behind."
+  },
+  {
+    "speaker": "kurt",
+    "start": 135.65999999999997,
+    "end": 137.39,
+    "text": "And what are you supposed to be, an Elf?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 138.34000000000003,
+    "end": 138.97000000000003,
+    "text": "No, I' m a Hobbit."
+  },
+  {
+    "speaker": "kurt",
+    "start": 139.74,
+    "end": 140.54999999999995,
+    "text": "What's the difference?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 141.17999999999995,
+    "end": 146.88,
+    "text": "Uh, a Hobbit is a mortal Halfling inhabitant of Middle Earth, whereas an Elf is an immortal tall warrior."
+  },
+  {
+    "speaker": "kurt",
+    "start": 147.52999999999997,
+    "end": 149.0,
+    "text": "So why the hell would you want to be a Hobbit?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 150.54999999999995,
+    "end": 153.48000000000002,
+    "text": "Because he is neither tall nor immortal, and none of us could be The Flash."
+  },
+  {
+    "speaker": "kurt",
+    "start": 155.64,
+    "end": 159.27999999999997,
+    "text": "Well, whatever, why don't you go hop off on a quest, I' m talking to Penny here."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 159.85000000000002,
+    "end": 161.51,
+    "text": "I think we're all talking to Penny here."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 161.61,
+    "end": 162.77999999999997,
+    "text": "I' m not. No offence."
+  },
+  {
+    "speaker": "kurt",
+    "start": 164.29999999999995,
+    "end": 166.26999999999998,
+    "text": "Okay, maybe you didn't hear me, go away."
+  },
+  {
+    "speaker": "penny",
+    "start": 166.32000000000005,
+    "end": 167.41999999999996,
+    "text": "Alright Kurt, be nice."
+  },
+  {
+    "speaker": "kurt",
+    "start": 168.03999999999996,
+    "end": 171.65999999999997,
+    "text": "Aw, I am being nice. Right little buddy."
+  },
+  {
+    "speaker": "penny",
+    "start": 172.69000000000005,
+    "end": 173.20000000000005,
+    "text": "Kurt!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 174.23000000000002,
+    "end": 182.97000000000003,
+    "text": "Okay, I understand your impulse to try to physically intimidate me. I mean, you can't compete with me on an intellectual level and so you're driven to animalistic puffery."
+  },
+  {
+    "speaker": "kurt",
+    "start": 183.47000000000003,
+    "end": 184.72000000000003,
+    "text": "Are you calling me a puffy animal?"
+  },
+  {
+    "speaker": "penny",
+    "start": 186.03999999999996,
+    "end": 188.92999999999995,
+    "text": "Of course not, no, he's not, you're not, right Leonard?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 190.34000000000003,
+    "end": 196.98000000000002,
+    "text": "No, I said animalistic. Of course we're all animals, but some of us have climbed a little higher on the evolutionary tree."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 197.73000000000002,
+    "end": 199.17999999999995,
+    "text": "If he understands that, you're in trouble."
+  },
+  {
+    "speaker": "kurt",
+    "start": 199.95000000000005,
+    "end": 201.64999999999998,
+    "text": "So what, I' m unevolved?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 201.76999999999998,
+    "end": 202.53999999999996,
+    "text": "You're in trouble."
+  },
+  {
+    "speaker": "kurt",
+    "start": 203.37,
+    "end": 206.91999999999996,
+    "text": "You know, you use a lot of big words for such a little dwarf."
+  },
+  {
+    "speaker": "penny",
+    "start": 207.48000000000002,
+    "end": 208.31000000000006,
+    "text": "Okay, Kurt, please."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 208.87,
+    "end": 220.74,
+    "text": "No, Penny, it's okay, I can handle this. I' m not a dwarf, I' m a Hobbit. A Hobbit. Are misfiring neurons in your hippocampus preventing the conversion from short- term to long- term memory?"
+  }
+]

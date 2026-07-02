@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season03.Episode03",
+    "start": 0.0,
+    "end": 0.75,
+    "text": "Good for you."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 1.3799999999999955,
+    "end": 4.009999999999991,
+    "text": "I'm actually much morelost than he is."
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season03.Episode03",
+    "start": 5.21999999999997,
+    "end": 6.439999999999998,
+    "text": "Nice ink."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 7.649999999999977,
+    "end": 10.620000000000005,
+    "text": "Thanks. Can we buy you ladies a drink?"
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season03.Episode03",
+    "start": 12.149999999999977,
+    "end": 13.050000000000011,
+    "text": "Two light beers."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 13.560000000000002,
+    "end": 15.990000000000009,
+    "text": "Light beers? Well, Wiki-how about that?"
+  },
+  {
+    "speaker": "second_girl#unknown#TheBigBangTheory.Season03.Episode03",
+    "start": 17.95999999999998,
+    "end": 18.659999999999968,
+    "text": "What's your names?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 18.810000000000002,
+    "end": 19.5,
+    "text": "I'm Howard."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 19.620000000000005,
+    "end": 20.189999999999998,
+    "text": "Raj."
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season03.Episode03",
+    "start": 20.399999999999977,
+    "end": 20.96999999999997,
+    "text": "I'm Bethany."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 21.329999999999984,
+    "end": 22.289999999999964,
+    "text": "Nice to meet you, Bethany."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 22.319999999999993,
+    "end": 23.339999999999975,
+    "text": "Yes, very nice."
+  },
+  {
+    "speaker": "bethany",
+    "start": 23.730000000000018,
+    "end": 24.69999999999999,
+    "text": "Nice to meet you too."
+  },
+  {
+    "speaker": "second_girl#unknown#TheBigBangTheory.Season03.Episode03",
+    "start": 25.579999999999984,
+    "end": 27.71999999999997,
+    "text": "I'm Sarah. Not that anyone cares."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 32.19999999999999,
+    "end": 34.920000000000016,
+    "text": "Do either of you ladies enjoy the novels of John Grisham?"
+  },
+  {
+    "speaker": "penny",
+    "start": 44.68999999999994,
+    "end": 46.299999999999955,
+    "text": "What's this cartoon called again?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.16999999999996,
+    "end": 52.14999999999998,
+    "text": "And it's not a cartoon, it's anime."
+  },
+  {
+    "speaker": "penny",
+    "start": 52.14999999999998,
+    "end": 66.50999999999999,
+    "text": "Anime. You know, I knew a girl in high school named Anna May. Anna May Fletcher. She was born with one nostril. Then she had this bad nose job and basically wound up with three."
+  }
+]

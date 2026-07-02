@@ -1,0 +1,140 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 8.659999999999968,
+    "text": "Nevertheless, I do feel obligated to point out to you that she did no reject you. You did not ask her out."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.089999999999918,
+    "end": 13.829999999999927,
+    "text": "You're right. I didn't ask her out, I should ask her out."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.989999999999895,
+    "end": 18.36999999999989,
+    "text": "No. No, now that was not my point. My point was, don't buy a cat."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 19.729999999999905,
+    "end": 23.489999999999895,
+    "text": "No, but you're right. I should march over there and ask her out."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.41999999999996,
+    "end": 25.979999999999905,
+    "text": "Oh, goody, we're getting a cat."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.75999999999999,
+    "end": 34.69999999999993,
+    "text": "Ah, hey Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.77999999999997,
+    "end": 41.20999999999992,
+    "text": "Good afternoon Penny, so hi, hey. Uh... I was wondering if you had plans for dinner."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.42999999999995,
+    "end": 42.6099999999999,
+    "text": "Uh, do you mean dinner tonight?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 44.219999999999914,
+    "end": 57.809999999999945,
+    "text": "There is an inherent ambiguity in the word dinner. Technically it refers to the largest meal of the day whenever it is consumed, so, to clarify here, by dinner I mean supper. Or dinner. I was thinking six thirty, if you can go, or a different time."
+  },
+  {
+    "speaker": "penny",
+    "start": 52.559999999999945,
+    "end": 52.969999999999914,
+    "text": "Supper?"
+  },
+  {
+    "speaker": "penny",
+    "start": 58.00999999999999,
+    "end": 59.549999999999955,
+    "text": "Uh, six thirty's great."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.549999999999955,
+    "end": 62.059999999999945,
+    "text": "Really? Great!"
+  },
+  {
+    "speaker": "penny",
+    "start": 63.059999999999945,
+    "end": 68.41999999999996,
+    "text": "Yeah, I like hanging out with you guys. You know, Sheldon, Howard, Raj, who all's coming?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 65.2399999999999,
+    "end": 65.69999999999993,
+    "text": "Us guys?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 70.28999999999996,
+    "end": 87.26999999999998,
+    "text": "They... might all be there. Or a subset of them might be there, uh, algebraically speaking there are too many unknowns, for example Sheldon had Quizznos for lunch, sometimes he finds that filling, other times he doesn't, it's no fault of Quizznos, they have a varied menu."
+  },
+  {
+    "speaker": "penny",
+    "start": 88.30999999999995,
+    "end": 91.44999999999993,
+    "text": "Okay, whatever, it sounds like fun."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 92.4899999999999,
+    "end": 98.01999999999998,
+    "text": "Great. Did we say a time? And that's still good for you. Cos it's not carved in stone."
+  },
+  {
+    "speaker": "penny",
+    "start": 94.38,
+    "end": 94.38,
+    "text": "Six thirty."
+  },
+  {
+    "speaker": "penny",
+    "start": 96.27999999999997,
+    "end": 96.66999999999996,
+    "text": "It's fine."
+  },
+  {
+    "speaker": "penny",
+    "start": 98.17999999999995,
+    "end": 99.09999999999991,
+    "text": "No, six thirty's great."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 99.57999999999993,
+    "end": 100.39999999999998,
+    "text": "I'll get my chisel."
+  },
+  {
+    "speaker": "penny",
+    "start": 102.32999999999993,
+    "end": 103.28999999999996,
+    "text": "Why?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 105.21999999999991,
+    "end": 108.81999999999994,
+    "text": "To... carve the... okay, I'll see you six thirty."
+  }
+]

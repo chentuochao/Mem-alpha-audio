@@ -1,0 +1,158 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 2.160000000000025,
+    "text": "You know how I know we're not in The Matrix?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.9400000000000546,
+    "end": 3.740000000000009,
+    "text": "How?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.28000000000003,
+    "end": 10.480000000000018,
+    "text": "If we were, the food would be better."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 13.580000000000041,
+    "end": 15.07000000000005,
+    "text": "Hey, Leonard. Hey, dummy."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.910000000000025,
+    "end": 14.340000000000032,
+    "text": "Hey, Leslie."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.83000000000004,
+    "end": 19.760000000000048,
+    "text": "Hello to you, insufficiently intelligent person."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 20.850000000000023,
+    "end": 28.310000000000002,
+    "text": "Ooh, rush me to the burn unit. Hey, Leonard, do you have a second, I need to ask you something."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.310000000000002,
+    "end": 28.83000000000004,
+    "text": "Uh, sure."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.100000000000023,
+    "end": 40.24000000000001,
+    "text": "Well, if you'll excuse me, I'm going to go do work that promises significant results, as opposed to what you do, which does not. Yeah, you heard me."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 47.59000000000003,
+    "end": 47.950000000000045,
+    "text": "Wow."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 54.93000000000001,
+    "end": 60.04000000000002,
+    "text": "So, I heard your relationship with Penny crashed to the ground like blue ice falling out of an airplane lavatory."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 61.200000000000045,
+    "end": 62.400000000000034,
+    "text": "Where did you hear that?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 62.75,
+    "end": 64.88000000000005,
+    "text": "Actually I read it. Wolowitz texted me."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.39000000000004,
+    "end": 69.19000000000005,
+    "text": "Like blue ice falling out of an airplane lavatory. Yep."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 69.65000000000003,
+    "end": 78.45000000000005,
+    "text": "I thought it was a pretty good one, I gave him an L-O-L. Anyway, it got me thinking, now that you're unattached maybe we can revisit our previous attachment."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 79.11000000000001,
+    "end": 81.40000000000003,
+    "text": "Are you suggesting another bout of stress release."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 82.49000000000001,
+    "end": 86.85000000000002,
+    "text": "No, I'm all done with casual sex. From now on I'm fully committed to the traditional relationship paradigm."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 87.15000000000003,
+    "end": 88.10000000000002,
+    "text": "Really, what changed?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 88.74000000000001,
+    "end": 94.20000000000005,
+    "text": "It's hard to say, I guess there's just a time in every woman's life when she gets tired of waking up on a strange futon with a bunch of people she doesn't know."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 96.16000000000003,
+    "end": 98.21000000000004,
+    "text": "Yeah, I can see how that would... a bunch of people?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 99.52000000000004,
+    "end": 103.61000000000001,
+    "text": "Anyway, I just figure it's time to slow things down and who better to slow things down with than you?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 103.94000000000005,
+    "end": 111.46000000000004,
+    "text": "Oh, I'm flattered. So, how do you suggest we proceed?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 111.52000000000004,
+    "end": 116.26000000000005,
+    "text": "Your place, we'll order Chinese, you'll rent a movie, artsy but accessible, then light petting, no coitus."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 118.45000000000005,
+    "end": 119.21000000000004,
+    "text": "Sounds fun."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 120.38000000000005,
+    "end": 123.14000000000004,
+    "text": "I'll leave the details up to you, I think it's better if you assume the male role."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 126.09000000000003,
+    "end": 127.19000000000005,
+    "text": "Thank you, that's very thoughtful."
+  }
+]

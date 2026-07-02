@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.4799999999999045,
+    "text": "Where is the passenger side mirror?"
+  },
+  {
+    "speaker": "penny",
+    "start": 3.099999999999909,
+    "end": 6.509999999999991,
+    "text": "In a parking lot in Hollywood. Now, can we please go?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.7299999999999045,
+    "end": 20.159999999999968,
+    "text": "Yes. As soon as I adjust my seat. Whee! Oh, dear. I'm going to have to start again."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 29.149999999999977,
+    "end": 34.45999999999992,
+    "text": "If I could speak the language of rabbits, they would be amazed, and I would be their king."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 37.389999999999986,
+    "end": 46.02999999999997,
+    "text": "I hate my name. It has nerd in it. Len nerd."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 49.639999999999986,
+    "end": 51.799999999999955,
+    "text": "I lost my virginity to my cousin Jeanie."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 54.34999999999991,
+    "end": 59.90999999999997,
+    "text": "I would be kind to my rabbit subjects. At first."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 61.64999999999998,
+    "end": 68.96999999999991,
+    "text": "You know what's a cool name? Angelo. That has angel and jell-o in it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 70.4899999999999,
+    "end": 78.30999999999995,
+    "text": "It was my Uncle Murray's funeral. We were all back at my Aunt Barbara's house. Our eyes locked over the pickled herring. We never meant for it to happen."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 80.55999999999995,
+    "end": 89.17999999999995,
+    "text": "One day, I hold a great ball for the President of France, but the rabbits, they hate me and don't come. I am embarrassed, so I eat all the lettuce in the world and make them watch."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 91.84999999999991,
+    "end": 96.96999999999991,
+    "text": "People could call me Angie. Yo, Angie, how's it goin'?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 99.58999999999992,
+    "end": 103.63,
+    "text": "To this day, I can't look at pickled herring without being aroused and ashamed."
+  }
+]

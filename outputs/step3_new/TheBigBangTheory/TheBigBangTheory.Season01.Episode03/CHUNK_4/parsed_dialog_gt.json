@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.7300000000000066,
+    "end": 4.660000000000025,
+    "text": "Shall I count down from three?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 5.019999999999982,
+    "end": 6.550000000000011,
+    "text": "No, I think it needs to be spontaneous."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 14.490000000000009,
+    "end": 15.0,
+    "text": "What do you think."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 15.329999999999984,
+    "end": 18.269999999999982,
+    "text": "You proposed the experiment, I think you should present your findings first."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 19.19999999999999,
+    "end": 28.769999999999982,
+    "text": "Fair enough. On the plus side, it was a good kiss, reasonable technique, no extraneous spittle. On the other hand, no arousal."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 30.110000000000014,
+    "end": 30.78000000000003,
+    "text": "None?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 32.120000000000005,
+    "end": 32.79000000000002,
+    "text": "None."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.120000000000005,
+    "end": 36.97000000000003,
+    "text": "Ah. Well, thank you for your time."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 37.24000000000001,
+    "end": 37.69,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.370000000000005,
+    "end": 43.44999999999999,
+    "text": "None at all?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 48.129999999999995,
+    "end": 56.53000000000003,
+    "text": "Sheldon, if you were a robot, and I knew and you didn't, would you want me to tell you?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.839999999999975,
+    "end": 65.36000000000001,
+    "text": "That depends. When I learn that I' m a robot, will I be able to handle it?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 67.24000000000001,
+    "end": 70.17000000000002,
+    "text": "Maybe, although the history of science- fiction is not on your side."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.36000000000001,
+    "end": 78.50999999999999,
+    "text": "Uh, let me ask you this. When I learn that I' m a robot, would I be bound by Asimov's three laws of robotics?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 80.13,
+    "end": 82.79000000000002,
+    "text": "You might be bound by them right now."
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 10.32,
+    "end": 13.989999999999998,
+    "text": "Hang on. 130 over 80. It's a little high. We can attribute that to the stress of sneaking past the security desk. My aunt Marion gave them to me for my twelfth birthday. She thought if I failed at theoretical physics, I should have a trade to fall back on. Hey, by the way, the blood pressure cuff is called a sphygmomanometer."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 10.780000000000001,
+    "end": 13.79,
+    "text": "Sheldon, what are you doing here? Where did you get the stethoscope and the blood pressure cuff?"
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 27.02,
+    "end": 28.25,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 28.25,
+    "end": 30.26,
+    "text": "Did they teach you that in medical school?"
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 31.3,
+    "end": 33.17,
+    "text": "I'm kind of busy here, Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.17,
+    "end": 36.6,
+    "text": "I understand. All I need is for you to authorize these tests."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 36.7,
+    "end": 36.900000000000006,
+    "text": "A cardiac stress test, a full body MRI, an electromyogram, a CAT scan, baseline glucose, upper GI."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.96,
+    "end": 43.160000000000004,
+    "text": "Oh, and an exploratory laparoscopy. The last time I had hiccups, it felt like my diaphragm was just going through the motions."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 49.3,
+    "end": 51.3,
+    "text": "Go home, Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 51.3,
+    "end": 62.05,
+    "text": "Can I at least have the upper GI? I already drank the barium. Oh, good. Do you have any fabric softener?"
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 62.05,
+    "end": 62.84,
+    "text": "Yeah, sure."
+  }
+]

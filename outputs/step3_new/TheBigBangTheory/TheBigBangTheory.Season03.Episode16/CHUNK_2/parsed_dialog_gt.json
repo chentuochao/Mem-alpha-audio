@@ -1,0 +1,212 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.7900000000000205,
+    "text": "What is it about the word unique you don't understand?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 2.7700000000000102,
+    "end": 5.710000000000008,
+    "text": "Ow! Damn, paper cut. Nothing worse than a paper cut."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 6.170000000000016,
+    "end": 8.230000000000018,
+    "text": "Well, obviously you don't remember your circumcision."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.04000000000002,
+    "end": 13.560000000000002,
+    "text": "There's Neosporin and Band-Aids in my top desk drawer."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 14.110000000000014,
+    "end": 16.22,
+    "text": "Why don't you keep that stuff in the bathroom?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.74000000000001,
+    "end": 19.150000000000006,
+    "text": "He does. And in the kitchen. And in the car. And in his pocket."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.930000000000007,
+    "end": 21.76000000000002,
+    "text": "Yeah, but the ones in my pocket are mine."
+  },
+  {
+    "speaker": "penny",
+    "start": 22.980000000000018,
+    "end": 23.580000000000013,
+    "text": "Hi!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.80000000000001,
+    "end": 27.560000000000002,
+    "text": "Hey. Guess who's going to be at the comic bookstore on Thursday?"
+  },
+  {
+    "speaker": "penny",
+    "start": 27.920000000000016,
+    "end": 29.180000000000007,
+    "text": "Um, can you give me a hint?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 29.330000000000013,
+    "end": 30.200000000000017,
+    "text": "Stan Lee."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.77000000000001,
+    "end": 34.10000000000002,
+    "text": "Um, Stanley, Stanley, Stanley Tucci?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.73000000000002,
+    "end": 36.82000000000002,
+    "text": "No, no, Stan Lee."
+  },
+  {
+    "speaker": "penny",
+    "start": 36.880000000000024,
+    "end": 41.880000000000024,
+    "text": "Oh, oh, Stan Lee! Cool!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.31,
+    "end": 46.58000000000001,
+    "text": "You have no idea who he is, do you?"
+  },
+  {
+    "speaker": "penny",
+    "start": 46.73000000000002,
+    "end": 52.10000000000002,
+    "text": "Of course I do. You're an important part of my life and I pay attention to the things you are interested in."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.72,
+    "end": 56.27000000000001,
+    "text": "Good, good, so, who's Stan Lee?"
+  },
+  {
+    "speaker": "penny",
+    "start": 57.09,
+    "end": 58.390000000000015,
+    "text": "Um, he was on Star Trek."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 63.53,
+    "end": 64.02000000000001,
+    "text": "Nope."
+  },
+  {
+    "speaker": "penny",
+    "start": 64.14000000000001,
+    "end": 64.58000000000001,
+    "text": "Star Wars?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.94,
+    "end": 66.96000000000001,
+    "text": "No."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.0,
+    "end": 70.03,
+    "text": "Um, uh, Stan Lee, oh, he was in those goofy kung fu movies you love so much?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 71.5,
+    "end": 72.19,
+    "text": "That's Bruce Lee."
+  },
+  {
+    "speaker": "penny",
+    "start": 74.07000000000002,
+    "end": 77.09,
+    "text": "Oh. So, is this Bruce Lee's nerdy brother, Stan?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 78.94,
+    "end": 82.63000000000002,
+    "text": "Sheldon, why do you have all these unopened paychecks in your desk?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 82.84,
+    "end": 85.78000000000003,
+    "text": "Because most of the things I'm planning to buy haven't been invented yet."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 87.15000000000003,
+    "end": 91.32999999999998,
+    "text": "But there must be thousands of dollars here. Why don't you put it in the bank?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 91.54000000000002,
+    "end": 95.87,
+    "text": "I don't trust banks. I believe that when the robots rise up, ATMs will lead the charge."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 98.38,
+    "end": 101.44999999999999,
+    "text": "You've also got something from the Pasadena Municipal Court."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 102.06,
+    "end": 112.29000000000002,
+    "text": "Undoubtedly yet another snide response to my repeated letters complaining that the flags in front of the courthouse are flying in the wrong order. From left to right, it's supposed to be federal, state, and then city of Pasadena."
+  },
+  {
+    "speaker": "penny",
+    "start": 113.18,
+    "end": 115.37,
+    "text": "I'm sorry. You sent more than one letter about that?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 117.55000000000001,
+    "end": 118.32,
+    "text": "It bothers me."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 120.44,
+    "end": 121.96000000000004,
+    "text": "Sheldon, this is a summons."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 122.18,
+    "end": 123.46000000000004,
+    "text": "A summons for what?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 123.96000000000004,
+    "end": 132.95,
+    "text": "Looks like you ran a red light on Marengo Avenue at 9:30 p.m. on November 16. They got you on a traffic camera. Nice picture."
+  }
+]

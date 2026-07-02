@@ -1,0 +1,134 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.12000000000000455,
+    "text": "Hello."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.12000000000000455,
+    "text": "Hello."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.4300000000000068,
+    "end": 1.660000000000025,
+    "text": "W-W-Wait, what's going on?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.650000000000034,
+    "end": 7.170000000000016,
+    "text": "I assume you're referring to the sea shanty. It's a rhythmic work song designed to increase productivity."
+  },
+  {
+    "speaker": "penny",
+    "start": 7.340000000000032,
+    "end": 11.260000000000048,
+    "text": "Yeah, it's crazy, but it totally works. Look, we made this Penny Blossom in under three minutes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.130000000000052,
+    "end": 15.260000000000048,
+    "text": "Terrific, but that kind of raises more questions than it answers."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.07000000000005,
+    "end": 21.82000000000005,
+    "text": "Penny's making hair accessories. I'm helping her optimize her manufacturing process. All right, break's over."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 22.670000000000016,
+    "end": 30.760000000000048,
+    "text": "Hold on. What are you using as a bonding agent? You're kidding. Any of the cyanoacrylates would do a better job."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.230000000000018,
+    "end": 27.760000000000048,
+    "text": "Hot glue."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.060000000000002,
+    "end": 32.57000000000005,
+    "text": "It won't work, the flower's too porous."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 32.75,
+    "end": 37.360000000000014,
+    "text": "What if we infused the bottom layer with silicone-RTV to provide a better mounting surface?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.49000000000001,
+    "end": 38.63000000000005,
+    "text": "Intriguing."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 40.01000000000005,
+    "end": 41.97000000000003,
+    "text": "Good question, what are you marketing and distribution channels?"
+  },
+  {
+    "speaker": "penny",
+    "start": 42.06,
+    "end": 44.55000000000001,
+    "text": "Well, there are the waitresses at my work, and this cute, little shop in Old Town."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.55000000000001,
+    "end": 51.68000000000001,
+    "text": "Hush, hush, hush, hush, hush, virtually non-existent. I'm thinking that we set her up with a hosted turnkey e-commerce system to start."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 51.740000000000066,
+    "end": 56.12000000000006,
+    "text": "Why not eliminate the middle man? We could install a small server farm with a static IP in her bedroom."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.43000000000001,
+    "end": 58.21999999999997,
+    "text": "She'd need some kind of industrial cooling system."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.28000000000003,
+    "end": 67.79000000000002,
+    "text": "Of course, but before we set up a marketing and distribution infrastructure, we should finish optimizing the manufacturing process. To start with, she has a terrible problem with moisture-induced glitter clump."
+  },
+  {
+    "speaker": "penny",
+    "start": 69.69999999999999,
+    "end": 70.78000000000003,
+    "text": "Yeah, it's a bitch."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 72.48000000000008,
+    "end": 75.17000000000002,
+    "text": "Uh, I've seen this before."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.53000000000003,
+    "end": 76.95999999999998,
+    "text": "Where?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 77.23000000000008,
+    "end": 78.57,
+    "text": "It's a common stripper problem."
+  }
+]

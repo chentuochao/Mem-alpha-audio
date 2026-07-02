@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 3.98,
+    "end": 9.62,
+    "text": "Give me the phone. I can't because if I don't show up, she'll still be expecting you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 5.31,
+    "end": 6.74,
+    "text": "I'll just tell her that you, uh, had a routine colonoscopy and haven't quite bounced back. I thought you wanted to cancel."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 9.62,
+    "end": 11.9,
+    "text": "Why would she be expecting me?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 12.5,
+    "end": 16.16,
+    "text": "Stop asking me all these questions. I need to take another shower."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 21.46,
+    "end": 21.66,
+    "text": "Oh, yeah, no. Turns out that Raj and Howard had to work and Sheldon... had a colonoscopy and he hasn't quite bounced back yet."
+  },
+  {
+    "speaker": "Penny",
+    "start": 31.94,
+    "end": 34.88,
+    "text": "So are the rest of the guys meeting us here? Oof, my uncle just had a colonoscopy."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 34.88,
+    "end": 38.76,
+    "text": "You're kidding. Well, then, that's something we have in common."
+  },
+  {
+    "speaker": "Penny",
+    "start": 38.86,
+    "end": 40.42,
+    "text": "How?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 40.52,
+    "end": 40.720000000000006,
+    "text": "We both have people in our lives who want to nip intestinal polyps in the butt."
+  },
+  {
+    "speaker": "Penny",
+    "start": 52.48,
+    "end": 55.38,
+    "text": "So, what's new in the world of physics?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.58,
+    "end": 59.74,
+    "text": "Nothing. Well, with the exception of string theory, not much has happened since the 1930s, and you can't prove string theory. At best, you can say, hey, look, my idea has an internal logical consistency."
+  },
+  {
+    "speaker": "Penny",
+    "start": 73.16,
+    "end": 76.38,
+    "text": "Uh, well, I'm sure things will pick up."
+  }
+]

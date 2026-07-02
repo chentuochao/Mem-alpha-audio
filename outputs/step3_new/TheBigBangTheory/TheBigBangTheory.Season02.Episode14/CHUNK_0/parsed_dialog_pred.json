@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "Raj",
+    "start": 6.21,
+    "end": 34.6,
+    "text": "Hmm. The problem appears to be unsolvable. Maybe we could run some computer simulations. Wait, what about the multiplex here? The seats are terrific."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 18.64,
+    "end": 24.72,
+    "text": "We've gotta be missing something. Let's start again. The movie is playing here at 7:20, here at 7:40, here at 8:10, and here at 8:45. Why? They're state-of-the-art, digital projection, 20 channels surround sound."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 24.52,
+    "end": 24.919999999999998,
+    "text": "Alright, these theaters have to be eliminated. Yes, but they have no icy machines. Despite my aggressive letter-writing campaign, I might add."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 34.6,
+    "end": 39.37,
+    "text": "They have Twizzlers instead of red vines. No amount of lumbar support can compensate for that."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 39.75,
+    "end": 39.95,
+    "text": "Well, it's gonna take at least an hour to eat, and I don't see a Sheldon-approved restaurant proximate to a Sheldon-approved theater. We could eat after the movie."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 48.07,
+    "end": 52.41,
+    "text": "Unacceptable. The delay would result in tomorrow morning's bowel movement occurring at work."
+  },
+  {
+    "speaker": "Raj",
+    "start": 53.21,
+    "end": 53.410000000000004,
+    "text": "Hang on, hang on. There's a 7-Eleven here. We smuggle Slurpees, which are essentially Icees, in undercoats after having a pleasant meal either here, here, or here."
+  },
+  {
+    "speaker": "Howard",
+    "start": 64.36,
+    "end": 67.48,
+    "text": "There are too many variables. It would take forever. Wow. I don't see how we missed that."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.48,
+    "end": 71.18,
+    "text": "Excuse me, in what universe are Slurpees Icees?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 72.46,
+    "end": 74.5,
+    "text": "That's how we missed it."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 74.82,
+    "end": 80.74,
+    "text": "Sheldon, would you be prepared on a non-presidential basis to create an emergency ad hoc Slurpee Icy equivalency?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 80.74,
+    "end": 83.8,
+    "text": "Oh, Leonard, you know I can't do that."
+  },
+  {
+    "speaker": "Howard",
+    "start": 85.0,
+    "end": 87.33,
+    "text": "Okay, I guess we only have one option."
+  },
+  {
+    "speaker": "Raj",
+    "start": 87.33,
+    "end": 91.07,
+    "text": "Yep, I don't see any way around it. Bye, Sheldon."
+  },
+  {
+    "speaker": "Howard",
+    "start": 91.07,
+    "end": 92.0,
+    "text": "Didn't do it."
+  }
+]

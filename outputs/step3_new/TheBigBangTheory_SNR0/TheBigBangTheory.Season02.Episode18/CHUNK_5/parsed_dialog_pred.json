@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 11.440000000000001,
+    "end": 15.66,
+    "text": "What's going on? Terrific, but that kinda raises more questions than it answers."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 16.16,
+    "end": 16.56,
+    "text": "I assume you're referring to the sea shanty. It's a rhythmic work song designed to increase productivity. Penny's making parrot accessories. I'm helping her optimize her manufacturing process. Alright, break's over. Pay attention to orders. Now you want to know."
+  },
+  {
+    "speaker": "Raj",
+    "start": 24.52,
+    "end": 30.79,
+    "text": "Hey, hold on. What are you using as a buzzing agent? You're kidding. Any of the cyanoacrylates would do a better job."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 26.99,
+    "end": 27.75,
+    "text": "Poplin."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.79,
+    "end": 32.53,
+    "text": "It won't work. The flower's too porous."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 32.53,
+    "end": 37.53,
+    "text": "What if we infused the bottom layer with silicone RTV to provide a better mounting surface?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.53,
+    "end": 38.76,
+    "text": "Intriguing."
+  },
+  {
+    "speaker": "Raj",
+    "start": 39.18,
+    "end": 41.86,
+    "text": "Good question. What are your marketing and distribution channels?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 41.66,
+    "end": 44.61,
+    "text": "Yeah, it's crazy, but it totally works. Look, we made this penny blossom in under three minutes. Well, they're the waitresses at my work in this cute little shop in Old Town."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 44.61,
+    "end": 44.81,
+    "text": "Shush, shush, shush, shush. Virtually non-existent. I'm thinking that we set her up with a hosted turnkey e-commerce system to start."
+  },
+  {
+    "speaker": "Raj",
+    "start": 51.64,
+    "end": 56.12,
+    "text": "Why not eliminate the middleman? We could install a small server farm with a static IP in her bedroom."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 56.12,
+    "end": 58.1,
+    "text": "She'll need some kind of industrial cooling system."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 58.1,
+    "end": 58.300000000000004,
+    "text": "Of course, but before we set up a marketing and distribution infrastructure, we should finish optimizing the manufacturing process to start with. She has a terrible problem with moisture-induced glitter clumps."
+  },
+  {
+    "speaker": "Penny",
+    "start": 68.83,
+    "end": 71.07,
+    "text": "Yeah, it's a bitch."
+  },
+  {
+    "speaker": "Raj",
+    "start": 72.89,
+    "end": 78.57,
+    "text": "Ah, I've seen this before. The common stripper problem."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 75.81,
+    "end": 76.92,
+    "text": "Where?"
+  }
+]

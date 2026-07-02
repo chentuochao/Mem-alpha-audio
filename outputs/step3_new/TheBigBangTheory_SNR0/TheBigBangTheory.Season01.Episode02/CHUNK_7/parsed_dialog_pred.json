@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 9.25,
+    "end": 25.45,
+    "text": "You want some cereal? I feel so good today. I'm gonna choose from the low fiber end of the shelf. Hello, honey pops. I may have left a suggested organizational schematic for her bedroom closet."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 12.24,
+    "end": 13.91,
+    "text": "No, I do not have a sarcasm. Honey's up."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 18.05,
+    "end": 20.11,
+    "text": "How did she know it was us?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 25.71,
+    "end": 27.98,
+    "text": "What? God, this is gonna be bad."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 27.98,
+    "end": 30.73,
+    "text": "Goodbye, honey pops. Hello, big brand."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 34.01,
+    "end": 35.17,
+    "text": "He's been a little late to clean."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 35.17,
+    "end": 38.15,
+    "text": "Really more to organize. You're not actually dirty, per se."
+  },
+  {
+    "speaker": "Penny",
+    "start": 38.529999999999994,
+    "end": 40.32,
+    "text": "He came into my apartment last night while I was sleeping. Give me back my keys."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 41.71,
+    "end": 42.95,
+    "text": "I'm very, very sorry."
+  },
+  {
+    "speaker": "Penny",
+    "start": 42.95,
+    "end": 45.01,
+    "text": "Do you understand how creepy this is?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.01,
+    "end": 47.31,
+    "text": "Oh yes, we discussed it at length last night."
+  },
+  {
+    "speaker": "Penny",
+    "start": 47.49,
+    "end": 49.81,
+    "text": "In my apartment while I was sleeping."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.81,
+    "end": 50.010000000000005,
+    "text": "And snoring. And that's probably just a sinus infection. But it could be sleep apnea. You might want to see an otolaryngologist."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 58.65,
+    "end": 60.53,
+    "text": "The throat doctor."
+  },
+  {
+    "speaker": "Penny",
+    "start": 61.71,
+    "end": 64.91,
+    "text": "What kind of doctor removes shoes from asses?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 65.92,
+    "end": 71.59,
+    "text": "Depending on the depth, that's either a proctologist or a general surgeon."
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "Raj",
+    "start": 8.860000000000001,
+    "end": 10.29,
+    "text": "I'm sorry. Me too. I'm just, I'm a little on edge. Thank you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 10.09,
+    "end": 12.52,
+    "text": "Understandable. Your entire life seems to be crumbling around you, and your future appears bleak at best. You're wrong about Hinduism and cows."
+  },
+  {
+    "speaker": "Raj",
+    "start": 13.1,
+    "end": 18.43,
+    "text": "Hey, Raj, guess what? Professor Laughlin is looking for someone to join the Stellar Evolution Research Team."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 18.43,
+    "end": 20.22,
+    "text": "You're kidding? That's fantastic."
+  },
+  {
+    "speaker": "Raj",
+    "start": 20.22,
+    "end": 22.45,
+    "text": "Come on, what are you waiting for? Call him and set up an interview."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 22.45,
+    "end": 26.46,
+    "text": "I'm on it. That's happy, right? Nailed it."
+  },
+  {
+    "speaker": "Unknown_speaker034",
+    "start": 35.69,
+    "end": 50.84,
+    "text": "Dr. Kuthrapali, come on in. I was surprised to hear you were interested in joining our little team. Giving up on those trans-Neptunian objects, are we? Splendid. Please sit down. Come on for your sherry."
+  },
+  {
+    "speaker": "Raj",
+    "start": 35.89,
+    "end": 36.09,
+    "text": "No, no, it's a very promising area. In a perfect world, I'd spend seven more years on it. But I just couldn't pass up the opportunity to work with you on your tremendously exciting and not yet conclusively disproved hypothesis."
+  },
+  {
+    "speaker": "Raj",
+    "start": 50.84,
+    "end": 52.64,
+    "text": "It's a little early, isn't it?"
+  },
+  {
+    "speaker": "Unknown_speaker034",
+    "start": 52.64,
+    "end": 54.8,
+    "text": "Not on Proxima Centauri."
+  },
+  {
+    "speaker": "Raj",
+    "start": 55.16,
+    "end": 55.36,
+    "text": "That's very good. Jolly amusing. But, If you don't mind, I'll hold off until sunset on Titan."
+  },
+  {
+    "speaker": "Unknown_speaker034",
+    "start": 61.54,
+    "end": 65.79,
+    "text": "Well done. I have a feeling you're going to fit in just fine, Dr. Kuthrapali."
+  },
+  {
+    "speaker": "Raj",
+    "start": 65.79,
+    "end": 67.06,
+    "text": "Thank you, sir."
+  },
+  {
+    "speaker": "Unknown_speaker034",
+    "start": 70.19,
+    "end": 70.39,
+    "text": "No, no, no, right on time. Dr. Kuthrapali, may I present Dr. Milstone from MIT. She'll be heading up our data analysis team."
+  },
+  {
+    "speaker": "Unknown_speaker035",
+    "start": 77.02,
+    "end": 77.42,
+    "text": "I'm sorry, am I late? It's nice to meet you, Dr. Kuthrapali. I read your paper on hyperbolic object size distribution. I really enjoyed it."
+  },
+  {
+    "speaker": "Unknown_speaker035",
+    "start": 89.33,
+    "end": 91.84,
+    "text": "How did you correct for the selection bias?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 91.84,
+    "end": 97.43,
+    "text": "Well, I ran a simulation that allowed me to correct for the observational efficiency."
+  },
+  {
+    "speaker": "Unknown_speaker035",
+    "start": 97.43,
+    "end": 99.47,
+    "text": "That's just fascinating."
+  },
+  {
+    "speaker": "Raj",
+    "start": 99.47,
+    "end": 104.73,
+    "text": "Thank you. Would you like to hear more about it in my hot tub?"
+  }
+]

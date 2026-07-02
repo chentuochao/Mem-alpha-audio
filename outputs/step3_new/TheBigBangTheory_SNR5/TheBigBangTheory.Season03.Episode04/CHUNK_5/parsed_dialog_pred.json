@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Rajesh",
+    "start": 7.6499999999999995,
+    "end": 8.049999999999999,
+    "text": "So when do I start? You know, he's British, I'm Indian. Ever since Gandhi, they haven't liked us very much."
+  },
+  {
+    "speaker": "Howard",
+    "start": 15.440000000000001,
+    "end": 19.6,
+    "text": "What do you mean you didn't get the job? How could you not get it? Are you saying that he discriminated against you? Because we should file a complaint."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 19.6,
+    "end": 24.259999999999998,
+    "text": "That's okay. Complaint's been filed. That's it. That was my last hope. I'm gonna be deported. Sent home in disgrace, exposed to the sardonic barbs of my cousin Sanjay, or as you may know him, Dave from AT&T customer service."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 41.61,
+    "end": 45.51,
+    "text": "I'm gonna miss you. Will you come visit me in India?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 45.73,
+    "end": 50.65,
+    "text": "Gee, that's like a 17-hour flight. How about I meet you halfway?"
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 50.65,
+    "end": 53.31,
+    "text": "Halfway is 600 miles up the coast of Japan."
+  },
+  {
+    "speaker": "Howard",
+    "start": 53.51,
+    "end": 60.34,
+    "text": "Tell you what, we'll Skype. Gentlemen."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 60.34,
+    "end": 60.540000000000006,
+    "text": "Raj, did you get the job, Professor Laughlin? I assumed as much, but never fear. Like the subordinate male protagonist in countless action movies who disappears halfway through the second reel, I have returned to save the day."
+  }
+]

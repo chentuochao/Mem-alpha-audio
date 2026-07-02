@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 4.539999999999964,
+    "text": "To begin with, you will remove funny bone for two hundred dollars."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 7.07000000000005,
+    "end": 8.32000000000005,
+    "text": "For this I went to MIT."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.139999999999986,
+    "end": 13.860000000000014,
+    "text": "And begin."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 18.680000000000064,
+    "end": 19.190000000000055,
+    "text": "I think I swallowed some paint!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 19.200000000000045,
+    "end": 26.350000000000023,
+    "text": "I can't press any of the buttons with my gloves. Oh, son of a bitch!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.409999999999968,
+    "end": 28.210000000000036,
+    "text": "Adversity is to be expected. Continue."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 28.899999999999977,
+    "end": 30.700000000000045,
+    "text": "Oh, boy, am I gonna get sued."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 32.620000000000005,
+    "end": 33.700000000000045,
+    "text": "Okay, I can't do this."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 33.73000000000002,
+    "end": 34.25999999999999,
+    "text": "Me either."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.450000000000045,
+    "end": 46.99000000000001,
+    "text": "Gentlemen, use your imagination. Innovate. Did Han Solo let Luke Skywalker freeze to death on the ice planet of Hoth? No. He cut open a tauntaun and used its internal body heat to warm him up."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 47.700000000000045,
+    "end": 49.75,
+    "text": "You heard the man. Hold him down and I'll cut him open."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 50.25,
+    "end": 57.289999999999964,
+    "text": "Hang on, I know I don't possess the tools of leadership, but I don't understand why we can't assemble the equipment inside the hut and then take it outside."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.76999999999998,
+    "end": 60.639999999999986,
+    "text": "I hadn't thought of that."
+  }
+]

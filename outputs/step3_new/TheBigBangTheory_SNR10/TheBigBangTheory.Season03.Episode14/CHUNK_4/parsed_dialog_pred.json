@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 7.86,
+    "end": 10.31,
+    "text": "Leonard, you're sleeping in your sleep. It creeps me out."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 10.110000000000001,
+    "end": 13.02,
+    "text": "It's not me, it's my new ringtone. Joker from Batman. Me too, but I paid three bucks for it."
+  },
+  {
+    "speaker": "Penny",
+    "start": 13.02,
+    "end": 15.34,
+    "text": "Just answer the phone."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 19.28,
+    "end": 22.12,
+    "text": "Hello. Yeah, I'm Leonard Hofstadter. Yeah, he's my roommate."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 29.09,
+    "end": 34.63,
+    "text": "Is he okay? Yeah, alright, alright, I'll be right there."
+  },
+  {
+    "speaker": "Penny",
+    "start": 34.63,
+    "end": 36.18,
+    "text": "What happened?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 36.18,
+    "end": 39.15,
+    "text": "Sheldon's escaped and is terrorizing the village."
+  },
+  {
+    "speaker": "Penny",
+    "start": 41.49,
+    "end": 43.29,
+    "text": "Okay, have fun."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 48.73,
+    "end": 49.99,
+    "text": "Ball pit."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 52.949999999999996,
+    "end": 55.18,
+    "text": "Hi, I'm Dr. Hofstadter. Where is he? Thanks for not calling the cops."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.18,
+    "end": 58.55,
+    "text": "Okay, it's no big deal. My sister's got a kid who's special."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 59.17,
+    "end": 67.71,
+    "text": "Yeah, well, he's extra special. Hey, Shelly. What you doing?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 72.89,
+    "end": 78.63,
+    "text": "Sure, sure. How did you get into this place?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 78.42999999999999,
+    "end": 78.83,
+    "text": "Size ratio was all wrong. Couldn't visualize it. Need bigger carbon atoms. Back door has a five-pin tumbler system, single circuit alarm, child's play. But you can start sorting protons and neutrons while I build carbon atoms."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 89.02,
+    "end": 92.38,
+    "text": "No, I don't think so. We need to go home now."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 92.38,
+    "end": 94.33,
+    "text": "But I'm still working."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 94.33,
+    "end": 98.01,
+    "text": "If you don't come out of there, I'm gonna have to drag you out."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 98.01,
+    "end": 101.78,
+    "text": "You can try, but you'll never catch me."
+  }
+]

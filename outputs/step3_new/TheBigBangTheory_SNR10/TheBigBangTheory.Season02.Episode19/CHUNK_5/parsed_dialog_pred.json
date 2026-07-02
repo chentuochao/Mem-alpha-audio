@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 13.200000000000001,
+    "end": 13.6,
+    "text": "Oh, great. Now I have to start all over again. Yeah, I thought about renting this apartment, but I'm really more of a downtown loft kind of guy."
+  },
+  {
+    "speaker": "Howard",
+    "start": 22.12,
+    "end": 28.04,
+    "text": "Oh, actually, I'm, uh, living with a woman in Altadena. Purely platonic. She's also my maid."
+  },
+  {
+    "speaker": "Alicia",
+    "start": 28.38,
+    "end": 30.28,
+    "text": "Ooh, so are you in a loft now? Sounds like a sweet deal."
+  },
+  {
+    "speaker": "Howard",
+    "start": 30.28,
+    "end": 32.36,
+    "text": "I don't know why, it's pretty dope."
+  },
+  {
+    "speaker": "Alicia",
+    "start": 34.16,
+    "end": 35.6,
+    "text": "Hello."
+  },
+  {
+    "speaker": "Penny",
+    "start": 36.36,
+    "end": 38.07,
+    "text": "Okay, now I see the giant squid head. Oh, hey."
+  },
+  {
+    "speaker": "Alicia",
+    "start": 38.07,
+    "end": 40.5,
+    "text": "I just wanted to bring you a little housewarming gift."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.5,
+    "end": 43.33,
+    "text": "That is so sweet. Come on in, let's open it."
+  },
+  {
+    "speaker": "Alicia",
+    "start": 43.33,
+    "end": 45.29,
+    "text": "Great. Nice dress."
+  },
+  {
+    "speaker": "Penny",
+    "start": 45.29,
+    "end": 47.58,
+    "text": "Oh, this, I'm dressed like a slob today."
+  },
+  {
+    "speaker": "Alicia",
+    "start": 49.32,
+    "end": 49.52,
+    "text": "The guys have been helping me set up my sound system. I've never had such good-looking technical support."
+  },
+  {
+    "speaker": "Howard",
+    "start": 55.6,
+    "end": 66.27,
+    "text": "Oh, pish posh. Oh, shucks. Shucks means shucks let one go once in a while."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 67.19,
+    "end": 72.65,
+    "text": "Hey, uh, Penny, you wanna hear something awesome? Alicia is an actress just like you."
+  },
+  {
+    "speaker": "Penny",
+    "start": 72.65,
+    "end": 75.09,
+    "text": "That is so awesome."
+  },
+  {
+    "speaker": "Alicia",
+    "start": 75.89,
+    "end": 85.29,
+    "text": "Well, trying to be, but it's so hard. I've been out here three months, and all I've gotten is a couple of national commercials and this recurring thing on a soap."
+  },
+  {
+    "speaker": "Penny",
+    "start": 78.6,
+    "end": 79.82,
+    "text": "I know, tell me about it."
+  },
+  {
+    "speaker": "Penny",
+    "start": 87.42,
+    "end": 90.7,
+    "text": "That's why I work at the Cheesecake Factory. I'm holding out for the right part."
+  }
+]

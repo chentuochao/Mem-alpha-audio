@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 10.020000000000001,
+    "end": 13.46,
+    "text": "Sheldon, please try and understand. Look, Leonard and I are in a relationship, and occasionally we're gonna fight. But no matter what happens between us, we will always love you. Right, Leonard?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 13.64,
+    "end": 19.26,
+    "text": "Always is a long time. Sure, always."
+  },
+  {
+    "speaker": "Penny",
+    "start": 19.26,
+    "end": 23.42,
+    "text": "Yep, how about we buy you this robot, and then we all go home?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 24.06,
+    "end": 26.1,
+    "text": "I want that one."
+  },
+  {
+    "speaker": "Penny",
+    "start": 26.82,
+    "end": 29.23,
+    "text": "Okay, you can have that one."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 29.23,
+    "end": 34.02,
+    "text": "Come on, he's just gonna play with it twice, and then it'll end up in his closet with all the other junk."
+  },
+  {
+    "speaker": "Penny",
+    "start": 34.94,
+    "end": 37.18,
+    "text": "Buy him the robot, Leonard."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 38.24,
+    "end": 42.18,
+    "text": "Can I get this comic book, too? You have certain skills."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 47.3,
+    "end": 49.02,
+    "text": "We meet again."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 56.48,
+    "end": 60.14,
+    "text": "So what did Justin say when you told him he couldn't sleep on your couch?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 60.14,
+    "end": 63.72,
+    "text": "He's a musician. He'll sleep in his own vomit if he has to."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 72.22,
+    "end": 76.12,
+    "text": "Should have asked for much more than a comic book and a robot."
+  }
+]

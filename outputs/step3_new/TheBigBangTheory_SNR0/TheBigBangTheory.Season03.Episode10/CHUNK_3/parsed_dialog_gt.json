@@ -1,0 +1,152 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.9900000000000091,
+    "text": "Where did you get them?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 1.8499999999999943,
+    "end": 2.2700000000000102,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.1299999999999955,
+    "end": 4.659999999999997,
+    "text": "Bazinga. I don't care."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 8.96999999999997,
+    "end": 9.329999999999984,
+    "text": "Ha!"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 13.29000000000002,
+    "end": 15.449999999999989,
+    "text": "Eat my dust, racially stereotypical plumber."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.75999999999999,
+    "end": 21.939999999999998,
+    "text": "That's not fair. I got stuck behind a tree."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 22.639999999999986,
+    "end": 29.370000000000005,
+    "text": "And a cow and a penguin. Face it dude, whether it's a real car or a virtual cartoon car, you can't drive."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.860000000000014,
+    "end": 32.27999999999997,
+    "text": "Just need a little more practice."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 32.31,
+    "end": 38.339999999999975,
+    "text": "What you need is cheat codes, motor skills and a magic genie who grants wishes to little boys who suck at Mario Kart."
+  },
+  {
+    "speaker": "penny",
+    "start": 42.110000000000014,
+    "end": 43.68000000000001,
+    "text": "Hey, Sheldon, can I talk to you for a second?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.93000000000001,
+    "end": 47.79000000000002,
+    "text": "It's not about shoes, is it? I don't think I could go through that again."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.839999999999975,
+    "end": 49.75999999999999,
+    "text": "It's not about shoes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.99000000000001,
+    "end": 50.64999999999998,
+    "text": "Then speak."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.52999999999997,
+    "end": 53.620000000000005,
+    "text": "Um, actually, can we do it in private?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 53.889999999999986,
+    "end": 60.370000000000005,
+    "text": "All right. Go away. I agree, it's rude, but she asked for privacy."
+  },
+  {
+    "speaker": "penny",
+    "start": 62.51999999999998,
+    "end": 69.38,
+    "text": "Thanks, Raj. Okay, so here's the thing, I was wondering if you could maybe teach me a little physics?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 70.29000000000002,
+    "end": 81.24000000000001,
+    "text": "A little physics? There's no such thing. Physics encompasses the entire universe, from quantum particles to supernovas, from spinning electrons to spinning galaxies."
+  },
+  {
+    "speaker": "penny",
+    "start": 81.63999999999999,
+    "end": 88.67000000000002,
+    "text": "Yeah, okay, cool. I don't need the PBS special, I just want to know enough so I can talk to Leonard about his job. You know, like Bernadette does."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 89.13,
+    "end": 96.98000000000002,
+    "text": "Why can't Leonard teach you? Can't you surprise him in some other way? For example, I'm sure he'd be delightfully taken aback if you cleaned your apartment."
+  },
+  {
+    "speaker": "penny",
+    "start": 90.56,
+    "end": 91.64999999999998,
+    "text": "Cause I want to surprise him."
+  },
+  {
+    "speaker": "penny",
+    "start": 97.08999999999997,
+    "end": 100.93,
+    "text": "Come on, Sheldon, this is important to me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 100.95999999999998,
+    "end": 105.19,
+    "text": "Penny, this would be a massive undertaking, and my time is both limited and valuable."
+  },
+  {
+    "speaker": "penny",
+    "start": 105.82999999999998,
+    "end": 108.00999999999999,
+    "text": "You're sitting here playing video games all day."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 109.36000000000001,
+    "end": 115.63,
+    "text": "Okay, point. What sort of foundation do you have? Did you take any science classes in school?"
+  },
+  {
+    "speaker": "penny",
+    "start": 115.91000000000003,
+    "end": 117.74000000000001,
+    "text": "Sure. I did the one with the frogs."
+  }
+]

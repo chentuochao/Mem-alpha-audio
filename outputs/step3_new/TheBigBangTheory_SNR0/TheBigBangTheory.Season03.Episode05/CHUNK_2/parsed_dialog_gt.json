@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.0,
+    "end": 0.6399999999999864,
+    "text": "Leonard, help."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.8599999999999568,
+    "end": 4.0,
+    "text": "Are you kidding? I couldn't even talk him into giving me one of his freakin' napkins."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.789999999999964,
+    "end": 10.789999999999964,
+    "text": "Wow, you really are a genius."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.939999999999998,
+    "end": 15.539999999999964,
+    "text": "Not really. I googled how to do that."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.129999999999995,
+    "end": 24.339999999999975,
+    "text": "So, listen, have you ever made a pact with someone?"
+  },
+  {
+    "speaker": "penny",
+    "start": 25.529999999999973,
+    "end": 26.839999999999975,
+    "text": "You mean, like a pinky swear?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.339999999999975,
+    "end": 29.799999999999955,
+    "text": "Okay, fine, like a pinky swear."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.289999999999964,
+    "end": 37.94,
+    "text": "Well, in the first grade, my friend Rosie and I made a pact to marry Bert and Ernie. You know, from Sesame Street?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.02999999999997,
+    "end": 39.44,
+    "text": "Yeah, I'm familiar with Bert and Ernie."
+  },
+  {
+    "speaker": "penny",
+    "start": 40.339999999999975,
+    "end": 44.299999999999955,
+    "text": "Then we found out we both wanted Ernie. We didn't speak again until middle school."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.75999999999999,
+    "end": 46.56999999999999,
+    "text": "Over puppets?"
+  },
+  {
+    "speaker": "penny",
+    "start": 46.809999999999945,
+    "end": 48.77999999999997,
+    "text": "The heart wants what the heart wants, Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 50.11999999999995,
+    "end": 50.45999999999998,
+    "text": "Okay."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.10999999999996,
+    "end": 60.039999999999964,
+    "text": "Speaking of what the heart wants, um, a long time ago, I made a pact with Wolowitz that kind of involves you."
+  }
+]

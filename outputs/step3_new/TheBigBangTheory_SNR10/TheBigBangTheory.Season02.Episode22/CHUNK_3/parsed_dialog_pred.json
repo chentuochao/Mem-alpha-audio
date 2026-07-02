@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 5.02,
+    "end": 16.51,
+    "text": "Do you have something? Sure. You know your friend Stuart? Well, he asked me out again, and I said yes, and then I started thinking maybe I should talk to you first. Well, does it bother you, me going out with one of your friends? You know, you and me."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 10.38,
+    "end": 11.7,
+    "text": "Yes. About what?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 16.51,
+    "end": 16.71,
+    "text": "No, no, that's the past. I'm really more of a right now kind of guy, you know, living in the moment."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 23.82,
+    "end": 24.02,
+    "text": "Although I do have to live a little in the future, because, well, that's my job, you know. Of course, my fondness for classic science fiction does draw my attention backwards, but those stories often take place in the future, so."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 36.9,
+    "end": 39.56,
+    "text": "In conclusion, no, it doesn't bother me."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.88,
+    "end": 43.35,
+    "text": "Okay, well, that's really cool of you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 43.35,
+    "end": 47.76,
+    "text": "Yeah, well, I wouldn't say cool, I'd just say, that's Leonard."
+  },
+  {
+    "speaker": "Penny",
+    "start": 48.2,
+    "end": 51.54,
+    "text": "Well, in that case, do you mind giving me some advice?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 51.54,
+    "end": 54.18,
+    "text": "About Stuart? Love to."
+  },
+  {
+    "speaker": "Penny",
+    "start": 54.18,
+    "end": 58.08,
+    "text": "He's very shy. How do I make him feel more comfortable around me?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 58.08,
+    "end": 67.26,
+    "text": "Well, first of all, don't underestimate the value of discomfort. Yeah, Stuart thrives under pressure. That's why he works at a comic book store."
+  },
+  {
+    "speaker": "Penny",
+    "start": 62.3,
+    "end": 63.35,
+    "text": "Really?"
+  }
+]

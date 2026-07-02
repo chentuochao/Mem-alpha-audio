@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "penny",
+    "start": 2.8900000000000317,
+    "end": 3.769999999999982,
+    "text": "It was a joke."
+  },
+  {
+    "speaker": "penny",
+    "start": 10.289999999999964,
+    "end": 12.620000000000005,
+    "text": "Yup, tip your waitresses, I' m here all week."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.090000000000032,
+    "end": 19.480000000000018,
+    "text": "Penny, just to save you from further awkwardness know that I' m perfectly comfortable with the two of us climbing the stairs in silence."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.549999999999955,
+    "end": 30.889999999999986,
+    "text": "Oh yeah, me too. Zip it, lock it. Put it in your pocket. So you and Leonard..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.99000000000001,
+    "end": 31.75999999999999,
+    "text": "Oh dear God!"
+  },
+  {
+    "speaker": "penny",
+    "start": 33.379999999999995,
+    "end": 34.49000000000001,
+    "text": "Little misunderstanding, huh."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.129999999999995,
+    "end": 39.02999999999997,
+    "text": "A little misunder... Galileo and the Pope had a little misunderstanding."
+  },
+  {
+    "speaker": "penny",
+    "start": 43.15999999999997,
+    "end": 49.91999999999996,
+    "text": "Anyway, I was talking to Leonard this morning and I think he feels really bad about it. Well how do you feel?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.889999999999986,
+    "end": 48.299999999999955,
+    "text": "Huh."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.70999999999992,
+    "end": 52.799999999999955,
+    "text": "I don't understand the question."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.02999999999997,
+    "end": 57.59000000000003,
+    "text": "Well I' m just asking if it's difficult to be fighting with your best friend."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.309999999999945,
+    "end": 66.26999999999998,
+    "text": "Oh. I hadn't thought about it like that. I wonder if I' ve been experiencing physiological manifestations of some sort of unconscious emotional turmoil."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.02999999999997,
+    "end": 68.15999999999997,
+    "text": "Wait... what?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.91999999999996,
+    "end": 70.02999999999997,
+    "text": "I couldn't poop this morning."
+  }
+]

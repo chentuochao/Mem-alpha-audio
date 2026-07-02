@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Nowitzki",
+    "start": 3.78,
+    "end": 7.87,
+    "text": "Cooper. Hi, Leonard. Where should I put this?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 5.2,
+    "end": 10.76,
+    "text": "Uh, hey, Ramona, come on in. Uh, the kitchen's fine. Hey, what are you doing?"
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 10.76,
+    "end": 12.14,
+    "text": "I need to see this."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.02,
+    "end": 22.32,
+    "text": "The viewing area's right over there. Sheldon, your girl, date person Ramona's here."
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 24.61,
+    "end": 28.49,
+    "text": "Oh, sorry I'm late. I just got so caught up reading the draft of your latest paper."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 28.29,
+    "end": 33.94,
+    "text": "Oh, hello. Did you enjoy the humorous footnote where I illustrate mirror symmetry by likening it to the Flash playing tennis with himself?"
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 33.94,
+    "end": 34.14,
+    "text": "So funny. But the idea that you might be able to incorporate gravity, I have to tell you, I found it physically exhilarating."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 43.84,
+    "end": 46.78,
+    "text": "My hypotheses tend to have that effect."
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 48.08,
+    "end": 53.12,
+    "text": "I'm sorry I didn't bring enough for your friends. I assumed we were going to be alone."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.18,
+    "end": 63.48,
+    "text": "Oh. Yeah, no, we were just going to watch, right? No, come on now, we're going out."
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 63.48,
+    "end": 65.15,
+    "text": "Oh, come on, we'll be quiet."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 66.37,
+    "end": 66.57000000000001,
+    "text": "Let's go. Okay, you two. Just have a nice, whatever this is."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 4.01,
+    "end": 8.81,
+    "text": "I drove, mother. I'm driving now."
+  },
+  {
+    "speaker": "Beverly",
+    "start": 8.610000000000001,
+    "end": 9.01,
+    "text": "It was so nice of you to come all the way down to the airport to pick me up. Yes, dear, mommy's proud. I've been meaning to thank you for your notes on my paper disproving quantum brain dynamic theory."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.93,
+    "end": 16.33,
+    "text": "No trouble at all. My pleasure. For a non-physicist, you have a remarkable grasp of how electric dipoles in the brain's water molecules could not possibly form a Bose-Compton state."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 25.4,
+    "end": 29.75,
+    "text": "Wait, wait, wait. When did you send my mom notes on a paper?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 29.75,
+    "end": 33.49,
+    "text": "August 16th. Right after a carpal tunnel surgery."
+  },
+  {
+    "speaker": "Beverly",
+    "start": 34.13,
+    "end": 38.12,
+    "text": "Oh, did I thank you for the flowers? I don't really like flowers."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 36.05,
+    "end": 40.15,
+    "text": "You did. Neither do I, but it's the social convention."
+  },
+  {
+    "speaker": "Beverly",
+    "start": 40.15,
+    "end": 41.41,
+    "text": "It is, isn't it?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 41.77,
+    "end": 44.07,
+    "text": "Wait, wait, wait. You had surgery?"
+  },
+  {
+    "speaker": "Beverly",
+    "start": 44.07,
+    "end": 48.99,
+    "text": "Yes, and Sheldon sent me flowers. Then what was all that wait, wait, wait about?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.71,
+    "end": 46.94,
+    "text": "I heard that."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 49.43,
+    "end": 53.66,
+    "text": "I just don't understand why he knows more about your life than I do."
+  },
+  {
+    "speaker": "Beverly",
+    "start": 53.66,
+    "end": 53.86,
+    "text": "Well, I would assume it's because Sheldon and I stay in touch due to mutual interest and respect while you avoid me due to unresolved childhood issues."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 61.27,
+    "end": 61.470000000000006,
+    "text": "It's what we think caused your narcissistic personality disorder. We discussed it at length during our last video chat. Although how we got onto the subject of you is baffling."
+  },
+  {
+    "speaker": "Beverly",
+    "start": 71.95,
+    "end": 77.71,
+    "text": "Yes, but we are on the subject, so I'm obliged to ask, Leonard, how are you?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 78.83,
+    "end": 80.7,
+    "text": "Fine, mom. How are you?"
+  },
+  {
+    "speaker": "Beverly",
+    "start": 80.7,
+    "end": 82.31,
+    "text": "Hm, menopausal."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 82.31,
+    "end": 84.57,
+    "text": "Now I'm less fine."
+  },
+  {
+    "speaker": "Beverly",
+    "start": 84.75,
+    "end": 87.26,
+    "text": "Have you heard your brother has gotten engaged?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 87.26,
+    "end": 90.52,
+    "text": "No. Sheldon, why didn't you tell me?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 90.52,
+    "end": 94.57,
+    "text": "My bad. I did send a gift from both of us."
+  },
+  {
+    "speaker": "Beverly",
+    "start": 94.59,
+    "end": 94.79,
+    "text": "She's a remarkable girl. The youngest appeals court judge in New Jersey and a two-time Olympic bronze medalist."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 101.07,
+    "end": 103.04,
+    "text": "You must be very happy."
+  },
+  {
+    "speaker": "Beverly",
+    "start": 103.04,
+    "end": 103.24000000000001,
+    "text": "Why, I'm not marrying her. So how about you? Are you seeing anyone interesting?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 109.05,
+    "end": 111.28,
+    "text": "Well, I'm not sure about interesting, but..."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 111.28,
+    "end": 112.89,
+    "text": "Not the kind, Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 112.89,
+    "end": 118.28,
+    "text": "Very well. Shall we switch topics to Isaac Newton v. Gottfried Leibniz?"
+  },
+  {
+    "speaker": "Beverly",
+    "start": 118.28,
+    "end": 118.48,
+    "text": "It's all right, Sheldon. I will just pretend that Leonard's not withholding information. Although I will point out, Leonard, that I am a trained psychiatrist and you are exhibiting the same secretive behavioral tics that accompanied your learning to math today."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 3.12,
+    "end": 7.44,
+    "text": "All right, there's no need to bark at me. According to the inexplicably irritable nurse behind the desk, you'll be seen after the man who claims to be having a heart attack but appears to be well enough to play Doodle Jump on his iPhone."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 18.02,
+    "end": 29.62,
+    "text": "We have to fill these out. Describe illness or injury. And how did the accident occur?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 29.42,
+    "end": 31.82,
+    "text": "I dislocated my shoulder. You already know that."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 31.82,
+    "end": 46.19,
+    "text": "Oh, it was an accident. Lack of adhesive ducts. Okay, medical history. Have you ever been diagnosed with diabetes? Getting dizzy? Migraines?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 42.81,
+    "end": 47.34,
+    "text": "No. No. Getting one."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 48.04,
+    "end": 52.3,
+    "text": "Are you currently pregnant? Are you sure? You look a bit puffy."
+  },
+  {
+    "speaker": "Penny",
+    "start": 54.42,
+    "end": 57.08,
+    "text": "Change migraine to yes."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.63,
+    "end": 63.15,
+    "text": "When was your last menstrual period? All good in progress?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 60.24,
+    "end": 61.66,
+    "text": "Oh, next question."
+  }
+]

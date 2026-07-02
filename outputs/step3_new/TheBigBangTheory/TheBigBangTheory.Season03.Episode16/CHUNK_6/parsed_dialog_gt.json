@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.919999999999959,
+    "text": "Maybe you should put on your Juicy pants again."
+  },
+  {
+    "speaker": "judge_j_kirby",
+    "start": 5.220000000000027,
+    "end": 9.110000000000014,
+    "text": "Pay the cashier. Sheldon Cooper?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.889999999999986,
+    "end": 18.299999999999955,
+    "text": "Good morning, Your Honour. Dr. Sheldon Cooper appearing in pro se. That is to say, representing himself."
+  },
+  {
+    "speaker": "judge_j_kirby",
+    "start": 18.629999999999995,
+    "end": 21.149999999999977,
+    "text": "I know what it means. I went to law school."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.340000000000032,
+    "end": 29.25,
+    "text": "And yet you wound up in traffic court. Anyway, if it would please the court, I'd like to begin with an opening statement."
+  },
+  {
+    "speaker": "judge_j_kirby",
+    "start": 29.319999999999936,
+    "end": 35.33000000000004,
+    "text": "The court would advise you to make it quick, as the court had a dicey-looking breakfast burrito this morning and just took an Imodium."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.14999999999998,
+    "end": 75.14999999999998,
+    "text": "Very well, a quick opening statement. Like a milking stool, my case rests on three legs. I will demonstrate that I was improperly instructed in driving by a woman whose lack of respect for society borders on the sociopathic. I will argue that the emergency met the legal doctrine of quod est necessarium est licitum, that which is necessary is legal. But first, I will raise a Sixth Amendment issue. I'm unable to confront my accuser, a non-human entity, to wit, a camera. So, to sum up, improper instruction, quod est necessarium est licitum, Sixth Amendment. My milk stool is complete."
+  },
+  {
+    "speaker": "judge_j_kirby",
+    "start": 76.21000000000004,
+    "end": 80.19999999999993,
+    "text": "Impressive. Guilty. Pay the cashier."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 77.14999999999998,
+    "end": 77.71000000000004,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.13999999999999,
+    "end": 83.49000000000001,
+    "text": "I object. You're completely ignoring the law."
+  },
+  {
+    "speaker": "judge_j_kirby",
+    "start": 83.62,
+    "end": 86.21000000000004,
+    "text": "No, I'm following the law. I'm ignoring you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 87.43999999999994,
+    "end": 93.25,
+    "text": "Really? I would point out that I am at the top of my profession, while you preside over the kiddy table of yours."
+  },
+  {
+    "speaker": "judge_j_kirby",
+    "start": 95.68999999999994,
+    "end": 102.01999999999998,
+    "text": "Dr. Cooper, before I find you in contempt and throw you in jail, I'm going to give you a chance to apologize for that last remark."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 102.44999999999993,
+    "end": 105.52999999999997,
+    "text": "I am a scientist. I never apologize for the truth."
+  }
+]

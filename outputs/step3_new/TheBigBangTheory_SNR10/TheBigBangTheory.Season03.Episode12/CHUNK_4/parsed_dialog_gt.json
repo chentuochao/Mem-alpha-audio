@@ -1,0 +1,146 @@
+[
+  {
+    "speaker": "abby",
+    "start": 0.0,
+    "end": 3.230000000000018,
+    "text": "Martha, come here. Meet Raj and Sheldon. This is my friend, Martha."
+  },
+  {
+    "speaker": "martha",
+    "start": 3.439999999999941,
+    "end": 7.809999999999945,
+    "text": "Hi. Is that the limited edition Green Lantern lantern?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 3.980000000000018,
+    "end": 4.039999999999964,
+    "text": "Hello."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 4.159999999999968,
+    "end": 4.3799999999999955,
+    "text": "Hello."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.669999999999959,
+    "end": 13.129999999999995,
+    "text": "In brightest day, in darkest night, no evil shall escape my sight."
+  },
+  {
+    "speaker": "martha",
+    "start": 16.519999999999982,
+    "end": 17.769999999999982,
+    "text": "Oh, that is so awesome."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.0,
+    "end": 22.049999999999955,
+    "text": "Thank you. Have you chosen one to copulate with?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 29.730000000000018,
+    "end": 31.889999999999986,
+    "text": "So, what should we talk about?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 39.569999999999936,
+    "end": 43.90999999999997,
+    "text": "Well, we could always learn more about why people who believe in psychics are idiots. Leonard?"
+  },
+  {
+    "speaker": "penny",
+    "start": 48.17999999999995,
+    "end": 51.84000000000003,
+    "text": "Oh, we don't need to talk about that anymore. Leonard covered it pretty well in the car."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.76999999999998,
+    "end": 55.40999999999997,
+    "text": "I'm sorry, but facts are facts."
+  },
+  {
+    "speaker": "penny",
+    "start": 55.47000000000003,
+    "end": 58.16999999999996,
+    "text": "Right, and if you can't understand it, it's not a fact."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.52999999999997,
+    "end": 61.5,
+    "text": "No, if it's not a fact, it's not a fact."
+  },
+  {
+    "speaker": "penny",
+    "start": 61.85000000000002,
+    "end": 63.68999999999994,
+    "text": "Oh, got it. Thank you for educating me."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 63.98000000000002,
+    "end": 67.83000000000004,
+    "text": "You're welcome. How's your fish?"
+  },
+  {
+    "speaker": "penny",
+    "start": 68.18999999999994,
+    "end": 72.44999999999993,
+    "text": "Amazing. Would you like to try some? Well, the fact is, you can't."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 70.23000000000002,
+    "end": 71.01999999999998,
+    "text": "Yeah, sure."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.36000000000001,
+    "end": 77.17999999999995,
+    "text": "Come on, Howard, Bernadette, you're both scientists. Help me out here."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 77.87,
+    "end": 81.47000000000003,
+    "text": "What do you think? Want to jump right into the middle of another couple's argument? Sorry."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 80.41999999999996,
+    "end": 80.89999999999998,
+    "text": "No, thank you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 84.17999999999995,
+    "end": 85.98000000000002,
+    "text": "Maybe we should just stop talking about this."
+  },
+  {
+    "speaker": "penny",
+    "start": 86.25,
+    "end": 88.38,
+    "text": "Maybe some of us should stop talking altogether."
+  },
+  {
+    "speaker": "waiter",
+    "start": 90.10000000000002,
+    "end": 91.15999999999997,
+    "text": "How is everything tonight?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 91.63,
+    "end": 92.37,
+    "text": "Really uncomfortable."
+  }
+]

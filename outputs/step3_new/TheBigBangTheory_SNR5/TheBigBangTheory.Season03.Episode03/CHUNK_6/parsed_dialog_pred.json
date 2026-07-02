@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 5.359999999999999,
+    "end": 8.6,
+    "text": "You're here a lot now. Thank you. Chocolate?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 8.860000000000001,
+    "end": 10.72,
+    "text": "Oh, am I talking too much? I'm sorry. Yes, please."
+  },
+  {
+    "speaker": "Penny",
+    "start": 16.12,
+    "end": 16.32,
+    "text": "Oh. Hey, Kim. Yeah, I, you know what, hold on, let me take this in the hall."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.55,
+    "end": 40.36,
+    "text": "I know what you're doing. Really?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 48.31,
+    "end": 52.93,
+    "text": "Very good. Chocolate?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 57.47,
+    "end": 62.17,
+    "text": "Yes. You're using chocolates as positive reinforcement for what you consider correct behavior. Hilden, you can't train my girlfriend like a lab rat."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 62.61,
+    "end": 65.13,
+    "text": "Actually, it turns out I can."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 65.63,
+    "end": 68.38,
+    "text": "Well, you shouldn't."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 68.38,
+    "end": 68.58,
+    "text": "There's just no pleasing you, is there, Leonard? You weren't happy with my previous approach to dealing with her, so I decided to employ operant conditioning techniques, building on the works of Thorndike and B.F. By this time next week, I believe I can have her jumping out of a pool, balancing a beach ball on her nose."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 85.06,
+    "end": 88.0,
+    "text": "No. This has to stop now."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 88.0,
+    "end": 88.2,
+    "text": "I'm not suggesting we really make her jump out of a pool. I thought the bazinga was implied. I'm just tweaking her personality. You're sanding off the rough edges, if you will."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 99.25,
+    "end": 101.37,
+    "text": "No, you're not sanding Penny."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 101.37,
+    "end": 101.57000000000001,
+    "text": "Are you saying that I am forbidden from applying a harmless, scientifically valid protocol that will make our lives better?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 109.29,
+    "end": 112.04,
+    "text": "Yes. You're forbidden."
+  }
+]

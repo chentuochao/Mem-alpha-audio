@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 10.38,
+    "end": 16.2,
+    "text": "Point of order. I move that any vote on team names must be unanimous. No man should be forced to emblazon his chest with a Bengal tiger when common sense dictates it should be an army ant. I will yield."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 10.38,
+    "end": 16.4,
+    "text": "Let's put it to a vote. All those in favor. Will the gentleman from the great state of denial yield for a question? After we go through the exercise of an annoying series of votes, all of which the gentleman will lose, does he then intend to threaten to quit if he does not get his way?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.24,
+    "end": 23.84,
+    "text": "He does."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 23.84,
+    "end": 26.34,
+    "text": "I move we are the army ants. All those in favor."
+  },
+  {
+    "speaker": "Penny",
+    "start": 39.12,
+    "end": 42.07,
+    "text": "Good afternoon, and welcome to today's physics bowl practice round. I'm Penny, and I'll be your host, because apparently I didn't have anything else to do on a Saturday afternoon, and isn't that just a little sad? Gentlemen, are you ready?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.07,
+    "end": 43.59,
+    "text": "Yes, of course, fire away."
+  },
+  {
+    "speaker": "Penny",
+    "start": 43.59,
+    "end": 48.02,
+    "text": "You know, it's none of my business, but isn't a guy who can't speak in front of women gonna hold you back a little?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 48.02,
+    "end": 53.66,
+    "text": "Oh, he'll be okay once the women are mixed into the crowd. He only has a problem when they're one-on-one and smell nice."
+  },
+  {
+    "speaker": "Penny",
+    "start": 53.84,
+    "end": 56.62,
+    "text": "Aw, thanks, Raj. It's vanilla oil."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 56.62,
+    "end": 59.75,
+    "text": "I was actually the one who noticed. Okay, let's just start."
+  },
+  {
+    "speaker": "Penny",
+    "start": 59.87,
+    "end": 60.07,
+    "text": "Okay, the first question is on the topic of optics. What is the shortest light pulse ever produced? Dr."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 66.81,
+    "end": 69.62,
+    "text": "And of course, the answer is 130 attoseconds."
+  },
+  {
+    "speaker": "Penny",
+    "start": 69.62,
+    "end": 70.31,
+    "text": "That is correct."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 70.31,
+    "end": 71.33,
+    "text": "I knew that too."
+  },
+  {
+    "speaker": "Penny",
+    "start": 71.85,
+    "end": 72.05,
+    "text": "Good for you, sweetie. Okay, next question. What is the quantum mechanical effect used to encode data on hard disk drives? Howard."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 80.61,
+    "end": 80.81,
+    "text": "And of course, the answer is giant magneto resistance. Hey, I buzzed in. And I answered, it's called teamwork."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 88.98,
+    "end": 89.18,
+    "text": "Don't you think I should answer the engineering questions? I am an engineer. By that logic, I should answer all the anthropology questions, because I'm a mammal."
+  }
+]

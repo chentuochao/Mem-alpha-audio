@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 3.1700000000000728,
+    "text": "Here. It's college-ruled. I hope that's not too intimidating."
+  },
+  {
+    "speaker": "penny",
+    "start": 4.720000000000027,
+    "end": 6.280000000000086,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 7.830000000000041,
+    "end": 55.379999999999995,
+    "text": "You're welcome. Now, Introduction to Physics. What is physics? Physics comes from the ancient Greek word physika. It's at this point that you'll want to start taking notes. Physika means the science of natural things. And it is there, in ancient Greece, that our story begins. Hush. If you have questions, raise your hand. It's a warm summer evening, circa 600 BC, you've finished your shopping at the local market, or agora, and you look up at the night sky. There you notice some of the stars seem to move, so you name them planetes, or wanderer."
+  },
+  {
+    "speaker": "penny",
+    "start": 30.840000000000032,
+    "end": 31.730000000000018,
+    "text": "Ancient Greece?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.08000000000004,
+    "end": 62.84000000000003,
+    "text": "Yes, Penny?"
+  },
+  {
+    "speaker": "penny",
+    "start": 63.31000000000006,
+    "end": 66.08000000000004,
+    "text": "Um, does this have anything to do with Leonard's work?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.41000000000008,
+    "end": 80.36000000000001,
+    "text": "This is the beginning of a twenty six hundred year journey we're going to take together from the ancient Greeks through Isaac Newton to Niels Bohr to Erwin Schrodinger to the Dutch researchers that Leonard is currently ripping off."
+  },
+  {
+    "speaker": "penny",
+    "start": 81.56000000000006,
+    "end": 84.2600000000001,
+    "text": "Twenty six hundred years?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 84.48000000000002,
+    "end": 91.22000000000003,
+    "text": "Yeah, give or take. As I was saying, it's a warm summer evening in ancient Greece... Yes, Penny?"
+  },
+  {
+    "speaker": "penny",
+    "start": 91.28000000000009,
+    "end": 92.20000000000005,
+    "text": "I have to go to the bathroom."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 93.30000000000007,
+    "end": 94.18000000000006,
+    "text": "Can't you hold it?"
+  },
+  {
+    "speaker": "penny",
+    "start": 94.32000000000005,
+    "end": 95.62,
+    "text": "Not for twenty six hundred years."
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 2.659999999999968,
+    "text": "That's probably enough about us, tell us about you."
+  },
+  {
+    "speaker": "penny",
+    "start": 3.269999999999982,
+    "end": 8.799999999999955,
+    "text": "Um, me, okay, I' m Sagittarius, which probably tells you way more than you need to know."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.879999999999995,
+    "end": 17.56000000000006,
+    "text": "Yes, it tells us that you participate in the mass cultural delusion that the Sun's apparent position relative to arbitrarily defined constellations and the time of your birth somehow effects your personality."
+  },
+  {
+    "speaker": "penny",
+    "start": 20.960000000000036,
+    "end": 21.75999999999999,
+    "text": "Participate in the what?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.610000000000014,
+    "end": 27.269999999999982,
+    "text": "I think what Sheldon's trying to say, is that Sagittarius wouldn't have been our first guess."
+  },
+  {
+    "speaker": "penny",
+    "start": 27.33000000000004,
+    "end": 36.440000000000055,
+    "text": "Oh, yeah, a lot of people think I' m a water sign. Okay, let's see, what else, oh, I' m a vegetarian, oh, except for fish, and the occasional steak, I love steak."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.15999999999997,
+    "end": 42.110000000000014,
+    "text": "That's interesting. Leonard can't process corn."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 46.190000000000055,
+    "end": 48.32000000000005,
+    "text": "Wu- uh, do you have some sort of a job?"
+  },
+  {
+    "speaker": "penny",
+    "start": 48.56000000000006,
+    "end": 50.98000000000002,
+    "text": "Oh, yeah, I' m a waitress at the Cheesecake Factory."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.460000000000036,
+    "end": 56.22000000000003,
+    "text": "Oh, okay. I love cheesecake. I don't eat it, I just think it's a good idea."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 53.389999999999986,
+    "end": 54.450000000000045,
+    "text": "You're lactose intolerant."
+  },
+  {
+    "speaker": "penny",
+    "start": 57.960000000000036,
+    "end": 66.51999999999998,
+    "text": "Oh, anyways, I' m also writing a screenplay. It's about this sensitive girl who comes to L.A from Lincoln Nebraska to be an actress, and winds up a waitress at the Cheesecake Factory."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 68.31000000000006,
+    "end": 69.86000000000001,
+    "text": "So it's based on your life?"
+  },
+  {
+    "speaker": "penny",
+    "start": 70.09000000000003,
+    "end": 70.95000000000005,
+    "text": "No, I' m from Omaha."
+  }
+]

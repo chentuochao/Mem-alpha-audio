@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 11.63,
+    "end": 15.72,
+    "text": "What's going on? Terrific, but that kind of raises more questions than it answers."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 16.41,
+    "end": 16.81,
+    "text": "I assume you're referring to the sea shanty. It's a rhythmic work song designed to increase productivity. Penny's making hair accessories. I'm helping her optimize her manufacturing process. Alright, break's over. Pay attention to orders. Now you want to know."
+  },
+  {
+    "speaker": "Howard",
+    "start": 24.97,
+    "end": 30.81,
+    "text": "What are you using as a bonding agent? You're kidding. Any of the cyanoacrylates would do a better job."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 26.97,
+    "end": 27.73,
+    "text": "Hot glue."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.81,
+    "end": 32.61,
+    "text": "It won't work. The flower's too porous."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 32.61,
+    "end": 37.31,
+    "text": "What if we infused the bottom layer with silicone RTV to provide a better mounting surface?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.31,
+    "end": 38.95,
+    "text": "Intriguing."
+  },
+  {
+    "speaker": "Howard",
+    "start": 39.44,
+    "end": 41.86,
+    "text": "Good question. What are your marketing and distribution channels?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 41.66,
+    "end": 44.52,
+    "text": "Yeah, it's crazy, but it totally works. Look, we made this penny blossom in under three minutes. Well, they're the waitresses at my work in this cute little shop in Old Town."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 44.52,
+    "end": 44.720000000000006,
+    "text": "Shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh, shh"
+  },
+  {
+    "speaker": "Howard",
+    "start": 51.61,
+    "end": 56.09,
+    "text": "Why not eliminate the middleman? We could install a small server farm with a static IP in her bedroom."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 56.09,
+    "end": 58.07,
+    "text": "She'll need some kind of industrial cooling system."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 58.07,
+    "end": 58.27,
+    "text": "Of course, but before we set up a marketing and distribution infrastructure, we should finish optimizing the manufacturing process. To start with, she has a terrible problem with moisture-induced glitter clump."
+  },
+  {
+    "speaker": "Penny",
+    "start": 69.23,
+    "end": 71.12,
+    "text": "Yeah, it's a bitch."
+  },
+  {
+    "speaker": "Howard",
+    "start": 73.03,
+    "end": 78.57,
+    "text": "Ah, I've seen this before. It's a common stripper problem."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 76.11,
+    "end": 76.97,
+    "text": "Where?"
+  }
+]

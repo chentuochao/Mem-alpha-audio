@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 22.6,
+    "end": 45.510000000000005,
+    "text": "Hey, Steph, it's me again, Howard. Listen, if you're free Friday, maybe we can have a little something to eat at my place. My mom cooks a hell of a brisket. Let me know. It's happening. Hey, it's me again. Just want to let you know the head count for dinner Friday has gone up. My aunt Betty and Uncle Elliot are coming in from Palm Springs."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 24.3,
+    "end": 27.0,
+    "text": "If I knew you were waiting, I would have swallowed that lasagna whole. I've had her brisket melt in your mouth."
+  },
+  {
+    "speaker": "Stephanie Barnett",
+    "start": 31.59,
+    "end": 34.58,
+    "text": "You've reached Dr. Stephanie Barnett. Leave a message. Maybe we should think about going to the bedroom."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 34.58,
+    "end": 38.85,
+    "text": "That's a good idea. There's a bed in there, and I'm very, very, very pro bed."
+  },
+  {
+    "speaker": "Stephanie Barnett",
+    "start": 41.25,
+    "end": 44.69,
+    "text": "This is Dr. Stephanie Barnett. Leave a message."
+  },
+  {
+    "speaker": "Howard",
+    "start": 56.62,
+    "end": 56.82,
+    "text": "Oh, and if anybody should ask, you're half Jewish on your mother's side. Okay, call me. It's Howard."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 66.19,
+    "end": 69.36,
+    "text": "Don't you think we should tell them you're not interested?"
+  },
+  {
+    "speaker": "Stephanie Barnett",
+    "start": 69.36,
+    "end": 72.8,
+    "text": "Do you want me to stop and call them back right now?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 72.8,
+    "end": 73.75,
+    "text": "Dear God, no."
+  }
+]

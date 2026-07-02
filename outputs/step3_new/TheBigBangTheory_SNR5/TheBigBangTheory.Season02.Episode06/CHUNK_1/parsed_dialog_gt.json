@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 14.790000000000006,
+    "text": "Any questions? Of course not. I weep for the future of science. Now if you'll excuse me, the latest issue of Batman is out. Come, Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.840000000000003,
+    "end": 22.22,
+    "text": "Laser demonstration's looking pretty good now, huh?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 44.91,
+    "end": 48.900000000000006,
+    "text": "I love this time of the year. The leaves are turning, there's a bracing chill in the air."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 49.26000000000002,
+    "end": 60.629999999999995,
+    "text": "Plus there's a whole new crop of female grad students about to put on just enough winter weight to make them needy and vulnerable. That's right, honey, have another calzone, Daddy can wait."
+  }
+]

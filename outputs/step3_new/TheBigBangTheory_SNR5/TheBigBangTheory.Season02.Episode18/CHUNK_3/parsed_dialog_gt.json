@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.0,
+    "text": "Oh, imagine that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.240000000000009,
+    "end": 2.6000000000000227,
+    "text": "Sarcasm. Good-bye."
+  },
+  {
+    "speaker": "penny",
+    "start": 2.980000000000018,
+    "end": 8.649999999999977,
+    "text": "No, sorry. Wait! Please come back! There. Done."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.75,
+    "end": 14.28000000000003,
+    "text": "All right."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.730000000000018,
+    "end": 39.03000000000003,
+    "text": "12 minutes and 17 seconds. That's 4.9 Penny Blossoms per hour. Based on your cost of materials and your wholesale selling price, you'll effectively be paying yourself...$5.19 a day."
+  },
+  {
+    "speaker": "penny",
+    "start": 29.44999999999999,
+    "end": 30.089999999999975,
+    "text": "Pretty good, right?"
+  },
+  {
+    "speaker": "penny",
+    "start": 39.629999999999995,
+    "end": 41.5,
+    "text": "A day?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 41.670000000000016,
+    "end": 44.39999999999998,
+    "text": "There are children in a sneaker factory in Indonesia who outearn you."
+  },
+  {
+    "speaker": "penny",
+    "start": 45.660000000000025,
+    "end": 49.81999999999999,
+    "text": "That just can't be right. No, sorry."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.44,
+    "end": 49.19,
+    "text": "You're questioning my math?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.55000000000001,
+    "end": 52.30000000000001,
+    "text": "Want me to show my work?"
+  },
+  {
+    "speaker": "penny",
+    "start": 52.329999999999984,
+    "end": 55.55000000000001,
+    "text": "Oh, God, no, no. Just please tell me what to do about it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 55.69999999999999,
+    "end": 62.06,
+    "text": "All right, are you familiar with the development that resulted from Honoré Blanc's 1778 use of interchangeable parts?"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 0.0,
+    "end": 6.2,
+    "text": "Stay low. Bare left. Now keep true. It means go straight."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 4.23,
+    "end": 8.26,
+    "text": "What? You just said go straight."
+  },
+  {
+    "speaker": "Howard",
+    "start": 8.26,
+    "end": 12.38,
+    "text": "I didn't say go straight when you're giving bearings, you say keep true."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 12.74,
+    "end": 20.0,
+    "text": "Alright. I just hit my head."
+  },
+  {
+    "speaker": "Howard",
+    "start": 20.0,
+    "end": 24.46,
+    "text": "Because you didn't keep true. Okay, turn right. The, the, the picture's breaking up. Angle your head to the right. Now a little more. A little more. That's it. Now just keep true."
+  },
+  {
+    "speaker": "Howard",
+    "start": 40.87,
+    "end": 41.07,
+    "text": "Alright, you're close enough to Sheldon's room. Deploy the sensor. Now turn it on."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 47.79,
+    "end": 52.73,
+    "text": "It wasn't on? Then why did I have to crawl?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 49.38,
+    "end": 50.35,
+    "text": "No."
+  },
+  {
+    "speaker": "Howard",
+    "start": 60.05,
+    "end": 63.49,
+    "text": "From this point forward, you will have to crawl."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 64.37,
+    "end": 65.85,
+    "text": "I know."
+  }
+]

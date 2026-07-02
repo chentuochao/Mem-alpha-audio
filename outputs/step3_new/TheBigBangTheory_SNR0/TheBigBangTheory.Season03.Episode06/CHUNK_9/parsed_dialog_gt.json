@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.9100000000000819,
+    "text": "Sheldon, come in."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.9400000000000546,
+    "end": 3.980000000000018,
+    "text": "Thank you. I'd like to make a sandwich, but I'm out of bread."
+  },
+  {
+    "speaker": "penny",
+    "start": 4.910000000000082,
+    "end": 7.240000000000009,
+    "text": "There's some in the fridge."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.170000000000073,
+    "end": 14.710000000000036,
+    "text": "You shouldn't keep your bread in the refrigerator. Staleness is caused by crystallization of the starch molecules, which occurs faster at cool temperatures."
+  },
+  {
+    "speaker": "penny",
+    "start": 15.190000000000055,
+    "end": 16.610000000000014,
+    "text": "On Earth, we say thank you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.270000000000095,
+    "end": 20.879999999999995,
+    "text": "So Leonard, how goes the mimesis?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 21.420000000000073,
+    "end": 21.82000000000005,
+    "text": "Mimesis?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.660000000000082,
+    "end": 32.680000000000064,
+    "text": "You know. Mimesis. An action in which the mimic takes on the properties of a specific object or organism. Mimesis."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.66000000000008,
+    "end": 36.22000000000003,
+    "text": "What the hell are you talking about?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.379999999999995,
+    "end": 53.92000000000007,
+    "text": "I'm attempting to communicate with you without my meaning becoming apparent to those around you. Let me try again. Have the indigenous fauna accepted you as one of their own? Nudge, nudge, wink, wink."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.91000000000008,
+    "end": 56.75,
+    "text": "Oh, I guess so."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.07000000000005,
+    "end": 65.93000000000006,
+    "text": "Good. Oh, FYI. After I eat my sandwich, I'm taking Koothrappali's Patang kite out for a test run. Would you like to get your delta-wing raptor and join me?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.13999999999999,
+    "end": 69.0200000000001,
+    "text": "I don't want to fly kites, Sheldon. We're watching football here."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.85000000000002,
+    "end": 76.63,
+    "text": "I can see that. I was providing you with an alternative. A courtesy I was never offered in similar circumstances."
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 6.24,
+    "end": 9.78,
+    "text": "Oh, sorry, I just, I've heard it before. I really should have brought my own car."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 11.360000000000001,
+    "end": 11.76,
+    "text": "Hey, nice suit. It's a classic, right? So, in conclusion, the data show that at temperatures approaching absolute zero, the moment of inertia changes, and the solid becomes a super solid, which clearly appears to be a previously unknown state of matter."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 25.98,
+    "end": 33.73,
+    "text": "Thank you. Are there any questions?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.529999999999994,
+    "end": 36.45,
+    "text": "Well, let's roll. Yeah. What the hell was that?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 38.21,
+    "end": 40.16,
+    "text": "Any other questions?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 40.16,
+    "end": 40.36,
+    "text": "Dr. Sheldon Cooper here. I am the lead author of this particular paper. Thank you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 48.77,
+    "end": 48.970000000000006,
+    "text": "You, sir. You have completely skipped over the part where I was walking through the park, and I saw these children on a merry-go-round, which started me thinking about the moment of inertia in gases like helium at temperatures approaching absolute zero."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 61.86,
+    "end": 64.56,
+    "text": "I didn't skip it. It's just an anecdote. It's not science."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 64.56,
+    "end": 73.75,
+    "text": "Oh, oh, I see. It was the apple falling on Newton's head. Was that just an anecdote? No, no, that's true. Gravity would have been apparent to me without the apple."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 69.11,
+    "end": 70.35,
+    "text": "You are not Isaac Newton."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 73.75,
+    "end": 76.0,
+    "text": "You could not possibly be that arrogant."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 76.0,
+    "end": 78.34,
+    "text": "You continue to underestimate me, my good man."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 78.34,
+    "end": 82.64,
+    "text": "Look, if you weren't happy with my presentation, then maybe you should have given it with me."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 82.64,
+    "end": 87.84,
+    "text": "As I've explained repeatedly, unlike you, I don't need validation from lesser minds. No offense."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 87.84,
+    "end": 92.22,
+    "text": "Really? So why did you come? I didn't screw it up."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 89.53,
+    "end": 97.33,
+    "text": "Because I knew you'd screw this up. Oh, please. I admit that spherical chicken joke, that was hilarious. But it was straight downhill from there."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 97.33,
+    "end": 97.53,
+    "text": "You know what? I've had enough of your condescension. Maybe I didn't go to college when I was eleven, like you. Maybe I got my doctorate at twenty-four instead of sixteen. But you are not the only person who is smarter than everyone else in this room. No offense."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 111.74,
+    "end": 111.94,
+    "text": "And I am clearly not the only person who is tormented by insecurity and has an ego in need of constant validation."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 118.24,
+    "end": 119.89,
+    "text": "So you admit you're an egotist?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 119.89,
+    "end": 120.09,
+    "text": "Yes! My name is Dr. Leonard Hofstadter, and I could never please my parents, so I need to get all my self-esteem from strangers like you. But he's worse!"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 128.64,
+    "end": 130.08,
+    "text": "Okay, that was it."
+  }
+]

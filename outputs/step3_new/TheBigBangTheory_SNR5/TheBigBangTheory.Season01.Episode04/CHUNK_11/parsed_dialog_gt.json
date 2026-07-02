@@ -1,0 +1,158 @@
+[
+  {
+    "speaker": "mary_cooper",
+    "start": 0.0,
+    "end": 0.9600000000000364,
+    "text": "Problem solved."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.0399999999999636,
+    "end": 4.019999999999982,
+    "text": "Really? That's impressive."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 4.349999999999909,
+    "end": 10.900000000000091,
+    "text": "Leonard, the Lord never gives us more than we can handle. Thankfully he blessed me with two other children who are dumb as soup."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 16.84999999999991,
+    "end": 21.410000000000082,
+    "text": "Excuse me, Dr Gablehouser, are you busy? Sheldon, he's just doodling, get in here."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 18.920000000000073,
+    "end": 19.65000000000009,
+    "text": "Well, actually..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 25.710000000000036,
+    "end": 26.519999999999982,
+    "text": "Dr Gablehouser."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 26.549999999999955,
+    "end": 27.289999999999964,
+    "text": "Dr Cooper."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 29.089999999999918,
+    "end": 30.470000000000027,
+    "text": "Let's go, baby, we're losing daylight."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.309999999999945,
+    "end": 48.34999999999991,
+    "text": "Um, as you know, several weeks ago in our first encounter we may have gotten off on the wrong foot, when I called you an idiot. And I just wanted to say that I was wrong. To point it out."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 51.88000000000011,
+    "end": 55.08999999999992,
+    "text": "I' m sorry, we haven't been introduced. Dr Eric Gablehouser."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 55.210000000000036,
+    "end": 56.82999999999993,
+    "text": "Mary Cooper, Sheldon's mom."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 57.039999999999964,
+    "end": 60.190000000000055,
+    "text": "Now that's impossible, you must have had him when you were a teenager."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 60.549999999999955,
+    "end": 62.62000000000012,
+    "text": "Oh, aren't you sweet, his father's dead."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 65.48000000000002,
+    "end": 66.01999999999998,
+    "text": "Recently?"
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 66.13000000000011,
+    "end": 66.6400000000001,
+    "text": "Long enough."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 68.55999999999995,
+    "end": 71.76999999999998,
+    "text": "Please. Sheldon, shouldn't you be working?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.99000000000001,
+    "end": 77.34999999999991,
+    "text": "Okay."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 82.55999999999995,
+    "end": 83.52999999999997,
+    "text": "Hey, how did it go?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 84.52999999999997,
+    "end": 85.70000000000005,
+    "text": "I got my job back."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 86.0,
+    "end": 87.17000000000007,
+    "text": "Really? What happened?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 88.15000000000009,
+    "end": 93.75,
+    "text": "I' m not quite sure. It involves a part of the human experience that has always eluded me."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 95.36000000000013,
+    "end": 96.38000000000011,
+    "text": "That narrows it down."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 101.21000000000004,
+    "end": 111.34999999999991,
+    "text": "I' m very proud of you honey, you showed a lot of courage today. Mmm- hmm?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 105.79999999999995,
+    "end": 106.16000000000008,
+    "text": "Thanks, mom. Mom?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 112.99000000000001,
+    "end": 115.21000000000004,
+    "text": "Is Dr Gablehouser going to be my new daddy?"
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 118.91000000000008,
+    "end": 121.25,
+    "text": "We'll see. Sleep tight."
+  }
+]

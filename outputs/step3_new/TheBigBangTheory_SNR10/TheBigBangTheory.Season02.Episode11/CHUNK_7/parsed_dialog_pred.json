@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 8.790000000000001,
+    "end": 14.68,
+    "text": "Oh, hey, Dave and Penny, what a surprise. Yeah, I know. I've been offering to show you around for a year and a half. You always said you had yoga."
+  },
+  {
+    "speaker": "Penny",
+    "start": 14.48,
+    "end": 16.36,
+    "text": "Hey, Leonard, Dave is just showing me around the university. You know, this place is unbelievable. I never said that."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 16.36,
+    "end": 20.12,
+    "text": "Maybe I heard you wrong. A lot of words sound like yoga."
+  },
+  {
+    "speaker": "Dave",
+    "start": 20.54,
+    "end": 20.939999999999998,
+    "text": "Hey, Leonard, come join us. That's an amazing woman, Leonard. She has a curious and agile mind, not to mention being curious and agile in other respects."
+  },
+  {
+    "speaker": "Penny",
+    "start": 27.84,
+    "end": 29.59,
+    "text": "Shut up."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 29.59,
+    "end": 33.1,
+    "text": "Yes, please shut up. So, um, Dave, don't you think you and I should get back to the lab? You know, that dark matter isn't gonna detect itself, you know."
+  },
+  {
+    "speaker": "Dave",
+    "start": 42.88,
+    "end": 47.3,
+    "text": "Actually, I was thinking about taking the afternoon off so I could work on another experiment with Penny."
+  },
+  {
+    "speaker": "Penny",
+    "start": 47.3,
+    "end": 49.24,
+    "text": "Really? We're, we're gonna do an experiment?"
+  },
+  {
+    "speaker": "Dave",
+    "start": 49.24,
+    "end": 53.66,
+    "text": "Uh-huh. We're gonna explore the effects of tequila shots on a gorgeous 22-year-old woman."
+  },
+  {
+    "speaker": "Penny",
+    "start": 53.66,
+    "end": 57.0,
+    "text": "That's not an experiment. You saw what happened last night."
+  },
+  {
+    "speaker": "Dave",
+    "start": 58.35,
+    "end": 60.04,
+    "text": "You ready to go?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 60.04,
+    "end": 61.68,
+    "text": "Oh, can I drive the motorcycle?"
+  },
+  {
+    "speaker": "Dave",
+    "start": 61.68,
+    "end": 63.94,
+    "text": "Yeah, why not? Can't do any worse than Leonard."
+  },
+  {
+    "speaker": "Penny",
+    "start": 63.94,
+    "end": 65.52,
+    "text": "Oh, my God."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 65.52,
+    "end": 71.95,
+    "text": "That's good, that's funny. By the way, my leg is killing me. Thanks for asking."
+  }
+]

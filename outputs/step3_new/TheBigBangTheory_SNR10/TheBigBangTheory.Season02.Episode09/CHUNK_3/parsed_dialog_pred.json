@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 11.84,
+    "end": 20.71,
+    "text": "Well, Stephanie, since Leonard seems to be dropping the conversational ball, I guess I'll just have to pick it up. Have you ever witnessed a violent crime? What's your favorite fruit?"
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 20.51,
+    "end": 23.35,
+    "text": "No. Uh, strawberries."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.35,
+    "end": 29.75,
+    "text": "Technically not a fruit, but alright. Where did you do your medical internship?"
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 29.75,
+    "end": 32.01,
+    "text": "At Lawrence Memorial in Galveston, Texas."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.01,
+    "end": 34.44,
+    "text": "Really? That's where I was born."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 35.96,
+    "end": 37.61,
+    "text": "You're kidding."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.61,
+    "end": 37.81,
+    "text": "I did so much of my childhood at that hospital. When I was twelve, I got to ride there in a helicopter."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 44.0,
+    "end": 45.74,
+    "text": "What, what, what happened?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 45.74,
+    "end": 50.66,
+    "text": "Radiation burns. A little mishap while I was building my own CAT scanner."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 50.66,
+    "end": 53.95,
+    "text": "I'm sorry. You tried to build your own CAT scanner."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 53.95,
+    "end": 54.150000000000006,
+    "text": "No, I didn't try. I succeeded. In fact, I was briefly able to see the inside of my sister's guinea pig, Snowball, before he caught fire. It led to an interesting expression in our house. Not a snowball's chance in a CAT scanner."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 68.35,
+    "end": 70.59,
+    "text": "Uh, Sheldon?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 71.17,
+    "end": 71.37,
+    "text": "Excuse me. When I come back, just for fun, the subject will be alternative history. Specifically, how would the Civil War have gone differently if Lincoln had been a robot sent from the future?"
+  }
+]

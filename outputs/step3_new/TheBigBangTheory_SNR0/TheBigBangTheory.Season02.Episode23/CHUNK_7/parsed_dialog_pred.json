@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 8.66,
+    "end": 11.02,
+    "text": "To begin with, you will remove funny bone for two hundred dollars. And begin."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 24.66,
+    "end": 33.63,
+    "text": "I think I swallowed some big... I can't press any of the buttons with my gloves. Oh, son of a bitch! Okay, I can't do this."
+  },
+  {
+    "speaker": "Raj",
+    "start": 24.92,
+    "end": 25.32,
+    "text": "For this, I went to MIT. Adversity is to be expected. Continue. Boy, am I gonna get sued."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.63,
+    "end": 33.830000000000005,
+    "text": "Me either. Gentlemen, use your imagination. Innovate. Did Han Solo let Luke Skywalker freeze to death on the ice planet of Hoth? No. He cut open a tauntaun and used its internal body heat to warm him up."
+  },
+  {
+    "speaker": "Raj",
+    "start": 47.17,
+    "end": 49.91,
+    "text": "You heard the man. Hold him down and I'll cut him open."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 49.91,
+    "end": 50.11,
+    "text": "Hang on. I know I don't possess the tools of leadership, but I don't understand why we can't assemble the equipment inside the hut and then take it outside."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 59.06,
+    "end": 60.64,
+    "text": "I hadn't thought of that."
+  }
+]

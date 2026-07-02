@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.4799999999999898,
+    "text": "I'm not accepting the award."
+  },
+  {
+    "speaker": "penny",
+    "start": 1.5999999999999943,
+    "end": 1.9299999999999784,
+    "text": "Why not?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 2.3499999999999943,
+    "end": 5.469999999999999,
+    "text": "Turns out the great Sheldon Cooper has stage fright."
+  },
+  {
+    "speaker": "penny",
+    "start": 5.609999999999985,
+    "end": 20.92999999999998,
+    "text": "That's no reason to back out. You know, I once got a pretty big honour in high school, and I was terrified about appearing in front of a big crowd, but I went through with it, and you know what? The world looked pretty darn good sitting on a haystack in the back of a Ford F-150 as a member of the Corn Queen's court."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.73999999999998,
+    "end": 27.649999999999977,
+    "text": "Thank you. Yeah, I'll bear that in mind if I'm ever nominated for the Hillbilly Peace Prize."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 30.849999999999994,
+    "end": 32.400000000000006,
+    "text": "Sheldon, you're being ridiculous."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.619999999999976,
+    "end": 35.069999999999965,
+    "text": "Am I? Let me tell you a story."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 35.28,
+    "end": 37.08000000000001,
+    "text": "Where's 70 children when you need'em?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.47,
+    "end": 46.21000000000001,
+    "text": "I was 14 and graduating summa cum laude from college. Summa cum laude is Latin for with highest honours."
+  },
+  {
+    "speaker": "penny",
+    "start": 46.859999999999985,
+    "end": 49.49999999999997,
+    "text": "I just love how you always skip over the part where no one asks."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.66,
+    "end": 68.33000000000001,
+    "text": "I was valedictorian and expected to give an address. Even now, I can remember that moment when I walked up to the podium and looked out at the crowd. There must have been thousands of people. My heart started pounding in my chest. I began to hyperventilate. My vision became blurry, and before I knew it... oh, dear."
+  },
+  {
+    "speaker": "penny",
+    "start": 69.20000000000002,
+    "end": 70.49999999999997,
+    "text": "Oh, my God."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 71.36999999999998,
+    "end": 73.08000000000001,
+    "text": "Sheldon? Sheldon, are you okay?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 73.66999999999999,
+    "end": 74.83000000000001,
+    "text": "Don't trample me."
+  }
+]

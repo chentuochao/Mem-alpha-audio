@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.0,
+    "end": 2.5500000000000114,
+    "text": "Isn't there a university policy against dating graduate students?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.670000000000016,
+    "end": 4.490000000000009,
+    "text": "No, if you can talk to them, you can ask them out."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 5.1299999999999955,
+    "end": 6.210000000000008,
+    "text": "Damn, there's always a catch."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 8.060000000000002,
+    "end": 12.420000000000016,
+    "text": "Hey, guys. So, dumbass, I heard you made a grad student throw up last night."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 8.920000000000016,
+    "end": 9.289999999999992,
+    "text": "Hey, Leslie."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.099999999999994,
+    "end": 21.360000000000014,
+    "text": "The truth can indeed be a finger down the throat of those unprepared to hear it. But why should I cater to second-rate minds?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 21.72,
+    "end": 23.75,
+    "text": "Because first-rate minds call you\" dumbass\"?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.810000000000002,
+    "end": 29.860000000000014,
+    "text": "Oh, yeah? Well... you're a mean person."
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season02.Episode06",
+    "start": 31.75999999999999,
+    "end": 37.49000000000001,
+    "text": "Excuse me, Dr. Cooper, I'm Ramona Nowitzki, I was at your talk last night. I think you're just brilliant."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.70000000000002,
+    "end": 38.879999999999995,
+    "text": "That is the prevailing opinion."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 40.03999999999999,
+    "end": 42.16,
+    "text": "Oh, now I'm gonna throw up."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 43.360000000000014,
+    "end": 49.25,
+    "text": "Howard Wolowitz, department of engineering, co-designer of the International Space Station's Liquid Waste Disposal System."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 53.150000000000006,
+    "end": 66.96000000000001,
+    "text": "Ew. Dr. Cooper, I've read everything you've published. I especially liked your paper on grand unification using string-network condensates and was wondering how you determined that three-dimensional string-nets provided a unified picture of fermions and gauge bosons?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.45000000000002,
+    "end": 70.85,
+    "text": "Amazing, an intelligent labradoodle."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 73.43,
+    "end": 73.78,
+    "text": "Woof."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.36000000000001,
+    "end": 81.00999999999999,
+    "text": "The fact is I'm quite close to a breakthrough in showing how neutrinos emerge from a string-net condensate."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 81.03999999999999,
+    "end": 84.23000000000002,
+    "text": "Oh, my God, that would change the way we view the entire physical universe."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 84.56,
+    "end": 85.46000000000001,
+    "text": "It's what I do."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 87.13,
+    "end": 91.89999999999998,
+    "text": "You know, the Pishkin-Wolowitz Liquid Waste Disposal System is turning a few heads as well."
+  }
+]

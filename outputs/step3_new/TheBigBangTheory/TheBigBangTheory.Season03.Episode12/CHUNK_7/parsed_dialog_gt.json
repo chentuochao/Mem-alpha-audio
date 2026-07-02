@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.7400000000000091,
+    "text": "What is that?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.7999999999999545,
+    "end": 4.980000000000018,
+    "text": "Your new girlfriend. Have fun tonight."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 7.759999999999991,
+    "end": 27.459999999999923,
+    "text": "The dog... koira. The roof... katto. Grapes... ryp leet. One minute.Sis."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 33.65999999999997,
+    "end": 34.289999999999964,
+    "text": "What was that?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.620000000000005,
+    "end": 42.48000000000002,
+    "text": "It means come in. It's taking forever to load the new operating system on my computer. I disinfected the kitchen and the bathroom, and now I thought I'd learn Finnish."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 45.559999999999945,
+    "end": 56.51999999999998,
+    "text": "जो भी तुम्हारे नाव मंगाई. That's Hindi for whatever floats your boat. Uh, listen, I got a text from that girl Abby, and she and her friend Martha want to hang out with us again. What do you say?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.18999999999994,
+    "end": 61.67999999999995,
+    "text": "I don't say anything. I merely offer you a facial expression that suggests you've gone insane."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 64.30999999999995,
+    "end": 65.85000000000002,
+    "text": "I don't get it. You had a great time."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.19999999999993,
+    "end": 73.04999999999995,
+    "text": "Yes, exactly, I had a great time. That's done, I've moved on to other things. For example, after I learn Finnish, I'm not going to learn Finnish again."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 74.24000000000001,
+    "end": 82.58999999999992,
+    "text": "Please, Sheldon, I'm a lost Indian boy far from home, and I want a girlfriend and I want her to be Abby, and she'll only come over if she can bring Martha."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 82.87,
+    "end": 96.81999999999994,
+    "text": "Raj, I highly doubt there is any argument you can make, threat you might levy, rhetorical strategy, plea, invocation, supplication, or... vetoomus that you can employ that would convince me to reconsider."
+  }
+]

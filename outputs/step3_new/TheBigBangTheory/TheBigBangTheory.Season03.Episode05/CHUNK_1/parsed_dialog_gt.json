@@ -1,0 +1,176 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.0800000000000125,
+    "text": "Oh, damn it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.159999999999997,
+    "end": 6.510000000000019,
+    "text": "Can"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.27000000000001,
+    "end": 16.650000000000006,
+    "text": "I have a napkin?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.700000000000017,
+    "end": 18.710000000000008,
+    "text": "I'm sorry, no."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.140000000000015,
+    "end": 21.950000000000017,
+    "text": "But you have a whole bunch of'em."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.189999999999998,
+    "end": 41.349999999999994,
+    "text": "Yes, I've moved to a four-napkin system. Lap, hands, face and personal emergencies. If you like, starting tomorrow, I'll add a guest napkin, but I'm afraid there's nothing I can do for you today. Good luck. That's the face napkin."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 43.620000000000005,
+    "end": 45.21000000000001,
+    "text": "So, have you talked to Penny yet?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.51000000000002,
+    "end": 54.849999999999994,
+    "text": "No, I haven't. Because I've been busy, because I haven't figured out a way to bring it up, and mostly, and I can't stress how key this is, because I don't want to."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 46.72,
+    "end": 47.360000000000014,
+    "text": "Why not?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 56.129999999999995,
+    "end": 59.110000000000014,
+    "text": "Leonard, a pact is a pact. You have to get Penny to fix me up."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 59.30000000000001,
+    "end": 63.31,
+    "text": "It's not that simple. What am I supposed to say? Penny, do you have any friends you'd like to never hear from again?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 65.23000000000002,
+    "end": 69.50000000000003,
+    "text": "Come on, I'm smart, I have good job and I have only three percent body fat."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 70.82000000000002,
+    "end": 73.32000000000002,
+    "text": "It's true. I've seen him at the beach, he's like a human chicken wing."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 75.39000000000001,
+    "end": 76.17999999999998,
+    "text": "Leonard, come on."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.85,
+    "end": 78.95000000000002,
+    "text": "Fine. I'll ask if she has a friend for you."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 79.09,
+    "end": 84.08000000000001,
+    "text": "A hot friend. And tall. I want our kids to be able to ride space mountain before they're 20."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 80.66,
+    "end": 81.04999999999998,
+    "text": "Right."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 86.21000000000001,
+    "end": 87.17999999999998,
+    "text": "I'll see what I can do."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 88.75000000000003,
+    "end": 89.82000000000002,
+    "text": "Hey, Sheldon, guess what I heard today?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 90.35,
+    "end": 101.03999999999999,
+    "text": "I'd imagine you heard any number of things today. When you arrived at work you undoubtedly heard, hello, Raj, how are you, Raj? Given that you're wearing a new sweater-vest, you may have heard new sweater-vest? And possibly, though far less likely, nice sweater-vest."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 103.4,
+    "end": 105.41,
+    "text": "Why don't I just tell you what I heard today."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 105.69000000000003,
+    "end": 106.98999999999998,
+    "text": "That would probably save us some time."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 108.59,
+    "end": 115.78999999999999,
+    "text": "Saturday night at the comic book store, they're having a Mystic Warlords of Ka-ah tournament. First prize is five hundred dollars. If we team up, we'd be unstoppable."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 116.1,
+    "end": 120.15,
+    "text": "I'm sorry, Raj, but I have no interest in playing a game in which I find no challenge."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 120.41999999999999,
+    "end": 124.04999999999998,
+    "text": "What about the money? But this is other money."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 121.67999999999998,
+    "end": 122.48999999999998,
+    "text": "I have money."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 124.65,
+    "end": 126.27000000000001,
+    "text": "How does it different from the money I have?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 127.34,
+    "end": 128.4,
+    "text": "Half of it will be mine."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 129.12000000000003,
+    "end": 131.28,
+    "text": "Do you need it to buy a less disturbing sweater-vest?"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.7699999999999818,
+    "text": "Okay, now I see the giant squid head."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 9.069999999999936,
+    "end": 12.269999999999982,
+    "text": "Oh, great! now, I have to start all over again."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 14.100000000000023,
+    "end": 19.539999999999964,
+    "text": "Yeah, I thought about renting this apartment, but I'm really more of a downtown loft kind of guy."
+  },
+  {
+    "speaker": "alicia",
+    "start": 20.659999999999968,
+    "end": 22.120000000000005,
+    "text": "Cool. so are you in a loft now?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 22.450000000000045,
+    "end": 27.639999999999986,
+    "text": "Oh, actually I'm, uh, living with a woman in Altadena. Purely platonic, she's also my maid."
+  },
+  {
+    "speaker": "alicia",
+    "start": 29.399999999999977,
+    "end": 30.279999999999973,
+    "text": "Sounds like a sweet deal."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 30.659999999999968,
+    "end": 31.92999999999995,
+    "text": "I won't lie, it's pretty dope."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.069999999999936,
+    "end": 40.52999999999997,
+    "text": "Hello? Hey, I just wanted to bring you a little housewarming gift."
+  },
+  {
+    "speaker": "alicia",
+    "start": 34.789999999999964,
+    "end": 35.92999999999995,
+    "text": "Oh, hey."
+  },
+  {
+    "speaker": "alicia",
+    "start": 40.74000000000001,
+    "end": 45.039999999999964,
+    "text": "That is so sweet. Come on in, let's open it. Nice dress."
+  },
+  {
+    "speaker": "penny",
+    "start": 43.43999999999994,
+    "end": 47.200000000000045,
+    "text": "Great. Oh, this? I'm dressed like a slob today."
+  },
+  {
+    "speaker": "alicia",
+    "start": 50.17999999999995,
+    "end": 54.99000000000001,
+    "text": "The guys have been helping me set up my sound system. I've never had such good-looking technical support."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 56.15999999999997,
+    "end": 65.72000000000003,
+    "text": "Oh, pish-posh. I don't know, it means shucks. Shucks means shucks. Let one go once in a while."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.06999999999994,
+    "end": 72.41999999999996,
+    "text": "Hey, uh, penny, you want to hear something awesome? Alicia is an actress, just like you."
+  },
+  {
+    "speaker": "penny",
+    "start": 69.74000000000001,
+    "end": 69.98000000000002,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "penny",
+    "start": 73.38999999999999,
+    "end": 74.51999999999998,
+    "text": "That is so awesome."
+  },
+  {
+    "speaker": "alicia",
+    "start": 76.56999999999994,
+    "end": 85.0,
+    "text": "Well, trying to be, but it's so hard. I've been out here three months, and all I've gotten is a couple of national commercials and this recurring thing on a soap."
+  },
+  {
+    "speaker": "penny",
+    "start": 78.74000000000001,
+    "end": 79.80999999999995,
+    "text": "Yeah, I know, tell me about it."
+  },
+  {
+    "speaker": "penny",
+    "start": 87.99000000000001,
+    "end": 90.70000000000005,
+    "text": "That's why I work at the Cheesecake Factory, I'm holding out for the right part."
+  }
+]

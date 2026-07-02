@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 3.8,
+    "end": 5.85,
+    "text": "Excuse me. Excuse me, jailer. I need to use the restroom."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 5.6499999999999995,
+    "end": 7.48,
+    "text": "What? Knock yourself out."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 10.82,
+    "end": 12.5,
+    "text": "That's the toilet?"
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 12.5,
+    "end": 14.52,
+    "text": "Well, it ain't wishing well."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.74,
+    "end": 18.58,
+    "text": "Please tell the judge I'm ready to apologize."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 20.74,
+    "end": 20.939999999999998,
+    "text": "Look at that. To my friend Leonard from Stan Lee Excelsior."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 28.48,
+    "end": 28.68,
+    "text": "Awesome. Mine says to my friend Howard from Stan Lee Excelsior."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 35.38,
+    "end": 39.4,
+    "text": "Mine says to Raj from Stan Lee."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.54,
+    "end": 45.99,
+    "text": "It's because you pissed him off about his character names."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 45.99,
+    "end": 46.190000000000005,
+    "text": "Hey, I didn't even mention Dum Dum Dugan, Green Goblin, Matt Murdock, Pepper Potts, Victor Von Doom, oh, and worst of all, Millie the Model."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 58.67,
+    "end": 60.55,
+    "text": "Oh, hey, buddy, how'd it go?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 60.55,
+    "end": 62.26,
+    "text": "You know very well how it went."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 62.26,
+    "end": 64.67,
+    "text": "Yeah, but we all want to hear it from you."
+  }
+]

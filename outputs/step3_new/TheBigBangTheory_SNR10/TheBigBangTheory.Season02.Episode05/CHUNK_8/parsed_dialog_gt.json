@@ -1,0 +1,140 @@
+[
+  {
+    "speaker": "dmv_lady#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 0.0,
+    "end": 1.7799999999999727,
+    "text": "Here's your learner's permit. Go away."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.990000000000009,
+    "end": 7.289999999999964,
+    "text": "But I'm not done. I have many additional concerns about these questions."
+  },
+  {
+    "speaker": "dmv_lady#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 7.319999999999936,
+    "end": 8.519999999999982,
+    "text": "Don't make me climb over this counter."
+  },
+  {
+    "speaker": "penny",
+    "start": 16.889999999999986,
+    "end": 18.139999999999986,
+    "text": "Come on, let's go."
+  },
+  {
+    "speaker": "dmv_lady#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 18.159999999999968,
+    "end": 18.16999999999996,
+    "text": "Next!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.199999999999932,
+    "end": 18.220000000000027,
+    "text": "Aced it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 18.24000000000001,
+    "end": 21.74000000000001,
+    "text": "Okay, that's it, let's boot it up."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 21.93999999999994,
+    "end": 22.43999999999994,
+    "text": "Booting."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 23.879999999999995,
+    "end": 28.149999999999977,
+    "text": "This is a state-of-the-art simulator. I adapted it from something a friend of mine designed for the army."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 28.50999999999999,
+    "end": 31.899999999999977,
+    "text": "Is that why I appear to be in downtown Fallujah, behind the wheel of an up-armored Humvee?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 33.5,
+    "end": 36.67999999999995,
+    "text": "I haven't configured it yet. Let's see..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.82999999999993,
+    "end": 40.97000000000003,
+    "text": "Ooh!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.20999999999992,
+    "end": 41.74000000000001,
+    "text": "No."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 43.370000000000005,
+    "end": 47.42999999999995,
+    "text": "Here we go, red 2006 Ford Taurus on the streets of Pasadena."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.93999999999994,
+    "end": 48.68999999999994,
+    "text": "Hmmmm?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 49.70999999999992,
+    "end": 50.07999999999993,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.309999999999945,
+    "end": 55.49000000000001,
+    "text": "Statistically, red cars are stopped by police far more often than any other colour. I don't want any hassles with the fuzz."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 57.68999999999994,
+    "end": 59.49000000000001,
+    "text": "Fine, what colour do you want?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.860000000000014,
+    "end": 66.60000000000002,
+    "text": "You know the pale blue of Luke Skywalker's lightsaber, before it was digitally remastered?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 69.42999999999995,
+    "end": 70.26999999999998,
+    "text": "Black it is."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.59000000000003,
+    "end": 76.37,
+    "text": "Okay, now, what you want to do first is turn on the ignition and shift into drive."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.56999999999994,
+    "end": 78.25999999999999,
+    "text": "I haven't fastened my seat belt yet."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 80.93999999999994,
+    "end": 82.32999999999993,
+    "text": "Okay, fasten your seat belt."
+  }
+]

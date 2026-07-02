@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 6.960000000000036,
+    "text": "Oh, alright. I will give you my bed on one condition. That you promise to zip your hole for the next eight hours."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.029999999999973,
+    "end": 9.389999999999986,
+    "text": "May I say one last thing."
+  },
+  {
+    "speaker": "penny",
+    "start": 9.450000000000045,
+    "end": 10.82000000000005,
+    "text": "Only if it doesn't rhyme."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.200000000000045,
+    "end": 18.800000000000068,
+    "text": "Alright. Goodnight."
+  },
+  {
+    "speaker": "mikayla",
+    "start": 23.04000000000001,
+    "end": 33.32999999999993,
+    "text": "Turn ons. Let me see. Reading a good book in front of the fire. Long walks on the beach. Getting freaky on the Sabbath with a bacon cheeseburger."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 35.26999999999998,
+    "end": 38.180000000000064,
+    "text": "Really, me too."
+  },
+  {
+    "speaker": "mikayla",
+    "start": 40.11000000000013,
+    "end": 43.99000000000001,
+    "text": "Oy gevalt, you're hot."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 45.930000000000064,
+    "end": 48.960000000000036,
+    "text": "Yeah. Excuse me for a moment."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.5,
+    "end": 54.309999999999945,
+    "text": "Hey, how's it going."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 54.440000000000055,
+    "end": 59.799999999999955,
+    "text": "Cut the crap, you set this up, didn't you? She's a hooker, isn't she."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 57.960000000000036,
+    "end": 58.38000000000011,
+    "text": "Yes."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 60.97000000000003,
+    "end": 62.11000000000013,
+    "text": "A prostitute, yes."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 64.3900000000001,
+    "end": 65.35000000000014,
+    "text": "You already gave her the money?"
+  }
+]

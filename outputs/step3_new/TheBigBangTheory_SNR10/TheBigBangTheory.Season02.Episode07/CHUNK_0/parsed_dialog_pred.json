@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "Raj",
+    "start": 7.96,
+    "end": 11.12,
+    "text": "Pach, yeah. Puchpa."
+  },
+  {
+    "speaker": "Howard",
+    "start": 8.98,
+    "end": 16.43,
+    "text": "Got it. Got it. Got it. I have chor. Nechmach. And kreplach."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 13.39,
+    "end": 14.22,
+    "text": "Okay, I have pach. Got it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 16.23,
+    "end": 17.81,
+    "text": "Time. Alright, Klingons, pencils down. Hold on a second."
+  },
+  {
+    "speaker": "Raj",
+    "start": 17.81,
+    "end": 18.8,
+    "text": "Kreplach?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 18.8,
+    "end": 19.0,
+    "text": "Isn't Klingon, it's Yiddish for meat-filled dumpling. Well, as it turns out, it's also a Klingon word."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 25.2,
+    "end": 26.77,
+    "text": "Really? Define it."
+  },
+  {
+    "speaker": "Howard",
+    "start": 26.77,
+    "end": 30.46,
+    "text": "Kreplach, a hearty Klingon. Dumpling."
+  },
+  {
+    "speaker": "Raj",
+    "start": 31.12,
+    "end": 32.51,
+    "text": "Judge's ruling."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.51,
+    "end": 34.36,
+    "text": "Beler be."
+  },
+  {
+    "speaker": "Penny",
+    "start": 35.3,
+    "end": 41.3,
+    "text": "Hey guys, I need to use your TV. I don't know, it just died. I'm getting a bunch of static."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.44,
+    "end": 38.91,
+    "text": "What's wrong with your TV?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 41.3,
+    "end": 42.97,
+    "text": "Did you pay your cable bill?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 42.97,
+    "end": 43.17,
+    "text": "It's not just like the cable company. Alright, so, shh, Tyra Banks is about to kick someone off America's Next Top Model."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.66,
+    "end": 53.76,
+    "text": "Excuse me, Penny, but we're playing Klingon Boggle."
+  },
+  {
+    "speaker": "Howard",
+    "start": 54.54,
+    "end": 58.0,
+    "text": "What do you mean, all? Like, she didn't know we were nerds?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 58.0,
+    "end": 69.5,
+    "text": "Alright, if you must watch him, mute it with closed captions, please. Alright, Boggle Warriors, go."
+  },
+  {
+    "speaker": "Penny",
+    "start": 61.82,
+    "end": 62.84,
+    "text": "Fine."
+  }
+]

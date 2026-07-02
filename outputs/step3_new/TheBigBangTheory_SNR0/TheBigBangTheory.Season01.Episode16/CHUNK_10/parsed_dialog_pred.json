@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 7.12,
+    "end": 7.5200000000000005,
+    "text": "I'm doing this for you, little buddy. Okay, we don't have that in stock. But I can special order it for you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 18.74,
+    "end": 21.54,
+    "text": "Yes, well, apparently neither does anyone else."
+  },
+  {
+    "speaker": "Penny",
+    "start": 22.240000000000002,
+    "end": 29.46,
+    "text": "Him. Well, then we have to go. Well, for one thing, we're late for Leonard's birthday party, and for another, I told him to call security."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 24.41,
+    "end": 24.96,
+    "text": "Why?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.42,
+    "end": 40.16,
+    "text": "Good luck. By the way, a six-year-old can hack your computer system. Yeah, one, two, three, four is not a secure password."
+  },
+  {
+    "speaker": "Penny",
+    "start": 36.63,
+    "end": 37.75,
+    "text": "Keep walking."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 42.379999999999995,
+    "end": 47.93,
+    "text": "Excuse me, sir. You don't work here. Excuse me, my friend is having an allergic reaction to peanuts. Yes, he is."
+  },
+  {
+    "speaker": "Penny",
+    "start": 45.62,
+    "end": 52.66,
+    "text": "No, he's not. Look, sir, we are very busy here, and I just don't— Holy crap!"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 64.99,
+    "end": 70.45,
+    "text": "Say what you will about the healthcare system in this country, but when they're afraid of lawsuits, they sure test everything."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 70.73,
+    "end": 73.79,
+    "text": "I really don't think that colonoscopy was necessary."
+  }
+]

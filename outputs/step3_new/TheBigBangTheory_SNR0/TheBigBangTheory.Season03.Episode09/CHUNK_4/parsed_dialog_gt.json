@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 4.8799999999999955,
+    "text": "Howard, you're going to throw away a great girl like Bernadette because you're holding out for some ridiculous fantasy?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 5.139999999999986,
+    "end": 7.770000000000039,
+    "text": "Hey, just because you settled doesn't mean I have to."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.329999999999984,
+    "end": 11.590000000000032,
+    "text": "Excuse me, I'm sitting here."
+  },
+  {
+    "speaker": "penny",
+    "start": 12.449999999999989,
+    "end": 20.55000000000001,
+    "text": "Hey, I did not settle for Leonard. I mean, obviously, he isn't the kind of guy I usually go out with, you know, physically."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.610000000000014,
+    "end": 23.660000000000025,
+    "text": "Again, I'm right here."
+  },
+  {
+    "speaker": "penny",
+    "start": 25.120000000000005,
+    "end": 28.30000000000001,
+    "text": "My point is, I do not judge a book by its cover. I am interested in the person underneath."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.420000000000016,
+    "end": 29.710000000000036,
+    "text": "I am here, right? You see me."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 35.56,
+    "end": 49.56999999999999,
+    "text": "Hey, I'm interested in what's inside people, too, but why is it wrong to want those insides wrapped up in, say, the delicious caramel that is Halle Berry? Yes, you're delicious caramel, too."
+  },
+  {
+    "speaker": "penny",
+    "start": 55.400000000000034,
+    "end": 56.77000000000004,
+    "text": "All right, you know what, I will tell you why it's wrong..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.05000000000001,
+    "end": 65.88999999999999,
+    "text": "Excuse me, may I interject? Biologically speaking, Howard is perfectly justified in seeking out the optimum mate for the propagation of his genetic line."
+  },
+  {
+    "speaker": "penny",
+    "start": 58.900000000000034,
+    "end": 59.120000000000005,
+    "text": "What?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 67.19,
+    "end": 68.23000000000002,
+    "text": "Thank you, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.25999999999999,
+    "end": 71.71000000000004,
+    "text": "Now, whether that propagation is in the interest of humanity is, of course, an entirely different question."
+  }
+]

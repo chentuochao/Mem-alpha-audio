@@ -1,0 +1,194 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 3.7799999999999727,
+    "text": "All right, fine. What about that really long hug? What did that mean?"
+  },
+  {
+    "speaker": "penny",
+    "start": 5.089999999999918,
+    "end": 6.329999999999927,
+    "text": "That wasn't a long hug."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.960000000000036,
+    "end": 14.490000000000009,
+    "text": "It was at least five Mississippis. A standard hug is two Mississippis tops."
+  },
+  {
+    "speaker": "penny",
+    "start": 17.079999999999927,
+    "end": 19.36999999999989,
+    "text": "Leonard, I don't know what to tell you. It was just a hug."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.589999999999918,
+    "end": 23.769999999999982,
+    "text": "Glad we cleared that up. I guess I'll see you."
+  },
+  {
+    "speaker": "penny",
+    "start": 22.319999999999936,
+    "end": 22.579999999999927,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "penny",
+    "start": 24.25,
+    "end": 26.279999999999973,
+    "text": "Okay, have a safe trip."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.309999999999945,
+    "end": 29.289999999999964,
+    "text": "Thank you. Bye."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.939999999999827,
+    "end": 35.74000000000001,
+    "text": "Okay, bye. Means I wish you weren't going."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.419999999999845,
+    "end": 50.07999999999993,
+    "text": "Damn it. We're out of ice."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 48.48000000000002,
+    "end": 48.75999999999999,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.149999999999864,
+    "end": 66.03999999999996,
+    "text": "All right, men, we begin initial assembly and deployment of the testing equipment starting tomorrow at 0700 hours, but until then, you are all off duty. I suggest you keep the shenanigans to a minimum as medical help is 18 hours away by dogsled."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 67.72000000000003,
+    "end": 68.38999999999987,
+    "text": "What are you working on?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 68.80999999999995,
+    "end": 69.30999999999995,
+    "text": "Crossbow."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 70.68999999999983,
+    "end": 85.08999999999992,
+    "text": "Hey, guys, can I just say something? How about we take a moment to think about where we are right now? This is literally the top of the world. Only a handful of people in all of human history will ever see what we are going to see."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 86.32999999999993,
+    "end": 86.87999999999988,
+    "text": "He's right."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 87.34999999999991,
+    "end": 87.95000000000005,
+    "text": "Yeah, wow."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 88.57999999999993,
+    "end": 89.50999999999999,
+    "text": "It is remarkable."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 92.25,
+    "end": 93.20000000000005,
+    "text": "So, who's up for a movie?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 93.89999999999986,
+    "end": 97.84999999999991,
+    "text": "Good idea, what do you think? Ice Station Zebra or John Carpenter's The Thing?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 99.14999999999986,
+    "end": 100.17999999999984,
+    "text": "I say double feature."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 100.31999999999994,
+    "end": 100.93999999999983,
+    "text": "Dinner's ready!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 102.3599999999999,
+    "end": 103.08999999999992,
+    "text": "What are we having?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 103.31999999999994,
+    "end": 104.56999999999994,
+    "text": "Reconstituted Thai food."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 106.42999999999984,
+    "end": 112.79999999999995,
+    "text": "Did you bring the dehydrated low-sodium soy sauce? Freeze-dried spicy mustard? Flash-frozen brown rice, not white?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 108.75999999999999,
+    "end": 110.88999999999987,
+    "text": "Check. Check."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 113.47000000000003,
+    "end": 116.14999999999986,
+    "text": "Uh, oh, sorry."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 116.48000000000002,
+    "end": 122.03999999999996,
+    "text": "Not to worry. I hid it. Bazinga!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 127.34999999999991,
+    "end": 128.15999999999985,
+    "text": "You're in my spot."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 137.48000000000002,
+    "end": 139.54999999999995,
+    "text": "There's no time for a crossbow. Find me an icicle."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 139.54999999999995,
+    "end": 140.26,
+    "text": "Three months."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 145.40999999999985,
+    "end": 146.06999999999994,
+    "text": "This is gonna be great!"
+  }
+]

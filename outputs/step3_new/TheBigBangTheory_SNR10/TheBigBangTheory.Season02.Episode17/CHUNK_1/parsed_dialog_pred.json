@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 6.569999999999999,
+    "end": 15.24,
+    "text": "I'm talking to a chimp. We're not flying. We're taking the train. Yeah, cool. Seven times as long as flying and costs almost twice as much."
+  },
+  {
+    "speaker": "Penny",
+    "start": 8.82,
+    "end": 10.25,
+    "text": "Okay, now that I've been completely insulted, have a good flight. Oh, cool."
+  },
+  {
+    "speaker": "Penny",
+    "start": 15.42,
+    "end": 17.47,
+    "text": "Well, then why are you doing it?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 17.27,
+    "end": 23.08,
+    "text": "Yeah, I wish. Well, we had a vote. Three of us voted for airplane, Sheldon voted for train, so we're taking the train."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.78,
+    "end": 28.1,
+    "text": "Well, don't say it like that, Leonard. Say it like, we're taking the train."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.23,
+    "end": 58.49,
+    "text": "Hey, we're all going over to the Apple store to make fun of the guys at the Genius Bar. You wanna come?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 59.33,
+    "end": 63.49,
+    "text": "Oh, I always enjoy that, but I'm a little busy. I'm simplifying the task of packing for our trip. By attaching RFID tags to my clothing, it will enable my laptop to read and identify the items with this wand. I will then cross-reference them against destination, anticipate activity spectrum, weather conditions, duration of trip, etc."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 62.34,
+    "end": 63.29,
+    "text": "What are you doing?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 81.51,
+    "end": 86.97,
+    "text": "Well, that does sound much simpler. How long is this gonna take?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 86.97,
+    "end": 87.17,
+    "text": "Assuming I can keep up this pace, three hours, eleven minutes. Plus however long it takes to conclude this fairly pointless conversation."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 94.12,
+    "end": 101.42,
+    "text": "Wow. Using the guys at the Apple store seems a little redundant now. I wouldn't expect you to. I'll see you later."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 98.77,
+    "end": 99.96,
+    "text": "I don't follow."
+  }
+]

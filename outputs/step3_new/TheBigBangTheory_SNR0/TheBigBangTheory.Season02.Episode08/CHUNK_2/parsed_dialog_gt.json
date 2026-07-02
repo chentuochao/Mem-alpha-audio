@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.13999999999998636,
+    "text": "Ow."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.579999999999984,
+    "end": 32.829999999999984,
+    "text": "I'm sorry, but I'm not going to watch the Clone Wars TV series until I've seen the Clone Wars movie. I prefer to let George Lucas disappoint me in the order he intended."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.73999999999998,
+    "end": 37.099999999999994,
+    "text": "Well, I want to watch it now."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.579999999999984,
+    "end": 41.17999999999998,
+    "text": "Then I believe we've arrived at another quintessential rock-paper-scissors- lizard-Spock moment."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.089999999999975,
+    "end": 48.839999999999975,
+    "text": "Watch whatever you want."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 50.809999999999974,
+    "end": 51.579999999999984,
+    "text": "I saw what you did there."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 53.41999999999999,
+    "end": 54.109999999999985,
+    "text": "What did I do?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.92999999999998,
+    "end": 65.82999999999998,
+    "text": "Hello. Hey, Howard. What's wrong? Okay. Okay, we'll be right there."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.51999999999998,
+    "end": 67.03999999999999,
+    "text": "What happened?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 67.39999999999998,
+    "end": 70.63999999999999,
+    "text": "Howard's at the Mars Rover lab. He says he's in trouble. Defcon 5."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 70.88,
+    "end": 73.45999999999998,
+    "text": "Defcon 5? Well, there's no need to rush."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 75.42999999999998,
+    "end": 75.69,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.97,
+    "end": 79.04999999999998,
+    "text": "Defcon 5 means no danger. Defcon 1 is a crisis."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 79.6,
+    "end": 81.47,
+    "text": "How can 5 not be worse than 1?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 81.73999999999998,
+    "end": 83.19999999999999,
+    "text": "Yeah, Star Trek V, worse than I."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 85.73999999999998,
+    "end": 92.08999999999997,
+    "text": "Okay, first of all, that's a comparison of quality, not intensity. Secondly, Star Trek I is orders-of-magnitude worse than Star Trek V."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 93.08999999999997,
+    "end": 97.00999999999999,
+    "text": "Are you joking? Star Trek V is the standard against which all badness is measured."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 97.70999999999998,
+    "end": 105.78999999999996,
+    "text": "No, no, no. Star Trek V has specific failures in writing and direction, while Star Trek I fails across the board, art direction, costuming, music, sound editing."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 106.5,
+    "end": 108.84999999999997,
+    "text": "Can we just forget I said Defcon and go?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 111.06,
+    "end": 112.47999999999996,
+    "text": "Star Trek V!"
+  }
+]

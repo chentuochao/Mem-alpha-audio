@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.36000000000001364,
+    "text": "A-a-a-aw!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.449999999999932,
+    "end": 5.309999999999945,
+    "text": "Mwah-ha-ha."
+  },
+  {
+    "speaker": "penny",
+    "start": 11.069999999999936,
+    "end": 13.019999999999982,
+    "text": "Telephone wires can't electrocute you, can they?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.850000000000023,
+    "end": 16.66999999999996,
+    "text": "No. Look, this has to stop."
+  },
+  {
+    "speaker": "penny",
+    "start": 16.779999999999973,
+    "end": 18.67999999999995,
+    "text": "Oh, no, no, no. It is just beginning."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.74000000000001,
+    "end": 25.399999999999977,
+    "text": "All right, I really didn't want to do this, but... here."
+  },
+  {
+    "speaker": "penny",
+    "start": 26.360000000000014,
+    "end": 27.049999999999955,
+    "text": "What's this?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.579999999999927,
+    "end": 29.779999999999973,
+    "text": "Sheldon's Kryptonite."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.0,
+    "end": 34.40999999999997,
+    "text": "Oh, my God."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 36.41999999999996,
+    "end": 38.24000000000001,
+    "text": "He can never know that I gave that to you."
+  },
+  {
+    "speaker": "penny",
+    "start": 38.85000000000002,
+    "end": 42.19999999999993,
+    "text": "Look, I said I wanted to hurt him, but, but this?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.049999999999955,
+    "end": 48.08999999999992,
+    "text": "It'll shorten the war by five years and save millions of lives."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 52.639999999999986,
+    "end": 56.89999999999998,
+    "text": "Oh, pause it. That's it. Confirmed. We now have the address of the top model house."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 58.94999999999993,
+    "end": 61.75,
+    "text": "God bless you, Google Street View registered trademark."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 64.16999999999996,
+    "end": 66.60000000000002,
+    "text": "Okay, for the record what you're doing is really creepy."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 66.68999999999994,
+    "end": 77.47000000000003,
+    "text": "You know what? If it's creepy to use the Internet, military satellites, and robot aircraft to find a house full of gorgeous young models so that I can drop in on them unexpectedly, then fine, I'm creepy."
+  }
+]

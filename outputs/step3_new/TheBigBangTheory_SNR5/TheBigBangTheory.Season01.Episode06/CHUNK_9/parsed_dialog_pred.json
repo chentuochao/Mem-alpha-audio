@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 4.34,
+    "end": 9.76,
+    "text": "God, what is wrong with me? I'm not perfect."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 6.46,
+    "end": 8.15,
+    "text": "There, there. Nothing, you're perfect."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 9.76,
+    "end": 11.08,
+    "text": "Yes, you are."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 31.95,
+    "end": 34.51,
+    "text": "How much have you had to drink tonight?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 36.39,
+    "end": 39.53,
+    "text": "Just a little."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 40.15,
+    "end": 40.35,
+    "text": "Are you sure that you're being drunk and you're being angry with Kurt? Does it have something to do with what's going on here?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 48.19,
+    "end": 54.56,
+    "text": "It might. You're really smart."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.56,
+    "end": 56.83,
+    "text": "Yeah, I'm a freaking genius."
+  },
+  {
+    "speaker": "Penny",
+    "start": 63.58,
+    "end": 65.88,
+    "text": "Why can't all guys be like you?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 66.18,
+    "end": 69.78,
+    "text": "Because if all guys were like me, the human race couldn't survive."
+  }
+]

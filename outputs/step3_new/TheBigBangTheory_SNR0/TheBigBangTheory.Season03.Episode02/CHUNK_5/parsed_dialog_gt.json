@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.0,
+    "end": 2.230000000000018,
+    "text": "I wonder what the non-pathetic people are doing tonight."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 15.07000000000005,
+    "end": 15.56000000000006,
+    "text": "More wine?"
+  },
+  {
+    "speaker": "penny",
+    "start": 15.580000000000041,
+    "end": 15.889999999999986,
+    "text": "Hit me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.090000000000032,
+    "end": 23.930000000000064,
+    "text": "I don't see anything."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 23.960000000000036,
+    "end": 24.31000000000006,
+    "text": "Shh!"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 30.110000000000014,
+    "end": 30.470000000000027,
+    "text": "Hallway."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.26999999999998,
+    "end": 37.5,
+    "text": "One at a time."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.66999999999996,
+    "end": 50.65999999999997,
+    "text": "What was that?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 51.52999999999997,
+    "end": 59.08000000000004,
+    "text": "My stomach. Indian food doesn't agree with me. Ironic, isn't it?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 62.27999999999997,
+    "end": 66.21000000000004,
+    "text": "Shh! Elevator shaft."
+  }
+]

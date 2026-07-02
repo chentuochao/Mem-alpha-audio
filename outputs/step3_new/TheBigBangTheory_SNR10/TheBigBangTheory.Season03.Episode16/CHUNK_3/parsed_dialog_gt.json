@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 5.640000000000043,
+    "text": "November 16? Penny, that's the evening you fell in your bathtub and I had to drive you to the emergency room."
+  },
+  {
+    "speaker": "penny",
+    "start": 5.78000000000003,
+    "end": 6.230000000000018,
+    "text": "No, it isn't."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.010000000000048,
+    "end": 8.550000000000011,
+    "text": "Yes, it is."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.680000000000007,
+    "end": 9.140000000000043,
+    "text": "No, it isn't."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.28000000000003,
+    "end": 15.07000000000005,
+    "text": "Penny, I have an eidetic memory. Also, that's a picture of you in the passenger seat holding your dislocated shoulder."
+  },
+  {
+    "speaker": "penny",
+    "start": 16.140000000000043,
+    "end": 18.28000000000003,
+    "text": "Mmm, no, it isn't."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.350000000000023,
+    "end": 25.970000000000027,
+    "text": "Okay, then why is a summons for a traffic violation committed in your car, bearing your license plates, coming to me?"
+  },
+  {
+    "speaker": "penny",
+    "start": 31.360000000000014,
+    "end": 35.960000000000036,
+    "text": "Okay, look, they sent me the ticket. I told them I wasn't driving and they were all, if it wasn't you, who was it?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.74000000000001,
+    "end": 38.03000000000003,
+    "text": "So you betrayed me?"
+  },
+  {
+    "speaker": "penny",
+    "start": 38.210000000000036,
+    "end": 45.700000000000045,
+    "text": "No! It wasn't a betrayal. It was more of a can't afford any more points on my license. I already have to buy my insurance from this place in the Cayman Islands."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.01000000000005,
+    "end": 51.460000000000036,
+    "text": "But the only reason I was driving your car was because you were in distress and I was rescuing you."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.460000000000036,
+    "end": 55.80000000000001,
+    "text": "Yes, yes, look, and now you have a photo to remember that heroic day."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.85000000000002,
+    "end": 61.879999999999995,
+    "text": "It's not that big a deal. You just go down to the court on Thursday and you pay the fine."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.379999999999995,
+    "end": 65.03000000000003,
+    "text": "I'm not going to pay a fine. That would imply I'm guilty."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 65.09000000000003,
+    "end": 66.11000000000001,
+    "text": "You are guilty."
+  }
+]

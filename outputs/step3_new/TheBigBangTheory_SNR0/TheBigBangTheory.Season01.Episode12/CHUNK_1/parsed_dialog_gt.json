@@ -1,0 +1,164 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 4.579999999999984,
+    "text": "So, Dennis, how long have you been in America. No kidding, you speak English really well."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 1.829999999999984,
+    "end": 2.6399999999999864,
+    "text": "A year and a half."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 4.699999999999989,
+    "end": 9.77000000000001,
+    "text": "So do you. Except for your tendency to end sentences with prepositions."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 11.439999999999998,
+    "end": 12.319999999999993,
+    "text": "What are you talking about?"
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 14.169999999999987,
+    "end": 15.099999999999994,
+    "text": "That."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.94999999999999,
+    "end": 23.109999999999985,
+    "text": "He's not wrong. Alright, and this is my office. Nope. Goodbye."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 21.24000000000001,
+    "end": 22.159999999999997,
+    "text": "Is this part of the tour?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.919999999999987,
+    "end": 26.539999999999992,
+    "text": "Come on, Sheldon, we' ve hardly shown him anything."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.810000000000002,
+    "end": 33.09,
+    "text": "Oh, alright, this is my desk, these are my books, this is my door, please close it behind you. Goodbye."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 35.47,
+    "end": 37.639999999999986,
+    "text": "Looks like you're doing work in quantum loop corrections."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.68000000000001,
+    "end": 39.22999999999999,
+    "text": "Keen observation, goodbye."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 40.56999999999999,
+    "end": 41.69,
+    "text": "You see where you went wrong, don't you?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.099999999999994,
+    "end": 47.05000000000001,
+    "text": "Leonard. Get him out."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.579999999999984,
+    "end": 44.78999999999999,
+    "text": "Huh, yeah?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.96000000000001,
+    "end": 50.97999999999999,
+    "text": "Come on, Dennis, I'll show you the rec center, they' ve got nautilus equipment."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 51.150000000000006,
+    "end": 52.5,
+    "text": "Do I look like I lift weights."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.900000000000006,
+    "end": 54.94999999999999,
+    "text": "Not heavy ones."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 56.109999999999985,
+    "end": 59.97999999999999,
+    "text": "It's startling to me you haven't considered a Lorentz invariant field theory approach."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.96000000000001,
+    "end": 64.38999999999999,
+    "text": "You think I haven't considered it? You really think I haven't considered it?"
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 64.69999999999999,
+    "end": 65.53,
+    "text": "Have you considered it?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.43,
+    "end": 68.25999999999999,
+    "text": "Get him out Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 68.84,
+    "end": 71.25999999999999,
+    "text": "Come on, Dennis, I'll show you the radiation lab."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 72.47,
+    "end": 74.57,
+    "text": "Wow, you won the Stephenson award."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 74.94999999999999,
+    "end": 78.50999999999999,
+    "text": "Yes, in fact I am the youngest person ever to win it."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 79.21000000000001,
+    "end": 80.75,
+    "text": "Really, how old?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 80.85,
+    "end": 81.03,
+    "text": "Fourteen and a half."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 83.07,
+    "end": 84.63,
+    "text": "You were the youngest person ever to win it."
+  }
+]

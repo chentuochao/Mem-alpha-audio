@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.14999999999997726,
+    "text": "shoes!"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 10.06000000000006,
+    "end": 13.850000000000023,
+    "text": "You know, if I wanted to spend my Saturday nights doing this, I could have stayed in India."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 16.789999999999964,
+    "end": 22.039999999999964,
+    "text": "Oh, stop with the fake third world crap. Your father's a gynaecologist, and you had a house full of servants."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 22.220000000000027,
+    "end": 25.129999999999995,
+    "text": "We only had four servants. And two of them were children."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.409999999999968,
+    "end": 29.220000000000027,
+    "text": "How are we doing?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 29.610000000000014,
+    "end": 32.39999999999998,
+    "text": "We have 128 assorted Penny Blossoms ready to ship."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 33.039999999999964,
+    "end": 37.33000000000004,
+    "text": "Oh, God, we're never gonna finish in time. Who made Sheldon the boss anyway?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.57000000000005,
+    "end": 55.210000000000036,
+    "text": "I believe I'm hearing some negativity on the factory floor. Penny, the labour force is a living organism that must be carefully nurtured. Any counterproductive grumbling must be skilfully headed off by management. Observe. Hey! Less talk, more work!"
+  },
+  {
+    "speaker": "penny",
+    "start": 43.35000000000002,
+    "end": 43.52999999999997,
+    "text": "So?"
+  },
+  {
+    "speaker": "penny",
+    "start": 59.129999999999995,
+    "end": 59.73000000000002,
+    "text": "Nicely done."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.940000000000055,
+    "end": 62.67000000000007,
+    "text": "Thank you. You hear any union talk, you let me know."
+  }
+]

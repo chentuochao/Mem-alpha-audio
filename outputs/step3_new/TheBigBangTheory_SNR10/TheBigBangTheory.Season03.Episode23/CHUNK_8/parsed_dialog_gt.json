@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.0599999999999454,
+    "text": "Morning, Mrs. Gunderson."
+  },
+  {
+    "speaker": "mrs_gunderson",
+    "start": 1.3299999999999272,
+    "end": 4.3599999999999,
+    "text": "Good morning, Leonard. Or should I say yee-haw?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 12.879999999999995,
+    "end": 18.029999999999973,
+    "text": "Holy crap. We finally have proof that aliens walk among us."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 14.42999999999995,
+    "end": 14.699999999999932,
+    "text": "What?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 19.289999999999964,
+    "end": 19.769999999999982,
+    "text": "Excuse me?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 19.889999999999986,
+    "end": 22.289999999999964,
+    "text": "The dating site matched a woman with Sheldon."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 23.00999999999999,
+    "end": 25.229999999999905,
+    "text": "You're kidding. An actual woman?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 25.34999999999991,
+    "end": 27.479999999999905,
+    "text": "Yeah, look. Breasts and everything."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 28.639999999999986,
+    "end": 30.91999999999996,
+    "text": "Trust me, breasts doesn't necessarily mean woman."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 31.769999999999982,
+    "end": 32.389999999999986,
+    "text": "Since when?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 32.93999999999994,
+    "end": 41.86999999999989,
+    "text": "I'll show you a picture of my Uncle Louie in a bathing suit sometime. Leonard, you gotta see this, we found a match for Sheldon."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.809999999999945,
+    "end": 47.34999999999991,
+    "text": "Great. Maybe she can have sex with him, and then walk out on him the next morning without so much as a how do you do?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 47.569999999999936,
+    "end": 54.34999999999991,
+    "text": "Do you know what he's talking about? Leonard, what are you talking about? That was a lousy suggestion."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 49.889999999999986,
+    "end": 50.93999999999994,
+    "text": "Nope. Why don't you ask him?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.139999999999986,
+    "end": 53.18999999999994,
+    "text": "I don't want to talk about it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 56.01999999999998,
+    "end": 64.50999999999999,
+    "text": "Whatever. Right now, Dr. Sheldon Cooper has to send an e-mail to his perfect match. Greetings, fellow life-form..."
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.0799999999999983,
+    "text": "Penny, Penny, Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 5.310000000000002,
+    "end": 6.030000000000001,
+    "text": "Hey, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.269999999999996,
+    "end": 11.189999999999998,
+    "text": "It's eleven am."
+  },
+  {
+    "speaker": "penny",
+    "start": 11.219999999999999,
+    "end": 12.450000000000003,
+    "text": "I know. You're safe."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.799999999999997,
+    "end": 15.560000000000002,
+    "text": "This package came while you were at work."
+  },
+  {
+    "speaker": "penny",
+    "start": 15.810000000000002,
+    "end": 18.25999999999999,
+    "text": "Oh, great, my rhinestones. Thank you. What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.39999999999999,
+    "end": 19.47,
+    "text": "Excuse me. You have to sign this."
+  },
+  {
+    "speaker": "penny",
+    "start": 20.14,
+    "end": 21.159999999999997,
+    "text": "What is it?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.83,
+    "end": 31.25999999999999,
+    "text": "When I signed for the package, I was deputized by the United Parcel Service and entrusted with its final delivery. I now need you to acknowledge receipt of the package so that I'm fully indemnified and no longer liable."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.230000000000004,
+    "end": 34.89,
+    "text": "Sheldon, it's just a box of rhinestones."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.97,
+    "end": 39.17,
+    "text": "Well, the contents are irrelevant. A legal bailment has been created. Does that mean nothing to you?"
+  },
+  {
+    "speaker": "penny",
+    "start": 40.08,
+    "end": 44.230000000000004,
+    "text": "It means nothing to anybody. Come here, let me show you what I'm doing."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.57000000000001,
+    "end": 54.3,
+    "text": "Bailment describes a relationship in common law where a physical possession of personal property, or chattels, is transferred from one person, the bailor, to another person, the bailee."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.769999999999996,
+    "end": 57.83999999999999,
+    "text": "Yeah, yeah, yeah, yeah. Look, look, look! I started a business."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.30999999999999,
+    "end": 59.57000000000001,
+    "text": "Obviously, not a cleaning business."
+  },
+  {
+    "speaker": "penny",
+    "start": 62.16000000000001,
+    "end": 76.14,
+    "text": "No, I'm making flower barrettes. See? I call them Penny Blossoms. I made one for myself, then all the girls at work wanted one. Then I showed some to this lady who runs a shop in Old Town. She sells cards and homemade jewellery. She said she wanted to sell them. I said okay, and in one week, I made a$156."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.46999999999998,
+    "end": 78.3,
+    "text": "Good for you. Sign here."
+  },
+  {
+    "speaker": "penny",
+    "start": 81.17,
+    "end": 84.52,
+    "text": "Sheldon, don't you get it? If this takes off, I won't have to be a waitress anymore."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 85.38000000000001,
+    "end": 87.55,
+    "text": "But then who will bring me my cheeseburger on Tuesday nights?"
+  },
+  {
+    "speaker": "penny",
+    "start": 88.8,
+    "end": 89.55,
+    "text": "Another waitress."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 89.74999999999999,
+    "end": 90.52999999999999,
+    "text": "What's her name?"
+  },
+  {
+    "speaker": "penny",
+    "start": 91.2,
+    "end": 92.21999999999998,
+    "text": "I don't know."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 92.89,
+    "end": 94.48,
+    "text": "And you're going to let her handle my food?"
+  },
+  {
+    "speaker": "penny",
+    "start": 95.17,
+    "end": 97.23,
+    "text": "Nancy. Her name is Nancy."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 97.91000000000001,
+    "end": 99.2,
+    "text": "I think you're just making that up."
+  },
+  {
+    "speaker": "penny",
+    "start": 99.74,
+    "end": 103.52999999999999,
+    "text": "Sheldon, I'm sorry about your hamburger, okay? I just don't want to be a waitress for the rest of my life."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 103.64,
+    "end": 105.41000000000001,
+    "text": "Cheeseburger. I get a cheeseburger."
+  },
+  {
+    "speaker": "penny",
+    "start": 106.16000000000001,
+    "end": 107.08,
+    "text": "Fine, cheeseburger."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 107.24999999999999,
+    "end": 108.48,
+    "text": "Maybe I'd be better off with Nancy."
+  },
+  {
+    "speaker": "penny",
+    "start": 109.07000000000001,
+    "end": 112.99999999999999,
+    "text": "So, what do you think? I mean, this could be a business, right?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 114.52999999999999,
+    "end": 120.58,
+    "text": "How many of these can you make a day? And how much profit do you make per Penny Blossom?"
+  },
+  {
+    "speaker": "penny",
+    "start": 116.80999999999999,
+    "end": 117.02999999999999,
+    "text": "About twenty."
+  },
+  {
+    "speaker": "penny",
+    "start": 121.71,
+    "end": 123.14999999999999,
+    "text": "I don't know, like, 50 cents. I'm not sure."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 123.30999999999999,
+    "end": 134.13,
+    "text": "No, Of course you're not. All right, ten dollars a day times five days a week times 52 weeks a year is two thousand six hundred dollars. Before taxes."
+  },
+  {
+    "speaker": "penny",
+    "start": 132.64999999999998,
+    "end": 137.02999999999997,
+    "text": "That's all? Well, I don't have to pay taxes on this stuff."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 137.35000000000002,
+    "end": 148.95999999999998,
+    "text": "I believe the Internal Revenue Service would strongly disagree. But, if you took advantage of modern marketing techniques, and you optimized your manufacturing process, you might be able to make this a viable business."
+  },
+  {
+    "speaker": "penny",
+    "start": 149.32,
+    "end": 150.67000000000002,
+    "text": "And you know about that stuff?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 151.02999999999997,
+    "end": 151.49,
+    "text": "Penny,"
+  }
+]

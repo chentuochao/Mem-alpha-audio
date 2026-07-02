@@ -1,0 +1,182 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 2.490000000000009,
+    "text": "Well, gentlemen, have you reached a decision?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.2700000000000387,
+    "end": 3.8700000000000045,
+    "text": "I'm in."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 4.3799999999999955,
+    "end": 5.03000000000003,
+    "text": "Me, too."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 6.770000000000039,
+    "end": 9.230000000000018,
+    "text": "Oh, damn it. Peer pressure. Fine."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.939999999999998,
+    "end": 29.53000000000003,
+    "text": "Excellent. And just an FYI, as I am the expedition's team leader, protocol dictates that be phrased fine, sir. But don't worry, there will be a briefing. Penny. Penny. Penny. Penny. Penny. Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 21.129999999999995,
+    "end": 28.54000000000002,
+    "text": "Sheldon. Sheldon. Sheldon. Sheldon. Sheldon."
+  },
+  {
+    "speaker": "penny",
+    "start": 30.189999999999998,
+    "end": 30.670000000000016,
+    "text": "Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.29000000000002,
+    "end": 40.650000000000034,
+    "text": "Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 50.26000000000005,
+    "end": 50.650000000000034,
+    "text": "What do you want?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.77000000000004,
+    "end": 54.10000000000002,
+    "text": "I need access to the Cheesecake Factory's walk-in freezer."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.34000000000003,
+    "end": 58.150000000000034,
+    "text": "Now, honey, I already told you, the hamburger meat is fresh and stored at a safe temperature."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.379999999999995,
+    "end": 64.69,
+    "text": "No. This is to train for a three-month expedition to the magnetic North Pole."
+  },
+  {
+    "speaker": "penny",
+    "start": 65.18,
+    "end": 65.49000000000001,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.45000000000005,
+    "end": 75.83000000000004,
+    "text": "I don't know how that sentence could possibly confuse you, but to elaborate, I'm going to the Arctic Circle with Leonard, Wolowitz and Koothrappali."
+  },
+  {
+    "speaker": "penny",
+    "start": 76.31,
+    "end": 82.34000000000003,
+    "text": "You're all going? For three months? Excuse me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 77.36000000000001,
+    "end": 79.22000000000003,
+    "text": "Yes. Yes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 83.90000000000003,
+    "end": 87.92000000000007,
+    "text": "Is that a yes or a no on the freezer? The woman has the attention span of a gnat."
+  },
+  {
+    "speaker": "penny",
+    "start": 88.50999999999999,
+    "end": 92.35000000000002,
+    "text": "Hey, Leonard. Sheldon says you're going to the North Pole."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 89.69000000000005,
+    "end": 89.98000000000002,
+    "text": "Hi."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 92.93000000000006,
+    "end": 93.88999999999999,
+    "text": "Yeah. Pretty cool, huh?"
+  },
+  {
+    "speaker": "penny",
+    "start": 94.39999999999998,
+    "end": 96.95000000000005,
+    "text": "Yeah. I'm just a little surprised you didn't tell me."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 97.59000000000003,
+    "end": 107.39999999999998,
+    "text": "Oh, well, it all happened kind of fast, and we had to get physicals and buy thermal underwear and study up on, you know, snow and stuff. Sorry, I was gonna tell you."
+  },
+  {
+    "speaker": "penny",
+    "start": 107.49000000000001,
+    "end": 112.68000000000006,
+    "text": "Oh, hey, no, you don't have to apologize. There's no reason you have to tell me. I was just, you know, surprised."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 113.02999999999997,
+    "end": 116.73000000000002,
+    "text": "Yes, yes, you were busy, you were surprised, all very fascinating. Now where do we stand on the freezer?"
+  },
+  {
+    "speaker": "penny",
+    "start": 118.04000000000008,
+    "end": 119.32000000000005,
+    "text": "Is he serious?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 119.86000000000001,
+    "end": 120.82000000000005,
+    "text": "Actually, it would help."
+  },
+  {
+    "speaker": "penny",
+    "start": 121.98000000000002,
+    "end": 129.45000000000005,
+    "text": "All right, I'll see what I can do. So, three months at the North Pole. Wow, that is awesome."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 129.56000000000006,
+    "end": 129.71000000000004,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 130.29000000000008,
+    "end": 135.20000000000005,
+    "text": "I'm sorry, but at what point do you put this see what you can do plan into action?"
+  },
+  {
+    "speaker": "penny",
+    "start": 137.09000000000003,
+    "end": 140.26,
+    "text": "Just a warning, Sheldon, the freezer locks from the outside."
+  }
+]

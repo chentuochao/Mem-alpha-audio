@@ -1,0 +1,146 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.710000000000008,
+    "text": "Sheldor is back online."
+  },
+  {
+    "speaker": "penny",
+    "start": 3.140000000000015,
+    "end": 3.680000000000007,
+    "text": "Sheldor?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 5.27000000000001,
+    "end": 5.840000000000003,
+    "text": "The Conqueror."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.129999999999995,
+    "end": 8.780000000000001,
+    "text": "What are you doing?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.530000000000001,
+    "end": 23.430000000000007,
+    "text": "AFK. I'm playing Age of Conan, an online multiplayer game set in the universe of Robert E. Howard's Conan the Barbarian. Sheldor, back online."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.659999999999997,
+    "end": 19.849999999999994,
+    "text": "Oh."
+  },
+  {
+    "speaker": "penny",
+    "start": 25.060000000000002,
+    "end": 25.939999999999998,
+    "text": "What's AFK?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.30000000000001,
+    "end": 30.930000000000007,
+    "text": "AFK. Away from keyboard."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.06000000000003,
+    "end": 33.22999999999999,
+    "text": "OIC."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.940000000000026,
+    "end": 35.98999999999998,
+    "text": "What does that stand for?"
+  },
+  {
+    "speaker": "penny",
+    "start": 41.26000000000002,
+    "end": 42.51000000000002,
+    "text": "Oh, I see?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.41999999999999,
+    "end": 46.099999999999994,
+    "text": "Yes, but what does it stand for?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.70000000000002,
+    "end": 62.28,
+    "text": "Now just click on the enchanted boots to put them on."
+  },
+  {
+    "speaker": "penny",
+    "start": 62.690000000000026,
+    "end": 64.97,
+    "text": "Oh, I don't know. Can I see them in another colour?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.77000000000001,
+    "end": 71.81000000000003,
+    "text": "Just click on them. Congratulations, you are now a level three warrior."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.73999999999998,
+    "end": 73.23999999999998,
+    "text": "What's going on?"
+  },
+  {
+    "speaker": "penny",
+    "start": 73.46000000000001,
+    "end": 75.16999999999999,
+    "text": "Leonard, guess what, I'm a level three warrior."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.89000000000001,
+    "end": 79.58000000000001,
+    "text": "Great, you know there are groceries outside of your apartment?"
+  },
+  {
+    "speaker": "penny",
+    "start": 79.64000000000001,
+    "end": 80.41999999999999,
+    "text": "Yeah yeah yeah, shhh!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 81.97,
+    "end": 85.47999999999999,
+    "text": "I only bring it up because your ice-cream is melting and it's starting to attract wildlife."
+  },
+  {
+    "speaker": "penny",
+    "start": 86.76000000000002,
+    "end": 89.1,
+    "text": "Uh-huh, yeah, do I stay in the jungle or go towards the beach?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 89.20000000000002,
+    "end": 90.93000000000004,
+    "text": "It doesn't matter, right now you're looking for treasure."
+  },
+  {
+    "speaker": "penny",
+    "start": 92.00000000000003,
+    "end": 95.91,
+    "text": "Okay. Wait, wait, where are you going?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 96.15,
+    "end": 99.03,
+    "text": "You're okay, if you run into crocodiles just kick them with your boots."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.7999999999999545,
+    "text": "How am I looking now?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 15.399999999999977,
+    "end": 15.759999999999991,
+    "text": "Ow!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 28.99000000000001,
+    "end": 30.069999999999936,
+    "text": "You hit me!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.309999999999945,
+    "end": 44.02999999999997,
+    "text": "I'm bleeding!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 57.629999999999995,
+    "end": 58.67999999999995,
+    "text": "What was that?"
+  },
+  {
+    "speaker": "penny",
+    "start": 58.94999999999993,
+    "end": 60.70999999999992,
+    "text": "Sheldon tried to take the ring and I punched him."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.73000000000002,
+    "end": 63.48000000000002,
+    "text": "That's my girl."
+  }
+]

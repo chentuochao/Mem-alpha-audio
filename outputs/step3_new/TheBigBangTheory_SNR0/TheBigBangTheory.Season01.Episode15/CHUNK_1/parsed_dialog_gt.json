@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.35999999999999943,
+    "text": "Hello."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.730000000000004,
+    "end": 6.040000000000006,
+    "text": "Oh, hey buddy."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.400000000000006,
+    "end": 9.340000000000003,
+    "text": "Buddy."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 10.719999999999999,
+    "end": 15.14,
+    "text": "Sorry I' m late, I' m working on a project that may take me up on the next space shuttle."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.489999999999995,
+    "end": 18.75,
+    "text": "How can you be late, I wasn't expecting you at all."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 20.189999999999998,
+    "end": 24.25,
+    "text": "Nobody ever expects me, sometimes you just look and... BAM! Howard Wolowitz."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.08,
+    "end": 27.519999999999996,
+    "text": "Sheldon, are you going to introduce us?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.730000000000004,
+    "end": 33.349999999999994,
+    "text": "Oh, alright, this is Missy, Missy this is Leonard and Rajesh and you' ve already met Howard."
+  },
+  {
+    "speaker": "missy_cooper",
+    "start": 33.510000000000005,
+    "end": 34.34,
+    "text": "It's nice to meet you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.379999999999995,
+    "end": 40.459999999999994,
+    "text": "You too, swell, also. So, how do you two know each other."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 34.97,
+    "end": 35.14,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "missy_cooper",
+    "start": 40.989999999999995,
+    "end": 44.06,
+    "text": "Oh, he once spent nine months with my legs wrapped around his head."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.89,
+    "end": 48.459999999999994,
+    "text": "Excuse me?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.91,
+    "end": 54.14,
+    "text": "She's my twin sister, she thinks she's funny but frankly I' ve never been able to see it."
+  },
+  {
+    "speaker": "missy_cooper",
+    "start": 54.41,
+    "end": 57.010000000000005,
+    "text": "It's because you have no measurable sense of humor, Shelly."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.36,
+    "end": 60.750000000000014,
+    "text": "How exactly would one measure a sense of humor? A humormometer?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 62.80999999999999,
+    "end": 63.17,
+    "text": "Well,"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 64.86,
+    "end": 68.52999999999999,
+    "text": "I think you're delightfully droll. Or as the French say, tres drole."
+  },
+  {
+    "speaker": "missy_cooper",
+    "start": 69.89,
+    "end": 75.3,
+    "text": "Okay, so let me see if I got this. Leonard, Howard and... I' m sorry what was your name again."
+  }
+]

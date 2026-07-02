@@ -1,0 +1,140 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.4699999999999989,
+    "text": "Are you still mad about the sperm bank?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.5199999999999818,
+    "end": 2.1399999999999864,
+    "text": "No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.9799999999999898,
+    "end": 6.030000000000001,
+    "text": "You want to hear an interesting thing about stairs?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.969999999999999,
+    "end": 7.899999999999977,
+    "text": "Not really."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.840000000000003,
+    "end": 12.519999999999982,
+    "text": "If the height of a single step is off by as little as two millimetres, most people will trip."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.549999999999983,
+    "end": 17.389999999999986,
+    "text": "I don't care. Two millimetres? That doesn't seem right."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.44999999999999,
+    "end": 21.22999999999999,
+    "text": "No, it's true, I did a series of experiments when I was twelve, my father broke his clavicle."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.169999999999987,
+    "end": 24.419999999999987,
+    "text": "Is that why they sent you to boarding school?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.70999999999998,
+    "end": 27.049999999999983,
+    "text": "No, that was the result of my work with lasers."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.20999999999998,
+    "end": 33.78,
+    "text": "New neighbor?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.389999999999986,
+    "end": 34.91,
+    "text": "Evidently."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.829999999999984,
+    "end": 37.72,
+    "text": "Significant improvement over the old neighbor."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.28,
+    "end": 42.22999999999999,
+    "text": "Two hundred pound transvestite with a skin condition, yes she is."
+  },
+  {
+    "speaker": "penny",
+    "start": 42.81,
+    "end": 43.379999999999995,
+    "text": "Oh, hi!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.94999999999999,
+    "end": 45.95999999999998,
+    "text": "Hi. Hi."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.81,
+    "end": 46.42999999999998,
+    "text": "Hi. Hi."
+  },
+  {
+    "speaker": "penny",
+    "start": 46.73999999999998,
+    "end": 47.25,
+    "text": "Hi?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.26999999999998,
+    "end": 53.06,
+    "text": "We don't mean to interrupt, we live across the hall."
+  },
+  {
+    "speaker": "penny",
+    "start": 53.629999999999995,
+    "end": 54.47999999999999,
+    "text": "Oh, that's nice."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.03999999999999,
+    "end": 62.48999999999998,
+    "text": "Oh... uh... no... we don't live together... um... we live together but in separate, heterosexual bedrooms."
+  },
+  {
+    "speaker": "penny",
+    "start": 64.28,
+    "end": 69.59,
+    "text": "Oh, okay, well, guess I' m your new neighbor, Penny. Hi. Hi."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 67.38999999999999,
+    "end": 70.07,
+    "text": "Leonard, Sheldon. Hi. Hi."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.44,
+    "end": 68.94,
+    "text": "Hi."
+  }
+]

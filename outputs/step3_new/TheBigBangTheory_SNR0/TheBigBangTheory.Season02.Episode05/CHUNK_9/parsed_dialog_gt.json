@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 9.259999999999991,
+    "text": "Click. Now, are there air bags? What if a simulated van rear-ends me?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.159999999999968,
+    "end": 7.340000000000032,
+    "text": "You don't need air bags."
+  },
+  {
+    "speaker": "penny",
+    "start": 9.289999999999964,
+    "end": 10.490000000000009,
+    "text": "I'll hit you in the face with a pillow."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.409999999999968,
+    "end": 40.139999999999986,
+    "text": "Okay, now shift into drive, pull out slowly into traffic. Oh. Watch out. Watch, watch out, watch out for pedestrians!"
+  },
+  {
+    "speaker": "penny",
+    "start": 25.649999999999977,
+    "end": 26.25,
+    "text": "Oh."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 29.269999999999982,
+    "end": 29.879999999999995,
+    "text": "Oh."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 33.5,
+    "end": 34.710000000000036,
+    "text": "Oh God!"
+  },
+  {
+    "speaker": "penny",
+    "start": 41.35000000000002,
+    "end": 47.389999999999986,
+    "text": "Oh God, wait, slow, hit the brakes, hit the brakes!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.60000000000002,
+    "end": 57.059999999999945,
+    "text": "Thank you. Sorry... excuse me... my bad... student driver..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.26999999999998,
+    "end": 63.69999999999993,
+    "text": "How did you manage to get on the second floor of the Glendale galleria?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 64.63999999999999,
+    "end": 71.54999999999995,
+    "text": "I don't know. I was on the Pasadena freeway, I missed my exit, flew off the overpass, and one thing led to another."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.29999999999995,
+    "end": 83.76999999999998,
+    "text": "Maybe you want to give it a rest and try again tomorrow."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 85.51999999999998,
+    "end": 89.00999999999999,
+    "text": "No. I quit."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 90.75999999999999,
+    "end": 90.96000000000004,
+    "text": "Aw, the pet store?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 90.99000000000001,
+    "end": 93.81999999999994,
+    "text": "Remind me to compliment Wolowitz on the software, it's amazingly detailed."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 96.26999999999998,
+    "end": 97.76999999999998,
+    "text": "So wait,you're just gonna give up?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 98.31999999999994,
+    "end": 100.63999999999999,
+    "text": "No, I'm not giving up, I never give up."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 102.47000000000003,
+    "end": 103.84000000000003,
+    "text": "So what is it you're doing?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 104.60000000000002,
+    "end": 107.58000000000004,
+    "text": "I'm transcending the situation."
+  }
+]

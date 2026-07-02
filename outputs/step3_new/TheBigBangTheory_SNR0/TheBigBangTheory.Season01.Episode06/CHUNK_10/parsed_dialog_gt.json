@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.9700000000000273,
+    "text": "I should probably go."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.150000000000091,
+    "end": 6.519999999999982,
+    "text": "Probably."
+  },
+  {
+    "speaker": "penny",
+    "start": 11.700000000000045,
+    "end": 12.340000000000146,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.15000000000009,
+    "end": 28.710000000000036,
+    "text": "That's right, you saw what you saw. That's how we roll in The Shire."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.50999999999999,
+    "end": 38.950000000000045,
+    "text": "Coming."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 44.430000000000064,
+    "end": 45.92000000000007,
+    "text": "Hey, have you seen Koothrapali?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 46.840000000000146,
+    "end": 50.15000000000009,
+    "text": "He's not here. Maybe the Avenger summoned him."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 52.25999999999999,
+    "end": 54.820000000000164,
+    "text": "He's not the Marvel comic story, he's the original Norse God."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.99000000000001,
+    "end": 56.65000000000009,
+    "text": "Thank you for the clarification."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 57.299999999999955,
+    "end": 58.66000000000008,
+    "text": "I' m supposed to give him a ride home."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.710000000000036,
+    "end": 61.350000000000136,
+    "text": "Well I' m sure he'll be fine. He has his hammer."
+  },
+  {
+    "speaker": "cheryl",
+    "start": 69.00999999999999,
+    "end": 80.47000000000003,
+    "text": "Wow, I have to say, you are an amazing man. You're gentle and passionate, and my God, you are such a good listener!"
+  }
+]

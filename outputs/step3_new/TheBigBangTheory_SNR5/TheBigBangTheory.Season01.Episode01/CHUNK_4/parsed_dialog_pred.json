@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 0.0,
+    "end": 4.58,
+    "text": "Hey, well, make yourself at home. You're very welcome."
+  },
+  {
+    "speaker": "Penny",
+    "start": 7.72,
+    "end": 14.91,
+    "text": "Okay, thank you. This looks like some serious stuff. Leonard, did you do this? Wow."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 14.71,
+    "end": 15.11,
+    "text": "Actually, that's my work. Yeah, well, there's just some quantum mechanics with a little string theory doodling around the edges. That part there, that's just a joke. It's a spoof of the Born Oppenheimer approximation."
+  },
+  {
+    "speaker": "Penny",
+    "start": 25.16,
+    "end": 29.02,
+    "text": "You're like one of those purple mind genius guys."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 31.36,
+    "end": 36.3,
+    "text": "Yeah. I have a board. If you like boards, this is my board."
+  },
+  {
+    "speaker": "Penny",
+    "start": 32.26,
+    "end": 33.71,
+    "text": "This is really impressive."
+  },
+  {
+    "speaker": "Penny",
+    "start": 37.14,
+    "end": 38.83,
+    "text": "Holy smokes!"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 38.83,
+    "end": 39.03,
+    "text": "If by holy smokes you mean a derivative restatement of the kind of stuff you can find scribbled on the wall of any men's room at MIT, sure."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.64,
+    "end": 46.66,
+    "text": "What?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 46.66,
+    "end": 50.78,
+    "text": "Come on. Who hasn't seen this differential below here I sit broken hearted?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 50.78,
+    "end": 55.21,
+    "text": "At least I didn't have to invent twenty-six dimensions just to make the math come out."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 55.21,
+    "end": 59.67,
+    "text": "I didn't invent them. They're there. In all of them, that is the point."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 56.84,
+    "end": 57.79,
+    "text": "In what universe?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 59.67,
+    "end": 61.99,
+    "text": "Uh, do you guys mind if I start?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 61.99,
+    "end": 65.76,
+    "text": "Um, Penny, that's where I sit."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 65.76,
+    "end": 66.61,
+    "text": "Ah!"
+  }
+]

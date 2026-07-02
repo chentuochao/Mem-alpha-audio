@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.8100000000000591,
+    "text": "Thank you for the clarification."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 5.769999999999982,
+    "end": 16.590000000000032,
+    "text": "Draft. You see people hear the word year and they think duration. Foot pound has the same problem, that's a unit of work, not of weight. It's a common mistake."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.720000000000027,
+    "end": 18.350000000000023,
+    "text": "Right, thanks. Not the first one I' ve made today."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.970000000000027,
+    "end": 23.0,
+    "text": "Okay. I think this will be my seat."
+  },
+  {
+    "speaker": "penny",
+    "start": 24.670000000000073,
+    "end": 28.639999999999986,
+    "text": "Sheldon, do you have anything to say that has anything to do with, you know, what I' m talking about."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.850000000000023,
+    "end": 33.75999999999999,
+    "text": "Well, let's see. We might consider Schrodinger's Cat."
+  },
+  {
+    "speaker": "penny",
+    "start": 34.42000000000007,
+    "end": 36.84000000000003,
+    "text": "Schrodinger? Is that the woman in 2A?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.210000000000036,
+    "end": 41.85000000000002,
+    "text": "No. That's Mrs Grossinger. And she doesn't have a cat, she has a Mexican hairless, annoying little animal, yip yip yip yip..."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.90999999999997,
+    "end": 42.09000000000003,
+    "text": "Sheldon!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.74000000000001,
+    "end": 68.34000000000003,
+    "text": "Sorry, you diverted me. Anyway, in 1935, Erwin Schrodinger, in an attempt to explain the Copenhagen interpretation of quantum physics, he proposed an experiment where a cat is placed in a box with a sealed vial of poison that will break open at a random time. Now, since no- one knows when or if the poison has been released, until the box is opened, the cat can be thought of as both alive and dead."
+  }
+]

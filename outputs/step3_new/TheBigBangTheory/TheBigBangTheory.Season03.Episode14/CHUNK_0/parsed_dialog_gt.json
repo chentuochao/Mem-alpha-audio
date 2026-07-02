@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.2699999999999996,
+    "text": "Whatcha doing?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.0799999999999983,
+    "end": 6.329999999999998,
+    "text": "I'm attempting to view my work as a fleeting peripheral image so as to engage the superior colliculus of my brain."
+  },
+  {
+    "speaker": "penny",
+    "start": 10.04,
+    "end": 16.54,
+    "text": "Interesting. I usually just have coffee. You've been up all night? Yes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.989999999999998,
+    "end": 17.47,
+    "text": "Is it morning? Then I've been up all night."
+  },
+  {
+    "speaker": "penny",
+    "start": 21.14,
+    "end": 21.93,
+    "text": "And you're stuck?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.25,
+    "end": 25.04,
+    "text": "Why else would a person try to engage their superior colliculus?"
+  },
+  {
+    "speaker": "penny",
+    "start": 25.08,
+    "end": 28.72,
+    "text": "Oh, sorry, sweetie, I can't help you till I've had my coffee."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 36.89,
+    "end": 40.17,
+    "text": "Penny, I told you if you don't put him in his crate at night he just runs around the apartment."
+  },
+  {
+    "speaker": "penny",
+    "start": 44.31,
+    "end": 45.769999999999996,
+    "text": "What is he doing now?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 46.589999999999996,
+    "end": 56.56,
+    "text": "Mmm, he's either isolating the terms of his formula and examining them individually, or looking for the alligator that swallowed his hand after Peter Pan cut it off."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.0,
+    "end": 65.12,
+    "text": "Captain Hook's hand was eaten by a crocodile, not an alligator. If you're going to mock me, at least get your facts straight."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.3,
+    "end": 67.55,
+    "text": "Aye, aye, Captain."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.85,
+    "end": 72.74,
+    "text": "I can't see it! It just won't coalesce."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.08,
+    "end": 74.27,
+    "text": "Maybe you need a fresh start."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.59,
+    "end": 76.23,
+    "text": "You're right."
+  }
+]

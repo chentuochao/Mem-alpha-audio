@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 2.88,
+    "end": 3.92,
+    "text": "Ah. Hi."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 3.92,
+    "end": 9.01,
+    "text": "Yeah, hi, listen, I know what's been bothering you about us, and I have the answer. First, I want to say that it's not Sheldon's fault. He tried very hard to keep your secret. If Howard hadn't drugged him, he would have taken it to his grave."
+  },
+  {
+    "speaker": "Penny",
+    "start": 7.84,
+    "end": 8.81,
+    "text": "What are you talking about?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 16.91,
+    "end": 18.09,
+    "text": "He told you?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 18.09,
+    "end": 22.84,
+    "text": "Yes, but it's okay. Now that we know what the problem is, there's a simple solution."
+  },
+  {
+    "speaker": "Penny",
+    "start": 23.28,
+    "end": 25.48,
+    "text": "Pasadena City College?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 25.52,
+    "end": 35.11,
+    "text": "A place for fun, a place for knowledge. See, this man here is playing hacky sack, and this girl's gonna be a paralegal."
+  },
+  {
+    "speaker": "Penny",
+    "start": 35.11,
+    "end": 35.31,
+    "text": "Oh, I get it, because Dr. Leonard Hofstadter can't date a girl without a fancy college degree."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 42.97,
+    "end": 46.41,
+    "text": "Well, it's really not that fancy. It's just a city college."
+  },
+  {
+    "speaker": "Penny",
+    "start": 47.13,
+    "end": 49.98,
+    "text": "Right, but I have to have some sort of degree to date you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 49.98,
+    "end": 51.6,
+    "text": "That doesn't matter to me at all."
+  },
+  {
+    "speaker": "Penny",
+    "start": 51.6,
+    "end": 54.23,
+    "text": "So it's fine with you if I'm not smart."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.23,
+    "end": 66.65,
+    "text": "Absolutely. Okay, this time I know where I went wrong. Uh, bite me."
+  }
+]

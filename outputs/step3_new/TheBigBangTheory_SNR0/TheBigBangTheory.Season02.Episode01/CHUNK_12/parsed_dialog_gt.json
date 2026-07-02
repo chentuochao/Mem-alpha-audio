@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.3500000000001364,
+    "text": "Hi."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.069999999999936,
+    "end": 15.63000000000011,
+    "text": "Yeah, hi, listen, I know what's been bothering you about us, and I have the answer. First I want to say that it's not Sheldon's fault, he tried very hard to keep your secret, if Howard hadn't drugged him he would have taken it to his grave."
+  },
+  {
+    "speaker": "penny",
+    "start": 7.970000000000027,
+    "end": 8.860000000000127,
+    "text": "What are you talking about."
+  },
+  {
+    "speaker": "penny",
+    "start": 17.25,
+    "end": 18.12000000000012,
+    "text": "He told you?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.220000000000027,
+    "end": 22.450000000000045,
+    "text": "Yes, but it's okay. Now that we know what the problem is, there's a simple solution."
+  },
+  {
+    "speaker": "penny",
+    "start": 23.569999999999936,
+    "end": 25.38000000000011,
+    "text": "Pasadena city college?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 25.829999999999927,
+    "end": 34.58999999999992,
+    "text": "A place for fun, a place for knowledge. See, this man here's playing hacky sack, and this girl's going to be a paralegal."
+  },
+  {
+    "speaker": "penny",
+    "start": 37.40000000000009,
+    "end": 42.559999999999945,
+    "text": "Wow, I get it, because Dr Leonard Hofstadter can't date a girl without a fancy college degree."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.289999999999964,
+    "end": 45.850000000000136,
+    "text": "Well, it's really not that fancy, it's just a city college."
+  },
+  {
+    "speaker": "penny",
+    "start": 47.52999999999997,
+    "end": 50.069999999999936,
+    "text": "Right, but I have to have some sort of degree to date you?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 50.16000000000008,
+    "end": 51.66000000000008,
+    "text": "That doesn't matter to me at all."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.72000000000003,
+    "end": 54.36000000000013,
+    "text": "So, it's fine with you if I'm not smart."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.3900000000001,
+    "end": 55.32999999999993,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.819999999999936,
+    "end": 66.65000000000009,
+    "text": "Okay, this time I know where I went wrong. Oh bite me!"
+  }
+]

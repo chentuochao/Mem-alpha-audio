@@ -1,0 +1,182 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 3.3500000000000227,
+    "text": "Hey. Yeah, come on in. What's up?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.5199999999999818,
+    "end": 1.2200000000000273,
+    "text": "Hey, you got a minute?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.8600000000000136,
+    "end": 5.340000000000032,
+    "text": "I need you to apologize to How..."
+  },
+  {
+    "speaker": "penny",
+    "start": 5.4500000000000455,
+    "end": 5.759999999999991,
+    "text": "Get out."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 7.560000000000059,
+    "end": 11.090000000000032,
+    "text": "Come on. Wolowitz won't come out of his house and we need him for a robot battle."
+  },
+  {
+    "speaker": "penny",
+    "start": 11.240000000000009,
+    "end": 12.730000000000018,
+    "text": "Well, then have the robot go and get him."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.259999999999991,
+    "end": 14.940000000000055,
+    "text": "The robot didn't hurt his feelings."
+  },
+  {
+    "speaker": "penny",
+    "start": 15.230000000000018,
+    "end": 16.769999999999982,
+    "text": "His feelings needed to be hurt."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.950000000000045,
+    "end": 18.690000000000055,
+    "text": "He's been in bed for two days."
+  },
+  {
+    "speaker": "penny",
+    "start": 18.75999999999999,
+    "end": 20.340000000000032,
+    "text": "Yeah, probably with a blow-up doll."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 21.850000000000023,
+    "end": 28.420000000000073,
+    "text": "He's not with a... does it really matter who or what he's with? The guy is devastated."
+  },
+  {
+    "speaker": "penny",
+    "start": 28.540000000000077,
+    "end": 30.879999999999995,
+    "text": "Oh, please, how could I possibly devastate Howard?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 31.899999999999977,
+    "end": 37.950000000000045,
+    "text": "Okay, don't take this as a criticism, but you kind of have that overexposed-to-gamma-rays thing going on."
+  },
+  {
+    "speaker": "penny",
+    "start": 38.120000000000005,
+    "end": 38.870000000000005,
+    "text": "What does that mean?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 39.76999999999998,
+    "end": 45.50999999999999,
+    "text": "You know, like, most of the time, you're the easygoing Bruce Banner, but then, when you get angry, you kind of turn into, like, you know, grrrrr!"
+  },
+  {
+    "speaker": "penny",
+    "start": 49.200000000000045,
+    "end": 50.29000000000008,
+    "text": "I turn into a bear?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.460000000000036,
+    "end": 59.35000000000002,
+    "text": "Seriously? Gamma rays? Bruce Banner? You didn't get The Incredible Hulk from that? Never mind, just, please go talk to him."
+  },
+  {
+    "speaker": "penny",
+    "start": 59.700000000000045,
+    "end": 62.15999999999997,
+    "text": "And say what? That I didn't mean it, because I meant it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.5,
+    "end": 72.99000000000001,
+    "text": "Well, maybe you can go at it from a different angle, like, um, you see a glimmer of goodness in him and you only said what you said because you want to nurture it and make it shine."
+  },
+  {
+    "speaker": "penny",
+    "start": 75.05000000000007,
+    "end": 76.11000000000001,
+    "text": "Oh, pthththth."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 77.82000000000005,
+    "end": 93.34000000000003,
+    "text": "Okay, let's try it this way. Remember the day that we first met and you asked me to go to your boyfriend's apartment to get your TV back and he was nine feet tall and he took my pants off and you said... what was that? What did you say? Oh, yes, you said you owed me one."
+  },
+  {
+    "speaker": "penny",
+    "start": 95.06000000000006,
+    "end": 96.64999999999998,
+    "text": "Okay, come on, that's not fair."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 96.74000000000001,
+    "end": 98.45000000000005,
+    "text": "I came home with no pants."
+  },
+  {
+    "speaker": "penny",
+    "start": 101.12,
+    "end": 103.06000000000006,
+    "text": "Fine, I'll go over there tomorrow."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 103.90999999999997,
+    "end": 109.55000000000007,
+    "text": "Thank you. I should probably give you a heads up about his mother."
+  },
+  {
+    "speaker": "penny",
+    "start": 109.75999999999999,
+    "end": 110.38,
+    "text": "What about her?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 111.45000000000005,
+    "end": 113.10000000000002,
+    "text": "She's a delightful woman. You'll love her."
+  },
+  {
+    "speaker": "penny",
+    "start": 113.10000000000002,
+    "end": 113.10000000000002,
+    "text": "Hey."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 113.10000000000002,
+    "end": 113.10000000000002,
+    "text": "Who? I don't want to talk to her. Ma!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 113.10000000000002,
+    "end": 113.22000000000003,
+    "text": "Howard, there's a blonde girl, Patsy, here to see you! Okay, now she's saying it's Penny. She ran past me. Was I supposed to tackle her?"
+  }
+]

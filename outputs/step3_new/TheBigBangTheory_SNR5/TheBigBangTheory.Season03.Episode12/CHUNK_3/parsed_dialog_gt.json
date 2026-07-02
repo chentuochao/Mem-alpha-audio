@@ -1,0 +1,200 @@
+[
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 0.0,
+    "end": 1.4399999999999977,
+    "text": "I'm sliding into third."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 5.949999999999989,
+    "end": 6.7099999999999795,
+    "text": "Thanks for coming with me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 7.039999999999964,
+    "end": 9.680000000000007,
+    "text": "Thanks for giving me your limited edition Green Lantern lantern."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 11.060000000000002,
+    "end": 12.229999999999961,
+    "text": "Did you really have to bring it in with you?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.990000000000009,
+    "end": 15.339999999999975,
+    "text": "What if evil strikes and my power ring runs low?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 19.99000000000001,
+    "end": 30.44999999999999,
+    "text": "Come on, let's get a drink. Yeah, well I do. And when my wingman is carrying a Green Lantern lantern, I drink a lot. I'll have a screwdriver, please. Don't be chintzy with the screw."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.849999999999966,
+    "end": 22.44999999999999,
+    "text": "I don't drink."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.389999999999986,
+    "end": 33.47999999999996,
+    "text": "I would like a root beer float."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 35.539999999999964,
+    "end": 36.889999999999986,
+    "text": "Sheldon, they don't have ice cream."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.089999999999975,
+    "end": 41.829999999999984,
+    "text": "They don't? Well, apparently, these people and I differ greatly on the definition of party."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 43.25,
+    "end": 44.339999999999975,
+    "text": "He'll have a Shirley Temple."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.74000000000001,
+    "end": 46.02999999999997,
+    "text": "And don't be chintzy with the Shirley."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 51.14999999999998,
+    "end": 53.19,
+    "text": "Okay, let's check out the females."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 53.31,
+    "end": 55.31999999999999,
+    "text": "All right. There's a female."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 56.50999999999999,
+    "end": 58.95999999999998,
+    "text": "That's Professor Wilkinson's wife, she's like 80 years old."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.80000000000001,
+    "end": 61.599999999999966,
+    "text": "But she's female. Isn't that the game?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 62.06999999999999,
+    "end": 63.629999999999995,
+    "text": "No. I'm looking for a hookup."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 64.19999999999999,
+    "end": 68.53999999999996,
+    "text": "Oh, yes. So, the point of this exercise is for you to find someone to copulate with?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 69.94,
+    "end": 73.58999999999997,
+    "text": "Not so loud, but ideally, yes. Thanks."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.13999999999999,
+    "end": 79.45999999999998,
+    "text": "Thank you. And what is my function as wingman?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 80.22999999999996,
+    "end": 81.34999999999997,
+    "text": "You help me run my game."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.68,
+    "end": 81.99000000000001,
+    "text": "Okay."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 83.75,
+    "end": 89.30000000000001,
+    "text": "What is your game? When I lie through my teeth to a woman, you nod and agree."
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season03.Episode12",
+    "start": 90.05000000000001,
+    "end": 93.03999999999996,
+    "text": "Hey, that's pretty cool. What is it?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 93.78999999999996,
+    "end": 98.57,
+    "text": "It's a limited edition Green Lantern lantern. My friend is looking for someone to copulate with."
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season03.Episode12",
+    "start": 100.86000000000001,
+    "end": 102.44,
+    "text": "You're very funny. I'm Abby."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 102.70999999999998,
+    "end": 103.69,
+    "text": "I'm Sheldon. How do you do?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 103.78999999999996,
+    "end": 107.30000000000001,
+    "text": "How do you do? Rajesh Ramayan Koothrappali. Call me Raj."
+  },
+  {
+    "speaker": "abby",
+    "start": 107.74000000000001,
+    "end": 109.07999999999998,
+    "text": "Hi, Raj. Where are you from?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 109.31,
+    "end": 113.34999999999997,
+    "text": "The mysterious subcontinent of India. You know India?"
+  },
+  {
+    "speaker": "abby",
+    "start": 111.64999999999998,
+    "end": 114.82999999999998,
+    "text": "Ooh, India. I saw Slumdog Millionaire."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 115.21999999999997,
+    "end": 117.5,
+    "text": "Well, I'm a slumdog astrophysicist."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 120.03999999999996,
+    "end": 123.69,
+    "text": "I thought your father was a gynaecologist. I'm sorry."
+  }
+]

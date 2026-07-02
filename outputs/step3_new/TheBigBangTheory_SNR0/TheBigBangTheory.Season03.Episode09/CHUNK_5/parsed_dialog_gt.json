@@ -1,0 +1,158 @@
+[
+  {
+    "speaker": "radio#unknown#TheBigBangTheory.Season03.Episode09",
+    "start": 0.0,
+    "end": 9.990000000000009,
+    "text": "This is Ira Flatow and you're listening to NPR's Science Friday. Joining us today by phone from his office in Pasadena, California is Dr. Sheldon Cooper."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 10.890000000000043,
+    "end": 14.5,
+    "text": "Oh, this is going to be a wiot."
+  },
+  {
+    "speaker": "radio#unknown#TheBigBangTheory.Season03.Episode09",
+    "start": 15.400000000000034,
+    "end": 17.150000000000034,
+    "text": "Thanks for being with us today, Dr. Cooper."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.689999999999998,
+    "end": 18.920000000000016,
+    "text": "My pleasure, Ira."
+  },
+  {
+    "speaker": "ira_flatow",
+    "start": 19.430000000000007,
+    "end": 26.569999999999993,
+    "text": "Now, let's talk about magnetic monopoles. Can you explain to our audience just what a monopole is?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.99000000000001,
+    "end": 34.89000000000004,
+    "text": "Of course. First, consider an ordinary magnet which has, as even the most uneducated in your audience must know, two poles, a north and south pole. If you cut that in half, you have"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.26000000000005,
+    "end": 46.85000000000002,
+    "text": "two smaller magnets, each with its own north and south pole."
+  },
+  {
+    "speaker": "ira_flatow",
+    "start": 47.48000000000002,
+    "end": 51.25,
+    "text": "Uh, Dr. Cooper, I think there might be something wrong with our connection."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.55000000000001,
+    "end": 85.71999999999997,
+    "text": "No, I hear you fine. As I was saying, an ordinary magnet has two poles. The primary characteristic of a monopole is that it has only one pole, hence, monopole. A requirement for string theory, or M-theory, if you will, is the existence of such monopoles. I, myself, led an expedition to the Arctic Circle in search of said particles. Kripke, I found the nozzle! I'm going to kill you!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 86.27000000000004,
+    "end": 90.43,
+    "text": "So nice you could join me this evening. You're looking lovely as always."
+  },
+  {
+    "speaker": "katee_sackhoff",
+    "start": 92.07,
+    "end": 95.00000000000006,
+    "text": "Thanks, Howard. Always nice to be part of your masturbatory fantasies."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 97.68,
+    "end": 100.26000000000005,
+    "text": "Come on, Katee, don't make it sound so cheap."
+  },
+  {
+    "speaker": "katee_sackhoff",
+    "start": 100.74000000000007,
+    "end": 103.90000000000003,
+    "text": "I'm sorry, fiddling with yourself in the bathtub is a real class act."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 106.68,
+    "end": 110.41000000000003,
+    "text": "Thank you. So, shall we get started?"
+  },
+  {
+    "speaker": "katee_sackhoff",
+    "start": 112.69999999999999,
+    "end": 115.29000000000002,
+    "text": "Sure. But can I ask you a question first?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 115.56,
+    "end": 116.77000000000004,
+    "text": "You want to play Cylon and colonist?"
+  },
+  {
+    "speaker": "katee_sackhoff",
+    "start": 117.93,
+    "end": 122.45999999999998,
+    "text": "No. I want to know why you're playing make-believe with me when you could be out with a real woman tonight."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 123.75000000000006,
+    "end": 124.44,
+    "text": "You mean, Bernadette?"
+  },
+  {
+    "speaker": "katee_sackhoff",
+    "start": 124.79000000000002,
+    "end": 131.27000000000004,
+    "text": "No, I mean Princess Leia. Of course I mean Bernadette. She's a wonderful girl and she really likes you."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 131.95999999999998,
+    "end": 133.91000000000003,
+    "text": "I know, but she's not you."
+  },
+  {
+    "speaker": "katee_sackhoff",
+    "start": 134.45,
+    "end": 141.78000000000003,
+    "text": "I'm not me. The real me is in Beverly Hills going out with a tall, handsome, rich guy. Six-four."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 140.19,
+    "end": 142.38000000000005,
+    "text": "Really? Tall? Ouch."
+  },
+  {
+    "speaker": "katee_sackhoff",
+    "start": 144.24000000000007,
+    "end": 150.55,
+    "text": "The point is, you've got a wonderful girl in your life, and you're ignoring her in order to spend your nights in the bathtub with a mental image and a wash cloth."
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 151.42000000000002,
+    "end": 154.91000000000003,
+    "text": "Howard! What are you doing in there?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 155.79000000000002,
+    "end": 157.53000000000003,
+    "text": "I'm taking a bath!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 158.41000000000003,
+    "end": 161.73000000000008,
+    "text": "I hope that's all you're doing! We share that tub!"
+  }
+]

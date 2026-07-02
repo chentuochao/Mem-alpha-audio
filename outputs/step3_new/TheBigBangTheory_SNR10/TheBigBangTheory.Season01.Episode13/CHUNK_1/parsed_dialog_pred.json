@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.0,
+    "end": 2.24,
+    "text": "Count me out. You want me to use my intelligence in a tawdry competition? Would you ask Picasso to play Pictionary? Did you ask Noah Webster to play Boggle? Would you ask Jacques Cousteau to play Go Fish?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 15.86,
+    "end": 19.44,
+    "text": "What? Come on, you need a four-person team. We're four people."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 19.44,
+    "end": 24.92,
+    "text": "By that reasoning, we should also play bridge, hold up a hula hoop, and enter the Olympic bobsled competition."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 28.02,
+    "end": 32.19,
+    "text": "Shall we do it? Do I need to quote Spock's dying words to you?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.19,
+    "end": 32.39,
+    "text": "No, don't. The needs of the many outweigh the needs of the few or the one. Damn it, I'll do it."
+  },
+  {
+    "speaker": "Raj",
+    "start": 73.36,
+    "end": 87.25,
+    "text": "Okay. First order of physics, bold business. We need a truly kick-ass team name. Suggestions? I like it."
+  },
+  {
+    "speaker": "Howard",
+    "start": 80.61999999999999,
+    "end": 85.74,
+    "text": "How about the perpetual motion squad? It's beyond the laws of physics plus a little heads up for the ladies. Perpetual motion squad, we can go all night."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 81.02,
+    "end": 82.54,
+    "text": "The ladies?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 87.25,
+    "end": 92.95,
+    "text": "I don't. Teams are traditionally named after fierce creatures, thus intimidating one's opponent."
+  },
+  {
+    "speaker": "Raj",
+    "start": 92.95,
+    "end": 94.76,
+    "text": "Then we could be the Bengal tigers."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 94.76,
+    "end": 100.66,
+    "text": "Poor choice. Yeah, gram for gram, no animal exceeds the relative fighting strength of the army ant."
+  },
+  {
+    "speaker": "Raj",
+    "start": 100.8,
+    "end": 105.2,
+    "text": "Maybe so. But you can't incinerate a Bengal tiger with a magnifying glass."
+  }
+]

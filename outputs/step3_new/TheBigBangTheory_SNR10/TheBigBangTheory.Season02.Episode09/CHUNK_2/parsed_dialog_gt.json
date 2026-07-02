@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.3700000000000045,
+    "text": "I could think about you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 4.719999999999999,
+    "end": 5.780000000000001,
+    "text": "Fine, whatever works."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.430000000000007,
+    "end": 9.810000000000002,
+    "text": "Always nice talking to you, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.389999999999986,
+    "end": 11.280000000000001,
+    "text": "Uh, peace out!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.370000000000005,
+    "end": 46.75999999999999,
+    "text": "Well, this is very pleasant."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.16,
+    "end": 50.359999999999985,
+    "text": "I'm glad you're enjoying yourself."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.78,
+    "end": 53.26999999999998,
+    "text": "And you said there'd never be enough pasta for the three of us."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.56999999999999,
+    "end": 55.870000000000005,
+    "text": "I stand corrected."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.25,
+    "end": 65.15,
+    "text": "You know, Italian housewives have a rule of thumb. A handful of dry pasta about an inch in diameter is sufficient for each person as it doubles in volume when cooked."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 66.78999999999999,
+    "end": 67.75,
+    "text": "That's very interesting."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.81,
+    "end": 68.37,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 68.44,
+    "end": 70.15,
+    "text": "She doesn't mean it. She's just being nice."
+  }
+]

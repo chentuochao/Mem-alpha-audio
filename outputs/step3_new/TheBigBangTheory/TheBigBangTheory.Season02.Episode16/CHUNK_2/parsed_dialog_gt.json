@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 2.930000000000007,
+    "text": "Howard, why aren't you covering us? We're getting slaughtered out here!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 4.159999999999997,
+    "end": 8.439999999999998,
+    "text": "War is hell."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 30.789999999999992,
+    "end": 32.78,
+    "text": "Did you guys see the new budget memo that went out this morning?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 32.95000000000002,
+    "end": 34.16,
+    "text": "Yeah, more cutbacks."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.56999999999999,
+    "end": 40.56999999999999,
+    "text": "Unacceptable. It baffles me why they don't simply let some of you go so that there's money available for my research."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.56,
+    "end": 44.170000000000016,
+    "text": "You know what baffles me, Sheldon?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.390000000000015,
+    "end": 47.150000000000006,
+    "text": "Based on your academic record, any number of things, I would imagine."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 47.99000000000001,
+    "end": 52.09,
+    "text": "Hey, guys. Howard, I got the approval for the rapid prototyper you wanted."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.72,
+    "end": 48.98000000000002,
+    "text": "Hey, Leslie."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 49.24000000000001,
+    "end": 49.370000000000005,
+    "text": "Hey."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 52.390000000000015,
+    "end": 54.31,
+    "text": "That's great, Leslie. Thanks."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 54.48000000000002,
+    "end": 56.849999999999994,
+    "text": "You scratch my back, I scratch yours. Rawr."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 60.370000000000005,
+    "end": 61.43000000000001,
+    "text": "What was all that about?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 61.97,
+    "end": 66.18,
+    "text": "Oh, uh, no big deal. They gave Leslie control of some unrestricted grant money."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.57,
+    "end": 69.96000000000001,
+    "text": "Yeah, okay, but what's with the back-scratching and the meow!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 71.89000000000001,
+    "end": 79.84,
+    "text": "I believe the back-scratching metaphor generally describes a quid pro quo situation where one party provides goods or services to the second party in compensation for a similar action."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 80.95000000000002,
+    "end": 81.52000000000001,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.55000000000001,
+    "end": 85.28,
+    "text": "The mrow, that sounded to me like an African civet cat."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 86.49000000000001,
+    "end": 88.30000000000001,
+    "text": "Are you done?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 89.5,
+    "end": 95.37000000000003,
+    "text": "No. Despite what the name suggests, the civet cat is not a true cat."
+  }
+]

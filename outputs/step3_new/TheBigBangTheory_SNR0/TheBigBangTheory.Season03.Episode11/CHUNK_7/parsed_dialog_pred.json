@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 12.110000000000001,
+    "end": 17.5,
+    "text": "What you're experiencing is a classic Jungian crisis in which the aging individual mourns the loss of the never-to-be-realized ideal family unit. That's not the comforting part. No, no. The comforting part is that the Germans have a term for what you're feeling. Beltschutz It means the depression that arises from comparing the world as it is to a hypothetical idealized world."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 15.700000000000001,
+    "end": 17.3,
+    "text": "Thank you, that's very comforting. It's not."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 32.23,
+    "end": 35.12,
+    "text": "You're right, I do feel better."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 35.12,
+    "end": 40.7,
+    "text": "The Germans have always been a comforting people. Just remember, Leonard, where your biological family has failed you, you always have me. Your surrogate family."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 50.1,
+    "end": 52.82,
+    "text": "You're my surrogate family?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 52.82,
+    "end": 56.46,
+    "text": "If it's any consolation, I'm not happy about it either, good night."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 59.34,
+    "end": 62.78,
+    "text": "Okay, now this time try drinking it all at once."
+  }
+]

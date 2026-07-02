@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 9.22,
+    "end": 11.55,
+    "text": "Now you're the doctor, but I'm constantly hearing this annoying sound. Is it a high frequency whistle?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 11.350000000000001,
+    "end": 15.36,
+    "text": "Me too. No, it's more of a relentless narcissistic drone."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 15.940000000000001,
+    "end": 18.71,
+    "text": "I don't see anything at all, Sheldon. Yep, there's no inflammation at all, Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 18.71,
+    "end": 20.66,
+    "text": "Then it must be a tumor."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 22.52,
+    "end": 24.21,
+    "text": "Seriously doubt it."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 24.21,
+    "end": 28.86,
+    "text": "Maybe it's a lingering bacterial infection from all those childhood toilet swirlies."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 29.47,
+    "end": 34.85,
+    "text": "Is that possible? I used to get those all the time. Even in church."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 35.51,
+    "end": 35.71,
+    "text": "Well, you know, if it is from a swirly, there's something I can do. Ready? Circle, circle, dot, dot. Now you have a cootie shot."
+  },
+  {
+    "speaker": "Stephanie",
+    "start": 46.39,
+    "end": 47.75,
+    "text": "I'm going to bed."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 47.75,
+    "end": 49.39,
+    "text": "Okay, I'll be right in."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 50.19,
+    "end": 54.97,
+    "text": "It's not enough that she mocks me, but that isn't even the correct procedure for a cootie shot."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.11,
+    "end": 59.79,
+    "text": "Do you understand that Stephanie's not here to treat your imaginary ailments?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 59.79,
+    "end": 59.99,
+    "text": "How is it imaginary that I keep hearing an octave above middle C? Is that imaginary? I don't think so."
+  }
+]

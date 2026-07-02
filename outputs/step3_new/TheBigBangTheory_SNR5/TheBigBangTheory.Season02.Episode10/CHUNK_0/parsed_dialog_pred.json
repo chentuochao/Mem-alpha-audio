@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 9.22,
+    "end": 11.55,
+    "text": "Now, you're the doctor, but I'm constantly hearing this annoying sound. Is it a high frequency whistle?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 11.350000000000001,
+    "end": 15.36,
+    "text": "Me too. No, it's more of a relentless narcissistic drone."
+  },
+  {
+    "speaker": "Stephanie Barnett",
+    "start": 15.940000000000001,
+    "end": 18.71,
+    "text": "I don't see anything at all, Sheldon. Yep, there's no inflammation at all, Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 18.71,
+    "end": 20.74,
+    "text": "Then it must be a tumor."
+  },
+  {
+    "speaker": "Stephanie Barnett",
+    "start": 22.54,
+    "end": 24.21,
+    "text": "Seriously doubt it."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 24.21,
+    "end": 28.86,
+    "text": "Maybe it's a lingering bacterial infection from all those childhood toilet swirlies."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 29.46,
+    "end": 34.86,
+    "text": "Is that possible? I used to get those all the time. Even in church."
+  },
+  {
+    "speaker": "Stephanie Barnett",
+    "start": 35.52,
+    "end": 35.720000000000006,
+    "text": "Well, you know, if it is from a swirly, there's something I can do. Ready? Circle, circle, dot, dot. Now you have a cootie shot."
+  },
+  {
+    "speaker": "Stephanie Barnett",
+    "start": 46.4,
+    "end": 47.77,
+    "text": "I'm going to bed."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 47.77,
+    "end": 49.38,
+    "text": "Okay, I'll be right in."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 50.36,
+    "end": 54.96,
+    "text": "It's not enough that she minds me, that isn't even the correct procedure for a cootie shot."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.13,
+    "end": 59.78,
+    "text": "Do you understand that Stephanie's not here to treat your imaginary ailments?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 59.78,
+    "end": 59.980000000000004,
+    "text": "How is it imaginary that I keep hearing an octave above middle C? Is that imaginary? I don't think so."
+  }
+]

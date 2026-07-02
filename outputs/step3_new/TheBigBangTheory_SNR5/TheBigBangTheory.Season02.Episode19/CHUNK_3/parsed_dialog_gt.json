@@ -1,0 +1,128 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 2.3899999999999864,
+    "text": "Thank you so much for giving me the opportunity to help."
+  },
+  {
+    "speaker": "penny",
+    "start": 3.3799999999999955,
+    "end": 4.860000000000014,
+    "text": "Oh, hey, guys."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 5.850000000000023,
+    "end": 7.889999999999986,
+    "text": "Hey, Penny. this is Alicia, our new neighbour."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.579999999999984,
+    "end": 8.930000000000007,
+    "text": "Hi."
+  },
+  {
+    "speaker": "alicia",
+    "start": 9.620000000000005,
+    "end": 9.970000000000027,
+    "text": "Hi."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.670000000000016,
+    "end": 11.360000000000014,
+    "text": "I'm helping."
+  },
+  {
+    "speaker": "penny",
+    "start": 12.050000000000011,
+    "end": 13.100000000000023,
+    "text": "I can see."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.79000000000002,
+    "end": 21.139999999999986,
+    "text": "Alicia's non-musical, childless and pro-rug. She's still on probation, of course, but I like her."
+  },
+  {
+    "speaker": "alicia",
+    "start": 22.420000000000016,
+    "end": 23.180000000000007,
+    "text": "Cool t-shirt."
+  },
+  {
+    "speaker": "penny",
+    "start": 23.569999999999993,
+    "end": 28.850000000000023,
+    "text": "Oh, yeah, I don't usually dress like this. I'm going jogging. I can start."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.269999999999982,
+    "end": 27.920000000000016,
+    "text": "You don't jog."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.45999999999998,
+    "end": 36.079999999999984,
+    "text": "True, but the more likely explanation for your attire is that you're out of clean clothes again. You're welcome, Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 34.34000000000003,
+    "end": 35.129999999999995,
+    "text": "Thank you, Sheldon."
+  },
+  {
+    "speaker": "alicia",
+    "start": 37.370000000000005,
+    "end": 40.68000000000001,
+    "text": "Please, you look cute. I'm dressed like a slob today, too."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.49000000000001,
+    "end": 43.5,
+    "text": "I think you look fantastic."
+  },
+  {
+    "speaker": "alicia",
+    "start": 44.31,
+    "end": 46.31999999999999,
+    "text": "This one's a player, huh?"
+  },
+  {
+    "speaker": "penny",
+    "start": 47.129999999999995,
+    "end": 48.74000000000001,
+    "text": "Oh, yeah, be careful."
+  },
+  {
+    "speaker": "alicia",
+    "start": 49.55000000000001,
+    "end": 51.74000000000001,
+    "text": "Thanks for the warning. I'll see you around."
+  },
+  {
+    "speaker": "penny",
+    "start": 50.620000000000005,
+    "end": 50.94999999999999,
+    "text": "Okay."
+  },
+  {
+    "speaker": "penny",
+    "start": 52.84000000000003,
+    "end": 58.31999999999999,
+    "text": "See ya. I'm dressed like a slob today, too."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.410000000000025,
+    "end": 72.38,
+    "text": "Oh, mimicry. I enjoy mimicry. I've been working on Admiral Ackbar from Return of the Jedi.\" It's a trap.\" You have to imagine me with a giant squid head."
+  }
+]

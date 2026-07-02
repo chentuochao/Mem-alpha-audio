@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.0,
+    "end": 4.7,
+    "text": "You're going up Euclid Avenue? Leonard takes Los Robles Avenue."
+  },
+  {
+    "speaker": "Penny",
+    "start": 4.5,
+    "end": 6.35,
+    "text": "Mm-hmm. Good for Leonard."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 6.35,
+    "end": 6.55,
+    "text": "Euclid Avenue is shorter as the crow flies, but it has speed bumps, which appreciably increase point-to-point drive time, making it the less efficient choice. But you have the con."
+  },
+  {
+    "speaker": "Penny",
+    "start": 18.22,
+    "end": 19.66,
+    "text": "Oh."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 20.5,
+    "end": 34.580000000000005,
+    "text": "Of course, if you're not going to slow down to the speed bumps, I withdraw my previous objection. Here's a fun question. Do you know what the most common street name is? The answer's tricky. It's 2nd Street. You see, you'd think it would be 1st Street, but in most towns, 1st Street eventually gets renamed to something else, you know, like Main Street, Broad Street, Michigan Avenue."
+  },
+  {
+    "speaker": "Penny",
+    "start": 31.41,
+    "end": 32.01,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 46.14,
+    "end": 46.34,
+    "text": "Leonard and I often use our commute time to exercise our minds with brain teasers like that. We also play games."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 54.08,
+    "end": 62.6,
+    "text": "Would you like to play one? Oh, come on, it's fun. Another bone. Okay, uh, I'll say an element, and, uh, you say an element whose name starts with the last letter of the one I said, okay?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 56.08,
+    "end": 57.05,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 70.24,
+    "end": 73.92,
+    "text": "I'll start. Helium."
+  }
+]

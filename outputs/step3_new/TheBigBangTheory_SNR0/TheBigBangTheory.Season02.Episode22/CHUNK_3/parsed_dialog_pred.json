@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 3.1799999999999997,
+    "end": 4.99,
+    "text": "Excuse me, sir? Yes."
+  },
+  {
+    "speaker": "Penny",
+    "start": 4.79,
+    "end": 16.75,
+    "text": "Hey, your friend Stuart? Well, he asked me out again, and I said yes, and then I started thinking, maybe I should talk to you first. Well, does it bother you, me going out with one of your friends? You know, he's a friend of mine."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 10.61,
+    "end": 11.69,
+    "text": "About what?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 16.75,
+    "end": 16.95,
+    "text": "Oh, no, that's the past. I'm really more of a right now kind of guy, you know, living in the moment."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 23.8,
+    "end": 24.0,
+    "text": "Although I do have to live a little in the future, because, well, that's my job, you know. Of course, my fondness for classic science fiction does draw my attention backwards, but those stories often take place in the future."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 36.88,
+    "end": 39.44,
+    "text": "In conclusion, all I have to say is, bye."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.88,
+    "end": 43.33,
+    "text": "Okay, well, that's really cool of you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 43.33,
+    "end": 47.72,
+    "text": "Yes, I wouldn't say cool, I'd say, that's weather."
+  },
+  {
+    "speaker": "Penny",
+    "start": 48.2,
+    "end": 51.52,
+    "text": "Well, in that case, do you mind giving me some advice?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 51.52,
+    "end": 54.18,
+    "text": "About Stuart? Well, do."
+  },
+  {
+    "speaker": "Penny",
+    "start": 54.18,
+    "end": 58.07,
+    "text": "He's very shy. How do I make him feel more comfortable around me?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 58.07,
+    "end": 67.26,
+    "text": "Well, first of all, don't underestimate the value of discomfort. Yes, Stuart thrives under pressure. That's why he works in a comic book store."
+  },
+  {
+    "speaker": "Penny",
+    "start": 62.28,
+    "end": 63.33,
+    "text": "Really?"
+  }
+]

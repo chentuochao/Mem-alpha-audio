@@ -1,0 +1,20 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 0.0,
+    "end": 4.04,
+    "text": "Hey, the X10s are online."
+  },
+  {
+    "speaker": "Howard",
+    "start": 26.88,
+    "end": 37.49,
+    "text": "Gentlemen, I am now about to send a signal from this laptop through our local ISP, racing down fiber optic cable at the speed of light to San Francisco, bouncing off a satellite in geosynchronous orbit to Lisbon, Portugal, where the data packets will be handed off to submerged transatlantic cables, terminating in Halifax, Nova Scotia, and transferred across the continent via microwave relays back to our ISP and the X10 receiver attached to this. Lamp. Look at me, look at me, I've got goosebumps. Are we ready on the stereo? Go for stereo."
+  },
+  {
+    "speaker": "Howard",
+    "start": 64.41,
+    "end": 65.51,
+    "text": "Having a trip."
+  }
+]

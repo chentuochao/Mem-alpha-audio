@@ -1,0 +1,176 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 2.5200000000000102,
+    "text": "Oh, no, the new ones, they're here."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 8.829999999999984,
+    "end": 15.180000000000007,
+    "text": "Stay calm, we don't know anything about them yet. What are you doing?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 15.360000000000014,
+    "end": 20.689999999999998,
+    "text": "I'm checking for musical instruments. Does that sound like castanets to you?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.019999999999982,
+    "end": 23.340000000000032,
+    "text": "The box says kitchen."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.610000000000014,
+    "end": 26.689999999999998,
+    "text": "So? Do cocaine smugglers write cocaine on the box?"
+  },
+  {
+    "speaker": "blonde_girl#unknown#TheBigBangTheory.Season02.Episode19",
+    "start": 28.28000000000003,
+    "end": 29.069999999999993,
+    "text": "Hello?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 30.660000000000025,
+    "end": 31.110000000000014,
+    "text": "Hello."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.53000000000003,
+    "end": 31.970000000000027,
+    "text": "Hello."
+  },
+  {
+    "speaker": "blonde_girl#unknown#TheBigBangTheory.Season02.Episode19",
+    "start": 32.31,
+    "end": 32.81999999999999,
+    "text": "Hello."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 32.94,
+    "end": 33.56,
+    "text": "Hello."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.629999999999995,
+    "end": 34.079999999999984,
+    "text": "Hello."
+  },
+  {
+    "speaker": "blonde_girl#unknown#TheBigBangTheory.Season02.Episode19",
+    "start": 35.379999999999995,
+    "end": 38.60000000000002,
+    "text": "I'm Alicia. I'm moving in upstairs."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.81,
+    "end": 50.05000000000001,
+    "text": "That is so great. Oh, I'm Leonard, I live downstairs. Upstairs from here, but under you. Not under you per se, but under your apartment."
+  },
+  {
+    "speaker": "alicia",
+    "start": 51.76999999999998,
+    "end": 52.35000000000002,
+    "text": "That's nice."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.75999999999999,
+    "end": 53.72000000000003,
+    "text": "Yeah, it is."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.10000000000002,
+    "end": 58.89999999999998,
+    "text": "If that concludes your faltering attempt to mate, hello."
+  },
+  {
+    "speaker": "alicia",
+    "start": 67.63999999999999,
+    "end": 67.63999999999999,
+    "text": "Hello."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.63999999999999,
+    "end": 74.48000000000002,
+    "text": "Hello. On a scale of one to ten how light of foot would you describe yourself with one being not cat-like at all and ten being freakishly feline?"
+  },
+  {
+    "speaker": "alicia",
+    "start": 75.79000000000002,
+    "end": 77.09000000000003,
+    "text": "Freakishly feline?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 77.63,
+    "end": 87.78000000000003,
+    "text": "Is that your answer or do you not understand the question? We'll come back to that one. Hang on. Are you now or have you ever been a salsa, Irish folk or break-dancer?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 82.59000000000003,
+    "end": 82.94,
+    "text": "Sheldon..."
+  },
+  {
+    "speaker": "alicia",
+    "start": 89.69999999999999,
+    "end": 90.12,
+    "text": "No."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 90.39999999999998,
+    "end": 91.66000000000003,
+    "text": "You're making her uncomfortable."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 91.87,
+    "end": 98.54000000000002,
+    "text": "Oh, I'm sorry. Well, if it helps you feel any better you're doing very well so far. Next question, are you fertile?"
+  },
+  {
+    "speaker": "alicia",
+    "start": 98.54000000000002,
+    "end": 99.36000000000001,
+    "text": "What?!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 101.20999999999998,
+    "end": 104.42000000000002,
+    "text": "I'm trying to determine whether crying infants above my head are a possibility."
+  },
+  {
+    "speaker": "alicia",
+    "start": 104.98000000000002,
+    "end": 106.75999999999999,
+    "text": "I have no immediate plans."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 106.85000000000002,
+    "end": 114.72000000000003,
+    "text": "If that changes, let me know. And finally, area rugs, pro or con? Alicia? Welcome to the building."
+  },
+  {
+    "speaker": "alicia",
+    "start": 111.76999999999998,
+    "end": 113.61000000000001,
+    "text": "Pro? Yes?"
+  }
+]

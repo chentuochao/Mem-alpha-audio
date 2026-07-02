@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "zack_johnson",
+    "start": 0.0,
+    "end": 0.3599999999999568,
+    "text": "Naked."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.579999999999984,
+    "end": 11.339999999999975,
+    "text": "Right. Uh yeah, funny. Uh, that device there will measure the photons that return and let us see it on this computer. Raj, get them some glasses."
+  },
+  {
+    "speaker": "zack_johnson",
+    "start": 12.479999999999961,
+    "end": 13.649999999999977,
+    "text": "Cool, it's gonna be in 3-D?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 20.21999999999997,
+    "end": 22.66999999999996,
+    "text": "Preparing to fire laser at the moon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.779999999999973,
+    "end": 23.75,
+    "text": "Make it so."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 28.629999999999995,
+    "end": 29.839999999999975,
+    "text": "There it is. There's the spike!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 30.95999999999998,
+    "end": 33.91999999999996,
+    "text": "2.5 seconds for the light to return. That's the moon! We hit the moon!"
+  },
+  {
+    "speaker": "zack_johnson",
+    "start": 37.879999999999995,
+    "end": 41.19999999999999,
+    "text": "That's your big experiment? All that for a line on the screen?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.94999999999999,
+    "end": 54.64999999999998,
+    "text": "Yeah, but, uh, think about what this represents. The fact that we can do this is the only way of definitively proving that there are man-made objects on the moon, put there by a member of a species that only 60 years before had just invented the airplane."
+  },
+  {
+    "speaker": "zack_johnson",
+    "start": 55.43000000000001,
+    "end": 56.50999999999999,
+    "text": "What species is that?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.98999999999995,
+    "end": 61.889999999999986,
+    "text": "I was wrong. Penny can do better."
+  },
+  {
+    "speaker": "penny",
+    "start": 62.41999999999996,
+    "end": 64.28999999999996,
+    "text": "Okay, guys, thank you, it's been fun."
+  },
+  {
+    "speaker": "zack_johnson",
+    "start": 64.82999999999998,
+    "end": 66.72999999999996,
+    "text": "Yeah, thanks. Should we invite them to the party?"
+  },
+  {
+    "speaker": "penny",
+    "start": 66.75999999999999,
+    "end": 67.50999999999999,
+    "text": "No, just keep walking."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.64999999999998,
+    "end": 71.57,
+    "text": "He must be very skilled at coitus."
+  }
+]

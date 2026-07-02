@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 2.7399999999999993,
+    "text": "Oh, I always tear up when the Grinch's heart grows three sizes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 4.13,
+    "end": 12.25,
+    "text": "Tears seem appropriate. Enlargement of the heart muscle, or hypertrophic cardiomyopathy, is a serious disease which could lead to congestive heart failure."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.91,
+    "end": 13.440000000000001,
+    "text": "Fa-la-la, la-la-la, la-la-la."
+  },
+  {
+    "speaker": "penny",
+    "start": 13.48,
+    "end": 14.130000000000003,
+    "text": "You really didn't like it, Sheldon?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.42,
+    "end": 32.21,
+    "text": "No, on the contrary. I found the Grinch to be a relatable, engaging character, and I was really with him right up to the point that he succumbed to social convention and returned the presents and saved Christmas. What a buzz kill that was."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.99,
+    "end": 36.51,
+    "text": "When we watch Frosty the Snowman, he roots for the sun."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.13,
+    "end": 48.77,
+    "text": "Excuse me, but the sun is essential for all life on Earth. Frosty is merely a bit of frozen supernatural ephemera in a stolen hat. A crime, by the way, for which he is never brought to account."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 64.0,
+    "end": 64.36,
+    "text": "Fa-la-la-la-la, la-la-la-la."
+  }
+]

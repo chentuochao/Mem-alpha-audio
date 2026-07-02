@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.6300000000001091,
+    "text": "I'll just go look for it."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 0.7800000000000864,
+    "end": 0.9300000000000637,
+    "text": "What's up?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.080000000000041,
+    "end": 6.160000000000082,
+    "text": "Well, I've spent the last three hours in an online debate in the DC Comics Batman chatroom, and I need your help."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 6.4500000000000455,
+    "end": 9.480000000000018,
+    "text": "Oh yeah. Those guys can be very stubborn. What's the topic?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 9.620000000000005,
+    "end": 16.530000000000086,
+    "text": "I am asserting, in the event that Batman's death proves permanent, that original Robin, Dick Grayson, is the logical successor to the Bat Cowl."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 16.730000000000018,
+    "end": 19.940000000000055,
+    "text": "Ooh, Sheldon, I'm afraid you couldn't be more wrong."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.81000000000006,
+    "end": 32.32000000000005,
+    "text": "More wrong? Wrong is an absolute state and not subject to gradation."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 33.42000000000007,
+    "end": 48.41000000000008,
+    "text": "Of course it is. It's a little wrong to say a tomato is a vegetable, it's very wrong to say it's a suspension bridge. But returning to the original issue, Dick Grayson became Nightwing, a superhero in his own right. Batman 2 has to be the second Robin, Jason Todd."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.88000000000011,
+    "end": 53.99000000000001,
+    "text": "Has to be? Has to be? I hope you're being deliberately provocative."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.72000000000003,
+    "end": 56.17000000000007,
+    "text": "I found the decaf!"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 56.90000000000009,
+    "end": 57.38000000000011,
+    "text": "Oh, great!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.440000000000055,
+    "end": 59.190000000000055,
+    "text": "Yeah, herbal tea for me, please."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 63.09000000000003,
+    "end": 65.35000000000002,
+    "text": "Barkeep! Alexander me."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.30000000000007,
+    "end": 68.21000000000004,
+    "text": "How about those two?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 69.16000000000008,
+    "end": 73.88000000000011,
+    "text": "Nah, they're eating peanuts, and my allergies, one kiss would put me in Cedar-Sinai for a week."
+  }
+]

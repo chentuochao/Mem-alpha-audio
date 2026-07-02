@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 9.200000000000001,
+    "end": 16.56,
+    "text": "What you doing? Interesting. I usually just have coffee. You've been up all night? Yes."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 14.610000000000001,
+    "end": 18.14,
+    "text": "I'm attempting to view my work as a fleeting peripheral image so as to engage the superior colliculus of my brain. Is it morning? Then I've been up all night."
+  },
+  {
+    "speaker": "Penny",
+    "start": 20.3,
+    "end": 21.95,
+    "text": "And you're stuck?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 21.95,
+    "end": 25.34,
+    "text": "Why else would a person try to engage their superior colliculus?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 25.52,
+    "end": 29.14,
+    "text": "Uh, sorry, sweetie, I can't help you till I've had my coffee."
+  },
+  {
+    "speaker": "Penny",
+    "start": 43.74,
+    "end": 45.88,
+    "text": "What is he doing now?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.68,
+    "end": 46.080000000000005,
+    "text": "Penny, I told you if you don't put him in his crate at night, he just runs around the apartment. Mmm, he's either isolating the terms of his formula and examining them individually, or looking for the alligator that swallowed his hand after Peter Pan cut it off."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 58.09,
+    "end": 58.290000000000006,
+    "text": "Captain Hook's hand was eaten by a crocodile, not an alligator. You're going to mock me, at least get your facts straight."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 66.15,
+    "end": 67.83,
+    "text": "Aye aye, captain."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 69.09,
+    "end": 72.81,
+    "text": "I can't see it. It just won't coalesce."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 72.81,
+    "end": 74.63,
+    "text": "Maybe you need a fresh start."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 74.83,
+    "end": 76.23,
+    "text": "You're right."
+  }
+]

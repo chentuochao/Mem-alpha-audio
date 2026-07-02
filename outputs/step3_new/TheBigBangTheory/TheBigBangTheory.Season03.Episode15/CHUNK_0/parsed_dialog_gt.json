@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 12.0,
+    "text": "Yeah, I miss you, too, sweetie. Listen, I got to go, but I'll see you tonight? Okay. Bye-bye. Yeah, bye-bye. No, you hang up first. Hello?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 14.54,
+    "end": 19.72,
+    "text": "Dude, I'm glad you finally got a girlfriend, but do you have to do all that lovey-dovey stuff in front of those of us who don't?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 20.02,
+    "end": 35.050000000000004,
+    "text": "Actually, he might have to. There's an economic concept known as a positional good in which an object is only valued by the possessor because it's not possessed by others. The term was coined in 1976 by economist Fred Hirsch to replace the more colloquial, but less precise neener-neener."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 36.53,
+    "end": 43.870000000000005,
+    "text": "That's not true. My happiness is not dependent on my best friend being miserable and alone. Although, I'd be lying if I said it wasn't a little bit of a perk."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 41.27,
+    "end": 41.78,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 44.07,
+    "end": 49.940000000000005,
+    "text": "Who's miserable and alone? Oh. I used to be like that. Then I got a girlfriend."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 46.400000000000006,
+    "end": 46.88,
+    "text": "Me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.02,
+    "end": 53.67,
+    "text": "In pre-1976 terms, neener-neener."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.82,
+    "end": 58.080000000000005,
+    "text": "Hey, what are you and Bernadette doing for your first Valentine's Day?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 58.2,
+    "end": 69.33,
+    "text": "Yeah, I am pulling out all the stops. There's a$39.95 lover's special at P.F. Chang's. Egg rolls, dumplings, bottomless wok, and you get your picture taken on the big marble horse out front."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 70.71000000000001,
+    "end": 80.57000000000001,
+    "text": "Given that Saint Valentine was a third century Roman priest who was stoned and beheaded, wouldn't a more appropriate celebration of the evening be taking one's steady gal to witness a brutal murder?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 82.61,
+    "end": 87.02000000000001,
+    "text": "I understand your point, but given a choice, Jews always go with Chinese food."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 88.55,
+    "end": 99.67,
+    "text": "Well, if anyone's interested, I'll be spending this Valentine's Day the same way I spend every Valentine's Day. Buying a rotisserie chicken from the supermarket, taking it home, standing over the sink and eating it out of the package with my bare hands like an animal."
+  }
+]

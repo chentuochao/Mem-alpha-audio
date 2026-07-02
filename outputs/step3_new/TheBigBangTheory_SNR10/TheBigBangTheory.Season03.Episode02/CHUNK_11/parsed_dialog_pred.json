@@ -1,0 +1,218 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.0,
+    "end": 4.18,
+    "text": "Apparently I was wrong. Congratulations."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 10.0,
+    "end": 15.6,
+    "text": "Enjoy Oxnard. I'm sure your daughter's looking forward to having you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 25.69,
+    "end": 30.55,
+    "text": "Old comic book. I just retrieved it from my safe deposit box."
+  },
+  {
+    "speaker": "Penny",
+    "start": 30.63,
+    "end": 33.81,
+    "text": "Oh, hey, Sheldon. What you got there? A new comic book? What do you have a safe deposit box for?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.81,
+    "end": 34.010000000000005,
+    "text": "Old comic books. I lost this to Wolowitz in an ill-considered cricket wager."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.97,
+    "end": 46.91,
+    "text": "What, do they have Wii cricket now? That can't be very popular."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 47.45,
+    "end": 49.5,
+    "text": "Penny, I'd rather not talk about it."
+  },
+  {
+    "speaker": "Penny",
+    "start": 49.5,
+    "end": 52.81,
+    "text": "Well, if it makes you feel any better, I'm not feeling so hot either."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 53.23,
+    "end": 55.75,
+    "text": "Why would that make me feel better?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 56.21,
+    "end": 67.61,
+    "text": "I don't know, empathy? Anyway, I'm just saying that you're feeling upset about something with Howard and I'm upset about something with Leonard."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.61,
+    "end": 67.81,
+    "text": "Yes, yes, the disappointing sex. That's an inexact parallel. You and Leonard can always return to being friends, whereas I can never return to a state in which Wolowitz has not bested me like Mrs. Riley's chicken."
+  },
+  {
+    "speaker": "Penny",
+    "start": 81.05,
+    "end": 83.61,
+    "text": "What's Mrs. Riley's chicken?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 83.61,
+    "end": 86.11,
+    "text": "The chicken that was owned by Mrs. Riley."
+  },
+  {
+    "speaker": "Penny",
+    "start": 86.97,
+    "end": 88.86,
+    "text": "Okay, forget the chicken."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 88.86,
+    "end": 90.25,
+    "text": "I wish I could."
+  },
+  {
+    "speaker": "Penny",
+    "start": 91.87,
+    "end": 94.48,
+    "text": "No, no, you may be right about me and Leonard."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 94.48,
+    "end": 98.48,
+    "text": "Of course I'm right. What are the odds I'd be wrong twice in one week?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 98.48,
+    "end": 101.34,
+    "text": "No, I mean, we can always go back to being friends."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 101.34,
+    "end": 114.23,
+    "text": "I just said that. This conversation has started to circle, meeting adjourned. Hello. Oh, you'd like to catch up on the events of the day, all right? Well, I was a half hour away to the bank to get into my safe deposit box, I was forced to talk to Penny about your sexual problems, and oh yes, in a moment filled with biblical resonance, pride wenteth before my fall, causing my flash 123 to goeth to Wolowitz."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 132.77,
+    "end": 136.55,
+    "text": "What's going on? Wait a minute, you talked to Penny about our sex life?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 136.55,
+    "end": 142.43,
+    "text": "Leonard, it astonishes me how you continually fixate on the trivial. I lost a bet to Wolowitz."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 143.23,
+    "end": 150.61,
+    "text": "Right, right, you're saying you talked to Penny? Interesting. Excuse me."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 145.98,
+    "end": 148.97,
+    "text": "Yes. Hardly."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 150.61,
+    "end": 153.14,
+    "text": "Have I crossed some sort of line again?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 153.14,
+    "end": 154.03,
+    "text": "A little bit."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 155.31,
+    "end": 156.79,
+    "text": "Hmm."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 160.77,
+    "end": 162.87,
+    "text": "Oh, who cares?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 169.07,
+    "end": 170.38,
+    "text": "Oh, hey."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 170.38,
+    "end": 172.22,
+    "text": "Hey, what did Sheldon say to you?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 172.22,
+    "end": 176.82,
+    "text": "Not a lot. Just that we always have the option of going back to being friends."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 176.82,
+    "end": 178.63,
+    "text": "Is that what you want?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 178.63,
+    "end": 184.17,
+    "text": "I don't know. I mean, I have to admit, things seemed simpler when we were just friends."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 184.17,
+    "end": 185.78,
+    "text": "I guess."
+  },
+  {
+    "speaker": "Penny",
+    "start": 185.78,
+    "end": 187.7,
+    "text": "We take the pressure off."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 187.7,
+    "end": 189.85,
+    "text": "It would, wouldn't it?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 190.09,
+    "end": 192.45,
+    "text": "So, we'll just be friends."
+  }
+]

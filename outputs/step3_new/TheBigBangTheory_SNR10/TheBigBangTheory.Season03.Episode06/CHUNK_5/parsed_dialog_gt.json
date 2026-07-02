@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.2999999999999545,
+    "text": "So you could teach me?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.519999999999982,
+    "end": 4.1200000000000045,
+    "text": "Football or chicken-fried meats?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.2999999999999545,
+    "end": 11.529999999999973,
+    "text": "Football. I'm going to Penny's on Saturday to watch a game with her friends and I don't want to look like an idiot. I want to blend in."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.67999999999995,
+    "end": 15.229999999999905,
+    "text": "If you want to blend in with Penny's friends, I'd think looking like an idiot would be the perfect camouflage."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.309999999999945,
+    "end": 19.50999999999999,
+    "text": "Come on, Sheldon, please teach me about football. It'll be fun."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.839999999999918,
+    "end": 29.979999999999905,
+    "text": "That's exactly what my father said. Come to the games, watch the games, week in and week out from the time I was five until I went off to college. Longest seven years of my life."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 31.969999999999914,
+    "end": 33.65999999999997,
+    "text": "Please, I'm asking you as a friend."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.59999999999991,
+    "end": 42.75999999999999,
+    "text": "Are you making this a tier one friendship request? Fine."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 39.75999999999999,
+    "end": 40.639999999999986,
+    "text": "Yes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.719999999999914,
+    "end": 44.799999999999955,
+    "text": "I really appreciate this."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.059999999999945,
+    "end": 47.70999999999992,
+    "text": "Yeah, yeah. All right, Poindexter, sit down, shut up and listen."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 49.549999999999955,
+    "end": 50.95999999999992,
+    "text": "I'm sorry?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.43999999999994,
+    "end": 60.25,
+    "text": "That's how my father always began our football conversations. And if you'd like, after the game, I'll take you outside and teach you how to shoot close enough to a racoon that it craps itself."
+  }
+]

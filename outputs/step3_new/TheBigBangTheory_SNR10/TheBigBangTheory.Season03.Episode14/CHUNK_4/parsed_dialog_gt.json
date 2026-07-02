@@ -1,0 +1,164 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 2.25,
+    "text": "Leonard, you're... you're giggling in your sleep."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.0600000000000023,
+    "end": 7.449999999999989,
+    "text": "It's not me, it's my new ringtone. The Joker from Batman."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.360000000000014,
+    "end": 10.180000000000007,
+    "text": "Well, it creeps me out."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.560000000000002,
+    "end": 12.550000000000011,
+    "text": "Me, too, but I paid three bucks for it."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.439999999999998,
+    "end": 18.230000000000018,
+    "text": "Just answer the phone."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.120000000000005,
+    "end": 34.31999999999999,
+    "text": "Hello. Yeah, I'm Leonard Hofstadter. Yeah, yeah, he's my roommate. Oh, God, is he okay? Yeah, alright, alright, I'll be right there."
+  },
+  {
+    "speaker": "penny",
+    "start": 35.210000000000036,
+    "end": 35.960000000000036,
+    "text": "What happened?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 36.55000000000001,
+    "end": 38.660000000000025,
+    "text": "Sheldon's escaped and is terrorizing the village."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.10000000000002,
+    "end": 41.460000000000036,
+    "text": "Okay."
+  },
+  {
+    "speaker": "penny",
+    "start": 43.55000000000001,
+    "end": 44.27000000000004,
+    "text": "Have fun."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 46.710000000000036,
+    "end": 48.650000000000034,
+    "text": "Hi. I'm Dr. Hofstadter. Where is he?"
+  },
+  {
+    "speaker": "security_guard#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 48.99000000000001,
+    "end": 49.620000000000005,
+    "text": "Ball pit."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.85000000000002,
+    "end": 55.25999999999999,
+    "text": "Thanks for not calling the cops."
+  },
+  {
+    "speaker": "security_guard#unknown#TheBigBangTheory.Season03.Episode14",
+    "start": 55.44,
+    "end": 58.160000000000025,
+    "text": "Oh, hey, it's no big deal. My sister's got a kid who's special."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.160000000000025,
+    "end": 67.49000000000001,
+    "text": "Yeah, well, he's extra special. Hey, Shelly. What you doing?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.94,
+    "end": 71.90000000000003,
+    "text": "Size ratio was all wrong. Couldn't visualize it. Needed bigger carbon atoms."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.67000000000002,
+    "end": 74.49000000000001,
+    "text": "Sure, sure."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.78000000000003,
+    "end": 78.55000000000001,
+    "text": "How did you get into this place?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 79.21000000000004,
+    "end": 88.72000000000003,
+    "text": "Back door has a five-pin tumbler system, single-circuit alarm. Child's play. You can start sorting protons and neutrons while I build carbon atoms."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 89.60000000000002,
+    "end": 92.09000000000003,
+    "text": "No, I don't think so. We need to go home now."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 93.31,
+    "end": 94.16000000000003,
+    "text": "But I'm still working."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 94.94,
+    "end": 97.83000000000004,
+    "text": "If you don't come out of there, I'm going to have to drag you out."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 98.77000000000004,
+    "end": 101.38,
+    "text": "You can try, but you'll never catch me."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 103.12,
+    "end": 109.23000000000002,
+    "text": "For God's sakes. Sheldon, come here!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 110.97000000000003,
+    "end": 126.66999999999996,
+    "text": "Bazinga. Bazinga. Bazinga. Bazinga. Bazinga. Leonard and Penny. Leonard and Penny."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 128.40999999999997,
+    "end": 132.76999999999998,
+    "text": "What! What, what, what?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 134.51999999999998,
+    "end": 135.99,
+    "text": "Leonard and Penny."
+  }
+]

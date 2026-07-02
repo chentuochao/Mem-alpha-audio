@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 6.599999999999909,
+    "text": "Well, I suppose I could poison Kripke. It's a simple matter. There are several toxic chemicals that'd be untraceable in an autopsy."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.199999999999932,
+    "end": 2.659999999999968,
+    "text": "No, no."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.039999999999964,
+    "end": 15.549999999999955,
+    "text": "Okay, uh, that's the spirit, but, um, let's dial it back to a non-lethal form of vengeance."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.399999999999977,
+    "end": 25.549999999999955,
+    "text": "Oh! How about we put awhoopee cushion on his office chair? He'll sit down, it'll sound like he's flatulent, even though he's not."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 29.370000000000005,
+    "end": 30.43999999999994,
+    "text": "Let's keep thinking."
+  },
+  {
+    "speaker": "penny",
+    "start": 34.25999999999999,
+    "end": 40.20999999999992,
+    "text": "Oh, gee, you're too late. Scarlett Johansson and Wonder Woman were just in here trolling around for neurotic, little weasels."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 41.049999999999955,
+    "end": 44.139999999999986,
+    "text": "Yeah, I came to talk to Bernadette. She's working today, right?"
+  },
+  {
+    "speaker": "penny",
+    "start": 44.370000000000005,
+    "end": 52.069999999999936,
+    "text": "Yes, but I don't think she wants to see you. Come on, Howard. You hurt her feelings by not calling her all week. Plus, I've kind of been talkin' some smack about ya."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 46.19999999999993,
+    "end": 46.64999999999998,
+    "text": "Why not?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 54.27999999999997,
+    "end": 55.039999999999964,
+    "text": "Hello, Howard."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 55.379999999999995,
+    "end": 56.64999999999998,
+    "text": "Wait, Bernadette, I need to talk to you."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 57.1099999999999,
+    "end": 58.129999999999995,
+    "text": "I can't now, I'm working."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 58.3599999999999,
+    "end": 64.39999999999998,
+    "text": "This will only take a second. You asked me to think about where our relationship was going, and I did."
+  }
+]

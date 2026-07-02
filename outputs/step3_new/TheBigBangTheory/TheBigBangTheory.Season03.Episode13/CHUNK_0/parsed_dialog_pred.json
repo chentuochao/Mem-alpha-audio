@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 7.86,
+    "end": 9.86,
+    "text": "Seems like forever since the four of us have been out to eat, you know, just the guys. A little jealous, are we?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 13.82,
+    "end": 17.72,
+    "text": "Oh god, yes, we get it. You have a girlfriend now. Alright, I'd kill a whole boy if it would get me laid. Now, can we order?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 20.96,
+    "end": 23.15,
+    "text": "No, I'm not jealous. So what? It's the same food."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 22.95,
+    "end": 23.349999999999998,
+    "text": "Oh dear lord, they redid the menu. Oh, is it? Look at this. General Tso's chicken is no longer listed under specialties. It's now under chicken."
+  },
+  {
+    "speaker": "Raj",
+    "start": 29.46,
+    "end": 30.84,
+    "text": "So?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.84,
+    "end": 32.72,
+    "text": "Yes, General Tso."
+  },
+  {
+    "speaker": "Howard",
+    "start": 33.88,
+    "end": 37.79,
+    "text": "Not so the chicken, so the question."
+  },
+  {
+    "speaker": "Raj",
+    "start": 37.79,
+    "end": 39.28,
+    "text": "So?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 39.28,
+    "end": 39.480000000000004,
+    "text": "So, why is it no longer a specialty? Did the chef lose confidence in the dish or himself? And look over here, shrimp in mobster sauce. What is mobster sauce?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 53.24,
+    "end": 55.55,
+    "text": "It's obviously a typo."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 55.55,
+    "end": 55.75,
+    "text": "Perhaps. Or perhaps this restaurant's now a front for organized crime. For all we know, the mobster sauce contains actual chunks of deceased mobsters."
+  },
+  {
+    "speaker": "Howard",
+    "start": 64.42,
+    "end": 64.62,
+    "text": "No, no, no, no. I think it just means it's the kind of sauce that mobsters like. It doesn't mean any of that. It's a typo."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 71.89,
+    "end": 73.16,
+    "text": "You know what? Let's just get a pizza."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 73.16,
+    "end": 75.07,
+    "text": "Good idea. We'll go to Corleone's."
+  },
+  {
+    "speaker": "Howard",
+    "start": 75.85,
+    "end": 78.35,
+    "text": "Sure, no mobsters there."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 80.1,
+    "end": 80.3,
+    "text": "You know, the more I think about it, the mobster sauce couldn't possibly contain chunks of mobster."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 87.76,
+    "end": 89.25,
+    "text": "Why is that?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 89.25,
+    "end": 90.92,
+    "text": "It was listed under seafood."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 92.5,
+    "end": 95.64,
+    "text": "What if they were mobsters who slept with the fishes?"
+  }
+]

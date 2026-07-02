@@ -1,0 +1,128 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 4.630000000000109,
+    "text": "If we do get a new friend, he should be a guy you can trust. A guy who has your back."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 4.7000000000000455,
+    "end": 8.530000000000086,
+    "text": "And he should have a lot of money, and live in a cool place down by the beach where we could throw parties."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.930000000000064,
+    "end": 10.260000000000105,
+    "text": "He should share our love of technology."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 10.440000000000055,
+    "end": 11.780000000000086,
+    "text": "And he should know a lot of women."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.720000000000027,
+    "end": 18.529999999999973,
+    "text": "Yeah, let's see, money, women, technology, okay we're agreed, our new friend is going to be Iron Man."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 27.070000000000164,
+    "end": 28.74000000000001,
+    "text": "Welcome to the Raj Mahal."
+  },
+  {
+    "speaker": "penny",
+    "start": 29.820000000000164,
+    "end": 33.820000000000164,
+    "text": "Yes, it's very nice, goodnight Raj. Yes it is."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 32.25999999999999,
+    "end": 36.350000000000136,
+    "text": "No, wait, the evening's not over. No, it's time to put on some R. Kelly and suck face."
+  },
+  {
+    "speaker": "penny",
+    "start": 36.350000000000136,
+    "end": 36.820000000000164,
+    "text": "Oh, wow, is the evening over."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 41.66000000000008,
+    "end": 45.76999999999998,
+    "text": "Wait, wait, that's my mummy and daddy calling from India. I want you to meet my parents."
+  },
+  {
+    "speaker": "penny",
+    "start": 46.01999999999998,
+    "end": 46.690000000000055,
+    "text": "Wait, meet"
+  },
+  {
+    "speaker": "penny",
+    "start": 52.02999999999997,
+    "end": 52.25,
+    "text": "them."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 52.309999999999945,
+    "end": 53.50999999999999,
+    "text": "Hello mummy and daddy, good to see you. I'm not drunk."
+  },
+  {
+    "speaker": "mrs_koothrappali",
+    "start": 55.38000000000011,
+    "end": 56.0,
+    "text": "Why would you say that?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 56.41000000000008,
+    "end": 60.940000000000055,
+    "text": "Just making conversation. Mummy, daddy, I want you to meet my new squeeze, Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 61.25999999999999,
+    "end": 63.299999999999955,
+    "text": "I am not your squeeze. There is no squeezing."
+  },
+  {
+    "speaker": "dr_vm_koothrappali",
+    "start": 64.68000000000006,
+    "end": 66.25999999999999,
+    "text": "I can't see her, centre her in the frame."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 66.82000000000016,
+    "end": 68.23000000000002,
+    "text": "Here you go, cute huh?"
+  },
+  {
+    "speaker": "mrs_koothrappali",
+    "start": 69.25999999999999,
+    "end": 70.80999999999995,
+    "text": "She's not Indian."
+  },
+  {
+    "speaker": "dr_vm_koothrappali",
+    "start": 71.84000000000015,
+    "end": 74.00999999999999,
+    "text": "So, she's not Indian, the boy's just sowing some wild oats."
+  },
+  {
+    "speaker": "penny",
+    "start": 74.00999999999999,
+    "end": 74.88000000000011,
+    "text": "No, no, there's no sowing, no squeezing, and no sucking face."
+  }
+]

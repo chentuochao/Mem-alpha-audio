@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 5.859999999999999,
+    "end": 9.81,
+    "text": "Don't feel bad, Leonard. Negative results are still results. Alright. Please don't cheer me up anymore."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 9.610000000000001,
+    "end": 12.11,
+    "text": "Even twenty thousand of them. Come on, don't let him get to you. It's Kripke."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 12.11,
+    "end": 14.58,
+    "text": "Yeah, he's a ginormous gnome."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 14.58,
+    "end": 14.78,
+    "text": "That's why he eats by himself instead of sitting here at the cool table. For shizzle."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 23.62,
+    "end": 28.5,
+    "text": "It's true, Kripke lacks the basic social skills that we take for granted."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 28.88,
+    "end": 29.08,
+    "text": "But he also controls the new open science grid computer that I need to use to run some simulations of structure formation in the early universe."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 35.87,
+    "end": 39.48,
+    "text": "Good luck getting time on it. The only people he lets use it are his friends."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 39.48,
+    "end": 43.44,
+    "text": "Well then, the solution is simple. I shall befriend him."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 43.44,
+    "end": 44.9,
+    "text": "Kripke!"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 45.38,
+    "end": 50.53,
+    "text": "Yeah. What would you say to the idea of you and I becoming friends?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 50.53,
+    "end": 54.52,
+    "text": "I would say, I have no interest in becoming your friend."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 55.36,
+    "end": 55.56,
+    "text": "Really? Uh, that seems rather short-sighted, coming from someone who is generally considered altogether unlikable. Why don't you take some time to reconsider?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 65.35,
+    "end": 66.65,
+    "text": "Yeah, I'll do that."
+  }
+]

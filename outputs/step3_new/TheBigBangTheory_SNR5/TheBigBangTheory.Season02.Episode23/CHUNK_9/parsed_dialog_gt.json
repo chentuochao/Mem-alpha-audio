@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 0.0,
+    "end": 3.589999999999918,
+    "text": "can it be that in the entire country of India,"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 11.600000000000023,
+    "end": 13.469999999999914,
+    "text": "there isn't one Outback Steakhouse?!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.469999999999914,
+    "end": 13.819999999999936,
+    "text": "Sheldon,"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.49000000000001,
+    "end": 23.850000000000023,
+    "text": "Sheldon?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.24000000000001,
+    "end": 25.409999999999968,
+    "text": "I want a cookie, Meemaw."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.879999999999995,
+    "end": 29.610000000000014,
+    "text": "Sheldon, it's me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.93999999999994,
+    "end": 31.350000000000023,
+    "text": "But Meemaw just made cookies."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.039999999999964,
+    "end": 36.01999999999998,
+    "text": "Listen, I don't know if I can go on the expedition."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.27999999999997,
+    "end": 37.469999999999914,
+    "text": "What?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.02999999999997,
+    "end": 39.70999999999992,
+    "text": "I don't think I can go to the North Pole."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.52999999999997,
+    "end": 49.610000000000014,
+    "text": "Okay, Leonard, I know you're concerned about disappointing me but I want you to take comfort from the knowledge that my expectations of you are very low."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.819999999999936,
+    "end": 52.64999999999998,
+    "text": "Yeah, that's very comforting."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.00999999999999,
+    "end": 57.819999999999936,
+    "text": "Comforting is a part of leadership. It's not a part I care for, but such is my burden."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.95999999999992,
+    "end": 61.969999999999914,
+    "text": "Terrific, it's just that I don't think Penny wants me to go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.969999999999914,
+    "end": 69.35000000000002,
+    "text": "Assuming that's a valid reason not to go, which it isn't, how do you know this? Did she say it?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 69.88999999999999,
+    "end": 74.68999999999994,
+    "text": "Not exactly. But she said she was gonna miss me and she gave me this."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.75,
+    "text": "Here's the problem with teleportation."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 5.67,
+    "end": 6.220000000000001,
+    "text": "Lay it on me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 7.75,
+    "end": 22.0,
+    "text": "Assuming the device could be invented which would identify the quantum state of matter of an individual in one location, and transmit that pattern to a distant location for reassembly, you would not have actually transported the individual. You would have destroyed him in one location, and recreated him in another."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.33,
+    "end": 25.090000000000003,
+    "text": "How about that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.0,
+    "end": 32.95,
+    "text": "Personally, I would never use a transporter. Because the original Sheldon would have to be disintegrated in order to create a new Sheldon."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.84,
+    "end": 37.42,
+    "text": "Would the new Sheldon be in any way an improvement on the old Sheldon?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.440000000000005,
+    "end": 41.1,
+    "text": "No, he would be exactly the same."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.83,
+    "end": 42.58,
+    "text": "That is a problem."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.08,
+    "end": 44.93,
+    "text": "So, you see it too."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 45.92,
+    "end": 47.910000000000004,
+    "text": "Dr Hofstadter, Dr Cooper."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.46,
+    "end": 49.120000000000005,
+    "text": "Gablehouser."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.46,
+    "end": 49.120000000000005,
+    "text": "Gablehouser."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 49.5,
+    "end": 56.7,
+    "text": "Gentlemen, I'd like you to meet Dennis Kim. Dennis is a highly sought after Doctorial candidate and we're hoping to have him do his graduate work here."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.85,
+    "end": 58.22,
+    "text": "Graduate work, very impressive."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 58.260000000000005,
+    "end": 60.14,
+    "text": "And he's only fifteen years old."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.239999999999995,
+    "end": 63.05,
+    "text": "Not bad, I myself started graduate school at fourteen."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 63.89,
+    "end": 67.07000000000001,
+    "text": "Well, I lost a year while my family was tunnelling out of North Korea."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 69.05,
+    "end": 71.04,
+    "text": "Advantage Kim."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 73.02,
+    "end": 78.39,
+    "text": "I thought maybe you boys could show Dennis around, let him see why we're the best physics research facility in the country."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 78.52,
+    "end": 85.54,
+    "text": "I already know you're not. You don't have an open science grid computer, or a free electron laser, and the string theory research being done here is nothing but a dead end."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 85.61,
+    "end": 89.21000000000001,
+    "text": "Excuse me, that is my research, and it is by no means a dead end."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 89.35000000000001,
+    "end": 92.78,
+    "text": "Well, obviously you don't see it yet, but trust me, you will."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 94.55,
+    "end": 111.7,
+    "text": "Dennis, we discussed this, we're in the process of updating our equipment, and we welcome your input on our research goals, and we' ve agreed to look the other way if you want to use up to 20% of the grant money you attract to smuggle your grandfather out of Pyongyang. We want him here boys, make it happen."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 112.0,
+    "end": 112.54,
+    "text": "Yes sir."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 112.57000000000001,
+    "end": 115.81,
+    "text": "You can count on us, we're on it. What the hell do you mean, dead end."
+  },
+  {
+    "speaker": "dennis_kim",
+    "start": 117.12,
+    "end": 124.85000000000001,
+    "text": "I mean, the whole landscape of false vacuums in string theory could be as large as ten to the five- hundredth power. In addition... ooh, look, chocolate milk."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 127.82000000000001,
+    "end": 129.35,
+    "text": "I sense a disturbance in the force."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 131.51,
+    "end": 135.29,
+    "text": "A bad feeling I have about this, mmm- hmmm."
+  }
+]

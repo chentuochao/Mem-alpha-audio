@@ -1,0 +1,38 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 6.02,
+    "end": 12.26,
+    "text": "It's a trap! It's a trap! It's a trap!"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.21,
+    "end": 48.95,
+    "text": "How does one sort it? He's upstairs at Alicia's."
+  },
+  {
+    "speaker": "Penny",
+    "start": 48.75,
+    "end": 49.150000000000006,
+    "text": "You want new clothes, okay? Is Leonard around? Oh, alright, that's cool, no biggie. Study at home instead of my printer, but I guess I can wait. What exactly is he doing up there?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.18,
+    "end": 56.38,
+    "text": "And what I can only perceive as a tactical move to destroy me, he has been following us in Cooper Poly, setting up a stereo."
+  },
+  {
+    "speaker": "Penny",
+    "start": 63.03,
+    "end": 66.57,
+    "text": "Oh, they're all up there, huh? Typical."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.73,
+    "end": 67.93,
+    "text": "Axiomatically atypical. Until recently, they did not know Alicia, and had no encounters with her previous location, and they never went upstairs to visit the former tenants, but your characterization of their behavior as typical is demonstrably fallacious."
+  }
+]

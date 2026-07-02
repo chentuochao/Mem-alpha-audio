@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.990000000000009,
+    "text": "Okay, I'll get those drinks started for you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.7299999999999045,
+    "end": 4.199999999999932,
+    "text": "Behind you."
+  },
+  {
+    "speaker": "penny",
+    "start": 5.9799999999999045,
+    "end": 8.139999999999986,
+    "text": "Sheldon, what the hell are you doing?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.639999999999986,
+    "end": 10.779999999999973,
+    "text": "I'm trying to get these tables cleared. We're slammed."
+  },
+  {
+    "speaker": "penny",
+    "start": 12.729999999999905,
+    "end": 14.8599999999999,
+    "text": "No, wait, wait, no, wait. Wh.. what are you doing here?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 15.649999999999977,
+    "end": 39.27999999999997,
+    "text": "A reasonable question. I asked myself, what is the most mind-numbing, pedestrian job conceivable, and three answers came to mind, uh, toll booth attendant, an Apple Store genius, and what Penny does. Now, since I don't like touching other people's coins, and I refuse to contribute to the devaluation of the word genius, here I am."
+  },
+  {
+    "speaker": "penny",
+    "start": 40.93999999999994,
+    "end": 43.50999999999999,
+    "text": "You just, you just walked in and they hired you, just like that?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.879999999999995,
+    "end": 53.90999999999997,
+    "text": "Oh, heavens, no. Since I don't need to be paid, I didn't need to be hired. I simply came in, picked up a tray, and started working for the man. Let me get that plate out of your way."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.66999999999996,
+    "end": 56.229999999999905,
+    "text": "Sheldon, this is ridiculous."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.49000000000001,
+    "end": 66.34999999999991,
+    "text": "Is it? Just a moment ago I had a minor epiphany regarding the polymer degradation phenomenon while scraping congealed nachos off a plate. Bernadette, table 10 wants their check."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 66.46999999999991,
+    "end": 67.1099999999999,
+    "text": "Thanks, Sheldon."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.71999999999991,
+    "end": 70.76999999999998,
+    "text": "Sheldon, wait, this isn't even what I do. I'm a waitress, not a busboy."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 71.7299999999999,
+    "end": 81.26999999999998,
+    "text": "You're right. That is more menial. Hello, I'm Sheldon. I'll be your server today. I don't recommend the salmon. I saw it in the kitchen."
+  }
+]

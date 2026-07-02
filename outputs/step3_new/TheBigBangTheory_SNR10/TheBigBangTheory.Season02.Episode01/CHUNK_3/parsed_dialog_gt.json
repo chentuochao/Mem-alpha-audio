@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 3.9600000000000364,
+    "text": "So, do you think that if Leonard and I keep dating he'll eventually get bored with me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.680000000000007,
+    "end": 11.5,
+    "text": "That depends."
+  },
+  {
+    "speaker": "penny",
+    "start": 11.840000000000032,
+    "end": 12.29000000000002,
+    "text": "On what?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.28000000000003,
+    "end": 17.819999999999993,
+    "text": "Do you have a working knowledge of quantum physics? Do you speak Klingon?"
+  },
+  {
+    "speaker": "penny",
+    "start": 15.490000000000009,
+    "end": 15.819999999999993,
+    "text": "No."
+  },
+  {
+    "speaker": "penny",
+    "start": 18.850000000000023,
+    "end": 19.360000000000014,
+    "text": "No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 20.400000000000034,
+    "end": 21.78000000000003,
+    "text": "Do you know any card tricks?"
+  },
+  {
+    "speaker": "penny",
+    "start": 21.80000000000001,
+    "end": 33.69999999999999,
+    "text": "Okay, okay, you know, I get it, Leonard has no business being involved with a waitress slash actress who felt so insecure that she lied to him about finishing community college."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.18000000000001,
+    "end": 35.31,
+    "text": "Why would you lie about that?"
+  },
+  {
+    "speaker": "penny",
+    "start": 35.74000000000001,
+    "end": 39.920000000000016,
+    "text": "Well, he was going on and on about this college and that grad school and I didn't want him to think I was some stupid loser."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 42.110000000000014,
+    "end": 45.25999999999999,
+    "text": "You thought the opposite of stupid loser was community college graduate?"
+  },
+  {
+    "speaker": "penny",
+    "start": 46.75999999999999,
+    "end": 55.03000000000003,
+    "text": "You know, there are a lot of successful people in this country who are community college graduates."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 55.30000000000001,
+    "end": 56.22000000000003,
+    "text": "Yeah, but you were neither."
+  },
+  {
+    "speaker": "penny",
+    "start": 59.19,
+    "end": 63.370000000000005,
+    "text": "Right, okay look, this is between you and me, you cannot tell Leonard any of this."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.75,
+    "end": 80.07,
+    "text": "You're asking me to keep a secret? Well I'm sorry, but you would have had to express that desire before revealing the secret, so that I could choose whether or not I wanted to accept the covenant of secret keeping. You can't impose a secret on an ex post facto basis."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.69999999999999,
+    "end": 67.90000000000003,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "penny",
+    "start": 82.25999999999999,
+    "end": 82.57999999999998,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 83.85000000000002,
+    "end": 96.40000000000003,
+    "text": "Secret keeping is a complicated endeavour. One has to be concerned not only about what one says, but about facial expression, autonomic reflexes, when I try to deceive, I myself have more nervous tics than a lyme disease research facility."
+  }
+]

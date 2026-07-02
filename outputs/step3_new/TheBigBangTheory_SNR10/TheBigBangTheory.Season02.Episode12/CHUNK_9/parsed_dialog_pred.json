@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 15.14,
+    "end": 25.12,
+    "text": "Look at me. What chance do I have if I don't try too hard? I guess."
+  },
+  {
+    "speaker": "Penny",
+    "start": 15.56,
+    "end": 15.959999999999999,
+    "text": "Howard, do you think maybe sometimes you try too hard? Well, you have a terrific chance. I mean, you're smart, you're funny, you have a cool job, you build stuff that goes into outer space."
+  },
+  {
+    "speaker": "Penny",
+    "start": 25.12,
+    "end": 25.32,
+    "text": "No, look, I'm telling you, I've known you for like a year and a half, and this is the... First time I feel like I'm talking to a real person. And you know what? I like him. He's a nice guy."
+  },
+  {
+    "speaker": "Howard",
+    "start": 36.0,
+    "end": 41.52,
+    "text": "You really think so? I don't know."
+  },
+  {
+    "speaker": "Penny",
+    "start": 38.1,
+    "end": 39.3,
+    "text": "Yes."
+  },
+  {
+    "speaker": "Penny",
+    "start": 41.52,
+    "end": 43.56,
+    "text": "No, I do."
+  },
+  {
+    "speaker": "Raj",
+    "start": 62.949999999999996,
+    "end": 65.04,
+    "text": "Nice little bot you've got here. What's this do, spin?"
+  },
+  {
+    "speaker": "Barry",
+    "start": 64.84,
+    "end": 70.47,
+    "text": "I'm aware. Yep. At 3400 RPM, it can cut through steel like it was wubber."
+  },
+  {
+    "speaker": "Raj",
+    "start": 71.79,
+    "end": 71.99000000000001,
+    "text": "Neat. Good work. Something we've got to call this off."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 78.16,
+    "end": 78.56,
+    "text": "Which brings us to tenth grade. You know, Leonard, for years, merciless thugs like Kripke have made my life a series of painful noogies, humiliating wedgies, and the insensitively named Indian burns. Well, that stops now."
+  },
+  {
+    "speaker": "Raj",
+    "start": 91.14,
+    "end": 96.89,
+    "text": "But, Sheldon, we don't have a chance. The only improvement you're able to make on the robot was to put fresh batteries in the remote."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 96.89,
+    "end": 97.09,
+    "text": "What you fail to realize is Kripke suffers from a fatal flaw. Overconfidence from his robot's massive size and its overwhelming power."
+  },
+  {
+    "speaker": "Raj",
+    "start": 104.78,
+    "end": 107.58,
+    "text": "It's not overconfidence, that's observation."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 107.58,
+    "end": 107.78,
+    "text": "Trust me, Kripke will fall easy prey to my psychological warfare. You observe. Kripke!"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 116.12,
+    "end": 116.32000000000001,
+    "text": "I would ask if your robot is prepared to meet its maker, but as you are its maker, clearly the two of you have met."
+  }
+]

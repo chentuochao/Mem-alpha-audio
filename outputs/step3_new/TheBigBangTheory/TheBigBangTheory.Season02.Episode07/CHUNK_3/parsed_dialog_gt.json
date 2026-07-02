@@ -1,0 +1,170 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.21000000000003638,
+    "text": "What?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.7599999999999909,
+    "end": 2.2800000000000296,
+    "text": "Sheldon's onion ring. Just put it back!"
+  },
+  {
+    "speaker": "penny",
+    "start": 2.580000000000041,
+    "end": 3.75,
+    "text": "It's one onion ring."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 3.8100000000000023,
+    "end": 5.25,
+    "text": "Just put it back before he comes!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 5.830000000000041,
+    "end": 7.439999999999998,
+    "text": "No, no, no, no, I don't think that's where it was."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 7.53000000000003,
+    "end": 10.220000000000027,
+    "text": "Okay, here he comes, deny, deny, people, wall of silence."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.730000000000018,
+    "end": 13.990000000000009,
+    "text": "Who touched my..."
+  },
+  {
+    "speaker": "all",
+    "start": 15.490000000000009,
+    "end": 19.25999999999999,
+    "text": "Penny! Penny did it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 20.77000000000004,
+    "end": 21.810000000000002,
+    "text": "Why would you do that?"
+  },
+  {
+    "speaker": "penny",
+    "start": 22.120000000000005,
+    "end": 24.110000000000014,
+    "text": "I don't know. I was hungry? What's the big deal?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.24000000000001,
+    "end": 27.75999999999999,
+    "text": "The big deal is that nobody touches food on my plate."
+  },
+  {
+    "speaker": "penny",
+    "start": 27.930000000000007,
+    "end": 29.430000000000007,
+    "text": "All right. Look, I didn't know, I'm sorry."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.58000000000004,
+    "end": 32.19,
+    "text": "Well, I'm sorry, but that is your second strike."
+  },
+  {
+    "speaker": "penny",
+    "start": 35.56999999999999,
+    "end": 35.860000000000014,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.420000000000016,
+    "end": 43.110000000000014,
+    "text": "You have two strikes. Three strikes and you're out. It's a sports metaphor."
+  },
+  {
+    "speaker": "penny",
+    "start": 45.00999999999999,
+    "end": 45.889999999999986,
+    "text": "A sports metaphor?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.94999999999999,
+    "end": 46.60000000000002,
+    "text": "Yes, baseball."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.48000000000002,
+    "end": 52.47000000000003,
+    "text": "All right, yeah, I'll play along. What was my first strike?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.48000000000002,
+    "end": 56.660000000000025,
+    "text": "March 18th. You violated my rule about forwarding email humour."
+  },
+  {
+    "speaker": "penny",
+    "start": 57.31999999999999,
+    "end": 57.97000000000003,
+    "text": "I did?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.629999999999995,
+    "end": 61.72000000000003,
+    "text": "The photo of the cat who wants to\" has cheezburger\"?"
+  },
+  {
+    "speaker": "penny",
+    "start": 62.629999999999995,
+    "end": 69.93,
+    "text": "Oh, come on, everybody loves LOLcats. They're cute and they can't spell'cause they're cats."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 70.84000000000003,
+    "end": 79.5,
+    "text": "I trusted you with my email address, and you betrayed that trust by sending me Internet banality, strike one. Touching my food, strike two."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 81.91000000000003,
+    "end": 83.69999999999999,
+    "text": "Don't worry. They only stay on your record for a year."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 85.50999999999999,
+    "end": 87.96000000000004,
+    "text": "You can get them removed early, but you have to take his class."
+  },
+  {
+    "speaker": "penny",
+    "start": 89.90000000000003,
+    "end": 92.79000000000002,
+    "text": "Come on, I touched one onion ring."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 92.92000000000002,
+    "end": 96.73000000000002,
+    "text": "And then you put it back, compromising the integrity of all the other onion rings."
+  },
+  {
+    "speaker": "penny",
+    "start": 98.22000000000003,
+    "end": 100.69999999999999,
+    "text": "Oh, honey, the buses don't go where you live, do they?"
+  }
+]

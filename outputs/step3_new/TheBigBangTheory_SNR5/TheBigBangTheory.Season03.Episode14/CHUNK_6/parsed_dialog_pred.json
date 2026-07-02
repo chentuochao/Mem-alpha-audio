@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 6.13,
+    "end": 10.48,
+    "text": "You. A menial job. Like yours."
+  },
+  {
+    "speaker": "Unknown_speaker041",
+    "start": 12.010000000000002,
+    "end": 22.12,
+    "text": "So, Mr. Cooper, you're looking for a job. Why, thank you for noticing. I'm menial employee of the month. Do you have a particular field in mind?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 22.12,
+    "end": 22.32,
+    "text": "I do. For thousands of years, the lowest classes of the human race have spent their lives laboring to erect monuments under the lash of their betters, until finally they dropped down and became one with the dust through which they trudged."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 36.74,
+    "end": 38.62,
+    "text": "Do you have anything like that?"
+  },
+  {
+    "speaker": "Unknown_speaker041",
+    "start": 40.47,
+    "end": 41.83,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.73,
+    "end": 44.91,
+    "text": "Shouldn't you check your database?"
+  },
+  {
+    "speaker": "Unknown_speaker041",
+    "start": 46.43,
+    "end": 47.75,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 51.18,
+    "end": 53.22,
+    "text": "You didn't really type."
+  },
+  {
+    "speaker": "Unknown_speaker041",
+    "start": 54.05,
+    "end": 58.66,
+    "text": "I didn't really have to. So how about construction?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 58.66,
+    "end": 58.86,
+    "text": "Oh, that would be good. Sawing, hammering, eating out of a lunch pail as my working class fellows and I sit perched precariously on a girder high above the metropolis."
+  },
+  {
+    "speaker": "Unknown_speaker041",
+    "start": 71.03,
+    "end": 75.75,
+    "text": "No, no, this is putting up sheetrock at a housing project in Rosemead."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 76.64,
+    "end": 80.88,
+    "text": "I could do that. One question. What's sheetrock?"
+  },
+  {
+    "speaker": "Unknown_speaker041",
+    "start": 81.93,
+    "end": 89.85,
+    "text": "Moving on. How about doing deliveries for a florist? Do you have your own car?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 87.42,
+    "end": 91.06,
+    "text": "That seems acceptable. I don't drive."
+  },
+  {
+    "speaker": "Unknown_speaker041",
+    "start": 91.98,
+    "end": 92.18,
+    "text": "Of course you don't. Mr. Cooper, let me just ask you a question. What was your last job?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 99.31,
+    "end": 105.31,
+    "text": "Senior theoretical particle physicist at Caltech focusing on M theory, or in layman's terms, string theory."
+  },
+  {
+    "speaker": "Unknown_speaker041",
+    "start": 106.11,
+    "end": 109.34,
+    "text": "I see. Just give me a second."
+  }
+]

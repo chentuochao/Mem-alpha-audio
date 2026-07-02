@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.35999999999989996,
+    "text": "Okay."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.7299999999999045,
+    "end": 23.18999999999994,
+    "text": "All right, there's no need to bark at me. According to the inexplicably irritable nurse behind the desk, you'll be seen after the man who claims to be having a heart attack, but appears to be well enough to play Doodle Jump on his iPhone. We have to fill these out. Describe illness or injury."
+  },
+  {
+    "speaker": "penny",
+    "start": 23.75999999999999,
+    "end": 25.34999999999991,
+    "text": "I dislocated my shoulder."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.18999999999994,
+    "end": 29.489999999999895,
+    "text": "All right. And how did the accident occur?"
+  },
+  {
+    "speaker": "penny",
+    "start": 30.059999999999945,
+    "end": 31.43999999999994,
+    "text": "You ready know that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.59999999999991,
+    "end": 46.219999999999914,
+    "text": "Cause of accident, lack of adhesive ducks. Okay, medical history. Have you ever been diagnosed with diabetes? Kidney disease? Migraines?"
+  },
+  {
+    "speaker": "penny",
+    "start": 43.039999999999964,
+    "end": 46.93999999999994,
+    "text": "No. No. Getting one."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.969999999999914,
+    "end": 51.819999999999936,
+    "text": "Are you currently pregnant? Are you sure? You look a bit puffy."
+  },
+  {
+    "speaker": "penny",
+    "start": 50.229999999999905,
+    "end": 50.57999999999993,
+    "text": "No."
+  },
+  {
+    "speaker": "penny",
+    "start": 55.309999999999945,
+    "end": 56.6099999999999,
+    "text": "Change migraine to yes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.57999999999993,
+    "end": 60.219999999999914,
+    "text": "When was your last menstrual period?"
+  },
+  {
+    "speaker": "penny",
+    "start": 60.39999999999998,
+    "end": 61.739999999999895,
+    "text": "Oh, next question."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 61.95999999999992,
+    "end": 63.14999999999998,
+    "text": "I'll put, in progress."
+  }
+]

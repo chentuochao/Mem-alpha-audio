@@ -1,0 +1,134 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 5.480000000000018,
+    "text": "Uh, there it goes, it sticks, I' m sorry. You're welcome, oh, you're going to step right, okay, I'll..."
+  },
+  {
+    "speaker": "penny",
+    "start": 2.2900000000000773,
+    "end": 3.1200000000000045,
+    "text": "Okay. Thanks."
+  },
+  {
+    "speaker": "penny",
+    "start": 6.790000000000077,
+    "end": 7.3900000000001,
+    "text": "Hey, Leonard?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 7.410000000000082,
+    "end": 8.63000000000011,
+    "text": "The hair products are Sheldon's."
+  },
+  {
+    "speaker": "penny",
+    "start": 9.340000000000032,
+    "end": 12.480000000000018,
+    "text": "Um, okay. Can I ask you a favour."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.080000000000041,
+    "end": 16.700000000000045,
+    "text": "A favour? Sure, you can ask me a favour, I would do you a favour for you."
+  },
+  {
+    "speaker": "penny",
+    "start": 18.530000000000086,
+    "end": 19.90000000000009,
+    "text": "It's okay if you say no."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.030000000000086,
+    "end": 21.270000000000095,
+    "text": "Oh, I'll probably say yes."
+  },
+  {
+    "speaker": "penny",
+    "start": 22.82000000000005,
+    "end": 25.32000000000005,
+    "text": "It's just not the kind of thing you ask a guy you' ve just met."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 29.33000000000004,
+    "end": 29.690000000000055,
+    "text": "Wow."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.700000000000045,
+    "end": 50.10000000000002,
+    "text": "I really think we should examine the chain of causality here. Event A. A beautiful woman stands naked in our shower. Event B. We drive half way across town to retrieve a television set from the aforementioned woman's ex- boyfriend. Query, on what plane of existence is there even a semi- rational link between these events?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 36.770000000000095,
+    "end": 37.1400000000001,
+    "text": "Must we?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.870000000000005,
+    "end": 54.1400000000001,
+    "text": "She asked me to do her a favour, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.35000000000002,
+    "end": 63.16000000000008,
+    "text": "Ah, yes, well that may be the proximal cause of our journey, but we both know it only exists in contradistinction to the higher level distal cause. You think with your penis."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 61.16000000000008,
+    "end": 62.05000000000007,
+    "text": "Which is?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 64.7700000000001,
+    "end": 67.62,
+    "text": "That's a biological impossibility and you didn't have to come."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.79000000000008,
+    "end": 75.16000000000008,
+    "text": "Oh, right, yes, I could have stayed behind and watched Wolowitz try to hit on Penny in Russian, Arabic and Farsi. Why can't she get her own TV."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 75.45000000000005,
+    "end": 77.18000000000006,
+    "text": "Come on, you know how it is with break- ups."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 77.21000000000004,
+    "end": 79.15000000000009,
+    "text": "No I don't. And neither do you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 79.8900000000001,
+    "end": 81.86000000000001,
+    "text": "Wuh, I, I broke up with Joyce Kim."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.98000000000002,
+    "end": 84.61000000000001,
+    "text": "You did not break up with Joyce Kim, she defected to North Korea."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 85.48000000000002,
+    "end": 86.86000000000001,
+    "text": "To mend her broken heart."
+  }
+]

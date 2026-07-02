@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 3.240000000000009,
+    "text": "So, Sheldon, how's it feel to get beaten up by a girl?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 21.25999999999999,
+    "end": 31.629999999999995,
+    "text": "Gentlemen, have you come to the realization that the only reasonable course of action is to sell the ring and divide the money? I was afraid of that. Go ahead."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.960000000000036,
+    "end": 28.069999999999936,
+    "text": "No."
+  },
+  {
+    "speaker": "man_on_screen#unknown#TheBigBangTheory.Season03.Episode17",
+    "start": 33.0,
+    "end": 36.67999999999995,
+    "text": "Greetings from Mumbai. I am Raj's attorney, Venkatesh Koothrappali."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 36.76999999999998,
+    "end": 37.58000000000004,
+    "text": "Also my cousin."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 39.18999999999994,
+    "end": 40.25999999999999,
+    "text": "You brought a lawyer?"
+  },
+  {
+    "speaker": "venkatesh_koothrappali",
+    "start": 40.49000000000001,
+    "end": 48.99000000000001,
+    "text": "Don't answer that. I'll get straight to the point. My client's prepared to surrender any interest he has in the ring in exchange for two Kawasaki Jet Skis."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 49.90999999999997,
+    "end": 52.08000000000004,
+    "text": "We're not giving him two Jet Skis."
+  },
+  {
+    "speaker": "venkatesh_koothrappali",
+    "start": 52.59000000000003,
+    "end": 57.92999999999995,
+    "text": "Look, we're big boys, why don't we just cut to the chase and meet in the middle? One Kawasaki Jet Ski, done and done."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.710000000000036,
+    "end": 59.789999999999964,
+    "text": "No Jet Skis."
+  },
+  {
+    "speaker": "venkatesh_koothrappali",
+    "start": 63.92999999999995,
+    "end": 64.98000000000002,
+    "text": "All right, forget the Jet Skis."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 65.93999999999994,
+    "end": 69.47000000000003,
+    "text": "Forget the Jet Skis? That was our line in the sand! What happened to\" tear them a new one?\""
+  },
+  {
+    "speaker": "venkatesh_koothrappali",
+    "start": 69.72000000000003,
+    "end": 72.65999999999997,
+    "text": "What can I say? They played hardball. We lost."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 72.72000000000003,
+    "end": 74.27999999999997,
+    "text": "You're useless."
+  },
+  {
+    "speaker": "venkatesh_koothrappali",
+    "start": 74.42999999999995,
+    "end": 75.84000000000003,
+    "text": "I told you that when you hired me."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 76.76999999999998,
+    "end": 77.88,
+    "text": "I'm signing off now."
+  },
+  {
+    "speaker": "venkatesh_koothrappali",
+    "start": 78.15999999999997,
+    "end": 79.31999999999994,
+    "text": "Call your mother, she worries."
+  }
+]

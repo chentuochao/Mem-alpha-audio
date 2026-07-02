@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 2.9799999999999898,
+    "text": "So you' ve really never had a birthday party?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.1299999999999955,
+    "end": 22.689999999999998,
+    "text": "No. But it was okay. I mean, when I was little I'd think maybe my parents would change their mind, and surprise me with a party, like this one birthday I came home from my Cello lesson, and I saw a lot of strange cars parked out front, and when I got to the door I could hear people whispering, and I could smell German chocolate cake, which is my favorite. Uh, it turns out my grandfather had died."
+  },
+  {
+    "speaker": "penny",
+    "start": 20.109999999999985,
+    "end": 20.789999999999992,
+    "text": "And?"
+  },
+  {
+    "speaker": "penny",
+    "start": 23.849999999999994,
+    "end": 26.22999999999999,
+    "text": "Oh my God, that's terrible."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.659999999999997,
+    "end": 32.69999999999999,
+    "text": "Oh, it was kind of like a birthday party. I got to see all my cousins and there was cake, so... 7"
+  },
+  {
+    "speaker": "penny",
+    "start": 33.16999999999999,
+    "end": 35.54999999999998,
+    "text": "That's the saddest thing I' ve ever heard."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 35.74000000000001,
+    "end": 38.629999999999995,
+    "text": "You think? Go ahead, tell her about your senior prom."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 64.26999999999998,
+    "end": 66.03999999999999,
+    "text": "Make sure they remember no peanuts."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.07,
+    "end": 72.72999999999999,
+    "text": "Howard, every Thai restaurant in town knows you can't eat peanuts. They see me coming they go' ah, no peanut boy!'"
+  }
+]

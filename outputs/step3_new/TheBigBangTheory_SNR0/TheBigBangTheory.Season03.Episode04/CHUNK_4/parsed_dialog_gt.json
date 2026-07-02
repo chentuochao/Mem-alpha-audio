@@ -1,0 +1,152 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.47999999999996135,
+    "text": "I'm sorry."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 1.4599999999999795,
+    "end": 3.1100000000000136,
+    "text": "Me, too. I'm just, I'm a little on edge."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.599999999999966,
+    "end": 7.909999999999968,
+    "text": "Understandable. Your entire life seems to be crumbling around you, and your future appears bleak at best."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 9.75,
+    "end": 10.259999999999991,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.430000000000007,
+    "end": 12.089999999999975,
+    "text": "And you're wrong about Hinduism and cows."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 13.639999999999986,
+    "end": 18.409999999999968,
+    "text": "Hey, Raj, guess what. Professor Laughlin is looking for someone to join the stellar evolution research team."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 18.649999999999977,
+    "end": 20.099999999999966,
+    "text": "You, you're kidding. That's fantastic!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 20.310000000000002,
+    "end": 22.519999999999982,
+    "text": "Come on, what are you waiting for? Call him and set up an interview."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 22.579999999999984,
+    "end": 23.159999999999968,
+    "text": "I'm on it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.22999999999996,
+    "end": 25.96999999999997,
+    "text": "That's happy, right? Nailed it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 25.099999999999966,
+    "end": 25.339999999999975,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "professor_laughlin",
+    "start": 28.930000000000007,
+    "end": 35.839999999999975,
+    "text": "Dr. Koothrappali, come on in. I was surprised to hear you were interested In joining our little team. Giving up on those trans-Neptunian objects, are we?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 36.15999999999997,
+    "end": 46.639999999999986,
+    "text": "No, no, it's a very promising area. In a perfect world I'd spend several more years on it. But I just couldn't pass up the opportunity to work with you on your tremendously exciting and not yet conclusively disproved hypothesis."
+  },
+  {
+    "speaker": "professor_laughlin",
+    "start": 47.379999999999995,
+    "end": 50.75999999999999,
+    "text": "Splendid. Uh, please sit down. Can I offer you a sherry?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 51.06,
+    "end": 52.5,
+    "text": "It's a little early, isn't it?"
+  },
+  {
+    "speaker": "professor_laughlin",
+    "start": 52.920000000000016,
+    "end": 54.27999999999997,
+    "text": "Not on Proxima Centauri."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 55.93000000000001,
+    "end": 61.19,
+    "text": "That's very good. Jolly amusing, but if you don't mind, I'll hold off until sunset on titan."
+  },
+  {
+    "speaker": "professor_laughlin",
+    "start": 62.110000000000014,
+    "end": 65.38,
+    "text": "Oh, well done. I have a feeling you're going to fit in just fine, Dr. Koothrappali."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 65.87,
+    "end": 66.50999999999999,
+    "text": "Thank you, sir."
+  },
+  {
+    "speaker": "woman#unknown#TheBigBangTheory.Season03.Episode04",
+    "start": 68.87,
+    "end": 70.15999999999997,
+    "text": "I'm sorry. Am I late?"
+  },
+  {
+    "speaker": "professor_laughlin",
+    "start": 70.43,
+    "end": 77.24000000000001,
+    "text": "No, no, no. Right on time. Dr. Koothrappali, may I present Dr. Millstone from MIT. She'll be heading up our data analysis team."
+  },
+  {
+    "speaker": "dr_catherine_millstone",
+    "start": 77.50999999999999,
+    "end": 91.75,
+    "text": "It's nice to meet you, Dr. Koothrappali. I read your paper on Kuiper belt object size distribution. I really enjoyed it. How did you correct for the selection bias?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 92.56,
+    "end": 97.36000000000001,
+    "text": "Well, I ran a simulation that allowed me to correct for the observational efficiency."
+  },
+  {
+    "speaker": "dr_catherine_millstone",
+    "start": 97.93,
+    "end": 99.51999999999998,
+    "text": "That's just fascinating."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 99.57999999999998,
+    "end": 104.72999999999996,
+    "text": "Thank you. Would you like to hear more about it in my hot tub?"
+  }
+]

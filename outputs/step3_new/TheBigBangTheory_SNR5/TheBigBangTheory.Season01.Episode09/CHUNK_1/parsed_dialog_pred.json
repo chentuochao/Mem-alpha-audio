@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 3.1599999999999997,
+    "end": 5.69,
+    "text": "Okay, thanks. Yeah, you turned your stereo down with your laptop."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 5.49,
+    "end": 10.62,
+    "text": "Hang on, hang on, do you not realize what we just did? Uh, no, we turned our stereo down by sending a signal around the world via the internet."
+  },
+  {
+    "speaker": "Penny",
+    "start": 11.02,
+    "end": 15.04,
+    "text": "You know, you could just get one of those universal remotes at RadioShack, they're really cheap."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.04,
+    "end": 19.82,
+    "text": "No, no, no, no, no, you don't get it, um, Howard, enable public access."
+  },
+  {
+    "speaker": "Penny",
+    "start": 24.52,
+    "end": 26.33,
+    "text": "Boy, that was terrific, but I'll see ya."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 26.33,
+    "end": 31.79,
+    "text": "No, no, hang on, hang on. See?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 31.79,
+    "end": 33.73,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.81,
+    "end": 34.010000000000005,
+    "text": "Someone in Sichuan province, China, is using his computer to turn our lights on and off."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.21,
+    "end": 46.03,
+    "text": "Oh, well, that's handy. Um, here's a question, why?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 46.75,
+    "end": 52.37,
+    "text": "Because we can. They found the remote control cars."
+  },
+  {
+    "speaker": "Penny",
+    "start": 54.29,
+    "end": 56.65,
+    "text": "Well, wait, wait, what's on top of that?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.65,
+    "end": 58.63,
+    "text": "Wireless webcams, wait below."
+  },
+  {
+    "speaker": "Howard",
+    "start": 58.43,
+    "end": 58.830000000000005,
+    "text": "Public access enabled. The monster truck is out of Austin, Texas, and the blue viper is being operated from suburban Tel Aviv."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.16,
+    "end": 69.58,
+    "text": "You may want to put on slacks."
+  },
+  {
+    "speaker": "Penny",
+    "start": 69.58,
+    "end": 70.06,
+    "text": "What?"
+  }
+]

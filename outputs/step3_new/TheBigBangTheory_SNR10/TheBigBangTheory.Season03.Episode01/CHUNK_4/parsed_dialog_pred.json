@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 13.100000000000001,
+    "end": 13.5,
+    "text": "If we kept the original data, you could still publish the actual results. Oh, see, yeah, you probably shouldn't have done that. So write another email. Set the record straight. It's no big deal."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 13.100000000000001,
+    "end": 21.98,
+    "text": "Yes, but the actual results are unsuccessful. And I've already sent an email to everyone at the university explaining that I have confirmed string theory and forever changed man's understanding of the universe. You're right, Leonard. It's not a big deal. All you did was lie to me, destroy my dream, and humiliate me in front of the whole university."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.56,
+    "end": 32.760000000000005,
+    "text": "That, FYI, was sarcasm. I, in fact, believe it is a big deal."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.88,
+    "end": 46.91,
+    "text": "Oh, poor thing. Wait, wait, aren't you gonna go talk to him?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 42.88,
+    "end": 44.08,
+    "text": "Yeah, I feel terrible."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.91,
+    "end": 49.77,
+    "text": "Well, uh, he'll be fine. The guy's a trooper."
+  },
+  {
+    "speaker": "Penny",
+    "start": 49.77,
+    "end": 53.4,
+    "text": "No, you're right. You should talk to him. I will."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.52,
+    "end": 57.9,
+    "text": "Man, I cannot catch a break."
+  },
+  {
+    "speaker": "Penny",
+    "start": 64.66,
+    "end": 67.41,
+    "text": "Hey, do you want to talk?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.41,
+    "end": 67.61,
+    "text": "About what? Being betrayed by my friends? Spending three months at the North Pole for nothing?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 75.08,
+    "end": 77.32,
+    "text": "And I didn't even get to go to Comic-Con?"
+  }
+]

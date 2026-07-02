@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 34.11,
+    "end": 38.01,
+    "text": "My turn on the time machine. They said I was mad, but it worked."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 43.39,
+    "end": 43.790000000000006,
+    "text": "Wow. Oh, look at that. More locks. Not flushy, need more locks."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 59.39,
+    "end": 64.43,
+    "text": "Sheldon, you okay? We have to get rid of the time machine."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 64.43,
+    "end": 67.53,
+    "text": "This is a little big for the living room, isn't it?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.57,
+    "end": 69.95,
+    "text": "Yeah, that's the problem. It's too big."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 70.63,
+    "end": 74.85,
+    "text": "Glad you agree. I hired some guys to help us move it. Come on in, fellas."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 77.51,
+    "end": 81.79,
+    "text": "Oh, no. More locks. Eat him. Eat him."
+  }
+]

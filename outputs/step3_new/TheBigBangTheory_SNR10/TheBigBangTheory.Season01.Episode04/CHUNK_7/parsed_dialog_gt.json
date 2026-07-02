@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 2.0699999999999363,
+    "text": "This is a particularly disturbing one."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 5.789999999999964,
+    "end": 6.149999999999977,
+    "text": "Mommy."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 9.860000000000014,
+    "end": 10.579999999999927,
+    "text": "Hi baby."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.289999999999964,
+    "end": 15.740000000000009,
+    "text": "You called my mother?"
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 19.449999999999932,
+    "end": 22.409999999999968,
+    "text": "Oh, you got yourself a loom, how nice."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.079999999999927,
+    "end": 23.74000000000001,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 24.069999999999936,
+    "end": 25.329999999999927,
+    "text": "Honey, why did you get a loom?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.18999999999994,
+    "end": 37.879999999999995,
+    "text": "I was working with luminous fish, and I thought, hey, loom! Mom, what are you doing here?"
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 37.93999999999994,
+    "end": 39.16999999999996,
+    "text": "Leonard called me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.559999999999945,
+    "end": 41.129999999999995,
+    "text": "I know, but why?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.299999999999955,
+    "end": 46.539999999999964,
+    "text": "Because one of the great minds of the twenty- first century is raising glow- in- the- dark fish and weaving sarapes."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.02999999999997,
+    "end": 56.14999999999998,
+    "text": "This is not a sarape. This is a poncho. A sarape is open at the sides, a poncho is closed, this is a poncho, and neither is a reason to call someone's mother."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 57.65999999999997,
+    "end": 60.20999999999992,
+    "text": "Really, when was the last time you left the house."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.99000000000001,
+    "end": 62.33999999999992,
+    "text": "I went to the market with Penny."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.57999999999993,
+    "end": 63.82999999999993,
+    "text": "That was three weeks ago."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 64.23000000000002,
+    "end": 67.98000000000002,
+    "text": "Well then buckle up, in the next four to eight days she's going to get very crabby."
+  }
+]

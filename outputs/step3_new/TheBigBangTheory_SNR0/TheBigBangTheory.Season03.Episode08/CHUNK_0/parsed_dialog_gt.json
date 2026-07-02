@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.75,
+    "text": "How much time do we have?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.2400000000000002,
+    "end": 4.13,
+    "text": "Uh, t-minus five hours, 37 minutes to onset of meteor shower."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 4.29,
+    "end": 16.49,
+    "text": "Okay, our position is 34.48 degrees north, 118.31 west. That means the azimuth should be 168.22 degrees relative to magnetic north with an elevation of 49.93."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 16.86,
+    "end": 17.22,
+    "text": "Anything yet?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.7,
+    "end": 19.55,
+    "text": "Uh, we have a signal, but there's no frame lock."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 19.65,
+    "end": 22.38,
+    "text": "Hang on, how about now?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 22.619999999999997,
+    "end": 25.29,
+    "text": "We did it. We have the west coast feed of HBO."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 26.47,
+    "end": 28.23,
+    "text": "Ooh, Real Sex."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 29.409999999999997,
+    "end": 33.36,
+    "text": "Big deal. Every time I watch that show it's old women putting condoms on cucumbers."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 35.26,
+    "end": 37.26,
+    "text": "Alright, let's see what's on the east coast feed."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 39.019999999999996,
+    "end": 39.56,
+    "text": "Oh, hey. Dune."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 42.519999999999996,
+    "end": 45.33,
+    "text": "Not a great movie, but look at that beautiful desert."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.949999999999996,
+    "end": 49.47,
+    "text": "Too bad Sheldon couldn't come with us."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 50.17,
+    "end": 51.269999999999996,
+    "text": "Yes, it's not the same without him."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 59.4,
+    "end": 61.65,
+    "text": "Oh, this sucks, I'm switching back to Real Sex."
+  }
+]

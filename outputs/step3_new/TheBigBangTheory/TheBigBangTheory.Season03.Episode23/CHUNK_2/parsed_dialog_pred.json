@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Zach",
+    "start": 11.370000000000001,
+    "end": 15.42,
+    "text": "Happy now, moving the dirty sock. Hey. Whoa, is that the laser? It's bitchin'."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 11.91,
+    "end": 12.77,
+    "text": "Thank you. Raj, keep an eye out for the other one. Hello."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.42,
+    "end": 15.62,
+    "text": "Yes, in 1917, when Albert Einstein established the theoretic foundation for the laser in his papers, \"Zur Quantentheorie der Strahlung,\" his fondest hope was that the resultant device be bitchin'."
+  },
+  {
+    "speaker": "Zach",
+    "start": 30.41,
+    "end": 32.69,
+    "text": "Mission accomplished."
+  },
+  {
+    "speaker": "Penny",
+    "start": 45.879999999999995,
+    "end": 48.05,
+    "text": "Hey guys, this is my friend Zach. Oh, very cool."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.879999999999995,
+    "end": 53.18,
+    "text": "Let me explain what we're doing here. In 1969, the astronauts on Apollo 11 positioned reflectors on the surface of the moon, and we're going to shoot a laser off one of them and let the light bounce back into this photomultiplier. The laser?"
+  },
+  {
+    "speaker": "Zach",
+    "start": 48.05,
+    "end": 51.29,
+    "text": "One question. How can you be sure it won't blow up?"
+  },
+  {
+    "speaker": "Zach",
+    "start": 53.18,
+    "end": 54.25,
+    "text": "The moon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.57,
+    "end": 59.51,
+    "text": "See, now, this is a man for pennies."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 60.43,
+    "end": 63.01,
+    "text": "Uh, that's a great question, Zach."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 63.01,
+    "end": 64.06,
+    "text": "No, it's not."
+  },
+  {
+    "speaker": "Penny",
+    "start": 64.06,
+    "end": 65.81,
+    "text": "Sheldon, play nice."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 65.81,
+    "end": 73.63,
+    "text": "Well, it's not a great question. How can somebody possibly think we're going to blow up the moon? That's a great question."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 74.83,
+    "end": 78.51,
+    "text": "Don't worry about the moon. We, we set our laser to stun."
+  },
+  {
+    "speaker": "Zach",
+    "start": 78.89,
+    "end": 80.25,
+    "text": "Smart."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 80.67,
+    "end": 85.83,
+    "text": "Now, we'll be able to see the beam when it leaves, but it won't be strong enough when it comes back to be seen by the naked eye."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.2800000000000011,
+    "text": "Howard, never let her go."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 4.0,
+    "end": 7.699999999999989,
+    "text": "So, Leonard, Howard says you're working on fundamental tests of quantum mechanics."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 7.849999999999994,
+    "end": 9.920000000000016,
+    "text": "I am. Are you interested in physics?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 10.039999999999992,
+    "end": 16.49000000000001,
+    "text": "Oh, I find it fascinating. If I hadn't gone into microbiology, I probably would have gone into physics. Or ice dancing."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.5,
+    "end": 25.30000000000001,
+    "text": "Actually, my tests of the Aharonov-Bohm quantum interference effect have reached an interesting point. Right now, we're testing the phase shift due to an electric potential."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 25.47999999999999,
+    "end": 26.460000000000008,
+    "text": "That's amazing."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.930000000000007,
+    "end": 39.16,
+    "text": "Yes. Leonard's work is nearly as amazing as third graders growing lima beans in wet paper towels. While I appreciate the oh, snap, I'm uncomfortable having your moist breath in my ear."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 43.69,
+    "end": 46.629999999999995,
+    "text": "Are you going to try to set up the voltages using tunnel junctions?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.47,
+    "end": 50.5,
+    "text": "Yes, I am. You want to see a simulation on my laptop?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 50.650000000000006,
+    "end": 55.53,
+    "text": "Oh, yeah, show me. In microbiology, the most exciting thing I get to work with is yeast."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.66,
+    "end": 60.50999999999999,
+    "text": "Howard? Your shoes are delightful."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 58.420000000000016,
+    "end": 58.74000000000001,
+    "text": "Yeah?"
+  }
+]

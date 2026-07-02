@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.9600000000000364,
+    "text": "Top o' the mornin'o ya!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.4500000000000455,
+    "end": 5.559999999999945,
+    "text": "What are you doing here?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 5.67999999999995,
+    "end": 20.93999999999994,
+    "text": "Well, usually, on Sundays, I go with Raj to scam on hippie chicks at the farmers market, but he's still working with Sheldon, so I thought I'd come over here and make you guys scrambled eggs and salami. It's the perfect meal for apres l'amour."
+  },
+  {
+    "speaker": "penny",
+    "start": 22.090000000000032,
+    "end": 23.809999999999945,
+    "text": "Oh, kill me."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 24.960000000000036,
+    "end": 28.269999999999982,
+    "text": "By the way, I couldn't help overhearing your big finish. Bravo, Leonard."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.889999999999986,
+    "end": 34.43999999999994,
+    "text": "See, if you had killed me when I said kill me, I wouldn't have had to hear that."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 34.50999999999999,
+    "end": 40.289999999999964,
+    "text": "What do you guys think? Want to take in a matinee, maybe go rollerblading, catch a step class?"
+  },
+  {
+    "speaker": "penny",
+    "start": 41.84000000000003,
+    "end": 43.0,
+    "text": "Do something."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.370000000000005,
+    "end": 46.64999999999998,
+    "text": "Yeah, okay. Um, Howard, we need to talk."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 47.370000000000005,
+    "end": 48.72000000000003,
+    "text": "Sure.'sup, homes?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 50.129999999999995,
+    "end": 58.25,
+    "text": "Uh, please understand that it's not that we don't want you around, but Penny and I occasionally need some alone time."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 60.200000000000045,
+    "end": 60.47000000000003,
+    "text": "Oh."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 62.35000000000002,
+    "end": 73.70000000000005,
+    "text": "I get it, I'm the third wheel. Sorry, I should have seen that. I'll get out of your way. Uh, you're gonna want to eat those eggs while they're still hot."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 74.16999999999996,
+    "end": 81.5,
+    "text": "Thank you. There's lox and cream cheese in the fridge, the bagels are in the oven, I was warming them up."
+  },
+  {
+    "speaker": "penny",
+    "start": 83.11000000000001,
+    "end": 84.32000000000005,
+    "text": "That's great."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 85.58000000000004,
+    "end": 88.70000000000005,
+    "text": "Ill just hang out with my mom. That's always fun."
+  }
+]

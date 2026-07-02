@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.5999999999999943,
+    "text": "Hey, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.03,
+    "end": 32.120000000000005,
+    "text": "Oh, Penny, excellent. I have a question about these maxi pads. Are the wings truly functional or have I fallen victim to marketing hype?"
+  },
+  {
+    "speaker": "penny",
+    "start": 33.06999999999999,
+    "end": 35.16,
+    "text": "What? What are you doing with, what?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.359999999999985,
+    "end": 40.27000000000001,
+    "text": "The stock boy at Walgreens was frustratingly uninformed on the subject."
+  },
+  {
+    "speaker": "penny",
+    "start": 40.329999999999984,
+    "end": 42.78999999999999,
+    "text": "Sheldon, what are you doing with maxi pads?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.21000000000001,
+    "end": 46.72,
+    "text": "I have a lady friend who will be staying with me for a few days."
+  },
+  {
+    "speaker": "penny",
+    "start": 47.50999999999999,
+    "end": 48.53,
+    "text": "Oh. What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.56,
+    "end": 59.76000000000002,
+    "text": "I want her to feel at home. I also bought scented soaps, pantyhose, Midol, calcium chews and what is apparently a yogurt specifically designed to regulate the female bowel."
+  },
+  {
+    "speaker": "penny",
+    "start": 62.559999999999974,
+    "end": 65.72999999999999,
+    "text": "Wait, wait, hold on, back up. You're having a woman stay with you?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.97,
+    "end": 68.6,
+    "text": "Yes. Why does that seem to flabbergast everybody?"
+  },
+  {
+    "speaker": "penny",
+    "start": 69.22,
+    "end": 74.84,
+    "text": "Oh, no, no, no, no. I'm not flabbergasted. I'm puzzled. Yeah, let's go with puzzled."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.47,
+    "end": 83.99999999999997,
+    "text": "A word of warning. My guest is a noted physicist and the leading expert on quantum cosmology, so please try to avoid wasting her time with female jibber jabber."
+  },
+  {
+    "speaker": "penny",
+    "start": 86.10999999999999,
+    "end": 87.22,
+    "text": "Female jibber jabber?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 87.61999999999998,
+    "end": 92.47,
+    "text": "Shoe sales, hair styles, mud masks, gossip about your friends Brad and Angelina."
+  },
+  {
+    "speaker": "penny",
+    "start": 94.23999999999998,
+    "end": 96.11999999999998,
+    "text": "Oh, they're not my friends."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 96.47999999999999,
+    "end": 99.15,
+    "text": "I'm not surprised, considering the way you talk about them behind their backs."
+  }
+]

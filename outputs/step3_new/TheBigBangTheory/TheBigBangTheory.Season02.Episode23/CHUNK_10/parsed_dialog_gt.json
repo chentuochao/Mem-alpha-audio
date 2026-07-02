@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.6200000000000045,
+    "text": "What is it?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.0899999999999181,
+    "end": 2.230000000000018,
+    "text": "It's a blanket with sleeves."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.5299999999999727,
+    "end": 13.029999999999973,
+    "text": "Oh, that's clever. Let me see if I understand this correctly. Her missing you is an emotional state you find desirable?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.68999999999994,
+    "end": 14.649999999999977,
+    "text": "Yes, obviously."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.829999999999927,
+    "end": 21.18999999999994,
+    "text": "All right. Well, given that missing you is predicated on you leaving, logic dictates you must leave."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.659999999999968,
+    "end": 29.449999999999932,
+    "text": "Yes, okay, but I'm gonna be gone for three months. What if she doesn't miss me that long and she meets someone else?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.319999999999936,
+    "end": 32.059999999999945,
+    "text": "She does have a short attention span."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.57999999999993,
+    "end": 34.610000000000014,
+    "text": "So, I can't go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.969999999999914,
+    "end": 41.41999999999996,
+    "text": "Leonard, you may be right. It appears that Penny secretly wants you in her life in a very intimate and carnal fashion."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.74000000000001,
+    "end": 43.549999999999955,
+    "text": "You really think so?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.82999999999993,
+    "end": 51.75,
+    "text": "Of course not. Even in my sleep-deprived state, I've managed to pull off another one of my classic pranks."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.92999999999995,
+    "end": 57.289999999999964,
+    "text": "Bazinga!"
+  },
+  {
+    "speaker": "penny",
+    "start": 62.82999999999993,
+    "end": 64.11000000000001,
+    "text": "Oh, Leonard, what time is it?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 64.11000000000001,
+    "end": 72.52999999999986,
+    "text": "It's 7 a.m. I'm sorry it's early, but we're leaving soon, and I needed to talk to you. What did you mean when you said you're going to miss me?"
+  },
+  {
+    "speaker": "penny",
+    "start": 68.24999999999989,
+    "end": 68.68999999999994,
+    "text": "Okay."
+  },
+  {
+    "speaker": "penny",
+    "start": 74.14999999999998,
+    "end": 78.12,
+    "text": "Um, I don't know. You'll be gone and I'll notice."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 81.00999999999988,
+    "end": 84.51999999999987,
+    "text": "Okay, well, um, what about this? What does this mean?"
+  },
+  {
+    "speaker": "penny",
+    "start": 85.41999999999996,
+    "end": 88.49999999999989,
+    "text": "Wine, credit card and late night television are a bad combination."
+  }
+]

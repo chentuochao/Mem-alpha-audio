@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "Leslie",
+    "start": 13.75,
+    "end": 15.05,
+    "text": "No, I think it needs to be spontaneous. What do you think?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.850000000000001,
+    "end": 18.53,
+    "text": "Shall I count down from three? You proposed the experiment. I think you should present your findings first."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 18.61,
+    "end": 18.81,
+    "text": "Fair enough. On the plus side, it was a good kiss, reasonable technique, no extraneous spittle. On the other hand, no arousal."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 29.21,
+    "end": 37.04,
+    "text": "None? Ah. Well, thank you for your time."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 30.41,
+    "end": 31.33,
+    "text": "None."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 37.04,
+    "end": 38.15,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 41.81,
+    "end": 43.89,
+    "text": "None at all?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 56.809999999999995,
+    "end": 70.59,
+    "text": "Sheldon, if you were a robot and I knew and you didn't, would you want me to tell you? Maybe, although the history of science fiction is not on your side."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 65.61,
+    "end": 71.73,
+    "text": "That depends. When I learn that I'm a robot, will I be able to handle it? Uh, let me ask you this. When I learn that I'm a robot, would I be bound by Asimov's three laws of robotics?"
+  }
+]

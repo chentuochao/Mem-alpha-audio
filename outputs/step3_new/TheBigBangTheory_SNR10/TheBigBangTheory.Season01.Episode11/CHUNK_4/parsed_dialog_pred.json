@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 0.0,
+    "end": 4.28,
+    "text": "Is that a dog? In the lab?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 4.08,
+    "end": 4.48,
+    "text": "Yes. Yes. Uh, they're training dogs to operate the centrifuge for when they need dogs to operate the centrifuge for blind scientists. I have to go."
+  },
+  {
+    "speaker": "Howard",
+    "start": 23.38,
+    "end": 27.86,
+    "text": "I know it's the phone. I hear the phone."
+  },
+  {
+    "speaker": "Paul",
+    "start": 27.66,
+    "end": 31.15,
+    "text": "Howard, it's the phone! Well, who's calling at this ungodly hour?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 31.15,
+    "end": 32.83,
+    "text": "I don't know."
+  },
+  {
+    "speaker": "Paul",
+    "start": 32.83,
+    "end": 37.14,
+    "text": "Well, ask them why they're calling at this ungodly hour."
+  },
+  {
+    "speaker": "Howard",
+    "start": 37.14,
+    "end": 45.02,
+    "text": "How can I ask them when I'm talking to you? Hello?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.4,
+    "end": 48.17,
+    "text": "Howard, it's Leonard. Code Milky Green."
+  },
+  {
+    "speaker": "Howard",
+    "start": 48.17,
+    "end": 50.22,
+    "text": "Dear Lord, not Milky Green."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 50.32,
+    "end": 52.36,
+    "text": "Affirmative, with fever."
+  },
+  {
+    "speaker": "Paul",
+    "start": 52.36,
+    "end": 61.53,
+    "text": "Who's on the phone? Why is he calling? Were you playing with him?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 54.3,
+    "end": 55.62,
+    "text": "It's Leonard."
+  },
+  {
+    "speaker": "Howard",
+    "start": 57.52,
+    "end": 58.94,
+    "text": "Sheldon sick."
+  },
+  {
+    "speaker": "Howard",
+    "start": 62.41,
+    "end": 66.15,
+    "text": "For God's sake, ma, I'm 26 years old."
+  },
+  {
+    "speaker": "Paul",
+    "start": 66.15,
+    "end": 71.68,
+    "text": "Excuse me, Mr. Corona. What do you want for breakfast?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 71.68,
+    "end": 78.81,
+    "text": "Chocolate milk and echoes, please. Howard, listen to me. No, don't, don't."
+  },
+  {
+    "speaker": "Howard",
+    "start": 76.4,
+    "end": 82.15,
+    "text": "Hang on, Paul waiting. Hello? Howard, I'm sick."
+  }
+]

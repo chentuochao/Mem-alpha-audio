@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.779999999999859,
+    "text": "What's new at the Cheesecake Factory?"
+  },
+  {
+    "speaker": "penny",
+    "start": 2.2199999999999136,
+    "end": 7.649999999999977,
+    "text": "Oh, uh, not much. We do have a chocolate key lime that's moving pretty well."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 8.370000000000005,
+    "end": 9.32000000000005,
+    "text": "Good. Good."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.82000000000005,
+    "end": 18.479999999999905,
+    "text": "And what about your, uh, hallway friend."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.219999999999914,
+    "end": 23.590000000000032,
+    "text": "Doug? Oh, yeah, I dunno, I mean, he's nice and funny, but..."
+  },
+  {
+    "speaker": "waitress",
+    "start": 23.639999999999986,
+    "end": 24.659999999999968,
+    "text": "Can I get you started with some drinks?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.68999999999994,
+    "end": 31.31000000000006,
+    "text": "No, You were saying, but... Just say the but thing about Doug and then I'll get her back."
+  },
+  {
+    "speaker": "penny",
+    "start": 28.120000000000005,
+    "end": 28.81000000000006,
+    "text": "I'd like a drink."
+  },
+  {
+    "speaker": "penny",
+    "start": 32.999999999999886,
+    "end": 40.39999999999998,
+    "text": "Okay, well, you know, it's just me. I' m still getting over this break- up with Kurt, and this thing with Doug would be just rebound sex."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.489999999999895,
+    "end": 44.14999999999998,
+    "text": "Ugh, don't get me started on rebound sex."
+  },
+  {
+    "speaker": "penny",
+    "start": 45.27999999999986,
+    "end": 53.90999999999997,
+    "text": "It's just, it's my pattern. I break up, then I find some cute guy, and then it's just thirty six meaningless of... well, you know."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.56000000000006,
+    "end": 66.4899999999999,
+    "text": "I' m not sure that I do. Um, is that one thirty- six hour experience, or is it thirty six hours spread out over say, one... glorious summer."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.32000000000005,
+    "end": 71.13999999999999,
+    "text": "No, it's usually over a weekend, and trust me, you do not feel good after it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 71.89999999999998,
+    "end": 73.02999999999986,
+    "text": "Well, chafing, right?"
+  },
+  {
+    "speaker": "penny",
+    "start": 75.31000000000006,
+    "end": 75.88,
+    "text": "Emotionally."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.10000000000002,
+    "end": 78.09000000000003,
+    "text": "Of course, yeah, emotional chafing."
+  }
+]

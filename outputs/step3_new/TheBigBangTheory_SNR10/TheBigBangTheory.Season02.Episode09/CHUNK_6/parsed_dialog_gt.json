@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 2.3800000000000523,
+    "text": "Who's Mike? Why does he get a digital sheep and not you?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 3.9599999999999795,
+    "end": 7.680000000000007,
+    "text": "It's just her facebook page and we've only been going out a couple of weeks."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 7.800000000000011,
+    "end": 9.980000000000075,
+    "text": "You don't see it, do you? We're losing her."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.140000000000043,
+    "end": 28.170000000000016,
+    "text": "Okay, I'm going to make this very simple for you. You are not in this relationship, I am. Ergo, you have no say in anything that happens between me and Stephanie."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.410000000000025,
+    "end": 38.04000000000002,
+    "text": "I'm afraid I can't allow that. Pursuant to Starfleet General Order 104 Section A, you are deemed unfit and I hereby relieve you of your command."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.11000000000007,
+    "end": 45.01000000000005,
+    "text": "General Order 104, Section A does not apply in this situation."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.13000000000005,
+    "end": 46.52000000000004,
+    "text": "Give me one good reason why not."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 46.60000000000008,
+    "end": 47.910000000000025,
+    "text": "Because this is not Star Trek"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.43000000000001,
+    "end": 56.88000000000005,
+    "text": "Penny Penny Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 58.77000000000004,
+    "end": 59.25000000000006,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.170000000000016,
+    "end": 61.29000000000002,
+    "text": "This is banana bread."
+  },
+  {
+    "speaker": "penny",
+    "start": 63.95999999999998,
+    "end": 65.07,
+    "text": "This is a door knob."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.77000000000004,
+    "end": 74.12000000000006,
+    "text": "It's my understanding that an unsolicited gift of food can be a precursor to an impromptu invitation to come in and chat."
+  },
+  {
+    "speaker": "penny",
+    "start": 77.11000000000007,
+    "end": 78.44,
+    "text": "Sheldon, would you like to come in?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 78.94999999999999,
+    "end": 80.12000000000006,
+    "text": "I suppose I could spare a few minutes."
+  }
+]

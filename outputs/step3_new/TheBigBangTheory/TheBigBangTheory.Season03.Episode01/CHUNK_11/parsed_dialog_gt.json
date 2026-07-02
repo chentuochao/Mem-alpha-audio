@@ -1,0 +1,194 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.990000000000009,
+    "text": "Will you please take that stupid hat off?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 2.3500000000001364,
+    "end": 3.7200000000000273,
+    "text": "No, I want to blend in."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 5.230000000000018,
+    "end": 7.180000000000064,
+    "text": "To what? Toy Story?"
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 8.540000000000191,
+    "end": 9.900000000000091,
+    "text": "Hi, boys."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 11.260000000000218,
+    "end": 11.900000000000091,
+    "text": "Howdy, ma'am."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 12.460000000000036,
+    "end": 16.190000000000055,
+    "text": "Howdy to you, too. You got here quick. Well, come on in."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.570000000000164,
+    "end": 15.080000000000155,
+    "text": "We took the red-eye."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 16.310000000000173,
+    "end": 17.15000000000009,
+    "text": "Thank you kindly."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 17.840000000000146,
+    "end": 20.060000000000173,
+    "text": "Can I... Can I get you something to drink?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.230000000000018,
+    "end": 20.920000000000073,
+    "text": "Uh, no, thank you."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 21.050000000000182,
+    "end": 24.300000000000182,
+    "text": "If y'all don't mind, I got a hankerin' for a Lone Star beer."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 26.570000000000164,
+    "end": 29.730000000000018,
+    "text": "There's no alcohol in this household. Stop talking like that and lose the hat."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 32.56000000000017,
+    "end": 34.76000000000022,
+    "text": "Sorry. I'll take a diet Yoo-Hoo if you have it."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 36.52000000000021,
+    "end": 57.100000000000136,
+    "text": "You'll take a Cola.* What about you? Radge, isn't it? Oh, you still having trouble talking to the ladies? Because, you know, at our church we have a woman who's an amazing healer. Mostly she does, uh, crutch and wheelchair people, but I bet she'd be willing to take a shot at whatever Third World demon is running around inside of you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.27000000000021,
+    "end": 64.07000000000016,
+    "text": "Uh, if you don't mind, Mrs. Cooper, there's a 3:05 nonstop back to Los Angeles, and you have no idea how much I want to be on it."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 65.16000000000008,
+    "end": 71.99000000000001,
+    "text": "A girl? Oh, good. I've been praying for you. Oh, Sheldon."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.27000000000021,
+    "end": 66.90000000000009,
+    "text": "Uh, yes, ma'am."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 74.93000000000006,
+    "end": 75.98000000000002,
+    "text": "What are they doing here?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.04000000000019,
+    "end": 90.45000000000005,
+    "text": "We came to apologize. And bring you home. So, why don't you pack up your stuff and we'll head back. No, this is my home now. Thanks to you, my career is over and I will spend the rest of my life here in Texas trying to teach evolution to creationists."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 77.30000000000018,
+    "end": 77.7800000000002,
+    "text": "Again."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 94.51000000000022,
+    "end": 98.87000000000012,
+    "text": "You watch your mouth, Shelly. Everyone's entitled to their opinion."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 98.99000000000001,
+    "end": 101.60000000000014,
+    "text": "Evolution isn't an opinion, it's fact."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 101.66000000000008,
+    "end": 104.0,
+    "text": "And that is your opinion."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 107.59000000000015,
+    "end": 108.61000000000013,
+    "text": "I forgive you. Let's go home."
+  },
+  {
+    "speaker": "mary_cooper",
+    "start": 114.22000000000003,
+    "end": 115.71000000000004,
+    "text": "Don't tell me prayer doesn't work."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 123.60000000000014,
+    "end": 125.93000000000006,
+    "text": "How about that? I finally caught a break."
+  },
+  {
+    "speaker": "penny",
+    "start": 128.86000000000013,
+    "end": 129.23000000000002,
+    "text": "Uh-huh."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 132.16000000000008,
+    "end": 140.43000000000006,
+    "text": "You know how they say when friends have sex it can get weird? Why does it have to get weird?"
+  },
+  {
+    "speaker": "penny",
+    "start": 136.18000000000006,
+    "end": 136.61000000000013,
+    "text": "Sure."
+  },
+  {
+    "speaker": "penny",
+    "start": 141.23000000000002,
+    "end": 141.83000000000015,
+    "text": "I don't know."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 143.26000000000022,
+    "end": 156.1400000000001,
+    "text": "I mean, we were friends, and now we're more than friends. We're whatever this is. But why label it, right? I mean, it is what it is and... Yeah? Totally."
+  },
+  {
+    "speaker": "penny",
+    "start": 154.18000000000006,
+    "end": 155.57000000000016,
+    "text": "Leonard? It's weird."
+  }
+]

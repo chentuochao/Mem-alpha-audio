@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.9700000000000273,
+    "text": "Get out of bed, we're switching."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.2000000000000455,
+    "end": 2.310000000000059,
+    "text": "Now, only if you want to."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 2.490000000000009,
+    "end": 3.1200000000000045,
+    "text": "Just get in the bed!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 4.25,
+    "end": 8.780000000000086,
+    "text": "What's going on? Are you boys roughhousing?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 9.910000000000082,
+    "end": 26.090000000000032,
+    "text": "We're just talking ma. For God's sake, ma, I'm 27 years old. It's not even a school night! Comfy now?"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 11.56000000000006,
+    "end": 11.56000000000006,
+    "text": "If you don't settle down right now, I'm not going to let you have any more sleepovers."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.340000000000032,
+    "end": 39.110000000000014,
+    "text": "Meh. That poster of Halle Berry's a little unnerving."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 40.67000000000007,
+    "end": 42.92000000000007,
+    "text": "So don't look at it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.139999999999986,
+    "end": 49.04000000000008,
+    "text": "She's like my fourth favourite catwoman. Yeah, Julie Newmar, Michelle Pfieffer, Eartha Kitt and then her."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 45.08000000000004,
+    "end": 45.83000000000004,
+    "text": "No kidding?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 49.370000000000005,
+    "end": 50.930000000000064,
+    "text": "What about Lee Meriwether?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.17000000000007,
+    "end": 52.5,
+    "text": "Oh, I forgot about Lee Meriwether."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 52.50999999999999,
+    "end": 55.17000000000007,
+    "text": "Well I'm glad that's settled."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.700000000000045,
+    "end": 62.379999999999995,
+    "text": "That makes Halle Berry my fifth favourite catwoman. There's Julie Newmar, Michelle Pfieffer, Eartha Kitt, Lee Meriwether..."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 62.51999999999998,
+    "end": 64.68000000000006,
+    "text": "Please, I'm begging you, go to sleep."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 64.83000000000004,
+    "end": 66.84000000000003,
+    "text": "I'm trying, I'm counting catwomen."
+  }
+]

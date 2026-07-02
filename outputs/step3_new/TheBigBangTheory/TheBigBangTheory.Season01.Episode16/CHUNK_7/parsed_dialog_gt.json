@@ -1,0 +1,146 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.5599999999999454,
+    "text": "What do you think."
+  },
+  {
+    "speaker": "penny",
+    "start": 1.5,
+    "end": 2.1000000000000227,
+    "text": "Um, that one."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.2200000000000273,
+    "end": 6.789999999999964,
+    "text": "Because of the two additional Ethernet ports. He doesn't need them, he's already got a 640 connect switch"
+  },
+  {
+    "speaker": "penny",
+    "start": 4.529999999999973,
+    "end": 4.889999999999986,
+    "text": "Sure."
+  },
+  {
+    "speaker": "penny",
+    "start": 7.409999999999968,
+    "end": 11.610000000000014,
+    "text": "Oh, okay then this one. I don't know, the man on the box looks so happy."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.879999999999995,
+    "end": 9.360000000000014,
+    "text": "Why?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.18999999999994,
+    "end": 19.039999999999964,
+    "text": "Penny! If I' m going to buy Leonard a gift, I' m going to do it right. I refuse to let him experience the same childhood trauma I did."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.730000000000018,
+    "end": 21.850000000000023,
+    "text": "Oh, I know I' m going to regret this but, what trauma?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.090000000000032,
+    "end": 40.639999999999986,
+    "text": "On my twelfth birthday I really wanted a titanium centrifuge, so, you know, I could separate radioactive isotopes. Instead of a titanium centrifuge, my parents bought me... wow, this is hard. They got me... a motorised dirt bike."
+  },
+  {
+    "speaker": "penny",
+    "start": 30.66999999999996,
+    "end": 31.319999999999936,
+    "text": "Of course."
+  },
+  {
+    "speaker": "penny",
+    "start": 43.50999999999999,
+    "end": 44.01999999999998,
+    "text": "No?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.98000000000002,
+    "end": 47.370000000000005,
+    "text": "What twelve year old boy wants a motorised dirt bike?"
+  },
+  {
+    "speaker": "penny",
+    "start": 49.309999999999945,
+    "end": 58.10000000000002,
+    "text": "All of them. Yeah. Okay, so we're getting this one? Okay, let's go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.93999999999994,
+    "end": 51.24000000000001,
+    "text": "Really?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 53.90999999999997,
+    "end": 54.450000000000045,
+    "text": "Huh?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.90999999999997,
+    "end": 57.539999999999964,
+    "text": "Yeah, I suppose."
+  },
+  {
+    "speaker": "jan",
+    "start": 59.34000000000003,
+    "end": 61.870000000000005,
+    "text": "Excuse me, do you know anything about this stuff?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.35000000000002,
+    "end": 63.91999999999996,
+    "text": "I know everything about this stuff."
+  },
+  {
+    "speaker": "jan",
+    "start": 64.88999999999999,
+    "end": 70.90999999999997,
+    "text": "Okay, I have my own wholesale flower business, and I want to hook up my computer in the front entrance with the one in my refrigerated warehouse."
+  },
+  {
+    "speaker": "penny",
+    "start": 70.95000000000005,
+    "end": 73.71000000000004,
+    "text": "Here, buy this one. Look, it's the one we're getting, see, happy guy available."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 73.74000000000001,
+    "end": 78.99000000000001,
+    "text": "No, no, no, no, she doesn't want that, she needs a point to point peer network with a range extender."
+  },
+  {
+    "speaker": "jan",
+    "start": 79.31999999999994,
+    "end": 80.03999999999996,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "dan",
+    "start": 80.06999999999994,
+    "end": 83.84000000000003,
+    "text": "Which hard drive do I want, firewire or USB?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 84.01999999999998,
+    "end": 85.13,
+    "text": "It depends on what Bus you have."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 8.96,
+    "end": 21.69,
+    "text": "Come on, we have a combined IQ of 360. We should be able to figure out how to get into a stupid building. Grab the door! This is it. I'll do the talking."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 12.08,
+    "end": 14.51,
+    "text": "It's just a privilege to watch your mind at work. What do you think their combined IQ is?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 21.69,
+    "end": 23.88,
+    "text": "Good thinking. I'll just be the muscle."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 31.75,
+    "end": 34.08,
+    "text": "I'm Leonard, this is Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 34.08,
+    "end": 38.99,
+    "text": "From the intercom. How the hell did you get in the building?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 38.99,
+    "end": 41.87,
+    "text": "Uh, we're scientists."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 43.15,
+    "end": 45.69,
+    "text": "Not telling about our IQ."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.13,
+    "end": 60.87,
+    "text": "Leonard. My mom bought me those pants."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 58.45,
+    "end": 61.97,
+    "text": "What? I'm sorry."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 62.66,
+    "end": 64.36,
+    "text": "You're gonna have to call her."
+  }
+]

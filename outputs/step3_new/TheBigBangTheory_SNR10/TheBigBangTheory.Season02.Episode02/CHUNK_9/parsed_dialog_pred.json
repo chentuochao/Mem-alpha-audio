@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 6.819999999999999,
+    "end": 11.62,
+    "text": "When the two of you reach a natural stopping point, I'd like to have a word. If the word is pee-pee, just do it. Leonard, you're my friend. And friends support their friends, apparently. So I'm withdrawing my objection to your desire to have a relationship with Leslie. Thank you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.25,
+    "end": 23.45,
+    "text": "I will graciously overlook the fact that she is an arrogant, subpar scientist who actually believes loop quantum gravity better unites quantum mechanics with general relativity than does string theory. You kids have fun."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 42.3,
+    "end": 45.56,
+    "text": "Hang on a second. Loop quantum gravity clearly offers more testable predictions than string theory. Okay, well, for one thing, we expect quantized space-time to manifest itself as minute differences in the speed of light for different colors."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.5,
+    "end": 45.0,
+    "text": "I'm listening. Amuse me."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 52.25,
+    "end": 55.46,
+    "text": "Balderdash. Matter clearly consists of tiny strings."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 56.9,
+    "end": 59.46,
+    "text": "Are you gonna let him talk to me like that?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 63.92,
+    "end": 67.01,
+    "text": "Okay, well, there's a lot of merit to both theories."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 67.01,
+    "end": 70.84,
+    "text": "No, there isn't. Only loop quantum gravity calculates the entropy of black holes."
+  }
+]

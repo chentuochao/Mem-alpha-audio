@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 43.90999999999997,
+    "text": "Look at Planck's Constant. People say it's arbitrary. It could not be less arbitrary. If it varied even slightly, life as we know it would not exist. Bam! Now, now, let's reconsider the entire argument, but with entropy reversed and effect preceding cause, so you are thinking of a universe that's not expanding from the centre, no, it is retreating from a, from a possibility space. Bam! This is a space where we are all essentially Alice through the looking glass, standing in front the Red Queen, and we're being offered a cracker to quench our thirst. Bam! Of course, in another universe, let's call it universe prime, there's another Sheldon, let's call him Sheldon prime..."
+  },
+  {
+    "speaker": "penny",
+    "start": 44.68999999999994,
+    "end": 47.809999999999945,
+    "text": "We should have let him go to bed."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.59000000000003,
+    "end": 51.629999999999995,
+    "text": "Bam. I can't believe we actually did it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 52.65999999999997,
+    "end": 55.77999999999997,
+    "text": "1,000 friggin' Penny Blossoms."
+  },
+  {
+    "speaker": "penny",
+    "start": 56.44999999999993,
+    "end": 63.43999999999994,
+    "text": "I just want you guys to know I am really grateful for your help, and for every dollar I make, I'm going to give you 20 cents."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 64.5,
+    "end": 66.17999999999995,
+    "text": "That's your entire profit margin."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.13,
+    "end": 69.5,
+    "text": "Oh. Then never mind."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 70.44999999999993,
+    "end": 72.02999999999997,
+    "text": "I'll print out the shipping label."
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 5.66,
+    "end": 11.92,
+    "text": "No, ahem. Fine. I accept your premise. Now please, let's go."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 11.72,
+    "end": 21.64,
+    "text": "That's ridiculous. I'm not leaving until I'm done. If you have time to leave, you have time to clean."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 24.44,
+    "end": 26.7,
+    "text": "Oh, what the hell."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 34.01,
+    "end": 35.53,
+    "text": "Morning."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 35.57,
+    "end": 37.09,
+    "text": "Morning."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.11,
+    "end": 37.31,
+    "text": "I have to say, I slept splendidly. Granted, not long, but just deeply and well. I'm not surprised. A well-known folk cure for insomnia is to break into your neighbor's apartment and clean."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 50.67,
+    "end": 50.870000000000005,
+    "text": "Sarcasm? You think? Granted, my methods may have been somewhat unorthodox, but I think the end result will be a measurable enhancement to Penny's quality of life."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 61.18,
+    "end": 64.58,
+    "text": "You know what? You convinced me. Maybe tonight we should sneak in and shampoo her carpet."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 64.92,
+    "end": 66.92,
+    "text": "You don't think that crosses a line?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 66.92,
+    "end": 67.12,
+    "text": "Yes! For God's sake, Sheldon, do I have to put up a sarcasm sign every time I open my mouth?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 73.28,
+    "end": 75.16,
+    "text": "You have a sarcasm sign?"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 3.8199999999999994,
+    "end": 6.46,
+    "text": "Mmm. Why didn't you just have soup at home?"
+  },
+  {
+    "speaker": "Betty",
+    "start": 13.88,
+    "end": 23.8,
+    "text": "Betty, I have an IQ of 187. Don't you imagine that if there were a way for me to have had soup at home, I would have thought of it? I did not think of that. Clearly febrile delirium is setting in. Please bring me some soup while I still understand what a spoon is for."
+  },
+  {
+    "speaker": "Penny",
+    "start": 14.52,
+    "end": 16.7,
+    "text": "You can have soup delivered."
+  },
+  {
+    "speaker": "Penny",
+    "start": 30.24,
+    "end": 32.45,
+    "text": "Okay, what kind of soup do you want?"
+  },
+  {
+    "speaker": "Betty",
+    "start": 32.45,
+    "end": 32.650000000000006,
+    "text": "Well, my mother used to make me this split pea with little frankfurter slices and these homemade croutons."
+  },
+  {
+    "speaker": "Penny",
+    "start": 39.04,
+    "end": 41.7,
+    "text": "We have chicken tortilla and potato leek."
+  },
+  {
+    "speaker": "Betty",
+    "start": 41.98,
+    "end": 50.1,
+    "text": "Could I get any of those with little frankfurter slices and homemade croutons? Then surprise me."
+  },
+  {
+    "speaker": "Penny",
+    "start": 46.57,
+    "end": 47.94,
+    "text": "No."
+  },
+  {
+    "speaker": "Betty",
+    "start": 59.06,
+    "end": 62.04,
+    "text": "Would you call that moss green or forest green?"
+  }
+]

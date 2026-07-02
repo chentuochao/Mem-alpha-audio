@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.6699999999998454,
+    "text": "So, how's everything."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.089999999999918,
+    "end": 6.7999999999999545,
+    "text": "Terrific, you'll be happy to know that I plan to come here every Tuesday night for the foreseeable future."
+  },
+  {
+    "speaker": "penny",
+    "start": 6.9099999999998545,
+    "end": 8.349999999999909,
+    "text": "Really, oh yay!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.629999999999882,
+    "end": 13.189999999999827,
+    "text": "Who do I speak to about permanently reserving this table?"
+  },
+  {
+    "speaker": "penny",
+    "start": 13.779999999999973,
+    "end": 21.62999999999988,
+    "text": "Um, I don't know, a psychiatrist? So hey, how are things with you and Lesley?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.37999999999988,
+    "end": 25.069999999999936,
+    "text": "Oh, to be honest, I don't think it's going to work out."
+  },
+  {
+    "speaker": "penny",
+    "start": 25.909999999999854,
+    "end": 33.6099999999999,
+    "text": "Oh, oh that's too bad. Well hey, don't worry, I' m sure there is someone out there who is just right for you.."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.819999999999936,
+    "end": 42.27999999999997,
+    "text": "Well what did she mean by that? Was that just a generic platitude or was that a subtle bid for attention?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.48000000000002,
+    "end": 54.08999999999992,
+    "text": "You know why this hamburger surpasses the Big Boy? This is a single decker hamburger whereas the Big Boy is a double decker. This has a much more satisfying meat to bun to condiment ratio."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.8599999999999,
+    "end": 57.18999999999983,
+    "text": "Are you even listening to me?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.289999999999964,
+    "end": 60.57999999999993,
+    "text": "Of course I' m listening. Blah blah, hopeless Penny delusion, blah blah blah."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 63.61999999999989,
+    "end": 68.83999999999992,
+    "text": "Okay then. You know, you can grow the ingredients for soup.."
+  }
+]

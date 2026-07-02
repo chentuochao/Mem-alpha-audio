@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.509999999999991,
+    "text": "Perhaps there's hope for you after all."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 21.029999999999987,
+    "end": 21.239999999999995,
+    "text": "Ooh,"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 29.260000000000005,
+    "end": 30.08,
+    "text": "I love your shoes."
+  },
+  {
+    "speaker": "penny",
+    "start": 30.219999999999985,
+    "end": 36.95,
+    "text": "Oh, thanks. They are cute, aren't they? Shoes for Less. Oh, great selection, great prices."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 32.33,
+    "end": 35.040000000000006,
+    "text": "Where'd you get them? I've been meaning to go over there."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.64999999999999,
+    "end": 40.230000000000004,
+    "text": "My mother was right. Hell is real."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 41.8,
+    "end": 45.07000000000001,
+    "text": "Come on, Sheldon. let the womenfolk chat."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.33,
+    "end": 48.760000000000005,
+    "text": "Womenfolk?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 49.52999999999999,
+    "end": 51.77999999999999,
+    "text": "Gals? Chicks? Utero-Americans?"
+  },
+  {
+    "speaker": "penny",
+    "start": 55.290000000000006,
+    "end": 56.08999999999999,
+    "text": "Just eat your dinner."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 56.55999999999999,
+    "end": 60.35000000000001,
+    "text": "Don't take him too seriously, a lot of what he says is intended as humour."
+  },
+  {
+    "speaker": "penny",
+    "start": 62.209999999999994,
+    "end": 63.86,
+    "text": "Yeah, well, I don't think it's very funny."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 64.13000000000001,
+    "end": 66.57000000000001,
+    "text": "Me neither, but he just lights up when I laugh."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 3.800000000000068,
+    "text": "Alicia, what do you want as your default setting for DVDs, 5.1 Dolby or DTS?"
+  },
+  {
+    "speaker": "alicia",
+    "start": 4.5200000000000955,
+    "end": 6.290000000000077,
+    "text": "Whatever you think is best, cutie."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 8.120000000000005,
+    "end": 13.509999999999991,
+    "text": "Well, DTS has more low end, so... okay."
+  },
+  {
+    "speaker": "penny",
+    "start": 15.480000000000018,
+    "end": 61.83000000000004,
+    "text": "Uh, hey, guys, guys, you will really appreciate this, I read the best science joke on the internet. Alicia, you won't get it, but it's right up their alley. Anyway, so, this physicist goes into an ice cream parlour every week and orders an ice cream sundae for himself, and then offers one to the empty stool sitting next to him. This goes on for a while until the owner finally asks him what he's doing. The man says,\" well, I'm a physicist, and quantum mechanics teaches us that it is possible for the matter above this stool to spontaneously turn into a beautiful woman who might accept my offer and fall in love with me.\" The owner then says,\" well, lots of single, beautiful women come in here every day, why don't you buy an ice cream for one of them, and they might fall in love with you?\" And the physicist says,\" yeah, but what are the odds of that happening?\""
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.190000000000055,
+    "end": 67.0,
+    "text": "It's a little insulting, don't you think?"
+  },
+  {
+    "speaker": "penny",
+    "start": 67.71000000000004,
+    "end": 71.97000000000003,
+    "text": "How would I know? I'm not even sure I get it."
+  },
+  {
+    "speaker": "alicia",
+    "start": 72.68000000000006,
+    "end": 76.48000000000002,
+    "text": "Hey, Leonard? If you're done with the DVD player, can you set up my printer?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.54000000000008,
+    "end": 77.75999999999999,
+    "text": "Uh, yeah, I'd love to."
+  },
+  {
+    "speaker": "penny",
+    "start": 78.98000000000002,
+    "end": 84.47000000000003,
+    "text": "Uh, hey, maybe when you're done with her printer, you could set up mine. You know, like you promised a week ago."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 84.58000000000004,
+    "end": 85.85000000000002,
+    "text": "Yeah, I'll get to it, don't nag me."
+  }
+]

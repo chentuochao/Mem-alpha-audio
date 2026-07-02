@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 7.319999999999999,
+    "end": 7.72,
+    "text": "If you're concerned about sharing credit with me, your name can go first. I'm going. It's a small brown paper bag, ma. I'm looking at it right now. Why would I make that up? There's no ding dong in it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 24.78,
+    "end": 28.18,
+    "text": "So, this is engineering, huh?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 27.98,
+    "end": 29.96,
+    "text": "How are two ding dongs tomorrow gonna help me today? I'll talk to you later."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.04,
+    "end": 30.24,
+    "text": "Engineering. Where the noble, semi-skilled laborers execute the vision of those who think and dream. Hello, Oompa Loompas of science."
+  },
+  {
+    "speaker": "Howard",
+    "start": 41.26,
+    "end": 43.44,
+    "text": "Sheldon, what are you doing here?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 43.44,
+    "end": 45.37,
+    "text": "I just came by to say hello."
+  },
+  {
+    "speaker": "Howard",
+    "start": 45.37,
+    "end": 48.54,
+    "text": "I've been in this lab for three years. You've never come by to say hello."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 48.54,
+    "end": 53.7,
+    "text": "Well, up until now, I've had better things to do. So, what are we making today?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 53.7,
+    "end": 53.900000000000006,
+    "text": "A small payload support structure for a European science experimental package that's going up on the next station."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 59.91,
+    "end": 61.72,
+    "text": "Really? How does it work?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 61.72,
+    "end": 66.8,
+    "text": "When this is done, it will be attached to the payload bay, and the sensor apparatus will rest on it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.2,
+    "end": 70.74,
+    "text": "Uh huh. So it's a shelf."
+  }
+]

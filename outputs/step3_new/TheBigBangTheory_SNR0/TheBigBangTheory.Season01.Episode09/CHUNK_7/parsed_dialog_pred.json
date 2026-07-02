@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 4.43,
+    "end": 12.18,
+    "text": "Hey, I'm leaving for the conference. I didn't mean it like that. I don't know, I wasn't sure. No, no, not at all, not at all."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 6.109999999999999,
+    "end": 9.32,
+    "text": "Have fun presenting my lucky hunch. Why did you say it? Were you trying to impress Penny?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 12.18,
+    "end": 18.68,
+    "text": "How'd that work out for you? Libido one, truth zero."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 20.42,
+    "end": 25.01,
+    "text": "Okay, I'm gonna ask you one more time. We did the work together, let's present the paper together."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 25.01,
+    "end": 29.32,
+    "text": "I'm telling you for the last time, it's pandering, it's undignified, and bite me."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 31.12,
+    "end": 32.51,
+    "text": "Let's go."
+  },
+  {
+    "speaker": "Penny",
+    "start": 32.309999999999995,
+    "end": 33.74,
+    "text": "Leonard, ready to go? Bye, Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.74,
+    "end": 34.96,
+    "text": "Goodbye, Penny."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 44.82,
+    "end": 52.95,
+    "text": "One of these days. Right, this side does look better."
+  },
+  {
+    "speaker": "Penny",
+    "start": 52.95,
+    "end": 55.95,
+    "text": "And I didn't say better, I said less cake."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.35,
+    "end": 60.76,
+    "text": "There's probably twenty, twenty-five people in there."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 60.76,
+    "end": 66.11,
+    "text": "You're kidding. All? In particle physics, twenty-five is Woodstock."
+  },
+  {
+    "speaker": "Penny",
+    "start": 61.47,
+    "end": 62.32,
+    "text": "Is that all?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 66.75,
+    "end": 69.58,
+    "text": "Oh, well, then good."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 69.58,
+    "end": 71.92,
+    "text": "I wasn't expecting such a crowd, I'm a little nervous."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 71.92,
+    "end": 74.16,
+    "text": "It's okay, just open with a joke, you'll be fine."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 74.16,
+    "end": 78.37,
+    "text": "Uh, joke. Okay. How about this? Um, okay. Uh, there's this farmer, and he has these chickens, but they won't lay any eggs. So, he calls a physicist to help. The physicist then does some calculations, and he says, um, I have a solution, but, uh, it only works for spherical chickens in a vacuum."
+  }
+]

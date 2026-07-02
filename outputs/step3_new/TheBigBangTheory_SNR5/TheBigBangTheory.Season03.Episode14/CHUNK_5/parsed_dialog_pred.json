@@ -1,0 +1,134 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 4.95,
+    "end": 6.79,
+    "text": "What? I have good news. Your cell phone was off."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 6.59,
+    "end": 9.36,
+    "text": "And you had to barge in here and wake us up in the middle of the night? Because we didn't want to be disturbed."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 9.46,
+    "end": 11.66,
+    "text": "Well, that didn't work out, did it?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 12.5,
+    "end": 14.54,
+    "text": "Sheldon, what do you want?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 14.54,
+    "end": 17.76,
+    "text": "I came to tell you, I've got the answer."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 18.1,
+    "end": 21.56,
+    "text": "Really? You figured out the graphene problem?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 21.56,
+    "end": 26.72,
+    "text": "No, well, I'm still hopelessly stuck on that, but I figured out how to figure it out."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 26.72,
+    "end": 31.32,
+    "text": "Hey, you know, Leonard, I know I said I could handle your roommate, but I was wrong. We're gonna have to break up."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 31.72,
+    "end": 39.14,
+    "text": "What are you talking about? Einstein."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 39.5,
+    "end": 41.76,
+    "text": "Yeah, I'm gonna need a little more."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.48,
+    "end": 44.34,
+    "text": "Albert Einstein."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.76,
+    "end": 48.23,
+    "text": "Keep going."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 48.23,
+    "end": 53.36,
+    "text": "When Albert Einstein came up with special relativity, he was working at the patent office."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 53.36,
+    "end": 55.81,
+    "text": "So, you're gonna go work at the patent office?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 55.81,
+    "end": 56.010000000000005,
+    "text": "Don't be absurd. That's in Washington. You know I could never live in a city. The streets are laid out in a wheel and spoke pattern."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 63.17,
+    "end": 63.370000000000005,
+    "text": "I'm going to find a similarly menial job where my basal ganglia are occupied with a routine task, freeing my prefrontal cortex to work quietly in the background on my problem."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 73.76,
+    "end": 75.44,
+    "text": "Sounds like a great plan."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 75.44,
+    "end": 81.02,
+    "text": "Of course it is. Even talking to you is sufficiently menial that I can feel the proverbial juices starting to flow."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 81.14,
+    "end": 84.92,
+    "text": "Okay, well, thanks for sharing with us. Good night."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 84.92,
+    "end": 85.12,
+    "text": "You're welcome. Good night to you, too. By the way, I was watching you sleep for a moment, and I noticed that your snoring seems to be worse when you're on your back."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 94.59,
+    "end": 96.43,
+    "text": "Leonard doesn't snore."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 96.43,
+    "end": 97.93,
+    "text": "No, I wasn't talking to Leonard."
+  }
+]

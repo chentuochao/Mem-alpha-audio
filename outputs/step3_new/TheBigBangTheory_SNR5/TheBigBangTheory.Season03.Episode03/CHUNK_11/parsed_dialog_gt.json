@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "sarah",
+    "start": 0.0,
+    "end": 2.759999999999991,
+    "text": "I'm leaving too. Not that anyone cares."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 10.460000000000036,
+    "end": 12.909999999999968,
+    "text": "When we tell this story, let's end it differently."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 13.899999999999977,
+    "end": 16.25999999999999,
+    "text": "What are you thinking? Maybe a big musical number?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.269999999999982,
+    "end": 30.92999999999995,
+    "text": "Well, I'm going to make some warm milk and then turn in. I trust if you two are planning in engaging in amorous activites, you'll keep the decibel level to a minimum."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.66999999999996,
+    "end": 32.629999999999995,
+    "text": "Of course."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.89999999999998,
+    "end": 33.58000000000004,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "penny",
+    "start": 35.210000000000036,
+    "end": 39.27999999999997,
+    "text": "Mmm, these are so good"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.08999999999992,
+    "end": 40.789999999999964,
+    "text": "Unbelievable."
+  },
+  {
+    "speaker": "penny",
+    "start": 42.289999999999964,
+    "end": 43.049999999999955,
+    "text": "What?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 44.549999999999955,
+    "end": 47.91000000000008,
+    "text": "I was just thinking, we should probably turn in too."
+  },
+  {
+    "speaker": "penny",
+    "start": 47.91000000000008,
+    "end": 51.32999999999993,
+    "text": "well, my new bed got delivered, if you come over and put it together, you can stay at my place."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.690000000000055,
+    "end": 53.67000000000007,
+    "text": "Really, that's a lot of work, and it's kind of late."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.00999999999999,
+    "end": 55.82999999999993,
+    "text": "Yeah, but if we stay there, we won't have to be quiet."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.950000000000045,
+    "end": 56.33999999999992,
+    "text": "Let's go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.07999999999993,
+    "end": 70.26999999999998,
+    "text": "Interesting. Sex works even better than chocolate to modify behaviour. I wonder if anyone else has stumbled on to that."
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.080000000000041,
+    "text": "I think we should talk now."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.509999999999991,
+    "end": 7.3799999999999955,
+    "text": "What? No, it's okay. We don't have to talk'cause there's nothing to talk about. Everything's good."
+  },
+  {
+    "speaker": "penny",
+    "start": 8.220000000000027,
+    "end": 12.830000000000041,
+    "text": "Really? So, you didn't get all snarky'cause I said something nice to a bowl of chilli fries?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.720000000000027,
+    "end": 27.269999999999982,
+    "text": "All right, maybe I overreacted. So we're in two different places emotionally. So what? And maybe I'm a little ahead of you. That's fine. You know. In fact, it makes sense,'cause let's face it, I've been in this relationship two years longer than you."
+  },
+  {
+    "speaker": "penny",
+    "start": 30.470000000000027,
+    "end": 37.93999999999994,
+    "text": "Look, Leonard, you have to know how much I care about you. It's just that I've said the L word too soon before, and it didn't work out very well."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.68999999999994,
+    "end": 40.870000000000005,
+    "text": "Really? I wouldn't know what that's like."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.789999999999964,
+    "end": 44.549999999999955,
+    "text": "I'm sorry. You know what I'm talking about, though."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 44.66999999999996,
+    "end": 45.25,
+    "text": "Yeah, I do."
+  },
+  {
+    "speaker": "penny",
+    "start": 46.76999999999998,
+    "end": 47.5,
+    "text": "So, we're good?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.75999999999999,
+    "end": 51.539999999999964,
+    "text": "Yes, that's what I'm telling you. We are good. We are great."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.65999999999997,
+    "end": 60.18999999999994,
+    "text": "All right! Fence mended, problem swept under the rug. Time to bowl! Yes, I was eavesdropping, there's a lot at stake here."
+  }
+]

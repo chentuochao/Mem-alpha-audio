@@ -1,0 +1,230 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.7999999999999545,
+    "text": "What do you mean, transgressions I've committed?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.0499999999999545,
+    "end": 5.779999999999973,
+    "text": "Were you under the impression that Leonard has no complaints about you?"
+  },
+  {
+    "speaker": "penny",
+    "start": 5.809999999999945,
+    "end": 12.879999999999995,
+    "text": "Like what? Yeah, yeah, I see you, you're making a little cheque sign in the air, I got it, just hold your horses. What does Leonard complain about?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.139999999999986,
+    "end": 25.969999999999914,
+    "text": "Your driving, the plethora of stuffed animals on your bed that stare at him during your amorous activities, your constant tardiness, your singing. That's actually from my list, but Leonard would be a fool if he didn't agree with it."
+  },
+  {
+    "speaker": "penny",
+    "start": 22.519999999999982,
+    "end": 23.329999999999927,
+    "text": "My singing?"
+  },
+  {
+    "speaker": "penny",
+    "start": 27.18999999999994,
+    "end": 29.870000000000005,
+    "text": "Okay, if Leonard has so many problems with me, why hasn't he just said so?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.899999999999977,
+    "end": 32.479999999999905,
+    "text": "Because, according to him, you're oversensitive and have a temper."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.049999999999955,
+    "end": 37.15999999999997,
+    "text": "Oh, really? Well, then, do me a favour and tell Leonard that he can drop dead!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 41.18999999999994,
+    "end": 43.34999999999991,
+    "text": "And she wonders why she's constantly undertipped."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.289999999999964,
+    "end": 48.50999999999999,
+    "text": "Hey."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.239999999999895,
+    "end": 53.41999999999996,
+    "text": "Oh, good, you're home. I need you to do me a favour. Go apologize to Penny."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.739999999999895,
+    "end": 52.02999999999997,
+    "text": "Sure."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.64999999999998,
+    "end": 54.92999999999995,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 55.19999999999993,
+    "end": 56.26999999999998,
+    "text": "Right now would be good."
+  },
+  {
+    "speaker": "penny",
+    "start": 56.95999999999992,
+    "end": 57.299999999999955,
+    "text": "Leonard!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.989999999999895,
+    "end": 59.39999999999998,
+    "text": "Although, a few minutes ago would have been better."
+  },
+  {
+    "speaker": "penny",
+    "start": 60.049999999999955,
+    "end": 64.38999999999999,
+    "text": "I hear you don't like my stuffed animals, my driving or my punctuality."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 64.93999999999994,
+    "end": 68.94999999999993,
+    "text": "What? Who would tell you something like that? Why would you tell her something like that?"
+  },
+  {
+    "speaker": "penny",
+    "start": 69.37,
+    "end": 71.90999999999997,
+    "text": "It doesn't matter why he told me. It's true, isn't it?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.17999999999995,
+    "end": 80.06999999999994,
+    "text": "Okay, yeah, it's true, but I can live with that stuff. What I can't live with is you casually informing me that some guy's going to be staying in your apartment without even asking me first!"
+  },
+  {
+    "speaker": "penny",
+    "start": 81.25,
+    "end": 83.00999999999999,
+    "text": "That isn't even your problem, the problem is you don't trust me!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 83.03999999999996,
+    "end": 89.32999999999993,
+    "text": "Oh, come on. Sheldon, have you ever once heard me say that I don't trust Penny? Sheldon? Where did he go?"
+  },
+  {
+    "speaker": "penny",
+    "start": 89.71999999999991,
+    "end": 92.18999999999994,
+    "text": "Oh, your yelling must have freaked him out again."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 92.27999999999997,
+    "end": 94.76999999999998,
+    "text": "Where are you going? You just walk away in the middle of an argument?!"
+  },
+  {
+    "speaker": "penny",
+    "start": 95.25999999999999,
+    "end": 100.15999999999997,
+    "text": "No, I'm going to go find your damn roommate before he hurts himself trying to cross the street or something!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 100.64999999999998,
+    "end": 101.87,
+    "text": "Why didn't you say so?"
+  },
+  {
+    "speaker": "penny",
+    "start": 102.3599999999999,
+    "end": 104.56999999999994,
+    "text": "Oh, now I need your permission for that, too?!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 105.05999999999995,
+    "end": 106.76999999999998,
+    "text": "Well, I can't read your mind, Penny!"
+  },
+  {
+    "speaker": "penny",
+    "start": 107.25999999999999,
+    "end": 110.19999999999993,
+    "text": "Really? Why not? You're so smart, and I'm so dumb!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 110.68999999999994,
+    "end": 113.75999999999999,
+    "text": "Raj. Raj. Raj."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 114.12,
+    "end": 122.41999999999996,
+    "text": "Stop knocking! It's open! Please tell my parents that our dark matter research is at a critical juncture, and I can't come home for my cousin Sanjay's wedding."
+  },
+  {
+    "speaker": "mrs_koothrappali",
+    "start": 122.81999999999994,
+    "end": 129.40999999999997,
+    "text": "Sheldon, ask our son what we're supposed to say to Mr. and Mrs. Choudhry, whose daughter, Lakshmi is flying in from London, for the sole purpose of meeting him."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 129.58999999999992,
+    "end": 131.43999999999994,
+    "text": "I didn't ask you to set me up with Lakshmi."
+  },
+  {
+    "speaker": "mrs_koothrappali",
+    "start": 131.4699999999999,
+    "end": 132.66999999999996,
+    "text": "You should be thanking us!"
+  },
+  {
+    "speaker": "dr_vm_koothrappali",
+    "start": 132.78999999999996,
+    "end": 141.1099999999999,
+    "text": "Yes, Lakshmi just got her stomach stapled. You have an opportunity to get in good with her before she loses weight, and her self-esteem goes up."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 141.3499999999999,
+    "end": 145.04999999999995,
+    "text": "I don't care! And why don't you think I can find a woman for myself?"
+  },
+  {
+    "speaker": "mrs_koothrappali",
+    "start": 145.26999999999998,
+    "end": 149.01999999999998,
+    "text": "Because you're 27, and the closest thing we have to a daughter-in-law is that Jewish boy Howard."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 150.13,
+    "end": 159.66999999999996,
+    "text": "Oh, that is completely below the belt. Sheldon, tell my parents that Howard and I are just friends. Sheldon? Howard and I are just friends!"
+  }
+]
