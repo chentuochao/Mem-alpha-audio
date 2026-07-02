@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 12.75,
+    "text": "It's a joke. It relies on the hominymic relationship between tick the blood-sucking arachnid, and tic the involuntary muscular contraction. I made it up myself."
+  },
+  {
+    "speaker": "penny",
+    "start": 15.579999999999984,
+    "end": 20.25999999999999,
+    "text": "Okay, look, if Leonard finds out that I lied, I will absolutely die of embarrassment."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 20.47999999999996,
+    "end": 21.70999999999998,
+    "text": "Physiologically impossible."
+  },
+  {
+    "speaker": "penny",
+    "start": 22.369999999999948,
+    "end": 25.279999999999973,
+    "text": "Oh Sheldon, please, look, I'm asking you as a friend."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 26.789999999999964,
+    "end": 50.16999999999996,
+    "text": "So you're saying that friendship contains within it an inherent obligation to maintain confidences? Interesting. See, one more question, and perhaps I should have led with this, when did we become friends? I.e, I couldn't become Green Lantern unless I was chosen by the guardians of Oa, but given enough start-up capital and an adequate research facility, I could be Batman."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.46999999999997,
+    "end": 32.21999999999997,
+    "text": "Well, yeah."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.089999999999975,
+    "end": 56.379999999999995,
+    "text": "You could be Batman?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.44999999999999,
+    "end": 58.049999999999955,
+    "text": "Sure. I'm Batman. See."
+  },
+  {
+    "speaker": "penny",
+    "start": 62.61999999999995,
+    "end": 63.160000000000025,
+    "text": "Hi guys."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 63.96999999999997,
+    "end": 68.18,
+    "text": "Hey. Hey, Penny, if you're not doing anything Friday night I thought maybe we could go and see a movie."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.17000000000002,
+    "end": 65.26999999999992,
+    "text": "Hi Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 68.69,
+    "end": 71.20999999999998,
+    "text": "Oh, um, you know, I think I have the dinner shift on Friday."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 71.71999999999997,
+    "end": 72.38999999999993,
+    "text": "What about Saturday?"
+  },
+  {
+    "speaker": "penny",
+    "start": 73.07,
+    "end": 76.94,
+    "text": "You know, I'm not sure, the manager hasn't posted the schedule yet, how about I let you know."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 77.17000000000002,
+    "end": 86.56,
+    "text": "Great. So you just let me know when you know. So... Oh God, I am the bad fish! What did I do wrong?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 86.94,
+    "end": 94.04000000000002,
+    "text": "Why are you asking me, I have no information about your interactions with Penny other than what you provided me, nor do I have any method of learning such things."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 95.14999999999992,
+    "end": 97.36999999999995,
+    "text": "What does that mean?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 98.47999999999996,
+    "end": 107.41000000000003,
+    "text": "Nothing. You seem to be implying an informational back channel between me and Penny where obviously none exists. I just think you need to be careful how you phrase things, sir."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 103.98999999999995,
+    "end": 104.62999999999994,
+    "text": "No I didn't."
+  }
+]

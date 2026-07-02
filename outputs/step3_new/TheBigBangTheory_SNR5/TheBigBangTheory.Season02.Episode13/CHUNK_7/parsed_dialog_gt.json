@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.0,
+    "end": 4.649999999999977,
+    "text": "I'm curious. In the\" How Well Do You Know Sheldon\" section, what do you put for his favourite amino acid?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 6.539999999999964,
+    "end": 7.17999999999995,
+    "text": "Lysine."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.539999999999964,
+    "end": 7.17999999999995,
+    "text": "Lysine."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 7.840000000000032,
+    "end": 9.42999999999995,
+    "text": "Damn it. I had Lysine and changed it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.82000000000005,
+    "end": 15.17999999999995,
+    "text": "Oh good! You're just in time. I believe I've isolated the algorithm for making friends."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.399999999999977,
+    "end": 19.0,
+    "text": "Sheldon, there is no algorithm for making friends!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 19.49000000000001,
+    "end": 23.340000000000032,
+    "text": "Hear him out. If he's really on to something, we can open a booth at Comic-Con, make a fortune."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 25.129999999999995,
+    "end": 30.789999999999964,
+    "text": "See, my initial approach to Kripke, had the same deficiencies as those that plagued Stu the Cockatoo, when he was new at the zoo."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 33.23000000000002,
+    "end": 34.06000000000006,
+    "text": "Stu the cockatoo?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.389999999999986,
+    "end": 35.97000000000003,
+    "text": "Yes, he's new at the zoo."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.379999999999995,
+    "end": 41.99000000000001,
+    "text": "It's a terrific book. I've distilled its essence into a simple flowchart that would guide me through the process."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 43.25,
+    "end": 46.42999999999995,
+    "text": "Have you thought about putting him in a crate while you're out of the apartment?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.190000000000055,
+    "end": 95.12,
+    "text": "Hello, Kripke. Yes, Sheldon Cooper here. It occurred to me you hadn't returned any of my calls because I hadn't offered any concrete suggestions for pursuing our friendship. Perhaps the two of us might share a meal together... I see. Well then perhaps you'd have time for a hot beverage. Popular choices include tea, coffee, cocoa... I see. No, no, no, wait. Don't hang up yet. What about a recreational activity? I bet we share some common interests. Tell me an interest of yours. Really? On actual horses? Tell me another interest of yours. Oh no, I'm sorry, I have no desire to get in the water until I absolutely have to. Tell me another interest of yours."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 95.59000000000003,
+    "end": 97.23000000000002,
+    "text": "Uh-oh, he's stuck in an infinite loop."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 97.34000000000003,
+    "end": 98.17999999999995,
+    "text": "I can fix it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 98.76999999999998,
+    "end": 127.50999999999999,
+    "text": "Mmhmm. Mmhmm. It's interesting. But isn't ventriloquism, by definition, a solo activity? Yeah? Tell me another interest of yours. Hmmm. Is there any chance you like monkeys? What is wrong with you? Everybody likes monkeys. Hang on, Kripke. A loop counter? And an escape to the least objectionable activity! Howard, that's brilliant! I'm surprised you saw that."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 129.76,
+    "end": 132.07000000000005,
+    "text": "Gee. Why can't Sheldon make friends?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 133.61,
+    "end": 150.26,
+    "text": "Alright Kripke, that last interest strikes me as the least objectionable and I would like to propose that we do that together. Tomorrow. Yes, I'll pay. Alright, goodbye. Alright! Time to learn rock climbing."
+  }
+]

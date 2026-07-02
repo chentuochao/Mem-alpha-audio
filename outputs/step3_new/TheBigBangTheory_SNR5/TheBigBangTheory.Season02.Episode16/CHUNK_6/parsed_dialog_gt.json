@@ -1,0 +1,170 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.36000000000001364,
+    "text": "Yes!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 4.350000000000023,
+    "end": 10.870000000000005,
+    "text": "Okay, then you kids have fun! Use protection!"
+  },
+  {
+    "speaker": "penny",
+    "start": 14.860000000000014,
+    "end": 15.919999999999959,
+    "text": "You think he'll notice?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.32000000000005,
+    "end": 19.230000000000018,
+    "text": "There's a chance."
+  },
+  {
+    "speaker": "penny",
+    "start": 20.529999999999973,
+    "end": 23.360000000000014,
+    "text": "Oh, what are we gonna do?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.57000000000005,
+    "end": 33.02999999999997,
+    "text": "We? No, no, no, you had your chance to be we for, like, a year and a half now. Right now, you are you, and you are screwed."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.639999999999986,
+    "end": 36.690000000000055,
+    "text": "Why do we have to tell him I did it?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 37.299999999999955,
+    "end": 38.860000000000014,
+    "text": "Well, we're not gonna tell him I did it."
+  },
+  {
+    "speaker": "penny",
+    "start": 39.289999999999964,
+    "end": 44.07000000000005,
+    "text": "Okay, okay, how about this? We tell him somebody broke in."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.110000000000014,
+    "end": 49.289999999999964,
+    "text": "Just to shoot the couch with a paintball gun?"
+  },
+  {
+    "speaker": "penny",
+    "start": 50.309999999999945,
+    "end": 52.389999999999986,
+    "text": "I'm sorry, I buy it. All those people are on drugs."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.129999999999995,
+    "end": 56.89999999999998,
+    "text": "We could tell him they wanted the couch to stay away from their boyfriend."
+  },
+  {
+    "speaker": "penny",
+    "start": 57.789999999999964,
+    "end": 65.36000000000001,
+    "text": "Okay, fine. Well, what if we just flip it over? There. Looks fine, right?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.25,
+    "end": 69.52999999999997,
+    "text": "Mm, butt print. There's no discernible butt print."
+  },
+  {
+    "speaker": "penny",
+    "start": 72.49000000000001,
+    "end": 76.94000000000005,
+    "text": "Oh, come on. There, butt print."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 77.84000000000003,
+    "end": 80.19000000000005,
+    "text": "It's too small and too perfect."
+  },
+  {
+    "speaker": "penny",
+    "start": 81.23000000000002,
+    "end": 82.26999999999998,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 83.30999999999995,
+    "end": 84.35000000000002,
+    "text": "You're welcome."
+  },
+  {
+    "speaker": "penny",
+    "start": 85.39999999999998,
+    "end": 87.48000000000002,
+    "text": "Shh! Act normal."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 88.51999999999998,
+    "end": 90.88999999999999,
+    "text": "Sheldon! How was the comic book store?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 91.02999999999997,
+    "end": 93.46000000000004,
+    "text": "Fine. The new issue of Flash is out."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 93.58000000000004,
+    "end": 97.17999999999995,
+    "text": "Great, great. Did you walk the whole way? It's a little chilly."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 97.41999999999996,
+    "end": 98.64999999999998,
+    "text": "Koothrappali picked me up."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 98.91999999999996,
+    "end": 105.07000000000005,
+    "text": "Isn't that terrific? He is such a good friend. You know what the best thing about friends is?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 105.24000000000001,
+    "end": 107.46000000000004,
+    "text": "They don't talk incessantly for no particular reason."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 108.88999999999999,
+    "end": 114.25,
+    "text": "No, no, friends forgive the little things. Don't you dare, missy."
+  },
+  {
+    "speaker": "penny",
+    "start": 112.17999999999995,
+    "end": 113.40999999999997,
+    "text": "You know, I gotta go home and wash my hair."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 117.09000000000003,
+    "end": 124.79999999999995,
+    "text": "Hello, fastest man alive. Want to see me read your entire comic book? Want to see it again?"
+  }
+]

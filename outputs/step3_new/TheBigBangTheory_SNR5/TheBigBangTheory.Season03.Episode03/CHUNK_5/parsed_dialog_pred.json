@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 5.3,
+    "end": 7.4,
+    "text": "Good for you. Nice thing."
+  },
+  {
+    "speaker": "Howard",
+    "start": 7.24,
+    "end": 11.0,
+    "text": "I'm actually much more lost than he is. Thanks. We buy you ladies a drink?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 11.22,
+    "end": 13.15,
+    "text": "Two light beers."
+  },
+  {
+    "speaker": "Howard",
+    "start": 13.15,
+    "end": 16.44,
+    "text": "Light beers? Well, we can't have about that."
+  },
+  {
+    "speaker": "Penny",
+    "start": 17.02,
+    "end": 18.56,
+    "text": "What's your names?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 18.56,
+    "end": 23.41,
+    "text": "I'm Howard. Raj. Nice to meet you, Bethany. Yes, very nice."
+  },
+  {
+    "speaker": "Penny",
+    "start": 20.11,
+    "end": 20.99,
+    "text": "And Bethany."
+  },
+  {
+    "speaker": "Penny",
+    "start": 23.41,
+    "end": 28.14,
+    "text": "Nice to meet you, too. I'm Sarah. Not that anyone cares."
+  },
+  {
+    "speaker": "Howard",
+    "start": 31.14,
+    "end": 35.42,
+    "text": "Do either of you ladies enjoy the novels of John Grisham?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 43.78,
+    "end": 46.34,
+    "text": "What's this cartoon called again?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 46.34,
+    "end": 46.540000000000006,
+    "text": "Oh, Shakuro Demon Samurai. It's not a cartoon. It's anime."
+  },
+  {
+    "speaker": "Penny",
+    "start": 53.36,
+    "end": 53.56,
+    "text": "Anime. You know, I knew a girl in high school named Anime. Anime Fletcher. She was born with one nostril. Then she had this bad nose job and basically wound up with..."
+  }
+]

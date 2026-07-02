@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 5.84,
+    "end": 9.8,
+    "text": "Don't feel bad, Leonard. Negative results are still results. Alright. Please don't cheer me up anymore."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 9.600000000000001,
+    "end": 12.11,
+    "text": "Even twenty thousand of them. Come on, don't let him get to you. It's Crippy."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 12.11,
+    "end": 14.54,
+    "text": "Yeah, he's a ginormous gnome."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 14.54,
+    "end": 14.739999999999998,
+    "text": "That's why he eats by himself instead of sitting here at the cool table. For shizzle."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.74,
+    "end": 23.939999999999998,
+    "text": "It's true, Crippy lacks the basic social skills that we take for granted. But he also controls the new open science grid computer that I need to use to run some simulations of structure formation in the early universe."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 35.84,
+    "end": 39.45,
+    "text": "Well, good luck getting time on it. The only people he lets use it are his friends."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 39.45,
+    "end": 50.51,
+    "text": "Well then, the solution is simple. I shall befriend him. Crippy! What would you say to the idea of you and I becoming friends?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.37,
+    "end": 46.81,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 50.51,
+    "end": 54.51,
+    "text": "I would say, I have no interest in becoming your friend."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 55.35,
+    "end": 55.550000000000004,
+    "text": "Really? Ah, that seems rather short-sighted, coming from someone who is generally considered altogether unlikable. Why don't you take some time to reconsider?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 65.33,
+    "end": 66.65,
+    "text": "Yeah, I'll do that."
+  }
+]

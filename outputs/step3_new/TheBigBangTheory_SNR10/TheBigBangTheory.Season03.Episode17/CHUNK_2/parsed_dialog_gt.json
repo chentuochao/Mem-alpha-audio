@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 15.629999999999995,
+    "text": "Here's Spock's head with no body. Here's Mr. T's body with no head. Oh, yeah, here's Spock's body with Mr. T's head. I pity the fool who's illogical."
+  },
+  {
+    "speaker": "penny",
+    "start": 20.319999999999993,
+    "end": 23.97999999999999,
+    "text": "Okay, I'm just gonna go home and make a grilled cheese and window-shop on eHarmony."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.149999999999977,
+    "end": 31.20999999999998,
+    "text": "Okay, bye. Ooh, look, an Indiana Jones connect-the-dots."
+  },
+  {
+    "speaker": "penny",
+    "start": 28.389999999999986,
+    "end": 28.72,
+    "text": "Okay."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 32.25999999999999,
+    "end": 33.95999999999998,
+    "text": "And an Aquaman action figure."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 34.95999999999998,
+    "end": 36.81999999999999,
+    "text": "Looks like someone drew a penis on him."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 37.41999999999999,
+    "end": 38.609999999999985,
+    "text": "Huh? That'll come off."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 42.629999999999995,
+    "end": 48.809999999999974,
+    "text": "You see what you're doing? Stop that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.829999999999984,
+    "end": 57.079999999999984,
+    "text": "Fascinating. It appears to be a Lord of the Rings ring."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.66999999999999,
+    "end": 53.95999999999998,
+    "text": "What?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 57.48999999999998,
+    "end": 57.69999999999999,
+    "text": "Oh."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 58.109999999999985,
+    "end": 59.829999999999984,
+    "text": "It's even got the Elvish engraving on it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.14999999999998,
+    "end": 67.17999999999998,
+    "text": "It's not Elvish. It's the language of Mordor written in Elvish script. One Ring to"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 68.88999999999999,
+    "end": 70.66,
+    "text": "One Ring to find them."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 71.04999999999998,
+    "end": 73.03999999999999,
+    "text": "One Ring to bring them all."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.66,
+    "end": 75.48999999999998,
+    "text": "And in the darkness bind them."
+  }
+]

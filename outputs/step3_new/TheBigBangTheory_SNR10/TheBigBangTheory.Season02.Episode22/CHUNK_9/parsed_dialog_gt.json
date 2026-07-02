@@ -1,0 +1,164 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 7.939999999999941,
+    "text": "Leonard? Yeah, no, yeah, wow, I'm sorry. That must've been the last thing you wanted to hear."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 0.4800000000000182,
+    "end": 1.6399999999999864,
+    "text": "That is your name, right?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 8.490000000000009,
+    "end": 16.389999999999986,
+    "text": "Well, it beats you know I'm a dude, right? Yeah, it was pretty bad."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.110000000000014,
+    "end": 24.600000000000023,
+    "text": "No doubt, no doubt. Okay, well, I'm sorry it didn't work out."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 25.24000000000001,
+    "end": 25.649999999999977,
+    "text": "Not your fault."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.230000000000018,
+    "end": 27.069999999999936,
+    "text": "Yeah, how about that?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 32.84000000000003,
+    "end": 33.91999999999996,
+    "text": "See you soon."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 40.059999999999945,
+    "end": 40.77999999999997,
+    "text": "Yeah, sure."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 46.90999999999997,
+    "end": 51.43999999999994,
+    "text": "Yes, sir, I understand classified. We'll keep it all classified, no one has to know but you and me."
+  },
+  {
+    "speaker": "penny",
+    "start": 52.17999999999995,
+    "end": 52.97000000000003,
+    "text": "What's classified?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.73000000000002,
+    "end": 55.549999999999955,
+    "text": "Howard's space toilet. I'll tell you later."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 57.389999999999986,
+    "end": 61.68999999999994,
+    "text": "Well, they've deployed our solution. Let's just all hope it works."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.47000000000003,
+    "end": 66.26999999999998,
+    "text": "I don't see why I have to worry. My career's not hanging in the balance."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.87,
+    "end": 77.64999999999998,
+    "text": "That was a joke. It's funny, because it's true."
+  },
+  {
+    "speaker": "penny",
+    "start": 81.98000000000002,
+    "end": 83.84000000000003,
+    "text": "Leonard, could you pass the soy sauce, please?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 84.52999999999997,
+    "end": 86.0,
+    "text": "I'm sorry, were you talking to me?"
+  },
+  {
+    "speaker": "penny",
+    "start": 86.53999999999996,
+    "end": 87.52999999999997,
+    "text": "Yeah, I said Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 88.42999999999995,
+    "end": 89.38999999999999,
+    "text": "Yes, you did, didn't you?"
+  },
+  {
+    "speaker": "penny",
+    "start": 89.38999999999999,
+    "end": 90.64999999999998,
+    "text": "What the hell is that?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 99.18999999999994,
+    "end": 99.43999999999994,
+    "text": "Meatloaf."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 99.68999999999994,
+    "end": 103.27999999999997,
+    "text": "What was it doing on the ceiling?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 104.19999999999993,
+    "end": 105.12,
+    "text": "That's classified."
+  },
+  {
+    "speaker": "voice#unknown#TheBigBangTheory.Season02.Episode22",
+    "start": 112.22000000000003,
+    "end": 118.52999999999997,
+    "text": "Houston, International Space Station. We have a little situation up here. We'd like to make an unscheduled space walk."
+  },
+  {
+    "speaker": "ground_controller",
+    "start": 121.21000000000004,
+    "end": 124.22000000000003,
+    "text": "ISS, Houston. Which crew members would be involved in this E.V.A.?"
+  },
+  {
+    "speaker": "iss_voice#unknown#TheBigBangTheory.Season02.Episode22",
+    "start": 124.8599999999999,
+    "end": 127.65000000000009,
+    "text": "Houston, we'd all like to step outside for a few minutes."
+  },
+  {
+    "speaker": "ground_controller",
+    "start": 130.07999999999993,
+    "end": 132.6199999999999,
+    "text": "ISS, I'm afraid we can't authorize that."
+  },
+  {
+    "speaker": "iss_voice#unknown#TheBigBangTheory.Season02.Episode22",
+    "start": 133.38999999999987,
+    "end": 138.18000000000006,
+    "text": "Uh, Houston, this is more of an FYI call. We are basically out the door."
+  }
+]

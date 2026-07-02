@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "Nowitzki",
+    "start": 3.98,
+    "end": 7.94,
+    "text": "Hi, Leonard. Thanks. Where should I put the phone?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 5.02,
+    "end": 6.38,
+    "text": "Cooper. Uh, hey, Ramona, come on in."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 7.94,
+    "end": 10.75,
+    "text": "Uh, the kitchen's fine. Hey, what are you doing?"
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 10.75,
+    "end": 12.12,
+    "text": "I need to see this."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.0,
+    "end": 22.32,
+    "text": "The viewing area is right over there. Sheldon, your girl, date person Ramona's here."
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 22.82,
+    "end": 28.43,
+    "text": "Hello. Oh, sorry, I'm late. I just got so caught up reading the draft of your latest paper."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 23.87,
+    "end": 24.62,
+    "text": "Hello."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 28.43,
+    "end": 33.96,
+    "text": "Did you enjoy the humorous footnote where I illustrate mirror symmetry by likening it to the Flash playing tennis with himself?"
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 33.96,
+    "end": 34.160000000000004,
+    "text": "Nobody. But the idea that you might be able to elaborate gravity, I have to tell you, I found it physically exhilarating."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 43.84,
+    "end": 46.76,
+    "text": "My hypotheses tend to have that effect."
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 48.36,
+    "end": 53.1,
+    "text": "Sorry I didn't bring enough for your friends. I assumed we were going to be alone."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.18,
+    "end": 63.48,
+    "text": "Oh. Yeah, no, we were just going to watch, right? No, come on, now we're going out."
+  },
+  {
+    "speaker": "Nowitzki",
+    "start": 63.48,
+    "end": 65.13,
+    "text": "Oh, come on, we'll be quiet."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 66.35,
+    "end": 66.55,
+    "text": "Let's go. Okay, you two. Have a nice, whatever this is."
+  }
+]

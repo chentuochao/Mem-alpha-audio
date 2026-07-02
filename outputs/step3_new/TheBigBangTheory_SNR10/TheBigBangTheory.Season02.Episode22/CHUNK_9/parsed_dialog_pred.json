@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "Stuart",
+    "start": 7.819999999999999,
+    "end": 11.66,
+    "text": "Leonard? That is your name, right? Oh, it beats you know I'm a dude, right?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 7.819999999999999,
+    "end": 18.44,
+    "text": "Yeah, no, yeah. Wow, I'm sorry. That must have been the last thing you wanted to hear. No doubt, no doubt."
+  },
+  {
+    "speaker": "Stuart",
+    "start": 14.12,
+    "end": 16.62,
+    "text": "Yeah, it was pretty bad."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 20.86,
+    "end": 31.2,
+    "text": "Okay, well, I'm sorry it didn't work out. Yeah, how about that? See you soon."
+  },
+  {
+    "speaker": "Stuart",
+    "start": 24.75,
+    "end": 25.87,
+    "text": "Not your fault."
+  },
+  {
+    "speaker": "Stuart",
+    "start": 31.2,
+    "end": 32.51,
+    "text": "Yep, sure."
+  },
+  {
+    "speaker": "Howard",
+    "start": 53.099999999999994,
+    "end": 61.76,
+    "text": "Yes sir, I understand classified. We'll keep it all classified. No one has to know anything about this but you and me. Powered space toilet. I'll tell you later. Well, they've deployed our solution. Let's just all hope it works."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 71.86999999999999,
+    "end": 77.97,
+    "text": "I don't see why I have to worry. My career's not hanging in the balance. That was a joke. It's funny because it's true."
+  },
+  {
+    "speaker": "Penny",
+    "start": 81.03,
+    "end": 83.93,
+    "text": "What's classified? Leonard, could you pass the soy sauce, please?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 83.93,
+    "end": 86.08,
+    "text": "I'm sorry, were you talking to me?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 86.08,
+    "end": 87.71,
+    "text": "Yeah, I said Leonard."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 87.71,
+    "end": 89.98,
+    "text": "Yes, you did, didn't you?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 96.28,
+    "end": 98.65,
+    "text": "What the hell is that?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 98.65,
+    "end": 100.14,
+    "text": "Meatloaf."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 100.92,
+    "end": 103.54,
+    "text": "What was it doing on the ceiling?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 103.54,
+    "end": 105.48,
+    "text": "That's classified."
+  },
+  {
+    "speaker": "Unknown_speaker035",
+    "start": 118.74,
+    "end": 128.1,
+    "text": "Houston, uh, International Space Station. We have a little situation up here. We'd like to make an unscheduled spacewalk. Houston, uh, we'd all like to step outside for a few minutes."
+  },
+  {
+    "speaker": "Unknown_speaker047",
+    "start": 129.36,
+    "end": 132.89,
+    "text": "ISS Houston, which crew members would be involved in this EVA? ISS, I'm afraid we can't authorize that."
+  },
+  {
+    "speaker": "Unknown_speaker035",
+    "start": 132.89,
+    "end": 138.18,
+    "text": "Uh, Houston, this is more of an FYI call. We are basically out the door."
+  }
+]

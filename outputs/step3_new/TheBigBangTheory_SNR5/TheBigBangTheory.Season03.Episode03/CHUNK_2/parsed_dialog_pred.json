@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 6.28,
+    "end": 10.08,
+    "text": "Shout it, it's as if you don't think I'll punch you. Fine, whatever. Are you finished?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 9.88,
+    "end": 15.31,
+    "text": "Come on, you guys, let it go. Well, thank you. How thoughtful. Would you like a chocolate?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 15.31,
+    "end": 17.48,
+    "text": "Um, yeah, sure."
+  },
+  {
+    "speaker": "Penny",
+    "start": 19.88,
+    "end": 21.36,
+    "text": "Thanks."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 26.24,
+    "end": 32.2,
+    "text": "You said be nice to Penny. I believe offering chocolate to someone falls within the definition of nice."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 32.14,
+    "end": 36.4,
+    "text": "What was that? It does, but in my experience, you don't."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.0,
+    "end": 42.17,
+    "text": "There are more things in heaven and earth, Horatio, than are dreamt of in your philosophy."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 42.17,
+    "end": 45.22,
+    "text": "That's you, obnoxious and insufferable."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 51.4,
+    "end": 54.04,
+    "text": "What's going on, day dwellers?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 54.61,
+    "end": 58.75,
+    "text": "Oh man, did the Kiss Army repeal Don't Ask, Don't Tell?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 59.21,
+    "end": 60.35,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 60.35,
+    "end": 60.550000000000004,
+    "text": "Raj and I are going to a goth club in Hollywood to hang with the neg people. Anybody want to come along?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 67.82,
+    "end": 70.21,
+    "text": "Oh wow, you're actually going out like that?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 70.21,
+    "end": 73.01,
+    "text": "No. No, I'm going out like this."
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 6.490000000000009,
+    "text": "I was up last night. I was up this morning. I didn't mind. Those are your clues."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 8.970000000000027,
+    "end": 13.840000000000032,
+    "text": "Ooh, ooh. Did the pigeon on your windowsill have more babies?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 15.740000000000009,
+    "end": 15.940000000000055,
+    "text": "No."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 16.170000000000073,
+    "end": 23.659999999999968,
+    "text": "Were you up making another stop-motion Lego movie?'Cause let me tell you, it's not enough to make the Legos move, they also have to capture your heart."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 19.529999999999973,
+    "end": 19.600000000000023,
+    "text": "No."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.940000000000055,
+    "end": 29.019999999999982,
+    "text": "Okay, I'll give you one more clue. It involved another person."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 30.050000000000068,
+    "end": 31.350000000000023,
+    "text": "Did you get a Japanese love pillow?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 33.0,
+    "end": 35.98000000000002,
+    "text": "How is a Japanese love pillow another person?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 36.27999999999997,
+    "end": 38.76999999999998,
+    "text": "It is if you love her and give her a name."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.58000000000004,
+    "end": 46.690000000000055,
+    "text": "Dr. Plimpton, I'd like you to meet my colleagues, Dr. Rajesh Koothrappali And not-a-doctor Howard Wolowitz."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 45.09000000000003,
+    "end": 45.120000000000005,
+    "text": "Hi."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 47.23000000000002,
+    "end": 47.50999999999999,
+    "text": "Hi."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 48.05000000000007,
+    "end": 49.47000000000003,
+    "text": "I'm a big fan of your work."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 49.76999999999998,
+    "end": 50.31000000000006,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.49000000000001,
+    "end": 53.430000000000064,
+    "text": "And of course, you've already introduced yourself to Dr. Hofstadter."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.34000000000003,
+    "end": 55.72000000000003,
+    "text": "Hey, you."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 56.0,
+    "end": 56.60000000000002,
+    "text": "Hey, you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.07000000000005,
+    "end": 61.14999999999998,
+    "text": "Boy, I'm kind of tuckered out. How are you feeling, Elizabeth?"
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 61.81000000000006,
+    "end": 66.13999999999999,
+    "text": "You know what? I am a little tired. Would you be a dear and get me a cup of coffee?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.53999999999996,
+    "end": 68.25,
+    "text": "Sure. Black, right?"
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 68.58000000000004,
+    "end": 71.44000000000005,
+    "text": "Actually, now I think I want it hot, brown and sweet."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.19000000000005,
+    "end": 75.82000000000005,
+    "text": "Coming right up."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 77.58000000000004,
+    "end": 78.45000000000005,
+    "text": "What?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 80.20000000000005,
+    "end": 82.51999999999998,
+    "text": "What do you mean what? It's Halo night."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 83.55000000000007,
+    "end": 86.05000000000007,
+    "text": "I can't. I'm too sick. Go away."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 87.14999999999998,
+    "end": 90.48000000000002,
+    "text": "That's why we moved Halo night here. Look, I brought my mom's chicken soup."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 90.65999999999997,
+    "end": 91.48000000000002,
+    "text": "I'm not hungry."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 92.09000000000003,
+    "end": 93.61000000000001,
+    "text": "Don't send him away. Let him in."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 93.86000000000001,
+    "end": 94.28999999999996,
+    "text": "Who's that"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 94.85000000000002,
+    "end": 96.17000000000007,
+    "text": "I bought a parrot."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 99.05000000000007,
+    "end": 99.76999999999998,
+    "text": "Yeah, right."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 102.28999999999996,
+    "end": 103.18000000000006,
+    "text": "Dr. Plimpton?"
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 103.56999999999994,
+    "end": 110.29999999999995,
+    "text": "Hi. Howard, right? Can I ask you a question, Howard? Do you like role-playing games?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 105.47000000000003,
+    "end": 106.11000000000013,
+    "text": "Uh, yeah."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 112.73000000000002,
+    "end": 115.78999999999996,
+    "text": "Yeah, sure. In fact, I'm a dungeon master."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 117.08999999999992,
+    "end": 127.79999999999995,
+    "text": "Not tonight. Tonight you are a delivery man. You brought soup, but uh-oh, Raj and I don't have enough money to pay you. So we'll have to come to some other kind of arrangement."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 131.08999999999992,
+    "end": 131.80999999999995,
+    "text": "Beg pardon?"
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 135.0999999999999,
+    "end": 140.07999999999993,
+    "text": "You two figure out the details, I'm going to go change into something I don't mind getting ripped off my milky flesh."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 141.37000000000012,
+    "end": 143.29999999999995,
+    "text": "What the frak?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 144.58999999999992,
+    "end": 151.36000000000013,
+    "text": "Go away. She wants New Delhi, not Kosher deli. Besides, you have a girlfriend."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 151.6400000000001,
+    "end": 152.99,
+    "text": "We broke up weeks ago."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 153.46000000000004,
+    "end": 154.5999999999999,
+    "text": "Why didn't you say anything?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 154.6300000000001,
+    "end": 157.20000000000005,
+    "text": "I was waiting for the right time. This is the right time."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 158.69000000000005,
+    "end": 160.37000000000012,
+    "text": "Hey, who's ready for Halo?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 160.37000000000012,
+    "end": 162.29999999999995,
+    "text": "Oh, this is like a nightmare. Get lost!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 164.0,
+    "end": 166.01,
+    "text": "He's right. The numbers are shaky enough as it is."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 166.46000000000004,
+    "end": 166.66000000000008,
+    "text": "I don't understand."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 166.67000000000007,
+    "end": 166.80999999999995,
+    "text": "Oh, good. Leonard's here."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 166.80999999999995,
+    "end": 166.80999999999995,
+    "text": "Good?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 172.73000000000002,
+    "end": 174.18000000000006,
+    "text": "Elizabeth? What's going on?"
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 174.37000000000012,
+    "end": 183.1500000000001,
+    "text": "What's going on is you and Howard are my moving men and Raj is my new landlord and I don't have enough money to pay any of you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 184.22000000000003,
+    "end": 186.68000000000006,
+    "text": "Is she suggesting what I think she's suggesting?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 187.20000000000005,
+    "end": 189.44000000000005,
+    "text": "Yep. Welcome to the Penthouse Forum."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 190.96000000000004,
+    "end": 192.32999999999993,
+    "text": "Okay, show of hands. Who's up for this?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 193.8800000000001,
+    "end": 195.6300000000001,
+    "text": "We'll all be naked in front of each other."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 195.71000000000004,
+    "end": 195.96000000000004,
+    "text": "I'm out."
+  },
+  {
+    "speaker": "dr_elizabeth_plimpton",
+    "start": 198.71000000000004,
+    "end": 199.49,
+    "text": "Everybody ready?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 201.62000000000012,
+    "end": 207.31999999999994,
+    "text": "Follow my lead. Almost. We're, we're going to go out into the hallway and, uh, make a dramatic entrance."
+  }
+]

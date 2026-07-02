@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.480000000000004,
+    "text": "What a jerk."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.8900000000000006,
+    "end": 3.5700000000000074,
+    "text": "Don't feel bad Leonard, negative results are still results."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 4.439999999999998,
+    "end": 5.700000000000003,
+    "text": "Even twenty thousand of'em."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 7.540000000000006,
+    "end": 9.930000000000007,
+    "text": "Alright, please don't cheer me up anymore."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 9.969999999999999,
+    "end": 11.980000000000004,
+    "text": "C'mon, don't let him get to you. It's Kripke."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 12.25,
+    "end": 14.260000000000005,
+    "text": "Yeah, he's a ginormous knob."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 15.38000000000001,
+    "end": 18.210000000000008,
+    "text": "That's why he eats by himself, instead of sitting here at the cool table."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 19.89,
+    "end": 20.480000000000004,
+    "text": "Fo' shizzle."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.260000000000005,
+    "end": 35.900000000000006,
+    "text": "Hey it's true, Kripke lacks the basic social skills that we take for granted, but he also controls the new open science grid computer that I need to use to run some simulations of structure formation in the early universe."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 36.31,
+    "end": 39.480000000000004,
+    "text": "Good luck getting time on it. The only people he lets use it are his friends."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.95,
+    "end": 50.64,
+    "text": "Well then, the solution is simple. I shall befriend him. Kripke! What'd you say of the idea of you and I becoming friends?"
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 47.88000000000001,
+    "end": 48.000000000000014,
+    "text": "Yeah?"
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 51.11,
+    "end": 54.239999999999995,
+    "text": "I would say, I have no intewest in becoming your fwiend."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.14,
+    "end": 65.42,
+    "text": "Really? That seems rather short sighted, coming from someone who is generally considered altogether unlikable. Why don't you take some time to reconsider?"
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 65.71,
+    "end": 66.64999999999999,
+    "text": "Yeah, I'll do that."
+  }
+]

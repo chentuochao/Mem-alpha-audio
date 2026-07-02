@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.0,
+    "end": 12.16,
+    "text": "You just lied, depending. But you did it so casually. No rapid breathing, no increase in perspiration. So lack of a physiological response while lying is characteristic of a violent sociopath."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 6.03,
+    "end": 7.02,
+    "text": "Yes, I did. So?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 12.3,
+    "end": 14.66,
+    "text": "Sheldon, are you worried about your safety?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 14.66,
+    "end": 18.54,
+    "text": "No. I imagine if you were going to kill me, you'd have done it a long time ago."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 18.84,
+    "end": 20.76,
+    "text": "That's very true."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 64.59,
+    "end": 73.76,
+    "text": "Leonard? Leonard? Leonard? I need to speak to you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 73.76,
+    "end": 91.69,
+    "text": "It's two o'clock in the morning. I highly doubt that. No way. Are you still out there? What?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 75.7,
+    "end": 76.64,
+    "text": "It's important."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 86.91,
+    "end": 88.43,
+    "text": "Yes."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 92.45,
+    "end": 94.33,
+    "text": "You're right, we can wait until morning."
+  }
+]

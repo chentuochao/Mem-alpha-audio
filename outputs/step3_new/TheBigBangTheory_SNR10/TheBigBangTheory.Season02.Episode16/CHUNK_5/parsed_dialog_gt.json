@@ -1,0 +1,152 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.8400000000000318,
+    "text": "Ooh, is this one of those paintball guns?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.9800000000000182,
+    "end": 3.6100000000000136,
+    "text": "Yeah. You ought to come out with us sometime."
+  },
+  {
+    "speaker": "penny",
+    "start": 3.8100000000000023,
+    "end": 9.269999999999982,
+    "text": "Oh, no, thanks. I'm from Nebraska. When we shoot things, it's because we want to eat them or make them leave our boyfriends alone."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 27.55000000000001,
+    "end": 30.090000000000032,
+    "text": "Boy, your heart's racing. I must've really gotten you going."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 31.5,
+    "end": 35.06,
+    "text": "Well, it's partly you, partly my transient idiopathic arrhythmia."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 37.23000000000002,
+    "end": 37.829999999999984,
+    "text": "Sexy."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 40.80000000000001,
+    "end": 43.650000000000034,
+    "text": "Can I assume that you likewise found the experience..."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 44.420000000000016,
+    "end": 45.24000000000001,
+    "text": "Satisfactory?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 47.19,
+    "end": 50.51999999999998,
+    "text": "That wasn't quite the word I was looking for, but sure, I'll do this pass-fail."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 52.29000000000002,
+    "end": 55.31999999999999,
+    "text": "Hey, are you enjoying that prototyper I got you?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 55.48000000000002,
+    "end": 59.460000000000036,
+    "text": "Oh, it's great. Everybody in the Engineering Department is eating their hearts out."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 60.31,
+    "end": 62.94999999999999,
+    "text": "Isn't it nice when your good fortune makes others miserable?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 64.78000000000003,
+    "end": 68.07,
+    "text": "You know, most people don't get that."
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 69.07999999999998,
+    "end": 70.59000000000003,
+    "text": "Howard, I'm home!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 71.60000000000002,
+    "end": 72.61000000000001,
+    "text": "Oh, great."
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 73.61000000000001,
+    "end": 80.16000000000003,
+    "text": "Book club was cancelled! That thing on Phyllis's neck opened up again!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 81.17000000000002,
+    "end": 82.68,
+    "text": "I'm busy, Ma!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 83.69,
+    "end": 88.22000000000003,
+    "text": "Too busy to help your mother with her zipper?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 89.23000000000002,
+    "end": 91.24000000000001,
+    "text": "Don't come in, Ma!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 92.25,
+    "end": 93.25,
+    "text": "Why not?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 94.25999999999999,
+    "end": 95.76999999999998,
+    "text": "He's got company!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 96.78000000000003,
+    "end": 98.00999999999999,
+    "text": "Oh, there's the arrhythmia."
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 99.48000000000002,
+    "end": 101.69,
+    "text": "Is she Jewish?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 103.16000000000003,
+    "end": 103.94,
+    "text": "Are you Jewish?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 104.03000000000003,
+    "end": 104.24000000000001,
+    "text": "No."
+  }
+]

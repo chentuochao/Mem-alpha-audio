@@ -26,20 +26,19 @@ from prepare_data.preprocess_utils import fix_space_in_text
 
 # Default (Season 1) timeline. Each season needs its own timeline file; override
 # via --time_info_path when running per-season.
-DEFAULT_TIME_INFO_PATH = "QA_designs/bazinga/TBBT/s1_arc/S1_session_timeline.json"
+DEFAULT_TIME_INFO_PATH = "outputs/bazinga_data/TBBT_all_seasons_session_timeline.json"
 
-# Reserved (non-speaker) key that step3 writes into extracted_speaker_name.json
 # to record which season the map was produced for.
 SEASON_FILTER_KEY = "__season_filter__"
 
 
-def read_embedded_season(data_dir: str) -> str | None:
-    """Return the season step3 stamped into extracted_speaker_name.json (or None)."""
-    map_path = os.path.join(data_dir, "extracted_speaker_name.json")
-    if os.path.exists(map_path):
-        with open(map_path, "r") as f:
-            return json.load(f).get(SEASON_FILTER_KEY)
-    return None
+# def read_embedded_season(data_dir: str) -> str | None:
+#     """Return the season step3 stamped into extracted_speaker_name.json (or None)."""
+#     map_path = os.path.join(data_dir, "extracted_speaker_name.json")
+#     if os.path.exists(map_path):
+#         with open(map_path, "r") as f:
+#             return json.load(f).get(SEASON_FILTER_KEY)
+#     return None
 
 
 def load_time_maps(time_info_path: str) -> dict:
@@ -88,9 +87,9 @@ def load_chunks_gt(
         for turn in dialog:
             raw_speaker = turn["speaker"]
             speaker = raw_speaker
-
             turn_text = fix_space_in_text(turn["text"])
             dialog_chunk += f"<{speaker}> {turn_text}\n"
+            turn["text"] = turn_text
 
             named_dialog.append(dict(turn))
 
@@ -119,8 +118,11 @@ def load_chunks_pred(
     output_root: str = None,
     season_filter: str = None,
     time_info_path: str = DEFAULT_TIME_INFO_PATH,
-) -> tuple[list[str], list[str]]:
-    map_path = os.path.join(data_dir, "extracted_speaker_name.json")
+) -> list[str]:
+    if season_filter is None:
+        map_path = os.path.join(data_dir, "extracted_speaker_name.json")
+    else:
+        map_path = os.path.join(data_dir, f"extracted_speaker_name_{season_filter}.json")
     with open(map_path, "r") as f:
         speaker_name_map = json.load(f)
 
@@ -230,8 +232,9 @@ def main():
     # Effective season: explicit flag wins; otherwise use what step3 stamped into
     # the speaker-name map (pred only). Used both for filtering and output naming.
     season = args.season_filter
-    if season is None and not args.use_gt_name:
-        season = read_embedded_season(args.data_dir)
+    # if season is None and not args.use_gt_name:
+    #     season = read_embedded_season(args.data_dir)
+
     season_suffix = f"_{season}" if season else ""
 
     if args.use_gt_name:

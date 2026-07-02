@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.36000000000001364,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.1299999999999955,
+    "end": 7.420000000000016,
+    "text": "I see you're drinking wine."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.319999999999993,
+    "end": 11.53000000000003,
+    "text": "Yes, we are. And we're about to go to bed."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.980000000000018,
+    "end": 13.699999999999989,
+    "text": "Uh-huh."
+  },
+  {
+    "speaker": "penny",
+    "start": 15.149999999999977,
+    "end": 16.660000000000025,
+    "text": "Sheldon, do you want to sleep here tonight?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.129999999999995,
+    "end": 21.0,
+    "text": "Oh, as small as Leonard is, I don't think the two of you'd be comfortable on the couch."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.810000000000002,
+    "end": 24.579999999999984,
+    "text": "What do you want?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 25.129999999999995,
+    "end": 31.75999999999999,
+    "text": "It's not what I want, it's what evolution wants. Human beings are primates. Primates have evolved to live in groups, both for protection and support."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.48000000000002,
+    "end": 34.910000000000025,
+    "text": "But you don't like other people."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.28000000000003,
+    "end": 40.25,
+    "text": "I do tonight. It's scary over there."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 42.0,
+    "end": 43.25999999999999,
+    "text": "It's getting scary here, too."
+  },
+  {
+    "speaker": "penny",
+    "start": 44.860000000000014,
+    "end": 58.43000000000001,
+    "text": "Um... three little kittens? Three little pigs? God, I don't know. Star Wars?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.01999999999998,
+    "end": 67.19999999999999,
+    "text": "Did we win? Can we go to bed?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.80000000000001,
+    "end": 92.03999999999996,
+    "text": "Good Lord, I could not have made this easier. Hydrogen atom, H, plus pigs minus pea, Higgs. Bow, General Zod trapped in the Phantom Zone. Bow-zone. Pear. Tickle. Pear-tickle. Higgs Boson Particle. How could you not get that?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 93.59000000000003,
+    "end": 95.08000000000004,
+    "text": "He's right, Penny. It's all there."
+  },
+  {
+    "speaker": "penny",
+    "start": 96.75,
+    "end": 101.53999999999996,
+    "text": "Look, Sheldon, sweetie, I know you're feeling insecure, but we've really got to go to sleep."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 102.14999999999998,
+    "end": 105.22000000000003,
+    "text": "All right. I'll take the first watch and wake you at 0400."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 105.94000000000005,
+    "end": 106.77999999999997,
+    "text": "Great. Good night."
+  },
+  {
+    "speaker": "penny",
+    "start": 107.31000000000006,
+    "end": 108.75999999999999,
+    "text": "Wait, wait, what's 0400?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 109.00999999999999,
+    "end": 109.35000000000002,
+    "text": "4am."
+  }
+]

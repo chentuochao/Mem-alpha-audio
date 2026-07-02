@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 2.68,
+    "end": 14.9,
+    "text": "Sheldon, you need to learn how to drive. This madness has to stop. Penny's taking you to the DMV. I'm going to bed. Because rock, paper, scissors."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 11.57,
+    "end": 12.79,
+    "text": "But I don't have a problem. Why Penny?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 18.22,
+    "end": 35.14,
+    "text": "Hold on. I have one condition. You have to stop at the pottery bar. And Radio Shack. And the comic book store. Why would I go to the comic book store?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 20.28,
+    "end": 21.25,
+    "text": "Alright, come on, Sheldon. What?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 23.62,
+    "end": 25.05,
+    "text": "Okay."
+  },
+  {
+    "speaker": "Penny",
+    "start": 30.94,
+    "end": 31.84,
+    "text": "Alright."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 52.78,
+    "end": 54.98,
+    "text": "I like comic books."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 60.09,
+    "end": 66.05,
+    "text": "I still don't see why I need a driver's license. Albert Einstein never had a driver's license."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 66.43,
+    "end": 71.09,
+    "text": "Yeah, but Albert Einstein didn't make me wet myself at 40 miles an hour."
+  },
+  {
+    "speaker": "Penny",
+    "start": 71.49,
+    "end": 82.32,
+    "text": "Yeah, and I never wanted to kick Albert Einstein in the nuts. You know, I gotta ask, why didn't you just get a license in 16 like everybody else?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 82.32,
+    "end": 84.53,
+    "text": "I was otherwise engaged."
+  },
+  {
+    "speaker": "Penny",
+    "start": 85.17,
+    "end": 86.93,
+    "text": "Doing what?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 86.93,
+    "end": 87.13000000000001,
+    "text": "Examining perturbative amplitudes in N equals four supersymmetric theories leading to a reexamination of the ultraviolet properties of multi-loop N equals eight supergravity using modern twist door theory."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.3600000000000136,
+    "text": "Did she seem upset to you?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.009999999999991,
+    "end": 9.990000000000009,
+    "text": "No. Did she seem upset to you? Oh, good, I got it right. Are you upset?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.4500000000000455,
+    "end": 4.830000000000041,
+    "text": "No."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 11.5,
+    "end": 12.110000000000014,
+    "text": "A little bit."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.529999999999973,
+    "end": 13.850000000000023,
+    "text": "Two for two. I'm on fire."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.019999999999982,
+    "end": 22.519999999999982,
+    "text": "I mean, I know she's not my girlfriend or anything, but wouldn't you think she'd feel a little bad that I'm going to be gone for the whole summer?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.350000000000023,
+    "end": 28.840000000000032,
+    "text": "That feels like a bonus question. I'm going to stop here while I'm ahead, but I've had a great time."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 42.110000000000014,
+    "end": 49.54000000000008,
+    "text": "Alright, now the purpose of this drill is to acclimate us to the use of tools in extreme temperatures such as we will face in the Arctic Circle."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 49.90999999999997,
+    "end": 50.940000000000055,
+    "text": "Where are your tools?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.440000000000055,
+    "end": 101.23000000000002,
+    "text": "Right here. All right, team, open up your practice kits. As the university did not permit me to bring the actual equipment we'll be using to the Cheesecake Factory, because apparently I'm\" ridiculous,\" I've provided substitutes which will exercise your fine motor skills. Leonard, you will be doing a series of complex mathematical problems on a vintage Casio model 1175 calculator watch I received when I won the Earth Science medal in 3rd grade. Treat it with respect. Raj, you will be painting sideburns and a Van Dyke on a six-inch figurine of Legolas the elf. Now, remember, a Van Dyke is a goatee without a moustache. Wolowitz, you will be completing a series of delicate surgical procedures on the classic children's game, Operation."
+  }
+]

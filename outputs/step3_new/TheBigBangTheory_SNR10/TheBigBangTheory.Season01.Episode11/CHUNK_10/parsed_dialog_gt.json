@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 0.2699999999999818,
+    "text": "Well?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.36000000000001364,
+    "end": 0.8600000000000136,
+    "text": "I' m thinking!"
+  },
+  {
+    "speaker": "penny",
+    "start": 3.57000000000005,
+    "end": 8.129999999999995,
+    "text": "Okay, nice and cosy, okay, I'll see you later."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.740000000000009,
+    "end": 12.590000000000032,
+    "text": "Wait. Will you please rub this on my chest."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.039999999999964,
+    "end": 16.50999999999999,
+    "text": "Oh, Sheldon, can't you do that yourself?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.600000000000023,
+    "end": 18.81000000000006,
+    "text": "Vaporub makes my hands smell funny."
+  },
+  {
+    "speaker": "penny",
+    "start": 20.090000000000032,
+    "end": 23.57000000000005,
+    "text": "But Sheldon... I can't believe I' m doing this."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.200000000000045,
+    "end": 21.389999999999986,
+    "text": "Please, please, please, please, please, please, please."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.049999999999955,
+    "end": 37.73000000000002,
+    "text": "No, no, counter- clockwise or my chest hair mats."
+  },
+  {
+    "speaker": "penny",
+    "start": 42.190000000000055,
+    "end": 42.549999999999955,
+    "text": "Sorry."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.00999999999999,
+    "end": 48.430000000000064,
+    "text": "Can you sing' Soft Kitty'."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.33000000000004,
+    "end": 51.66999999999996,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.35000000000002,
+    "end": 54.72000000000003,
+    "text": "My mom used to sing it to me when I was sick."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.889999999999986,
+    "end": 56.360000000000014,
+    "text": "I' m sorry, honey, I don't know it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.430000000000064,
+    "end": 76.85000000000002,
+    "text": "I'll teach you.' Soft kitty, warm kitty, little ball of fur, happy kitty, sleepy kitty, purr purr purr.' Now you."
+  }
+]

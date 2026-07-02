@@ -1,0 +1,164 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 3.3500000000000227,
+    "text": "By the way, another accepted usage for the term ho."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.6299999999999955,
+    "end": 7.240000000000009,
+    "text": "Good-Bye, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.959999999999923,
+    "end": 14.699999999999932,
+    "text": "Hold on I believe that social convention dictate you not arrive empty-Handed. Would you like to bring some Cylon toast?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.399999999999977,
+    "end": 18.74000000000001,
+    "text": "Yeah, no, I'm trying to fit in, not get laughed at."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.379999999999995,
+    "end": 24.899999999999977,
+    "text": "What's funny about Cylon toast?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 30.409999999999968,
+    "end": 30.870000000000005,
+    "text": "It's open."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 33.129999999999995,
+    "end": 33.870000000000005,
+    "text": "Hey, pal."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 36.33999999999992,
+    "end": 36.85000000000002,
+    "text": "What do you want?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 37.559999999999945,
+    "end": 41.049999999999955,
+    "text": "I brought you a little gift. New kite."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 43.75,
+    "end": 53.49000000000001,
+    "text": "The kite you made me lose was an authentic Patang, an Indian fighting kite that my brother sent to me from New Delhi. It took me a day to put together and two days to paint. This is Hello Kitty."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 57.0,
+    "end": 61.360000000000014,
+    "text": "Yeah, but it comes with a little coin purse. Does a Patang?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 62.82999999999993,
+    "end": 67.88999999999999,
+    "text": "Wow, you just don't get it, do you? Buying me something pretty isn't going to make our problem just go away."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 70.50999999999999,
+    "end": 73.82999999999993,
+    "text": "Look, I admit I haven't always been the best friend I could be."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 73.86000000000001,
+    "end": 75.75999999999999,
+    "text": "You've been a sucky friend, a sucky, sucky friend."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 77.63,
+    "end": 78.27999999999997,
+    "text": "Stipulated."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 78.57999999999993,
+    "end": 87.57999999999993,
+    "text": "And you do it all the time. Last week in the mall at Radio Shack, we were looking for a phone with giant numbers for your mother, and I suddenly realize you're not even there. And where were you?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 86.15999999999997,
+    "end": 102.63,
+    "text": "I know, I know. Getting shot down by the girl at Hot Dog on a Stick. But in my defence, she was gorgeous, and working that squeezer to make the lemonade, going up and down and up and down. It was like a free pole dance right in the middle of the food court."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 104.53999999999996,
+    "end": 105.39999999999998,
+    "text": "You're impossible."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 106.16999999999996,
+    "end": 109.02999999999997,
+    "text": "Hey, at least I can talk to women without being drunk."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 109.5,
+    "end": 114.80999999999995,
+    "text": "Excuse me, I have selective mutism, a recognized medical disorder. You're just a douche."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 116.06999999999994,
+    "end": 122.10000000000002,
+    "text": "No. You know what? Maybe that's what this whole thing's about. You're not mad at me, you're mad at yourself."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 122.30999999999995,
+    "end": 125.22000000000003,
+    "text": "No, I'm mad at you. I hate myself, but I'm mad at you."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 126.72000000000003,
+    "end": 134.80999999999995,
+    "text": "Fine. You're mad at me. I get it. Now, how about we go spend the day together? Just the two of us. We'll go anywhere you want."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 137.01999999999998,
+    "end": 137.74,
+    "text": "I don't know."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 138.66999999999996,
+    "end": 142.37,
+    "text": "Come on. Let me take you someplace nice."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 145.11,
+    "end": 149.39999999999998,
+    "text": "I... I do enjoy the La Brea Tar Pits."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 151.63,
+    "end": 157.55999999999995,
+    "text": "Really, now? With the traffic and the parking, it's... okay, fine. The Tar Pits. Let's go."
+  }
+]

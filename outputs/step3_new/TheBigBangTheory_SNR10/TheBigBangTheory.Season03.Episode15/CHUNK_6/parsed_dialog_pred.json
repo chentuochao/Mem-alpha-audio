@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 1.21,
+    "end": 6.28,
+    "text": "Uh, let's see. Yep, thirty pieces of silverware."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 29.310000000000002,
+    "end": 31.17,
+    "text": "What the hell is that? What's going on?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.970000000000002,
+    "end": 31.37,
+    "text": "Morning, old chum. I've made you breakfast. Juice, coffee, and pancakes in the shape of some of your favorite fictional characters. See, here's Frodo."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 39.94,
+    "end": 42.26,
+    "text": "You made Frodo pancakes?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.26,
+    "end": 42.46,
+    "text": "Yeah, I used coconut shavings to do the hair on his feet. If you need to void your bladder before eating, I can keep them warm with this beret that I thoroughly laundered and pressed into service as a pancake cozy."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.18,
+    "end": 57.47,
+    "text": "Why are you doing this?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.47,
+    "end": 57.67,
+    "text": "It's by way of an apology for my recent behavior. I've had some time to reflect and I've come to realize that friendship is not an aggregation of written agreements. It's the result of two people respecting and caring for each other. Butterscotch scone?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 73.26,
+    "end": 77.66,
+    "text": "Thanks. Good."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 77.66,
+    "end": 77.86,
+    "text": "What you're tasting is respect and affection. And about a pound of Crisco. After you finished breakfast, I thought we could spend the day watching the final season of Babylon 5 with director commentary."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 91.2,
+    "end": 92.84,
+    "text": "You hate Babylon 5."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 92.84,
+    "end": 93.04,
+    "text": "I do. It fails as drama, science fiction, and it's hopelessly derivative. But you like it, and you're my friend."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 100.33,
+    "end": 105.96,
+    "text": "Okay, great. Still not taking you to Switzerland?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 105.96,
+    "end": 106.63,
+    "text": "Drab."
+  }
+]

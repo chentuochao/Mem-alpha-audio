@@ -1,0 +1,176 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 3.0,
+    "text": "Well, uh, oh, welcome to the building."
+  },
+  {
+    "speaker": "penny",
+    "start": 3.789999999999992,
+    "end": 6.800000000000011,
+    "text": "Thankyou, maybe we can have coffee sometime. Great."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 5.650000000000006,
+    "end": 10.879999999999995,
+    "text": "Oh, great. Great. Well, bye."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.840000000000003,
+    "end": 7.069999999999993,
+    "text": "Great."
+  },
+  {
+    "speaker": "penny",
+    "start": 11.25,
+    "end": 11.670000000000016,
+    "text": "Bye."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 12.5,
+    "end": 13.159999999999997,
+    "text": "Bye."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 14.469999999999999,
+    "end": 17.930000000000007,
+    "text": "Bye. Should we have invited her for lunch?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.02000000000001,
+    "end": 20.24000000000001,
+    "text": "No. We're going to start Season Two of Battlestar Galactica."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 21.349999999999994,
+    "end": 23.610000000000014,
+    "text": "We already watched the Season Two DVDs."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.640000000000015,
+    "end": 24.539999999999992,
+    "text": "Not with commentary."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.460000000000008,
+    "end": 30.94999999999999,
+    "text": "I think we should be good neighbors, invite her over, make her feel welcome."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.55000000000001,
+    "end": 33.99000000000001,
+    "text": "We never invited Louis- slash- Louise over."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.03000000000003,
+    "end": 38.379999999999995,
+    "text": "Well, then that was wrong of us. We need to widen our circle."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.81,
+    "end": 43.48000000000002,
+    "text": "I have a very wide circle. I have 212 friends on myspace."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.53000000000003,
+    "end": 47.03000000000003,
+    "text": "Yes, and you' ve never met one of them."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.29000000000002,
+    "end": 49.379999999999995,
+    "text": "That's the beauty of it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 52.04000000000002,
+    "end": 56.30000000000001,
+    "text": "I' m going to invite her over. We'll have a nice meal and chat."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.68000000000001,
+    "end": 59.110000000000014,
+    "text": "Chat? We don't chat. At least not offline."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.81999999999999,
+    "end": 66.88,
+    "text": "Well it's not difficult, you just listen to what she says and then you say something appropriate in response."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.60000000000002,
+    "end": 69.36000000000001,
+    "text": "To what end?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 71.39999999999998,
+    "end": 72.92000000000002,
+    "text": "Hi. Again. Hi."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.92000000000002,
+    "end": 72.92000000000002,
+    "text": "Hi."
+  },
+  {
+    "speaker": "penny",
+    "start": 72.92000000000002,
+    "end": 73.82999999999998,
+    "text": "Hi. Hi."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 75.32,
+    "end": 97.94999999999999,
+    "text": "Anyway, um. We brought home Indian food. And, um. I know that moving can be stressful, and I find that when I' m undergoing stress, that good food and company can have a comforting effect. Also, curry is a natural laxative, and I don't have to tell you that, uh, a clean colon is just one less thing to worry about."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 99.51999999999998,
+    "end": 103.93,
+    "text": "Leonard, I' m not expert here but I believe in the context of a luncheon invitation, you might want to skip the reference to bowel movements."
+  },
+  {
+    "speaker": "penny",
+    "start": 105.22000000000003,
+    "end": 114.63,
+    "text": "Oh, you're inviting me over to eat? Oh, that's so nice, I'd love to. So, what do you guys do for fun around here?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 107.67000000000002,
+    "end": 108.48000000000002,
+    "text": "Uh, yes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 111.62,
+    "end": 111.88999999999999,
+    "text": "Great."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 115.42000000000002,
+    "end": 117.18,
+    "text": "Well, today we tried masturbating for money."
+  }
+]

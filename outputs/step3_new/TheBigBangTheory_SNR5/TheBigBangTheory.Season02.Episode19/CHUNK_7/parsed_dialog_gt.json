@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.0,
+    "end": 0.7099999999999227,
+    "text": "Hello there"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.0699999999999363,
+    "end": 2.159999999999968,
+    "text": "Who is it?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.709999999999923,
+    "end": 20.1099999999999,
+    "text": "Oh hello, Penny, it's open, come in. Sarcasm."
+  },
+  {
+    "speaker": "penny",
+    "start": 22.559999999999945,
+    "end": 23.989999999999895,
+    "text": "Well, they're all still up there."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.379999999999995,
+    "end": 30.879999999999995,
+    "text": "You think I can't hear them? Listen to that. Stomp, stomp, stomp. That's Wolowitz in his stacked heels that fool no one."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.66999999999996,
+    "end": 38.799999999999955,
+    "text": "I don't even know why I care. I don't care. All right, I cared enough to memorize that stupid joke, but that's all I care."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.789999999999964,
+    "end": 59.479999999999905,
+    "text": "You know, Penny, there's something that occurs in beehives you might find interesting. Occasionally, a new queen will arrive while the old queen is still in power. When this happens, the old queen must either locate to a new hive or engage in a battle to the death until only one queen remains."
+  },
+  {
+    "speaker": "penny",
+    "start": 60.819999999999936,
+    "end": 67.64999999999998,
+    "text": "What are you saying, that I'm threatened by Alicia? That I'm like the old queen of the hive and it's just time for me to go?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.8599999999999,
+    "end": 78.46999999999991,
+    "text": "I'm just talking about bees. They're on the discovery channel. What are you talking about?"
+  },
+  {
+    "speaker": "penny",
+    "start": 80.25,
+    "end": 85.76999999999998,
+    "text": "Bees. Aaah! I just got that physicist joke."
+  }
+]

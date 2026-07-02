@@ -1,0 +1,200 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 1.28,
+    "end": 9.52,
+    "text": "Of course you don't get it. I haven't made it yet. You have to be psychic to get it, and there's no such thing as psychic. Just like Schrödinger's cat, your potential relationship with Leonard right now can be thought of as both good and bad. It is only by opening the box that you'll find out which it is."
+  },
+  {
+    "speaker": "Penny",
+    "start": 7.75,
+    "end": 9.32,
+    "text": "I'm sorry, I don't get the point. Schroeder, what's the point?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 20.06,
+    "end": 23.44,
+    "text": "Okay, so you're saying I should go out with Leonard?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.44,
+    "end": 41.18,
+    "text": "No, no, no, no, no, no. Let me start again. In 1935, Two seats right there. 小木小，小慧。 谢谢。"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 47.01,
+    "end": 47.21,
+    "text": "I can see that. Unless you're planning on running a marathon, choosing both stuffing and mashed potatoes is a starch-filled redundancy."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 53.279999999999994,
+    "end": 55.56,
+    "text": "Sheldon, I think I've made a mistake. No, it's about Penny."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 55.56,
+    "end": 60.14,
+    "text": "A mistake involving Penny. Okay, you'll have to narrow it down."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 60.98,
+    "end": 63.43,
+    "text": "I don't think I can go out with her tonight."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 63.43,
+    "end": 64.64,
+    "text": "Then don't."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 65.16,
+    "end": 67.38,
+    "text": "Other people would say why not?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.38,
+    "end": 69.18,
+    "text": "Other people might be interested."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 70.48,
+    "end": 72.08,
+    "text": "I'm gonna talk anyway."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 72.08,
+    "end": 73.44,
+    "text": "I assume you would."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 74.32,
+    "end": 79.33,
+    "text": "Now that I'm actually about to go out with Penny, I'm not excited. I'm nauseous."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 79.33,
+    "end": 79.53,
+    "text": "Ah, then your meal choice is appropriate. Starch absorbs fluid, which reduces the amount of vomit available for violent expulsion. Right. You also made a common grammatical mistake. You said nauseous when you meant nauseated. But go on."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 94.02,
+    "end": 98.76,
+    "text": "Sheldon, this date is probably my one chance with Penny. What happens if I blow it?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 98.76,
+    "end": 98.96000000000001,
+    "text": "Well, if we accept your premise and also accept the highly improbable assumption that Penny is the only woman in the world for you, then we can logically conclude that the result of blowing it would be that you end up a lonely, bitter old man with no progeny. The image of any number of evil lighthouse keepers from Scooby-Doo cartoons comes to mind."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 116.88,
+    "end": 118.76,
+    "text": "You're not helping."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 118.76,
+    "end": 123.26,
+    "text": "All right, what response on my part would bring this conversation to a speedy conclusion?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 123.26,
+    "end": 125.64,
+    "text": "Tell me whether or not to go through with the date."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 125.64,
+    "end": 127.32,
+    "text": "Schrödinger's cat."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 127.54,
+    "end": 129.74,
+    "text": "Wow, that's brilliant."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 130.5,
+    "end": 139.08,
+    "text": "You sound surprised. Mmm. Oh, this is where's Ali go?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 156.43,
+    "end": 160.98,
+    "text": "Thank you. You look very nice."
+  },
+  {
+    "speaker": "Penny",
+    "start": 160.98,
+    "end": 163.13,
+    "text": "Thank you. So do you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 166.37,
+    "end": 168.64,
+    "text": "I made an eight o'clock reservation."
+  },
+  {
+    "speaker": "Penny",
+    "start": 168.64,
+    "end": 173.13,
+    "text": "Okay, yeah, great. Listen, um, maybe we should talk first."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 173.13,
+    "end": 173.32999999999998,
+    "text": "Oh. Okay. But before you say anything, have you ever heard of Schrödinger's cat?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 182.95,
+    "end": 186.71,
+    "text": "Actually, I've heard far too much about Schrödinger's cat."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 187.41,
+    "end": 188.85,
+    "text": "Good."
+  },
+  {
+    "speaker": "Penny",
+    "start": 194.63,
+    "end": 197.33,
+    "text": "All right, the cat's alive. Let's go to dinner."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 202.57,
+    "end": 202.76999999999998,
+    "text": "BT Zainar. BT.真敢讲，BT，好，快走，快走。这不是 Leo Ding Chao to Chao. Crazy man. Call the police. You know, 你不会打给图书馆, BT Zainar."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 216.47,
+    "end": 222.39,
+    "text": "满月子，我床上，很多很多满月。"
+  }
+]

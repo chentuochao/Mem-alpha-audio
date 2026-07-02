@@ -210,46 +210,46 @@ def plot_and_eval(pred_npy: str,
     print(f"  Best perm  : pred rows {list(col_ind)}")
     print("=" * 60)
 
-    # ── Plot ──────────────────────────────────────────────────────────
-    if speaker_names:
-        gt_labels = list(speaker_names)
-        pred_raw_labels = [f"Pred Spk {i}" for i in range(N_pred)]
-        pred_aligned_labels = [f"Pred→{speaker_names[i]}" for i in range(len(col_ind))]
-    else:
-        gt_labels = [f"GT Spk {i}" for i in range(gt_mat.shape[0])]
-        pred_raw_labels = [f"Pred Spk {i}" for i in range(N_pred)]
-        pred_aligned_labels = [f"Pred (aligned) Spk {i}" for i in range(len(col_ind))]
+    # # ── Plot ──────────────────────────────────────────────────────────
+    # if speaker_names:
+    #     gt_labels = list(speaker_names)
+    #     pred_raw_labels = [f"Pred Spk {i}" for i in range(N_pred)]
+    #     pred_aligned_labels = [f"Pred→{speaker_names[i]}" for i in range(len(col_ind))]
+    # else:
+    #     gt_labels = [f"GT Spk {i}" for i in range(gt_mat.shape[0])]
+    #     pred_raw_labels = [f"Pred Spk {i}" for i in range(N_pred)]
+    #     pred_aligned_labels = [f"Pred (aligned) Spk {i}" for i in range(len(col_ind))]
 
-    n_rows = gt_mat.shape[0]
-    fig_h = max(4, 1.2 * max(n_rows, N_pred))
-    fig, axes = plt.subplots(2, 1, figsize=(20, fig_h),
-                             constrained_layout=True)
+    # n_rows = gt_mat.shape[0]
+    # fig_h = max(4, 1.2 * max(n_rows, N_pred))
+    # fig, axes = plt.subplots(2, 1, figsize=(20, fig_h),
+    #                          constrained_layout=True)
 
-    _raster_ax(axes[0], gt_mat, "Ground Truth", frame_duration, gt_labels)
-    # _raster_ax(axes[1], pred_bin, "Prediction (raw)", frame_duration,
-    #            pred_raw_labels)
-    _raster_ax(axes[1], pred_aligned,
-               f"Prediction (aligned to GT)  —  DER = {der * 100:.2f}%",
-               frame_duration, pred_aligned_labels)
+    # _raster_ax(axes[0], gt_mat, "Ground Truth", frame_duration, gt_labels)
+    # # _raster_ax(axes[1], pred_bin, "Prediction (raw)", frame_duration,
+    # #            pred_raw_labels)
+    # _raster_ax(axes[1], pred_aligned,
+    #            f"Prediction (aligned to GT)  —  DER = {der * 100:.2f}%",
+    #            frame_duration, pred_aligned_labels)
 
-    # Match colors between GT and aligned-pred panels
-    handles = []
-    for i in range(gt_mat.shape[0]):
-        lbl = gt_labels[i] if speaker_names else f"Speaker {i}"
-        handles.append(mpatches.Patch(color=_COLORS[i % len(_COLORS)],
-                                      label=lbl))
-    fig.legend(handles=handles, loc="upper right", fontsize=9,
-               title="Speaker", framealpha=0.8)
+    # # Match colors between GT and aligned-pred panels
+    # handles = []
+    # for i in range(gt_mat.shape[0]):
+    #     lbl = gt_labels[i] if speaker_names else f"Speaker {i}"
+    #     handles.append(mpatches.Patch(color=_COLORS[i % len(_COLORS)],
+    #                                   label=lbl))
+    # fig.legend(handles=handles, loc="upper right", fontsize=9,
+    #            title="Speaker", framealpha=0.8)
 
-    plt.suptitle(
-        f"Diarization  |  DER={der*100:.2f}%  "
-        f"(Miss={details['miss']:.1f}s  FA={details['fa']:.1f}s  "
-        f"Conf={details['conf']:.1f}s)",
-        fontsize=11, fontweight="bold", y=1.02,
-    )
+    # plt.suptitle(
+    #     f"Diarization  |  DER={der*100:.2f}%  "
+    #     f"(Miss={details['miss']:.1f}s  FA={details['fa']:.1f}s  "
+    #     f"Conf={details['conf']:.1f}s)",
+    #     fontsize=11, fontweight="bold", y=1.02,
+    # )
 
-    plt.savefig(output_path, dpi=150, bbox_inches="tight")
-    print(f"\nFigure saved → {output_path}")
+    # plt.savefig(output_path, dpi=150, bbox_inches="tight")
+    # print(f"\nFigure saved → {output_path}")
     return der, details
 
 
@@ -295,8 +295,8 @@ def main():
     results = []
     for idx, si_path in enumerate(sample_infos):
         print(f"[{idx}/{len(sample_infos)}] {si_path}")
-        # if "Season02" not in si_path:
-        #     continue
+        if ("Season01" not in si_path) and  ("Season02" not in si_path) and  ("Season03" not in si_path)  :
+            continue
         try:
             with open(si_path) as f:
                 info = json.load(f)

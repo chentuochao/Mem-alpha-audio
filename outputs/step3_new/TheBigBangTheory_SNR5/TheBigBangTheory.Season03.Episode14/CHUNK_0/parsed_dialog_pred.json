@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 9.280000000000001,
+    "end": 16.57,
+    "text": "What you doing? Interesting. I usually just have coffee. You been up all night? Yes."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.620000000000001,
+    "end": 18.14,
+    "text": "I'm attempting to view my work as a fleeting peripheral image and as to engage the superior colliculus of my brain. Is it morning? And I've been up all night."
+  },
+  {
+    "speaker": "Penny",
+    "start": 20.34,
+    "end": 21.94,
+    "text": "And you're stuck?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 21.94,
+    "end": 25.34,
+    "text": "Why else would a person try to engage their superior colliculus?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 25.52,
+    "end": 29.12,
+    "text": "Uh, sorry, sweetie, I can't help you till I've had my coffee."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 36.22,
+    "end": 40.7,
+    "text": "Honey, I told you if you don't put him in his crate at night, he just runs around the apartment."
+  },
+  {
+    "speaker": "Penny",
+    "start": 43.76,
+    "end": 45.89,
+    "text": "What's he doing now?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.89,
+    "end": 46.09,
+    "text": "Mmm, he's either isolating the terms of his formula and examining them individually, or looking for the alligator that swallowed his hand after Peter Pan cut it off."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 58.11,
+    "end": 58.31,
+    "text": "Captain Hook's hand was eaten by a crocodile, not an alligator. You're going to mock me, at least get your facts straight. Aye aye, captain."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 69.09,
+    "end": 69.29,
+    "text": "I can't see it. It just won't coalesce. Maybe you need a fresh start. You're right."
+  }
+]

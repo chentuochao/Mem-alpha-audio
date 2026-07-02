@@ -1,0 +1,158 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 4.399999999999977,
+    "text": "I don't know what to say. Howard, listen..."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 2.2799999999999727,
+    "end": 2.7099999999999227,
+    "text": "Wow."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 4.42999999999995,
+    "end": 12.729999999999905,
+    "text": "No, it's okay, it's your Millenium Falcon, you and Chewbacca do whatever you want to do. Me and Princess Leia here will find some other way to spend the evening."
+  },
+  {
+    "speaker": "penny",
+    "start": 13.559999999999945,
+    "end": 17.779999999999973,
+    "text": "Howard, wait. Sheldon, I think we should tell them."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.229999999999905,
+    "end": 21.969999999999914,
+    "text": "Okay, sure. I don't see a problem with that."
+  },
+  {
+    "speaker": "penny",
+    "start": 23.299999999999955,
+    "end": 26.979999999999905,
+    "text": "There's no symposium, Leonard lied to me, isn't that right Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 28.379999999999995,
+    "end": 30.67999999999995,
+    "text": "Well... I don't know what to say."
+  },
+  {
+    "speaker": "penny",
+    "start": 32.379999999999995,
+    "end": 40.059999999999945,
+    "text": "It's okay, I do, look, Leonard is helping Sheldon through a family crisis, he made up the whole story about the symposium with Dr Farmin.. farm... ian"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.51999999999998,
+    "end": 41.17999999999995,
+    "text": "Good for you."
+  },
+  {
+    "speaker": "penny",
+    "start": 42.059999999999945,
+    "end": 51.319999999999936,
+    "text": "Hah, yeah! Because he didn't want Sheldon to be embarrassed, and there is nothing to be embarrassed okay, every family in America has a relative holed up in a garage somewhere huffing paint thinner."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 52.70999999999992,
+    "end": 55.039999999999964,
+    "text": "No, I' m lost too, I think she skipped a step."
+  },
+  {
+    "speaker": "penny",
+    "start": 56.15999999999997,
+    "end": 67.11000000000001,
+    "text": "No, look, Sheldon's cousin Leo escaped rehab, and he's in a Motel 8 at Long Beach, the whole family's going out for an intervention. Leonard is driving Sheldon down there to help him through this because he's such a good man."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 67.25999999999999,
+    "end": 68.38999999999999,
+    "text": "Oh, another hug, thank you."
+  },
+  {
+    "speaker": "penny",
+    "start": 70.26999999999998,
+    "end": 72.25999999999999,
+    "text": "Alright you guys, good luck."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.53999999999996,
+    "end": 73.19999999999993,
+    "text": "Thanks Penny."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 73.45999999999992,
+    "end": 74.08999999999992,
+    "text": "Yeah, uh, break a leg."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 74.29999999999995,
+    "end": 74.93999999999994,
+    "text": "Break a leg."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 76.58999999999992,
+    "end": 77.88,
+    "text": "So, road trip to Long Beach."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 78.13999999999999,
+    "end": 83.4799999999999,
+    "text": "No, we're not going to Long Beach. Because Sheldon doesn't have a drug addicted cousin Leopold."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 79.94999999999993,
+    "end": 80.4799999999999,
+    "text": "Why not?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 83.70999999999992,
+    "end": 87.28999999999996,
+    "text": "Oh, too bad. I' ve always wanted to go to Long Beach."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 88.15999999999997,
+    "end": 96.88999999999999,
+    "text": "It's a very nice community. The Queen Mary is docked there, once the largest ocean liner in the world, it's now a hotel and restaurant where they host a surprisingly gripping murder mystery dinner."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 98.41999999999996,
+    "end": 100.0,
+    "text": "Sounds fun. Shotgun."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 99.01999999999998,
+    "end": 99.32999999999993,
+    "text": "I' m game."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 100.28999999999996,
+    "end": 104.94999999999993,
+    "text": "No, no, no, Leonard gets nauseous unless he sits in front, and even then it's iffy."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 107.32999999999993,
+    "end": 109.39999999999998,
+    "text": "Wait, are we really going to Long Beach?"
+  }
+]

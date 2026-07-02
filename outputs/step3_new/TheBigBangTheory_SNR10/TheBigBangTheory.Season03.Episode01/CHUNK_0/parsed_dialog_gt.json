@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.11999999999999922,
+    "text": "Oh,"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 15.63,
+    "end": 16.729999999999997,
+    "text": "thank God we're home."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 16.839999999999996,
+    "end": 20.410000000000004,
+    "text": "I can't believe we spent three months in that frozen hell."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 20.730000000000004,
+    "end": 23.5,
+    "text": "It was like a snowy nightmare from which there was no awakening."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 25.1,
+    "end": 64.16999999999999,
+    "text": "I don't know what Arctic expedition you guys were on, but I thought it was a hoot and a half. Oh, hi mom. No, I told you I'd call you when I got home, I'm not home yet. Alright, I'm home. The Arctic expedition was a remarkable success, I'm all but certain there's a Nobel Prize in my future. Actually, I shouldn't say that. I'm entirely certain. No, mother, I could not feel your church group praying for my safety. The fact that I'm home safe is not proof that it worked, that logic is Post Hoc Ergo Propter Hoc. No, I'm not sassing you in Eskimo talk."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.27,
+    "end": 67.44,
+    "text": "I'm going to go let Penny know we're back."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 67.86,
+    "end": 73.55999999999999,
+    "text": "Mother, I have to go. Yeah, love you. Bye. Hello, old friend."
+  }
+]

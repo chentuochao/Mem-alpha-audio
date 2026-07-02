@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 0.0,
+    "end": 0.43000000000006366,
+    "text": "PMS."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.730000000000018,
+    "end": 3.560000000000059,
+    "text": "Sorry, I panicked."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 5.490000000000009,
+    "end": 6.07000000000005,
+    "text": "Then guess."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.019999999999982,
+    "end": 15.110000000000014,
+    "text": "Um, eight. Point four."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 17.139999999999986,
+    "end": 23.08000000000004,
+    "text": "I' m sorry, that's incorrect. AA, if you can answer correctly, the match is yours."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 26.290000000000077,
+    "end": 28.58000000000004,
+    "text": "He doesn't have it. He's got squat."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 38.33000000000004,
+    "end": 39.34000000000003,
+    "text": "AA, I need your answer."
+  },
+  {
+    "speaker": "dmitri",
+    "start": 41.710000000000036,
+    "end": 44.24000000000001,
+    "text": "The answer is minus eight by alpha."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.440000000000055,
+    "end": 47.39999999999998,
+    "text": "Hang on, hang on a second, that's not our answer. What are you doing?"
+  },
+  {
+    "speaker": "dmitri",
+    "start": 47.430000000000064,
+    "end": 49.85000000000002,
+    "text": "Answering question. Winning physics bowl."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.360000000000014,
+    "end": 53.65999999999997,
+    "text": "How do you know anything about physics?"
+  },
+  {
+    "speaker": "dmitri",
+    "start": 53.870000000000005,
+    "end": 62.31000000000006,
+    "text": "Here I am janitor, in former Soviet Union I am physicist. Leningrad Politechnica. Go Polar Bears."
+  }
+]

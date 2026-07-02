@@ -1,0 +1,164 @@
+[
+  {
+    "speaker": "leslie_winkle",
+    "start": 0.0,
+    "end": 0.7000000000000455,
+    "text": "I understand."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 1.7699999999999818,
+    "end": 2.2000000000000455,
+    "text": "Thanks."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 3.82000000000005,
+    "end": 6.039999999999964,
+    "text": "Hey, I'm really sorry about that Geneva trip."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 6.789999999999964,
+    "end": 7.92999999999995,
+    "text": "What about it?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 8.67999999999995,
+    "end": 12.230000000000018,
+    "text": "Oh, didn't you hear? I had to reduce the number of people going, and you didn't make the cut."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 14.169999999999959,
+    "end": 15.230000000000018,
+    "text": "When did that happen?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 15.440000000000055,
+    "end": 16.549999999999955,
+    "text": "About 12 seconds ago."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 18.379999999999995,
+    "end": 23.879999999999995,
+    "text": "Well, hold on. Are you saying if I don't go to the wedding, I can't go to Geneva?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 24.75999999999999,
+    "end": 25.99000000000001,
+    "text": "Actually, I'm trying not to say it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 27.5,
+    "end": 35.610000000000014,
+    "text": "Okay, I'm sorry, but that makes me a little uncomfortable. Because it's like you're controlling me with new equipment and research trips."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 30.690000000000055,
+    "end": 31.159999999999968,
+    "text": "How so?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 35.940000000000055,
+    "end": 43.75,
+    "text": "Well, if I weren't controlling you with new equipment and research trips, then I'd be uncomfortable.'Cause then we'd be in, like, a real relationship with feelings and all that crap."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 40.08000000000004,
+    "end": 40.860000000000014,
+    "text": "How so?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 47.08000000000004,
+    "end": 51.539999999999964,
+    "text": "So, bottom line, I'm just a bought-and-paid-for sex toy."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 56.210000000000036,
+    "end": 63.10000000000002,
+    "text": "No. No, not at all. You're also arm candy. So? What do you think?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 64.22000000000003,
+    "end": 70.05999999999995,
+    "text": "Hey, Ma, you got to rent me a tux!"
+  },
+  {
+    "speaker": "debbie_wolowitz",
+    "start": 71.47000000000003,
+    "end": 79.95000000000005,
+    "text": "Right now? What kind of sex are you having up there?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 81.36000000000001,
+    "end": 82.96000000000004,
+    "text": "Why are you crouching there?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 83.46000000000004,
+    "end": 87.51999999999998,
+    "text": "This is my spot. Where else am I supposed to crouch?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 89.83000000000004,
+    "end": 91.08000000000004,
+    "text": "I don't know. Texas?"
+  },
+  {
+    "speaker": "penny",
+    "start": 92.54999999999995,
+    "end": 96.82000000000005,
+    "text": "Here you go. Fresh from the cleaners, good as new."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 96.96000000000004,
+    "end": 99.04999999999995,
+    "text": "Really? Great. Sheldon, look. Good as new."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 99.20000000000005,
+    "end": 101.34000000000003,
+    "text": "From that key maker, I highly doubt it."
+  },
+  {
+    "speaker": "penny",
+    "start": 101.35000000000002,
+    "end": 105.28999999999996,
+    "text": "Come on, Sheldon. Just give it a try."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 107.13999999999999,
+    "end": 108.99000000000001,
+    "text": "All right."
+  },
+  {
+    "speaker": "penny",
+    "start": 110.84000000000003,
+    "end": 114.49000000000001,
+    "text": "There, nice and comfy cosy. Zero, zero, zero."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 115.45000000000005,
+    "end": 119.50999999999999,
+    "text": "There's one more zero. You forgot the time parameter."
+  }
+]

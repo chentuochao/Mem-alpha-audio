@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 4.78,
+    "end": 9.06,
+    "text": "So, just came by, see how you were doing. Good. Your mom seems nice."
+  },
+  {
+    "speaker": "Howard",
+    "start": 8.9,
+    "end": 15.9,
+    "text": "I'm fine. People move away from her on the bus. What do you want?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 16.16,
+    "end": 38.17,
+    "text": "Okay, look, Howard, I just want to apologize. For some things that I have said. About you. I've been informed that you have feelings. And apparently I have hurt them. So, I'm sorry. Howard."
+  },
+  {
+    "speaker": "Howard",
+    "start": 48.55,
+    "end": 51.31,
+    "text": "Fine. You're sorry."
+  },
+  {
+    "speaker": "Penny",
+    "start": 51.91,
+    "end": 54.88,
+    "text": "So, you're okay?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 54.88,
+    "end": 55.080000000000005,
+    "text": "Hey. I'm a big boy. I'm not traumatized by some random comment from some random woman. I mean, get over yourself."
+  },
+  {
+    "speaker": "Penny",
+    "start": 65.58,
+    "end": 69.26,
+    "text": "Okay. Well, bye."
+  }
+]

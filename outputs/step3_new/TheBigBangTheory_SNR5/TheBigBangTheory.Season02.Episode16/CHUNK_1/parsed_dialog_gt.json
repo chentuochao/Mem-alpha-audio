@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 8.399999999999991,
+    "text": "had to take her! It's almost bathing suit weather!"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 13.409999999999997,
+    "end": 14.829999999999998,
+    "text": "Howard, I'm on your team."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 15.61999999999999,
+    "end": 16.58999999999999,
+    "text": "Oh, Leslie, thank God."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 18.69999999999999,
+    "end": 19.809999999999988,
+    "text": "Where's the rest of your squad?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 20.939999999999998,
+    "end": 24.22,
+    "text": "Ah, they left me here to die. What about yours?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 24.75999999999999,
+    "end": 25.849999999999994,
+    "text": "Dead, all of them."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 26.559999999999988,
+    "end": 27.069999999999993,
+    "text": "Sorry."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 27.61,
+    "end": 33.80999999999999,
+    "text": "Don't be. It was friendly fire. They just wouldn't listen."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 35.33,
+    "end": 42.639999999999986,
+    "text": "Well, we're surrounded, so I guess there's nothing for us to do but wait to be captured or killed."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 43.56,
+    "end": 46.129999999999995,
+    "text": "Hmm, that's the worst part, the waiting."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 46.98999999999998,
+    "end": 50.900000000000006,
+    "text": "All the while knowing that there's a paint pellet out there with your name on it."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 53.56,
+    "end": 62.400000000000006,
+    "text": "Yeah, the big wet ball of death. Kind of makes you feel more alive, doesn't it?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 63.71000000000001,
+    "end": 66.32,
+    "text": "It kind of does."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 67.62,
+    "end": 69.18,
+    "text": "I say we make every moment count."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 70.16999999999999,
+    "end": 73.60999999999999,
+    "text": "I agree. How exactly do we do that?"
+  }
+]

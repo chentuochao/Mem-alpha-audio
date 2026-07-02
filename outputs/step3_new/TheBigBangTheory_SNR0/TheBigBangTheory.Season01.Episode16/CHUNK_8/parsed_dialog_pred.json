@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Raj",
+    "start": 0.0,
+    "end": 6.2,
+    "text": "I drive a Chevy Cavalier. Oh, dear Lord. Not now, Penny. This poor man needs me. You hold on, I'll be right with you. What computer do you have? And please don't say a white one."
+  },
+  {
+    "speaker": "Raj",
+    "start": 18.7,
+    "end": 20.05,
+    "text": "Excuse me."
+  },
+  {
+    "speaker": "Howard",
+    "start": 19.85,
+    "end": 21.59,
+    "text": "Sheldon, we have to go. Fill this out and have a seat."
+  },
+  {
+    "speaker": "Raj",
+    "start": 21.59,
+    "end": 26.1,
+    "text": "No, listen, Steve, we're throwing my friend a surprise party, and I'm supposed to keep him out of his apartment for two hours."
+  },
+  {
+    "speaker": "Howard",
+    "start": 26.1,
+    "end": 28.17,
+    "text": "Uh-huh, fill this out and have a seat."
+  },
+  {
+    "speaker": "Raj",
+    "start": 28.17,
+    "end": 32.79,
+    "text": "No, see, the only way I could get him to leave was to tell him I ate a peanut, because I'm allergic to peanuts."
+  },
+  {
+    "speaker": "Howard",
+    "start": 32.79,
+    "end": 35.84,
+    "text": "Oh, well, in that case, fill this out and have a seat."
+  },
+  {
+    "speaker": "Raj",
+    "start": 36.6,
+    "end": 36.800000000000004,
+    "text": "Look, all I need from you is to pick me in the back and give me a band-aid so I can pretend I had a shot of epinephrine, and then you tell my friend you need to keep me under observation for about an hour, hour and a half."
+  },
+  {
+    "speaker": "Howard",
+    "start": 44.06,
+    "end": 47.04,
+    "text": "Is that all you need? Get out of my ER."
+  },
+  {
+    "speaker": "Raj",
+    "start": 47.42,
+    "end": 49.06,
+    "text": "No, you don't understand."
+  },
+  {
+    "speaker": "Howard",
+    "start": 49.06,
+    "end": 53.08,
+    "text": "Oh, I understand, but unfortunately, this hospital is not equipped to treat stupid."
+  },
+  {
+    "speaker": "Raj",
+    "start": 54.32,
+    "end": 54.52,
+    "text": "Okay, I get it. I know how the world works. How about if I were to introduce you to the man who freed your people?"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 9.100000000000001,
+    "end": 11.87,
+    "text": "No, that baby's broken. I can't feel my fingers. Hurry up."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 11.67,
+    "end": 15.07,
+    "text": "Come on, guys, push. It's the same amount of work no matter how fast you go. Basic physics."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.07,
+    "end": 20.08,
+    "text": "Sheldon? If my fingers ever work again, I'm gonna job for the middle one."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 22.12,
+    "end": 27.62,
+    "text": "Oh, hi, Penny. Take a break, guys."
+  },
+  {
+    "speaker": "Penny",
+    "start": 28.12,
+    "end": 29.77,
+    "text": "Oh, hey, guys. What are you doing?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 29.77,
+    "end": 36.1,
+    "text": "Just, you know, moving something upstairs. This, you know, time machine."
+  },
+  {
+    "speaker": "Penny",
+    "start": 32.18,
+    "end": 33.2,
+    "text": "What is it?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 36.72,
+    "end": 42.1,
+    "text": "Yeah, okay, neat, but I really gotta get to work, so. I don't have a few minutes. I'm running really late."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 39.18,
+    "end": 40.27,
+    "text": "Uh, just give us a few minutes."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.1,
+    "end": 42.300000000000004,
+    "text": "Then I have a simple solution. Go up to the roof, hop over to the next building, there's a small gap, don't look down at yourself, Victor Vertigo, and use their stairwell."
+  },
+  {
+    "speaker": "Penny",
+    "start": 50.2,
+    "end": 51.85,
+    "text": "You're joking, right?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 51.85,
+    "end": 54.14,
+    "text": "Oh, I never joke when it comes to Vertigo."
+  },
+  {
+    "speaker": "Penny",
+    "start": 55.76,
+    "end": 58.63,
+    "text": "Damn. Okay, I'll just take the roof."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 58.63,
+    "end": 67.43,
+    "text": "Hey, if you wait for us to set up the time machine, I can drop you off at work yesterday. Time travel, joke. It's not, never mind."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 68.73,
+    "end": 70.95,
+    "text": "For what it's worth, I thought it was humorous."
+  }
+]

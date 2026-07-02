@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 5.860000000000014,
+    "text": "Oh God, my board. Leonard! Leonard!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 7.659999999999968,
+    "end": 8.769999999999982,
+    "text": "Hey, what's the matter?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 9.059999999999945,
+    "end": 16.360000000000014,
+    "text": "My equations, someone's tampered with my equations. Of course I' m sure. Look at the beta- function of quantum chromodynamics, the sign's been changed."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 11.43999999999994,
+    "end": 12.009999999999991,
+    "text": "Are you sure?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.269999999999982,
+    "end": 20.779999999999973,
+    "text": "Oh yeah. But doesn't that fix the problem you' ve been having?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.120000000000005,
+    "end": 26.730000000000018,
+    "text": "Are you insane? Are you out of your mind? Are you... hey look, that fixes the problem I' ve been having."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 28.059999999999945,
+    "end": 28.720000000000027,
+    "text": "You're welcome."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.860000000000014,
+    "end": 32.14999999999998,
+    "text": "You did this?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 33.139999999999986,
+    "end": 39.51999999999998,
+    "text": "Yeah, I noticed it when I got up to get a glass of water, so I fixed it, now you can show that quarks are asymptotically free at high energies. Pretty cool,"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 44.75999999999999,
+    "end": 46.99000000000001,
+    "text": "huh? Listen, I got to hit the lab. Thanks for a great night."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.870000000000005,
+    "end": 44.870000000000005,
+    "text": "Cool?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 49.210000000000036,
+    "end": 50.460000000000036,
+    "text": "Thank you, I'll see you at work."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.0,
+    "end": 52.289999999999964,
+    "text": "Uh- duh, hold on, hold on!"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 53.39999999999998,
+    "end": 53.68999999999994,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 53.92999999999995,
+    "end": 55.41999999999996,
+    "text": "Who told you you could touch my board?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 56.42999999999995,
+    "end": 56.59000000000003,
+    "text": "No- one."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 57.15999999999997,
+    "end": 58.66999999999996,
+    "text": "I don't come into your house and touch your board."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 59.35000000000002,
+    "end": 61.210000000000036,
+    "text": "There are no incorrect equations on my board."
+  }
+]

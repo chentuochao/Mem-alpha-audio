@@ -1,0 +1,188 @@
+[
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 0.0,
+    "end": 2.5400000000000205,
+    "text": "It was so nice of you to come all the way down to the airport to pick me up."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 2.670000000000016,
+    "end": 3.8799999999999955,
+    "text": "No trouble at all."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.3700000000000045,
+    "end": 8.589999999999975,
+    "text": "I drove, Mother. I'm driving now."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 9.339999999999975,
+    "end": 16.189999999999998,
+    "text": "Yes, dear. Mommy's proud. I've been meaning to thank you for your notes on my paper disproving quantum brain dynamic theory."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.28000000000003,
+    "end": 24.980000000000018,
+    "text": "My pleasure. For a non-physicist, you have a remarkable grasp of how electric dipoles in the brain's water molecules could not possibly form a Bose condensate."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.160000000000025,
+    "end": 29.769999999999982,
+    "text": "Wait, wait, wait. When did you send my mom notes on a paper?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.060000000000002,
+    "end": 33.14999999999998,
+    "text": "August 16th. Right after her carpal tunnel surgery."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 34.93000000000001,
+    "end": 38.089999999999975,
+    "text": "Oh, did I thank you for the flowers? I don't really like flowers."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.19,
+    "end": 36.670000000000016,
+    "text": "You did."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.379999999999995,
+    "end": 40.26999999999998,
+    "text": "Neither do I, but it's the social convention."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 40.30000000000001,
+    "end": 40.95999999999998,
+    "text": "It is, isn't it?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.64999999999998,
+    "end": 44.120000000000005,
+    "text": "Wait, wait, wait. You had surgery?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 44.18000000000001,
+    "end": 48.60000000000002,
+    "text": "Yes, and Sheldon sent me flowers. Then what was all that wait, wait, wait about?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 46.04000000000002,
+    "end": 46.94999999999999,
+    "text": "No, I heard that."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 50.23000000000002,
+    "end": 53.68000000000001,
+    "text": "I just don't understand why he knows more about your life than I do."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 53.920000000000016,
+    "end": 60.70999999999998,
+    "text": "Well, I would assume it's because Sheldon and I stay in touch due to mutual interest and respect, while you avoid me, due to unresolved childhood issues."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.04000000000002,
+    "end": 71.57999999999998,
+    "text": "It's what we think caused your narcissistic personality disorder. We discussed it at length during our last video chat. Although how we got onto the subject of you is baffling."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 72.44999999999999,
+    "end": 77.29000000000002,
+    "text": "Yes, but we are on the subject, so I'm obliged to ask, Leonard, how are you?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 79.55000000000001,
+    "end": 80.67000000000002,
+    "text": "Fine, Mom. How are you?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 81.11000000000001,
+    "end": 81.87,
+    "text": "Mmm, menopausal."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 83.10000000000002,
+    "end": 84.14999999999998,
+    "text": "Now I'm less fine."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 85.61000000000001,
+    "end": 87.24000000000001,
+    "text": "Have you heard your brother has gotten engaged?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 87.53000000000003,
+    "end": 90.29000000000002,
+    "text": "No. Sheldon, why didn't you tell me?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 91.12,
+    "end": 94.13,
+    "text": "My bad. I did send a gift from both of us."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 95.36000000000001,
+    "end": 100.48000000000002,
+    "text": "She's a remarkable girl. The youngest appeals court judge in New Jersey and a two-time Olympic bronze medallist."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 101.89999999999998,
+    "end": 103.10000000000002,
+    "text": "You must be very happy."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 103.37,
+    "end": 109.12,
+    "text": "Why? I'm not marrying her. So, how about you? Are you seeing anyone interesting?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 109.30000000000001,
+    "end": 111.25,
+    "text": "Well, I'm not sure about interesting, but..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 111.37,
+    "end": 112.67000000000002,
+    "text": "Not the time, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 113.26999999999998,
+    "end": 117.93,
+    "text": "Very well. Shall we switch topics to Isaac Newton v. Gottfried Leibniz?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 119.07,
+    "end": 132.16000000000003,
+    "text": "It's all right, Sheldon. I will just pretend that Leonard's not withholding information. Although, I will point out, Leonard, that I am a trained psychiatrist and you are exhibiting the same secretive behavioural tics that accompanied your learning to masturbate."
+  }
+]

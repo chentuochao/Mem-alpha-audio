@@ -1,0 +1,32 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.6500000000000057,
+    "text": "Well I think we're off to a terrific start."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.75999999999999,
+    "end": 30.090000000000003,
+    "text": "There you go. Now any e-mail from Wolowitz will go right into your spam folder."
+  },
+  {
+    "speaker": "penny",
+    "start": 31.97999999999999,
+    "end": 35.650000000000006,
+    "text": "Thanks! I mean the e-mail doesn't bother me as much as the vacation pictures of him in a bathing suit."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 37.30000000000001,
+    "end": 41.47,
+    "text": "Yeah, I got the same one. And that's not a bathing suit, it's a tan line."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.19999999999999,
+    "end": 78.31,
+    "text": "Hello. This is Sheldon Cooper. I'm leaving a message for Barry Kripke. Barry, It was pleasant seeing you today in the cafeteria. I saw that you purchased the chef's salad. Apparently, you did not know that the chef's salad is kitchen trickery, to utilize scrap meat. Nevertheless, I hope you enjoyed it. I'm following up on our pending friendship, and I look forward to hearing from you regarding its status. Sheldon Cooper."
+  }
+]

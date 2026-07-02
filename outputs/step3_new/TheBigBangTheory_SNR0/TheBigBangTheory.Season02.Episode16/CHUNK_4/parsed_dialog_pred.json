@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 0.0,
+    "end": 9.0,
+    "text": "The whole thing froze. I don't know what happened. I'm just gonna calm down and I'll lose my whole shopping cart. That's three hours of picking out shoes just shot to hell."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 9.58,
+    "end": 13.2,
+    "text": "Hello, Penny. You're in my spot."
+  },
+  {
+    "speaker": "Penny",
+    "start": 10.83,
+    "end": 11.63,
+    "text": "Hello, shopper."
+  },
+  {
+    "speaker": "Penny",
+    "start": 13.92,
+    "end": 15.98,
+    "text": "Are you planning on sitting here?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.98,
+    "end": 22.18,
+    "text": "No, I'm going to the back of the chair. What difference does it make? That is my spot. In an ever-changing world, it is a single point of consistency. If my life were expressed as a function on a four-dimensional Cartesian coordinate system, that spot, at the moment I first sat on it, would be zero, zero, zero, zero."
+  },
+  {
+    "speaker": "Penny",
+    "start": 17.99,
+    "end": 19.41,
+    "text": "Then what difference does it make?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 20.64,
+    "end": 21.98,
+    "text": "Calm down, we'll figure it out. There we go."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.52,
+    "end": 42.04,
+    "text": "What?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 42.9,
+    "end": 45.42,
+    "text": "Don't sit in his spot."
+  },
+  {
+    "speaker": "Penny",
+    "start": 47.18,
+    "end": 50.09,
+    "text": "Fine. Happy?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 50.09,
+    "end": 51.96,
+    "text": "I'm not unhappy."
+  },
+  {
+    "speaker": "Penny",
+    "start": 55.27,
+    "end": 59.29,
+    "text": "Boy, I love him, but he is one serious whackadoodle."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 59.49,
+    "end": 61.26,
+    "text": "Hey, that should do it."
+  },
+  {
+    "speaker": "Penny",
+    "start": 61.26,
+    "end": 63.69,
+    "text": "Oh, thank you, you are a lifesaver."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 63.69,
+    "end": 65.4,
+    "text": "It's a lot of shoes you order."
+  },
+  {
+    "speaker": "Penny",
+    "start": 65.4,
+    "end": 68.27,
+    "text": "Yeah, you know, the sad thing is, it's really not."
+  }
+]

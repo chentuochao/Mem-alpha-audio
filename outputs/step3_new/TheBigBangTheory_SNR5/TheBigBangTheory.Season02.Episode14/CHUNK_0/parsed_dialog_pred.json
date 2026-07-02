@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Rajesh",
+    "start": 6.28,
+    "end": 34.63,
+    "text": "The problem appears to be unsolvable. Maybe you could run some computer simulations? What about the multiplex here? The seats are terrific."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 18.71,
+    "end": 24.72,
+    "text": "Gotta be missing something. Let's start again. The movie is playing here at 7:20, here at 7:30, here at 8:10, and here at 8:45. Why? They're state-of-the-art, digital projection, 20 channels surround sound."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 24.52,
+    "end": 24.919999999999998,
+    "text": "Alright, these theaters have to be eliminated. Yes, but they have no icy machines. Despite my aggressive letter-writing campaign, I might add."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 34.63,
+    "end": 39.38,
+    "text": "They have Twizzlers instead of Red Vines. No amount of lumbar support can compensate for that."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 39.76,
+    "end": 39.96,
+    "text": "Well, it's gonna take at least an hour to eat, and I don't see a Sheldon-approved restaurant proximate to a Sheldon-approved theater."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 45.86,
+    "end": 47.58,
+    "text": "We could eat after the movie."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 47.58,
+    "end": 52.42,
+    "text": "Unacceptable. The delay would result in tomorrow morning's bowel movement occurring at work."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 53.22,
+    "end": 53.42,
+    "text": "Hang on, hang on. There's a 7-Eleven here. We smuggle Slurpees, which are essentially ices, in under our coats after having a pleasant meal at the here, here, or here."
+  },
+  {
+    "speaker": "Howard",
+    "start": 64.41,
+    "end": 67.47,
+    "text": "There are too many variables, it would take forever. No, I don't see how we missed that."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.47,
+    "end": 71.15,
+    "text": "Excuse me, in what universe are Slurpees ices?"
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 72.51,
+    "end": 74.51,
+    "text": "That's how we missed it."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 74.87,
+    "end": 80.76,
+    "text": "Sheldon, would you be prepared on a non-presidential basis to create an emergency ad hoc Slurpee ice equivalency?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 80.76,
+    "end": 83.81,
+    "text": "Oh, Leonard, you know I can't do that."
+  },
+  {
+    "speaker": "Howard",
+    "start": 85.02,
+    "end": 87.34,
+    "text": "Okay, I guess we only have one option."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 87.34,
+    "end": 91.1,
+    "text": "Yep, I don't see any way around it. Bye, Sheldon."
+  },
+  {
+    "speaker": "Howard",
+    "start": 91.1,
+    "end": 92.0,
+    "text": "Thank you."
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 5.28,
+    "end": 23.16,
+    "text": "I think I'm sick. Leonard? Leonard? Leonard? Leonard, my comforter fell down and my sinuses hurt when I bend over. Leonard?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 40.23,
+    "end": 48.41,
+    "text": "I'm at work. At 6:30 in the morning? On Sunday?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 44.61,
+    "end": 46.28,
+    "text": "Where are you? Yes."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 48.61,
+    "end": 52.78,
+    "text": "Yes. They asked me to come in."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 50.14,
+    "end": 54.7,
+    "text": "Why? I didn't hear the phone ring."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.7,
+    "end": 56.61,
+    "text": "They texted me."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.15,
+    "end": 57.35,
+    "text": "Well, as I predicted, I am sick. My fever has been tracking up exponentially since 2 a.m., and I am producing sputum at an alarming rate."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 69.77,
+    "end": 71.22,
+    "text": "No kidding."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 71.22,
+    "end": 76.21,
+    "text": "Nope. Not only that, it has shifted from clear to milky green."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 76.31,
+    "end": 79.92,
+    "text": "Alright, well, get some rest and drink plenty of fluids."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 79.92,
+    "end": 84.49,
+    "text": "What else would I drink? Gases? Solids? I-nice plasma?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 84.71,
+    "end": 92.05,
+    "text": "Drink whatever you want. Then make soup. I'm at work, Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 86.71,
+    "end": 90.37,
+    "text": "I want soup. We don't have soup."
+  }
+]

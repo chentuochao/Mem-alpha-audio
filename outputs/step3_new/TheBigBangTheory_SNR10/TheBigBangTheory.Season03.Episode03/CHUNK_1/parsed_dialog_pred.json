@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 5.38,
+    "end": 5.78,
+    "text": "I want oatmeal. I'm sure that will happen soon enough. But in the meantime, I still want oatmeal."
+  },
+  {
+    "speaker": "Penny",
+    "start": 11.780000000000001,
+    "end": 14.4,
+    "text": "Yes, well, I want a boyfriend whose roommate isn't a giant pain in the ass. You know what? I give up. He's impossible."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 14.4,
+    "end": 14.6,
+    "text": "I can't be impossible. I exist. I believe what you meant to say is, I give up. He's improbable."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 29.97,
+    "end": 35.28,
+    "text": "What am I supposed to do? Eat French toast on a Monday? Now that would be impossible."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 35.54,
+    "end": 39.35,
+    "text": "Show me you really need to find a better way of dealing with Penny. I'm just saying you can catch more flies with honey than with vinegar."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 39.35,
+    "end": 42.32,
+    "text": "You can catch even more flies with manure. What's your point?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 42.86,
+    "end": 45.16,
+    "text": "It's a, ugh."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 47.78,
+    "end": 52.36,
+    "text": "Boy, that does smell good. Too bad it's Monday."
+  },
+  {
+    "speaker": "Penny",
+    "start": 78.17,
+    "end": 78.37,
+    "text": "Okay, so Kim, the night manager, went on maternity leave, and her husband's name is Sandy, right? So get this. Her replacement is a woman named Sandy whose husband's name is Kim."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 91.39,
+    "end": 92.68,
+    "text": "Wow."
+  },
+  {
+    "speaker": "Penny",
+    "start": 92.68,
+    "end": 95.36,
+    "text": "I know. What are the odds?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 95.36,
+    "end": 95.56,
+    "text": "Easily calculable. We begin by identifying the set of married couples with unisex names. We then eliminate those unqualified for restaurant work, you know, the aged, the imprisoned, and the limbless, for example. Next, we look at the set of people with..."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 106.45,
+    "end": 109.91,
+    "text": "It's an amazing coincidence. Can we leave it at that?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 110.67,
+    "end": 110.87,
+    "text": "I'm sorry. Oh, Penny. It's as if the Cheesecake Factory is run by witches."
+  }
+]

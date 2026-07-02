@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 6.62,
+    "end": 14.82,
+    "text": "Okay, how's that? Stars are pretty, aren't they? So funny."
+  },
+  {
+    "speaker": "Penny",
+    "start": 14.620000000000001,
+    "end": 18.24,
+    "text": "Better. Because you have an American accent, everything you say sounds stupid."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 19.48,
+    "end": 21.82,
+    "text": "Stars are pretty, aren't they?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.01,
+    "end": 30.21,
+    "text": "For the record, I should let you know, this is my first time driving an actual motor vehicle."
+  },
+  {
+    "speaker": "Penny",
+    "start": 36.81,
+    "end": 39.27,
+    "text": "You have your learner's permit, right?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 39.27,
+    "end": 45.19,
+    "text": "Yes. And I've logged a considerable number of hours on a simulator. That didn't work out well."
+  },
+  {
+    "speaker": "Penny",
+    "start": 43.12,
+    "end": 46.72,
+    "text": "Good. Alright, can we please go?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 46.72,
+    "end": 46.92,
+    "text": "One moment. According to my driver's handbook, the side mirror is properly adjusted when a portion of the driver's door handle is visible in the lower right corner. There's the handle. Step back too far. Bring it back. Optimized."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 61.55,
+    "end": 65.25,
+    "text": "Now, where is the switch to adjust the passenger side mirror?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 65.25,
+    "end": 66.0,
+    "text": "Right here."
+  }
+]

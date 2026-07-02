@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 10.9,
+    "end": 12.03,
+    "text": "Hey, hey. Great."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 10.9,
+    "end": 15.12,
+    "text": "I've decided you're right. My career is not over. Great. But since the arrival of Dennis Kim has rendered my research pointless, I just have to find something else to focus on. So I've decided I'm going to collaborate with you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 17.64,
+    "end": 18.92,
+    "text": "Great."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 19.31,
+    "end": 19.509999999999998,
+    "text": "So what exactly is it you do? I know you chatter on about it all the time, but I've never really paid attention."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 26.83,
+    "end": 27.029999999999998,
+    "text": "Okay, well, right now I'm designing an experiment to study the soft component of cosmic radiation at sea level, but I really don't need any help."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 32.88,
+    "end": 38.22,
+    "text": "Oh, sure you do. Now see, what's this here in the schematic? Is that a laser array?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 38.22,
+    "end": 39.98,
+    "text": "Yes. No. Hmm."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.54,
+    "end": 54.84,
+    "text": "What happens if you use argon lasers instead of helium neon? Are you sure? Pretty sure it's not very scientific. Is this how you normally work? Just hunches and guesses and stuff?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.16,
+    "end": 49.73,
+    "text": "It would blow up. Pretty sure."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.56,
+    "end": 55.760000000000005,
+    "text": "Okay. Sheldon, I understand that you're going through a bit of a career crisis. You're searching for some other area where you can feel valuable and productive, but I need to tell you something and I want you to listen carefully."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 66.55,
+    "end": 69.0,
+    "text": "All right. Go away."
+  }
+]

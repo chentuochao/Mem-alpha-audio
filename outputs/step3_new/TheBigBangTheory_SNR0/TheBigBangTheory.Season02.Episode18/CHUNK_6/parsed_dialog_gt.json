@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 1.669999999999959,
+    "text": "They dance, they sweat, they clump."
+  },
+  {
+    "speaker": "penny",
+    "start": 4.0,
+    "end": 4.3700000000000045,
+    "text": "Ew."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.7000000000000455,
+    "end": 9.169999999999959,
+    "text": "Are you thinking about adding a desiccant like calcium sulphate?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 9.779999999999973,
+    "end": 17.519999999999982,
+    "text": "Actually, I'm thinking about this one stripper named Vega. But sure, calcium sulphate could work."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.940000000000055,
+    "end": 23.379999999999995,
+    "text": "Let's think out of the box for a moment. How about a molecular sieve?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 24.74000000000001,
+    "end": 25.409999999999968,
+    "text": "Oh!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 24.74000000000001,
+    "end": 25.409999999999968,
+    "text": "Oh!"
+  },
+  {
+    "speaker": "penny",
+    "start": 26.769999999999982,
+    "end": 32.190000000000055,
+    "text": "I've got a spaghetti strainer in the kitchen."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.549999999999955,
+    "end": 34.23000000000002,
+    "text": "Wow."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.58000000000004,
+    "end": 38.710000000000036,
+    "text": "Hey, we could liberate some micro-porous charcoal from the chem lab."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.56000000000006,
+    "end": 48.65999999999997,
+    "text": "Oh, great. Raj, why don't you and Howard go get the charcoal? Leonard, why don't you start working on some preliminary Web site designs. I'll make some space in our apartment so we can move the manufacturing process."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.81000000000006,
+    "end": 50.10000000000002,
+    "text": "Well, what's wrong with my apartment?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.83000000000004,
+    "end": 51.549999999999955,
+    "text": "It's not my apartment."
+  },
+  {
+    "speaker": "penny",
+    "start": 52.06000000000006,
+    "end": 54.10000000000002,
+    "text": "Wait, wait, what am I going to do?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.610000000000014,
+    "end": 56.950000000000045,
+    "text": "Uh, hey, it's your business. Do whatever you want."
+  },
+  {
+    "speaker": "penny",
+    "start": 58.789999999999964,
+    "end": 67.98000000000002,
+    "text": "Oh, okay, cool. I'm going to take a nap."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 69.82000000000005,
+    "end": 73.09000000000003,
+    "text": "I'm still tweaking things a little bit, but this will give you the general idea of the Web site."
+  }
+]

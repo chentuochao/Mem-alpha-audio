@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 5.02,
+    "end": 14.47,
+    "text": "I don't know what you think, but I'm gonna do this shit. Hello. Saturday night. Saturday is laundry night."
+  },
+  {
+    "speaker": "Penny",
+    "start": 14.270000000000001,
+    "end": 14.67,
+    "text": "Time to do your laundry, huh? I know. Every Saturday at 8:15, easy to anticipate."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 22.76,
+    "end": 24.88,
+    "text": "What are you implying?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 24.88,
+    "end": 25.08,
+    "text": "I'm implying that you're a creature of habits. And if something were to prevent you from doing your laundry on Saturday at 8:15, you might find it unpleasant."
+  },
+  {
+    "speaker": "Penny",
+    "start": 41.32,
+    "end": 43.88,
+    "text": "Knuckle under my ass."
+  },
+  {
+    "speaker": "Penny",
+    "start": 50.36,
+    "end": 58.81,
+    "text": "Oh no. Are all the machines taken? What are you gonna do?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 59.25,
+    "end": 64.63,
+    "text": "No problem. I'll just do my laundry another night."
+  },
+  {
+    "speaker": "Penny",
+    "start": 64.71,
+    "end": 64.91,
+    "text": "Another night? Well, I guess you can try, but deep inside your heart, you'll know that laundry night is always Saturday night."
+  }
+]

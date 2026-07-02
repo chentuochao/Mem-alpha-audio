@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.7199999999999704,
+    "text": "Sheldon Cooper?"
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 4.75,
+    "end": 7.759999999999991,
+    "text": "Hi, Leonard. Thanks. Where should I put this?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 5.46999999999997,
+    "end": 6.359999999999957,
+    "text": "Hey, Ramona. Come on in."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 8.029999999999973,
+    "end": 10.67999999999995,
+    "text": "Uh, the kitchen's fine. Hey, what are you doing?"
+  },
+  {
+    "speaker": "penny",
+    "start": 10.919999999999959,
+    "end": 11.729999999999961,
+    "text": "I need to see this."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.0,
+    "end": 21.91999999999996,
+    "text": "Uh-huh. The viewing area's right over there. Sheldon, your girl... date... person... Ramona's here."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.489999999999952,
+    "end": 24.70999999999998,
+    "text": "Oh, hello."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 24.859999999999957,
+    "end": 28.329999999999984,
+    "text": "Oh, sorry I'm late. I just got so caught up reading the draft of your latest paper."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 28.75999999999999,
+    "end": 34.059999999999945,
+    "text": "Did you enjoy the humorous footnote where I illustrate mirror-symmetry by likening it to the Flash playing tennis with himself?"
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 35.139999999999986,
+    "end": 41.789999999999964,
+    "text": "So funny. But the idea that you might be able to incorporate gravity, I have to tell you, I found it physically exhilarating."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.56999999999999,
+    "end": 46.44,
+    "text": "My hypotheses tend to have that effect."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 48.21999999999997,
+    "end": 52.75,
+    "text": "I'm sorry I didn't bring enough for your friends. I assumed we were going to be alone."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.049999999999955,
+    "end": 58.629999999999995,
+    "text": "Oh, yeah. No, we were just going."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 58.66999999999996,
+    "end": 59.60999999999996,
+    "text": "To watch, right?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.099999999999966,
+    "end": 63.50999999999999,
+    "text": "No, come on, now, we're going out."
+  },
+  {
+    "speaker": "penny",
+    "start": 63.70999999999998,
+    "end": 65.10999999999996,
+    "text": "Oh, come on, we'll be quiet."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.79999999999995,
+    "end": 74.02999999999997,
+    "text": "Let's go. Okay, you two, just, have a nice... whatever this is."
+  }
+]

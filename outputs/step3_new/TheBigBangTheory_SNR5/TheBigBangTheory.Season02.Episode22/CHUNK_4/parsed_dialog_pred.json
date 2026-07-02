@@ -1,0 +1,134 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 10.14,
+    "end": 14.0,
+    "text": "Um, it's Stewart. He wants to talk about Penny. I don't want to talk about Penny."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 13.8,
+    "end": 14.2,
+    "text": "You're not going to answer it? You're making an assumption. Perhaps the comic book store is on fire. We need your assistance."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 22.15,
+    "end": 24.21,
+    "text": "Why would he call me?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 24.21,
+    "end": 29.75,
+    "text": "We don't know. And if you don't answer the phone, we can't know."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 30.61,
+    "end": 33.81,
+    "text": "I'm not answering the phone, Sheldon."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 36.81,
+    "end": 38.95,
+    "text": "Answer the phone, Leonard."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 41.45,
+    "end": 44.01,
+    "text": "There, it went to voicemail."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.23,
+    "end": 51.65,
+    "text": "Aren't you going to check your messages?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 53.75,
+    "end": 54.99,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 54.99,
+    "end": 55.190000000000005,
+    "text": "You have to check your messages, Leonard. The leaving of a message is one half of a social contract, which is completed by the checking of the message. If that contract breaks down, if all social contracts break down, we descend into anarchy."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 69.73,
+    "end": 72.69,
+    "text": "It must be hell inside your head."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 74.57,
+    "end": 77.81,
+    "text": "At times. Guys, we have a code red. You mean code red the hospital emergency alert, code red the computer worm, or code red the cherry flavored soft drink from makers of Mountain Dew?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 85.91,
+    "end": 86.11,
+    "text": "What happens going over the schematics on my zero G toilet, and I made a teeny tiny mistake on the specifications for the diverter valve."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 92.64,
+    "end": 94.11,
+    "text": "How teeny tiny?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 94.11,
+    "end": 94.31,
+    "text": "It's gonna fail after about ten flushes. But the mission is for six months. See, that's the code red. It's kind of like a jack in the box. No one knows exactly when, but at some point, something way worse than a puppet is gonna pop out of that box."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 108.85,
+    "end": 109.05,
+    "text": "Have you notified NASA? Oh my god, what am I gonna say? I screwed up your toilet, but pretty soon there's gonna be crap floating all over your nice shiny space station?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 117.51,
+    "end": 118.93,
+    "text": "What are you gonna do?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 118.93,
+    "end": 121.61,
+    "text": "I'm gonna figure out how to fix it, and then I'll tell them."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 121.61,
+    "end": 123.13,
+    "text": "So what do you need us for?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 123.13,
+    "end": 125.13,
+    "text": "He can't figure out how to fix it."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 125.45,
+    "end": 127.76,
+    "text": "Hey, you said you were gonna be supportive."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 127.76,
+    "end": 132.31,
+    "text": "I'm trying, but you have to admit this is pretty damn funny. I agree. It's the juxtaposition of the high-tech nature of space exploration against the banality of a malfunctioning toilet that provides the comic fodder here."
+  }
+]

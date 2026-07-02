@@ -1,0 +1,32 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 0.0,
+    "end": 5.42,
+    "text": "What are you drinking? It's not even real beer. Non-alcoholic beer."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 8.3,
+    "end": 12.14,
+    "text": "Well, some sort of placebo effect, I guess."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 27.52,
+    "end": 28.22,
+    "text": "Yes, I'm still here. Where am I going? I'm on a train. Now, what you'll be looking for is a small wooden box located between a Hoberman sphere and a sample of quartz flecked with pyrite. Hoberman sphere. It's a collapsible icosidodecahedron. No, the thing with the time on it is my alarm clock."
+  },
+  {
+    "speaker": "Benny",
+    "start": 46.879999999999995,
+    "end": 53.56,
+    "text": "Actually, in India, the names of constellations are different. Where you have the Big Dipper, we have the Big Curry Pot. You got me. Now what are you going to do with me?"
+  },
+  {
+    "speaker": "Benny",
+    "start": 58.71,
+    "end": 64.03,
+    "text": "Yes? What am I looking at? Non-alcoholic beer."
+  }
+]

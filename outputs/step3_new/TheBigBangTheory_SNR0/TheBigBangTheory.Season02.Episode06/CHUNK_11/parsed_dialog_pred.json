@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 6.38,
+    "end": 8.84,
+    "text": "Sure, sisters. Crap on a cracker."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 32.809999999999995,
+    "end": 36.16,
+    "text": "Sheldon? We are communicating through the wall."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 36.16,
+    "end": 39.09,
+    "text": "Yes, but the communication is not encrypted."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 39.61,
+    "end": 41.72,
+    "text": "I don't know Morse code."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 41.72,
+    "end": 45.53,
+    "text": "It's very simple. This is A. This is B."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.11,
+    "end": 60.47,
+    "text": "Sheldon, I'm not going to learn Morse code at three o'clock in the morning. Don't come in here. Don't come in here. Don't come in here. What's going on?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.53,
+    "end": 50.71,
+    "text": "Right."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 60.47,
+    "end": 62.31,
+    "text": "Ramon is sleeping on the couch."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 62.31,
+    "end": 64.41,
+    "text": "I know. She's boring old."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 64.41,
+    "end": 72.88,
+    "text": "Never. That's the problem. I need your help. I'm invoking the Skynet clause of our friendship agreement."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 68.16,
+    "end": 69.58,
+    "text": "What are you talking about?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 72.88,
+    "end": 73.08,
+    "text": "That only applies if you need me to help you destroy an artificial intelligence you created that's taking over the earth."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 79.45,
+    "end": 81.66,
+    "text": "Come on, don't nitpick."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 82.38,
+    "end": 84.14,
+    "text": "Good night."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 84.14,
+    "end": 89.5,
+    "text": "Alright. I'm invoking our body snatchers clause."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 89.62,
+    "end": 95.33,
+    "text": "The body snatchers clause requires me to help you destroy someone we know who's been replaced with an alien pod."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 95.33,
+    "end": 95.53,
+    "text": "Yes, she's in the living room. Go, I'll wait here. Sheldon, what are you doing out of bed? Now, do it!"
+  }
+]

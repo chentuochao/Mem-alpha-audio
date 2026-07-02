@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 3.920000000000016,
+    "text": "He doesn't really help the point I'm trying to make."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 21.360000000000014,
+    "end": 22.260000000000048,
+    "text": "Let it go, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.319999999999993,
+    "end": 24.0,
+    "text": "Why should I let it go? I saw it first."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 24.090000000000032,
+    "end": 25.650000000000034,
+    "text": "Yes, but I saw it from the front."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 25.83000000000004,
+    "end": 27.30000000000001,
+    "text": "A far less impressive feat."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 27.430000000000007,
+    "end": 30.360000000000014,
+    "text": "Oh, come on! I need this for my Batman collection."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 30.410000000000025,
+    "end": 31.700000000000045,
+    "text": "I need it for my Robin collection."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 32.56,
+    "end": 32.81999999999999,
+    "text": "Rock-Paper-Scissors-Lizard-Spock?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.360000000000014,
+    "end": 41.81,
+    "text": "Why would I gamble? It's mine. Let go. No, you! Yes, he won't let go of my comic book. Leonard, we need a ruling."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 35.43000000000001,
+    "end": 35.900000000000034,
+    "text": "You let go."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 36.78000000000003,
+    "end": 36.79000000000002,
+    "text": "Problem?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 39.450000000000045,
+    "end": 40.410000000000025,
+    "text": "It's my comic book!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.860000000000014,
+    "end": 42.870000000000005,
+    "text": "Uh, cut it in half?"
+  },
+  {
+    "speaker": "penny",
+    "start": 44.18000000000001,
+    "end": 45.48000000000002,
+    "text": "Excuse me."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 46.79000000000002,
+    "end": 47.420000000000016,
+    "text": "Hello again."
+  },
+  {
+    "speaker": "penny",
+    "start": 47.84000000000003,
+    "end": 50.56999999999999,
+    "text": "Hi. What would you recommend as a present for a 13-year-old boy?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 50.56999999999999,
+    "end": 58.54000000000002,
+    "text": "A 13-year-old girl. But if you're dead set on a comic book, try this."
+  },
+  {
+    "speaker": "penny",
+    "start": 59.26000000000005,
+    "end": 61.30000000000001,
+    "text": "Oh, Hellblazer. What's this about?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 61.629999999999995,
+    "end": 67.16000000000003,
+    "text": "A morally ambiguous confidence man who smokes, has lung cancer and is tormented by the spirits of the undead."
+  },
+  {
+    "speaker": "penny",
+    "start": 68.79000000000002,
+    "end": 71.28000000000003,
+    "text": "Well, if that doesn't make me the favourite aunt, I don't know what will."
+  }
+]

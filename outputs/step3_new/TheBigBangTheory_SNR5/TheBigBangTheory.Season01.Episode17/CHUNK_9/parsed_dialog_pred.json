@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 5.04,
+    "end": 5.44,
+    "text": "Laughter] Draft. You see, people hear the word year and they think duration. Foot pound has the same problem. That's a unit of work, not of weight."
+  },
+  {
+    "speaker": "Penny",
+    "start": 14.46,
+    "end": 18.7,
+    "text": "Right, thanks. Not the first one I've made today."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.41,
+    "end": 16.6,
+    "text": "Mm, it's a common mistake."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 19.28,
+    "end": 23.52,
+    "text": "Okay. I think this will be my seat."
+  },
+  {
+    "speaker": "Penny",
+    "start": 24.06,
+    "end": 29.05,
+    "text": "Sheldon, do you have anything to say that has anything to do with, you know, what I'm talking about?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 29.05,
+    "end": 34.12,
+    "text": "Well, let's see. We might consider Schrödinger's cat."
+  },
+  {
+    "speaker": "Penny",
+    "start": 34.48,
+    "end": 36.86,
+    "text": "Schrödinger. Is that the woman in 2A?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 36.86,
+    "end": 41.67,
+    "text": "No, that's Mrs. Grossinger. And she doesn't have a cat. She has a Mexican hairless, annoying little animal."
+  },
+  {
+    "speaker": "Penny",
+    "start": 41.67,
+    "end": 42.74,
+    "text": "Sheldon!"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 44.02,
+    "end": 46.870000000000005,
+    "text": "Sorry, you diverted me. Anyway. In 1935, Erwin Schrödinger, in an attempt to explain the Copenhagen interpretation of quantum physics, he proposed an experiment where a cat is placed in a box with a sealed vial of poison that will break open at a random time. Now, since no one knows when or if the poison has been released, until the box is opened, the cat can be thought of as both alive and dead."
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 0.0,
+    "end": 3.9699999999999136,
+    "text": "Your scan data will be very elpful to my research. You have a remarkable brain."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 4.599999999999909,
+    "end": 11.549999999999955,
+    "text": "I know. Although I've always hated how my right frontal lobe looks in pictures."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 12.620000000000005,
+    "end": 19.0,
+    "text": "Common complaint among men. Nothing's ever big enough, except when they get a tumour. Then you never hear the end of it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 21.41999999999996,
+    "end": 23.959999999999923,
+    "text": "I'd love to see a scan of your brain sometime."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 24.239999999999895,
+    "end": 27.0,
+    "text": "Oh, I'll send you a link, but its physiology is fairly unimpressive."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.809999999999945,
+    "end": 29.039999999999964,
+    "text": "Oh, I can't believe that."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 29.34999999999991,
+    "end": 33.02999999999997,
+    "text": "Your unwillingness to accept empirical evidence suggests an attempt at flattery."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.729999999999905,
+    "end": 39.94999999999993,
+    "text": "My apologies. I've been living with your son too long. Gotten into some bad habits."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 41.32999999999993,
+    "end": 41.94999999999993,
+    "text": "Understandable."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.34999999999991,
+    "end": 44.67999999999995,
+    "text": "Can I make you a cup of tea?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 45.120000000000005,
+    "end": 47.52999999999997,
+    "text": "I doubt it, but if anyone has a chance, it's probably you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.09999999999991,
+    "end": 54.139999999999986,
+    "text": "I feel very comfortable around you."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 55.70999999999992,
+    "end": 57.40999999999997,
+    "text": "I feel very comfortable around you, too."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.01999999999998,
+    "end": 62.83999999999992,
+    "text": "It's surprising because I generally don't feel comfortable around, well, anyone."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 65.13999999999999,
+    "end": 65.62,
+    "text": "Nor I."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.43999999999994,
+    "end": 74.13999999999999,
+    "text": "What are the odds that two individuals as unique as ourselves would be connected by someone as comparatively workaday as your son?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 76.80999999999995,
+    "end": 79.32999999999993,
+    "text": "Is that a rhetorical point or would you like to do the math?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.56999999999994,
+    "end": 82.54999999999995,
+    "text": "I'd like to do the math."
+  }
+]

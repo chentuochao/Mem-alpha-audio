@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.6400000000000148,
+    "text": "The favour."
+  },
+  {
+    "speaker": "penny",
+    "start": 2.930000000000007,
+    "end": 3.640000000000015,
+    "text": "Oh, dear God."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 5.200000000000017,
+    "end": 10.880000000000024,
+    "text": "I'm sorry, I didn't realize I was interrupting your morning prayers. When you're done, we'll go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 37.68000000000001,
+    "end": 38.93000000000001,
+    "text": "Thank you for driving me to work."
+  },
+  {
+    "speaker": "penny",
+    "start": 39.82000000000002,
+    "end": 41.53,
+    "text": "You know this is my day off, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 41.670000000000016,
+    "end": 53.84,
+    "text": "Oh, good. I'm not keeping you from anything. Your check engine light is on. Typically that's an indicator. To, you know, check your engine."
+  },
+  {
+    "speaker": "penny",
+    "start": 49.69,
+    "end": 50.16,
+    "text": "Mm-hmm."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.95000000000002,
+    "end": 56.69,
+    "text": "It's fine, it's been on for, like, a month."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.35000000000002,
+    "end": 61.83000000000001,
+    "text": "Well, actually, that would be all the more reason to, you know, check your engine."
+  },
+  {
+    "speaker": "penny",
+    "start": 63.34,
+    "end": 64.59,
+    "text": "Sheldon, it's fine."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 64.83000000000001,
+    "end": 69.52000000000001,
+    "text": "If it were fine, the light wouldn't be on. That's why the manufacturer installed that light, to let you know it's not fine."
+  },
+  {
+    "speaker": "penny",
+    "start": 69.55000000000001,
+    "end": 71.77000000000001,
+    "text": "Uh, maybe the light's broken."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.84,
+    "end": 77.12,
+    "text": "Is there a\" check the check engine light light\"? O-o-o-oh!"
+  },
+  {
+    "speaker": "penny",
+    "start": 79.11000000000001,
+    "end": 79.47,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 80.44,
+    "end": 88.84,
+    "text": "Studies have shown that performing tasks such as eating, talking on a cell phone or drinking coffee while driving reduces one's reaction time by the same factor as an ounce of alcohol."
+  },
+  {
+    "speaker": "penny",
+    "start": 89.35000000000002,
+    "end": 90.5,
+    "text": "Do you have any alcohol?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 91.15,
+    "end": 91.68,
+    "text": "Of course not."
+  },
+  {
+    "speaker": "penny",
+    "start": 92.11000000000001,
+    "end": 92.72,
+    "text": "Too bad."
+  }
+]

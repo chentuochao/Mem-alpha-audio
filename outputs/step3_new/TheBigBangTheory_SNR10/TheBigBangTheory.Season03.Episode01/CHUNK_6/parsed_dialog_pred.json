@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 4.76,
+    "end": 7.04,
+    "text": "Thanks. I call it the Clooney."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 7.88,
+    "end": 14.67,
+    "text": "I like the new look. I call it the Mario and Luigi, but whatever. Hey, how's Sheldon doing?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 14.67,
+    "end": 14.87,
+    "text": "Well, he came out of his room this morning wearing his Darth Vader helmet and tried to choke me to death with the Force, so I'd say a little better."
+  },
+  {
+    "speaker": "Howard",
+    "start": 22.02,
+    "end": 22.22,
+    "text": "If I may abruptly change the subject, did you and Penny finally, you know, power? Personally, I don't care, but my genitals wanted me to ask."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 30.28,
+    "end": 34.08,
+    "text": "Well, uh, tell your genitals what I do with Penny is none of their business."
+  },
+  {
+    "speaker": "Howard",
+    "start": 34.44,
+    "end": 39.82,
+    "text": "He says they didn't do it. Sheldon, over here."
+  },
+  {
+    "speaker": "Howard",
+    "start": 53.64,
+    "end": 55.46,
+    "text": "What are you doing?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.93,
+    "end": 63.23,
+    "text": "Well, I feel bad for the guy. Sheldon, why are you sitting by yourself?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 69.81,
+    "end": 77.96,
+    "text": "Because I'm without friends. Like the proverbial cheese, I stand alone. Even while seated. It's going to take more than an I'm sorry and a store-bought apology pie from Penny to make up for what you've done to me."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 70.01,
+    "end": 72.22,
+    "text": "Come on, we said we were sorry."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 83.71,
+    "end": 87.54,
+    "text": "You see? People have been pointing and laughing at me all morning."
+  },
+  {
+    "speaker": "President Seba",
+    "start": 87.34,
+    "end": 92.13,
+    "text": "Hey, Cooper. Wed you a twaction email. Way to destroy your reputation. It's not true. People have been pointing and laughing at you your whole life."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 92.13,
+    "end": 92.33,
+    "text": "Alright, I've had enough. Attention, everyone. I'm Dr. Sheldon Cooper. As many of you in the physics department might know, my career trajectory has taken a minor detour."
+  },
+  {
+    "speaker": "President Seba",
+    "start": 102.05,
+    "end": 103.26,
+    "text": "Off a cliff."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 104.5,
+    "end": 108.32000000000001,
+    "text": "My credibility may have been damaged. But I would like to remind you that in science, there's no such thing as failure. There once was a man who referred to his prediction of a cosmological constant as the single biggest blunder of his career. That man's name was, surprise, surprise, Albert Einstein."
+  },
+  {
+    "speaker": "President Seba",
+    "start": 107.29,
+    "end": 108.12,
+    "text": "Completely whacked."
+  },
+  {
+    "speaker": "President Seba",
+    "start": 125.22,
+    "end": 125.42,
+    "text": "Yeah, but research into dark energy proved that Einstein's cosmological constant was actually right all along, so you're still, surprise, surprise, a loser."
+  }
+]

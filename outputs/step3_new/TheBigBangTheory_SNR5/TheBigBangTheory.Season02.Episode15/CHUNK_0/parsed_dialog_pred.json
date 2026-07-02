@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 10.84,
+    "end": 11.239999999999998,
+    "text": "Please. I'm really very busy. Is there any way that we can put this off until I have more time to prepare? Of course, but you understand my trepidation."
+  },
+  {
+    "speaker": "Penny",
+    "start": 19.76,
+    "end": 20.96,
+    "text": "You found it. It's the sound of a cat being run over by a lawnmower. What's that about?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 20.76,
+    "end": 21.87,
+    "text": "Honey, come on. We were just finding our sound. Not a clue."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 21.87,
+    "end": 25.6,
+    "text": "Can't we just postpone it till the spring? Maybe next summer?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 25.6,
+    "end": 25.8,
+    "text": "This should be fairly easy to deduce. He's holding the phone to his left ear. Ears do not cross hemispheres, so he's using the analytical rather than the emotional side of the brain, suggesting that he has no personal relationship with the caller."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 37.25,
+    "end": 37.45,
+    "text": "No, I didn't realize it had been so long. Sure, there's no other choice but to just go ahead and do it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 44.1,
+    "end": 44.300000000000004,
+    "text": "He's referring to an activity he has done before. It's unpleasant and needs to be repeated. This suggests some sort of invasive medical test, like perhaps a colonoscopy."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.01,
+    "end": 57.6,
+    "text": "Are there any other options? There's not a lot of room. It's gonna be uncomfortable."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.6,
+    "end": 61.33,
+    "text": "Yes, yes. I'm definitely going with colonoscopy."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 61.51,
+    "end": 62.75,
+    "text": "Okay, bye."
+  }
+]

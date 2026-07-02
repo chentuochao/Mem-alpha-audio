@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.9199999999999875,
+    "text": "Sheldon, you got a minute?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.259999999999991,
+    "end": 9.219999999999999,
+    "text": "Of course, my good friend. Come in. Help me out, which ski hat says après supercollider?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.340000000000003,
+    "end": 14.210000000000008,
+    "text": "Sheldon, I'm not taking you to Switzerland."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.539999999999992,
+    "end": 16.819999999999993,
+    "text": "Well, of course you are. Who else would you take?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.599999999999994,
+    "end": 18.109999999999985,
+    "text": "Penny."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.379999999999995,
+    "end": 23.03,
+    "text": "What? That's absurd. Penny has no interest in subatomic particle research."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.97,
+    "end": 31.75999999999999,
+    "text": "Yes, but it'll be Valentine's Day. We can go sightseeing and skiing and make love in front of a roaring fire in the shadow of the snowcapped Alps."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.66999999999999,
+    "end": 37.079999999999984,
+    "text": "But Penny has no interest in subatomic particle research."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.599999999999994,
+    "end": 39.59,
+    "text": "I'm sorry, Sheldon."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.93000000000001,
+    "end": 45.22,
+    "text": "Sorry? I've been dreaming about going to the Large Hadron Collider since I was nine years old."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 45.28999999999999,
+    "end": 48.46000000000001,
+    "text": "Yeah, well, I've been dreaming about spending Valentine's Day with a girl since I was six."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.47,
+    "end": 55.09,
+    "text": "Shame on you! That's no dream for a scientist!"
+  },
+  {
+    "speaker": "penny",
+    "start": 57.059999999999974,
+    "end": 59.109999999999985,
+    "text": "Okay, what's the big surprise?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 59.109999999999985,
+    "end": 66.6,
+    "text": "Just a minute. This tray contains clues as to what you and I are going to be doing on Valentine's Day."
+  },
+  {
+    "speaker": "penny",
+    "start": 67.54999999999998,
+    "end": 80.91999999999999,
+    "text": "Oh. Wow. Okay. Let's see. We've got, uh, milk chocolate, Swiss cheese, fondue. My lactose-intolerant boyfriend is going to eat all this, then I'm going to climb on his back and rocket to the moon?"
+  }
+]

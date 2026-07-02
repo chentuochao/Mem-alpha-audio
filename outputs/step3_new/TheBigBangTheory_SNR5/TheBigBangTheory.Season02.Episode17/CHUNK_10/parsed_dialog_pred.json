@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Howard",
+    "start": 9.82,
+    "end": 11.92,
+    "text": "Hi, I'm the small package good things come in. That's the wrong box. Put it back there."
+  },
+  {
+    "speaker": "Penny",
+    "start": 11.72,
+    "end": 14.51,
+    "text": "Okay, I got a box, but there's no key in here, just letters. Oh, Sheldon, are these letters from your grandmother?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 14.51,
+    "end": 16.05,
+    "text": "Don't read those letters."
+  },
+  {
+    "speaker": "Penny",
+    "start": 16.05,
+    "end": 19.24,
+    "text": "Oh, look, she calls you Moon Pie. That is so cute."
+  },
+  {
+    "speaker": "Howard",
+    "start": 19.24,
+    "end": 25.62,
+    "text": "Put down the letters! Hey Penny, it's Leonard."
+  },
+  {
+    "speaker": "Penny",
+    "start": 25.62,
+    "end": 27.72,
+    "text": "Hey Leonard, how's the train ride?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 27.72,
+    "end": 27.919999999999998,
+    "text": "delightful Listen, I don't know what you're doing right now, but there are little bubbles forming in the corner of Sheldon's mouth."
+  },
+  {
+    "speaker": "Penny",
+    "start": 34.16,
+    "end": 37.24,
+    "text": "Okay, yeah, I kind of crossed a line. Put it back on."
+  },
+  {
+    "speaker": "Howard",
+    "start": 37.24,
+    "end": 40.47,
+    "text": "Thank you. I'm back."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.47,
+    "end": 41.79,
+    "text": "What up, moon pie?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 42.67,
+    "end": 51.27,
+    "text": "No one calls me Moonpie but Meatball. Hey Penny, Leonard again. So anyway, in the dream, you and I were ice skating, just the two of us. And then I picked you up by your ankles and twirled you round and round until your legs tore off."
+  }
+]

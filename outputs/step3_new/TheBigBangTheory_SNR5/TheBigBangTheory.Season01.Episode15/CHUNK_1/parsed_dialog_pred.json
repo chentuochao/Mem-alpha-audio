@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 7.62,
+    "end": 9.34,
+    "text": "Hello. Buddy."
+  },
+  {
+    "speaker": "Howard",
+    "start": 9.8,
+    "end": 15.44,
+    "text": "Oh, hey, buddy. Sorry, I'm late. I'm working on a project that may take me up on the next space shuttle."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.58,
+    "end": 19.2,
+    "text": "How can you be late? I wasn't expecting you at all."
+  },
+  {
+    "speaker": "Howard",
+    "start": 19.2,
+    "end": 27.45,
+    "text": "Nobody ever expects me. Sometimes you just look and bam, Howard Wobbles. Sheldon, are you gonna introduce us?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 27.45,
+    "end": 33.29,
+    "text": "Oh, alright, uh, this is Missy, Missy, this is Leonard, and Rajesh, and you've already met Howard."
+  },
+  {
+    "speaker": "Howard",
+    "start": 34.32,
+    "end": 40.6,
+    "text": "Me too, as well, awesome. So, how do you two know each other?"
+  },
+  {
+    "speaker": "Missy",
+    "start": 40.4,
+    "end": 44.48,
+    "text": "It's nice to meet you. Oh, he once spent nine months with my leg wrapped around his head."
+  },
+  {
+    "speaker": "Howard",
+    "start": 47.24,
+    "end": 49.05,
+    "text": "Excuse me?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.05,
+    "end": 54.2,
+    "text": "She's my twin sister. She thinks she's funny, but frankly, I've never been able to see it."
+  },
+  {
+    "speaker": "Missy",
+    "start": 54.2,
+    "end": 57.09,
+    "text": "It's because you have no measurable sense of humor, Shelley."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.09,
+    "end": 61.66,
+    "text": "How exactly would one measure a sense of humor? A humor-mometer?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 63.72,
+    "end": 69.21,
+    "text": "Well, I think you're delightfully droll. Or as the French say, très drôle."
+  },
+  {
+    "speaker": "Missy",
+    "start": 69.21,
+    "end": 69.41,
+    "text": "Okay, so let me see if I got this. Leonard, Howard, and, I'm sorry, what was your name again?"
+  }
+]

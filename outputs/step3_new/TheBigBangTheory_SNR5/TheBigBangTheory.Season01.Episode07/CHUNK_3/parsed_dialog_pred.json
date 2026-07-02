@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 6.76,
+    "end": 8.48,
+    "text": "Do you mind if I stay here tonight? The couch is good."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.3,
+    "end": 19.64,
+    "text": "No, yeah, take the couch. Let me guess, you have a problem with this. It's up to you, crazy person's choice."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 16.53,
+    "end": 17.59,
+    "text": "Hold that thought, Leonard, a moment. Where do I begin?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 20.08,
+    "end": 25.68,
+    "text": "Well, first, we don't have house guests. Frankly, if I could afford the rent, I'd ask you to leave."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 26.06,
+    "end": 29.26,
+    "text": "Your friendship means a lot to me as well. What else?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 29.26,
+    "end": 40.12,
+    "text": "Well, our earthquake supplies. We have a two-man, two-day kit. So, if there is an earthquake and the three of us are trapped here, we could be out of food by tomorrow afternoon."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 33.83,
+    "end": 34.54,
+    "text": "So?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 40.86,
+    "end": 45.32,
+    "text": "I'm sorry, are you suggesting that if we let Penny stay, we might succumb to cannibalism?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 45.32,
+    "end": 48.12,
+    "text": "No one ever thinks it'll happen until it does."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 49.34,
+    "end": 54.12,
+    "text": "Penny, if you promise not to chew the flesh off our bones while we sleep, you can stay."
+  },
+  {
+    "speaker": "Penny",
+    "start": 55.14,
+    "end": 56.14,
+    "text": "What?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.14,
+    "end": 56.34,
+    "text": "He's engaging in reductio ad absurdum. It's the logical fallacy of extending someone's argument to ridiculous proportions and then criticizing the result, and I do not appreciate it."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 67.16,
+    "end": 69.42,
+    "text": "I'll get you a blanket and a pillow."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 69.82,
+    "end": 70.02,
+    "text": "Okay, well, since I'm obviously being ignored here, let's go over the morning schedule. I use the bathroom from 7 to 7:20. Plan your ablutions and bodily functions accordingly."
+  },
+  {
+    "speaker": "Penny",
+    "start": 80.38,
+    "end": 83.17,
+    "text": "How am I supposed to plan my bodily functions?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 83.17,
+    "end": 85.58,
+    "text": "I suggest no liquids after 11 p.m."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 85.98,
+    "end": 87.15,
+    "text": "There you go."
+  },
+  {
+    "speaker": "Penny",
+    "start": 87.15,
+    "end": 88.4,
+    "text": "Thanks, Leonard."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 89.51,
+    "end": 90.85,
+    "text": "Mm, wrong."
+  }
+]

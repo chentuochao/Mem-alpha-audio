@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 3.269999999999982,
+    "text": "Look, we kept the original data. You can still publish the actual results."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.5400000000000205,
+    "end": 13.439999999999998,
+    "text": "Yes, but the actual results are unsuccessful and I've already sent an e-mail to everyone at the university explaining that I have confirmed string theory and forever changed man's understanding of the universe."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.529999999999973,
+    "end": 20.519999999999982,
+    "text": "Aw, see, yeah, you probably shouldn't have done that. So write another e-mail, set the record straight, it's no big deal."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.569999999999993,
+    "end": 39.19999999999999,
+    "text": "You're right, Leonard, it's not a big deal. All you did was lie to me destroy my dream and humiliate me in front of the whole university. That, FYI, was sarcasm. I, in fact, believe it is a big deal"
+  },
+  {
+    "speaker": "penny",
+    "start": 41.599999999999966,
+    "end": 42.870000000000005,
+    "text": "Oh, the poor thing."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.00999999999999,
+    "end": 43.93000000000001,
+    "text": "Yeah, I feel terrible."
+  },
+  {
+    "speaker": "penny",
+    "start": 44.599999999999966,
+    "end": 47.30000000000001,
+    "text": "Wait, wait. Aren't you going to go talk to him?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.39999999999998,
+    "end": 49.879999999999995,
+    "text": "What? Uh, he'll be fine, the guy's a trouper, come here."
+  },
+  {
+    "speaker": "penny",
+    "start": 50.23000000000002,
+    "end": 53.089999999999975,
+    "text": "No, you're right, you shouldn't talk to him. I will."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.31,
+    "end": 57.44,
+    "text": "Man, I cannot catch a break."
+  },
+  {
+    "speaker": "penny",
+    "start": 65.37,
+    "end": 67.20999999999998,
+    "text": "Hey. Do you want to talk?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.17000000000002,
+    "end": 77.32,
+    "text": "About what? Being betrayed by my friends? Spending three months at the North Pole for nothing? And I didn't even get to go to Comic-Con!"
+  }
+]

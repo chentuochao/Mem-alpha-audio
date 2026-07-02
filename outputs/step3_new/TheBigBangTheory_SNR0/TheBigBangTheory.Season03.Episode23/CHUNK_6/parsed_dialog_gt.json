@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 6.8799999999999955,
+    "text": "In what universe is this low-pulp? Good morning, Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 7.460000000000036,
+    "end": 9.450000000000045,
+    "text": "What, do you have eyes in the back of your head?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.019999999999982,
+    "end": 25.450000000000045,
+    "text": "When one gets beaten up every other day in school, one of necessity develops a keen sense of hearing. Incidentally, one can get beaten up in school simply by referring to oneself as one. I'm making English muffins. Would you like an English muffin?"
+  },
+  {
+    "speaker": "penny",
+    "start": 25.74000000000001,
+    "end": 27.24000000000001,
+    "text": "Oh, thanks, I'm not hungry."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.600000000000023,
+    "end": 30.99000000000001,
+    "text": "FYI, my noise-cancelling headphones proved ineffective last night."
+  },
+  {
+    "speaker": "penny",
+    "start": 33.430000000000064,
+    "end": 34.360000000000014,
+    "text": "Yeah, sorry about that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.59000000000003,
+    "end": 45.930000000000064,
+    "text": "As a native Texan, I must say I've never heard the phrase yee-haw used in quite that context. Oh, God. That I've heard on multiple occasions."
+  },
+  {
+    "speaker": "penny",
+    "start": 40.29000000000008,
+    "end": 40.85000000000002,
+    "text": "Oh, God."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.23000000000002,
+    "end": 62.59000000000003,
+    "text": "In what universe is that lightly toasted? This has to be the worst day of my life. Good morning, Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 63.639999999999986,
+    "end": 65.40999999999997,
+    "text": "How many times have I asked you not to do that?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.24000000000001,
+    "end": 68.10000000000002,
+    "text": "Counting this instance? 317."
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.9400000000000546,
+    "text": "So, what do you guys think?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 3.5100000000001046,
+    "end": 6.0,
+    "text": "Uh, pretty much any way I say that is going to hurt his feelings."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.450000000000045,
+    "end": 15.240000000000009,
+    "text": "Okay, what's wrong with it? Not you. I wasn't asking you. Penny?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 11.660000000000082,
+    "end": 12.620000000000005,
+    "text": "What's wrong with it?"
+  },
+  {
+    "speaker": "penny",
+    "start": 16.710000000000036,
+    "end": 22.420000000000073,
+    "text": "Uh, well, it's a little juvenile. I mean, it kind of looks like the MySpace page of a 13-year-old girl."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.430000000000064,
+    "end": 24.74000000000001,
+    "text": "No, it doesn't."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 25.40000000000009,
+    "end": 28.220000000000027,
+    "text": "Please. Dateline could use it to attract predators."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.120000000000005,
+    "end": 39.510000000000105,
+    "text": "Penny, this is your enterprise, so it's ultimately your decision, but based on the quality of his work, I'd strongly recommend that we let Leonard go."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.200000000000045,
+    "end": 42.08000000000004,
+    "text": "You want to fire me?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 42.260000000000105,
+    "end": 46.370000000000005,
+    "text": "What I want is irrelevant. This is Penny's decision. Penny?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.98000000000002,
+    "end": 57.370000000000005,
+    "text": "Excuse me, but if I did such a bad job then why do we already have orders? Uh-huh. Look. Mrs. Fiona Fondell from Huntsville, Alabama has ordered two."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.04000000000008,
+    "end": 51.41000000000008,
+    "text": "We do?"
+  },
+  {
+    "speaker": "penny",
+    "start": 57.940000000000055,
+    "end": 59.05000000000007,
+    "text": "No kidding. Two?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 59.59000000000003,
+    "end": 61.09000000000003,
+    "text": "Uh-huh. Look at the comments."
+  },
+  {
+    "speaker": "penny",
+    "start": 61.99000000000001,
+    "end": 70.03000000000009,
+    "text": "Thank you, Penny Blossoms. These will be perfect to cover my bald spot. Aww, that is so sweet."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 70.2700000000001,
+    "end": 75.13,
+    "text": "Camouflaging bald spots. That's primarily a male concern. Perhaps we could expand our market."
+  },
+  {
+    "speaker": "penny",
+    "start": 76.60000000000002,
+    "end": 79.04000000000008,
+    "text": "How are flower barrettes going to appeal to men?"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.7800000000000011,
+    "text": "Okay, where were we?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 1.6700000000000017,
+    "end": 3.8299999999999983,
+    "text": "Not now, I have a blog to find."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 34.010000000000005,
+    "end": 35.019999999999996,
+    "text": "Penny, are you okay?"
+  },
+  {
+    "speaker": "penny",
+    "start": 35.05,
+    "end": 37.08000000000001,
+    "text": "I' m fine, Leonard, just go away."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.81999999999999,
+    "end": 43.5,
+    "text": "Look, I understand that breaking up with someone can be very painful... Okay, feel better, bye."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.93000000000001,
+    "end": 42.110000000000014,
+    "text": "GO AWAY!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 49.58000000000001,
+    "end": 50.650000000000006,
+    "text": "She doesn't want to talk."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.50999999999999,
+    "end": 65.27000000000001,
+    "text": "Not surprising. Penny's emotional responses originate from the primitive portion of the brain known as the Amygdala, while speech is centered in the much more recently developed Neocortex. The former can easily overpower the latter giving scientific credence to the notion of being rendered speechless."
+  }
+]

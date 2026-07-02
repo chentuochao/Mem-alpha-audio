@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 8.8,
+    "end": 18.86,
+    "text": "Nevertheless, I do feel obligated to point out to you that she did not reject you. You did not ask her out. No, no, no, that was not my point. My point was, don't buy a cat."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 18.66,
+    "end": 23.75,
+    "text": "You're right. I didn't ask her out. I should ask her out. No, but you're right. I should march over there and ask her out."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.75,
+    "end": 26.42,
+    "text": "Oh, goody, we're getting a cat."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 34.68,
+    "end": 34.88,
+    "text": "Good afternoon, Penny. So, hi, hey, uh, I was wondering if you had plans for dinner."
+  },
+  {
+    "speaker": "Penny",
+    "start": 41.07,
+    "end": 42.89,
+    "text": "Oh, hey, Leonard. Uh, you mean dinner tonight?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 43.61,
+    "end": 43.81,
+    "text": "There is an inherent ambiguity in the word dinner. Technically, it refers to the largest meal of the day, whenever it's consumed. So, to clarify here, by dinner, I mean supper."
+  },
+  {
+    "speaker": "Penny",
+    "start": 52.31,
+    "end": 53.02,
+    "text": "Supper?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 53.02,
+    "end": 63.06,
+    "text": "Or dinner. I was thinking 6:30, if you can go, or a different time. Really? Great."
+  },
+  {
+    "speaker": "Penny",
+    "start": 57.97,
+    "end": 59.21,
+    "text": "Uh, 6:30's great."
+  },
+  {
+    "speaker": "Penny",
+    "start": 63.06,
+    "end": 68.79,
+    "text": "Yeah, I like hanging out with you guys. You know, Sheldon, Howard, Raj, who else coming?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 64.79,
+    "end": 65.66,
+    "text": "Us guys?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 69.19,
+    "end": 69.39,
+    "text": "They might all be there. Or a subset of them might be there."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 77.97,
+    "end": 78.17,
+    "text": "Algebraically speaking, there are too many unknowns. For example, Sheldon had Quiznos for lunch. Sometimes he finds that filling, other times he doesn't. It's no fault of Quiznos, they have a varied menu."
+  },
+  {
+    "speaker": "Penny",
+    "start": 89.14,
+    "end": 91.53,
+    "text": "Okay, whatever, it sounds like fun."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 91.53,
+    "end": 100.8,
+    "text": "Great. Did we say a time? And that's still good for you? Because it's not carved in stone. I'll get my chisel."
+  },
+  {
+    "speaker": "Penny",
+    "start": 94.34,
+    "end": 99.21,
+    "text": "6:30. It's fine. No, 6:30's great."
+  },
+  {
+    "speaker": "Penny",
+    "start": 101.96,
+    "end": 103.32,
+    "text": "Why?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 106.5,
+    "end": 108.82,
+    "text": "Carve the, okay, I'll see you at 6:30."
+  }
+]

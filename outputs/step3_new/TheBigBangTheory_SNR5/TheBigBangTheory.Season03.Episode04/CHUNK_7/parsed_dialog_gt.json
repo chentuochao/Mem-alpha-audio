@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.8300000000000409,
+    "text": "How may I help you?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 3.009999999999991,
+    "end": 5.190000000000055,
+    "text": "I've reconsidered your offer to let me work with you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 5.899999999999977,
+    "end": 6.509999999999991,
+    "text": "For me."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 8.110000000000014,
+    "end": 22.220000000000027,
+    "text": "Yes, for you. I do, however, have a few conditions. First, at all times, I am to be treated as a colleague and an equal. Second, my contributions shall be noted in all published material. And third, you are never allowed to lecture me on Hinduism or my Indian culture."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.039999999999964,
+    "end": 29.08000000000004,
+    "text": "I'm impressed, Raj. Those are very cogent and reasonable conditions. I reject them all."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 27.789999999999964,
+    "end": 28.180000000000064,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 31.220000000000027,
+    "end": 33.620000000000005,
+    "text": "Then you leave me no choice. I accept the job."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.83000000000004,
+    "end": 47.120000000000005,
+    "text": "I'm sorry, I believe you've misunderstood. I'm not giving you the job. I'm simply affording you the opportunity to apply for it. Have a seat, we'll get started with the interview."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 47.30000000000007,
+    "end": 49.08000000000004,
+    "text": "Wha... You're kidding!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.700000000000045,
+    "end": 62.22000000000003,
+    "text": "Please. So, that's what you wear to an interview?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 53.139999999999986,
+    "end": 54.75999999999999,
+    "text": "All right."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 64.45000000000005,
+    "end": 65.73000000000002,
+    "text": "Come on, dude, we've been friends for years."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.96000000000004,
+    "end": 67.69000000000005,
+    "text": "Oh, pulling strings, are we?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 69.34000000000003,
+    "end": 71.78999999999996,
+    "text": "Sheldon, for God's sakes, don't make me beg."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 73.10000000000002,
+    "end": 84.00999999999999,
+    "text": "Bazinga! You've fallen victim to another one of my classic practical jokes. I'm your boss now. You may want to laugh at that."
+  },
+  {
+    "speaker": "penny",
+    "start": 85.40999999999997,
+    "end": 90.22000000000003,
+    "text": "Ah, it's nice having the place to ourselves, isn't it?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 90.63999999999999,
+    "end": 97.64999999999998,
+    "text": "Uh-huh. Now that Raj is working for Sheldon, I don't have to chauffeur him around anymore. Plus, yeah, with them working late so much, we get some privacy."
+  },
+  {
+    "speaker": "penny",
+    "start": 99.0,
+    "end": 103.38,
+    "text": "Mm-hmm. Hey, want to get a little crazy?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 104.00999999999999,
+    "end": 104.73000000000002,
+    "text": "What are you thinking?"
+  },
+  {
+    "speaker": "penny",
+    "start": 105.65999999999997,
+    "end": 107.82000000000005,
+    "text": "Let's slide over to Sheldon's spot a make out."
+  }
+]

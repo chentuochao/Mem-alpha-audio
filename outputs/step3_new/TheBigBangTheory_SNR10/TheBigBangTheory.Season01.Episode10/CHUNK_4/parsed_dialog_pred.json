@@ -1,0 +1,242 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.54,
+    "end": 6.680000000000001,
+    "text": "I was analyzing our lie, and I believe we're in danger of Penny seeing through the ruse. Simple. If she were to log on to www.socalphysicsgroup.org forward slash activities forward slash other, click on upcoming events, scroll down to seminars, download the PDF schedule, and look for the seminar on molecular positronium, well then, bippity boppity boo, our pants are metaphorically on fire."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 5.109999999999999,
+    "end": 6.48,
+    "text": "What? How?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 26.63,
+    "end": 32.53,
+    "text": "Well, sir, my trousers will not be igniting today. Penny! Penny! Penny! Good morning."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 40.75,
+    "end": 40.95,
+    "text": "Of course I do. My watch is linked to the atomic clock in Boulder, Colorado. It's accurate to one-tenth of a second. But as I'm saying this, it occurs to me that once again your question may have been rhetorical."
+  },
+  {
+    "speaker": "Penny",
+    "start": 52.169999999999995,
+    "end": 54.06,
+    "text": "Do you have any idea what time it is? What do you want?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 54.06,
+    "end": 54.260000000000005,
+    "text": "Remember how Leonard told you we couldn't come to your performance because we were attending a symposium on molecular positronium?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 60.96,
+    "end": 63.92,
+    "text": "I remember symposium."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 64.44,
+    "end": 67.42,
+    "text": "Yes, well, he lied."
+  },
+  {
+    "speaker": "Penny",
+    "start": 67.42,
+    "end": 69.27,
+    "text": "Wait, what?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 69.27,
+    "end": 72.93,
+    "text": "He lied, and I'm feeling very uncomfortable about it."
+  },
+  {
+    "speaker": "Penny",
+    "start": 72.93,
+    "end": 75.04,
+    "text": "Well, imagine how I'm feeling."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 75.78,
+    "end": 83.06,
+    "text": "Hungry? Tired? I'm sorry, this really isn't my strong suit."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 83.67,
+    "end": 87.48,
+    "text": "You told her I lied? Why would you tell her I lied?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 87.48,
+    "end": 89.33,
+    "text": "To help you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 89.91,
+    "end": 92.21,
+    "text": "I'm sorry, I'm not seeing the help."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 92.21,
+    "end": 97.07,
+    "text": "She was going to see through your lie eventually, so I told her that you were lying to protect me."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 97.07,
+    "end": 100.41,
+    "text": "Oh, I'm getting a bad feeling."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 100.61,
+    "end": 103.61,
+    "text": "Hunger? Indigestion? I'm sorry, I'm really not very good at this. Anyway, Penny now believes that on Friday night, we're going to participate in my cousin Leopold's drug intervention."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 114.77,
+    "end": 116.67,
+    "text": "Your cousin Leopold?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 116.67,
+    "end": 120.56,
+    "text": "Whom most people call Leo, but he also answers to Lee. Remember that, it's important."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 120.56,
+    "end": 122.14,
+    "text": "What's important?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 122.14,
+    "end": 126.8,
+    "text": "Details, Leonard. The success or failure of our deceitful enterprise turns on details."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 126.8,
+    "end": 128.61,
+    "text": "Do you have a cousin Leopold?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 128.61,
+    "end": 133.13,
+    "text": "No, I made him up. I think you'd call him Lee."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 134.11,
+    "end": 138.6,
+    "text": "I don't get it. I already told her a lie. Why replace it with a different lie?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 138.6,
+    "end": 138.79999999999998,
+    "text": "Well, first of all, your lie was laughably transparent, where mine is exquisitely convoluted. While you were sleeping, I was weaving an un-unravelable web."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 148.89,
+    "end": 150.82,
+    "text": "Un-unravelable?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 150.82,
+    "end": 151.01999999999998,
+    "text": "Yes. If she Googles Leopold Houston, she'll find a Facebook page, an online blog depicting his descent into drug use, and a desperate yet hopeful listing on eharmony.com."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 161.15,
+    "end": 165.48,
+    "text": "Okay, why would I go to a drug intervention for your cousin?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 165.48,
+    "end": 168.33,
+    "text": "Ah, because it's in Long Beach, and I don't drive."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 169.49,
+    "end": 171.22,
+    "text": "We're going to Long Beach?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 171.22,
+    "end": 175.17,
+    "text": "Of course not. There's no cousin Leo. There's no intervention. Focus, Leonard."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 175.17,
+    "end": 176.11,
+    "text": "Oh, come on."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 176.91,
+    "end": 177.10999999999999,
+    "text": "We just leave the house on Friday night, and we return in the wee hours, emotionally wrung out from the work of convincing Leo to go back into rehab."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 184.45,
+    "end": 186.32,
+    "text": "He goes back into rehab?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 186.32,
+    "end": 190.69,
+    "text": "Yes, but he can relapse if Penny ever invites us to hear her sing again."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 192.11,
+    "end": 194.49,
+    "text": "You still told her I lied?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 194.49,
+    "end": 194.69,
+    "text": "For a noble purpose. To spare me the social embarrassment of having a drug-addled first cousin. Which I'm assuming is embarrassing, yes?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 203.19,
+    "end": 205.82,
+    "text": "How am I supposed to remember all of this?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 205.82,
+    "end": 206.01999999999998,
+    "text": "That's the best part. You don't have to. See, I told Penny that you would be embarrassed if you knew that she found out that you had lied. So she's agreed to operate as if the original lie is still in force."
+  }
+]

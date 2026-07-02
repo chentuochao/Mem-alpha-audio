@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "raj_koothrappali",
+    "start": 0.0,
+    "end": 3.490000000000009,
+    "text": "Well you can't stay with me, I have a teeny tiny apartment."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.5499999999999545,
+    "end": 11.470000000000027,
+    "text": "Excuse me, but isn't hosting guests an aspect of Menushya Yajna, one of the five central religious duties or sacrifices of the Hindu householder?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 15.519999999999982,
+    "end": 16.960000000000036,
+    "text": "I hate trains."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.090000000000032,
+    "end": 24.850000000000023,
+    "text": "Don't be ridiculous, you love trains."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 26.700000000000045,
+    "end": 31.50999999999999,
+    "text": "Yes I do, come on. See you later Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 38.64999999999998,
+    "end": 39.430000000000064,
+    "text": "This could work."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.940000000000055,
+    "end": 51.07000000000005,
+    "text": "This is a very old building."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 51.07000000000005,
+    "end": 55.75,
+    "text": "Sixty years. Used to be a watch factory. What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.25,
+    "end": 54.66999999999996,
+    "text": "Uh-oh."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.440000000000055,
+    "end": 59.40999999999997,
+    "text": "Don't you worry about the residual radium from the luminous dials?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 60.72000000000003,
+    "end": 61.610000000000014,
+    "text": "Not until now."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.75,
+    "end": 68.63,
+    "text": "I can't believe I didn't bring my gieger counter. You know, I had it on my bed and I didn't pack it."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 70.26999999999998,
+    "end": 71.43000000000006,
+    "text": "Well, if you're not comfortable staying here, Sheldon..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 71.60000000000002,
+    "end": 81.08000000000004,
+    "text": "I'm kidding, I packed it. It was a joke, I was subverting the conversational expectations. I believe they call that the, um, old switcheroo."
+  }
+]

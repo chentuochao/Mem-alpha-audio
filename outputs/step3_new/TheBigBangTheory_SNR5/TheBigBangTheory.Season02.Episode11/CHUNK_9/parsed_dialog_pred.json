@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 0.0,
+    "end": 9.96,
+    "text": "I saved genius. Eggnog? It's just rum. You stopped being eggnog like half an hour ago."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.38,
+    "end": 16.32,
+    "text": "Lactose. It's smooth."
+  },
+  {
+    "speaker": "Penny",
+    "start": 17.54,
+    "end": 19.84,
+    "text": "Smoother than you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 20.62,
+    "end": 23.58,
+    "text": "Well, it's Christmas. Just give me this one."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 33.16,
+    "end": 36.36,
+    "text": "By the way, my leg is killing me. Thanks for asking."
+  },
+  {
+    "speaker": "Penny",
+    "start": 44.82,
+    "end": 47.64,
+    "text": "Merry Christmas. How's your leg?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.14,
+    "end": 61.22,
+    "text": "Merry Christmas. Very good. Thanks for asking. Oh, good. Penny, you're here to exchange gifts. You'll be pleased to know I'm prepared for whatever you have to offer."
+  },
+  {
+    "speaker": "Penny",
+    "start": 62.42,
+    "end": 63.58,
+    "text": "Okay, here."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 6.58,
+    "end": 9.23,
+    "text": "So, how's everything? Really? Oh, yay."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 9.030000000000001,
+    "end": 13.27,
+    "text": "Oh, good, thanks. You'll be happy to know that I plan to come here every Tuesday night for the foreseeable future. Who do I speak to about permanently reserving this table?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 13.27,
+    "end": 21.72,
+    "text": "Um, I don't know, a psychiatrist? So, hey, how are things with you and Leslie?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 21.72,
+    "end": 25.45,
+    "text": "Oh, to be honest, I don't think it's going to work out."
+  },
+  {
+    "speaker": "Penny",
+    "start": 25.45,
+    "end": 25.65,
+    "text": "Oh, oh, that's too bad. Well, hey, don't worry. I'm sure there's someone out there who's just right for you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 35.06,
+    "end": 35.260000000000005,
+    "text": "What did you mean by that? Oh, was that just a generic platitude, or was that a subtle bid for attention?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 43.74,
+    "end": 43.940000000000005,
+    "text": "You know why these hamburgers are passes, the big boy? This is a single-decker hamburger, whereas the big boy is a double-decker. This has a much more satisfying meat-to-bun-to-condiment ratio. Are you even listening to me?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.12,
+    "end": 68.84,
+    "text": "Of course I'm listening. Blah, blah, open to spending delusion, blah, blah, blah. Okay, then. You know, you can grow the ingredients for us."
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 6.889999999999986,
+    "text": "Dr Gablehauser, I have a series of important multi-bit calculations and simulations to run. All she's doing is reducing irrelevant data and making a mock..."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 7.1299999999999955,
+    "end": 12.659999999999968,
+    "text": "Excuse me. Gablehauser. It's for you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.43999999999994,
+    "end": 34.26999999999998,
+    "text": "Hello. Penny, this is not a good time. No, I told you, you're not prepared for the Sanctum of Burning Souls. You need to be in a group of at least five for that quest, and one should be a level 35 healer. Penny, I can't log on and help you. We'll talk when I get home."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 40.32999999999993,
+    "end": 41.879999999999995,
+    "text": "I'm not getting the computing time, am I?"
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 43.26999999999998,
+    "end": 43.76999999999998,
+    "text": "Dumbass."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.0,
+    "end": 57.93999999999994,
+    "text": "Leonard, you have to do something about Penny. She is interfering with my sleep, she's interfering with my work, and if I had another significant aspect of my life, I'm sure she'd be interfering with that too."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.64999999999998,
+    "end": 63.559999999999945,
+    "text": "Why should I do something, you're the one who introduced her to online gaming."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 63.75999999999999,
+    "end": 70.5,
+    "text": "Well, yes, but you're the one who said hello to her when she moved in. If you'd simply restrained yourself none of this would be happening."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 71.16999999999996,
+    "end": 73.42999999999995,
+    "text": "Why don't you just tell her to leave you alone."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 73.53999999999996,
+    "end": 82.92999999999995,
+    "text": "I did. I told her, I texted her, I sent out a very emphatic twitter. I even changed my facebook status to Sheldon Cooper wishes Penny would leave him alone. I don't know what else to do."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 84.37,
+    "end": 86.0,
+    "text": "Well, what am I supposed to do?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 86.05999999999995,
+    "end": 90.7299999999999,
+    "text": "I don't know, but if you don't figure something out, I warn you I shall become very difficult to live with."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 92.95999999999992,
+    "end": 100.86000000000001,
+    "text": "You mean, up until now we've been experiencing the happy funtime Sheldon? I'll go talk to her."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 97.18999999999994,
+    "end": 97.64999999999998,
+    "text": "Yes."
+  },
+  {
+    "speaker": "penny",
+    "start": 101.77999999999997,
+    "end": 111.38999999999999,
+    "text": "No, Fritz, I need you on my flank. No, I don't know German. Flankenzie, flankenzie! Busy."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 110.5,
+    "end": 110.96999999999991,
+    "text": "Hey Penny."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 113.05999999999995,
+    "end": 115.26999999999998,
+    "text": "Yeah, I see that. Shouldn't you be at work?"
+  },
+  {
+    "speaker": "penny",
+    "start": 115.29999999999995,
+    "end": 116.12,
+    "text": "I don't work on Mondays."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 117.13,
+    "end": 117.88,
+    "text": "It's Thursday."
+  }
+]

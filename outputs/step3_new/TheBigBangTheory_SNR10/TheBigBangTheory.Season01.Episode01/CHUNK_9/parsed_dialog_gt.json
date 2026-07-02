@@ -1,0 +1,122 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 3.080000000000041,
+    "text": "That's great, you guys have to go. It's just not a good time."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 1.3799999999999955,
+    "end": 1.740000000000009,
+    "text": "Why?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.1200000000000045,
+    "end": 4.5,
+    "text": "Leonard has a lady over."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 5.3799999999999955,
+    "end": 6.980000000000018,
+    "text": "Yeah, right, your grandmother back in town?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.899999999999977,
+    "end": 12.889999999999986,
+    "text": "No. And she's not a lady, she's just a new neighbor."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 13.639999999999986,
+    "end": 18.840000000000032,
+    "text": "Hang on, there really is a lady here? And you want us out because you're anticipating coitus?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.180000000000064,
+    "end": 16.430000000000064,
+    "text": "Uh- huh."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.00999999999999,
+    "end": 22.029999999999973,
+    "text": "I' m not anticipating coitus."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 22.06000000000006,
+    "end": 23.120000000000005,
+    "text": "So she's available for coitus?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 23.66999999999996,
+    "end": 25.690000000000055,
+    "text": "Can we please stop saying coitus?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 25.720000000000027,
+    "end": 27.399999999999977,
+    "text": "Technically that would be coitus interruptus."
+  },
+  {
+    "speaker": "penny",
+    "start": 28.690000000000055,
+    "end": 34.35000000000002,
+    "text": "Hey, is there a trick to getting it to switch from tub to shower? Oh. Hi, sorry. Hello!"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 36.930000000000064,
+    "end": 49.90999999999997,
+    "text": "Enchante Madamoiselle. Howard Wolowitz, Cal- Tech department of Applied Physics. You may be familiar with some of my work, it's currently orbiting Jupiter's largest moon taking high- resolution digital photographs."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.5,
+    "end": 53.22000000000003,
+    "text": "Penny. I work at the Cheesecake Factory."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.870000000000005,
+    "end": 55.72000000000003,
+    "text": "Come on, I'll show you the trick with the shower."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 56.52999999999997,
+    "end": 57.10000000000002,
+    "text": "Bon douche."
+  },
+  {
+    "speaker": "penny",
+    "start": 58.84000000000003,
+    "end": 59.379999999999995,
+    "text": "I' m sorry?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 59.680000000000064,
+    "end": 63.51999999999998,
+    "text": "It's French for good shower. It's a sentiment I can express in six languages."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 65.04999999999995,
+    "end": 66.38,
+    "text": "Save it for your blog, Howard."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 68.95000000000005,
+    "end": 69.18000000000006,
+    "text": "See- ka- tong- guay- jow."
+  }
+]

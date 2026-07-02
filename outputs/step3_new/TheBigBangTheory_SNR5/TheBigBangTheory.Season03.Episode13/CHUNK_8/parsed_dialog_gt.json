@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 1.0499999999999545,
+    "text": "Sorry about that."
+  },
+  {
+    "speaker": "penny",
+    "start": 1.4099999999999682,
+    "end": 2.5,
+    "text": "Ugh, what can you do?"
+  },
+  {
+    "speaker": "penny",
+    "start": 10.980000000000018,
+    "end": 11.339999999999918,
+    "text": "Here."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.17999999999995,
+    "end": 22.139999999999986,
+    "text": "Looks like Wolowitz got the net electrified."
+  },
+  {
+    "speaker": "penny",
+    "start": 27.649999999999977,
+    "end": 27.769999999999982,
+    "text": "Sheldon, are you okay?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.789999999999964,
+    "end": 29.449999999999932,
+    "text": "I'm fine. Although I'm no longer the master of my own bladder."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.809999999999945,
+    "end": 44.19999999999993,
+    "text": "My new computer came with Windows 7. Windows 7 is much more user-friendly than Windows Vista. I don't like that."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 48.90999999999997,
+    "end": 52.139999999999986,
+    "text": "Don't you think looking for a new city to live in is a bit of an overreaction?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 52.82999999999993,
+    "end": 60.52999999999997,
+    "text": "Our apartment was broken into, our security system tried to kill me, and as a result, I'm leaving Pasadena forever. Tell me how that's overreacting."
+  },
+  {
+    "speaker": "penny",
+    "start": 60.94999999999993,
+    "end": 67.27999999999997,
+    "text": "Come on, Sheldon, you can't move. Don't you need to stay in one place so the mother ship can find you when it returns?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.76999999999998,
+    "end": 92.32999999999993,
+    "text": "Oh, if that were only true. Unfortunately, as I'm earthbound for the foreseeable future, I need to find a location that's more hospitable than the mean streets of Pasadena. Like Enid, Oklahoma. Low crime rate and high-speed Internet connectivity, but no model train shops. Sorry, Enid."
+  }
+]

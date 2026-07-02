@@ -1,0 +1,194 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.6800000000000068,
+    "text": "Interesting."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.6999999999999886,
+    "end": 2.3600000000000136,
+    "text": "Ask me why."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.139999999999986,
+    "end": 4.860000000000014,
+    "text": "Do I have to?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 5.819999999999993,
+    "end": 7.670000000000016,
+    "text": "Of course. That's how you move a conversation forward."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.240000000000009,
+    "end": 9.800000000000011,
+    "text": "Why?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.360000000000014,
+    "end": 15.399999999999977,
+    "text": "The learning opportunities would be abundant. Additionally, I like having my belly scratched."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.75999999999999,
+    "end": 19.870000000000005,
+    "text": "Hey, Penny. How was work?"
+  },
+  {
+    "speaker": "penny",
+    "start": 19.939999999999998,
+    "end": 23.389999999999986,
+    "text": "Great. I hope I'm a waitress at the Cheesecake Factory for my whole life."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.819999999999993,
+    "end": 25.680000000000007,
+    "text": "Was that sarcasm?"
+  },
+  {
+    "speaker": "penny",
+    "start": 26.75,
+    "end": 27.310000000000002,
+    "text": "No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.899999999999977,
+    "end": 31.860000000000014,
+    "text": "Was that sarcasm? Was that sarca.."
+  },
+  {
+    "speaker": "penny",
+    "start": 29.69999999999999,
+    "end": 30.189999999999998,
+    "text": "Yes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 33.00999999999999,
+    "end": 34.160000000000025,
+    "text": "Stop it!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 34.93000000000001,
+    "end": 37.31999999999999,
+    "text": "Penny, you appear to have a package here."
+  },
+  {
+    "speaker": "penny",
+    "start": 37.45999999999998,
+    "end": 41.75,
+    "text": "Oh, thanks. This must be the beret I ordered. A couple of months ago. It was back-ordered."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.31,
+    "end": 51.59000000000003,
+    "text": "Did you know the beret is an example of piece of women's fashion adapted from male military uniforms? Another fascinating example is the epaulet."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.129999999999995,
+    "end": 56.129999999999995,
+    "text": "He's not lying, he does find that fascinating."
+  },
+  {
+    "speaker": "penny",
+    "start": 58.06,
+    "end": 71.54000000000002,
+    "text": "Okay, whatever. It's not like I'm running up and down the streets just buying myself berets. I bought one, like, a month ago, and it was back-ordered, look, it finally arrived, all right? Oh, my God, would you just get off my case?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.34000000000003,
+    "end": 66.82,
+    "text": "All right."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.32999999999998,
+    "end": 72.87,
+    "text": "Weird."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 73.11000000000001,
+    "end": 76.05000000000001,
+    "text": "Oh, good, that was an unusual interaction. I wasn't sure."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 77.68,
+    "end": 83.25,
+    "text": "Did you guys have an argument? Well, you clearly did something to aggravate her."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 79.76999999999998,
+    "end": 80.16000000000003,
+    "text": "No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 84.01999999999998,
+    "end": 91.07,
+    "text": "I'm at a loss. If you like, you can review my daily log of social interactions and see if there's a blunder I overlooked."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 92.91000000000003,
+    "end": 97.60000000000002,
+    "text": "Here you go. Oh, you owe me another two dollars. The price of mu-shu pork went up."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 98.37,
+    "end": 100.94999999999999,
+    "text": "It's getting tougher and tougher to be a bad Jew."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 103.70999999999998,
+    "end": 105.50999999999999,
+    "text": "Here you go, Penny. Shrimp with lobster sauce."
+  },
+  {
+    "speaker": "penny",
+    "start": 105.72000000000003,
+    "end": 106.89999999999998,
+    "text": "Thank you, Leonard. What's my share?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 107.57999999999998,
+    "end": 108.69,
+    "text": "Don't worry about it. It's my treat."
+  },
+  {
+    "speaker": "penny",
+    "start": 108.84000000000003,
+    "end": 109.94999999999999,
+    "text": "No, really, how much?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 110.41000000000003,
+    "end": 117.39999999999998,
+    "text": "It's, whatever. Ten, eleven dollars. Fourteen fifty, but it's no biggie, you'll get the next one."
+  },
+  {
+    "speaker": "penny",
+    "start": 112.12,
+    "end": 113.37,
+    "text": "Well, which is it, ten or eleven?"
+  }
+]

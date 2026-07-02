@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 5.610000000000014,
+    "text": "No. It's just a suspicion I have. Mmm, mmm, mmm."
+  },
+  {
+    "speaker": "penny",
+    "start": 6.659999999999968,
+    "end": 9.789999999999964,
+    "text": "I'm so glad you like it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.839999999999918,
+    "end": 13.049999999999955,
+    "text": "I do. Leonard never cooks for me."
+  },
+  {
+    "speaker": "penny",
+    "start": 13.409999999999968,
+    "end": 15.039999999999964,
+    "text": "Well, maybe that's'cause Leonard can't cook."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 15.569999999999936,
+    "end": 17.089999999999918,
+    "text": "You can't cook and you made me this."
+  },
+  {
+    "speaker": "penny",
+    "start": 19.629999999999995,
+    "end": 22.370000000000005,
+    "text": "Whatever. Ooh, I'm gonna get the cheesecake out of the fridge."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.789999999999964,
+    "end": 25.480000000000018,
+    "text": "Oh, Lord, I'm in Jewish hell."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 33.469999999999914,
+    "end": 36.77999999999997,
+    "text": "Look at this. Do you think she's really doing that or is it PhotoShop?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.90999999999997,
+    "end": 45.02999999999997,
+    "text": "I'm pretty sure Martha Stewart never got naked with a room full of big, fat Japanese guys."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 47.07999999999993,
+    "end": 49.879999999999995,
+    "text": "You don't know that. Prison changes people."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.360000000000014,
+    "end": 54.48000000000002,
+    "text": "Hey, where you been?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.289999999999964,
+    "end": 57.559999999999945,
+    "text": "I told you, walking."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.289999999999964,
+    "end": 59.110000000000014,
+    "text": "For an hour and a half?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.289999999999964,
+    "end": 61.07999999999993,
+    "text": "I got lost."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.819999999999936,
+    "end": 64.95999999999992,
+    "text": "How could you get lost? Your phone has GPS."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.5,
+    "end": 67.65999999999997,
+    "text": "Satellites are down. Solar flares."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 68.79999999999995,
+    "end": 74.16999999999996,
+    "text": "There are no solar flares right now. Dude, I'm an astrophysicist. If there were solar flares, I'd be all up in it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 70.05999999999995,
+    "end": 70.83999999999992,
+    "text": "Yes, there are."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 77.09999999999991,
+    "end": 80.86000000000001,
+    "text": "I'm sorry. I misspoke. What I meant to say was my battery died."
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 0.0,
+    "end": 9.0,
+    "text": "The whole thing froze. I don't know what happened. How can I calm down? I'm gonna lose my whole shopping cart. That's three hours of picking out shoes to shot to hell."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 9.78,
+    "end": 13.14,
+    "text": "Hello, Penny. You're in my spot."
+  },
+  {
+    "speaker": "Penny",
+    "start": 10.84,
+    "end": 11.68,
+    "text": "Hello, Sheldon."
+  },
+  {
+    "speaker": "Penny",
+    "start": 14.31,
+    "end": 15.95,
+    "text": "Are you planning on sitting here?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.95,
+    "end": 20.78,
+    "text": "No, I'm going to the comic book store. What difference does it make?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 18.04,
+    "end": 19.38,
+    "text": "Then what difference does it make?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 20.580000000000002,
+    "end": 21.84,
+    "text": "Calm down. We'll figure it out. There we go."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 22.47,
+    "end": 22.669999999999998,
+    "text": "That is my spot. In an ever-changing world, it is a single point of consistency. If my life were expressed as a function on a four-dimensional Cartesian coordinate system, that spot."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.8,
+    "end": 37.95,
+    "text": "At the moment I first sat on it would be zero, zero, zero, zero."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.77,
+    "end": 42.01,
+    "text": "What?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 43.25,
+    "end": 45.45,
+    "text": "Don't sit in his spot."
+  },
+  {
+    "speaker": "Penny",
+    "start": 47.27,
+    "end": 50.23,
+    "text": "Fine. Happy?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 50.23,
+    "end": 52.03,
+    "text": "I'm not unhappy."
+  },
+  {
+    "speaker": "Penny",
+    "start": 55.41,
+    "end": 59.05,
+    "text": "Boy, I love him, but he is one serious wackadoodle."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 59.83,
+    "end": 61.2,
+    "text": "Hey, that should do it."
+  },
+  {
+    "speaker": "Penny",
+    "start": 61.2,
+    "end": 63.74,
+    "text": "Oh, thank you. You are a lifesaver."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 63.74,
+    "end": 65.43,
+    "text": "It's a lot of shoes you ordered."
+  },
+  {
+    "speaker": "Penny",
+    "start": 65.43,
+    "end": 68.27,
+    "text": "Yeah, you know, the sad thing is, it's really not."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 11.790000000000001,
+    "end": 13.73,
+    "text": "It doesn't feel like an arm. Alrighty."
+  },
+  {
+    "speaker": "Howard",
+    "start": 25.41,
+    "end": 34.69,
+    "text": "Stars are pretty, aren't they? Up above the world so high, like little diamonds in the sky."
+  },
+  {
+    "speaker": "Raj",
+    "start": 41.419999999999995,
+    "end": 47.74,
+    "text": "That's beautiful, dude. You should, you should write that down before someone steals it. The meteors don't get here. The Earth is moving into their path."
+  },
+  {
+    "speaker": "Howard",
+    "start": 42.12,
+    "end": 43.84,
+    "text": "So when do the meteors get here?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 47.74,
+    "end": 58.05,
+    "text": "I can feel it. I can feel the Earth moving. She's moving too fast. Raj, slow it down."
+  }
+]

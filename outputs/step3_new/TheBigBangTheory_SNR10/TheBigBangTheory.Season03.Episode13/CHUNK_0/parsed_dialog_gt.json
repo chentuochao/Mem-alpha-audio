@@ -1,0 +1,128 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 3.87,
+    "text": "Boy, seems like forever since the four of us have been out to eat, you know? Just the guys."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 3.9800000000000004,
+    "end": 7.359999999999999,
+    "text": "Oh, God! Yes, we get it. You have a girlfriend now."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 8.31,
+    "end": 9.45,
+    "text": "A little jealous, are we?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 10.04,
+    "end": 18.28,
+    "text": "No, I'm not jealous. All right, I'd kill a hobo if it'll get me laid. Now, can we order?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.45,
+    "end": 20.57,
+    "text": "Oh, dear Lord, they re-did the menu."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 21.84,
+    "end": 23.14,
+    "text": "So what? It's the same food."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 23.53,
+    "end": 32.41,
+    "text": "Oh, is it? Look at this. General Tso's Chicken is no longer listed under specialties. It's now under chicken. Yes, General Tso."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 30.36,
+    "end": 30.82,
+    "text": "So?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 32.93,
+    "end": 38.8,
+    "text": "Not Tso the chicken, so the question. So?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 39.88,
+    "end": 52.86,
+    "text": "So, why is it no longer a specialty? Did the chef lose confidence in the dish or himself? And look over here, shrimp in mobster sauce. What is mobster sauce?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 54.15,
+    "end": 55.5,
+    "text": "It's obviously a typo."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 55.92,
+    "end": 64.12,
+    "text": "Perhaps. Perhaps this restaurant's now a front for organized crime. For all we know, the mobster sauce contains actual chunks of deceased mobsters."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 65.16,
+    "end": 68.44,
+    "text": "No, no, no, no, I think it just means it's the kind of sauce that mobsters like."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 69.13999999999999,
+    "end": 71.68,
+    "text": "It doesn't mean any of that! It's a typo."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 72.02000000000001,
+    "end": 73.1,
+    "text": "You know what? Let's just get a pizza."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 73.36000000000001,
+    "end": 74.49000000000001,
+    "text": "Good idea. We'll go to Corleone's."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 76.49000000000001,
+    "end": 78.03,
+    "text": "Sure, no mobsters there."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 80.94999999999999,
+    "end": 85.9,
+    "text": "You know, the more I think about it, the mobster sauce couldn't possibly contain chunks of mobster."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 88.49000000000001,
+    "end": 89.25999999999999,
+    "text": "And why is that?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 89.4,
+    "end": 90.69999999999999,
+    "text": "It was listed under seafood."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 93.36000000000001,
+    "end": 95.63999999999999,
+    "text": "What if they were mobsters who slept with the fishes?"
+  }
+]

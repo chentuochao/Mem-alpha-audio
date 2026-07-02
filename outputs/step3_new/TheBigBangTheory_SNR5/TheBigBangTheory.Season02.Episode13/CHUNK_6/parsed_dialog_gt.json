@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 18.66999999999996,
+    "text": "Oh! Here we go. Stu the Cockatoo is New at the Zoo. Author Sarah Carpenter lives in Fort Wayne, Indiana, with her husband and best friend Mark, and their cockatoos too. Hardly makes her an expert in making friends, wouldn't you agree?"
+  },
+  {
+    "speaker": "little_girl#unknown#TheBigBangTheory.Season02.Episode13",
+    "start": 19.700000000000045,
+    "end": 21.75,
+    "text": "I don't like birds, they scare me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.639999999999986,
+    "end": 30.950000000000045,
+    "text": "Me too! Most people don't see it. What are you reading?"
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season02.Episode13",
+    "start": 31.31000000000006,
+    "end": 32.190000000000055,
+    "text": "Curious George."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.539999999999964,
+    "end": 34.10000000000002,
+    "text": "Oh I do like monkeys!"
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season02.Episode13",
+    "start": 34.58000000000004,
+    "end": 35.789999999999964,
+    "text": "Curious George is a monkey."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 36.32000000000005,
+    "end": 45.66999999999996,
+    "text": "Somewhat anthropomorphized but yes. Say, maybe sometime you and I can go see monkeys together. Would you like that?"
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season02.Episode13",
+    "start": 46.129999999999995,
+    "end": 46.51999999999998,
+    "text": "Okay."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.48000000000002,
+    "end": 48.370000000000005,
+    "text": "Sheldon, what are you doing?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.690000000000055,
+    "end": 55.91999999999996,
+    "text": "I'm making friends with this little girl. What's your name? Hi Rebecca, I'm your new friend, Sheldon."
+  },
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season02.Episode13",
+    "start": 52.83000000000004,
+    "end": 53.210000000000036,
+    "text": "Rebecca."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.08000000000004,
+    "end": 56.620000000000005,
+    "text": "No you're not, let's go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.50999999999999,
+    "end": 59.31000000000006,
+    "text": "We were really hitting it off."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 59.73000000000002,
+    "end": 60.52999999999997,
+    "text": "Don't look up, there's cameras."
+  }
+]

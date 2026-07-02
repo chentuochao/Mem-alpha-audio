@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 11.740000000000009,
+    "text": "You just lied to Penny. And you did it so casually, no rapid breathing, no increase in perspiration. So, lack of a physiological response while lying is characteristic of a violent sociopath."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.1699999999999875,
+    "end": 2.0,
+    "text": "Yes, I did."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.759999999999991,
+    "end": 7.1299999999999955,
+    "text": "So?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.930000000000007,
+    "end": 14.759999999999991,
+    "text": "Sheldon, are you worried about your safety."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.909999999999997,
+    "end": 18.189999999999998,
+    "text": "No, I imagine if you were going to kill me you'd have done it a long time ago."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 19.50999999999999,
+    "end": 20.370000000000005,
+    "text": "That's very true."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.00999999999999,
+    "end": 49.00999999999999,
+    "text": "Leonard, Leonard, Leonard..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 56.349999999999994,
+    "end": 56.579999999999984,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.35999999999999,
+    "end": 73.57,
+    "text": "I need to speak to you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 74.19999999999999,
+    "end": 85.9,
+    "text": "It's two o'clock in the morning I highly doubt that. Go away.. Are you still out there?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.77000000000001,
+    "end": 76.68,
+    "text": "It's important."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 87.56,
+    "end": 88.1,
+    "text": "Yes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 90.98999999999998,
+    "end": 91.26000000000002,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 93.27000000000001,
+    "end": 94.33000000000001,
+    "text": "You're right, it can wait until morning."
+  }
+]

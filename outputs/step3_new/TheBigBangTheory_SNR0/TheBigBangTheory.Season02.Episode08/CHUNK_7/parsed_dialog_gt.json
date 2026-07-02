@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "girl#unknown#TheBigBangTheory.Season02.Episode08",
+    "start": 0.0,
+    "end": 0.7200000000000273,
+    "text": "Kisses him)"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.0799999999999272,
+    "end": 2.909999999999968,
+    "text": "If I knew you were waiting, I would've swallowed that lasagna whole."
+  },
+  {
+    "speaker": "phone_rings_answering_machine#unknown#TheBigBangTheory.Season02.Episode08",
+    "start": 7.100000000000023,
+    "end": 10.18999999999994,
+    "text": "You've reached Dr. Stephanie Barnett. Leave a message. Beep."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 10.960000000000036,
+    "end": 22.460000000000036,
+    "text": "Hey, Steph, it's me again, Howard. Listen, if you're free Friday, maybe we could have a little something to eat at my place. My mom cooks a hell of a brisket. Let me know. It's Howard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 25.159999999999968,
+    "end": 26.549999999999955,
+    "text": "I've had her brisket. Melts in your mouth."
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 31.899999999999977,
+    "end": 34.360000000000014,
+    "text": "Maybe we should think about going to the bedroom."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 35.19999999999993,
+    "end": 38.379999999999995,
+    "text": "That's a good idea. There's a bed in there, and I'm very, very, very pro-bed."
+  },
+  {
+    "speaker": "phone_rings_answering_machine#unknown#TheBigBangTheory.Season02.Episode08",
+    "start": 42.07999999999993,
+    "end": 45.24000000000001,
+    "text": "You've reached Dr. Stephanie Barnett. Leave a message. Beep."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 46.15999999999997,
+    "end": 64.48000000000002,
+    "text": "Hey, it's me again. Just want to let you know the head count for dinner Friday has gone up. My Aunt Betty and Uncle Elliot are coming in from Palm Springs. Oh, and if anybody should ask, you're half-Jewish on your mother's side. Okay, call me. It's Howard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 67.11000000000001,
+    "end": 69.14999999999998,
+    "text": "Don't you think we should tell him you're not interested?"
+  },
+  {
+    "speaker": "dr_stephanie_barnett",
+    "start": 69.77999999999997,
+    "end": 72.63999999999999,
+    "text": "Do you want me to stop and call him back right now?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 73.11000000000001,
+    "end": 73.75,
+    "text": "Dear God, no!"
+  }
+]

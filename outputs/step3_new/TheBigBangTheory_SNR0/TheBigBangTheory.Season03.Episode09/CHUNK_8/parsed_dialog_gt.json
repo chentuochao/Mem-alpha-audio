@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 3.6200000000000045,
+    "text": "Bernadette? Will you marry me?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 4.940000000000055,
+    "end": 8.379999999999995,
+    "text": "Is this more comedy that I don't understand?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 10.120000000000005,
+    "end": 17.980000000000018,
+    "text": "No. I'm serious. I'm never going to find another girl like you who likes me and is, you know, real."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 20.610000000000014,
+    "end": 21.81000000000006,
+    "text": "So, this isn't a joke?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 22.57000000000005,
+    "end": 22.980000000000018,
+    "text": "No."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 23.340000000000032,
+    "end": 24.170000000000073,
+    "text": "Then you're insane."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 25.720000000000027,
+    "end": 27.75,
+    "text": "I prefer to think of myself as quirky."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 29.1400000000001,
+    "end": 32.780000000000086,
+    "text": "Howard, we've only been on three dates. We haven't even had sex yet."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 33.41000000000008,
+    "end": 34.97000000000003,
+    "text": "Fair enough. When's your break?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 37.75,
+    "end": 38.110000000000014,
+    "text": "Wow."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 40.90000000000009,
+    "end": 41.960000000000036,
+    "text": "Don't you just hate when this happens?"
+  },
+  {
+    "speaker": "penny",
+    "start": 45.57000000000005,
+    "end": 45.930000000000064,
+    "text": "Wow."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.530000000000086,
+    "end": 58.440000000000055,
+    "text": "All right, how's this for revenge? A solution of hydrogen peroxide, and one of saturated potassium iodide."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 59.190000000000055,
+    "end": 59.79000000000008,
+    "text": "What's this?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 60.0,
+    "end": 60.90000000000009,
+    "text": "Mountain Dew."
+  }
+]

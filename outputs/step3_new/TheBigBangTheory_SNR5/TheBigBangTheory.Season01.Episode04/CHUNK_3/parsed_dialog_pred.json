@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 9.91,
+    "end": 11.82,
+    "text": "How come you didn't go to work today? So you got canned, huh?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 12.05,
+    "end": 17.05,
+    "text": "I'm taking a sabbatical because I won't kowtow to mediocre minds. Theoretical physicists do not get canned. But yeah."
+  },
+  {
+    "speaker": "Penny",
+    "start": 18.23,
+    "end": 22.64,
+    "text": "Maybe it's all for the best. You know, I always say when one door closes, another one opens."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 22.78,
+    "end": 22.98,
+    "text": "No, it doesn't. Not unless the two doors are connected by relays or there are motion sensors involved. No, no, I meant the first door closing creates a change of air pressure that acts upon the second door."
+  },
+  {
+    "speaker": "Penny",
+    "start": 34.46,
+    "end": 35.75,
+    "text": "Never mind."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.11,
+    "end": 37.31,
+    "text": "Slow down. Slow down. Please slow down. You're not leaving yourself enough space between cars."
+  },
+  {
+    "speaker": "Penny",
+    "start": 43.75,
+    "end": 44.71,
+    "text": "Oh, sure I am."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 44.71,
+    "end": 44.910000000000004,
+    "text": "No, no, let me do the math for you. This car weighs, let's say, four thousand pounds. Now add one forty for me, one twenty for you."
+  },
+  {
+    "speaker": "Penny",
+    "start": 51.16,
+    "end": 52.0,
+    "text": "One twenty."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 52.0,
+    "end": 63.88,
+    "text": "Oh, I'm sorry. Did I insult you? Is your body mass somehow tied into your self-worth? Interesting. Anyway, that gives us a total weight of, let's say, forty-four hundred pounds."
+  },
+  {
+    "speaker": "Penny",
+    "start": 57.17,
+    "end": 58.72,
+    "text": "Well, yeah."
+  },
+  {
+    "speaker": "Penny",
+    "start": 63.88,
+    "end": 65.44,
+    "text": "Let's say forty-three ninety."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 65.83,
+    "end": 66.03,
+    "text": "Fine. We're traveling forward at good lord fifty-one miles an hour. Now let's assume that your brakes are new and the calipers are aligned. Still, by the time we come to a stop, we'll be occupying the same space as that Buick in front of us. An impossibility that nature will quickly resolve into death, mutilation, and..."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 82.6,
+    "end": 84.6,
+    "text": "Oh, look, they built a new putt-putt course."
+  }
+]

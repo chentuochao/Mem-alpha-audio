@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 9.129999999999999,
+    "text": "Okay, are you from Star Wars universe? Were you in the original trilogy? Is there a picture of you in my wallet wearing a metal bikini?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 5.04,
+    "end": 5.65,
+    "text": "Yes Yes"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.989999999999998,
+    "end": 15.009999999999998,
+    "text": "God, I hope not. And no, I'm not Princess Leia."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 15.239999999999998,
+    "end": 28.0,
+    "text": "Oh, okay, okay, my turn. Are you in the six Star Wars movies? Interesting. Are you a Droid? Do you kind of look like a shiny Sheldon? C3PO."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 19.54,
+    "end": 19.88,
+    "text": "Yes"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 22.369999999999997,
+    "end": 22.82,
+    "text": "Yes"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 26.13,
+    "end": 26.75,
+    "text": "Yes"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 29.25,
+    "end": 31.11,
+    "text": "You got it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.36,
+    "end": 38.64,
+    "text": "That's preposterous. I do not resemble C3PO. Don't get me wrong, I'm flattered, I just don't see it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 44.79,
+    "end": 53.63,
+    "text": "Leslie Winkle. You've reached friends with benefits. For a booty call, press one now."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.99,
+    "end": 59.92,
+    "text": "What exactly does that expression mean, friends with benefits? Does he provide her with health insurance?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.03,
+    "end": 69.48,
+    "text": "No. Look, imagine you maintained a friendship with someone you had sex with, but you were free to date whoever you wanted."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 70.87,
+    "end": 72.19000000000001,
+    "text": "I'm sorry, I can't imagine any of that."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 74.44000000000001,
+    "end": 75.22000000000001,
+    "text": "Alright, back to the game."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.14,
+    "end": 79.36,
+    "text": "I believe it's my turn, you may begin your questions whenever you're ready."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 79.78,
+    "end": 80.35000000000001,
+    "text": "Are you Spock?"
+  }
+]

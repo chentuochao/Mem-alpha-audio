@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 8.950000000000001,
+    "end": 14.56,
+    "text": "Wait for me. Well, to paraphrase Mozart, all the subatomic particles are there. I just have to put them in the right order."
+  },
+  {
+    "speaker": "Penny",
+    "start": 14.360000000000001,
+    "end": 16.15,
+    "text": "So, have you worked out the neutrino issue? You're so witty."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 16.29,
+    "end": 17.65,
+    "text": "Aren't I?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 22.17,
+    "end": 30.0,
+    "text": "Hey guys, this package came free. Dr. Cooper is working."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 30.0,
+    "end": 33.03,
+    "text": "Yes, I'm close to a breakthrough. Oh, tickles."
+  },
+  {
+    "speaker": "Penny",
+    "start": 34.73,
+    "end": 42.84,
+    "text": "Sorry. Holy crap on a cloud."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 44.48,
+    "end": 45.42,
+    "text": "Hey Penny."
+  },
+  {
+    "speaker": "Penny",
+    "start": 45.42,
+    "end": 47.69,
+    "text": "Hi, you know, you probably don't want to go in there."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 47.75,
+    "end": 49.41,
+    "text": "Why? What are they doing?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 50.08,
+    "end": 54.22,
+    "text": "You know, the only way I could explain it would be in a therapist's office with dolls."
+  }
+]

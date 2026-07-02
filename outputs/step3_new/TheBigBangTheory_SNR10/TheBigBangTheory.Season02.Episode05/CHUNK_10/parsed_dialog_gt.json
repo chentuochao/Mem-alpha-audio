@@ -1,0 +1,152 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 3.0699999999999363,
+    "text": "I'm clearly too evolved for driving."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.399999999999977,
+    "end": 7.0499999999999545,
+    "text": "What does that mean?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.379999999999995,
+    "end": 15.919999999999959,
+    "text": "Leonard, have you ever wondered why my little toes and lateral incisors are significantly smaller than the average for someone of my size?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.18999999999994,
+    "end": 20.75,
+    "text": "I wonder a lot of things about you, Sheldon, but not... not that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.120000000000005,
+    "end": 46.51999999999998,
+    "text": "Well, those are indicators that I'm farther along the evolutionary scale than the average human. Well, no, no, I'm not going to go so far as to say that I represent a distinct new stage in humankind, you know, a Homo Novus, if you will, no, that's for anthropologists to decide. But I am convinced that the reason I cannot master the plebeian task of driving is because I'm not meant to."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 27.25999999999999,
+    "end": 27.91999999999996,
+    "text": "No kidding."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 46.620000000000005,
+    "end": 49.82999999999993,
+    "text": "Yes, you are, you're meant to learn how to drive. Please learn how to drive!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.789999999999964,
+    "end": 58.98000000000002,
+    "text": "No, no. Leonard, I'm meant for greater things, like unraveling the mysteries of the universe, not determining when it's safe to pass a stopped school bus on a country road."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 61.72000000000003,
+    "end": 62.450000000000045,
+    "text": "It's never safe."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 62.48000000000002,
+    "end": 63.460000000000036,
+    "text": "Yeah, well, I know that now."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.21000000000004,
+    "end": 72.84999999999991,
+    "text": "Fine. Assuming that everything you say is true, how does the biologically superior Homo Novus get to work tomorrow morning?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 74.37999999999988,
+    "end": 75.45000000000005,
+    "text": "Homo Novus doesn't know."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 77.22000000000003,
+    "end": 81.50999999999999,
+    "text": "Well, hang in there, maybe you'll evolve into something with wings."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 93.21000000000004,
+    "end": 94.02999999999997,
+    "text": "Good morning, gentlemen."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 94.40999999999985,
+    "end": 94.52999999999997,
+    "text": "Hey."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 94.75999999999999,
+    "end": 99.87999999999988,
+    "text": "Good morning. Is there some new kind of casual Friday I don't know about?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 101.23000000000002,
+    "end": 102.25,
+    "text": "No, he lives here now."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 103.68000000000006,
+    "end": 104.51999999999998,
+    "text": "Really? Why?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 104.82999999999993,
+    "end": 112.42000000000007,
+    "text": "Well, since he won't take the bus and he's too evolved to drive, he decided it would be easier to just sleep in his office and shower in the radiation lab until I'm finished with my experiment."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 114.40999999999985,
+    "end": 115.99000000000001,
+    "text": "But you finished your experiment a week ago."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 132.71000000000004,
+    "end": 132.93000000000006,
+    "text": "Yep"
+  },
+  {
+    "speaker": "cleaning_lady_1#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 133.79999999999995,
+    "end": 136.19000000000005,
+    "text": "Oh my God, again?"
+  },
+  {
+    "speaker": "cleaning_lady_2#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 136.42000000000007,
+    "end": 137.27999999999997,
+    "text": "It must be rats."
+  },
+  {
+    "speaker": "cleaning_lady_1#unknown#TheBigBangTheory.Season02.Episode05",
+    "start": 138.62999999999988,
+    "end": 141.92000000000007,
+    "text": "Rats don't make toast and cut off the crust."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 152.14999999999986,
+    "end": 153.73000000000002,
+    "text": "You saw nothing!"
+  }
+]

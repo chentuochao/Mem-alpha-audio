@@ -1,0 +1,170 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 3.0599999999999996,
+    "end": 5.03,
+    "text": "Interesting. Do I have to?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 4.83,
+    "end": 8.23,
+    "text": "Ask me why. Of course, that's how you move a conversation forward."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 8.23,
+    "end": 9.75,
+    "text": "Why?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 9.75,
+    "end": 9.95,
+    "text": "The learning opportunities would be abundant. Additionally, I like having my belly scratched."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 17.92,
+    "end": 19.83,
+    "text": "Hey, Penny, how was work?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 23.84,
+    "end": 31.74,
+    "text": "Was that sarcasm? Was that sarcasm? Was that sarcasm?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 25.91,
+    "end": 27.4,
+    "text": "Great. I hope I'm a waitress at the Cheesecake Factory for my whole life. No."
+  },
+  {
+    "speaker": "Penny",
+    "start": 29.03,
+    "end": 32.76,
+    "text": "Yes. Stop it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.82,
+    "end": 37.33,
+    "text": "Dear Penny, you appear to have a package here."
+  },
+  {
+    "speaker": "Penny",
+    "start": 37.33,
+    "end": 42.12,
+    "text": "Oh, thanks. Must be the beret I ordered a couple months ago. It was back-ordered."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.46,
+    "end": 42.660000000000004,
+    "text": "Did you know the beret is an example of a piece of women's fashion adapted from male military uniforms? Another fascinating example is the epaulette."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 53.3,
+    "end": 56.46,
+    "text": "He's not lying. He does find that fascinating."
+  },
+  {
+    "speaker": "Penny",
+    "start": 57.45,
+    "end": 57.650000000000006,
+    "text": "Okay, look, whatever. It's not like I'm running up and down the streets just buying myself berets. I bought one, like, like a month ago, and it was back-ordered, and look, it finally arrived, right?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 65.88,
+    "end": 66.65,
+    "text": "Alright."
+  },
+  {
+    "speaker": "Penny",
+    "start": 66.65,
+    "end": 68.95,
+    "text": "Oh my god, will you just get off my case?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 71.85,
+    "end": 72.86,
+    "text": "Weird."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 72.86,
+    "end": 76.39,
+    "text": "Oh, good. That was an unusual interaction. I wasn't sure."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 77.65,
+    "end": 83.49,
+    "text": "You guys have an argument? He clearly did something to aggravate her."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 79.4,
+    "end": 80.43,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 83.49,
+    "end": 83.69,
+    "text": "I'm at a loss. If you like, you can review my daily log of social interactions and see if there's a blunder I overlooked."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 92.98,
+    "end": 97.98,
+    "text": "Here you go. Oh, you owe me another two dollars. The President Liu Shu pork went up."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 98.02,
+    "end": 101.3,
+    "text": "Getting tougher and tougher to be a bad Jew."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 102.94,
+    "end": 108.7,
+    "text": "Here you go, Penny, shrimp with lobster sauce. Uh, don't worry about it. It's my treat."
+  },
+  {
+    "speaker": "Penny",
+    "start": 105.64,
+    "end": 106.93,
+    "text": "Thank you, Leonard. What's my share?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 108.7,
+    "end": 110.22,
+    "text": "No, really, how much?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 110.22,
+    "end": 111.98,
+    "text": "Whatever, ten, eleven dollars."
+  },
+  {
+    "speaker": "Penny",
+    "start": 111.98,
+    "end": 113.67,
+    "text": "Well, which is it, ten or eleven?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 113.67,
+    "end": 117.4,
+    "text": "Fourteen fifty, but it's no biggie. You'll get the next one."
+  }
+]

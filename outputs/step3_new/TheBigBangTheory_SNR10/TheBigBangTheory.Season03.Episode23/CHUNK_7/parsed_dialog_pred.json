@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 6.28,
+    "end": 8.96,
+    "text": "Where's Penny? I wonder why she didn't say goodbye."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 8.84,
+    "end": 13.0,
+    "text": "She returned to her apartment, I presume, to shower and vomit. Not necessarily in that order. Are you expecting me to offer an explanation of human behavior?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 13.0,
+    "end": 17.68,
+    "text": "I know, I just thought as an outsider you might be able to provide a fresh perspective."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 21.12,
+    "end": 24.68,
+    "text": "I have no difficulty believing you are not butter."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 28.0,
+    "end": 29.14,
+    "text": "Oh, hey."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 31.7,
+    "end": 35.65,
+    "text": "Okay, well, I'll walk down with you. So, last night was fun, huh?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 35.449999999999996,
+    "end": 38.72,
+    "text": "Oh, hi. Um, I gotta run an early shift. Yeah, it must have been. I just threw up in my closet."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 39.64,
+    "end": 43.44,
+    "text": "Bummer. Anyway, I was thinking tonight maybe we could catch a movie."
+  },
+  {
+    "speaker": "Penny",
+    "start": 43.44,
+    "end": 45.65,
+    "text": "Oh, yeah, tonight's not great for me."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.65,
+    "end": 48.76,
+    "text": "It doesn't have to be tonight. I'm free pretty much always."
+  },
+  {
+    "speaker": "Penny",
+    "start": 49.36,
+    "end": 52.19,
+    "text": "Leonard, last night was a mistake."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 52.19,
+    "end": 57.36,
+    "text": "When you say mistake, do you mean a fortunate mistake, like the discovery of penicillin?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 58.42,
+    "end": 63.92,
+    "text": "Look, I'm sorry. I was drunk. I was lonely. I hated Zach. Can we just forget it ever happened?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 63.92,
+    "end": 73.64,
+    "text": "No, it's pretty well imprinted on my brain. Especially the whole rodeo thing. So that's it? Wham bam, thank you, Leonard?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 69.22,
+    "end": 70.51,
+    "text": "Oh, God."
+  },
+  {
+    "speaker": "Penny",
+    "start": 73.64,
+    "end": 75.92,
+    "text": "Look, I said I'm sorry. Can you please let it go?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 75.92,
+    "end": 78.9,
+    "text": "How am I supposed to let it go? You used me for sex."
+  }
+]

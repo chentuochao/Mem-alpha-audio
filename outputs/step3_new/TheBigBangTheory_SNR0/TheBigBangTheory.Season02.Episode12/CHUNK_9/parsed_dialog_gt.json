@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 1.4100000000000819,
+    "text": "Which brings us to tenth grade."
+  },
+  {
+    "speaker": "penny",
+    "start": 3.330000000000041,
+    "end": 7.590000000000032,
+    "text": "Howard, do you think maybe sometimes you try too hard?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 10.06000000000006,
+    "end": 15.010000000000105,
+    "text": "Look at me. What chance do I have if I don't try too hard?"
+  },
+  {
+    "speaker": "penny",
+    "start": 16.600000000000023,
+    "end": 23.83000000000004,
+    "text": "Well, you'd have a terrific chance. I mean, you're smart, you're funny, you have a cool job. You build stuff that goes into outer space."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 24.550000000000068,
+    "end": 25.24000000000001,
+    "text": "I guess."
+  },
+  {
+    "speaker": "penny",
+    "start": 25.530000000000086,
+    "end": 35.31000000000006,
+    "text": "Look, I'm telling you, I've known you for, like, a year and a half and this is the first time I feel like I'm talking to a real person. And you know what? I like him, he's a nice guy."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 36.940000000000055,
+    "end": 41.270000000000095,
+    "text": "You really think so? I don't know."
+  },
+  {
+    "speaker": "penny",
+    "start": 38.41000000000008,
+    "end": 38.870000000000005,
+    "text": "Yes."
+  },
+  {
+    "speaker": "penny",
+    "start": 50.280000000000086,
+    "end": 51.0,
+    "text": "I do."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 60.010000000000105,
+    "end": 61.33000000000004,
+    "text": "Nice little bot you've got here."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 61.60000000000002,
+    "end": 62.17000000000007,
+    "text": "I'm aware."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 64.03000000000009,
+    "end": 64.84000000000003,
+    "text": "What's this do, spin?"
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 65.54000000000008,
+    "end": 70.0100000000001,
+    "text": "Yep. At 3400 RPM. It can cut through steel like it was wubber."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 71.07000000000005,
+    "end": 77.43000000000006,
+    "text": "Neat. Good work. Sheldon, we've got to call this off."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 78.49000000000001,
+    "end": 91.07000000000005,
+    "text": "No, Leonard. For years, merciless thugs like Kripke have made my life a series of painful noogies and humiliating wedgies and the insensitively named Indian burns. That stops now."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 91.53000000000009,
+    "end": 96.69000000000005,
+    "text": "But, Sheldon, we don't have a chance. The only improvement you were able to make on the robot was to put fresh batteries in the remote."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 97.68000000000006,
+    "end": 104.74000000000001,
+    "text": "What you fail to realize is Kripke suffers from a fatal flaw, overconfidence from his robot's massive size and its overwhelming power."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 105.10000000000002,
+    "end": 107.16000000000008,
+    "text": "That's not overconfidence, that's observation."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 108.37,
+    "end": 122.22000000000003,
+    "text": "Trust me, Kripke will fall easy prey to my psychological warfare. Observe. Kripke! I would ask if your robot is prepared to meet its maker, but as you are its maker, clearly the two of you have met."
+  }
+]

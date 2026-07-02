@@ -1,0 +1,134 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.4399999999999977,
+    "text": "I' m good, I' m good to go."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 0.5699999999999932,
+    "end": 0.7599999999999909,
+    "text": "Me too."
+  },
+  {
+    "speaker": "penny",
+    "start": 0.7599999999999909,
+    "end": 1.0500000000000114,
+    "text": "Oh, hey Sheldon, what's going on?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 15.25,
+    "end": 17.230000000000018,
+    "text": "I need your opinion on a matter of semiotics."
+  },
+  {
+    "speaker": "penny",
+    "start": 18.00999999999999,
+    "end": 18.590000000000032,
+    "text": "I' m sorry?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 19.33000000000004,
+    "end": 23.29000000000002,
+    "text": "Semiotics, the study of signs and symbols, it's a branch of philosophy related to linguistics."
+  },
+  {
+    "speaker": "penny",
+    "start": 26.05000000000001,
+    "end": 30.52000000000004,
+    "text": "Okay, sweetie, I know you think you're explaining yourself, but you're really not."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.49000000000001,
+    "end": 37.56,
+    "text": "Just come with me. Well?"
+  },
+  {
+    "speaker": "penny",
+    "start": 40.460000000000036,
+    "end": 40.80000000000001,
+    "text": "Well what?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 41.33000000000004,
+    "end": 42.160000000000025,
+    "text": "What does it mean?"
+  },
+  {
+    "speaker": "penny",
+    "start": 43.77000000000004,
+    "end": 45.30000000000001,
+    "text": "Oh, come on, you went to college."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.60000000000002,
+    "end": 46.25999999999999,
+    "text": "Yes, but I was eleven."
+  },
+  {
+    "speaker": "penny",
+    "start": 49.59000000000003,
+    "end": 56.400000000000034,
+    "text": "Alright, look, a tie on the doorknob usually means someone doesn't want to be disturbed because they're, you know, getting busy."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.610000000000014,
+    "end": 60.210000000000036,
+    "text": "So you're saying Leonard has a girl in there."
+  },
+  {
+    "speaker": "penny",
+    "start": 60.410000000000025,
+    "end": 64.5,
+    "text": "Well, either that or he's lost his tie rack and gotten really into Bryan Adams."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 65.87,
+    "end": 68.13,
+    "text": "Oh Leonard, you magnificent beast."
+  },
+  {
+    "speaker": "penny",
+    "start": 69.69,
+    "end": 74.38999999999999,
+    "text": "We really shouldn't be standing here."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.95000000000005,
+    "end": 77.12,
+    "text": "This is very awkward."
+  },
+  {
+    "speaker": "penny",
+    "start": 77.99000000000001,
+    "end": 80.91999999999996,
+    "text": "Oh, come on, you know, Leonard's had girls over before, right?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.32000000000005,
+    "end": 89.53999999999996,
+    "text": "Oh, yes, but there's usually planning, courtship and advance notice. Last time I was able to book a cruise to the Arctic to see a solar eclipse."
+  },
+  {
+    "speaker": "penny",
+    "start": 91.51999999999998,
+    "end": 94.63999999999999,
+    "text": "Wait, you had to leave the state because your roommate was having sex?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 94.77999999999997,
+    "end": 96.95000000000005,
+    "text": "I didn't have to, the dates just happened to coincide."
+  }
+]

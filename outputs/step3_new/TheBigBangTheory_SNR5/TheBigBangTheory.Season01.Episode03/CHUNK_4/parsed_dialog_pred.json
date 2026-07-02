@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Leslie",
+    "start": 13.75,
+    "end": 15.03,
+    "text": "No, I think it needs to be spontaneous. What do you think?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 14.83,
+    "end": 18.51,
+    "text": "Shall I count down from three? You proposed the experiment. I think you should present your findings first."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 18.65,
+    "end": 18.849999999999998,
+    "text": "Fair enough. On the plus side, it was a good kiss, reasonable technique, no extraneous spittle. On the other hand, no arousal."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 29.27,
+    "end": 37.03,
+    "text": "None? Ah. Well, thank you for your time."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 30.38,
+    "end": 31.31,
+    "text": "None."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 37.03,
+    "end": 38.13,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 41.87,
+    "end": 43.85,
+    "text": "None at all?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 47.169999999999995,
+    "end": 47.57,
+    "text": "Unintelligible Speech] Sheldon, if you were a robot and I knew and you didn't, do you want me to tell you?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 58.07,
+    "end": 58.27,
+    "text": "That depends. When I learn that I'm a robot, will I be able to handle it?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 66.59,
+    "end": 71.75,
+    "text": "Maybe, although the history of science fiction is not on your side. Uh, let me ask you this. When I learn that I'm a robot, would I be bound by Asimov's three laws of robotics?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 79.31,
+    "end": 82.79,
+    "text": "You might be bound by them right now."
+  }
+]

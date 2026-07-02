@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 10.620000000000001,
+    "end": 12.22,
+    "text": "You know what? I'll just spend the evening alone. Ah!"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 13.24,
+    "end": 13.639999999999999,
+    "text": "What? Suddenly I'm not good enough for you? I do so love beverages. Now I think I'll take my after-dinner walk."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 22.32,
+    "end": 24.83,
+    "text": "Since when do you take after-dinner walks?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 24.83,
+    "end": 25.029999999999998,
+    "text": "Since when do you take walks? I read a study online that walking after a meal not only aids in digestion, but increases serotonin. And you know me, there's one thing I like more than a refreshing beverage, it's serotonin. Bye-bye."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 38.3,
+    "end": 40.6,
+    "text": "Hold on, I'll walk down with you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 40.6,
+    "end": 44.37,
+    "text": "Oh, that's not necessary. You can go first."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 44.37,
+    "end": 46.66,
+    "text": "Or we could go together."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 46.88,
+    "end": 49.52,
+    "text": "I can't think of a reason why not."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 50.0,
+    "end": 51.06,
+    "text": "Let's go."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 51.06,
+    "end": 54.18,
+    "text": "Hold on. Nope, no reason."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 63.58,
+    "end": 64.8,
+    "text": "Uh, Mr."
+  }
+]

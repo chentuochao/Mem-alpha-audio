@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 2.15,
+    "end": 4.4,
+    "text": "Dinner's here. No, we went somewhere new."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 6.8,
+    "end": 10.22,
+    "text": "Tandoori Palace. You're good-naturedly ribbing me, aren't you?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 10.22,
+    "end": 12.39,
+    "text": "Oh, look, Mumbai Palace."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 12.39,
+    "end": 12.59,
+    "text": "Why? Why would we change? We had a perfectly good palace. Tandoori Palace is our palace. Trust me, this will be just fine."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 21.32,
+    "end": 24.68,
+    "text": "You are the authority on just fine."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 26.0,
+    "end": 28.24,
+    "text": "What's that supposed to mean?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 28.31,
+    "end": 31.79,
+    "text": "Well, exactly, not bad, but not great."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 35.27,
+    "end": 36.07,
+    "text": "I don't know."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 36.07,
+    "end": 38.99,
+    "text": "I know, as I'm sure you're aware."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 39.33,
+    "end": 39.53,
+    "text": "If that's Morse code, that's terrible. As I was saying, you and Leonard had a disappointing sexual encounter. Well, earlier this evening, Leonard characterized it as just fine, so what you're seeing here is a continuation of the mocking that followed."
+  },
+  {
+    "speaker": "Penny",
+    "start": 54.989999999999995,
+    "end": 61.03,
+    "text": "What are they talking about? Okay, yeah, well, I'm just gonna go eat my dinner elsewhere. Maybe an airplane headed for a mountainside?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 61.41,
+    "end": 66.77,
+    "text": "Anyways, ah, what is wrong with you?"
+  }
+]

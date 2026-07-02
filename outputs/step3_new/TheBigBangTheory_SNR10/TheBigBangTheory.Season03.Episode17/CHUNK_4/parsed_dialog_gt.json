@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 3.5600000000000023,
+    "text": "He's not saying it's a magic ring. You're not, are you?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 4.649999999999977,
+    "end": 24.599999999999966,
+    "text": "No, but it's close. Look at the markings inside. Those are production markings. Nine rings were made for use in the Lord of the Rings movies. Three were given to members of the cast. The rest were destroyed. Except one. One was stolen. Gentlemen, this is the one ring."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 28.360000000000014,
+    "end": 28.819999999999993,
+    "text": "Mine!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 31.129999999999995,
+    "end": 33.72999999999996,
+    "text": "No, it is not yours. We all went in on the box together."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.72999999999996,
+    "end": 41.15999999999997,
+    "text": "Well, yes, but I found it in the box, and the laws of maritime salvage clearly state that the finder of a sunken treasure is the owner of the treasure."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 41.27999999999997,
+    "end": 43.50999999999999,
+    "text": "How is this maritime salvage?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.66999999999996,
+    "end": 45.52999999999997,
+    "text": "Other than the lack of water, how is it not?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 45.81999999999999,
+    "end": 50.30000000000001,
+    "text": "Wait, wait. Sheldon, stop being crazy for a second. How much is something like this worth?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 51.05000000000001,
+    "end": 54.72999999999996,
+    "text": "Well, it's tough to say since it's hot, but on the underground market, my guy figures..."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 54.870000000000005,
+    "end": 55.56999999999999,
+    "text": "Your guy Eddie Crispo?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 56.389999999999986,
+    "end": 56.64999999999998,
+    "text": "Yes."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 60.27999999999997,
+    "end": 63.24000000000001,
+    "text": "He figures ten, maybe 15 thousand."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 63.55000000000001,
+    "end": 69.19,
+    "text": "Okay, that's a lot of money. The wise thing to do is invest it in something practical. Like a jet ski."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 71.07,
+    "end": 72.57999999999998,
+    "text": "Why do you want a jet ski?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 73.00999999999999,
+    "end": 77.19,
+    "text": "All the wealthy and beautiful people in movies ride Jet Skis. That can't just be a coincidence."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 78.18,
+    "end": 86.07,
+    "text": "We can't sell it. We have to keep it and love it and polish it, and only take it out occasionally when we go to the park and re-enact our favourite scenes from the movies."
+  }
+]

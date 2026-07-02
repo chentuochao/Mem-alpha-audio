@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 6.2000000000000455,
+    "text": "Now fetch me Wil Wheaton! bortaS bIr jablu'DI' reH QaQqu' nay'"
+  },
+  {
+    "speaker": "wil_wheaton",
+    "start": 9.840000000000032,
+    "end": 13.170000000000073,
+    "text": "Did that guy just say revenge is a dish best served cold in Klingon?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 14.370000000000005,
+    "end": 15.220000000000027,
+    "text": "I believe so."
+  },
+  {
+    "speaker": "wil_wheaton",
+    "start": 16.379999999999995,
+    "end": 17.200000000000045,
+    "text": "What is wrong with him?"
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 19.81000000000006,
+    "end": 21.020000000000095,
+    "text": "Everyone has a different theory."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 26.980000000000018,
+    "end": 29.470000000000027,
+    "text": "How about computers? Do you like computers?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 29.680000000000064,
+    "end": 32.07000000000005,
+    "text": "I use them. I don't like them."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 33.190000000000055,
+    "end": 37.34000000000003,
+    "text": "Okay... Puppies? Where do you stand on puppies?"
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 38.72000000000003,
+    "end": 39.81000000000006,
+    "text": "A puppy once bit my face."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 40.72000000000003,
+    "end": 42.54000000000008,
+    "text": "Of course it did."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.450000000000045,
+    "end": 48.930000000000064,
+    "text": "How about that? Einstein was wrong. Approaching the speed of light doesn't slow down time. Approaching them does."
+  },
+  {
+    "speaker": "penny",
+    "start": 45.42000000000007,
+    "end": 45.610000000000014,
+    "text": "What?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 52.950000000000045,
+    "end": 56.020000000000095,
+    "text": "Excuse me. Oh, damn. It's my mother."
+  },
+  {
+    "speaker": "bernadette_rostenkowski",
+    "start": 56.210000000000036,
+    "end": 57.139999999999986,
+    "text": "Are you going to answer it?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 57.629999999999995,
+    "end": 66.73000000000002,
+    "text": "I'm torn. She might be dying, and, you know, I wouldn't want to miss that. On the other hand, if I let it go to voicemail, I could play it over and over."
+  }
+]

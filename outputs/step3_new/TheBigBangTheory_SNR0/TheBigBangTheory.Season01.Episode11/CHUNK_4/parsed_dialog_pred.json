@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "Raj",
+    "start": 0.0,
+    "end": 4.29,
+    "text": "Is that a dog? In the lab?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 4.09,
+    "end": 4.49,
+    "text": "Yes. Yes. Uh, they're training dogs to operate the centrifuge for when they need oxygen. I operate the centrifuge for blind scientists. I have to go."
+  },
+  {
+    "speaker": "Raj",
+    "start": 23.78,
+    "end": 27.86,
+    "text": "No, it's the phone. I hear the phone."
+  },
+  {
+    "speaker": "Unknown_speaker022",
+    "start": 27.66,
+    "end": 31.15,
+    "text": "Power, it's the phone! Well, who's calling at this ungodly hour?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 31.15,
+    "end": 32.85,
+    "text": "I don't know."
+  },
+  {
+    "speaker": "Unknown_speaker022",
+    "start": 32.85,
+    "end": 37.16,
+    "text": "Well, ask them why they're calling at this ungodly hour."
+  },
+  {
+    "speaker": "Raj",
+    "start": 37.16,
+    "end": 45.04,
+    "text": "How can I ask them when I'm talking to you? Hello."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 45.44,
+    "end": 48.2,
+    "text": "It's Leonard, code milky green."
+  },
+  {
+    "speaker": "Raj",
+    "start": 48.2,
+    "end": 50.24,
+    "text": "Dear Lord, not milky green."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 50.36,
+    "end": 52.38,
+    "text": "Affirmative with fever."
+  },
+  {
+    "speaker": "Unknown_speaker022",
+    "start": 52.38,
+    "end": 61.51,
+    "text": "Who's on the phone? Why is he calling? Were you playing with him?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 54.28,
+    "end": 55.62,
+    "text": "It's Leonard."
+  },
+  {
+    "speaker": "Raj",
+    "start": 57.52,
+    "end": 58.97,
+    "text": "Sheldon said."
+  },
+  {
+    "speaker": "Raj",
+    "start": 62.95,
+    "end": 66.14,
+    "text": "God's sake, ma, I'm twenty-six years old."
+  },
+  {
+    "speaker": "Unknown_speaker022",
+    "start": 66.14,
+    "end": 71.7,
+    "text": "Excuse me, Mr. Crona. What do you want for breakfast?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 71.7,
+    "end": 74.07,
+    "text": "Chocolate milk and echoes, please."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 74.63,
+    "end": 78.88,
+    "text": "Howard, listen to me. Don't, don't, don't."
+  },
+  {
+    "speaker": "Raj",
+    "start": 76.41,
+    "end": 82.15,
+    "text": "Hang on, call waiting. Hello. Howard, I'm sick."
+  }
+]

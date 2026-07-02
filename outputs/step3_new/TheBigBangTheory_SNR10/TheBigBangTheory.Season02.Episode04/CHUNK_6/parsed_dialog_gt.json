@@ -1,0 +1,128 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 3.3600000000000136,
+    "text": "Here you go, Raj, you might want to drink this one slowly."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 3.560000000000059,
+    "end": 6.260000000000105,
+    "text": "Okay, so, Saturday night, can I count on my posse?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 6.840000000000032,
+    "end": 9.670000000000073,
+    "text": "Gee, I'd love to Raj, but I can't make it."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 10.0,
+    "end": 11.040000000000077,
+    "text": "Oh, okay, Leonard?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 12.550000000000068,
+    "end": 15.850000000000023,
+    "text": "Well, uh, no I... the... no."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 17.720000000000027,
+    "end": 18.020000000000095,
+    "text": "Sheldon?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.410000000000082,
+    "end": 19.950000000000045,
+    "text": "I can make it, but I won't."
+  },
+  {
+    "speaker": "penny",
+    "start": 21.020000000000095,
+    "end": 22.510000000000105,
+    "text": "What are you guys talking about?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 22.540000000000077,
+    "end": 25.090000000000032,
+    "text": "Well, there's a reception for my magazine article on Saturday."
+  },
+  {
+    "speaker": "penny",
+    "start": 25.3900000000001,
+    "end": 32.210000000000036,
+    "text": "And you guys aren't going? I can't believe you, Raj is celebrating a tremendous accomplishment and you're not even going to be there to support him?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.40000000000009,
+    "end": 38.530000000000086,
+    "text": "A tremendous accomplishment would be if the planetary body he discovered were plummeting toward Earth and he exploded it with his mind."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 40.3900000000001,
+    "end": 41.65000000000009,
+    "text": "That would be cool. I'd go to that reception."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.66000000000008,
+    "end": 48.81000000000006,
+    "text": "Come on, this is huge, Raj is going to be in People magazine. And he didn't even have to knock up one of the Spears sisters."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 50.700000000000045,
+    "end": 51.42000000000007,
+    "text": "Would you like to go with me?"
+  },
+  {
+    "speaker": "penny",
+    "start": 52.83000000000004,
+    "end": 57.75,
+    "text": "Of course I would, I would be honoured. Shame on you guys."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 54.930000000000064,
+    "end": 56.08000000000004,
+    "text": "Really? Cool."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 61.09000000000003,
+    "end": 65.82000000000005,
+    "text": "Look at that. I got a date with Penny. I can't believe it took you a whole year."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 68.63,
+    "end": 68.99000000000001,
+    "text": "Now?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 71.79000000000008,
+    "end": 72.15000000000009,
+    "text": "Now."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 74.96000000000004,
+    "end": 77.78000000000009,
+    "text": "Hey, buddy. I'm going to be in people magazine."
+  },
+  {
+    "speaker": "charlie_sheen",
+    "start": 78.33000000000004,
+    "end": 79.73000000000002,
+    "text": "Yeah, call me when you're on the cover."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 3.2000000000000455,
+    "text": "Isn't she brilliant, Leonard? How I envy you."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 6.680000000000007,
+    "end": 12.330000000000041,
+    "text": "So, Howard, have you and Rajesh finally summoned the courage to express your latent homosexual feelings toward one another?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 17.28000000000003,
+    "end": 18.02000000000004,
+    "text": "What? No."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 19.189999999999998,
+    "end": 19.58000000000004,
+    "text": "Why not?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 22.24000000000001,
+    "end": 25.090000000000032,
+    "text": "Because we don't have latent homosexual feelings toward one another."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 26.090000000000032,
+    "end": 26.55000000000001,
+    "text": "I see."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 27.83000000000004,
+    "end": 30.600000000000023,
+    "text": "No, really. I have a girlfriend now."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 30.960000000000036,
+    "end": 32.06999999999999,
+    "text": "And where is she this evening?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 32.460000000000036,
+    "end": 34.950000000000045,
+    "text": "She had to go out of town. Her grandmother died."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 36.0,
+    "end": 39.31999999999999,
+    "text": "I see. Her grandmother died."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 41.55000000000001,
+    "end": 44.48000000000002,
+    "text": "Honest to God. Leonard, tell her I have a girlfriend."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 44.58000000000004,
+    "end": 45.59000000000003,
+    "text": "I don't know what you're talking about."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 48.02000000000004,
+    "end": 50.420000000000016,
+    "text": "What do you mean you don't know what I'm talking about? Tell her I have a girlfriend!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 50.72000000000003,
+    "end": 53.960000000000036,
+    "text": "All right. He\" has\" a\" girlfriend.\""
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 55.950000000000045,
+    "end": 59.629999999999995,
+    "text": "Her name is Bernadette, she's working as a waitress, but she's going to school to be a microbiologist."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 59.81999999999999,
+    "end": 64.22000000000003,
+    "text": "Howard, keep in mind that the more passionately you stick to this construct, the more you're hurting your partner."
+  }
+]

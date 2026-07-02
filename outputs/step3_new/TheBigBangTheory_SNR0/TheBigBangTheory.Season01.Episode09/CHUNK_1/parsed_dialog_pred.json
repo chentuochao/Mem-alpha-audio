@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 3.15,
+    "end": 5.67,
+    "text": "Okay, thanks. Yeah, you turned your stereo down with your laptop."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 5.47,
+    "end": 10.64,
+    "text": "Hang on, hang on, do you not realize what we just did? No, we turned our stereo down by sending a signal around the world via the internet."
+  },
+  {
+    "speaker": "Penny",
+    "start": 11.0,
+    "end": 15.04,
+    "text": "You know, you could just get one of those universal remotes at RadioShack, they're really cheap."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.04,
+    "end": 19.82,
+    "text": "No, no, no, no, you don't get it, um, Howard, enable public access."
+  },
+  {
+    "speaker": "Penny",
+    "start": 24.52,
+    "end": 26.33,
+    "text": "Well, that's terrific, but I'll see ya."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 26.33,
+    "end": 31.79,
+    "text": "No, no, hang on, hang on. See?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 31.79,
+    "end": 33.72,
+    "text": "No."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 33.82,
+    "end": 34.02,
+    "text": "Someone in Sichuan province, China, is using his computer to turn our lights on and off."
+  },
+  {
+    "speaker": "Penny",
+    "start": 40.2,
+    "end": 46.02,
+    "text": "Oh, well, that's handy. Um, here's a question, why?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 46.559999999999995,
+    "end": 48.72,
+    "text": "Public access enabled. Because we can."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.58,
+    "end": 52.36,
+    "text": "They found the remote control cars."
+  },
+  {
+    "speaker": "Penny",
+    "start": 54.28,
+    "end": 56.63,
+    "text": "Well, wait, wait, what's on top of that?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.63,
+    "end": 58.62,
+    "text": "Wireless webcams, wait below."
+  },
+  {
+    "speaker": "Raj",
+    "start": 58.62,
+    "end": 58.82,
+    "text": "The monster truck is out of Austin, Texas, and the blue viper is being operated from suburban Tel Aviv."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.12,
+    "end": 69.57,
+    "text": "You may want to put on slacks."
+  },
+  {
+    "speaker": "Penny",
+    "start": 69.57,
+    "end": 70.06,
+    "text": "What?"
+  }
+]

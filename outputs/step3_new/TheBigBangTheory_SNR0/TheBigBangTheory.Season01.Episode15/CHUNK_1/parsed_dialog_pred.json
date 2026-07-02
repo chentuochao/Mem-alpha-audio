@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Raj",
+    "start": 3.25,
+    "end": 8.209999999999999,
+    "text": "Noise] Oh, hey, buddy. Buddy. Sorry, I'm late. I'm working on a project that might take me up on the next space shuttle."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 15.790000000000001,
+    "end": 19.15,
+    "text": "Hello. How can you be late? I wasn't expecting you at all."
+  },
+  {
+    "speaker": "Raj",
+    "start": 19.55,
+    "end": 27.46,
+    "text": "Nobody ever expects me. Sometimes you just look and bam, Howard Wolowitz. Sheldon, are you gonna introduce us?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 27.46,
+    "end": 35.9,
+    "text": "Oh, all right, uh, this is Missy. Missy, this is Leonard and Rajesh, and you've already met Howard. You too. Oh, awesome."
+  },
+  {
+    "speaker": "Raj",
+    "start": 38.43,
+    "end": 40.7,
+    "text": "So, how do you two know each other?"
+  },
+  {
+    "speaker": "Shelly",
+    "start": 40.5,
+    "end": 44.53,
+    "text": "It's nice to meet you. Oh, he once spent nine months with my leg wrapped around his head."
+  },
+  {
+    "speaker": "Raj",
+    "start": 47.09,
+    "end": 48.83,
+    "text": "Excuse me."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.48,
+    "end": 54.27,
+    "text": "She's my twin sister. She thinks it's funny, but frankly, I've never been able to see it."
+  },
+  {
+    "speaker": "Shelly",
+    "start": 54.27,
+    "end": 57.13,
+    "text": "It's because you have no measurable sense of humor, Shelley."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.13,
+    "end": 61.74,
+    "text": "How exactly would one measure a sense of humor? Humor-mometer?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 63.94,
+    "end": 69.28,
+    "text": "Well, I think you're delightfully droll. Or as the French say, très drôle."
+  },
+  {
+    "speaker": "Shelly",
+    "start": 69.46,
+    "end": 75.3,
+    "text": "Okay, so let me see if I got this. Leonard, Howard, and, I'm sorry, what was your name again?"
+  }
+]

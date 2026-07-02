@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.0,
+    "end": 7.62,
+    "text": "Smell that? That's the smell of new comic books. Oh, yes."
+  },
+  {
+    "speaker": "Howard",
+    "start": 14.88,
+    "end": 15.28,
+    "text": "They're on me today, boys. No, I'm celebrating. As we speak, the space shuttle is docking at the International Space Station, where it will deploy the Walowitz Zero Gravity Waste Disposal System."
+  },
+  {
+    "speaker": "Raj",
+    "start": 24.86,
+    "end": 28.3,
+    "text": "Yoping? Have you been selling your sperm again? Get over yourself. It's a high-tech toilet."
+  },
+  {
+    "speaker": "Howard",
+    "start": 29.07,
+    "end": 29.27,
+    "text": "Just think, thanks to your hard work, an international crew of astronauts will boldly go where no man has gone before. Is that supposed to be funny?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 38.18,
+    "end": 38.38,
+    "text": "I believe it is. The combination of the Star Trek reference and the play on words involving the double meaning of the verb to go suggests that Leonard is humorously mocking your efforts in space plumbing."
+  },
+  {
+    "speaker": "Howard",
+    "start": 47.81,
+    "end": 48.010000000000005,
+    "text": "Okay, make your little jokes, but of the four of us, I'm the only one making any real world contribution to science and technology."
+  },
+  {
+    "speaker": "Raj",
+    "start": 55.29,
+    "end": 60.5,
+    "text": "He's right. This is an important achievement for two reasons. Number one, and of course, number two."
+  }
+]

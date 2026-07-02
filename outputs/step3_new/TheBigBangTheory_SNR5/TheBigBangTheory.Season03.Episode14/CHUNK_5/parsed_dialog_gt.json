@@ -1,0 +1,158 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.4699999999999136,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.1399999999999864,
+    "end": 2.159999999999968,
+    "text": "I have good news."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.189999999999941,
+    "end": 5.159999999999968,
+    "text": "And you had to barge in here and wake us up in the middle of the night?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 5.309999999999945,
+    "end": 6.399999999999977,
+    "text": "Your cell phone was off."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 7.3799999999999955,
+    "end": 9.17999999999995,
+    "text": "Because we didn't want to be disturbed."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.209999999999923,
+    "end": 11.199999999999932,
+    "text": "And that didn't work out, did it?"
+  },
+  {
+    "speaker": "penny",
+    "start": 12.879999999999995,
+    "end": 14.42999999999995,
+    "text": "Sheldon, what do you want?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.709999999999923,
+    "end": 17.529999999999973,
+    "text": "I came to tell you I've got the answer."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 18.75,
+    "end": 21.529999999999973,
+    "text": "Really? You figured out the graphene problem?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.309999999999945,
+    "end": 26.719999999999914,
+    "text": "No, no, I'm still hopelessly stuck on that, but I figured out how to figure it out."
+  },
+  {
+    "speaker": "penny",
+    "start": 27.159999999999968,
+    "end": 30.8599999999999,
+    "text": "Hey, you know what, Leonard, I know I said I could handle your roommate, but I was wrong. We're going to have to break up."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 31.629999999999995,
+    "end": 33.6099999999999,
+    "text": "What are you talking about?"
+  },
+  {
+    "speaker": "penny",
+    "start": 33.6099999999999,
+    "end": 33.729999999999905,
+    "text": "Oh."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.309999999999945,
+    "end": 39.02999999999997,
+    "text": "Einstein."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 40.229999999999905,
+    "end": 41.42999999999995,
+    "text": "Yeah, I'm going to need a little more."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 42.94999999999993,
+    "end": 43.799999999999955,
+    "text": "Albert Einstein."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.489999999999895,
+    "end": 48.069999999999936,
+    "text": "Keep going."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 48.789999999999964,
+    "end": 53.370000000000005,
+    "text": "When Albert Einstein came up with special relativity, he was working at the patent office."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.729999999999905,
+    "end": 55.82999999999993,
+    "text": "So, you're going to go work at the patent office?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.239999999999895,
+    "end": 73.18999999999994,
+    "text": "Don't be absurd. That's in Washington. You know I could never live in a city whose streets are laid out in a wheel-and-spoke pattern. No. I'm going to find a similarly menial job where my basal ganglia are occupied with a routine task, freeing my prefrontal cortex to work quietly in the background on my problem."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 74.6099999999999,
+    "end": 75.51999999999998,
+    "text": "Sounds like a great plan."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.67999999999995,
+    "end": 80.52999999999997,
+    "text": "Of course it is. Even talking to you is sufficiently menial that I can feel the proverbial juices starting to flow."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 81.59999999999991,
+    "end": 85.03999999999996,
+    "text": "Okay, well, thanks for sharing with us. Good night."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 85.17999999999995,
+    "end": 94.44999999999993,
+    "text": "You're welcome. Good night to you, too. Oh, by the way, I was watching you sleep for a moment, and I noticed that your snoring seems to be worse when you're on your back."
+  },
+  {
+    "speaker": "penny",
+    "start": 95.07999999999993,
+    "end": 96.33999999999992,
+    "text": "Leonard doesn't snore."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 96.84999999999991,
+    "end": 97.92999999999995,
+    "text": "No, I wasn't talking to Leonard."
+  }
+]

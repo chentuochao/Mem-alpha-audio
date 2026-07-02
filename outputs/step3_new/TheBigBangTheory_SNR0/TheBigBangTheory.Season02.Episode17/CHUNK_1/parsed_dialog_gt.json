@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.9399999999999977,
+    "text": "It's like talking to a chimp."
+  },
+  {
+    "speaker": "penny",
+    "start": 1.8499999999999943,
+    "end": 5.8799999999999955,
+    "text": "Okay, now that I've been completely insulted, have a good flight."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 6.150000000000006,
+    "end": 6.670000000000002,
+    "text": "Yeah, I wish."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.820000000000007,
+    "end": 9.129999999999995,
+    "text": "We're not flying, we're taking the train."
+  },
+  {
+    "speaker": "penny",
+    "start": 9.430000000000007,
+    "end": 10.39,
+    "text": "Oh, cool."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 10.829999999999998,
+    "end": 14.810000000000002,
+    "text": "Yeah, cool. Seven times as long as flying, and costs almost twice as much."
+  },
+  {
+    "speaker": "penny",
+    "start": 16.239999999999995,
+    "end": 17.430000000000007,
+    "text": "Well, then why are you doing it?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 17.650000000000006,
+    "end": 22.689999999999998,
+    "text": "Well, we had a vote. Three of us voted for airplane, Sheldon voted for train, so we're taking the train."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.03999999999999,
+    "end": 58.099999999999994,
+    "text": "Hey, we're all going over to the Apple store to make fun of the guys at the Genius Bar. You want to come?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.41999999999999,
+    "end": 80.57,
+    "text": "Oh, I always enjoy that, but I'm a little busy. I'm simplifying the task of packing for our trip. See, by attaching RFID tags to my clothing, it will enable my laptop to read and identify the items with this wand. I will then cross-reference them against destination, anticipated activity spectrum, weather conditions, duration of trip, et cetera."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 62.78,
+    "end": 63.25999999999999,
+    "text": "What are you doing?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 82.32,
+    "end": 86.91,
+    "text": "Well, that does sound much simpler. How long is this going to take?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 87.30000000000001,
+    "end": 92.63,
+    "text": "Assuming I can keep up this pace, three hours, 11 minutes, and plus however long it takes to conclude this fairly pointless conversation."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 94.72,
+    "end": 98.56,
+    "text": "Wow. Teasing the guys at the Apple store seems a little redundant now."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 99.38,
+    "end": 99.75999999999999,
+    "text": "I don't follow."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 100.07,
+    "end": 101.41999999999999,
+    "text": "I wouldn't expect you to. I'll see you later."
+  }
+]

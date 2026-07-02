@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 5.84,
+    "end": 7.42,
+    "text": "Oh, Leonard, there you are. I'm ready to go home. Good, perfect timing."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 7.8,
+    "end": 13.53,
+    "text": "I just got here. So, I told you, I only have access to the free electron laser at night. I can't drive it for the next two weeks."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 13.53,
+    "end": 17.18,
+    "text": "No, you said you couldn't drive me to work. This is from work."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 17.94,
+    "end": 22.92,
+    "text": "Howard, help me out. No, just for the fun of it, I'm gonna take his side."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 24.06,
+    "end": 26.65,
+    "text": "Now, how do you propose I get home?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 26.65,
+    "end": 28.75,
+    "text": "How did you get here in the first place?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 28.75,
+    "end": 32.01,
+    "text": "Pendulum. But I sense that's no longer an option."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 33.13,
+    "end": 38.13,
+    "text": "Look, I need to get to the laser lab. You're just gonna have to find someone else to take you home."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 39.85,
+    "end": 41.87,
+    "text": "What do you think of that?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 43.99,
+    "end": 46.87,
+    "text": "Oh, damn, I picked the wrong side."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 61.45,
+    "end": 65.73,
+    "text": "Why did Howard leave you in the middle of the road anyway? We had a difference of opinion. Over what? Whether or not he was trying to kill me. The record I maintain he was."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 75.41,
+    "end": 76.83,
+    "text": "Where are you going?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 76.83,
+    "end": 77.03,
+    "text": "I'm taking you home. Oh, but I'm not going home. It's Wednesday. Wednesday's new comic book day. We have to go to the comic book store. And then we have to stop at Soup Plantation. It's creamy tomato soup day. And Radio Shack. There's a sale on AAA batteries."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 90.79,
+    "end": 94.21,
+    "text": "Plus, we have to go to Pottery Barn and return my Star Wars sheets."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 94.21,
+    "end": 96.43,
+    "text": "I have a better idea."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 96.45,
+    "end": 98.53,
+    "text": "You wanna go to Pottery Barn first?"
+  }
+]

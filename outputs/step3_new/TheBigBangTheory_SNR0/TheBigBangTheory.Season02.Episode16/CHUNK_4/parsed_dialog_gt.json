@@ -1,0 +1,116 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 1.7900000000000205,
+    "text": "The whole thing froze. I don't know what happened."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 2.0300000000000296,
+    "end": 3.2900000000000205,
+    "text": "Calm down. We'll figure it out."
+  },
+  {
+    "speaker": "penny",
+    "start": 3.569999999999993,
+    "end": 8.620000000000005,
+    "text": "How can I calm down? I'm gonna lose my whole shopping cart. That's three hours of picking out shoes just shot to hell."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.259999999999991,
+    "end": 12.819999999999993,
+    "text": "Hello, Penny. You're in my spot."
+  },
+  {
+    "speaker": "penny",
+    "start": 11.120000000000005,
+    "end": 11.590000000000032,
+    "text": "Hello, Sheldon."
+  },
+  {
+    "speaker": "penny",
+    "start": 14.650000000000034,
+    "end": 15.960000000000036,
+    "text": "Are you planning on sitting here?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 16.069999999999993,
+    "end": 20.870000000000005,
+    "text": "No, I'm going to the comic book store. What difference does it make?"
+  },
+  {
+    "speaker": "penny",
+    "start": 18.170000000000016,
+    "end": 19.460000000000036,
+    "text": "Then what difference does it make?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 20.870000000000005,
+    "end": 21.470000000000027,
+    "text": "Here we go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.49000000000001,
+    "end": 36.170000000000016,
+    "text": "That is my spot. In an ever-changing world, it is a single point of consistency. If my life were expressed as a function on a four-dimensional Cartesian coordinate system, that spot at the moment I first sat on it would be zero-zero-zero-zero."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.35000000000002,
+    "end": 41.52000000000004,
+    "text": "What?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.75,
+    "end": 44.98000000000002,
+    "text": "Don't sit in his spot."
+  },
+  {
+    "speaker": "penny",
+    "start": 47.69,
+    "end": 50.06,
+    "text": "Fine. Happy?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 50.54000000000002,
+    "end": 51.47000000000003,
+    "text": "I'm not unhappy."
+  },
+  {
+    "speaker": "penny",
+    "start": 56.150000000000034,
+    "end": 58.610000000000014,
+    "text": "Boy, I love him, but he is one serious wackadoodle."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 59.81,
+    "end": 61.10000000000002,
+    "text": "Okay, that should do it."
+  },
+  {
+    "speaker": "penny",
+    "start": 61.53000000000003,
+    "end": 63.53000000000003,
+    "text": "Oh, thank you. You are a lifesaver."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 64.04000000000002,
+    "end": 65.42000000000002,
+    "text": "That's a lot of shoes you ordered."
+  },
+  {
+    "speaker": "penny",
+    "start": 65.57,
+    "end": 68.27000000000004,
+    "text": "Yeah, you know the sad thing is, it's really not."
+  }
+]

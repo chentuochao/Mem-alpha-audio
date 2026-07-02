@@ -1,0 +1,182 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.36000000000001364,
+    "text": "Good."
+  },
+  {
+    "speaker": "penny",
+    "start": 5.590000000000032,
+    "end": 6.970000000000027,
+    "text": "Are we terrible people?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 7.1400000000001,
+    "end": 9.520000000000095,
+    "text": "I don't know. What do you want me to do?"
+  },
+  {
+    "speaker": "penny",
+    "start": 11.75,
+    "end": 13.129999999999995,
+    "text": "Get him, bring him back."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.940000000000055,
+    "end": 18.32000000000005,
+    "text": "Are you sure? Okay. Howard come back."
+  },
+  {
+    "speaker": "penny",
+    "start": 15.31000000000006,
+    "end": 15.620000000000005,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 18.49000000000001,
+    "end": 25.629999999999995,
+    "text": "Oh, you guys had me scared for a minute."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 25.629999999999995,
+    "end": 31.24000000000001,
+    "text": "No, no, no, no! That rate is much too low for what we'd expect from this collision. Do you understand that we're talking about dark matter colliding in outer space?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 31.360000000000014,
+    "end": 34.84000000000003,
+    "text": "Of course I understand. And who are you to tell me about outer space?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 35.06000000000006,
+    "end": 37.74000000000001,
+    "text": "I'm the astrophysicist. Astro means space."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 38.65000000000009,
+    "end": 40.210000000000036,
+    "text": "Astro means star."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 41.610000000000014,
+    "end": 45.97000000000003,
+    "text": "Okay, well, let me just tell you, if we were having this argument in my native language, I'd be kicking your butt."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 47.559999999999945,
+    "end": 49.26999999999998,
+    "text": "English is your native language."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 49.950000000000045,
+    "end": 53.36000000000013,
+    "text": "Okay, you got me there, but you're wrong about this!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.039999999999964,
+    "end": 58.940000000000055,
+    "text": "There is a fine line between wrong and visionary. Unfortunately you have to be a visionary to see it."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 60.440000000000055,
+    "end": 66.3900000000001,
+    "text": "My god, you think that every thought that comes out of your head is pure gold. Well, let me tell you something. Some of those thoughts are pure caca."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.46000000000004,
+    "end": 66.85000000000014,
+    "text": "Caca?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 68.86000000000013,
+    "end": 69.63000000000011,
+    "text": "It means doo-doo."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 69.74000000000001,
+    "end": 69.99000000000001,
+    "text": "All right!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 72.09000000000015,
+    "end": 74.98000000000002,
+    "text": "First of all, Dr. Koothrappali, when I first proposed that you work with me..."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 75.29999999999995,
+    "end": 76.67000000000007,
+    "text": "Aha! So I am working with you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 76.70000000000005,
+    "end": 78.86000000000013,
+    "text": "In this context, with me means for me."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 79.80999999999995,
+    "end": 80.88000000000011,
+    "text": "Ah, well, in this context..."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 82.5,
+    "end": 85.67000000000007,
+    "text": "Oh! If I'm wrong, prove it."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 85.75999999999999,
+    "end": 90.3900000000001,
+    "text": "Okay. Here's where we derive the mass of the dark matter particle."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 90.50999999999999,
+    "end": 93.6400000000001,
+    "text": "No, no, no, you've misstated the atomic weight of the target. You're defacing my work."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 92.36000000000013,
+    "end": 97.01999999999998,
+    "text": "Let me finish. I'm not defacing it, I'm fixing it. No."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 95.56999999999994,
+    "end": 98.5,
+    "text": "Give me the eraser. I said give it to me."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 99.23000000000002,
+    "end": 99.79999999999995,
+    "text": "Come and get it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 101.90000000000009,
+    "end": 102.38000000000011,
+    "text": "Fine."
+  }
+]

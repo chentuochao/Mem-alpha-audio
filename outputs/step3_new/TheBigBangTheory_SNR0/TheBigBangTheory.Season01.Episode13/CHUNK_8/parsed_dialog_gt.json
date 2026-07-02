@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 0.0,
+    "end": 0.7400000000000091,
+    "text": "Here's your tee- shirt."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 3.330000000000041,
+    "end": 7.889999999999986,
+    "text": "PMS? It's a couple of days early, but..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 9.5,
+    "end": 12.259999999999991,
+    "text": "No, it stands for Perpetual Motion Squad."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 13.029999999999973,
+    "end": 14.259999999999991,
+    "text": "Oh, right, of course, what was I thinking?"
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 16.529999999999973,
+    "end": 30.879999999999995,
+    "text": "Good afternoon everyone, and welcome to this year's physics bowl. Today's preliminary match features two great teams... AA versus PMS."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 31.210000000000036,
+    "end": 32.23000000000002,
+    "text": "All night long, y' all!"
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 37.539999999999964,
+    "end": 49.440000000000055,
+    "text": "Okay, well let's jump right in, first question, for ten points. What is the isospan singlet partner of the Pi Zero Meson? PMS? Correct."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 47.89999999999998,
+    "end": 48.72000000000003,
+    "text": "The Eta Meson."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 51.31000000000006,
+    "end": 55.67999999999995,
+    "text": "Formal protest. The Velcro on my wrist brace caught on my shirt."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 52.89999999999998,
+    "end": 53.74000000000001,
+    "text": "On what grounds?"
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 57.10000000000002,
+    "end": 64.35000000000002,
+    "text": "Denied. Alright, for ten points, what is the lightest element on earth with no stable isotope. AA?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.16999999999996,
+    "end": 67.12,
+    "text": "And of course, the answer is Technetium."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 67.17999999999995,
+    "end": 76.41999999999996,
+    "text": "Terrific. Next question, what is the force between two uncharged plates due to quantum vacuum fluctuation. PMS?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 76.58000000000004,
+    "end": 79.90999999999997,
+    "text": "Sheldon can suck on, the Casimir Effect."
+  },
+  {
+    "speaker": "dr_eric_gablehauser",
+    "start": 81.87,
+    "end": 91.23000000000002,
+    "text": "Correct. How does a quantum computer factor large numbers. PMS? Correct."
+  },
+  {
+    "speaker": "leslie_winkle",
+    "start": 89.57000000000005,
+    "end": 90.57000000000005,
+    "text": "Shor's Algorithm."
+  }
+]

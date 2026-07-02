@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 0.0,
+    "end": 1.2699999999999818,
+    "text": "So, Penny, what's new in your life?"
+  },
+  {
+    "speaker": "penny",
+    "start": 2.3600000000000136,
+    "end": 3.269999999999982,
+    "text": "Nothing. Not a damn thing."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 10.909999999999968,
+    "end": 12.799999999999955,
+    "text": "Thank you for driving me back to my hotel."
+  },
+  {
+    "speaker": "penny",
+    "start": 13.100000000000023,
+    "end": 14.350000000000023,
+    "text": "Oh, it's not a problem."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 14.549999999999955,
+    "end": 21.17999999999995,
+    "text": "I was going to ask Leonard to do it, but he seemed a bit emotionally unstable and you don't want someone like that operating heavy machinery."
+  },
+  {
+    "speaker": "penny",
+    "start": 22.199999999999932,
+    "end": 23.18999999999994,
+    "text": "No, you do not."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 23.850000000000023,
+    "end": 25.029999999999973,
+    "text": "Your check engine light is on."
+  },
+  {
+    "speaker": "penny",
+    "start": 26.600000000000023,
+    "end": 35.41999999999996,
+    "text": "Yeah, I gotta put a sticker over that. So, uh, you must be devastated about your divorce."
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 35.70999999999992,
+    "end": 40.799999999999955,
+    "text": "Oh, not at all. But I am a bit distressed to be in a vehicle that's not subjected to regular maintenance."
+  },
+  {
+    "speaker": "penny",
+    "start": 42.75999999999999,
+    "end": 45.389999999999986,
+    "text": "Come on, I mean, you're not upset that your marriage is over?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 46.039999999999964,
+    "end": 62.059999999999945,
+    "text": "Well, initially I felt something akin to grief and perhaps anger, but that's the natural reaction of the limbic system to being betrayed by a loathsome son of a bitch. Thankfully, my shock was somewhat mitigated by the fact that I haven't had intercourse with him in eight years."
+  },
+  {
+    "speaker": "penny",
+    "start": 56.08999999999992,
+    "end": 57.08999999999992,
+    "text": "Sure, sure."
+  },
+  {
+    "speaker": "penny",
+    "start": 63.07999999999993,
+    "end": 64.10000000000002,
+    "text": "Eight years?"
+  },
+  {
+    "speaker": "dr_beverly_hofstadter",
+    "start": 64.25,
+    "end": 68.47000000000003,
+    "text": "Oh, that's nothing. I've been responsible for my own orgasms since 1982."
+  },
+  {
+    "speaker": "penny",
+    "start": 71.13,
+    "end": 71.61000000000001,
+    "text": "Yikes."
+  }
+]

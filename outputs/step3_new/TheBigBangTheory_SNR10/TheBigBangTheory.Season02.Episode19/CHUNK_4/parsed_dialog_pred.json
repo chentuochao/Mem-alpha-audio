@@ -1,0 +1,32 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 42.01,
+    "end": 49.17,
+    "text": "It's a trap! Sort of. How does one sort of? He's upstairs at Alicia's."
+  },
+  {
+    "speaker": "Penny",
+    "start": 49.11,
+    "end": 49.510000000000005,
+    "text": "You brought new clothes, okay? Is Leonard around? Oh, alright, that's cool, no biggie. Said he'd help me set up my printer, but I guess I can wait. What exactly is he doing up there?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.19,
+    "end": 56.39,
+    "text": "And what I can only perceive as a tactical move to destroy me, he is with Kowalwitz and Kuthrapali setting up her stereo."
+  },
+  {
+    "speaker": "Penny",
+    "start": 63.03,
+    "end": 66.63,
+    "text": "Oh, they're all up there, huh? Typical."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.03,
+    "end": 67.23,
+    "text": "It's axiomatically atypical. Up until recently, they did not know Alicia. And had no encounters with her in her previous location. And they never went upstairs to visit the former tenants. So, your characterization of their behavior as typical is demonstrably fallacious."
+  }
+]

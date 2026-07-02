@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.0,
+    "end": 7.08,
+    "text": "Change seats with me. There's a draft on my neck over here. You're protected by your turtleneck."
+  },
+  {
+    "speaker": "Howard",
+    "start": 3.4499999999999997,
+    "end": 5.11,
+    "text": "Why? So I get the draft?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 8.88,
+    "end": 13.24,
+    "text": "Fine. And it's a dickey."
+  },
+  {
+    "speaker": "Howard",
+    "start": 22.06,
+    "end": 34.56,
+    "text": "I'm still not comfortable. Of course, there's too many people here. We can fix that. Let's leave. Yeah, we can go over to my place."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 34.56,
+    "end": 36.89,
+    "text": "Wait, let me get my jacket."
+  },
+  {
+    "speaker": "Howard",
+    "start": 38.05,
+    "end": 40.16,
+    "text": "You're not going with us."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 40.16,
+    "end": 45.81,
+    "text": "Why not? You're the guy we're trying to get away from. Well, in that case, I don't need my jacket. And for the record, the correct syntax is I'm the guy from whom you're trying to get away."
+  },
+  {
+    "speaker": "Howard",
+    "start": 44.17,
+    "end": 45.57,
+    "text": "Oh."
+  },
+  {
+    "speaker": "Howard",
+    "start": 62.0,
+    "end": 63.32,
+    "text": "Oh, yes."
+  }
+]

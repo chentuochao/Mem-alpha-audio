@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 5.6200000000000045,
+    "text": "Attention, all bowlers. I've taken the liberty of having these made for our rematch."
+  },
+  {
+    "speaker": "penny",
+    "start": 6.889999999999986,
+    "end": 8.259999999999991,
+    "text": "The Wesley Crushers?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.490000000000009,
+    "end": 11.25,
+    "text": "No, not the Wesley Crushers. The Wesley\" Crushers.\""
+  },
+  {
+    "speaker": "penny",
+    "start": 12.340000000000032,
+    "end": 12.920000000000073,
+    "text": "I don't get it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 13.520000000000095,
+    "end": 16.15000000000009,
+    "text": "Wesley Crusher was Wil Wheaton's character on Star Trek."
+  },
+  {
+    "speaker": "penny",
+    "start": 16.950000000000045,
+    "end": 17.460000000000036,
+    "text": "Still don't get it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 18.410000000000082,
+    "end": 26.15000000000009,
+    "text": "It's a blindingly clever play on words. By appropriating his character's name and adding the S, we imply that we we'll be the crushers of Wesley."
+  },
+  {
+    "speaker": "penny",
+    "start": 28.82000000000005,
+    "end": 32.79000000000008,
+    "text": "Okay, I'm sorry, honey, but the Wesley Crushers sounds like a bunch of people who like Wesley Crusher."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.960000000000036,
+    "end": 36.5,
+    "text": "What? No! Again, it's not the Wesley Crushers. It's the Wesley\" Crushers.\""
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 39.210000000000036,
+    "end": 43.80000000000007,
+    "text": "You know, if you want it to mean you're crushing Wesley, it'd be the\" Wesley\" Crushers."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 43.98000000000002,
+    "end": 50.370000000000005,
+    "text": "Do you people even hear yourselves? It's not the Wesley Crushers. It's not the\" Wesley\" Crushers. It's the Wesley\" Crushers.\""
+  },
+  {
+    "speaker": "wil_wheaton",
+    "start": 51.41000000000008,
+    "end": 53.65000000000009,
+    "text": "Hey, look. They named their team after me."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 54.879999999999995,
+    "end": 59.190000000000055,
+    "text": "No, it's not the... Never mind."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 60.42000000000007,
+    "end": 63.35000000000002,
+    "text": "So, we're all clear on the bet and the stakes?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 63.60000000000002,
+    "end": 75.40000000000009,
+    "text": "Oh, yes. The losers will be publicly humiliated in a fashion to be chosen by the victor. FYI, I plan on having you publish a scientific paper expounding the discredited Velikovsky hypothesis."
+  },
+  {
+    "speaker": "stuart_bloom",
+    "start": 77.32000000000005,
+    "end": 79.25,
+    "text": "Ouch again."
+  },
+  {
+    "speaker": "wil_wheaton",
+    "start": 81.17000000000007,
+    "end": 86.11000000000001,
+    "text": "Hey, Sheldon, I just wanted you to know that I'm really looking forward to wiping the floor with you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 86.48000000000002,
+    "end": 93.08000000000004,
+    "text": "Oh, yes? Well, before I respond, let me ask you a question. Is your mother a good or poor bowler?"
+  }
+]

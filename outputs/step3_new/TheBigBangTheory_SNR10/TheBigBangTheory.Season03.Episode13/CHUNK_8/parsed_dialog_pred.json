@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 2.4099999999999997,
+    "end": 3.62,
+    "text": "Sorry about that. There."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 19.71,
+    "end": 22.53,
+    "text": "Looks like Wallowitz got the net electrified."
+  },
+  {
+    "speaker": "Penny",
+    "start": 22.970000000000002,
+    "end": 25.11,
+    "text": "Oh, what can you do? Sheldon, are you okay?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 25.25,
+    "end": 48.38,
+    "text": "I'm fine. Not any longer the master of my own bladder. My new computer came with Windows 7. Windows 7 is much more user-friendly than Windows Vista. I don't like that. Don't you think looking for a new city to live in is a bit of an overreaction? Our apartment was broken into. Our security system tried to kill me, and as a result, I'm leaving Pasadena forever. Tell me how that's overreacting."
+  },
+  {
+    "speaker": "Penny",
+    "start": 61.83,
+    "end": 62.03,
+    "text": "Come on, Sheldon, you can't move. Don't you need to stay in one place so the mothership can find you when it returns?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 68.99,
+    "end": 71.97,
+    "text": "Oh, if that were only true. Unfortunately, as I'm earthbound for the foreseeable future, I need to find a location that's more hospitable than the mean streets of Pasadena, like Enid, Oklahoma."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 82.79,
+    "end": 82.99000000000001,
+    "text": "Low crime rate and high-speed internet connectivity, but no model train shops."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 90.67,
+    "end": 92.33,
+    "text": "Sorry, Enid."
+  }
+]

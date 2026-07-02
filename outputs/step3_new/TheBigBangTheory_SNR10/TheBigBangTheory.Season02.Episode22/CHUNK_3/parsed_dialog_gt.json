@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "penny",
+    "start": 1.9899999999999978,
+    "end": 10.450000000000017,
+    "text": "You know your friend Stuart? Well, he asked me out again and I said yes, and then I started thinking maybe I should talk to you first."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 4.02000000000001,
+    "end": 4.539999999999992,
+    "text": "Yes."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 10.930000000000007,
+    "end": 11.5,
+    "text": "About what?"
+  },
+  {
+    "speaker": "penny",
+    "start": 12.490000000000009,
+    "end": 16.50999999999999,
+    "text": "Well, does it bother you, me going out with one of your friends?'Cause you know, you and me..."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 16.810000000000002,
+    "end": 39.890000000000015,
+    "text": "No, no that's the past. I'm really more of a right now kind of guy. You know, living in the moment. Although I do have to live a little in the future,'cause, well, that's my job. Of course, my fondness for classic science fiction does draw my attention backwards, but those stories often take place in the future. In conclusion, no, it doesn't bother me."
+  },
+  {
+    "speaker": "penny",
+    "start": 41.76000000000002,
+    "end": 43.29999999999998,
+    "text": "Okay, well, that's really cool of you."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 43.900000000000006,
+    "end": 47.45000000000002,
+    "text": "Yeah, well I wouldn't say cool, I'd just say, that's Leonard!"
+  },
+  {
+    "speaker": "penny",
+    "start": 48.359999999999985,
+    "end": 51.47999999999999,
+    "text": "Well, In that case, do you mind giving me some advice?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 51.869999999999976,
+    "end": 53.91,
+    "text": "About Stuart? Love to."
+  },
+  {
+    "speaker": "penny",
+    "start": 54.619999999999976,
+    "end": 58.130000000000024,
+    "text": "He's very shy, how do I make him feel more comfortable around me?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.22,
+    "end": 67.26000000000002,
+    "text": "Well, uh, first of all, don't underestimate the value of discomfort. Well, yeah, Stuart thrives under pressure, that's why he works in a comic book store."
+  },
+  {
+    "speaker": "penny",
+    "start": 63.03,
+    "end": 63.16,
+    "text": "Really?"
+  }
+]

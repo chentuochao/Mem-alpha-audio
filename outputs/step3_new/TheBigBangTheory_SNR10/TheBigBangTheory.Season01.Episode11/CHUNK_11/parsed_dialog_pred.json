@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Raj",
+    "start": 9.08,
+    "end": 14.16,
+    "text": "Kitty warm kitty. Little ball of fur. Keep rubbing. Little ball of fur."
+  },
+  {
+    "speaker": "Raj",
+    "start": 27.71,
+    "end": 31.5,
+    "text": "What do you see? What do you see? The living room appears to be empty."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 37.93,
+    "end": 41.99,
+    "text": "Okay, he must be in his bedroom. My spare glasses are in my bedroom, on my dresser, next to my bat signal. Raj?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 38.95,
+    "end": 43.17,
+    "text": "I'm not going in there. No way, Jose."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 43.55,
+    "end": 46.23,
+    "text": "But I can't do it. I can't see anything."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 52.03,
+    "end": 53.34,
+    "text": "Fine."
+  },
+  {
+    "speaker": "Howard",
+    "start": 53.14,
+    "end": 59.03,
+    "text": "It's all right. Wireless mini cam and Bluetooth headset. We'll be your eyes. One more thing. This is a subsonic impact sensor. If Sheldon gets out of bed and starts to walk, this device will register it and send the signal to the laptop. At that point, based on the geography of the apartment and the ambulatory speed of a sick Sheldon, you'll have seven seconds to get out, glasses or no glasses."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 71.51,
+    "end": 73.55,
+    "text": "Will my footsteps set it off?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 73.55,
+    "end": 78.89,
+    "text": "No, you'll be on your hands and knees. Now you'll need to get the sensor as close as you can to Sheldon's room."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 78.89,
+    "end": 81.45,
+    "text": "But how do I carry it if I'm on my hands and knees?"
+  }
+]

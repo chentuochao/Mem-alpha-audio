@@ -1,0 +1,146 @@
+[
+  {
+    "speaker": "penny",
+    "start": 0.0,
+    "end": 0.36000000000001364,
+    "text": "What?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 4.360000000000014,
+    "end": 5.1299999999999955,
+    "text": "This is for you."
+  },
+  {
+    "speaker": "penny",
+    "start": 6.389999999999986,
+    "end": 7.649999999999977,
+    "text": "Ice cream?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 8.909999999999968,
+    "end": 20.24000000000001,
+    "text": "I've been familiarizing myself with female emotional crises by studying the comic strip Cathy. When she's upset, she says Ach and eats ice cream."
+  },
+  {
+    "speaker": "penny",
+    "start": 24.25999999999999,
+    "end": 24.99000000000001,
+    "text": "Um, Ach."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 29.00999999999999,
+    "end": 31.120000000000005,
+    "text": "If you were a cat, I would have brought you a lasagna."
+  },
+  {
+    "speaker": "penny",
+    "start": 32.02999999999997,
+    "end": 34.76999999999998,
+    "text": "Did Leonard send you over here?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.67999999999995,
+    "end": 42.16999999999996,
+    "text": "No, we haven't spoken since your abrupt departure last night caused us to forfeit to Stuart and his dastardly ringer Wil Wheaton."
+  },
+  {
+    "speaker": "penny",
+    "start": 43.43999999999994,
+    "end": 44.58000000000004,
+    "text": "Yeah, I'm sorry about that."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 44.639999999999986,
+    "end": 47.039999999999964,
+    "text": "I'm not too proud to admit that I cried myself to sleep."
+  },
+  {
+    "speaker": "penny",
+    "start": 48.789999999999964,
+    "end": 49.879999999999995,
+    "text": "Again, I'm sorry."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.99000000000001,
+    "end": 54.72000000000003,
+    "text": "And let me tell you sleep did not come easily with Leonard in the next room singing along with Alanis Morrisette."
+  },
+  {
+    "speaker": "penny",
+    "start": 57.889999999999986,
+    "end": 58.72000000000003,
+    "text": "You're kidding."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 58.85000000000002,
+    "end": 60.91999999999996,
+    "text": "No. Clearly another woman in dire need of ice cream."
+  },
+  {
+    "speaker": "penny",
+    "start": 63.210000000000036,
+    "end": 65.64999999999998,
+    "text": "All right, Sheldon, what part of this is supposed to make me feel better?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 65.74000000000001,
+    "end": 70.39999999999998,
+    "text": "The part where I tell you I've engineered a rematch with Stuart's team for tonight."
+  },
+  {
+    "speaker": "penny",
+    "start": 70.88999999999999,
+    "end": 74.42999999999995,
+    "text": "Oh, honey, I don't know. Things are a little weird with Leonard right now."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 75.09000000000003,
+    "end": 77.36000000000001,
+    "text": "You want me to remove him from the team? I'm the captain, I can do that."
+  },
+  {
+    "speaker": "penny",
+    "start": 79.75999999999999,
+    "end": 83.12,
+    "text": "No, no, that's okay. Just let me talk to him, and I'll get back to you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 84.32000000000005,
+    "end": 85.49000000000001,
+    "text": "When are you going to talk to him?"
+  },
+  {
+    "speaker": "penny",
+    "start": 87.25,
+    "end": 87.77999999999997,
+    "text": "I don't know."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 88.02999999999997,
+    "end": 90.01999999999998,
+    "text": "He's in the laundry room now. Now would be a good time."
+  },
+  {
+    "speaker": "penny",
+    "start": 91.49000000000001,
+    "end": 93.25,
+    "text": "You're not gonna leave me alone until I do it, are you?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 93.61000000000001,
+    "end": 95.34000000000003,
+    "text": "Oh, I think we both know the answer to that question."
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 1.1599999999999682,
+    "text": "Just have fun with it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.92999999999995,
+    "end": 7.459999999999923,
+    "text": "Morning Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 7.67999999999995,
+    "end": 9.069999999999936,
+    "text": "Hi. How did the intervention go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 9.230000000000018,
+    "end": 12.149999999999977,
+    "text": "Unfortunately, we weren't able to convince him to go to rehab."
+  },
+  {
+    "speaker": "penny",
+    "start": 12.42999999999995,
+    "end": 14.18999999999994,
+    "text": "Well, based on what you told me, I' m not surprised."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.569999999999936,
+    "end": 27.279999999999973,
+    "text": "But we did convince him to leave the motel. Come say hello. Leo, this is Penny, our friend and neighbor."
+  },
+  {
+    "speaker": "penny",
+    "start": 27.360000000000014,
+    "end": 29.92999999999995,
+    "text": "Hi Leo, how are you feeling?"
+  },
+  {
+    "speaker": "toby_loobenfeld",
+    "start": 35.19999999999993,
+    "end": 43.58999999999992,
+    "text": "Let me ask you something, Penny. Have you ever woken up in a fleabag motel, covered in your own vomit, next to a transsexual prostitute?"
+  },
+  {
+    "speaker": "penny",
+    "start": 47.02999999999997,
+    "end": 47.52999999999997,
+    "text": "No."
+  },
+  {
+    "speaker": "toby_loobenfeld",
+    "start": 47.629999999999995,
+    "end": 49.95999999999992,
+    "text": "Then don't ask me how I' m feeling."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 53.33999999999992,
+    "end": 58.74000000000001,
+    "text": "Well, that's Leo. Hey, um, why don't you tell me about your showcase last night?"
+  },
+  {
+    "speaker": "penny",
+    "start": 59.16999999999996,
+    "end": 62.389999999999986,
+    "text": "Oh, it was okay I guess, wasn't a big turn out but they both really seemed to like it."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 63.219999999999914,
+    "end": 64.25,
+    "text": "There were only two people there?"
+  },
+  {
+    "speaker": "penny",
+    "start": 64.90999999999997,
+    "end": 66.11000000000001,
+    "text": "By the end. Yeah."
+  },
+  {
+    "speaker": "toby_loobenfeld",
+    "start": 67.44999999999993,
+    "end": 69.48000000000002,
+    "text": "Damn you, Chaplain Horrigan!"
+  },
+  {
+    "speaker": "penny",
+    "start": 71.00999999999999,
+    "end": 73.25999999999999,
+    "text": "I' m... I' m sorry."
+  },
+  {
+    "speaker": "toby_loobenfeld",
+    "start": 73.49000000000001,
+    "end": 74.43000000000006,
+    "text": "The Philippines."
+  }
+]

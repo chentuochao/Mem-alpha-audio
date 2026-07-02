@@ -1,0 +1,44 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 6.8999999999999995,
+    "end": 10.5,
+    "text": "Can you drive me to Pottery Barn? Maybe if I turn off the night light, I can keep the sheets."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 21.92,
+    "end": 23.74,
+    "text": "Good morning."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 28.98,
+    "end": 36.12,
+    "text": "She's in my spot. Don't look at me like that. Everybody knows that's my spot."
+  },
+  {
+    "speaker": "Howard",
+    "start": 44.76,
+    "end": 49.46,
+    "text": "Good morning. Sheldon, sit down. And it's because we care about you that we've decided we have to speak up."
+  },
+  {
+    "speaker": "Penny",
+    "start": 52.599999999999994,
+    "end": 55.7,
+    "text": "Sheldon, you know that we care about you. You're hurting the people around you, sweetie."
+  },
+  {
+    "speaker": "Howard",
+    "start": 55.7,
+    "end": 58.88,
+    "text": "So we made you an appointment and we want you to keep it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 60.44,
+    "end": 63.44,
+    "text": "Department of Motor Vehicles new driver handbook."
+  }
+]

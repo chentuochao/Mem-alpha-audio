@@ -1,0 +1,134 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 5.72,
+    "end": 8.82,
+    "text": "Sure. Sisters. Holy crap on a cracker."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 22.66,
+    "end": 25.06,
+    "text": "Sheldon? What are you doing?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 25.06,
+    "end": 27.1,
+    "text": "It's Morse code."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 28.02,
+    "end": 29.57,
+    "text": "Why?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 29.57,
+    "end": 32.41,
+    "text": "So we can communicate through the wall."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 32.95,
+    "end": 36.16,
+    "text": "We are communicating through the wall."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 36.16,
+    "end": 39.09,
+    "text": "Yes, but the communication is not encrypted."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 39.59,
+    "end": 41.75,
+    "text": "I don't know Morse code."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 41.75,
+    "end": 46.63,
+    "text": "It's very simple. This is A. This is B. This is C."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.63,
+    "end": 49.48,
+    "text": "Sheldon, I'm not going to learn Morse code at three o'clock in the morning."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.48,
+    "end": 50.65,
+    "text": "Alright."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 51.71,
+    "end": 60.56,
+    "text": "Don't come in here. Don't come in here. Don't come in here. Don't, oh. What's going on?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 60.56,
+    "end": 62.3,
+    "text": "Ramona's sleeping on the couch."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 62.3,
+    "end": 64.45,
+    "text": "I know. Is she going home?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 64.45,
+    "end": 72.93,
+    "text": "Never. That's the problem. I need your help. I'm invoking the Skynet clause of our friendship agreement."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 68.16,
+    "end": 69.61,
+    "text": "What are you talking about?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 72.93,
+    "end": 73.13000000000001,
+    "text": "That only applies if you need me to help you destroy an artificial intelligence you created that's taking over the earth."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 79.36,
+    "end": 81.67,
+    "text": "Come on, don't nitpick."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 82.43,
+    "end": 84.16,
+    "text": "Good night."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 84.16,
+    "end": 89.51,
+    "text": "Alright. I'm invoking our body snatchers clause."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 89.66,
+    "end": 95.35,
+    "text": "The body snatchers clause requires me to help you destroy someone we know who's been replaced with an alien pod."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 95.35,
+    "end": 95.55,
+    "text": "Yes, she's in the living room. Go, I'll wait here. Sheldon, what are you doing out of bed? Now, do it!"
+  }
+]

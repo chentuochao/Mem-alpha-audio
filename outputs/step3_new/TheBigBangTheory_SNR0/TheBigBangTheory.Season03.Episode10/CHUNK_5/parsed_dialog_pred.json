@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 4.52,
+    "end": 8.6,
+    "text": "I'm crazy. I believe you. Research Journal, Entry 1. I'm about to embark on one of the great challenges of my scientific career. Teaching Penny physics."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 19.46,
+    "end": 26.18,
+    "text": "I'm calling it Project Gorilla. Come in. Take a seat. Subject has arrived. I've extended a friendly, casual greeting."
+  },
+  {
+    "speaker": "Penny",
+    "start": 33.779999999999994,
+    "end": 35.54,
+    "text": "Hey, Sheldon. Ready to get started?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 35.54,
+    "end": 40.720000000000006,
+    "text": "One moment. Subject appears well-rested and enthusiastic. Apparently, ignorance is bliss."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.2,
+    "end": 54.71,
+    "text": "Alright, let us begin. Where's your notebook?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 54.71,
+    "end": 56.62,
+    "text": "Um, I don't have one."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.62,
+    "end": 62.47,
+    "text": "Now, how are you going to take notes without a notebook? Well, how else are you going to study for the test?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 58.9,
+    "end": 60.3,
+    "text": "I have to take notes."
+  }
+]

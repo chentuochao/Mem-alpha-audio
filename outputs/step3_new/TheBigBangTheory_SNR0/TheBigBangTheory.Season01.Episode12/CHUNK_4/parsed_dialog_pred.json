@@ -1,0 +1,62 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 7.319999999999999,
+    "end": 7.72,
+    "text": "If you're concerned about sharing credit with me, your name can go first. I'm going. It's a small brown paper bag, ma. I'm looking at it right now. Why would I make that up? There's no ding dong in it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 19.2,
+    "end": 30.12,
+    "text": "How are two ding dongs tomorrow gonna help me today? So, this is engineering, huh? Engineering. Where the noble, semi-skilled laborers execute the vision of those who think and dream. Hello, Oompa Loompas of science."
+  },
+  {
+    "speaker": "Raj",
+    "start": 41.0,
+    "end": 43.41,
+    "text": "I'll talk to you later. Sheldon, what are you doing here?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 43.41,
+    "end": 45.35,
+    "text": "I just came by to say hello."
+  },
+  {
+    "speaker": "Raj",
+    "start": 45.35,
+    "end": 48.53,
+    "text": "I've been in this lab for three years. You've never come by to say hello."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 48.53,
+    "end": 53.75,
+    "text": "Well, up until now, I've had better things to do. So, what are we making today?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 53.75,
+    "end": 53.95,
+    "text": "A small payload support structure for a European science experimental package that's going up on the next station."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 59.91,
+    "end": 61.72,
+    "text": "Really? How does it work?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 61.72,
+    "end": 66.78,
+    "text": "When this is done, it will be attached to the payload bay, and the sensor apparatus will rest on it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.18,
+    "end": 70.74,
+    "text": "Uh, huh. So it's a shelf."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 0.0,
+    "end": 3.51,
+    "text": "Leslie. Leslie, I would like to propose an experiment."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 3.3099999999999996,
+    "end": 4.84,
+    "text": "Hi, Leonard. I'll go for it, go ahead."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 6.88,
+    "end": 9.11,
+    "text": "Leslie, I would like to propose an experiment."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 9.11,
+    "end": 9.309999999999999,
+    "text": "Hang on. I'm trying to see how long it takes a 500 kilowatt oxygen iodine laser to heat up my cup of noodles."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 16.42,
+    "end": 20.02,
+    "text": "I've done it. About two seconds. 2.6 for minestrone."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 25.53,
+    "end": 31.43,
+    "text": "Anyway, I was thinking more of a bio-social exploration with a neurochemical overlay."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 32.03,
+    "end": 34.39,
+    "text": "Wait, are you asking me out?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 35.33,
+    "end": 35.53,
+    "text": "I was going to characterize it as the modification of our colleague slash friendship paradigm with the addition of a date-like component, but we don't need to quibble over terminology."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 45.67,
+    "end": 48.13,
+    "text": "What sort of experiment would you propose?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 48.13,
+    "end": 48.330000000000005,
+    "text": "There is a generally accepted pattern in this area. I would pick you up, take you to a restaurant, then we would see a movie. Probably a romantic comedy featuring the talents of Hugh Grant or Sandra Bullock."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 58.97,
+    "end": 59.17,
+    "text": "Interesting. And would you agree that the primary way we would evaluate either the success or failure of the date would be based on the biochemical reaction during the goodnight kiss?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 67.72,
+    "end": 69.69,
+    "text": "Heart rate, pheromones, et cetera, yes."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 70.07,
+    "end": 76.24,
+    "text": "Well, why don't we just stipulate that the date goes well and moves with the key variable? Yes."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 74.14,
+    "end": 78.1,
+    "text": "You mean kiss you now? We need to find the parameters of the kiss."
+  },
+  {
+    "speaker": "Leslie",
+    "start": 78.1,
+    "end": 80.47,
+    "text": "Closed mouth, but romantic. Mint, Trojan."
+  }
+]

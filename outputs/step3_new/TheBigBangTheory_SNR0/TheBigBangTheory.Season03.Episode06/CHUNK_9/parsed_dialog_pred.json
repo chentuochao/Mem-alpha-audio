@@ -1,0 +1,68 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 5.54,
+    "end": 7.72,
+    "text": "Sheldon, come in. There's some in the fridge."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 7.52,
+    "end": 7.92,
+    "text": "Thank you. I'd like to make a sandwich, but I'm out of bread. You shouldn't keep your bread in the refrigerator. Stale-ness is caused by crystallization of the starch molecules, which occurs faster at cool temperatures."
+  },
+  {
+    "speaker": "Penny",
+    "start": 14.73,
+    "end": 17.27,
+    "text": "On Earth, we say thank you."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 17.27,
+    "end": 22.439999999999998,
+    "text": "So, Leonard, how goes the mimesis? You know, mimesis. An action in which the mimic takes on the properties of a specific object or organism. Mimesis."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 33.61,
+    "end": 36.84,
+    "text": "Oh, mimesis? The hell are you talking about?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 37.38,
+    "end": 37.580000000000005,
+    "text": "I'm attempting to communicate with you without my meaning becoming apparent to those around you. Let me try again. Have the indigenous fauna accepted you as one of their own?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 51.9,
+    "end": 54.34,
+    "text": "Nudge, nudge, wink, wink."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 55.09,
+    "end": 56.85,
+    "text": "Oh, I guess so."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 56.85,
+    "end": 57.050000000000004,
+    "text": "Good. FYI, after I eat my sandwich, I'm taking Peter Pauli's petang kite out for a test run. Would you like to get your Delta Wing Raptor and join me?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 65.84,
+    "end": 69.17,
+    "text": "I don't want to fly kites, Sheldon. We're watching football here."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 69.17,
+    "end": 69.37,
+    "text": "I can see that. I was providing you with an alternative. Courtesy I was never offered in similar circumstances."
+  }
+]

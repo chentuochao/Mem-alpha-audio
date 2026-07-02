@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "Leonard",
+    "start": 7.72,
+    "end": 12.47,
+    "text": "Here's your T-shirt. No. It stands for Perpetual Motion Squad."
+  },
+  {
+    "speaker": "Laird",
+    "start": 12.31,
+    "end": 14.7,
+    "text": "PMS. A couple days early. Oh, right, of course. What was I thinking?"
+  },
+  {
+    "speaker": "Unknown_speaker025",
+    "start": 16.15,
+    "end": 22.56,
+    "text": "Good afternoon, everyone, and welcome to this year's Physics Bowl. Today's preliminary match features two great teams, AA versus PMS."
+  },
+  {
+    "speaker": "Laird",
+    "start": 30.91,
+    "end": 32.62,
+    "text": "All night long, y'all."
+  },
+  {
+    "speaker": "Unknown_speaker025",
+    "start": 36.84,
+    "end": 37.040000000000006,
+    "text": "Okay, well, let's jump right in. First question, for 10 points, what is the ISO spin singlet partner of the Pi Zero Maison?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.79,
+    "end": 48.71,
+    "text": "PMS, the Aida Maison."
+  },
+  {
+    "speaker": "Unknown_speaker025",
+    "start": 48.71,
+    "end": 53.7,
+    "text": "Correct. All in protest, on what grounds?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 53.7,
+    "end": 56.16,
+    "text": "The Velcro on my wrist brace caught on my shirt."
+  },
+  {
+    "speaker": "Unknown_speaker025",
+    "start": 56.68,
+    "end": 56.88,
+    "text": "Denied. Alright, for 10 points, what is the lightest element on Earth with no stable isotope? AA."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 64.99,
+    "end": 67.05,
+    "text": "And of course, the answer is Technetium."
+  },
+  {
+    "speaker": "Unknown_speaker025",
+    "start": 67.05,
+    "end": 67.25,
+    "text": "Terrific. Next question, what is the force between two uncharged plates due to quantum vacuum fluctuation? PMS."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 76.31,
+    "end": 78.78,
+    "text": "Sheldon Kitzakon, the Casimir effect."
+  },
+  {
+    "speaker": "Unknown_speaker025",
+    "start": 78.78,
+    "end": 91.23,
+    "text": "Correct. How does a quantum computer factor large numbers? PMS. Correct."
+  },
+  {
+    "speaker": "Laird",
+    "start": 89.44,
+    "end": 90.49,
+    "text": "Choice algorithm."
+  }
+]

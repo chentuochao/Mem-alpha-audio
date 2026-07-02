@@ -1,0 +1,56 @@
+[
+  {
+    "speaker": "Raj",
+    "start": 0.0,
+    "end": 6.2,
+    "text": "Stay low. Bare left. Now keep true. That means go straight."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 4.23,
+    "end": 8.3,
+    "text": "What? It just said go straight."
+  },
+  {
+    "speaker": "Raj",
+    "start": 8.3,
+    "end": 12.38,
+    "text": "It doesn't say go straight when you're giving bearings, you say keep true."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 12.74,
+    "end": 20.02,
+    "text": "Alright. I just hit my head."
+  },
+  {
+    "speaker": "Raj",
+    "start": 20.02,
+    "end": 24.46,
+    "text": "You gotta keep true. Okay, turn right. The, the, the picture's breaking up. Angle your head to the right. Now lean forward. Lean forward. That's it. Now just keep true."
+  },
+  {
+    "speaker": "Raj",
+    "start": 40.81,
+    "end": 41.010000000000005,
+    "text": "Alright, you're close enough to Sheldon's room. Deploy the sensor. Now turn it on."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 47.83,
+    "end": 49.39,
+    "text": "It wasn't on?"
+  },
+  {
+    "speaker": "Raj",
+    "start": 49.39,
+    "end": 63.47,
+    "text": "No. Then why did I have to crawl? Oh, I guess he did. Good. From this point forward, you will have to crawl."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 64.35,
+    "end": 65.85,
+    "text": "I know."
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 0.0,
+    "end": 1.2999999999999545,
+    "text": "Dr. Cooper's working."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 1.6299999999999955,
+    "end": 6.480000000000018,
+    "text": "Yeah, I can see that. Sheldon, Halo night, Koothrappali's. You coming?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.720000000000027,
+    "end": 9.559999999999945,
+    "text": "Oh, yes, it's Halo night. Let me just dry my tootsies."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 10.730000000000018,
+    "end": 12.769999999999982,
+    "text": "You're not going to Halo night."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 13.149999999999977,
+    "end": 15.730000000000018,
+    "text": "Yes, I am. It's Wednesday. Wednesday's Halo night.</i>"
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 17.370000000000005,
+    "end": 21.149999999999977,
+    "text": "Didn't a great man once say,\" Science demands nothing less than the fervent and"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.50999999999999,
+    "end": 25.200000000000045,
+    "text": "He did."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 25.529999999999973,
+    "end": 26.909999999999968,
+    "text": "And who was that great man?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.779999999999973,
+    "end": 31.730000000000018,
+    "text": "Me. Sorry, Leonard."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 32.17999999999995,
+    "end": 33.58000000000004,
+    "text": "Seriously? You're not coming?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.799999999999955,
+    "end": 35.68999999999994,
+    "text": "You heard her. How can I argue with me?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 37.89999999999998,
+    "end": 42.809999999999945,
+    "text": "Okay, well, once again, you guys have a good... whatever this is."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 45.85000000000002,
+    "end": 49.210000000000036,
+    "text": "Dr. Cooper, I have to tell you, your friends are holding you back."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.72000000000003,
+    "end": 51.809999999999945,
+    "text": "I prefer to think of it as I'm pulling them forward."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 53.049999999999955,
+    "end": 58.73000000000002,
+    "text": "Halo night? A man with your intellectual gifts doesn't waste an evening playing video games."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 59.319999999999936,
+    "end": 60.379999999999995,
+    "text": "He does on Wednesdays."
+  },
+  {
+    "speaker": "ramona_nowitzki",
+    "start": 61.860000000000014,
+    "end": 63.370000000000005,
+    "text": "Not if he wants a Nobel Prize."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 64.21000000000004,
+    "end": 65.25999999999999,
+    "text": "He does want that."
+  }
+]

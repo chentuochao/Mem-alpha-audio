@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 0.6400000000001,
+    "text": "Help me open it."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 2.050000000000068,
+    "end": 4.470000000000027,
+    "text": "Are you crazy? We can't go down an empty elevator shaft."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 4.720000000000027,
+    "end": 9.009999999999991,
+    "text": "Fine, if you don't want to proceed, then you forfeit the bet, and I'll take possession of your Fantastic Four."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 11.180000000000064,
+    "end": 12.020000000000095,
+    "text": "Let's open her up."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 14.100000000000023,
+    "end": 16.210000000000036,
+    "text": "Are you bothered that I can so easily manipulate you?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 17.06000000000006,
+    "end": 23.220000000000027,
+    "text": "Don't push me, Sheldon. I may be small, but I took kung fu when I was 13, and I remember a good deal of it."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 24.460000000000036,
+    "end": 34.07000000000005,
+    "text": "Oh, really? Well, I grew up with an older brother and a very contentious twin sister and I believe I could easily best you in any physical confrontation, be it noogies, swirlies or the classic why are you hitting yourself?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 37.65000000000009,
+    "end": 40.59000000000003,
+    "text": "Ooh, big talk from a man who was once treed by a chicken."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 49.99000000000001,
+    "end": 51.280000000000086,
+    "text": "What are we drinking now?"
+  },
+  {
+    "speaker": "penny",
+    "start": 51.879999999999995,
+    "end": 53.29000000000008,
+    "text": "Peppermint schnapps."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 55.49000000000001,
+    "end": 57.41000000000008,
+    "text": "Why would you buy peppermint schnapps?"
+  },
+  {
+    "speaker": "penny",
+    "start": 57.620000000000005,
+    "end": 61.370000000000005,
+    "text": "Because I like peppermint, and it's fun to say schnapps."
+  }
+]

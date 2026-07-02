@@ -1,0 +1,80 @@
+[
+  {
+    "speaker": "sheldon_cooper",
+    "start": 0.0,
+    "end": 7.92999999999995,
+    "text": "This is great. Look at me, out in the real world of ordinary people, just living their ordinary, colourless, workaday lives."
+  },
+  {
+    "speaker": "penny",
+    "start": 9.009999999999991,
+    "end": 9.599999999999966,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 10.079999999999984,
+    "end": 18.20999999999998,
+    "text": "No, thank you. And thank you, ordinary person. Hey, you want to hear an interesting thing about tomatoes."
+  },
+  {
+    "speaker": "penny",
+    "start": 18.45999999999998,
+    "end": 22.369999999999948,
+    "text": "Uh, no, no not really. Listen, didn't you say you needed some eggs."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 22.539999999999964,
+    "end": 28.549999999999955,
+    "text": "Uh, yes, but anyone who knows anything about the dynamics of bacterial growth knows to pick up their refrigerated foods on the way out of the supermarket."
+  },
+  {
+    "speaker": "penny",
+    "start": 29.189999999999998,
+    "end": 32.71999999999997,
+    "text": "Oh, okay, well maybe you should start heading on out then."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 33.35999999999996,
+    "end": 42.289999999999964,
+    "text": "No, this is fun. Oh, the thing about tomatoes, and I think you'll really enjoy this, is, they're shelved with the vegetables, but they're technically a fruit. Isn't it?"
+  },
+  {
+    "speaker": "penny",
+    "start": 41.329999999999984,
+    "end": 44.35999999999996,
+    "text": "Interesting. No, I mean what you find enjoyable."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 49.289999999999964,
+    "end": 49.879999999999995,
+    "text": "Oh boy."
+  },
+  {
+    "speaker": "penny",
+    "start": 51.96999999999997,
+    "end": 52.69999999999999,
+    "text": "What now?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 53.95999999999998,
+    "end": 61.539999999999964,
+    "text": "Well, there's some value to taking a multivitamin, but the human body can only absorb so much, what you're buying here are the ingredients for very expensive urine."
+  },
+  {
+    "speaker": "penny",
+    "start": 63.97999999999996,
+    "end": 66.17999999999995,
+    "text": "Well, maybe that's what I was going for."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 66.97999999999996,
+    "end": 68.69999999999999,
+    "text": "Well then you'll want some manganese."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "speaker": "dan",
+    "start": 0.0,
+    "end": 1.9700000000000273,
+    "text": "I drive a Chevy Cavalier."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 3.8199999999999363,
+    "end": 4.5499999999999545,
+    "text": "Oh, dear lord."
+  },
+  {
+    "speaker": "penny",
+    "start": 5.100000000000023,
+    "end": 6.029999999999973,
+    "text": "Sheldon, we have to go."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 6.17999999999995,
+    "end": 12.809999999999945,
+    "text": "Not now, Penny, this poor man needs me. You hold on, I'll be right with you. What computer do you have, and please don't say a white one?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 19.309999999999945,
+    "end": 19.91999999999996,
+    "text": "Excuse me."
+  },
+  {
+    "speaker": "althea",
+    "start": 20.41999999999996,
+    "end": 21.539999999999964,
+    "text": "Fill this out, have a seat."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 21.74000000000001,
+    "end": 26.16999999999996,
+    "text": "No, listen, see we're throwing my friend a surprise party and I' m supposed to keep him out of his apartment for two hours."
+  },
+  {
+    "speaker": "althea",
+    "start": 26.50999999999999,
+    "end": 28.08000000000004,
+    "text": "Uh- huh, fill this out and have a seat."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 28.58000000000004,
+    "end": 32.83000000000004,
+    "text": "No, see, the only way I could get him to leave is to tell him I ate a peanut. Because I' m allergic to peanuts."
+  },
+  {
+    "speaker": "althea",
+    "start": 32.960000000000036,
+    "end": 35.379999999999995,
+    "text": "Oh, well in that case fill this out and have a seat."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 37.210000000000036,
+    "end": 45.44999999999993,
+    "text": "Look, all I need from you is to take me in the back and give me a band- aid so I can pretend I had a shot of epinephrine and they you tell my friend you need to keep me under observation for about an hour, hour and a half. Yes."
+  },
+  {
+    "speaker": "althea",
+    "start": 44.19999999999993,
+    "end": 46.72000000000003,
+    "text": "Is that all you need? Get out of my ER."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 47.799999999999955,
+    "end": 49.049999999999955,
+    "text": "No, you don't understand."
+  },
+  {
+    "speaker": "althea",
+    "start": 49.09000000000003,
+    "end": 52.559999999999945,
+    "text": "Oh, I understand, but unfortunately this hospital is not equipped to treat stupid."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 55.039999999999964,
+    "end": 61.960000000000036,
+    "text": "Okay, I get it, I know how the world works, how about if I were to introduce you to the man who freed your people."
+  }
+]

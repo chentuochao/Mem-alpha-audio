@@ -1,0 +1,206 @@
+[
+  {
+    "speaker": "barry_kripke",
+    "start": 0.0,
+    "end": 1.4700000000000273,
+    "text": "What is his pwoblem?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 3.900000000000091,
+    "end": 5.880000000000109,
+    "text": "Way to bust out the Jedi mind tricks, dude."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 8.170000000000073,
+    "end": 12.210000000000036,
+    "text": "I just want to make sure that we're all clear, standard robotic fighting league rules apply."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 12.779999999999973,
+    "end": 16.789999999999964,
+    "text": "Are you cwazy? This is a stweet fight, the stweet has no rules."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 17.360000000000127,
+    "end": 19.529999999999973,
+    "text": "He's right, Leonard. The paradigm is to the death."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 19.789999999999964,
+    "end": 26.039999999999964,
+    "text": "I will, however, give you the opportunity to concede my supewiowity now and offer me your wobot as the spoils of war."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 27.529999999999973,
+    "end": 30.65000000000009,
+    "text": "Never. I'd rather see Monte dead than in your hands."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 30.830000000000155,
+    "end": 34.23000000000002,
+    "text": "That could be easily awanged. Weady, set, go?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 35.11000000000013,
+    "end": 35.539999999999964,
+    "text": "Do it."
+  },
+  {
+    "speaker": "barry_kripke",
+    "start": 36.38000000000011,
+    "end": 39.49000000000001,
+    "text": "Alwight then. Weady. Set. Go."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 44.12000000000012,
+    "end": 45.15000000000009,
+    "text": "Come on, Sheldon, you got this."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 45.24000000000001,
+    "end": 48.690000000000055,
+    "text": "Indeed. We are prepared for anything he can throw at us."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 56.059999999999945,
+    "end": 56.73000000000002,
+    "text": "That's new."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 58.16000000000008,
+    "end": 60.299999999999955,
+    "text": "Run, Monte, run!"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 61.73000000000002,
+    "end": 65.28999999999996,
+    "text": "Go, Monte! Go Monte!"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 66.72000000000003,
+    "end": 69.58000000000015,
+    "text": "Go, go, go, go!"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 71.0,
+    "end": 75.28999999999996,
+    "text": "Don't hurt us, don't hurt us,"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 76.0,
+    "end": 79.62000000000012,
+    "text": "Well, so much for making up for the emotional wounds of childhood."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 81.98000000000002,
+    "end": 88.8900000000001,
+    "text": "I did this. Monte was killed by my hubris and my pride. No matter what anybody says, this is my fault."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 88.95000000000005,
+    "end": 90.1400000000001,
+    "text": "No one's arguing with you, dude."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 91.86000000000013,
+    "end": 94.62000000000012,
+    "text": "I got your text. How bad is... Oy."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 96.27999999999997,
+    "end": 98.37000000000012,
+    "text": "Forget the robot. What happened to you?"
+  },
+  {
+    "speaker": "penny",
+    "start": 99.55999999999995,
+    "end": 100.52999999999997,
+    "text": "He slipped and fell."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 100.75999999999999,
+    "end": 105.75,
+    "text": "Yes, I slipped and fell. In the bathroom. Bounced right off the tub."
+  },
+  {
+    "speaker": "penny",
+    "start": 108.00999999999999,
+    "end": 111.76999999999998,
+    "text": "Yes, now he knows what bathtubs are capable of doing when you don't treat them with respect."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 113.01999999999998,
+    "end": 116.10000000000014,
+    "text": "Yeah. They sucker punch you when your eyes are closed."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 118.80999999999995,
+    "end": 122.28999999999996,
+    "text": "So what do you think, Howard? It's not that bad, right?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 123.0,
+    "end": 131.60000000000014,
+    "text": "Oh, no. A little electrical tape, some solder. Are you insane? I've seen space probes that crashed into the desert that were in better shape than this."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 131.61000000000013,
+    "end": 141.1500000000001,
+    "text": "You're right. Monte's gone. We'll bury him in the morning. A simple ceremony. I'll speak. Leonard, you'll play your cello."
+  },
+  {
+    "speaker": "penny",
+    "start": 143.34000000000015,
+    "end": 146.95000000000005,
+    "text": "Sheldon, honey, aren't you getting a little carried away? I mean, it's just a toy robot."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 149.68000000000006,
+    "end": 150.57000000000016,
+    "text": "Just a toy robot?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 157.20000000000005,
+    "end": 157.70000000000005,
+    "text": "Penny."
+  },
+  {
+    "speaker": "penny",
+    "start": 158.43000000000006,
+    "end": 162.95000000000005,
+    "text": "I know, I got it. Sheldon, I'm sorry."
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 165.80999999999995,
+    "end": 169.55999999999995,
+    "text": "Well, don't get the wrong idea. The way I see it, I'm halfway to pity sex."
+  }
+]

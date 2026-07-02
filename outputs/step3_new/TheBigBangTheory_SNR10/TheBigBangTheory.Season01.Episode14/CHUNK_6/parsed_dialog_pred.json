@@ -1,0 +1,32 @@
+[
+  {
+    "speaker": "Penny",
+    "start": 9.32,
+    "end": 13.24,
+    "text": "Pathetic. All of you, completely pathetic."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 17.36,
+    "end": 19.28,
+    "text": "It only moves in time. It would be worse than useless in a swamp. My turn."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 35.76,
+    "end": 46.84,
+    "text": "Leonard, it's two in the morning. So it's my turn. Why don't you set it for the day before yesterday?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.72,
+    "end": 50.63,
+    "text": "Oh. Because I want to go back and keep myself from getting a time machine."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 50.63,
+    "end": 50.830000000000005,
+    "text": "You can't. If you were to prevent yourself from buying it in the past, you would not have it available in the present to travel back and stop yourself from buying it. Ergo, you would still have it. This is a classic rookie time travel mistake."
+  }
+]

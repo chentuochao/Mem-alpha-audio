@@ -1,0 +1,86 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 0.0,
+    "end": 12.78,
+    "text": "I'm a bunch of rat. Hoisted by my own spam filter. I put you there after you forwarded me a picture of a cat playing the piano entitled This is funny."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 19.17,
+    "end": 20.7,
+    "text": "What am I doing in your spam folder? I'm getting to it."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 20.7,
+    "end": 20.9,
+    "text": "I assure you, you'll be sorry you wasted your money on an iPod when Microsoft comes out with theirs."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 28.53,
+    "end": 31.42,
+    "text": "Oh yeah, I saw that. That was hilarious. Okay, do you have an opinion about everything?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 31.42,
+    "end": 32.81,
+    "text": "Yes."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 36.56,
+    "end": 44.81,
+    "text": "It's not an assumption. Change seats with me. I don't like this spot. I have to keep turning my head."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 41.41,
+    "end": 42.01,
+    "text": "Why?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 46.87,
+    "end": 49.32,
+    "text": "Ooh, it's time for Babylon 5."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 49.32,
+    "end": 54.79,
+    "text": "We don't watch Babylon 5 in this apartment. Because no one likes Babylon 5."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 51.88,
+    "end": 52.8,
+    "text": "Why not?"
+  },
+  {
+    "speaker": "Leonard",
+    "start": 54.79,
+    "end": 58.66,
+    "text": "I like it. There you go. Three against one."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 58.66,
+    "end": 58.86,
+    "text": "They don't get a vote. It's one against one. And according to the roommate agreement, all ties will be settled by me."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 65.64,
+    "end": 67.58,
+    "text": "And I said no to that."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 67.58,
+    "end": 71.52,
+    "text": "And I said yes. And I settle all ties."
+  }
+]

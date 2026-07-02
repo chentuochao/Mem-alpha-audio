@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 4.34,
+    "end": 8.06,
+    "text": "Oh, look, Saturn 3 is on. How is Deep Space 9 better than Saturn 3?"
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 7.999999999999999,
+    "end": 15.52,
+    "text": "I don't want to watch Saturn 3. Deep Space 9 is better. Simple subtraction will tell you it's six better. Compromise. Watch Babylon 5."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 16.2,
+    "end": 18.87,
+    "text": "In what sense is that a compromise?"
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 18.87,
+    "end": 19.07,
+    "text": "Well, five is part way between three and, never mind. I'll tell you what, how about we go rock, paper, scissors?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 25.88,
+    "end": 26.08,
+    "text": "No, I don't think so. No, anecdotal evidence suggests that in a game of rock, paper, scissors, players familiar with each other will tie 75 to 80 percent of the time due to the limited number of outcomes. I suggest rock, paper, scissors, lizard, Spock."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 40.96,
+    "end": 42.09,
+    "text": "What?"
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 42.09,
+    "end": 42.290000000000006,
+    "text": "It's very simple, but scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock. And as it always has, rock crushes scissors."
+  },
+  {
+    "speaker": "Rajesh",
+    "start": 60.82,
+    "end": 62.36,
+    "text": "Okay, I think I got it."
+  }
+]

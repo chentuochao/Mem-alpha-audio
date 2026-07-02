@@ -1,0 +1,104 @@
+[
+  {
+    "speaker": "howard_wolowitz",
+    "start": 0.0,
+    "end": 1.1599999999999966,
+    "text": "So who wants to rent Fiddler?"
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 1.4699999999999989,
+    "end": 3.210000000000008,
+    "text": "No need, we have the special edition."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 5.810000000000002,
+    "end": 7.460000000000008,
+    "text": "Well, maybe we are like Haroun and Tanweer."
+  },
+  {
+    "speaker": "sheldon_cooper",
+    "start": 32.379999999999995,
+    "end": 59.53000000000003,
+    "text": "This is Dr Sheldon Cooper. Yeah, I need to cancel my membership to the Planetarium. Yeah, well I' m sorry too, but there's just no room for you in my wallet. Yeah, I understand, but it was between you and the Museum of Natural History and, frankly, you don't have dinosaurs. Well I'll miss you too, bye bye. Okay, I know you're texting about me, and I'd really like you to stop."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 62.30000000000001,
+    "end": 64.50999999999999,
+    "text": "Oh dear, I am rightly and truly screwed."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 65.45999999999998,
+    "end": 67.43,
+    "text": "Hey, I thought you were finding new friends."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 67.45999999999998,
+    "end": 71.11000000000001,
+    "text": "I' ve got some feelers out. In the meantime, listen to this."
+  },
+  {
+    "speaker": "lalita_gupta",
+    "start": 71.74000000000001,
+    "end": 82.72000000000003,
+    "text": "Hi Rajesh, this is Lalita Gupta. Your mother gave my mother your phone number to give to me. So I' m calling you, and, ah... call me back. Bye."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 83.91000000000003,
+    "end": 86.31,
+    "text": "Can you believe how pushy she is?"
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 88.18,
+    "end": 89.53000000000003,
+    "text": "So don't call her."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 89.55000000000001,
+    "end": 94.19,
+    "text": "If I don't call her, I won't hear the end of it from my parents. How can I call her, you know I can't talk to women."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 91.76999999999998,
+    "end": 92.50999999999999,
+    "text": "So call her."
+  },
+  {
+    "speaker": "leonard_hofstadter",
+    "start": 95.63,
+    "end": 96.82999999999998,
+    "text": "I' m done, anybody else?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 98.03000000000003,
+    "end": 100.20999999999998,
+    "text": "Give me the phone. Just give it to me."
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 98.63,
+    "end": 98.94,
+    "text": "Why?"
+  },
+  {
+    "speaker": "raj_koothrappali",
+    "start": 101.57,
+    "end": 102.0,
+    "text": "What are you doing?"
+  },
+  {
+    "speaker": "howard_wolowitz",
+    "start": 102.07,
+    "end": 106.32999999999998,
+    "text": "Don't worry, you'll thank me. Hello Lalita, Raj Koothrappali."
+  }
+]

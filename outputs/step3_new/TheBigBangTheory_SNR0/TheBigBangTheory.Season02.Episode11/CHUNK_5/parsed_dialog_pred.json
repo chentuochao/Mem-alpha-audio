@@ -1,0 +1,242 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 16.18,
+    "end": 34.08,
+    "text": "In the pre-Christian era, as the winter solstice approached and the plants died, pagans brought evergreen boughs into their homes as an act of sympathetic magic intended to guard the life essences of the plants until spring. This custom was later appropriated by Northern Europeans and eventually it becomes the so-called Christmas tree. Wait. You bought me a present? Why would you do such a thing?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 31.02,
+    "end": 32.07,
+    "text": "Okay, well, thank you for that, but I got you and Leonard a few silly neighbor gifts, so I'll just put them under my tree. Uh-huh."
+  },
+  {
+    "speaker": "Penny",
+    "start": 34.66,
+    "end": 36.69,
+    "text": "I don't know, 'cause it's Christmas."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 36.69,
+    "end": 36.89,
+    "text": "Oh, Penny, I know you think you're being generous, but the foundation of gift giving is reciprocity. You haven't given me a gift. You've given me an obligation."
+  },
+  {
+    "speaker": "Raj",
+    "start": 46.76,
+    "end": 47.160000000000004,
+    "text": "And that, Charlie Brown, is what boredom is all about. Don't feel bad, Penny. It's a classic rookie mistake. My first Hanukkah with Sheldon, he yelled at me for eight nights."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 57.15,
+    "end": 57.35,
+    "text": "Of course I do. The essence of the custom is that I now have to go out and purchase for you a gift of commensurate value and representing the same perceived level of friendship as that represented by the gift you've given me. It's no wonder suicide rates skyrocket this time of year."
+  },
+  {
+    "speaker": "Penny",
+    "start": 71.95,
+    "end": 74.35,
+    "text": "Okay, you know what? Forget it. I'm not giving you a present."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 74.35,
+    "end": 74.55,
+    "text": "No, he's too late. I see it. That elf sticker says to Sheldon. The die has been cast. The moving finger has writ. Hannibal has crossed the Alps."
+  },
+  {
+    "speaker": "Raj",
+    "start": 84.57,
+    "end": 87.95,
+    "text": "I know it's funny when it's not happening to us."
+  },
+  {
+    "speaker": "Penny",
+    "start": 89.95,
+    "end": 92.6,
+    "text": "Sheldon, I am very, very sorry."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 92.6,
+    "end": 101.07,
+    "text": "No, no, I brought this on myself by being such an endearing and important part of your life. I'm going to need a ride to the mall."
+  },
+  {
+    "speaker": "Raj",
+    "start": 101.75,
+    "end": 103.99,
+    "text": "It's happening to us."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 109.55,
+    "end": 115.33,
+    "text": "Ow! Yeah, I guess. Thanks for letting me try out your motorcycle."
+  },
+  {
+    "speaker": "Dave",
+    "start": 115.89,
+    "end": 117.63,
+    "text": "You gonna make it? No problem."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 117.63,
+    "end": 123.0,
+    "text": "I had no idea it was so heavy. It just fell right over on me, didn't it?"
+  },
+  {
+    "speaker": "Dave",
+    "start": 123.0,
+    "end": 125.63,
+    "text": "Yeah, lucky for you it wasn't moving."
+  },
+  {
+    "speaker": "Penny",
+    "start": 126.31,
+    "end": 128.5,
+    "text": "Oh, hey, Leonard. Ooh, are you okay?"
+  },
+  {
+    "speaker": "Dave",
+    "start": 128.5,
+    "end": 131.22,
+    "text": "Oh, yeah, it's just a little motorcycle accident."
+  },
+  {
+    "speaker": "Penny",
+    "start": 131.22,
+    "end": 133.22,
+    "text": "My God, how fast were you going?"
+  },
+  {
+    "speaker": "Dave",
+    "start": 133.22,
+    "end": 140.85,
+    "text": "I don't know, it's all such a blur. Good one. He couldn't even get it started. Hi, Dave."
+  },
+  {
+    "speaker": "Penny",
+    "start": 140.85,
+    "end": 145.65,
+    "text": "Hey, Penny. Is it your motorcycle? Oh, is it okay?"
+  },
+  {
+    "speaker": "Dave",
+    "start": 146.71,
+    "end": 152.43,
+    "text": "Lucky for the bike, it landed on my leg. You mind giving me a hand with Speed Racer here?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 152.43,
+    "end": 158.69,
+    "text": "Sure. So, um, Dave, how do you know Leonard? No, you're not."
+  },
+  {
+    "speaker": "Dave",
+    "start": 155.54,
+    "end": 156.91,
+    "text": "I'm a physicist."
+  },
+  {
+    "speaker": "Dave",
+    "start": 159.71,
+    "end": 161.77,
+    "text": "Why is that so surprising?"
+  },
+  {
+    "speaker": "Penny",
+    "start": 161.77,
+    "end": 166.59,
+    "text": "Oh, well, it's just that the physicists I know are indoorsy and pale."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 167.47,
+    "end": 172.85,
+    "text": "I'm not indoorsy. I just wear the appropriate sunblock because I don't take melanoma lightly."
+  },
+  {
+    "speaker": "Penny",
+    "start": 172.85,
+    "end": 175.85,
+    "text": "So, are you and Leonard working on an experiment together?"
+  },
+  {
+    "speaker": "Dave",
+    "start": 175.85,
+    "end": 176.84,
+    "text": "Yeah, actually we are."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 176.84,
+    "end": 180.93,
+    "text": "Yeah, we're examining the radiation levels of quantum multipliers used for a new dark matter detector."
+  },
+  {
+    "speaker": "Penny",
+    "start": 180.93,
+    "end": 187.03,
+    "text": "That's pretty spooky. Dave was talking. You know, I love science. Since always. Call me a geek, but I am just nuts for the whole subatomic particle thing."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 186.33,
+    "end": 186.83,
+    "text": "Since when?"
+  },
+  {
+    "speaker": "Dave",
+    "start": 192.95,
+    "end": 195.61,
+    "text": "The last thing I would ever call you is a geek."
+  },
+  {
+    "speaker": "Penny",
+    "start": 195.61,
+    "end": 199.11,
+    "text": "Oh, well, that's what I am. Queen of the nerds."
+  },
+  {
+    "speaker": "Dave",
+    "start": 199.11,
+    "end": 205.06,
+    "text": "Hey, would you like? I can show you the lab we're working in. We've got some cool toys, you know, lasers and stuff."
+  },
+  {
+    "speaker": "Penny",
+    "start": 205.06,
+    "end": 210.32,
+    "text": "You know, I have always wanted to see a big science lab. Since always."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 208.51,
+    "end": 209.29,
+    "text": "Since when?"
+  },
+  {
+    "speaker": "Dave",
+    "start": 210.64,
+    "end": 217.96,
+    "text": "Hey, you okay here? How about we go see it now? We can see the after, we can take the bike up the coast, grab a little bite to eat."
+  },
+  {
+    "speaker": "Leonard",
+    "start": 212.26,
+    "end": 213.52,
+    "text": "Uh, yeah, I guess."
+  },
+  {
+    "speaker": "Penny",
+    "start": 217.96,
+    "end": 221.0,
+    "text": "Um, yeah, yeah, that sounds great. Let me just get my jacket."
+  }
+]

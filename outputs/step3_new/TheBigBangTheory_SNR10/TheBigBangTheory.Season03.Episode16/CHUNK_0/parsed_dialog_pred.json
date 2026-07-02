@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Sheldon",
+    "start": 7.62,
+    "end": 23.46,
+    "text": "Will you please turn your shirt off? What? I'm giving myself dramatic entrance music. People will know I'm awesome and to be feared. Did he finally write a sequel to his autobiography? I'm sure ages 79 through 87 were just action-packed."
+  },
+  {
+    "speaker": "Howard",
+    "start": 8.56,
+    "end": 17.92,
+    "text": "Right. There's nothing more awesome and frightening than a man who's got music blasting from between his nipples. Hey, Stewart, what's going on?"
+  },
+  {
+    "speaker": "Stuart",
+    "start": 29.18,
+    "end": 29.58,
+    "text": "Well, you might want to mark your Google calendars. Stan Lee is coming to do a signing on Thursday. No, just a regular comic signing. My uncle is his dermatologist and Stan's doing him a favor."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 35.57,
+    "end": 35.77,
+    "text": "Oh, I don't want to know that. How can I possibly discuss with Stan Lee the scientific foundations for interstellar flight on a silver surfboard when part of my brain will be scanning his face for signs of contagious skin disease?"
+  },
+  {
+    "speaker": "Howard",
+    "start": 48.74,
+    "end": 52.17,
+    "text": "Stan Lee does not have a contagious skin disease."
+  },
+  {
+    "speaker": "Sheldon",
+    "start": 52.17,
+    "end": 55.0,
+    "text": "Well, look who thinks he's Stewart's uncle now."
+  },
+  {
+    "speaker": "Stuart",
+    "start": 55.24,
+    "end": 58.8,
+    "text": "Can't believe it. Gonna meet Stan Lee."
+  },
+  {
+    "speaker": "Howard",
+    "start": 67.79,
+    "end": 69.63,
+    "text": "I'm sad to say I..."
+  }
+]
