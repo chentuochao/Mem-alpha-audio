@@ -13,17 +13,20 @@ Each PerLTQA episode is one dialogue folder::
         dialogue_mono_TTS.wav        # mixed mono audio (backend input)
         dialogue_multichannel_TTS.wav
         <Speaker>_TTS.npy            # per-speaker isolated tracks
-        <Speaker>_annotation.json    # GT: WhisperX words + Silero VAD
+        <Speaker>_annotation.json    # GT: turn-level text + timing (channel_map)
         channel_map.json
 
-The per-speaker GT word alignments written by ``generate_annotations.py``
-(``transcript.words``: ``{speaker, word, start, end, score}`` with timestamps
-absolute within the dialogue) are merged into a single flat ``raw_transcript`` —
-exactly the shape the shared pipeline (chunk_dialog / build_speaker_transcripts /
-process_episode) consumes.
+The per-speaker GT turns written by ``generate_annotations.py``
+(``transcript.segments``: ``{speaker, start, end, text}`` with timestamps
+absolute within the dialogue, taken straight from channel_map.json) are merged
+into a single time-sorted ``raw_transcript`` — exactly the shape the shared
+pipeline (chunk_dialog / build_speaker_transcripts / process_episode) consumes.
+No word-level timing is needed: cpWER uses per-speaker text, DER uses per-turn
+``{start,end}``, and chunking splits on per-unit ``start``/``end``.
 
 IMPORTANT: run ``generate_annotations.py`` FIRST so every dialogue folder has its
-``*_annotation.json`` files; folders without annotations are skipped.
+``*_annotation.json`` files (built from channel_map.json, no ASR/VAD models);
+folders without annotations are skipped.
 
 Invocation (works as module or script when the repo root is on PYTHONPATH)::
 
@@ -67,39 +70,48 @@ DATASET_NAME = "perltqa"
 # Annotation -> flat word list
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _words_from_annotation(ann: Dict, speaker_fallback: str) -> List[Dict]:
-    """Flatten one speaker's annotation into word dicts the pipeline expects."""
+def _turns_from_annotation(ann: Dict, speaker_fallback: str) -> List[Dict]:
+    """Read one speaker's annotation into turn-level GT units the pipeline expects.
+
+    generate_annotations.py builds these directly from channel_map.json, so each
+    unit is a turn ``{speaker, start, end, text}`` (no word-level timing — the
+    downstream pipeline / eval only needs turn text + turn timing). ``text`` is
+    the key ``extract_text_from_transcript`` reads for cpWER; ``start``/``end``
+    drive ``chunk_dialog`` and the VAD GT.
+    """
     speaker = ann.get("speaker") or speaker_fallback
     tr = ann.get("transcript", {}) or {}
 
     out: List[Dict] = []
 
-    # Preferred: the flat `words` list emitted by generate_annotations.py.
-    for w in tr.get("words", []) or []:
-        if w.get("start") is None or w.get("end") is None:
+    # Preferred: turn-level `segments` with `text` (current format).
+    for seg in tr.get("segments", []) or []:
+        if seg.get("start") is None or seg.get("end") is None:
+            continue
+        text = (seg.get("text") or "").strip()
+        if not text:
             continue
         out.append({
-            "speaker": w.get("speaker", speaker),
-            "word": w.get("word", ""),
-            "start": float(w["start"]),
-            "end": float(w["end"]),
-            "score": float(w.get("score", 1.0)),
+            "speaker": seg.get("speaker", speaker),
+            "text": text,
+            "start": float(seg["start"]),
+            "end": float(seg["end"]),
         })
     if out:
         return out
 
-    # Fallback: flatten WhisperX `segments[].words` (older annotation files).
-    for seg in tr.get("segments", []) or []:
-        for w in seg.get("words", []) or []:
-            if w.get("start") is None or w.get("end") is None:
-                continue
-            out.append({
-                "speaker": speaker,
-                "word": w.get("word", ""),
-                "start": float(w["start"]),
-                "end": float(w["end"]),
-                "score": float(w.get("score", 1.0)),
-            })
+    # Fallback: legacy WhisperX `words` list -> collapse each speaker to one
+    # turn per contiguous run is overkill here; just wrap all words as one unit.
+    words = [w for w in (tr.get("words", []) or [])
+             if w.get("start") is not None and w.get("end") is not None]
+    if words:
+        words.sort(key=lambda w: float(w["start"]))
+        out.append({
+            "speaker": speaker,
+            "text": " ".join(w.get("word", "") for w in words).strip(),
+            "start": float(words[0]["start"]),
+            "end": float(words[-1]["end"]),
+        })
     return out
 
 
@@ -173,15 +185,15 @@ class PerLTQADataset:
             with open(ann_path, "r", encoding="utf-8") as fh:
                 ann = json.load(fh)
             fallback = os.path.basename(ann_path)[: -len("_annotation.json")]
-            words = _words_from_annotation(ann, fallback)
-            if not words:
+            turns = _turns_from_annotation(ann, fallback)
+            if not turns:
                 continue
-            spk = words[0]["speaker"]
+            spk = turns[0]["speaker"]
             if spk not in speakers:
                 speakers.append(spk)
-            raw_transcript.extend(words)
+            raw_transcript.extend(turns)
 
-        # The shared pipeline assumes a globally time-sorted word stream.
+        # The shared pipeline assumes a globally time-sorted unit stream.
         raw_transcript.sort(key=lambda w: (w["start"], w["end"]))
 
         return {

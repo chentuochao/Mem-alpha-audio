@@ -18,25 +18,18 @@ set -euo pipefail
 # ──────────────────────────────────────────────────────────────────────
 
 # Which backend to run (override via env: METHOD=vibevoice ./run...)
-DATASET="${1:?Usage: $0 <DATASET>}"
-METHOD="${METHOD:-vibevoice}"
-
+METHOD="${METHOD:-nemo-streaming}"
 
 # I/O
-DATA_PATH="/checkpoint/seamless/tuochao/data/bazinga/data/${DATASET}/"
-OUTPUT_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/${METHOD}/${DATASET}/step1"
+DATA_PATH="/checkpoint/seamless/tuochao/data/PerLTQA/audio/"
+OUTPUT_DIR="/storage/home/tuochao/Mem-alpha-audio/Audio_Results/${METHOD}/PerLTQA/step1"
 PYTHONPATH_ROOT="/storage/home/tuochao/Mem-alpha-audio"
 DEVICE="cuda"
-
-echo $OUTPUT_DIR
-echo $DATA_PATH
 
 # Optional season filter: bash array of substrings. An episode is processed
 # only if its conv_id contains at least one of these substrings. Leave the
 # array empty (SEASON_FILTER=()) to process every episode.
 #   e.g.  SEASON_FILTER=("Season01" "Season02")
-# SEASON_FILTER=("Season01" "Season02" "Season03")
-SEASON_FILTER=("Season01")
 
 # ── NeMo backend args (used by nemo-streaming and nemo-offline) ──────
 ENV_NEMO="nemo"
@@ -122,10 +115,6 @@ COMMON_ARGS=(
     --output_dir           "${OUTPUT_DIR}"
     --device               "${DEVICE}"
 )
-if [ "${#SEASON_FILTER[@]}" -gt 0 ]; then
-    COMMON_ARGS+=(--season_filter "${SEASON_FILTER[@]}")
-fi
-
 # Backend-specific args.
 case "${METHOD}" in
     nemo-streaming|nemo-offline)
@@ -147,6 +136,6 @@ case "${METHOD}" in
         ;;
 esac
 
-python -m audio_script.Multi_ASR.step1_bazinga \
+python -m audio_script.Multi_ASR.step1_perltqa \
     "${COMMON_ARGS[@]}" \
     "${BACKEND_ARGS[@]}"

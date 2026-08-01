@@ -53,10 +53,12 @@ ASR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/multitalker-para
 MAX_NUM_OF_SPKS=4
 # ── Step1 (VibeVoice backend) ────────────────────────────────────────
 VV_MODEL_PATH="microsoft/VibeVoice-ASR"
-MAX_NEW_TOKENS=32768
+MAX_NEW_TOKENS=8192            # ~8x the busiest real chunk; caps runaway generation
 TEMPERATURE=0.0
 TOP_P=1.0
 NUM_BEAMS=1
+REPETITION_PENALTY=1.2         # >1 breaks repetition loops so the model emits EOS (1.0 = off)
+NO_REPEAT_NGRAM_SIZE=0         # block repeated n-grams of this size (0 = off)
 ATTN_IMPL="auto"   # auto | flash_attention_2 | sdpa | eager
 
 # ── Step2 (speaker matching) ─────────────────────────────────────────
@@ -149,12 +151,14 @@ if [ "${RUN_STEP1}" = "1" ]; then
             ) ;;
         vibevoice)
             STEP1_ARGS+=(
-                --model_path          "${VV_MODEL_PATH}"
-                --max_new_tokens      "${MAX_NEW_TOKENS}"
-                --temperature         "${TEMPERATURE}"
-                --top_p               "${TOP_P}"
-                --num_beams           "${NUM_BEAMS}"
-                --attn_implementation "${ATTN_IMPL}"
+                --model_path            "${VV_MODEL_PATH}"
+                --max_new_tokens        "${MAX_NEW_TOKENS}"
+                --temperature           "${TEMPERATURE}"
+                --top_p                 "${TOP_P}"
+                --num_beams             "${NUM_BEAMS}"
+                --repetition_penalty    "${REPETITION_PENALTY}"
+                --no_repeat_ngram_size  "${NO_REPEAT_NGRAM_SIZE}"
+                --attn_implementation   "${ATTN_IMPL}"
             ) ;;
     esac
 

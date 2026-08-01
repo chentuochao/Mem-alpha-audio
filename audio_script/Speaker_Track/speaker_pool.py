@@ -52,9 +52,31 @@ class EmbeddingBackend(ABC):
 
 class WeSpeakerBackend(EmbeddingBackend):
     def __init__(self, model_dir: str, device: int = 0):
+        import torch
         import wespeaker
         self.model = wespeaker.load_model(model_dir)
         self.model.set_device(device)
+
+        # Some WeSpeaker builds compute fbank features on CPU but never move them
+        # to the model's device before the forward pass, which crashes on GPU with
+        # "Input type (torch.FloatTensor) and weight type (torch.cuda.*)". Patch the
+        # underlying nn.Module so its forward always relocates the input to the
+        # weight device. No-op on CPU.
+        net = getattr(self.model, "model", None)
+        if net is not None:
+            try:
+                _dev = next(net.parameters()).device
+            except StopIteration:
+                _dev = None
+            if _dev is not None:
+                _orig_forward = net.forward
+
+                def _relocating_forward(feats, *a, **k):
+                    if isinstance(feats, torch.Tensor) and feats.device != _dev:
+                        feats = feats.to(_dev)
+                    return _orig_forward(feats, *a, **k)
+
+                net.forward = _relocating_forward
 
     def extract(self, audio_file: str) -> np.ndarray:
         embedding = self.model.extract_embedding(audio_file)

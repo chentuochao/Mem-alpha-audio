@@ -116,7 +116,7 @@ class VibeVoiceInference:
             if do_sample:
                 gen_cfg["temperature"] = temperature
                 gen_cfg["top_p"] = top_p
-
+        print("generating.....")
         with torch.no_grad():
             output_ids = self.model.generate(**inputs, **gen_cfg)
 
@@ -130,7 +130,7 @@ class VibeVoiceInference:
             generated_ids = generated_ids[: eos_positions[0] + 1]
 
         generated_text = self.processor.decode(generated_ids, skip_special_tokens=True)
-
+        print("generated_text", generated_text)
         try:
             segments = self.processor.post_process_transcription(generated_text)
         except Exception as exc:

@@ -2,7 +2,7 @@ import json
 
 from typing import List, Dict
 import numpy as np
-from .multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string
+from .multitalker_metrics import compute_der, calculate_session_cpWER, normalize_string, MAX_PERM_SPEAKERS
 from audio_script.datasets.turn_annotation import AlignedProcess, AlignedProcess_Morespeakers
 import string
 from collections import Counter
@@ -324,6 +324,22 @@ def parse_transcript_morespeakers(word_list: Dict, interval_character = '') -> L
     if len(valid_speakers) == 0:
         print("No valid speakers found!")
         return []
+
+    # Cap the number of speakers before turn-parsing. AlignedProcess_Morespeakers
+    # asserts num_speakers <= MAX_SPEAKERS, and an over-predicting diarizer can
+    # emit more (e.g. 12). Keep the most-active speakers (by word count) so the
+    # spurious/near-silent extra speakers are the ones dropped. Uses the shared
+    # MAX_PERM_SPEAKERS cap for consistency with the cpWER/DER pruning.
+    if len(valid_speakers) > MAX_PERM_SPEAKERS:
+        valid_speakers = sorted(
+            valid_speakers,
+            key=lambda spk: len(speaker_transcripts[spk][0]["words"]),
+            reverse=True,
+        )[:MAX_PERM_SPEAKERS]
+        print(
+            f"Too many speakers ({len(speaker_transcripts)}); capping to the "
+            f"{MAX_PERM_SPEAKERS} most active: {valid_speakers}"
+        )
 
     if len(valid_speakers) == 1:
         # Only one speaker: no turn-taking to detect, just return one turn.

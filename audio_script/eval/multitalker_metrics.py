@@ -9,6 +9,16 @@ import pandas as pd
 import torch
 import string
 
+# Cap on the number of speakers fed into any O(n!) brute-force permutation
+# search (cpWER / DER) or dialog turn-parsing. When a diarizer over-predicts
+# speakers, the factorial blows up (e.g. 12 speakers -> 12! ~= 4.8e8) and the job
+# gets OOM-killed; it also exceeds AlignedProcess_Morespeakers.MAX_SPEAKERS. So we
+# prune to the most relevant/active candidates before permuting or parsing. See
+# _select_top_hyp_speakers / _select_top_pred_rows and
+# eval_utils.parse_transcript_morespeakers. This is the single source of truth
+# for the speaker cap across the eval pipeline.
+MAX_PERM_SPEAKERS = 8
+
 def normalize_string(input_string):
     result = input_string.lower()
     # return result
@@ -104,6 +114,23 @@ def _der_for_permutation(pred_aligned, gt, frame_duration):
 
 #     return best_der, best_details
 
+def _select_top_pred_rows(pred, gt, max_rows):
+    """Keep the `max_rows` prediction rows most relevant to the ground truth.
+
+    Relevance = the largest frame overlap of a pred row with any gt row. Pred
+    speakers that overlap no gt speaker only add false alarms, so they would
+    never be part of the best DER permutation and are safe to drop before the
+    factorial search. Returns the kept original pred-row indices (sorted).
+    """
+    N_pred = pred.shape[0]
+    if N_pred <= max_rows:
+        return list(range(N_pred))
+    overlap = np.dot(pred.astype(np.float64), gt.astype(np.float64).T)  # (N_pred, N_gt)
+    scores = overlap.max(axis=1)
+    kept = np.argsort(scores)[::-1][:max_rows]
+    return sorted(int(i) for i in kept)
+
+
 def compute_der_bruteforce(pred, gt, frame_duration=0.04, collar_frames=0):
     """
     Compute DER by exhaustively searching all permutations.
@@ -115,8 +142,11 @@ def compute_der_bruteforce(pred, gt, frame_duration=0.04, collar_frames=0):
     best_details = None
 
     if N_pred >= N_gt:
-        # More (or equal) pred speakers than gt: pick N_gt from pred
-        for perm in permutations(range(N_pred), N_gt):
+        # More (or equal) pred speakers than gt: pick N_gt from pred.
+        # Cap the candidate pool first so the permutation count stays bounded
+        # (P(N_pred, N_gt) is factorial and OOM-kills for large N_pred).
+        candidate_rows = _select_top_pred_rows(pred, gt, max(MAX_PERM_SPEAKERS, N_gt))
+        for perm in permutations(candidate_rows, N_gt):
             pred_aligned = pred[list(perm)]
             der, details = _der_for_permutation(pred_aligned, gt, frame_duration)
             if der < best_der:
@@ -627,13 +657,13 @@ def calculate_session_cpWER_bruteforce(
         ref_trans (str):
             Reference transcript in an arbitrary permutation. Words are separated by spaces.
     """
-    p_wer_list, permed_hyp_lists, perm_indices = [], [], []
-    ref_word_list = []
+    ref_trans = " ".join(spk_reference)
 
-    # Concatenate the hypothesis transcripts into a list
-    for spk_id, word_list in enumerate(spk_reference):
-        ref_word_list.append(word_list)
-    ref_trans = " ".join(ref_word_list)
+    # Track only the running best permutation instead of materialising a list for
+    # every permutation (which is O(n!) in memory and OOM-kills for many speakers).
+    cpWER = float("inf")
+    min_perm_hyp_trans = ""
+    best_perm = tuple(range(len(spk_reference)))
 
     # Calculate WER for every permutation
     for hyp_perm in permutations(range(len(spk_hypothesis))):
@@ -641,19 +671,34 @@ def calculate_session_cpWER_bruteforce(
             hyp_perm = hyp_perm[: len(spk_reference)]
 
         hyp_trans = " ".join(spk_hypothesis[i] for i in hyp_perm)
-        permed_hyp_lists.append(hyp_trans)
-        perm_indices.append(hyp_perm)
-
         # Calculate a WER value of the permuted and concatenated transcripts
         p_wer = word_error_rate(hypotheses=[hyp_trans], references=[ref_trans])
-        p_wer_list.append(p_wer)
+        if p_wer < cpWER:
+            cpWER = p_wer
+            min_perm_hyp_trans = hyp_trans
+            best_perm = hyp_perm
 
-    # Find the lowest WER and its hypothesis transcript
-    argmin_idx = np.argmin(p_wer_list)
-    min_perm_hyp_trans = permed_hyp_lists[argmin_idx]
-    cpWER = p_wer_list[argmin_idx]
-    best_perm = perm_indices[argmin_idx]
     return cpWER, min_perm_hyp_trans, ref_trans, best_perm
+
+
+def _select_top_hyp_speakers(spk_hypothesis, spk_reference, max_spks):
+    """Keep the `max_spks` hypothesis speakers most relevant to the references.
+
+    Relevance = the best (lowest) per-speaker WER of a hypothesis speaker against
+    any reference speaker. Hypothesis speakers that match no reference well only
+    inflate the concatenated transcript, so they would never appear in the best
+    permutation and are safe to drop before the O(n!) brute-force search.
+    Returns the kept original hypothesis indices (sorted).
+    """
+    n_hyp = len(spk_hypothesis)
+    if n_hyp <= max_spks:
+        return list(range(n_hyp))
+    scores = [
+        min(word_error_rate(hypotheses=[h], references=[r]) for r in spk_reference)
+        for h in spk_hypothesis
+    ]
+    kept = sorted(range(n_hyp), key=lambda i: scores[i])[:max_spks]
+    return sorted(kept)
 
 
 def calculate_session_cpWER(
@@ -727,11 +772,19 @@ def calculate_session_cpWER(
 
     num_hyp_spks, num_ref_spks = len(spk_hypothesis), len(spk_reference)
 
-    if not use_lsa_only and num_ref_spks < num_hyp_spks:
-        # Brute force algorithm when there are more speakers in the hypothesis
-        cpWER, min_perm_hyp_trans, ref_trans, best_perm = calculate_session_cpWER_bruteforce(
-            spk_hypothesis, spk_reference, limit_hypo_number = limit_hypo_number
+    if not use_lsa_only and num_ref_spks < num_hyp_spks and num_ref_spks <= MAX_PERM_SPEAKERS:
+        # Brute force algorithm when there are more speakers in the hypothesis.
+        # Cap the hypothesis speakers first so the permutation count stays bounded
+        # (full O(n!) over an over-predicted speaker set OOM-kills the job). If the
+        # reference itself has more than MAX_PERM_SPEAKERS speakers, brute force is
+        # infeasible regardless, so we fall through to the LSA path below.
+        kept = _select_top_hyp_speakers(spk_hypothesis, spk_reference, MAX_PERM_SPEAKERS)
+        pruned_hyp = [spk_hypothesis[i] for i in kept]
+        cpWER, min_perm_hyp_trans, ref_trans, bf_perm = calculate_session_cpWER_bruteforce(
+            pruned_hyp, spk_reference, limit_hypo_number = limit_hypo_number
         )
+        # Map the permutation over the pruned set back to original hyp indices.
+        best_perm = tuple(kept[i] for i in bf_perm)
     else:
         # Calculate WER for each speaker in hypothesis with reference
         # There are (number of hyp speakers) x (number of ref speakers) combinations

@@ -376,8 +376,10 @@ def eval_der_cpwer(entry, word_list, diar_result, local_speakers):
             best_perm_der_new.append(local_speakers[_i])
         best_perm_der = best_perm_der_new
 
-        # cpWER — build references from in-memory GT transcripts (Bazinga
-        # word-level dicts use "word" key instead of "text")
+        # cpWER — build references from in-memory GT transcripts. GT entries are
+        # word-level ({"word": ...}, Bazinga) or turn-level ({"text": ...},
+        # PerLTQA channel_map GT); take whichever is present. (Empty references
+        # here make calculate_session_cpWER hang, so this must not be empty.)
         spk_hypothesis, speakers_pred = build_speaker_transcripts(
             word_list, pad_char=" "
         )
@@ -386,7 +388,8 @@ def eval_der_cpwer(entry, word_list, diar_result, local_speakers):
             if spk not in trans_data:
                 continue
             ref_text = normalize_string(
-                " ".join(w["word"] for w in trans_data[spk] if w.get("word"))
+                " ".join((w.get("word") or w.get("text") or "")
+                         for w in trans_data[spk])
             )
             spk_reference.append(ref_text)
         cpwer, _, _, best_perm_idx = calculate_session_cpWER(
@@ -709,14 +712,30 @@ def main():
                 sent["speaker"] = local_to_global[sent["speaker"]]
                 dialog_pred.append(sent)
 
-        if entry.get("dataset") in NEW_FORMAT_DATASETS:
-            # transcript_path: {speaker: [{word, start, end, ...}]}
+        dataset = entry.get("dataset")
+        if dataset == "perltqa":
+            # PerLTQA GT is ALREADY turn-annotated (transcript_gt.json =
+            # {speaker: [{speaker, start, end, text}, ...]} built from
+            # channel_map.json). Each entry is a turn, so we build dialog_gt
+            # directly — no word->turn merge (parse_transcript_morespeakers).
+            with open(entry["transcript_path"], "r") as f:
+                trans_data = json.load(f)
+            dialog_gt = [
+                {"speaker": spk,
+                 "start": t["start"], "end": t["end"],
+                 "text": t.get("text", t.get("word", ""))}
+                for spk, turns in trans_data.items() for t in turns
+            ]
+        elif dataset == "bazinga":
+            # Bazinga GT is word-level ({speaker: [{word, start, end, ...}]});
+            # merge words into turns via the annotator.
             with open(entry["transcript_path"], "r") as f:
                 trans_data = json.load(f)
             dialog_gt = parse_transcript_morespeakers(
                 trans_data, interval_character=" "
             )
         else:
+            # InterAct / SeamlessInteraction: two per-speaker turn files.
             dialog_gt = []
             with open(entry["transcript1_path"], "r") as f:
                 dialog_gt.extend(json.load(f))
@@ -742,6 +761,7 @@ def main():
             json.dump(dialog_pred_json, f, indent=2)
         with open(os.path.join(output_sample_folder, "parsed_dialog_gt.json"), "w") as f:
             json.dump(dialog_gt_json, f, indent=2)
+
 
     # ── Build speaker_map from speaker_cluster_pred ──────────────────
     speaker_map: Dict[str, str] = {}

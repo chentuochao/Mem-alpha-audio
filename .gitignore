@@ -8,4 +8,6 @@ data/memoryagentbench.DS_Store
 agents/
 Audio_Results/
 logs/
+debug/
 server_outputs.log
+./outputs/

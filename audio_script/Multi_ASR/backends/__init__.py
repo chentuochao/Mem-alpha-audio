@@ -81,6 +81,8 @@ def build_backend(args: argparse.Namespace) -> BaseBackend:
             temperature=args.temperature,
             top_p=args.top_p,
             num_beams=args.num_beams,
+            repetition_penalty=args.repetition_penalty,
+            no_repeat_ngram_size=args.no_repeat_ngram_size,
         )
 
     raise SystemExit(f"Unknown --method {args.method!r} (choose from {METHODS})")
@@ -106,10 +108,14 @@ def add_backend_args(parser: argparse.ArgumentParser) -> argparse.ArgumentParser
     vv = parser.add_argument_group("VibeVoice backend options")
     vv.add_argument("--model_path", type=str, default=None,
                     help="Path to the VibeVoice ASR model checkpoint.")
-    vv.add_argument("--max_new_tokens", type=int, default=32768)
+    vv.add_argument("--max_new_tokens", type=int, default=8192)
     vv.add_argument("--temperature", type=float, default=0.0)
     vv.add_argument("--top_p", type=float, default=1.0)
     vv.add_argument("--num_beams", type=int, default=1)
+    vv.add_argument("--repetition_penalty", type=float, default=1.2,
+                    help="Penalty >1 discourages repetition loops (1.0 = off).")
+    vv.add_argument("--no_repeat_ngram_size", type=int, default=0,
+                    help="Block repeated n-grams of this size (0 = off).")
     vv.add_argument(
         "--attn_implementation",
         type=str,

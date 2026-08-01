@@ -223,8 +223,15 @@ def main():
     )
     parser.add_argument(
         "--time_info_path", type=str, default=DEFAULT_TIME_INFO_PATH,
-        help=f"Season timeline JSON (default: {DEFAULT_TIME_INFO_PATH}). Each "
-             "season has its own timeline; override when running per-season.",
+        help=f"Session timeline JSON (default: {DEFAULT_TIME_INFO_PATH}). For "
+             "PerLTQA pass outputs/perltqa_data/perltqa_session_timeline.json "
+             "(built by prepare_data/make_perltqa_timeline.py). Each session's "
+             "source_file (minus .json) must equal the chunk's conv_id.",
+    )
+    parser.add_argument(
+        "--data_source", type=str, default="seamlessinteraction_options",
+        help="data_source label written into the parquet (and metadata). Use "
+             "'perltqa' for the PerLTQA audio pipeline.",
     )
 
     args = parser.parse_args()
@@ -236,7 +243,7 @@ def main():
     #     season = read_embedded_season(args.data_dir)
 
     season_suffix = f"_{season}" if season else ""
-
+    os.makedirs(args.output_root, exist_ok=True)
     if args.use_gt_name:
         chunks, chunk_folders = load_chunks_gt(
             args.data_dir, output_root=args.output_root,
@@ -265,8 +272,8 @@ def main():
         # so chunk_folders[chunk_idx] recovers the origin of chunk `chunk_idx` in
         # chunks_and_function_calls.json. Used to map QA evidence -> memory ids.
         "chunk_folders": json.dumps(chunk_folders),
-        "data_source": "seamlessinteraction_options",
-        "metadata": json.dumps({"data_source": "seamlessinteraction_options", "sample_id": 0}),
+        "data_source": args.data_source,
+        "metadata": json.dumps({"data_source": args.data_source, "sample_id": 0}),
         "num_chunks": len(chunks),
     }]
 
