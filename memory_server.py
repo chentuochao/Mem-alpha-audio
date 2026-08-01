@@ -444,10 +444,22 @@ Respond ONLY with a JSON code block in this exact format:
             if not query_tokens:
                 continue
 
+            # Drop items whose content tokenizes to nothing (e.g. empty memory
+            # items produced by aggressive compression). Keeping them makes the
+            # BM25 corpus all-empty -> rank_bm25 computes sum(idf)/len(idf)=0/0
+            # -> ZeroDivisionError. An empty item has no content to match anyway.
             tokenized_corpus = []
-            for content in doc_contents:
+            kept_docs = []  # (memory_id, content, orig_idx) aligned with tokenized_corpus
+            for (memory_id, content, orig_idx) in documents:
                 doc_tokens = self._tokenize(content)
+                if not doc_tokens:
+                    continue
                 tokenized_corpus.append(doc_tokens)
+                kept_docs.append((memory_id, content, orig_idx))
+
+            if not tokenized_corpus:
+                # Every candidate tokenizes to empty -> nothing to rank.
+                continue
 
             # Perform BM25 search
             bm25 = BM25Okapi(tokenized_corpus)
@@ -455,7 +467,7 @@ Respond ONLY with a JSON code block in this exact format:
 
             # Create results with scores
             scored_results = []
-            for i, (memory_id, content, orig_idx) in enumerate(documents):
+            for i, (memory_id, content, orig_idx) in enumerate(kept_docs):
                 score = doc_scores[i]
                 scored_results.append(({memory_id: content}, score, orig_idx))
 

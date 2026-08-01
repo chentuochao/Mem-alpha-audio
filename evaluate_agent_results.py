@@ -138,18 +138,17 @@ class AgentResultsEvaluator:
 
             return 1.0 if answer_text.lower() in predicted_answer.lower() else 0.0
 
-        elif data_source == 'perltqa':
+        # elif data_source == 'perltqa':
+        #     if ";" in gold_answer:
+        #         gold_answer = gold_answer.split(";")
+        #         total_hit = 0
+        #         for answer in gold_answer:
+        #             if answer.lower().strip() in predicted_answer:
+        #                 total_hit += 1
+        #         return total_hit / len(gold_answer)
 
-            if ";" in gold_answer:
-                gold_answer = gold_answer.split(";")
-                total_hit = 0
-                for answer in gold_answer:
-                    if answer.lower().strip() in predicted_answer:
-                        total_hit += 1
-                return total_hit / len(gold_answer)
-
-            else:
-                return 1.0 if gold_answer.lower() in predicted_answer.lower() else 0.0
+        #     else:
+        #         return 1.0 if gold_answer.lower() in predicted_answer.lower() else 0.0
 
         elif data_source == 'seamlessinteraction_options':
             # Rule-based multiple-choice scoring — no LLM judge needed.
@@ -166,7 +165,7 @@ class AgentResultsEvaluator:
             else:
                 return 0.0  # wrong
 
-        elif "seamless" in data_source:
+        elif "seamless" in data_source or 'perltqa' in data_source:
             template = (
                 "You are an evaluation judge. Given a question, a reference answer, and a model's response, "
                 "classify the model's response into exactly one of three categories:\n\n"
@@ -314,7 +313,7 @@ class AgentResultsEvaluator:
 
             result['score'] = score
 
-            if "seamless" in data_source:
+            if "seamless" in data_source or "perltqa" in data_source:
                 if score == 1.0:
                     result['judgment'] = 'correct'
                 elif score == 0.5:
@@ -364,7 +363,7 @@ class AgentResultsEvaluator:
             "std_score": np.std(scores) if scores else 0.0
         }
 
-        if "seamless" in data_source:
+        if "seamless" in data_source or "perltqa" in data_source:
             judgments = [r.get('judgment', '') for r in results]
             total = len(judgments)
             metrics["num_correct"] = judgments.count('correct')
@@ -398,6 +397,13 @@ def evaluate_all_agents(
         if 'data_instance_info.json' in files and 'results.json' in files:
             metrics = evaluator.evaluate_agent_results(root)
             metrics['agent_dir'] = root
+            # Tag each agent dir with its seed. The original run lives directly in
+            # base_dir/0/ (seed = 'original'); additional seed runs live in
+            # base_dir/seedX/0/ (seed = 'seedX'). Runs without any seedX subfolder
+            # collapse to a single 'original' seed -> identical behaviour to before.
+            rel = os.path.relpath(root, base_dir)
+            first = rel.split(os.sep)[0]
+            metrics['seed'] = first if first.startswith('seed') else 'original'
             all_metrics.append(metrics)
     return all_metrics
 
@@ -436,12 +442,29 @@ def main():
         print(f"\nData Source: {data_source}")
         print("-" * 40)
 
+        # Group the agent dirs by seed. Runs without any seedX subfolder yield a
+        # single 'original' seed, so all seed-aware stats degrade gracefully to
+        # the pre-seed single-run behaviour.
+        seed_groups: Dict[str, list] = {}
+        for m in metrics_list:
+            seed_groups.setdefault(m.get('seed', 'original'), []).append(m)
+        seed_names = sorted(seed_groups)
+        has_seeds = any(s != 'original' for s in seed_groups)
+
+        # Per-seed accuracy = mean of avg_score_per_instance over the agents in
+        # that seed (normally exactly one). Cross-seed mean/std then treats each
+        # seed as one repeated measurement of the same question set.
+        per_seed_acc = {
+            s: float(np.mean([m['avg_score_per_instance'] for m in seed_groups[s]]))
+            for s in seed_names
+        }
+        seed_acc_vals = [per_seed_acc[s] for s in seed_names]
+
         total_instances = sum(m['num_instances'] for m in metrics_list)
-        avg_scores = [m['avg_score_per_instance'] for m in metrics_list]
-        overall_avg = np.mean(avg_scores) if avg_scores else 0.0
+        overall_avg = np.mean(seed_acc_vals) if seed_acc_vals else 0.0
+        overall_std = np.std(seed_acc_vals) if len(seed_acc_vals) > 1 else 0.0
         overall_min = min(m['min_instance_score'] for m in metrics_list)
         overall_max = max(m['max_instance_score'] for m in metrics_list)
-        overall_std = np.std(avg_scores) if len(avg_scores) > 1 else 0.0
 
         memory_lengths = [m.get('total_memory_length', 0) for m in metrics_list]
         avg_memory_length = np.mean(memory_lengths) if memory_lengths else 0.0
@@ -451,24 +474,52 @@ def main():
         avg_compression_ratio = np.mean(compression_ratios) if compression_ratios else None
 
         print(f"  Total agents:                     {len(metrics_list)}")
+        if has_seeds:
+            print(f"  Seeds ({len(seed_names)}):{'':<24}{', '.join(seed_names)}")
         print(f"  Total instances:                  {total_instances}")
-        print(f"  Avg score per instance:           {overall_avg:.3f}")
+        if has_seeds:
+            print(f"  Avg accuracy (mean over seeds):   {overall_avg:.3f} ± {overall_std:.3f}")
+        else:
+            print(f"  Avg score per instance:           {overall_avg:.3f}")
         print(f"  Min/Max instance score:           {overall_min:.3f} / {overall_max:.3f}")
-        print(f"  Std across agents:                {overall_std:.3f}")
+        if not has_seeds:
+            print(f"  Std across agents:                {overall_std:.3f}")
         print(f"  Avg memory tokens:                {avg_memory_length:.0f}")
         if avg_compression_ratio is not None:
             print(f"  Avg compression ratio:            {avg_compression_ratio:.3f}")
 
-        if "seamless" in data_source:
+        if has_seeds:
+            print(f"  Per-seed accuracy:")
+            for s in seed_names:
+                n_inst = sum(m['num_instances'] for m in seed_groups[s])
+                print(f"    {s:<12} {per_seed_acc[s]:.3f}  ({n_inst} inst)")
+
+        if "seamless" in data_source or "perltqa" in data_source:
             total_correct = sum(m.get('num_correct', 0) for m in metrics_list)
             total_not_sure = sum(m.get('num_not_sure', 0) for m in metrics_list)
             total_wrong = sum(m.get('num_wrong', 0) for m in metrics_list)
             total_q = total_correct + total_not_sure + total_wrong
             if total_q:
-                print(f"  Judgment breakdown ({total_q} questions):")
+                print(f"  Judgment breakdown ({total_q} questions, pooled over seeds):")
                 print(f"    correct:  {total_correct:>5} ({total_correct/total_q*100:.1f}%)")
                 print(f"    not_sure: {total_not_sure:>5} ({total_not_sure/total_q*100:.1f}%)")
                 print(f"    wrong:    {total_wrong:>5} ({total_wrong/total_q*100:.1f}%)")
+
+            if has_seeds:
+                # Per-seed judgment percentages -> mean ± std across seeds.
+                def _seed_pct(ms, key):
+                    tot = sum(m.get('num_correct', 0) + m.get('num_not_sure', 0)
+                              + m.get('num_wrong', 0) for m in ms)
+                    val = sum(m.get(key, 0) for m in ms)
+                    return val / tot if tot else 0.0
+
+                pc = [_seed_pct(seed_groups[s], 'num_correct') for s in seed_names]
+                pn = [_seed_pct(seed_groups[s], 'num_not_sure') for s in seed_names]
+                pw = [_seed_pct(seed_groups[s], 'num_wrong') for s in seed_names]
+                print(f"  Judgment across seeds (mean ± std):")
+                print(f"    correct:  {np.mean(pc)*100:5.1f}% ± {np.std(pc)*100:.1f}%")
+                print(f"    not_sure: {np.mean(pn)*100:5.1f}% ± {np.std(pn)*100:.1f}%")
+                print(f"    wrong:    {np.mean(pw)*100:5.1f}% ± {np.std(pw)*100:.1f}%")
 
             # Aggregate per-category judgments across all agents
             merged: Dict[str, Dict[str, int]] = {}

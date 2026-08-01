@@ -486,6 +486,13 @@ def main():
     # Load agent configuration
     agent_config = load_agent_config(args.agent_config)
 
+    # Allow the memory_server URL to be overridden at runtime (e.g. per-SLURM-job
+    # ports in a sweep). Falls back to the value in the agent config YAML.
+    _ext_url = os.environ.get("EXTERNAL_MODEL_URL")
+    if _ext_url:
+        agent_config['external_model_url'] = _ext_url
+        print(f"[DEBUG] external_model_url overridden by env EXTERNAL_MODEL_URL={_ext_url}")
+
     # Print loaded configuration
     print(f"Loaded agent configuration:")
     print(f"  Agent name: {agent_config['agent_name']}")

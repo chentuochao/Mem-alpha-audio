@@ -88,27 +88,30 @@ def load_qa(qa_file):
 
 
 class DialogResolver:
-    """Resolve a gt_source `file` (e.g. '.../Episode02.json') to its turn list.
+    """Resolve a gt_source `file` to its turn list, for BOTH QA schemas.
 
-    Searches the given roots recursively by basename and caches loaded dialogs.
-    Each question's evidence_turns index into ITS OWN file, so we must load the
-    right dialog per source rather than assuming a single transcript.
+    - Old whole-episode schema: `file` is a bare '<episode>.json' (unique basename),
+      resolved via a basename index over the roots.
+    - Chunked schema: `file` is a path RELATIVE to a root, e.g.
+      '<episode>/CHUNK_n/parsed_dialog_gt.json'. Basenames ('parsed_dialog_gt.json')
+      are NOT unique, so this is resolved by joining the relative path onto each root.
+
+    Each question's evidence_turns index into ITS OWN file, so we load the right
+    dialog per source rather than assuming a single transcript. Loaded dialogs are
+    cached by resolved path.
     """
 
     def __init__(self, roots):
-        self.index = {}      # basename -> path
+        self.roots = [r for r in (roots or []) if r and os.path.isdir(r)]
+        self.index = {}      # basename -> path (old whole-episode schema)
         self.cache = {}      # path -> turns
-        for root in roots:
-            if not root or not os.path.isdir(root):
-                continue
+        for root in self.roots:
             for dirpath, _, files in os.walk(root):
                 for fn in files:
                     if fn.endswith(".json"):
                         self.index.setdefault(fn, os.path.join(dirpath, fn))
 
-    def turns_for(self, file_field):
-        base = os.path.basename(file_field or "")
-        path = self.index.get(base)
+    def _load(self, path):
         if not path:
             return None
         if path not in self.cache:
@@ -119,15 +122,40 @@ class DialogResolver:
                 self.cache[path] = None
         return self.cache[path]
 
+    def turns_for(self, file_field):
+        if not file_field:
+            return None
+        # chunked schema: file carries a directory -> resolve the full relative path
+        if os.path.dirname(file_field):
+            for root in self.roots:
+                p = os.path.join(root, file_field)
+                if os.path.isfile(p):
+                    return self._load(p)
+        # old whole-episode schema: resolve by (unique) basename
+        return self._load(self.index.get(os.path.basename(file_field)))
+
+
+def _turn_index(turn_id):
+    """Turn ID -> 0-based index into its dialog file, for BOTH schemas.
+
+    'S01E02_C001_T003' -> 3 (chunked string ID); a bare int is returned as-is (old
+    schema). Returns None if a string carries no trailing T<NNN> suffix.
+    """
+    if isinstance(turn_id, int):
+        return turn_id
+    m = re.search(r"[Tt](\d+)\s*$", str(turn_id))
+    return int(m.group(1)) if m else None
+
 
 def evidence_texts(qa, resolver, min_turn_words=3):
     """Return (texts, unresolved_files) for a QA item's gold evidence turns.
 
     texts: list of "speaker: text" strings pulled from each source's own dialog.
-    Turns whose utterance has fewer than `min_turn_words` words are dropped (too
-    short to match reliably). If that would drop ALL turns, the unfiltered list is
-    kept so the question is not lost.
-    unresolved_files: source files that could not be located on disk.
+    Handles both the old (integer turn index) and chunked (string 'T<NNN>' turn ID)
+    schemas via `_turn_index`. Turns whose utterance has fewer than `min_turn_words`
+    words are dropped (too short to match reliably). If that would drop ALL turns, the
+    unfiltered list is kept so the question is not lost. unresolved_files: source
+    files that could not be located on disk.
     """
     out, unresolved = [], []
     gt = qa.get("gt_source", {})
@@ -139,8 +167,9 @@ def evidence_texts(qa, resolver, min_turn_words=3):
         if not turns:
             unresolved.append(src.get("file", ""))
             continue
-        for ti in src.get("evidence_turns", []):
-            if 0 <= ti < len(turns):
+        for tid in src.get("evidence_turns", []):
+            ti = _turn_index(tid)
+            if ti is not None and 0 <= ti < len(turns):
                 t = turns[ti]
                 out.append(f"{t.get('speaker','?')}: {fix_space_in_text(t.get('text',''))}")
 
@@ -149,9 +178,11 @@ def evidence_texts(qa, resolver, min_turn_words=3):
 
 
 def evidence_episodes(qa):
-    """Episode name(s) a question's gold evidence comes from, derived from the
-    gt_source `file` basenames (without the .json extension). e.g.
-    'TheBigBangTheory.Season01.Episode02.json' -> 'TheBigBangTheory.Season01.Episode02'.
+    """Episode name(s) a question's gold evidence comes from, for BOTH schemas.
+
+    - Old schema: `file` = '<episode>.json' -> strip the '.json' extension.
+    - Chunked schema: `file` = '<episode>/CHUNK_n/parsed_dialog_gt.json' -> the leading
+      path component IS the episode dir.
     Used to scope transcription matching to the evidence's OWN episode."""
     gt = qa.get("gt_source", {})
     sources = gt.get("sources")
@@ -159,11 +190,15 @@ def evidence_episodes(qa):
         sources = [gt]
     episodes = set()
     for src in (sources or []):
-        base = os.path.basename(src.get("file", ""))
-        if base.endswith(".json"):
-            base = base[:-len(".json")]
-        if base:
-            episodes.add(base)
+        f = src.get("file", "") or ""
+        if os.path.dirname(f):                              # chunked: leading dir
+            ep = f.replace(os.sep, "/").split("/")[0]
+        else:                                              # old: bare '<episode>.json'
+            ep = os.path.basename(f)
+            if ep.endswith(".json"):
+                ep = ep[:-len(".json")]
+        if ep:
+            episodes.add(ep)
     return episodes
 
 

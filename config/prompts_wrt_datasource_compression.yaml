@@ -23,6 +23,9 @@ compression_strategies:
   x3:
     instruction: "Be compact. Store only the key facts and main events. Merge related details into single memory items and skip minor or redundant information."
     budget_ratio: 0.4
+  x4:
+    instruction: "Be very compact. Keep only the essential facts and outcomes. Aggressively merge related details into single memory items and drop minor, redundant, or supporting information."
+    budget_ratio: 0.3
   x5:
     instruction: "Be highly aggressive. Store only the few most essential, high-level facts and outcomes. Heavily summarize and merge; drop all but the most critical information."
     budget_ratio: 0.25

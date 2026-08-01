@@ -23,12 +23,12 @@ import torch
 import random
 
 SEED_NUM = 0
-def init_random_seed():
-    torch.manual_seed(SEED_NUM)
-    np.random.seed(SEED_NUM)
-    random.seed(SEED_NUM)
-    torch.cuda.manual_seed(SEED_NUM)
-    torch.cuda.manual_seed_all(SEED_NUM)
+def init_random_seed(seed_num=SEED_NUM):
+    torch.manual_seed(seed_num)
+    np.random.seed(seed_num)
+    random.seed(seed_num)
+    torch.cuda.manual_seed(seed_num)
+    torch.cuda.manual_seed_all(seed_num)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
@@ -61,6 +61,13 @@ def parse_args():
     parser.add_argument("--save_process", action="store_true", help="Enable process tracking for Qwen models (saves detailed logs)")
     parser.add_argument("--batch_size", type=int, default=1, help="Batch size for batch processing")
     parser.add_argument("--rollout_label", type=str, default=None, help="Label to append to output directory path, e.g., rollout_1")
+    parser.add_argument("--seed", type=int, default=SEED_NUM,
+                        help="Random seed for torch/numpy/random and vLLM sampling. "
+                             "Only changes outputs when --temperature > 0 (greedy decoding ignores the seed).")
+    parser.add_argument("--temperature", type=float, default=None,
+                        help="Sampling temperature. Default (None) keeps legacy behavior: "
+                             "0.7 when enable_thinking is set, 0.0 (greedy, deterministic) otherwise. "
+                             "Set > 0 (e.g. 0.7) so different --seed values produce different memory.")
     parser.add_argument(
         "--compression_strategy",
         type=str,
@@ -140,6 +147,15 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
           f"budget_ratio={budget_ratio}, max_new_tokens={effective_max_new_tokens} "
           f"(base={base_max_new_tokens})")
 
+    # Resolve sampling temperature. --temperature (if given) overrides the legacy
+    # defaults (0.7 in the thinking branch, 0.0/greedy in the no-thinking branch).
+    # NOTE: with temperature == 0.0 vLLM decodes greedily and ignores args.seed, so
+    # different seeds only diverge when a positive temperature is supplied.
+    thinking_temperature = args.temperature if args.temperature is not None else 0.7
+    greedy_temperature = args.temperature if args.temperature is not None else 0.0
+    print(f"[DEBUG] seed={args.seed}, temperature="
+          f"{thinking_temperature if agent_config['enable_thinking'] else greedy_temperature}")
+
     batch_size = len(batch_chunks)
 
     # Get including_core parameter from agent_config, default to False
@@ -188,7 +204,7 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
         current_chunks = []
         for i, chunk_list in enumerate(batch_chunks):
             if chunk_idx < len(chunk_list):
-                prompt_key = 'unified_prompt_multispeaker' if "seamlessinteraction" in batch_sources[i] else 'unified_prompt'
+                prompt_key = 'unified_prompt_multispeaker' #if ("seamlessinteraction" in batch_sources[i]) else 'unified_prompt'
                 # prompt_key = 'unified_prompt'
                 current_chunks.append(prompts_wrt_datasource[prompt_key].format(
                     context=chunk_list[chunk_idx],
@@ -222,10 +238,10 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
             max_new_tokens = effective_max_new_tokens
 
             thinking_sampling_params = SamplingParams(
-                temperature=0.7,
+                temperature=thinking_temperature,
                 max_tokens=thinking_budget,
                 stop_token_ids=[memory_agent_template.tokenizer.eos_token_id],
-                seed=SEED_NUM,
+                seed=args.seed,
             )
 
             outputs = memory_agent_template.model.generate(prompts, thinking_sampling_params)
@@ -264,10 +280,10 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
             second_gen_responses = []
             if second_gen_texts:
                 remaining_sampling_params = SamplingParams(
-                    temperature=0.7,
+                    temperature=thinking_temperature,
                     max_tokens=max_new_tokens - thinking_budget,
                     stop_token_ids=[memory_agent_template.tokenizer.eos_token_id],
-                    seed = SEED_NUM,
+                    seed=args.seed,
                 )
                 second_outputs = memory_agent_template.model.generate(second_gen_texts, remaining_sampling_params)
                 second_gen_responses = [output.outputs[0].text.strip() for output in second_outputs]
@@ -291,10 +307,10 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
             # Single generation without thinking budget
             max_new_tokens = effective_max_new_tokens
             sampling_params = SamplingParams(
-                temperature=0.0,
+                temperature=greedy_temperature,
                 max_tokens=max_new_tokens,
                 stop_token_ids=[memory_agent_template.tokenizer.eos_token_id],
-                seed=SEED_NUM,
+                seed=args.seed,
             )
             outputs = memory_agent_template.model.generate(prompts, sampling_params)
             final_responses = [output.outputs[0].text.strip() for output in outputs]
@@ -408,8 +424,8 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
 
 
 def main():
-    init_random_seed()
     args = parse_args()
+    init_random_seed(args.seed)
 
     # Load agent configuration
     agent_config = load_agent_config(args.agent_config)

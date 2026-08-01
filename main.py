@@ -190,9 +190,10 @@ def run_with_chunks_and_questions_batch(
         max_new_tokens = agent_config.get('max_new_tokens', 2048)
         out_dir = out_dir + f"_tokens_{max_new_tokens}"
 
-        # Add rollout label if provided
+        # Add rollout label as a subdirectory (e.g. .../<name>/seed1/<batch_idx>) so
+        # per-seed/rollout runs are grouped under one parent instead of a suffix.
         if args.rollout_label is not None:
-            out_dir = out_dir + f"_rollout_{args.rollout_label}"
+            out_dir = out_dir + f"/{args.rollout_label}"
 
         out_dir += f"/{batch_idx}"
         batch_out_dirs.append(out_dir)

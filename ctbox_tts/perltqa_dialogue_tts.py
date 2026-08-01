@@ -38,6 +38,7 @@ import argparse
 import json
 import re
 import sys
+import time
 from collections import Counter, OrderedDict
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -52,7 +53,8 @@ DEFAULT_REF_DIR = HERE / "ref_voices" / "perltqa"
 DEFAULT_HF_DATASET = "sdialog/voices-libritts"
 # Local copy of the voice-bank dataset (download it here to avoid streaming over
 # HTTP, which can fail with "[Errno 9] Bad file descriptor"). See --help.
-DEFAULT_LOCAL_DATASET_DIR = HERE / "voices-libritts"
+# DEFAULT_LOCAL_DATASET_DIR = HERE / "voices-libritts"
+DEFAULT_LOCAL_DATASET_DIR = Path("/checkpoint/seamless/tuochao/data/ctbox_tts/voices-libritts/")
 DEFAULT_TARGET_SR = 24000
 DEFAULT_REF_DURATION_SEC = 10.0
 
@@ -435,12 +437,14 @@ def prepare_reference_voices(
     done = 0
 
     for ex in ds:
+
         if not remaining:
             break
         gender = ex.get("gender")
         identifier = str(ex.get("identifier"))
         if identifier in used_identifiers:
             continue
+
 
         # first pending speaker that needs this gender
         match_idx = next((i for i, it in enumerate(remaining)
@@ -516,68 +520,84 @@ def generate_all(
     output_dir: Path,
     limit: int,
     overwrite: bool,
+    num_shards: int = 1,
+    shard_index: int = 0,
 ) -> None:
-    # Heavy import: loads the chatterbox model once.
+    # Heavy import: loads the chatterbox model once (on the first visible CUDA
+    # device, i.e. whatever CUDA_VISIBLE_DEVICES pins for this process).
     import chatterbox_dialogue_tts as cdt
 
     # Make every pulled reference voice visible to the generator.
     cdt.REFERENCE_VOICE_MAP.update(ref_map)
 
-    total_blocks = sum(len(g["blocks"]) for g in profile_groups)
-    budget = total_blocks if limit <= 0 else min(limit, total_blocks)
-    print(f"[generate] synthesising up to {budget} / {total_blocks} dialogue "
-          f"blocks across {len(profile_groups)} profiles -> {output_dir}")
+    # Flatten to a deterministic global list of (profile, block) so we can shard
+    # it across independent workers. Round-robin (idx % num_shards) balances
+    # variable-length blocks better than contiguous chunks. Blocks write to
+    # disjoint per-block dirs, so shards never collide.
+    all_pairs = [(g, b) for g in profile_groups for b in g["blocks"]]
+    if num_shards > 1:
+        shard_pairs = [p for i, p in enumerate(all_pairs)
+                       if i % num_shards == shard_index]
+    else:
+        shard_pairs = all_pairs
+
+    budget = len(shard_pairs) if limit <= 0 else min(limit, len(shard_pairs))
+    print(f"[generate][shard {shard_index}/{num_shards}] synthesising up to "
+          f"{budget} / {len(shard_pairs)} dialogue blocks "
+          f"(of {len(all_pairs)} total) -> {output_dir}")
 
     ok, skipped, failed, seen = 0, 0, 0, 0
-    # outer loop: profiles ; inner loop: that profile's blocks
-    for group in profile_groups:
+    for group, block in shard_pairs:
         if seen >= budget:
             break
+        seen += 1
         profile = group["profile"]
         profile_dir = output_dir / safe_filename(profile)
-        print(f"[generate] profile {profile!r} ({group['gender']}): "
-              f"{len(group['blocks'])} block(s)")
 
-        for block in group["blocks"]:
-            if seen >= budget:
-                break
-            seen += 1
+        out = profile_dir / safe_filename(block.dialogue_id)
+        # the multispeaker function writes channel_map.json; use it as marker
+        done_marker = out / "channel_map.json"
+        if done_marker.exists() and not overwrite:
+            skipped += 1
+            continue
 
-            out = profile_dir / safe_filename(block.dialogue_id)
-            # the multispeaker function writes channel_map.json; use it as marker
-            done_marker = out / "channel_map.json"
-            if done_marker.exists() and not overwrite:
-                skipped += 1
-                continue
+        # every party must have a reference voice
+        missing = [p for p in block.parties
+                   if p not in cdt.REFERENCE_VOICE_MAP]
+        if missing:
+            print(f"[generate][skip] {profile}/{block.dialogue_id}: "
+                  f"no reference voice for {missing}", file=sys.stderr)
+            skipped += 1
+            continue
 
-            # every party must have a reference voice
-            missing = [p for p in block.parties
-                       if p not in cdt.REFERENCE_VOICE_MAP]
-            if missing:
-                print(f"[generate][skip] {profile}/{block.dialogue_id}: "
-                      f"no reference voice for {missing}", file=sys.stderr)
-                skipped += 1
-                continue
-
-            # ordered list of {speaker_name: text} turns
-            speaker_texts = [{name: text} for name, text in block.turns]
-            try:
-                cdt.generate_multispeaker_dialogue_tts(
-                    speaker_names=block.parties,
-                    speaker_texts=speaker_texts,
-                    output_dir=str(out),
-                )
-                ok += 1
-                print(f"[generate]   ({seen}/{budget}) {block.dialogue_id}: "
-                      f"{len(block.parties)} speakers "
-                      f"[{', '.join(block.parties)}] "
-                      f"({len(block.turns)} turns)")
-            except Exception as e:  # keep going on a single bad block
-                failed += 1
-                print(f"[generate][FAIL] {profile}/{block.dialogue_id}: {e}",
-                      file=sys.stderr)
-
-    print(f"[generate] done. ok={ok} skipped={skipped} failed={failed}")
+        # ordered list of {speaker_name: text} turns
+        speaker_texts = [{name: text} for name, text in block.turns]
+        print(f"[generate][shard {shard_index}] ({seen}/{budget}) START "
+              f"{profile}/{block.dialogue_id}: "
+              f"{len(block.parties)} speakers "
+              f"[{', '.join(block.parties)}] ({len(block.turns)} turns)",
+              flush=True)
+        t0 = time.time()
+        try:
+            cdt.generate_multispeaker_dialogue_tts(
+                speaker_names=block.parties,
+                speaker_texts=speaker_texts,
+                output_dir=str(out),
+            )
+            ok += 1
+            elapsed = time.time() - t0
+            print(f"[generate][shard {shard_index}] ({seen}/{budget}) DONE  "
+                  f"{profile}/{block.dialogue_id}: "
+                  f"{len(block.turns)} turns in {elapsed:.1f}s "
+                  f"({elapsed / max(1, len(block.turns)):.1f}s/turn)",
+                  flush=True)
+        except Exception as e:  # keep going on a single bad block
+            failed += 1
+            elapsed = time.time() - t0
+            print(f"[generate][FAIL] {profile}/{block.dialogue_id} "
+                  f"after {elapsed:.1f}s: {e}", file=sys.stderr, flush=True)
+    print(f"[generate][shard {shard_index}/{num_shards}] done. "
+          f"ok={ok} skipped={skipped} failed={failed}")
 
 
 # ----------------------------------------------------------------------------
@@ -611,11 +631,19 @@ def main() -> None:
                     help="count + build reference bank, then exit (no TTS)")
     ap.add_argument("--skip-prepare", action="store_true",
                     help="skip voice-bank pulling (use existing reference map)")
+    ap.add_argument("--num-shards", type=int, default=1,
+                    help="total number of parallel worker shards (e.g. #GPUs)")
+    ap.add_argument("--shard-index", type=int, default=0,
+                    help="this worker's shard index in [0, num-shards)")
     args = ap.parse_args()
+
+    if not (0 <= args.shard_index < args.num_shards):
+        ap.error(f"--shard-index must be in [0, {args.num_shards}); "
+                 f"got {args.shard_index}")
 
     ref_map_path = args.ref_map or (args.ref_dir / "reference_voice_map.json")
     args.data = Path("/checkpoint/seamless/tuochao/data/PerLTQA/Dataset/en_v2/perltmem_en_v2.json")
-    args.output_dir = Path("/checkpoint/seamless/tuochao/data/PerLTQA/audio")
+    args.output_dir = Path("/checkpoint/seamless/tuochao/data/PerLTQA/dialogue_tts_en_v2")
     # 1) parse + count -----------------------------------------------------
     with args.data.open(encoding="utf-8") as f:
         data = json.load(f)
@@ -700,6 +728,8 @@ def main() -> None:
         output_dir=args.output_dir,
         limit=args.limit,
         overwrite=args.overwrite,
+        num_shards=args.num_shards,
+        shard_index=args.shard_index,
     )
 
 

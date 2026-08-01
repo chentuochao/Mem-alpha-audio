@@ -48,9 +48,10 @@ def get_out_dir(agent_config, args, batch_idx):
     if compression_strategy is not None and compression_strategy != 'default':
         out_dir = out_dir + f"_comp_{compression_strategy}"
 
-    # Add rollout label if provided
+    # Add rollout label as a subdirectory (e.g. .../<name>/seed1/<batch_idx>) so
+    # per-seed/rollout runs are grouped under one parent instead of a suffix.
     if args.rollout_label is not None:
-        out_dir = out_dir + f"_rollout_{args.rollout_label}"
+        out_dir = out_dir + f"/{args.rollout_label}"
 
     out_dir += f"/{batch_idx}"
     return out_dir
@@ -110,9 +111,14 @@ class ConversationCreator():
             print(np.unique(self.data['data_source'].tolist(), return_counts=True))
 
         elif dataset == 'perltqa':
-            self.data = pd.read_parquet('data/memalpha/test.parquet')
-            self.data = self.data[self.data['data_source'] == 'perltqa']
-            # self.data = pd.read_parquet('data/memalpha/booksum/test.parquet')
+            if parquet_path is None:
+                # built-in PerLTQA subset (one row per profile)
+                self.data = pd.read_parquet('data/memalpha/test.parquet')
+                self.data = self.data[self.data['data_source'] == 'perltqa']
+            else:
+                # custom parquet (e.g. one bundle from the audio pipeline ->
+                # ONE row -> ONE memory over that bundle's chunks)
+                self.data = pd.read_parquet(parquet_path)
             print(np.unique(self.data['data_source'].tolist(), return_counts=True))
 
         elif dataset == 'pubmed-rct':

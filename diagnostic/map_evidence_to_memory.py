@@ -15,9 +15,13 @@ memory agent consumed, so chunk_folders[chunk_idx] is exactly the origin folder 
 patched prepare_data/prepare_audio_parquet.py; or pass --data_dir to reconstruct
 the same sorted-glob ordering on the fly.)
 
-Granularity: every memory unit is inserted from a whole chunk's content, so a chunk
-has no per-turn attribution — every evidence turn in a chunk maps to ALL units
-inserted for that chunk (hence "one or more memory ids" per turn).
+Contribution model: a memory id is contributed to by the chunk of its
+`new_memory_insert` AND by every chunk whose `memory_update` later edits it (both
+genuinely add content to that id); ids removed by `memory_delete` are dropped
+entirely. So a chunk maps to all ids it inserted or updated, and an id records every
+chunk that contributed to it (memory_units[uid]["chunk_indices"]). Granularity stays
+chunk-level (no per-turn attribution), so every evidence turn in a chunk maps to ALL
+ids that chunk contributed to.
 
 Usage:
     python diagnostic/map_evidence_to_memory.py \
@@ -88,24 +92,69 @@ def _parse_inserted(tool_result):
 
 
 def build_provenance(chunks):
-    """{chunk_idx: {uid: (mtype, text)}} — units INSERTED while processing a chunk."""
-    prov = {}
+    """Track every memory id's contributing chunks across insert/update/delete.
+
+    Walks tool calls in order and records, per memory id, the chunk of its
+    `new_memory_insert` AND the chunk of every later `memory_update` that touches it.
+    Ids removed by `memory_delete` are dropped entirely. Core-memory updates carry no
+    id and are ignored here (core is not tracked as a unit).
+
+    Returns:
+      contrib: OrderedDict {uid: {"mtype": str|None, "chunks": [chunk_idx, ...]}}
+               chunk indices in first-seen order, deleted ids excluded.
+      chunk_to_memory: OrderedDict {chunk_idx: [uid, ...]} distinct ids each chunk
+               contributed to (via insert or update), deleted ids excluded.
+      deleted: set of ids removed by `memory_delete`.
+    """
+    contrib = OrderedDict()
+    deleted = set()
+
+    def _touch(uid, mtype, idx):
+        entry = contrib.get(uid)
+        if entry is None:
+            contrib[uid] = {"mtype": mtype, "chunks": [idx]}
+        else:
+            if mtype and not entry["mtype"]:
+                entry["mtype"] = mtype
+            if idx not in entry["chunks"]:
+                entry["chunks"].append(idx)
+
     for ch in chunks:
         idx = ch.get("chunk_idx")
-        units = {}
         for fc in ch.get("function_calls", []):
             call = fc.get("function_call", {})
-            if call.get("name") != "new_memory_insert":
+            name = call.get("name")
+            if name not in ("new_memory_insert", "memory_update", "memory_delete"):
                 continue
             try:
                 args = json.loads(call.get("arguments", "{}"))
             except Exception:
                 args = {}
-            mtype = _MTYPE.get(args.get("memory_type", ""), "episodic")
-            for uid, text in _parse_inserted(fc.get("tool_result", "")).items():
-                units[uid] = (mtype, text)
-        prov[idx] = units
-    return prov
+            mtype = _MTYPE.get(args.get("memory_type", ""))
+            if name == "new_memory_insert":
+                # id is generated server-side -> read it from the tool_result
+                for uid in _parse_inserted(fc.get("tool_result", "")):
+                    _touch(uid, mtype, idx)
+            elif name == "memory_update":
+                uid = args.get("memory_id")   # None for core -> skip
+                if uid:
+                    _touch(uid, mtype, idx)
+            else:  # memory_delete
+                uid = args.get("memory_id")
+                if uid:
+                    deleted.add(uid)
+
+    for uid in deleted:
+        contrib.pop(uid, None)
+
+    chunk_to_memory = OrderedDict()
+    for uid, entry in contrib.items():
+        for idx in entry["chunks"]:
+            lst = chunk_to_memory.setdefault(idx, [])
+            if uid not in lst:
+                lst.append(uid)
+
+    return contrib, chunk_to_memory, deleted
 
 
 # --------------------------------------------------------------------------- #
@@ -185,7 +234,7 @@ def _turn_index(turn_id):
 def map_instance(instance_dir, chunk_folders, qa_items, dialog_root):
     with open(os.path.join(instance_dir, "chunks_and_function_calls.json")) as f:
         chunks = json.load(f)
-    prov = build_provenance(chunks)
+    contrib, chunk_to_memory, deleted = build_provenance(chunks)
 
     final_ids = set()
     state_path = os.path.join(instance_dir, "agent_state.json")
@@ -195,14 +244,19 @@ def map_instance(instance_dir, chunk_folders, qa_items, dialog_root):
 
     folder2idx = {f: i for i, f in enumerate(chunk_folders)}
 
-    # memory_units: uid -> {mtype, chunk_idx, in_final, text}
+    # memory_units: uid -> {mtype, chunk_indices, n_contributing_chunks, in_final}
     memory_units = {}
-    chunk_to_memory = {}
-    for idx, units in prov.items():
-        chunk_to_memory[idx] = list(units.keys())
-        for uid, (mtype, text) in units.items():
-            memory_units[uid] = {"mtype": mtype, "chunk_idx": idx,
-                                 "in_final": uid in final_ids, "text": text}
+    for uid, entry in contrib.items():
+        memory_units[uid] = {
+            "mtype": entry["mtype"],
+            "chunk_indices": entry["chunks"],
+            "n_contributing_chunks": len(entry["chunks"]),
+            "in_final": uid in final_ids,
+        }
+
+    # per-chunk: how many distinct memory ids it contributed to (insert or update)
+    chunk_contribution_counts = {
+        str(idx): len(uids) for idx, uids in chunk_to_memory.items()}
 
     turn_to_memory = OrderedDict()
     question_map = []
@@ -243,10 +297,12 @@ def map_instance(instance_dir, chunk_folders, qa_items, dialog_root):
     return {
         "n_chunks": len(chunk_folders),
         "n_memory_units": len(memory_units),
+        "n_deleted_units": len(deleted),
         "n_evidence_turns_mapped": len(turn_to_memory),
         "unmatched_evidence_folders": sorted(unmatched),
         "memory_units": memory_units,
         "chunk_to_memory": {str(k): v for k, v in chunk_to_memory.items()},
+        "chunk_contribution_counts": chunk_contribution_counts,
         "turn_to_memory": turn_to_memory,
         "question_map": question_map,
     }
@@ -343,7 +399,7 @@ def main():
         res = map_instance(inst_dir, folders, qa_items, dialog_root)
         out["instances"][name] = res
         print(f"[map] instance {name}: chunks={res['n_chunks']} "
-              f"units={res['n_memory_units']} "
+              f"units={res['n_memory_units']} deleted={res['n_deleted_units']} "
               f"evidence_turns_mapped={res['n_evidence_turns_mapped']} "
               f"unmatched_folders={len(res['unmatched_evidence_folders'])}")
 
