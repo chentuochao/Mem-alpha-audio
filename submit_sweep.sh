@@ -53,8 +53,9 @@ if [[ $sweeping_seeds -eq 1 ]]; then
 fi
 
 # Optional passthrough env vars -> forwarded to sbatch --export if set.
+# ANON_SPEAKER=true selects the anonymized-speaker pipeline in submit_pipeline.slurm.
 EXPORT_EXTRA=""
-for v in VLLM_SCRIPT VLLM_ENV MEM_ENV; do
+for v in VLLM_SCRIPT VLLM_ENV MEM_ENV ANON_SPEAKER FORCE_REANSWER; do
     if [[ -n "${!v:-}" ]]; then
         EXPORT_EXTRA+=",${v}=${!v}"
     fi

@@ -48,7 +48,29 @@ from audio_script.Speaker_Track.speaker_pool import (
     build_linker,
 )
 
-NEW_FORMAT_DATASETS = ["bazinga", "perltqa"]
+NEW_FORMAT_DATASETS = ["bazinga", "perltqa", "mosaic"]
+
+
+def merge_adjacent_same_speaker(turns: List[Dict]) -> List[Dict]:
+    """Fold consecutive same-speaker turns (in a time-sorted stream) into one.
+
+    Mosaic GT is built by flattening two per-speaker turn lists and sorting by
+    start time; a speaker's back-to-back segments (with no other speaker turn
+    between them) then appear as adjacent same-speaker turns. Merge each such
+    run into a single turn: ``start`` = first turn's start, ``end`` = max end
+    (segments may overlap), ``text`` = space-joined. Non-text keys are taken
+    from the first turn of the run.
+    """
+    merged: List[Dict] = []
+    for t in turns:
+        if merged and merged[-1]["speaker"] == t["speaker"]:
+            prev = merged[-1]
+            prev["end"] = max(prev["end"], t["end"])
+            prev_text, cur_text = prev.get("text", "").strip(), t.get("text", "").strip()
+            prev["text"] = " ".join(x for x in (prev_text, cur_text) if x)
+        else:
+            merged.append(dict(t))
+    return merged
 
 # ─── Audio segmentation helpers ──────────────────────────────────────
 def segment_audio_by_diarization(
@@ -713,11 +735,11 @@ def main():
                 dialog_pred.append(sent)
 
         dataset = entry.get("dataset")
-        if dataset == "perltqa":
-            # PerLTQA GT is ALREADY turn-annotated (transcript_gt.json =
-            # {speaker: [{speaker, start, end, text}, ...]} built from
-            # channel_map.json). Each entry is a turn, so we build dialog_gt
-            # directly — no word->turn merge (parse_transcript_morespeakers).
+        if dataset in ("perltqa", "mosaic"):
+            # PerLTQA / Mix_Mosaic GT is ALREADY turn-annotated
+            # (transcript_gt.json = {speaker: [{speaker, start, end, text}, ...]}).
+            # Each entry is a turn, so we build dialog_gt directly — no
+            # word->turn merge (parse_transcript_morespeakers).
             with open(entry["transcript_path"], "r") as f:
                 trans_data = json.load(f)
             dialog_gt = [
@@ -742,6 +764,10 @@ def main():
             with open(entry["transcript2_path"], "r") as f:
                 dialog_gt.extend(json.load(f))
         dialog_gt.sort(key=lambda x: x["start"])
+        if dataset == "mosaic":
+            # After the flatten+sort, a speaker's consecutive segments show up
+            # as adjacent same-speaker turns — fold them back into single turns.
+            dialog_gt = merge_adjacent_same_speaker(dialog_gt)
 
         dialog_gt_json = parse_turn(dialog_gt)
         # print_turns(dialog_gt_json)

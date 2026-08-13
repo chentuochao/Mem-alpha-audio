@@ -69,6 +69,14 @@ from prepare_data.preprocess_utils import chunk_dialog, transcription_to_vad
 
 DATASET_NAME = "bazinga"
 
+# Per-dataset chunk-duration overrides (min_dur, max_dur) in seconds. Datasets
+# not listed here fall back to the shared CHUNK_* constants. Mosaic dyads rarely
+# contain >=gap_threshold silences (the two speakers overlap/interleave), so they
+# only ever split at max_dur — use a longer window there.
+CHUNK_DURATION_OVERRIDES = {
+    "mosaic": (180.0, 480.0),
+}
+
 
 def build_speaker_transcripts(
     chunk: List[Dict],
@@ -147,9 +155,12 @@ def process_episode(
     raw_audio: np.ndarray = sample["audio"]
     T = raw_audio.shape[0]
     raw_transcript: List[Dict] = sample["raw_transcript"]
-    # CHUNK_MIN_DURATION, CHUNK_MAX_DURATION, CHUNK_GAP_THRESHOLD
-    transcript_chunks = chunk_dialog(raw_transcript, min_dur=CHUNK_MIN_DURATION, max_dur=CHUNK_MAX_DURATION, gap_threshold=CHUNK_GAP_THRESHOLD)
-    print(f"  Split into {len(transcript_chunks)} chunk(s)")
+    # Chunk-duration window: per-dataset override if present, else shared consts.
+    min_dur, max_dur = CHUNK_DURATION_OVERRIDES.get(
+        dataset_name, (CHUNK_MIN_DURATION, CHUNK_MAX_DURATION)
+    )
+    transcript_chunks = chunk_dialog(raw_transcript, min_dur=min_dur, max_dur=max_dur, gap_threshold=CHUNK_GAP_THRESHOLD)
+    print(f"  Split into {len(transcript_chunks)} chunk(s)  (min={min_dur}s max={max_dur}s)")
 
     num_processed = num_skipped = num_fail = 0
 

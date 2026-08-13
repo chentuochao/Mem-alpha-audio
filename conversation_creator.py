@@ -48,6 +48,12 @@ def get_out_dir(agent_config, args, batch_idx):
     if compression_strategy is not None and compression_strategy != 'default':
         out_dir = out_dir + f"_comp_{compression_strategy}"
 
+    # Anonymized-speaker experiment gets its own folder so it never overwrites
+    # the named runs (registry-in-core + post-hoc name substitution). Both
+    # construction and QA must pass --anon_speaker so this suffix matches.
+    if getattr(args, 'anon_speaker', False):
+        out_dir = out_dir + "_anonspk"
+
     # Add rollout label as a subdirectory (e.g. .../<name>/seed1/<batch_idx>) so
     # per-seed/rollout runs are grouped under one parent instead of a suffix.
     if args.rollout_label is not None:

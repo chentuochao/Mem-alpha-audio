@@ -16,8 +16,8 @@
 #
 set -euo pipefail
 
-DATA_PATH="/checkpoint/seamless/tuochao/data/PerLTQA/dialogue_tts_en_v2"
-SNRS=(-5 )
+DATA_PATH="/checkpoint/seamless/tuochao/data/PerLTQA/dialogue_tts_en_name_replaced"
+SNRS=(-5)
 POOL_MINUTES=30
 NUM_INTERF_MIN=1
 NUM_INTERF_MAX=4

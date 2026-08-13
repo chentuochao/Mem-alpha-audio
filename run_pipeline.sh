@@ -52,6 +52,12 @@ SEED="${SEED:-}"
 MEM_TEMPERATURE="${MEM_TEMPERATURE:-}"
 ROLLOUT_LABEL="${ROLLOUT_LABEL:-}"
 
+# Whether step 2 (QA) re-answers even when results.json already exists. Default
+# OFF -> existing results are reused (QA skipped). Set FORCE_REANSWER=1/true to
+# overwrite. (Step 1 memory construction is always skipped when agent_state.json
+# already exists, regardless of this flag.)
+FORCE_REANSWER="${FORCE_REANSWER:-}"
+
 # Only pass --compression_strategy when a value is given, so the default run
 # behaves exactly as before (no _comp_ postfix on the output folder).
 COMPRESSION_ARGS=()
@@ -74,6 +80,12 @@ if [[ -n "$ROLLOUT_LABEL" ]]; then
     ROLLOUT_ARGS=(--rollout_label "$ROLLOUT_LABEL")
 fi
 
+# step 2 (QA) force-reanswer: only pass the flag when explicitly enabled.
+REANSWER_ARGS=()
+case "$FORCE_REANSWER" in
+    1|true|True|TRUE|yes|YES) REANSWER_ARGS=(--force_reanswer_questions) ;;
+esac
+
 echo "parquet_path        : ${PARQUET_PATH}"
 echo "dataset             : ${DATASET}"
 echo "custom_qa_dir       : ${CUSTOM_QA_DIR}"
@@ -81,6 +93,7 @@ echo "compression_strategy: ${COMPRESSION_STRATEGY:-None}"
 echo "seed                : ${SEED:-None}"
 echo "temperature         : ${MEM_TEMPERATURE:-None (config default)}"
 echo "rollout_label       : ${ROLLOUT_LABEL:-None}"
+echo "force_reanswer      : ${FORCE_REANSWER:-None (reuse existing results)}"
 
 # ---------------------------------------------------------------------------- #
 # Build shared args
@@ -135,7 +148,7 @@ python run_qa_evaluation.py --agent_config config/qwen3.6-27B_agent.yaml \
     --parquet_path "$PARQUET_PATH" \
     --batch_size 1  \
     --custom_qa_dir "$CUSTOM_QA_DIR" \
-    --force_reanswer_questions \
+    "${REANSWER_ARGS[@]}" \
     "${COMPRESSION_ARGS[@]}" \
     "${ROLLOUT_ARGS[@]}"
 

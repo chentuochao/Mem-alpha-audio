@@ -107,12 +107,19 @@ cleanup() {
 trap cleanup EXIT
 
 # --- 2. run the pipeline; memory agent pinned to GPU 0 ---------------------
-# run_pipeline.sh activates its own conda envs (vllm for step1, mem for step2)
+# run_pipeline*.sh activates its own conda envs (vllm for step1, mem for step2)
 # and points step2 at memory_server via the agent config's external_model_url.
+# ANON_SPEAKER=true selects the anonymized-speaker variant (registry-in-core
+# prompt + post-hoc name substitution); anything else uses the normal pipeline.
+case "${ANON_SPEAKER:-}" in
+    true|True|TRUE|1|yes) PIPELINE_SCRIPT="run_pipeline_speaker_name.sh" ;;
+    *)                    PIPELINE_SCRIPT="run_pipeline.sh" ;;
+esac
+echo "pipeline=${PIPELINE_SCRIPT}  anon_speaker=${ANON_SPEAKER:-false}"
 CUDA_VISIBLE_DEVICES=0 \
 QWEN_URL="http://localhost:${VLLM_PORT}/v1" \
 QWEN_MODEL_NAME="qwen3-32b" \
-    bash run_pipeline.sh "$PARQUET_PATH" "$DATASET" "$CUSTOM_QA_DIR"
+    bash "$PIPELINE_SCRIPT" "$PARQUET_PATH" "$DATASET" "$CUSTOM_QA_DIR"
 
 echo "================================================================"
 echo "[DONE] pipeline finished; servers will be stopped by the exit trap."

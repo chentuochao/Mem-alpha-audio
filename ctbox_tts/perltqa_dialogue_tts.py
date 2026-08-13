@@ -250,6 +250,31 @@ def resolve_block(profile: str, dialogue_id: str, timestamp: str,
     return DialogueBlock(profile, dialogue_id, timestamp, turns, order)
 
 
+def merge_dialogue_blocks(blocks: List[DialogueBlock]) -> DialogueBlock:
+    """
+    Combine several same-``dialogue_id`` timestamp blocks into one.
+
+    The output folder is keyed by ``dialogue_id`` only, so multiple timestamps of
+    one dialogue would otherwise collide on disk (the 2nd+ block silently
+    resume-skipped, losing its audio). We concatenate their turns — in the order
+    given (callers pass chronological order) — into a single block, and union the
+    speakers first-seen. ``timestamp`` becomes a comma-joined list (metadata only;
+    unused by generation).
+    """
+    if len(blocks) == 1:
+        return blocks[0]
+    turns: List[Tuple[str, str]] = []
+    for b in blocks:
+        turns.extend(b.turns)
+    parties: List[str] = []
+    for name, _ in turns:
+        if name not in parties:
+            parties.append(name)
+    timestamps = ",".join(b.timestamp for b in blocks)
+    return DialogueBlock(blocks[0].profile, blocks[0].dialogue_id,
+                         timestamps, turns, parties)
+
+
 def _profile_gender(pv: dict) -> str:
     """Owner (protagonist) gender from profile.Gender -> 'M'/'F'/'unknown'."""
     g = str((pv.get("profile", {}) or {}).get("Gender", "")).strip().lower()
@@ -285,7 +310,14 @@ def parse_dataset(data: dict) -> Tuple[List[dict], Counter, dict, Counter]:
         dialogues = pv.get("dialogues", {}) or {}
         for dialogue_id, dv in dialogues.items():
             contents = dv.get("contents", {}) or {}
-            for timestamp, lines in contents.items():
+            # A dialogue_id may hold several timestamped conversations. They all
+            # map to ONE output folder (keyed by dialogue_id), so we resolve each
+            # timestamp then merge them into a single block, concatenated in
+            # chronological order. Otherwise only the first timestamp is
+            # synthesised and the rest are silently resume-skipped.
+            resolved: List[DialogueBlock] = []
+            for timestamp in sorted(contents.keys()):
+                lines = contents[timestamp]
                 if not isinstance(lines, list):
                     skip["non_list"] += 1
                     continue
@@ -298,8 +330,13 @@ def parse_dataset(data: dict) -> Tuple[List[dict], Counter, dict, Counter]:
                 if block is None:
                     skip["unusable"] += 1
                     continue
-                group_blocks.append(block)
-                party_dist[len(block.parties)] += 1
+                resolved.append(block)
+
+            if not resolved:
+                continue
+            merged = merge_dialogue_blocks(resolved)
+            group_blocks.append(merged)
+            party_dist[len(merged.parties)] += 1
 
         if group_blocks:
             profile_groups.append({
@@ -606,8 +643,14 @@ def generate_all(
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    # ap.add_argument("--data", type=Path, default=DEFAULT_DATA)
-    # ap.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    ap.add_argument(
+        "--data", type=Path,
+        default=Path("/checkpoint/seamless/tuochao/data/PerLTQA/Dataset/en_v2/perltmem_en_v2.json"),
+        help="input PerLTQA dialogue JSON")
+    ap.add_argument(
+        "--output-dir", type=Path,
+        default=Path("/checkpoint/seamless/tuochao/data/PerLTQA/dialogue_tts_en_v2"),
+        help="TTS output root (one subdir per profile)")
     ap.add_argument("--ref-dir", type=Path, default=DEFAULT_REF_DIR)
     ap.add_argument("--ref-map", type=Path, default=None,
                     help="reference map JSON (default: <ref-dir>/reference_voice_map.json)")
@@ -642,8 +685,6 @@ def main() -> None:
                  f"got {args.shard_index}")
 
     ref_map_path = args.ref_map or (args.ref_dir / "reference_voice_map.json")
-    args.data = Path("/checkpoint/seamless/tuochao/data/PerLTQA/Dataset/en_v2/perltmem_en_v2.json")
-    args.output_dir = Path("/checkpoint/seamless/tuochao/data/PerLTQA/dialogue_tts_en_v2")
     # 1) parse + count -----------------------------------------------------
     with args.data.open(encoding="utf-8") as f:
         data = json.load(f)

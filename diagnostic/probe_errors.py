@@ -65,6 +65,7 @@ import os
 import ast
 import glob
 import json
+import time
 import hashlib
 import argparse
 from collections import Counter
@@ -842,11 +843,23 @@ def _run(args, pending, kind, label):
             _record_answer(args, rec, kind, cache[key]["response"])
         return
 
-    print(f"[probe] {label}: {len(recs)} questions")
-    payload = [(rec[_CTX_KEY[kind]], rec["_qa_prompt"]) for rec in recs]
-    responses = qa_batch(args.server_url, payload, args.max_tokens)
-    for rec, resp in zip(recs, responses):
-        _record_answer(args, rec, kind, resp)
+    bs = max(1, getattr(args, "batch_size", 64))
+    timeout = getattr(args, "timeout", 1200)
+    n = len(recs)
+    n_batches = (n + bs - 1) // bs
+    print(f"[probe] {label}: {n} questions in {n_batches} batch(es) of {bs} "
+          f"(timeout {timeout}s)", flush=True)
+    done = 0
+    for bi in range(n_batches):
+        chunk = recs[bi * bs:(bi + 1) * bs]
+        t0 = time.time()
+        payload = [(rec[_CTX_KEY[kind]], rec["_qa_prompt"]) for rec in chunk]
+        responses = qa_batch(args.server_url, payload, args.max_tokens, timeout=timeout)
+        for rec, resp in zip(chunk, responses):
+            _record_answer(args, rec, kind, resp)
+        done += len(chunk)
+        print(f"[probe] {label}: batch {bi + 1}/{n_batches} done "
+              f"({done}/{n} questions) in {time.time() - t0:.1f}s", flush=True)
 
 
 def _summarize_and_save(args, findings):
@@ -985,6 +998,11 @@ def parse_args():
                         "upper-bound ceiling). Skipped by default to save QA server calls.")
     p.add_argument("--min_turn_words", type=int, default=0)
     p.add_argument("--max_tokens", type=int, default=2048)
+    p.add_argument("--batch_size", type=int, default=64,
+                   help="Questions per server POST for the C/S probes. Smaller batches "
+                        "print progress more often and keep each POST under --timeout.")
+    p.add_argument("--timeout", type=int, default=1200,
+                   help="Per-POST read timeout in seconds for the C/S probes (default 1200).")
     p.add_argument("--debug", action="store_true",
                    help="Dump per-stage (G/C/T) qa_prompt, agent answer, gold "
                         "answer, and the evidence fed to the QA model -> "

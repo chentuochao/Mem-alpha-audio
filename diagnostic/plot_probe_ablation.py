@@ -40,10 +40,20 @@ OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "figures_ablation
 # ---- input: named pipeline variants -> probed run folder --------------------
 # Each key is a category on the x-axis (order preserved). Override at runtime
 # with --folders '{"name": "path", ...}'.
+## audio pipeline experiment:
+# FOLDERS = {
+#     "ASR+local_diarization+globaltracking+name_extraction(Full)": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_Season01_Clean_Anoy_no_thinking_tokens_2048",
+#     "ASR+local_diarization+globaltracking": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_global_Season01_Clean_no_thinking_tokens_2048",
+#     "ASR+local_diarization+globaltracking (new prompt)": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_global_Season01_Clean_no_thinking_tokens_2048_anonspk",
+#     "ASR+local_diarization": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_local_Season01_Clean_no_thinking_tokens_2048",
+# }
+
+# PerltQA dataset
 FOLDERS = {
-    "ASR+local_diarization+globaltracking+name_extraction(Full)": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_Season01_Clean_Anoy_no_thinking_tokens_2048",
-    "ASR+local_diarization+globaltracking": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_global_Season01_Clean_no_thinking_tokens_2048",
-    "ASR+local_diarization": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_local_Season01_Clean_no_thinking_tokens_2048",
+    "Perltqa clean": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_perltqa_dataset_pred_name_bundle_0_perltqa_no_thinking_tokens_2048",
+    "Perltqa interf 5dB": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_perltqa_dataset_pred_name_bundle_0_perltqa_interf_SNR5_no_thinking_tokens_2048",
+    "Perltqa interf 0dB": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_perltqa_dataset_pred_name_bundle_0_perltqa_interf_SNR0_no_thinking_tokens_2048",
+
 }
 
 # ---- presentation constants -------------------------------------------------

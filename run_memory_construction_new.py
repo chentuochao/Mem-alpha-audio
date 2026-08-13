@@ -83,6 +83,14 @@ def parse_args():
         default=[],
         help="Space or comma separated list of memory components to disable. Choose from: core, episodic, semantic."
     )
+    parser.add_argument(
+        "--anon_speaker",
+        action="store_true",
+        help="Anonymized-speaker experiment: dialogue uses <SpeakerX> tags. Selects "
+             "the anon multispeaker prompt (agent keeps a Speaker registry in core "
+             "memory and stores facts under the stable SpeakerX tag) and tags the "
+             "output folder with '_anonspk'. Pair with postprocess_speaker_substitute.py."
+    )
 
     args = parser.parse_args()
     allowed_memory_types = {"core", "semantic", "episodic"}
@@ -204,7 +212,7 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
         current_chunks = []
         for i, chunk_list in enumerate(batch_chunks):
             if chunk_idx < len(chunk_list):
-                prompt_key = 'unified_prompt_multispeaker' #if ("seamlessinteraction" in batch_sources[i]) else 'unified_prompt'
+                prompt_key = 'unified_prompt_multispeaker_anon' if args.anon_speaker else 'unified_prompt_multispeaker'
                 # prompt_key = 'unified_prompt'
                 current_chunks.append(prompts_wrt_datasource[prompt_key].format(
                     context=chunk_list[chunk_idx],

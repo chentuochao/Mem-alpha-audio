@@ -48,11 +48,21 @@ import statistics
 #     "interf_SNR5_x4":"/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_Season01_interf_SNR5_no_thinking_tokens_2048_comp_x4",
 # }
 
-FOLDERS = {
-    "ASR+local_diarization+globaltracking+name_extraction(Full)": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_Season01_Clean_Anoy_no_thinking_tokens_2048",
-    "ASR+local_diarization+globaltracking": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_global_Season01_Clean_no_thinking_tokens_2048",
-    "ASR+local_diarization": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_local_Season01_Clean_no_thinking_tokens_2048",}
+## audio pipeline experiment:
+# FOLDERS = {
+#     "ASR+local_diarization+globaltracking+name_extraction(Full)": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_Season01_Clean_Anoy_no_thinking_tokens_2048",
+#     "ASR+local_diarization+globaltracking": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_global_Season01_Clean_no_thinking_tokens_2048",
+#     "ASR+local_diarization+globaltracking (new prompt)": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_global_Season01_Clean_no_thinking_tokens_2048_anonspk",
+#     "ASR+local_diarization": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_anon_local_Season01_Clean_no_thinking_tokens_2048",
+# }
 
+# PerltQA dataset
+FOLDERS = {
+    "Perltqa clean": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_perltqa_dataset_pred_name_bundle_0_perltqa_no_thinking_tokens_2048",
+    "Perltqa interf 5dB": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_perltqa_dataset_pred_name_bundle_0_perltqa_interf_SNR5_no_thinking_tokens_2048",
+    "Perltqa interf 0dB": "/storage/home/tuochao/Mem-alpha-audio/agents/qwen3.6-27b_Qwen_Qwen3.6-27B_perltqa_dataset_pred_name_bundle_0_perltqa_interf_SNR0_no_thinking_tokens_2048",
+
+}
 def find_probe_files(folder):
     """Return error_probe.json paths for a run folder: the folder itself, its immediate
     instance subdirs (0/, 1/, ...), AND per-seed instance subdirs (seed*/0/). Findings

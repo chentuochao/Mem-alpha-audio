@@ -111,6 +111,13 @@ def parse_args():
         default=[],
         help="Space or comma separated list of memory components to disable. Choose from: core, episodic, semantic."
     )
+    parser.add_argument(
+        "--anon_speaker",
+        action="store_true",
+        help="Anonymized-speaker experiment. Only affects the output-folder name "
+             "(adds '_anonspk' via get_out_dir) so QA reads the matching memory "
+             "folder built by the construction step. No behavioral change here."
+    )
 
     args = parser.parse_args()
     allowed_memory_types = {"core", "semantic", "episodic"}

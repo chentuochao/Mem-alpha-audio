@@ -14,7 +14,7 @@ set -euo pipefail
 # server (bash launch_vllm.sh) the key value is ignored but must be non-empty.
 export OPENROUTER_API_KEY="${OPENROUTER_API_KEY:-EMPTY}"
 export QWEN_URL="${QWEN_URL:-http://localhost:8002/v1}"
-export QWEN_MODEL_NAME="${QWEN_MODEL_NAME:-Qwen/Qwen3-32B}"
+export QWEN_MODEL_NAME="${QWEN_MODEL_NAME:-qwen3-32b}"
 
 # Embedding matcher OFF: it enables only when OPENAI_API_KEY is set.
 unset OPENAI_API_KEY

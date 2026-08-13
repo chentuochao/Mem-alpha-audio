@@ -1,38 +1,24 @@
 #!/usr/bin/env bash
 #
-# End-to-end PerLTQA audio pipeline driver:
-#   Step0 (build GT annotations) -> Step1 (diar+ASR) -> Step2 (speaker matching)
-#   -> Step3 (speaker-name extraction), in one script.
+# End-to-end Mix_Mosaic audio pipeline driver:
+#   Step1 (diar+ASR) -> Step2 (speaker matching) -> Step3 (speaker-name
+#   extraction), in one script.
 #
-# Mirrors run_demo_pipeline_bazinga.sh, adapted for the synthesized PerLTQA
-# dialogue-TTS data (ctbox_tts/perltqa_dialogue_tts.py output). Differences:
-#   - Step0 builds per-speaker ground truth (turn text from channel_map.json +
-#     Silero VAD) with ctbox_tts/generate_annotations.py. Step1 REQUIRES these,
-#     so it runs first (skip with RUN_ANNOTATE=0 if annotations already exist).
-#   - Step1 uses the PerLTQA loader (audio_script.Multi_ASR.step1_perltqa).
-#   - PerLTQA has no "seasons": Step2/Step3 run ONCE over all dialogues and
-#     build the pool/state in a single pass (--update_pool). There is no
-#     season-by-season incremental loop.
+# Mirrors run_demo_pipeline_bazinga.sh (no Step0 — Mix_Mosaic is already mixed
+# on disk with transcripts) and borrows run_demo_pipeline_perltqa.sh's BUNDLE
+# mode for Step2/Step3. Differences:
+#   - Step1 uses the Mix_Mosaic loader (audio_script.Multi_ASR.step1_mosaic).
+#     It runs ONCE over every conversation (no cross-conversation state).
+#   - Step2/Step3 run per BUNDLE from bundles.json (built by
+#     audio_script/make_mix_mosaic_bundles.py). Each bundle becomes an
+#     INDEPENDENT speaker pool + name state (bundle == "season"; the bundle's
+#     pair-folder names are the Step2 --season_filter). With BUNDLE_MANIFEST
+#     empty, Step2/Step3 fall back to a single global pool over everything.
 #
 # Override anything inline, e.g.:
-#   METHOD=nemo-streaming ./audio_script/run_demo_pipeline_perltqa.sh
-#   RAW_DATA_PATH=/.../PerLTQA/dialogue_tts_en_v2 ./audio_script/run_demo_pipeline_perltqa.sh
+#   METHOD=nemo-offline ./audio_script/run_demo_pipeline_mosaic.sh
+#   BUNDLE_MANIFEST="" ./audio_script/run_demo_pipeline_mosaic.sh   # global pool
 #
-
-# # step1 once (on the 31 valid profiles) + reuse for both modes
-# RUN_STEP2=0 RUN_STEP3=0 bash audio_script/run_demo_pipeline_perltqa.sh
-
-# # per-profile pools (30 independent pools)
-# BUNDLE_MANIFEST=/checkpoint/seamless/tuochao/data/PerLTQA/dialogue_tts_en_v2/bundles_per_profile.json \
-#   RUN_STEP1=0 bash audio_script/run_demo_pipeline_perltqa.sh
-
-# # multi pools (3 bundles)
-# BUNDLE_MANIFEST=/checkpoint/seamless/tuochao/data/PerLTQA/dialogue_tts_en_v2/bundles_multi.json \
-#   RUN_STEP1=0 bash audio_script/run_demo_pipeline_perltqa.sh
-
-# # or the whole thing in one go
-# BUNDLE_MANIFEST=.../bundles_multi.json bash audio_script/run_demo_pipeline_perltqa.sh
-
 set -euo pipefail
 
 # ──────────────────────────────────────────────────────────────────────
@@ -42,19 +28,19 @@ set -euo pipefail
 # Backend for Step1: nemo-streaming | nemo-offline | vibevoice
 METHOD="${METHOD:-vibevoice}"
 
-# PerLTQA dialogue-TTS output folder (holds <Profile>/<dialogue_id>/ dirs).
-RAW_DATA_PATH="${RAW_DATA_PATH:-/checkpoint/seamless/tuochao/data/PerLTQA/dialogue_tts_en_name_replaced/}"
+# Mix_Mosaic root (holds Pxxx_Pyyy/<conv>/mixed_conv.wav dirs).
+RAW_DATA_PATH="${RAW_DATA_PATH:-/checkpoint/seamless/tuochao/data/Mix_Mosaic/naturalistic/test}"
+
+# Bundle manifest (make_mix_mosaic_bundles.py output). Each bundle == one
+# independent Step2/Step3 pool. Set empty for a single global pool.
+BUNDLE_MANIFEST="${BUNDLE_MANIFEST:-${RAW_DATA_PATH}/bundles.json}"
 
 # Per-phase enable switches (set to 0 to skip a phase).
-RUN_ANNOTATE="${RUN_ANNOTATE:-1}"   # Step0: build *_annotation.json (GT)
 RUN_STEP1="${RUN_STEP1:-1}"
 RUN_STEP2="${RUN_STEP2:-1}"
 RUN_STEP3="${RUN_STEP3:-1}"
 
-# Re-annotate even if *_annotation.json already exists (Step0 --overwrite).
-ANNOTATE_OVERWRITE="${ANNOTATE_OVERWRITE:-0}"
-
-# Wipe any existing Step2 pool / Step3 state before running so the pool is built
+# Wipe any existing Step2 pool / Step3 state before running so pools are built
 # fresh in this run. Set to 0 to resume on top of existing state.
 RESET_STATE="${RESET_STATE:-1}"
 
@@ -62,23 +48,6 @@ RESET_STATE="${RESET_STATE:-1}"
 PYTHONPATH_ROOT="/storage/home/tuochao/Mem-alpha-audio"
 RESULTS_ROOT="${PYTHONPATH_ROOT}/Audio_Results"
 DEVICE="cuda"
-
-# ── Bundle manifests ─────────────────────────────────────────────────
-# Step1 only transcribes profiles referenced by these manifests (the ones with
-# QAs), not all ~141 profiles. Uses the union across both files so a single
-# Step1 run covers whichever bundle mode you evaluate later.
-PP_MANIFEST="${PP_MANIFEST:-${RAW_DATA_PATH}/bundles_per_profile.json}"
-MULTI_MANIFEST="${MULTI_MANIFEST:-${RAW_DATA_PATH}/bundles_multi.json}"
-
-# Which manifest drives Step2/Step3 grouping. Each bundle becomes an INDEPENDENT
-# speaker pool + name state (one bundle == one "season"). Set to a manifest path
-# to run per-bundle; leave empty for a single global pool over everything.
-#   BUNDLE_MANIFEST="${PP_MANIFEST}"     -> per-profile pools (30)
-#   BUNDLE_MANIFEST="${MULTI_MANIFEST}"  -> multi-profile pools (3)
-BUNDLE_MANIFEST="${BUNDLE_MANIFEST:-}"
-
-# ── Step0 (annotations) ──────────────────────────────────────────────
-ENV_CTBOX="ctbox"
 
 # ── Step1 (NeMo backend) models ──────────────────────────────────────
 ENV_NEMO="nemo"
@@ -101,9 +70,8 @@ SIMILARITY_THRESHOLD="${SIMILARITY_THRESHOLD:-0.5}"
 EMBEDDING_DEVICE="${EMBEDDING_DEVICE:-cuda:0}"
 
 # ── Step3 (speaker-name extraction) ──────────────────────────────────
-QWEN_URL="${QWEN_URL:-http://localhost:8002/v1}"
-# Must match launch_vllm.sh's --served-model-name (the server only answers to
-# that name, not the HF repo id "Qwen/Qwen3-32B").
+QWEN_URL="http://localhost:8002/v1"
+# Must match launch_vllm.sh's --served-model-name.
 QWEN_MODEL_NAME="${QWEN_MODEL_NAME:-qwen3-32b}"
 
 # ──────────────────────────────────────────────────────────────────────
@@ -112,8 +80,8 @@ QWEN_MODEL_NAME="${QWEN_MODEL_NAME:-qwen3-32b}"
 DATASET_TAG="$(basename "${RAW_DATA_PATH}")"
 STEP1_OUT="${RESULTS_ROOT}/${METHOD}/${DATASET_TAG}/step1"
 STEP2_OUT="${RESULTS_ROOT}/${METHOD}/${DATASET_TAG}/step2"
-POOL_PATH="${STEP2_OUT}/pool.npz"                       # Step2 cross-run state
-STATE_PATH="${STEP2_OUT}/speakers_name_pool.json"       # Step3 cross-run state
+POOL_PATH="${STEP2_OUT}/pool.npz"                       # global-mode Step2 state
+STATE_PATH="${STEP2_OUT}/speakers_name_pool.json"       # global-mode Step3 state
 
 # ──────────────────────────────────────────────────────────────────────
 #  Logging — tee all output to a timestamped log file, and on any failure
@@ -121,7 +89,7 @@ STATE_PATH="${STEP2_OUT}/speakers_name_pool.json"       # Step3 cross-run state
 # ──────────────────────────────────────────────────────────────────────
 LOG_DIR="${RESULTS_ROOT}/logs"
 mkdir -p "${LOG_DIR}"
-RUN_LOG="${LOG_DIR}/pipeline_perltqa_$(date +%Y%m%d_%H%M%S).log"
+RUN_LOG="${LOG_DIR}/pipeline_mosaic_$(date +%Y%m%d_%H%M%S).log"
 exec > >(tee -a "${RUN_LOG}") 2>&1
 
 STAGE="init"
@@ -144,37 +112,20 @@ else
 fi
 
 export PYTHONPATH="${PYTHONPATH_ROOT}"
-# Stream Python prints live: stdout is a pipe (tee) here, so without this the
-# per-step progress is block-buffered and the run looks "stuck" during the
-# (slow, silent) WeSpeaker model load + embedding extraction.
+# Stream Python prints live (stdout is a tee pipe here, so otherwise the slow,
+# silent WeSpeaker load + embedding extraction looks "stuck").
 export PYTHONUNBUFFERED=1
 
 echo "============================================================"
-echo "  PerLTQA pipeline   method=${METHOD}"
+echo "  Mix_Mosaic pipeline   method=${METHOD}"
 echo "  Data dir  : ${RAW_DATA_PATH}"
+echo "  Manifest  : ${BUNDLE_MANIFEST:-<none: global pool>}"
 echo "  Step1 out : ${STEP1_OUT}"
 echo "  Step2 out : ${STEP2_OUT}"
-echo "  Pool/state: ${POOL_PATH} | ${STATE_PATH}"
 echo "============================================================"
 
 # ──────────────────────────────────────────────────────────────────────
-#  Step 0 — build ground-truth annotations (turn text + Silero VAD)
-# ──────────────────────────────────────────────────────────────────────
-if [ "${RUN_ANNOTATE}" = "1" ]; then
-    echo ""
-    echo ">>> Step 0 (annotations)  env=${ENV_CTBOX}"
-    conda activate "${ENV_CTBOX}"
-    ANNOTATE_ARGS=(
-        --output-dir "${RAW_DATA_PATH}"
-    )
-    [ "${ANNOTATE_OVERWRITE}" = "1" ] && ANNOTATE_ARGS+=(--overwrite)
-    STAGE="Step0 (annotations)"
-    python "${PYTHONPATH_ROOT}/ctbox_tts/generate_annotations.py" "${ANNOTATE_ARGS[@]}"
-    conda deactivate
-fi
-
-# ──────────────────────────────────────────────────────────────────────
-#  Step 1 — diarization + ASR (PerLTQA loader)
+#  Step 1 — diarization + ASR (once, all conversations)
 # ──────────────────────────────────────────────────────────────────────
 if [ "${RUN_STEP1}" = "1" ]; then
     case "${METHOD}" in
@@ -188,37 +139,12 @@ if [ "${RUN_STEP1}" = "1" ]; then
     conda activate "${STEP1_ENV}"
     [ "${METHOD}" = "nemo-offline" ] && export CUDA_LAUNCH_BLOCKING=1
 
-    # Restrict Step1 to profiles referenced by the bundle manifests (skip the
-    # ~110 QA-less profiles). Names are anchored with a trailing "_" so they
-    # match conv_id "<Profile>_<dialogue>" exactly (avoids prefix collisions).
-    mapfile -t VALID_FILTERS < <(python - "${PP_MANIFEST}" "${MULTI_MANIFEST}" <<'PY'
-import json, sys
-profs = set()
-for f in sys.argv[1:]:
-    try:
-        m = json.load(open(f))
-    except Exception:
-        continue
-    for b in m.get("bundles", []):
-        for p in b.get("profiles", []):
-            profs.add(p["profile"])
-for p in sorted(profs):
-    print(p + "_")
-PY
-)
-
     STEP1_ARGS=(
         --method     "${METHOD}"
         --data_dir   "${RAW_DATA_PATH}"
         --output_dir "${STEP1_OUT}"
         --device     "${DEVICE}"
     )
-    if [ "${#VALID_FILTERS[@]}" -gt 0 ]; then
-        echo "[step1] restricting to ${#VALID_FILTERS[@]} valid profile(s) from manifests"
-        STEP1_ARGS+=(--season_filter "${VALID_FILTERS[@]}")
-    else
-        echo "[step1][WARN] no manifest profiles found; running Step1 on ALL dialogues"
-    fi
     case "${METHOD}" in
         nemo-streaming|nemo-offline)
             STEP1_ARGS+=(
@@ -238,7 +164,7 @@ PY
     esac
 
     STAGE="Step1 (diar+ASR)"
-    python -m audio_script.Multi_ASR.step1_perltqa "${STEP1_ARGS[@]}"
+    python -m audio_script.Multi_ASR.step1_mosaic "${STEP1_ARGS[@]}"
     conda deactivate
 fi
 
@@ -257,9 +183,9 @@ fi
 
 # ──────────────────────────────────────────────────────────────────────
 #  Step 2 + Step 3
-#    - BUNDLE_MANIFEST set  -> one independent pool per bundle
-#                              (bundle == season; profiles == episodes)
-#    - BUNDLE_MANIFEST empty -> single global pool over everything
+#    - BUNDLE_MANIFEST set   -> one independent pool per bundle
+#                               (bundle == season; pair folders == filter)
+#    - BUNDLE_MANIFEST empty  -> single global pool over everything
 # ──────────────────────────────────────────────────────────────────────
 run_step2() {  # $1=data_dir(step1 out)  $2=output_dir  $3=pool_path ; extra args = season_filter
     local data_dir="$1" out_dir="$2" pool="$3"; shift 3
@@ -292,13 +218,14 @@ if [ "${RUN_STEP2}" = "1" ] || [ "${RUN_STEP3}" = "1" ]; then
         echo ">>> Step 2/3 in BUNDLE mode: ${BUNDLE_MANIFEST}"
         [ -f "${BUNDLE_MANIFEST}" ] || { echo "ERROR: manifest not found: ${BUNDLE_MANIFEST}"; exit 1; }
 
-        # emit "<bundle_id>\t<profile>_ <profile>_ ..." per bundle
-        while IFS=$'\t' read -r BID PROFS; do
-            read -ra PARR <<< "${PROFS}"
+        # emit "<bundle_id>\t<pair1> <pair2> ..." per bundle (Mix_Mosaic manifest
+        # lists pair folders under b["folders"]).
+        while IFS=$'\t' read -r BID PAIRS; do
+            read -ra PARR <<< "${PAIRS}"
             B2_OUT="${STEP2_OUT}/bundle_${BID}"
             mkdir -p "${B2_OUT}"
             echo ""
-            echo "──────── bundle ${BID}: ${#PARR[@]} profile(s) ────────"
+            echo "──────── bundle ${BID}: ${#PARR[@]} pair-folder(s) ────────"
 
             if [ "${RUN_STEP2}" = "1" ]; then
                 STAGE="Step2 bundle ${BID}"
@@ -312,8 +239,7 @@ if [ "${RUN_STEP2}" = "1" ] || [ "${RUN_STEP3}" = "1" ]; then
 import json, sys
 m = json.load(open(sys.argv[1]))
 for b in m["bundles"]:
-    profs = " ".join(p["profile"] + "_" for p in b["profiles"])
-    print(f"{b['bundle_id']}\t{profs}")
+    print(f"{b['bundle_id']}\t{' '.join(b['folders'])}")
 PY
 )
     else

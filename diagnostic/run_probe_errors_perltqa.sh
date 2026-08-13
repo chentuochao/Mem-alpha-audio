@@ -26,7 +26,7 @@ set -euo pipefail
 
 DATA_SOURCE="perltqa"
 # perltqa grading of each probe re-answer: keyword (default, no API) | llm_judge.
-SCORER="${SCORER:-keyword}"
+SCORER="${SCORER:-llm_judge}"
 
 # The llm_judge scorer grades through the OpenAI client, reading QWEN_URL /
 # QWEN_MODEL_NAME / OPENROUTER_API_KEY (same as evaluate_agent_results.py). These are
@@ -47,17 +47,25 @@ BASE_DIR="${BASE_DIR%/}"
 BASE_DIR="${BASE_DIR%/0}"
 # Dialogue root: each chunk folder holds BOTH parsed_dialog_gt.json (gold evidence)
 # and parsed_dialog_pred.json (ASR transcript for the T-probe).
-DATA_ROOT="${2:-outputs/step3_perltqa/bundle_0}"
-QA_FILE="${3:-outputs/perltqa_data/qa_multi/bundle_0_filterd/qa.jsonl}"
+DATA_ROOT="${2:-outputs/step3_perltqa_replaced_name/bundle_0}"
+QA_FILE="${3:-outputs/perltqa_data/qa_multi_name_replaced/bundle_0_filterd/qa.jsonl}"
 # Parquet whose chunk_folders list maps chunk_idx -> "{profile}_{session}/CHUNK_0".
 # The agent was built from the pred-name variant, so map against that one.
-PARQUET="${4:-outputs/step3_perltqa/bundle_0/dataset_gt_name_bundle_0.parquet}"
+PARQUET="${4:-outputs/step3_perltqa_replaced_name/bundle_0/dataset_gt_name_bundle_0_perltqa.parquet}"
 SERVER_URL="${5:-http://127.0.0.1:5005/batch_process}"
 
 # G-probe (gold-dialogue re-answer, the ceiling) is off by default. Set RUN_GOLDEN=1.
 RUN_GOLDEN="${RUN_GOLDEN:-}"
 GOLDEN_ARGS=()
 [ -n "$RUN_GOLDEN" ] && GOLDEN_ARGS=(--run_golden)
+
+# Per-POST batching for the T/G precompute. Each POST asks the memory server for
+# BATCH_SIZE sequential generations (qwen_batch_size=1 server-side) and waits up to
+# PROBE_TIMEOUT seconds. If a batch's total generation time exceeds the timeout the
+# request read-times-out. Shrinking BATCH_SIZE keeps each POST short AND lets the
+# cache save incrementally (a later timeout never loses finished answers; just rerun).
+BATCH_SIZE="${BATCH_SIZE:-64}"
+PROBE_TIMEOUT="${PROBE_TIMEOUT:-1200}"
 
 # T/G re-answers depend only on the DATA_ROOT dialogues + question, so every base_dir /
 # seed sharing this DATA_ROOT reuses one cache (kept in DATA_ROOT for cross-run reuse).
@@ -97,6 +105,8 @@ PYTHONPATH=diagnostic python diagnostic/precompute_tg_probes.py \
     --server_url "$SERVER_URL" \
     --data_source "$DATA_SOURCE" \
     --cache "$TG_CACHE" \
+    --batch_size "$BATCH_SIZE" \
+    --timeout "$PROBE_TIMEOUT" \
     "${GOLDEN_ARGS[@]}"
 
 for idir in "${INSTANCE_DIRS[@]}"; do
@@ -119,6 +129,8 @@ for idir in "${INSTANCE_DIRS[@]}"; do
         --full_qa \
         --debug \
         --tg_probe_cache "$TG_CACHE" \
+        --batch_size "$BATCH_SIZE" \
+        --timeout "$PROBE_TIMEOUT" \
         "${GOLDEN_ARGS[@]}"
 done
 
