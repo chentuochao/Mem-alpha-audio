@@ -30,7 +30,6 @@
 #SBATCH --job-name=mem-pipeline
 #SBATCH --account=seamless
 #SBATCH --qos=h200_seamless_high
-#SBATCH --partition=h200
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:2
 #SBATCH --cpus-per-task=32

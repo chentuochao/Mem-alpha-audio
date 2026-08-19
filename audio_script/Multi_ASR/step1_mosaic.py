@@ -202,14 +202,29 @@ def build_argparser() -> argparse.ArgumentParser:
     )
     add_common_args(parser)   # --data_dir --output_dir --device --season_filter
     add_backend_args(parser)  # --method + backend-specific flags
+    parser.add_argument("--num_shards", type=int, default=1,
+                        help="Split the conversation list into this many shards "
+                             "(for data-parallel runs across GPUs).")
+    parser.add_argument("--shard_index", type=int, default=0,
+                        help="Which shard this process handles (0-based). Shards "
+                             "are round-robin over the sorted conversation list, "
+                             "so every shard gets a mix of long/short files. All "
+                             "shards can safely share one --output_dir: results "
+                             "are written per conv_id.")
     return parser
 
 
 def main():
     args = build_argparser().parse_args()
+    if args.num_shards < 1 or not (0 <= args.shard_index < args.num_shards):
+        raise ValueError("Require num_shards >= 1 and 0 <= shard_index < num_shards.")
 
     dataset = MixMosaicDataset(args.data_dir, sample_rate=SR)
     print(f"Found {len(dataset)} conversation(s) under {args.data_dir}")
+    if args.num_shards > 1:
+        dataset.conversations = dataset.conversations[args.shard_index::args.num_shards]
+        print(f"Shard {args.shard_index}/{args.num_shards}: "
+              f"{len(dataset)} conversation(s) to process")
 
     backend = build_backend(args)
     print(f"Using inference backend: {backend.name}")

@@ -69,6 +69,9 @@ EMBEDDING_DEVICE="${EMBEDDING_DEVICE:-cuda:0}"
 
 # ── Step3 (speaker-name extraction) ──────────────────────────────────
 QWEN_URL="http://localhost:8002/v1"
+# Must match the vLLM server's --served-model-name (see launch_vllm*.sh), NOT
+# the HF repo id — the server 404s on any other name.
+QWEN_MODEL_NAME="${QWEN_MODEL_NAME:-qwen3-32b}"
 
 # ──────────────────────────────────────────────────────────────────────
 #  Derived paths (separate result tree per backend + dataset folder, so
@@ -182,6 +185,7 @@ fi
 if [ "${RUN_STEP2}" = "1" ] || [ "${RUN_STEP3}" = "1" ]; then
     conda activate "${ENV_MEM}"
     export QWEN_URL="${QWEN_URL}"
+    export QWEN_MODEL_NAME="${QWEN_MODEL_NAME}"
     mkdir -p "${STEP2_OUT}"
 
     for idx in "${!SEASONS[@]}"; do

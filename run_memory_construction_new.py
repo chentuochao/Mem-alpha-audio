@@ -149,11 +149,20 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
     compression_instruction = strategy['instruction']
     budget_ratio = float(strategy.get('budget_ratio', 1.0))
     base_max_new_tokens = agent_config.get('max_new_tokens', 2048)
-    # Hard per-chunk output cap for this strategy. Smaller cap -> smaller memory -> higher ratio.
+    # Hard per-chunk output cap. This is a SAFETY NET, not the compression lever: when it
+    # binds, generation is cut mid-JSON and the truncated call is dropped, which loses
+    # writes instead of compressing them. Keep it above the natural output length.
     effective_max_new_tokens = max(64, int(base_max_new_tokens * budget_ratio))
+    # Compression rate, LLMLingua-style: the per-chunk memory budget is a fixed FRACTION
+    # of that chunk's own length, so the budgets sum to total_input / target_ratio and the
+    # global compression ratio is controlled independently of chunk size / count / dataset.
+    # An absolute word cap would instead make the achieved ratio float with chunk length.
+    target_ratio = strategy.get('target_ratio')
+    target_ratio = float(target_ratio) if target_ratio else None
     print(f"[DEBUG] Compression strategy '{args.compression_strategy}': "
-          f"budget_ratio={budget_ratio}, max_new_tokens={effective_max_new_tokens} "
-          f"(base={base_max_new_tokens})")
+          f"target_ratio={target_ratio or 'None (prose-only)'}, "
+          f"max_new_tokens={effective_max_new_tokens} (base={base_max_new_tokens}, "
+          f"budget_ratio={budget_ratio})")
 
     # Resolve sampling temperature. --temperature (if given) overrides the legacy
     # defaults (0.7 in the thinking branch, 0.0/greedy in the no-thinking branch).
@@ -214,10 +223,18 @@ def run_memory_construction_batch(args, agent_config, batch_indices, batch_chunk
             if chunk_idx < len(chunk_list):
                 prompt_key = 'unified_prompt_multispeaker_anon' if args.anon_speaker else 'unified_prompt_multispeaker'
                 # prompt_key = 'unified_prompt'
+                # Per-chunk word budget = this chunk's length / target_ratio (see above).
+                # Strategies without a target_ratio keep their prose-only instruction.
+                instruction = compression_instruction
+                if target_ratio and '{memory_budget_words}' in instruction:
+                    chunk_words = len(str(chunk_list[chunk_idx]).split())
+                    instruction = instruction.format(
+                        memory_budget_words=max(15, int(chunk_words / target_ratio))
+                    )
                 current_chunks.append(prompts_wrt_datasource[prompt_key].format(
                     context=chunk_list[chunk_idx],
                     max_new_tokens=int(max_new_tokens * 0.8),
-                    compression_instruction=compression_instruction,
+                    compression_instruction=instruction,
                 ))
                 remaining_indices.append(i)
         if len(remaining_indices) == 0:
