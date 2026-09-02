@@ -4,19 +4,28 @@ End-to-end guide for running the **Bazinga** dataset through the audio memory
 agent: from raw episode audio → diarized/ASR'd dialogue → Parquet → memory
 construction + QA evaluation → error probing / visualization.
 
-- **Dataset:** The Big Bang Theory (TBBT), organized by season/episode.
+- **Dataset:** The Big Bang Theory (TBBT), organized by season/episode. Every
+  other show under `/checkpoint/seamless/tuochao/data/bazinga/data/` (Friends,
+  TheOffice, …) uses the identical layout and runs through the same scripts —
+  see [Running a different show](#running-a-different-show).
 - **Raw data path:** `/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory`
-  - Noisy variants live in sibling `*_SNRx` / `*_interf_SNRx` folders.
+  - Noisy variants live in sibling `*_SNRx` / `*_interf_SNRx` folders, generated
+    in Stage 0.
 - **Repo root:** `/storage/home/tuochao/Mem-alpha-audio`
 
-The pipeline has four stages:
+The pipeline has five stages:
 
 | Stage | What it does | Entry point |
 |-------|--------------|-------------|
+| 0. Audio prep | noise/interference mixing, session timeline | `audio_script/run_mix_wham_*.sh`, `prepare_data/make_bazinga_timeline.py` |
 | 1. Audio pipeline | diarization + ASR → speaker matching → speaker-name extraction | `audio_script/run_demo_pipeline_bazinga.sh` |
 | 2. Parquet build | pack dialogue chunks into a Parquet dataset | `prepare_data/prepare_parquet_from_step3*.py` |
 | 3. Memory + QA | build memory, then answer/score QA | `run_pipeline.sh` / `submit_sweep.sh` |
 | 4. Error probing | attribute QA errors to a pipeline stage + plot | `diagnostic/run_probe_errors.sh` |
+
+Stage 0 is only needed for a new show or a new noise condition; the clean TBBT
+folders and `outputs/bazinga_data/TBBT_all_seasons_session_timeline.json` already
+exist.
 
 ---
 
@@ -32,7 +41,9 @@ The pipeline has four stages:
 | `vllm` | Memory construction (step 1 of `run_pipeline.sh`), reward-model server |
 
 **A Qwen reward/LLM server** must be reachable:
-- Step3 name extraction expects `QWEN_URL=http://localhost:8002/v1`.
+- Step3 name extraction expects `QWEN_URL=http://localhost:8002/v1` and
+  `QWEN_MODEL_NAME` equal to the server's `--served-model-name` (`qwen3-32b` for
+  both `launch_vllm.sh` and `launch_vllm_qwen36.sh`).
 - Memory construction / QA expects a vLLM server; on SLURM this is launched
   automatically by `submit_pipeline.slurm` (see Stage 3).
 
@@ -43,6 +54,77 @@ The pipeline has four stages:
 
 Everything below assumes you run from the repo root and have
 `PYTHONPATH=/storage/home/tuochao/Mem-alpha-audio`.
+
+---
+
+## Stage 0 — Audio preparation
+
+### Raw data layout
+
+Every show folder under `/checkpoint/seamless/tuochao/data/bazinga/data/` is flat,
+two files per episode:
+
+```
+<Show>/
+  <Show>.SeasonNN.EpisodeMM.en.wav    # 16 kHz mono PCM_16, ~22 min
+  <Show>.SeasonNN.EpisodeMM.txt       # word-level annotation, one word per line:
+                                      #   file_id speaker start end word score ...
+  episodes.txt / characters.txt / credits.txt / episodes.MISSING.txt   # metadata, ignored
+```
+
+`Bazinga_loader.BazingaDataset` reads this pair directly; nothing needs
+pre-converting. The stem (`<Show>.SeasonNN.EpisodeMM`) is the `conv_id` used as
+the episode folder name everywhere downstream, and as the session-timeline key.
+
+### 0a. Noise / interference mixing (optional, for SNR ablations)
+
+Both scripts write **sibling** folders next to `DATA_PATH` containing noisy
+`.en.wav` plus a verbatim copy of the `.txt`, so the result is a drop-in
+`RAW_DATA_PATH` for Stage 1. Edit `DATA_PATH`, `SNRS`, and `SEASON_FILTER` at the
+top of each script (they are plain assignments, not env-overridable).
+
+```bash
+# WHAM background noise -> <DATA_PATH>_SNR10 / _SNR5 / _SNR0 / _SNR-5
+bash audio_script/run_mix_wham_noise.sh
+
+# Competing speech (sdialog/voices-libritts) -> <DATA_PATH>_interf_SNR15 / _SNR10 / _SNR5
+bash audio_script/run_mix_wham_inteference.sh
+```
+
+Both run in the `nemo` env (needs `datasets` + `soundfile` + `librosa`) and call
+`audio_script/datasets/mix_wham_noise.py` / `mix_speech_interference.py`, which
+you can also invoke directly:
+
+```bash
+python -m audio_script.datasets.mix_wham_noise \
+  --data_dir /checkpoint/seamless/tuochao/data/bazinga/data/Friends \
+  --snr 10 5 0 --noise_pool_minutes 30 --seed 0 \
+  --season_filter Season01 Season02 Season03
+```
+
+Only the noise gain differs between `_SNRx` folders at a given seed, so DER/WER
+deltas across them are attributable to SNR alone.
+
+### 0b. Session timeline
+
+Bazinga has no real timestamps, so each episode is assigned a synthetic
+*benchmark history date*: the first episode gets `--start_date` and every later
+episode advances one week in canonical Season/Episode order, without resetting at
+season boundaries. Stage 2 stamps chunks with these dates.
+
+`prepare_data/make_bazinga_timeline.py` generates one for any show:
+
+```bash
+python prepare_data/make_bazinga_timeline.py \
+  --data_dir /checkpoint/seamless/tuochao/data/bazinga/data/Friends
+# -> outputs/bazinga_data/Friends_all_seasons_session_timeline.json
+#    show: Friends | seasons 1-10 | 233 episodes | 2023-05-01 -> 2027-10-11
+```
+
+It accepts either a raw show dir or an existing Step1/Step2 tree of episode
+folders, and skips episodes absent from the source (e.g. Friends S05E24, listed
+in `episodes.MISSING.txt`) while keeping the rest consecutive. Pass the result to
+Stage 2 with `--time_info_path`; the TBBT default is already checked in.
 
 ---
 
@@ -85,11 +167,137 @@ RAW_DATA_PATH=/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory_SN
 
 # Only re-run a later phase (skip Step1); resume on existing pool/state
 RUN_STEP1=0 RESET_STATE=0 bash audio_script/run_demo_pipeline_bazinga.sh
+
+# Step1 only, one season
+SEASONS="Season01" RUN_STEP2=0 RUN_STEP3=0 bash audio_script/run_demo_pipeline_bazinga.sh
+
+# Single episode (season_filter is a substring match on the episode id)
+SEASONS="Season01.Episode01" RUN_STEP2=0 RUN_STEP3=0 \
+  bash audio_script/run_demo_pipeline_bazinga.sh
 ```
 
-Key knobs (edit at the top of the script or pass as env):
-`METHOD`, `RAW_DATA_PATH`, `SEASONS`, `RUN_STEP1/2/3`, `RESET_STATE`,
-`SIMILARITY_THRESHOLD`, `QWEN_URL`.
+Every knob below is `${VAR:-default}`, so inline env vars win:
+
+| Var | Default | Notes |
+|-----|---------|-------|
+| `METHOD` | `vibevoice` | `vibevoice` \| `nemo-streaming` \| `nemo-offline` |
+| `RAW_DATA_PATH` | `.../TheBigBangTheory` | basename becomes `DATASET_TAG` in the output tree |
+| `SEASONS` | `"Season01 Season02 Season03"` | space-separated; substring-matched against the episode id |
+| `RUN_STEP1/2/3` | `1` | set to `0` to skip a phase |
+| `RESET_STATE` | `1` | wipes `pool.npz` + `speakers_name_pool.json`; see the caveat below |
+| `SIMILARITY_THRESHOLD` | `0.5` | Step2 speaker-embedding match threshold |
+| `EMBEDDING_MODEL_DIR`, `EMBEDDING_DEVICE` | wespeaker resnet293, `cuda:0` | Step2 |
+| `QWEN_URL` | `http://localhost:8002/v1` | Step3 LLM server |
+| `QWEN_MODEL_NAME` | `qwen3-32b` | **must equal the server's `--served-model-name`**, not the HF repo id |
+| `MAX_NEW_TOKENS` | `8192` | VibeVoice generation cap |
+| `REPETITION_PENALTY` | `1.0` | **leave at 1.0** — see below |
+| `NO_REPEAT_NGRAM_SIZE` | `0` | preferred anti-degeneration knob |
+| `TEMPERATURE`, `TOP_P`, `NUM_BEAMS`, `ATTN_IMPL` | `0.0`, `1.0`, `1`, `auto` | VibeVoice decoding |
+
+> **Do not raise `REPETITION_PENALTY` above 1.0.** The VibeVoice output format
+> requires `"Speaker"`, `"Content"` and the speaker-id digits to repeat once per
+> segment; penalizing them pushes the model into emitting fewer, longer segments
+> that merge several speakers' turns into one `Content` separated by `\n`, all
+> tagged with a single speaker id. Measured on Friends S01E01 CHUNK_0 (6 GT
+> speakers): `1.0` → 4 speakers / 15 segments; `1.2` → 1 speaker / 7 segments.
+> It costs TBBT accuracy too (3 GT speakers: `1.0` → 3, `1.2` → 2). If a chunk
+> degenerates into a repetition loop and never emits EOS, use
+> `NO_REPEAT_NGRAM_SIZE` instead — it doesn't distort diarization.
+
+> `RESET_STATE` runs **outside** the Step2/Step3 guard, so it deletes the pool
+> and name state even with `RUN_STEP2=0 RUN_STEP3=0`. Pass `RESET_STATE=0` to
+> keep them.
+
+### Resuming an interrupted run
+
+Step1 skips any chunk whose `diart_pred.npy` + `transcript_pred.json` +
+`sample_info.json` all exist (`step1_bazinga.py:179`), so resume is chunk-level:
+re-run the same command and it picks up where it stopped, including mid-episode.
+
+The corollary: **stale output is never regenerated.** After changing a decoding
+knob, delete the affected tree (`rm -rf Audio_Results/<METHOD>/<TAG>/step1`)
+or the run will silently reuse the old results.
+
+There is no watchdog — if a chunk blocks inside `generate()`, the run stalls
+indefinitely with no error and no log output. Check liveness with the mtime of
+the newest file in the output tree, not with `squeue`:
+
+```bash
+find Audio_Results/vibevoice/<TAG>/step1 -type f -printf '%T@ %TF %TR %p\n' | sort -n | tail -1
+```
+
+### Running a different show
+
+Nothing is TBBT-specific — point `RAW_DATA_PATH` at any show folder. `DATASET_TAG`
+is its basename, so results and state auto-separate.
+
+```bash
+RAW_DATA_PATH=/checkpoint/seamless/tuochao/data/bazinga/data/Friends \
+SEASONS="Season01 Season02 Season03" \
+  bash audio_script/run_demo_pipeline_bazinga.sh
+# -> Audio_Results/vibevoice/Friends/{step1,step2}
+```
+
+Cost scales with episode count: ~10 s per chunk, ~13 chunks per episode, so
+~2.5 min/episode (Friends Seasons 1–3 = 72 episodes ≈ 3 h; all 233 ≈ 10 h). Use
+`sbatch`, not an interactive job.
+
+Speaker load varies a lot by show, and Step2/Step3 get harder as it rises. Mean
+unique speakers per episode in the shipped data:
+
+| Show | Episodes | Speakers/episode (min / median / max) |
+|------|----------|---------------------------------------|
+| 24 | 204 | 1 / 1 / 24 |
+| BreakingBad | 61 | 1 / 1 / 19 |
+| ER | 330 | 1 / 2 / 52 |
+| Homeland | 70 | 1 / 1 / 29 |
+| SixFeetUnder | 63 | 1 / 1 / 26 |
+| TheWalkingDead | 99 | 1 / 8 / 24 |
+| **TheBigBangTheory** | **207** | **5 / 9 / 18** |
+| **Friends** | **233** | **6 / 12 / 20** |
+| BuffyTheVampireSlayer | 143 | 9 / 18 / 30 |
+| TheOffice | 188 | 11 / 19 / 46 |
+| Lost | 104 | 11 / 18 / 45 |
+| BattlestarGalactica | 71 | 12 / 24 / 43 |
+| GameOfThrones | 60 | 18 / 40 / 58 |
+
+(`StarWars`, `HarryPotter`, `LordOfTheRings` are film sets — a handful of very
+long, very crowded "episodes".)
+
+### Evaluating Step1 quality
+
+`audio_script/evaluate_audio_results.py` walks a Step1 tree and reports DER +
+cpWER per chunk against the GT, and writes a GT-vs-pred diarization PNG each:
+
+```bash
+~/miniconda3/envs/mem/bin/python audio_script/evaluate_audio_results.py \
+  Audio_Results/vibevoice/Friends/step1
+```
+
+For a quick speaker-count sanity check without running the full metric:
+
+```bash
+python3 -c "
+import json,glob,collections
+c=collections.Counter()
+for p in glob.glob('Audio_Results/vibevoice/Friends/step1/*/CHUNK_*/transcript_pred.json'):
+    c[len(json.load(open(p)))]+=1
+print('pred speakers/chunk:',dict(sorted(c.items())))"
+```
+
+A spike at 1 speaker means the collapse described under `REPETITION_PENALTY`.
+
+### Debug harnesses
+
+Both run one chunk through VibeVoice directly, bypassing the pipeline, on a GPU
+node (`srun --jobid=<JOBID> --overlap -n1 ... ` against an existing allocation;
+set `HF_HUB_OFFLINE=1` since compute nodes have no proxy):
+
+- `audio_script/debug/debug_vibevoice_chunk0.py` — ablation grid over streaming,
+  clip length, prompt `context_info`, and gain, to isolate what drives a bad
+  diarization.
+- `audio_script/debug/debug_hang_chunk.py` — times `generate()` on a specific
+  chunk and reports tokens, tok/s, and whether it hit `max_new_tokens`.
 
 ### Outputs
 
@@ -123,13 +331,18 @@ three builders depending on the source and whether you want anonymized speakers.
 
 All three share the same season timeline default:
 `outputs/bazinga_data/TBBT_all_seasons_session_timeline.json` (override with
-`--time_info_path`). Each chunk folder becomes `chunk_folders[i]` in the Parquet,
-which is what the error probe later uses to map QA evidence → memory ids.
+`--time_info_path`; generate one for another show with
+[`make_bazinga_timeline.py`](#0b-session-timeline)). The lookup key is the
+episode folder name — `source_file` minus `.json` must equal `path.split('/')[-3]`,
+i.e. `<Show>.SeasonNN.EpisodeMM`; chunks whose episode is missing from the
+timeline are dropped. Each chunk folder becomes `chunk_folders[i]` in the
+Parquet, which is what the error probe later uses to map QA evidence → memory ids.
 
 ### 2a. From a fresh Step1/Step2/Step3 audio run
 
 `prepare_data/prepare_audio_parquet.py` — reads
-`{show}/{episode}/parsed_dialog_pred.json` + `speaker_name_map.json` and bakes
+`{episode}/{CHUNK_N}/parsed_dialog_pred.json` plus the Step3 name map
+`extracted_speaker_name_<Season>.json` (written into the `step2/` dir), and bakes
 names in.
 
 ```bash
@@ -139,6 +352,64 @@ python -m prepare_data.prepare_audio_parquet \
   --season_filter Season01
 # -> outputs/bazinga_data/dataset_pred_name_Season01.parquet
 # add --use_gt_name for the gold-name parquet
+```
+
+One Parquet per season — `--season_filter` both selects chunks and names the
+output. With the flag it loads `extracted_speaker_name_<Season>.json`; without
+it, `extracted_speaker_name.json` (all seasons).
+
+#### For Friends
+
+Two things must be overridden, or the run fails quietly:
+
+- **`--time_info_path`** — the default is the TBBT timeline, whose keys are
+  `TheBigBangTheory.*`. Point it at the Friends timeline from
+  [Stage 0b](#0b-session-timeline) or *every* chunk is dropped with
+  `WARNING: no timeline entry for 'Friends.Season01.Episode01'`.
+- **`--output_root`** — the filename is `dataset_{pred,gt}_name_<Season>.parquet`
+  with no show tag, so writing Friends into `outputs/bazinga_data` would
+  overwrite the TBBT Parquet of the same season. `--output_root` also receives a
+  per-episode dump of the named dialogue chunks, so give it its own folder.
+
+```bash
+cd /storage/home/tuochao/Mem-alpha-audio
+export PYTHONPATH=/storage/home/tuochao/Mem-alpha-audio
+
+# once, if not already built (Stage 0b)
+python prepare_data/make_bazinga_timeline.py \
+  --data_dir /checkpoint/seamless/tuochao/data/bazinga/data/Friends
+
+for SEASON in Season01 Season02 Season03; do
+  python -m prepare_data.prepare_audio_parquet \
+    --data_dir Audio_Results/vibevoice/Friends/step2 \
+    --output_root outputs/bazinga_data/Friends \
+    --season_filter "${SEASON}" \
+    --time_info_path outputs/bazinga_data/Friends_all_seasons_session_timeline.json
+done
+# -> outputs/bazinga_data/Friends/dataset_pred_name_Season01.parquet  (+ Season02, Season03)
+```
+
+Add `--use_gt_name` for the gold-name counterpart (`dataset_gt_name_<Season>.parquet`),
+which Stage 4 needs as the gold-dialogue ceiling:
+
+```bash
+for SEASON in Season01 Season02 Season03; do
+  python -m prepare_data.prepare_audio_parquet \
+    --data_dir Audio_Results/vibevoice/Friends/step2 \
+    --output_root outputs/bazinga_data/Friends \
+    --season_filter "${SEASON}" \
+    --time_info_path outputs/bazinga_data/Friends_all_seasons_session_timeline.json \
+    --use_gt_name
+done
+```
+
+Sanity-check that nothing was silently dropped — `Found N dialogue files` in the
+output should match the chunk count on disk, and there should be no
+`no timeline entry` warnings:
+
+```bash
+ls -d Audio_Results/vibevoice/Friends/step2/*Season01*/CHUNK_* | wc -l
+# 341, matching "Found 341 dialogue files (season_filter=Season01)"
 ```
 
 ### 2b. From an already-named step3 folder (names baked in)
@@ -172,6 +443,49 @@ python -m prepare_data.prepare_parquet_from_step3_anon \
 # -> outputs/step3_anony/S01_S03_Clean_Anoy_anon_global/
 #      dataset_pred_name_anon_global_Season01_Clean.parquet
 ```
+
+### 2d. Friends, pseudonymized names (`outputs/step3_anony/Friends`)
+
+A ready-made Season01 tree (24 episodes, 341 chunks) whose
+`parsed_dialog_pred.json` already carries **pseudonyms** rather than anonymous
+labels — Marco Bellini, Adrian Mercer, Clara Bennett, Elena Mercer, Astrid
+Larsen, Elias Foster, Victor Mercer, plus `#unknown`. Names are baked in, so this
+is the **2b** path; `prepare_audio_parquet.py` (2a) is not involved.
+
+Only `--time_info_path` needs overriding — the output goes into `--data_dir`, so
+unlike 2a there is no cross-show filename collision.
+
+```bash
+cd /storage/home/tuochao/Mem-alpha-audio
+export PYTHONPATH=/storage/home/tuochao/Mem-alpha-audio
+
+python -m prepare_data.prepare_parquet_from_step3 \
+  --data_dir outputs/step3_anony/Friends \
+  --season_filter Season01 --suffix Anony \
+  --time_info_path outputs/bazinga_data/Friends_all_seasons_session_timeline.json
+# -> outputs/step3_anony/Friends/dataset_pred_name_Season01_Anony.parquet
+
+# gold-name counterpart (see the caveat below before using it)
+python -m prepare_data.prepare_parquet_from_step3 \
+  --data_dir outputs/step3_anony/Friends \
+  --season_filter Season01 --suffix Anony \
+  --time_info_path outputs/bazinga_data/Friends_all_seasons_session_timeline.json \
+  --use_gt_name
+# -> outputs/step3_anony/Friends/dataset_gt_name_Season01_Anony.parquet
+```
+
+Both report `Found 341 dialogue files` with no `no timeline entry` warnings.
+
+**Use the pred Parquet.** The matching QA set
+(`outputs/step3_anony/Friends_Anony_QA/friends_s1_qa_anony.jsonl`, 276 items:
+157 Content QA + 119 Named Attribution QA) phrases its answer options as
+pseudonyms, and those appear **only** in `parsed_dialog_pred.json`.
+`dataset_gt_name_*.parquet` carries the original names (`monica_geller`,
+`rachel_green`, …) and would fail every Named Attribution question. It is usable
+as a gold-dialogue ceiling only after mapping real names → pseudonyms.
+
+The timeline generated in [Stage 0b](#0b-session-timeline) matches the dates the
+QA was authored against — all 24 episodes agree (S01E01 = `2023-05-01`).
 
 ---
 
@@ -247,7 +561,34 @@ Extra passthrough env vars: `VLLM_SCRIPT`, `VLLM_ENV`, `MEM_ENV`, and
 Available sweep configs:
 `TBBT_clean_prediction.conf`, `TBBT_clean_prediction_anon_global*.conf`,
 `TBBT_clean_prediction_anon_local.conf`, `TBBT_SNR0/SNR5.conf`,
-`TBBT_interf_SNR5/SNR10.conf`.
+`TBBT_interf_SNR5/SNR10.conf`, `Friends_S01_anony.conf`.
+
+### Running Friends Season01 (pseudonymized)
+
+Uses the 2d Parquet and the Friends QA set. The only difference from a TBBT run
+is `CUSTOM_QA_DIR` — the Friends QA lives in its own folder, not the shared
+`outputs/step3_anony/qas/`.
+
+```bash
+# SLURM sweep (recommended) — sweep_configs/Friends_S01_anony.conf
+bash submit_sweep.sh sweep_configs/Friends_S01_anony.conf
+squeue --me
+```
+
+```bash
+# or a single local run, against an already-running vLLM server
+bash run_pipeline.sh \
+  outputs/step3_anony/Friends/dataset_pred_name_Season01_Anony.parquet \
+  seamlessinteraction_options \
+  outputs/step3_anony/Friends_Anony_QA/
+```
+
+Results land in `agents/` as
+`qwen3.6-27b_..._dataset_pred_name_Season01_Anony_no_thinking_tokens_2048`.
+
+The shipped config runs a single baseline job (`COMPRESSION_RATIOS=("none")`);
+add `"x3" "x4"` etc. to fan out. As everywhere else, `QWEN_MODEL_NAME` must match
+the server's `--served-model-name` or the call 404s (see Troubleshooting).
 
 ---
 
@@ -289,6 +630,22 @@ base_dir / seed / compression variant; **C** (constructed memory) and **S**
 `error_probe_debug.json` in each instance dir (skipped if both exist). Multiple
 seeds are aggregated into `error_probe_seed_summary.json`.
 
+Evidence localization matches `gt_source.sources[].file` against the Parquet's
+`chunk_folders`, which are `{episode}/CHUNK_N` (e.g.
+`Friends.Season01.Episode01/CHUNK_0`). A QA file whose `file` paths carry an
+extra leading component will silently fail to localize — the QA still scores in
+Stage 3, but the probe loses its evidence.
+
+> **Known issue — Friends QA.** In
+> `outputs/step3_anony/Friends_Anony_QA/friends_s1_qa_anony.jsonl` the 119 Named
+> Attribution items use the correct form, but all 157 **Content QA** items are
+> prefixed with an extra `Friends/`
+> (`Friends/Friends.Season01.Episode01/CHUNK_3/...`) and carry a placeholder
+> `session_timeline_date` of `2026-08-24` instead of the episode date. Strip the
+> prefix and backfill the dates from
+> `outputs/bazinga_data/Friends_all_seasons_session_timeline.json` before probing,
+> or 57% of the set contributes no evidence.
+
 ### 4b. Compare probes (tables / CSV)
 
 `diagnostic/compare_probes.py` — pools findings across a run's instance/seed
@@ -324,6 +681,10 @@ ratio instead of named variants.)
 cd /storage/home/tuochao/Mem-alpha-audio
 export PYTHONPATH=/storage/home/tuochao/Mem-alpha-audio
 
+# 0. Audio prep — only for a new show / noise condition; TBBT clean is already done
+#    bash audio_script/run_mix_wham_noise.sh
+#    python prepare_data/make_bazinga_timeline.py --data_dir <raw show dir>
+
 # 1. Audio pipeline (or reuse the pre-built outputs/step3_anony/S01_S03_Clean_Anoy)
 bash audio_script/run_demo_pipeline_bazinga.sh
 
@@ -355,6 +716,25 @@ python diagnostic/compare_probes.py agents/qwen3.6-27b_..._Clean_Anoy_..._2048 -
   then `$CONDA_EXE`. Set `CONDA_EXE` if conda lives elsewhere.
 - **Step3 hangs / connection refused** — the Qwen server at `QWEN_URL`
   (`localhost:8002/v1`) is not up.
+- **Step3 `404 The model 'Qwen/Qwen3-32B' does not exist`** — `QWEN_MODEL_NAME`
+  must match the server's `--served-model-name`, not the HF repo id. Both
+  `launch_vllm.sh` and `launch_vllm_qwen36.sh` serve as `qwen3-32b`. Confirm with
+  `curl -s http://localhost:8002/v1/models | python3 -m json.tool`.
+- **Step1 predicts 1 speaker per chunk** — `REPETITION_PENALTY` > 1.0. See the
+  warning in Stage 1; reset it to `1.0` **and delete the affected `step1/` tree**,
+  since Step1 skips chunks that already have outputs.
+- **Step1 stops producing output but the job is still alive** — a chunk blocked
+  inside `generate()`. There is no error and no traceback because Python never
+  exits, so `set -e` and the `ERR` trap never fire. It is not a long generation:
+  `max_new_tokens` caps a runaway at ~7 min at observed throughput. Kill and
+  re-run; resume is chunk-level.
+- **An env override appears to do nothing** — check it is written as
+  `${VAR:-default}` in the script. The VibeVoice knobs in
+  `run_demo_pipeline_bazinga.sh` were plain assignments until they were fixed;
+  the equivalents in `run_demo_pipeline_mosaic.sh`,
+  `run_demo_pipeline_perltqa.sh` and `run_demo_step1_vibevoice.sh` still are, and
+  those scripts never pass `--repetition_penalty` at all, so they inherit the
+  CLI default of **1.2** from `backends/__init__.py:115`.
 - **Probe errors: "no instance dir with results.json"** — you pointed `BASE_DIR`
   at the `.../0` subdir; pass the parent run dir instead.
 - **Seed sweep produces identical results** — `MEM_TEMPERATURE` must be > 0;

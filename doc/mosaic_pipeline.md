@@ -39,6 +39,10 @@ The pipeline has five stages:
 > See also [`doc/perltqa_pipeline.md`](perltqa_pipeline.md) and
 > [`doc/bazinga_pipeline.md`](bazinga_pipeline.md) — Stages 3 and 4 share the same
 > machinery.
+>
+> For the **audio-native** variant of Stage 3 (Qwen3-Omni builds memory from the chunk
+> audio instead of the transcript, Stages 0-2 and 4 unchanged), see
+> [`doc/audio_native_pipeline.md`](audio_native_pipeline.md).
 
 ---
 
@@ -374,7 +378,7 @@ bash diagnostic/run_probe_errors.sh \
   agents/qwen3.6-27b_..._dataset_pred_name_bundle_0_mosaic_interf_SNR5_no_thinking_tokens_2048 \
   outputs/mosaic_step3_interf_SNR5/bundle_0 \
   outputs/mosaic_step3/QA/bundle0/bundle_0_content_qa.jsonl \
-  outputs/mosaic_step3_interf_SNR5/bundle_0/dataset_gt_name_bundle_0_mosaic_interf_SNR5.parquet
+  outputs/mosaic_step3/bundle_0/dataset_gt_name_bundle_0_mosaic.parquet
 python diagnostic/compare_probes.py agents/..._bundle_0_mosaic_..._2048 --csv mosaic_b0.csv
 ```
 
