@@ -623,6 +623,30 @@ bash diagnostic/run_probe_errors.sh \
 RUN_GOLDEN=1 bash diagnostic/run_probe_errors.sh ...
 ```
 
+#### Friends Season01 (pseudonymized)
+
+The probe needs `memory_server.py` on port 5005 *and* the reward-model vLLM on
+8002 — `run_pipeline.sh` does not leave them up, so start them first:
+
+```bash
+./launch_servers.sh            # both, backgrounded + health-checked
+./launch_servers.sh status     # verify
+```
+
+```bash
+bash diagnostic/run_probe_errors.sh \
+  agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_Season01_Anony_no_thinking_tokens_2048 \
+  outputs/step3_anony/Friends \
+  outputs/step3_anony/Friends_Anony_QA/friends_s1_qa_anony.jsonl \
+  outputs/step3_anony/Friends/dataset_gt_name_Season01_Anony.parquet
+```
+
+`DATA_ROOT` is the step3 tree, which holds both `parsed_dialog_gt.json` and
+`parsed_dialog_pred.json` as required. Either Friends Parquet works for
+localization — their `chunk_folders` are identical — but passing the gt one
+matches the script's own auto-discovery default. The `QA_FILE` is the same file
+Stage 3 uses (see the source-path note in 2d).
+
 Probe stages: **T** (transcript) and **G** (gold, optional) are precomputed once
 per `DATA_ROOT` into `<DATA_ROOT>/tg_probe_cache.json` and reused across every
 base_dir / seed / compression variant; **C** (constructed memory) and **S**
@@ -636,15 +660,27 @@ Evidence localization matches `gt_source.sources[].file` against the Parquet's
 extra leading component will silently fail to localize — the QA still scores in
 Stage 3, but the probe loses its evidence.
 
-> **Known issue — Friends QA.** In
-> `outputs/step3_anony/Friends_Anony_QA/friends_s1_qa_anony.jsonl` the 119 Named
-> Attribution items use the correct form, but all 157 **Content QA** items are
-> prefixed with an extra `Friends/`
-> (`Friends/Friends.Season01.Episode01/CHUNK_3/...`) and carry a placeholder
-> `session_timeline_date` of `2026-08-24` instead of the episode date. Strip the
-> prefix and backfill the dates from
-> `outputs/bazinga_data/Friends_all_seasons_session_timeline.json` before probing,
-> or 57% of the set contributes no evidence.
+> **Fixed defect — Friends QA source paths.** As generated,
+> `outputs/step3_anony/Friends_Anony_QA/friends_s1_qa_anony.jsonl` had all 157
+> **Content QA** items prefixed with an extra `Friends/`
+> (`Friends/Friends.Season01.Episode01/CHUNK_3/...`), so they did not localize:
+> 120 of 278 sources mapped, 158 did not. (`normalize_qa_sources()` only repairs
+> the perltqa and missing-`file` schemas, so it does not help here.)
+>
+> The prefix has been **stripped in place** — the file now maps 278/278. Only
+> `gt_source.sources[].file` changed; questions, options and answers are
+> byte-identical, so Stage-3 results produced before the fix remain valid (neither
+> `run_qa_evaluation.py` nor `evaluate_agent_results.py` reads `gt_source`). The
+> pre-fix file is kept at
+> `outputs/step3_anony/friends_s1_qa_anony.jsonl.orig` — deliberately *outside*
+> any QA dir, since `load_custom_qa_from_dir()` loads every `.json`/`.jsonl` in
+> the directory it is given and a second copy would double the QA set.
+>
+> If you regenerate this QA set (e.g. for Season02), check the prefix again.
+>
+> (These items also carry a placeholder `session_timeline_date` of `2026-08-24`
+> instead of the episode date. Harmless — no code under `diagnostic/` reads that
+> field.)
 
 ### 4b. Compare probes (tables / CSV)
 

@@ -224,9 +224,22 @@ COMPRESSION_RATIOS=("none")     # or ("x3" "x4")
 ```
 
 ```bash
-bash submit_sweep.sh sweep_configs/perltqa_bundle0.conf
+bash submit_sweep.sh sweep_configs/perltqa_clean_bundle0.conf
 squeue --me
 ```
+
+To submit the clean/SNR5/SNR0 × compression grid for bundle 0, use the
+multi-input config:
+
+```bash
+bash submit_sweep.sh sweep_configs/perltqa_snr_compression.conf
+```
+
+Set `CLEAN_RATIOS`, `SNR5_RATIOS`, and `SNR0_RATIOS` independently in the
+config. The shipped grid uses
+`none x2 x3 x4 x5` for every condition and one greedy run per cell (15 jobs).
+Preview the exact 15 submissions without launching them with
+`DRY_RUN=1 bash submit_sweep.sh sweep_configs/perltqa_snr_compression.conf`.
 
 Run dirs land under `agents/`, e.g.
 `qwen3.6-27b_..._perltqa_dataset_pred_name_bundle_0_no_thinking_tokens_2048`.
@@ -275,6 +288,29 @@ T/G probes are precomputed once per `DATA_ROOT` into
 per instance. Outputs `error_probe.json` + `error_probe_debug.json` per instance
 (skipped if both exist); multiple seeds aggregate into
 `error_probe_seed_summary.json`.
+
+For every completed experiment listed in a multi-input PerLTQA sweep config,
+submit one Slurm job per agent directory (one job for each SNR/compression
+combination). Concurrent jobs safely coordinate access to each SNR's shared T/G
+cache with a file lock:
+
+```bash
+# Preview the discovered run directories and submissions.
+DRY_RUN=1 bash diagnostic/submit_probe_sweep_perltqa.sh \
+  sweep_configs/perltqa_snr_compression.conf
+
+# Submit the jobs. The default is LLM-judge grading and probing.
+bash diagnostic/submit_probe_sweep_perltqa.sh \
+  sweep_configs/perltqa_snr_compression.conf
+```
+
+Each job starts its own local judge vLLM + memory server, writes
+`evaluation_metrics.json`, `error_probe.json`, and `error_probe_debug.json` into
+each run's `0/` directory, and logs to `logs/perltqa-probe-<jobid>.out`.
+The noisy condition's `DATA_ROOT` is retained for its predicted transcripts and
+T/G cache, while all SNR conditions reuse the identical clean GT Parquet under
+`outputs/step3_perltqa_replaced_name/<bundle>/`. Override that root with
+`PERLTQA_GT_ROOT` if needed.
 
 ### 4b / 4c. Compare + plot
 

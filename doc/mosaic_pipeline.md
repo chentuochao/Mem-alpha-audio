@@ -288,9 +288,22 @@ bash submit_sweep.sh sweep_configs/mosaic_clean_bundle0.conf   # ...bundle{1,2,3
 squeue --me
 ```
 
-They sweep `COMPRESSION_RATIOS=("none" "x2" "x3" "x4" "x5")` × `SEEDS=("" 1 2)` at
-`MEM_TEMPERATURE=0.3`. For a noisy condition, copy the config and repoint
-`PARQUET_PATH` at the `_interf_SNR*` Parquet (keep `CUSTOM_QA_DIR` unchanged).
+Edit `COMPRESSION_RATIOS` and `SEEDS` in an individual config as needed. For a
+noisy condition, copy the config and repoint `PARQUET_PATH` at the
+`_interf_SNR*` Parquet (keep `CUSTOM_QA_DIR` unchanged).
+
+To submit the clean/SNR10/SNR5 × compression grid for bundle 0, use the
+multi-input config:
+
+```bash
+bash submit_sweep.sh sweep_configs/mosaic_snr_compression.conf
+```
+
+Set `CLEAN_RATIOS`, `SNR10_RATIOS`, and `SNR5_RATIOS` independently in the
+config. The shipped grid uses
+`none x2 x3 x4 x5` for every condition and one greedy run per cell (15 jobs).
+Preview the exact 15 submissions without launching them with
+`DRY_RUN=1 bash submit_sweep.sh sweep_configs/mosaic_snr_compression.conf`.
 
 Run dirs land under `agents/`, e.g.
 `qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_bundle_0_mosaic_no_thinking_tokens_2048`
@@ -330,6 +343,24 @@ T/G probes are precomputed once per `DATA_ROOT` into `<DATA_ROOT>/tg_probe_cache
 and reused across run dirs and seeds; C and S run per instance. Each instance gets
 `error_probe.json` + `error_probe_debug.json` (skipped if both exist); multiple
 seeds aggregate into `error_probe_seed_summary.json`.
+
+To submit one Slurm probe job per completed agent directory listed in the active
+Mosaic sweep config:
+
+```bash
+DRY_RUN=1 bash diagnostic/submit_probe_sweep_mosaic.sh \
+  sweep_configs/mosaic_snr_compression.conf
+
+bash diagnostic/submit_probe_sweep_mosaic.sh \
+  sweep_configs/mosaic_snr_compression.conf
+```
+
+The launcher follows only uncommented `SWEEP_CASES`, starts an isolated local
+Qwen3-32B server for each agent directory, and writes logs to
+`logs/mosaic-probe-<jobid>.out`.
+Noisy conditions retain their SNR-specific `DATA_ROOT`, but always use the clean
+GT Parquet at `outputs/mosaic_step3/<bundle>/dataset_gt_name_<bundle>_mosaic.parquet`.
+Set `MOSAIC_GT_ROOT` only if that clean root is stored elsewhere.
 
 ### 4b. Compare + plot
 

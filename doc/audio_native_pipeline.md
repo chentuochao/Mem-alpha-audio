@@ -226,6 +226,86 @@ Cascade baseline to compare against:
 `agents/qwen3.6-27b_Qwen_Qwen3.6-27B_perltqa_dataset_pred_name_bundle_0_perltqa_no_thinking_tokens_2048`
 (avg score 0.716, 2.55x, 609 questions).
 
+### Experimental rolling audio history
+
+`run_memory_construction_audio_history.py` is an isolated experimental variant that
+prepends the previous audio chunks to each current chunk. The preceding recordings are
+labelled as **reference history only**: the model may use them to recognize voices and
+resolve names or references, but every memory write must describe information stated or
+revealed in the current recording.
+
+Defaults:
+
+- previous 5 original chunks (`--history_chunks 5`);
+- at most 180 seconds from the start of each history chunk
+  (`--history_max_audio_sec 180`), keeping the six-audio prompt within the 32k context;
+- the normal 480-second current-chunk split;
+- an isolated `_history5` run-directory suffix;
+- at most 5 executed memory calls per current turn, even if Omni emits more.
+
+Smoke test on the first seven Mosaic chunks:
+
+```bash
+sbatch debug/smoke_audio_history.slurm \
+  outputs/mosaic_step3/bundle_0/dataset_pred_name_bundle_0_mosaic_audio.parquet \
+  seamlessinteraction_options 7 5
+```
+
+Direct invocation:
+
+```bash
+python run_memory_construction_audio_history.py \
+  --agent_config config/qwen3-omni-30b_agent.yaml \
+  --dataset seamlessinteraction_options \
+  --parquet_path outputs/mosaic_step3/bundle_0/dataset_pred_name_bundle_0_mosaic_audio.parquet \
+  --history_chunks 5 \
+  --history_max_audio_sec 180
+```
+
+Default output directory for the command above:
+
+```text
+agents/qwen3-omni-30b_Qwen_Qwen3-Omni-30B-A3B-Instruct_seamlessinteraction_options_dataset_pred_name_bundle_0_mosaic_audio_no_thinking_tokens_2048/history5/0/
+```
+
+The final component is the Parquet row index. Without an explicit `--run_dir_suffix`,
+the history runner uses `history<N>` (for example, `history4` or `history5`) so it cannot
+overwrite the ordinary audio-native result. A compression strategy is placed before the
+history suffix, for example `..._tokens_2048_comp_x3_history5/0/`. The smoke launcher
+uses a suffix such as `history5_smoke7`, producing
+`..._tokens_2048_history5_smoke7/0/`.
+
+To run QA against this memory directory, pass the same suffix:
+
+```bash
+python run_qa_evaluation.py \
+  --agent_config config/qwen3-omni-30b_agent.yaml \
+  --dataset seamlessinteraction_options \
+  --parquet_path outputs/mosaic_step3/bundle_0/dataset_pred_name_bundle_0_mosaic_audio.parquet \
+  --custom_qa_dir outputs/mosaic_step3/QA/bundle0/ \
+  --run_dir_suffix history5
+```
+
+Each output directory contains `agent_state.json`, `compression.json`,
+`data_instance_info.json`, `chunks_and_function_calls.json`, `final_responses.json`, and
+`embeddings.npz` when embeddings are available.
+
+The output's `chunks_and_function_calls.json` records the exact
+`history_chunk_indices` used for every current turn. This arm should be treated as an
+ablation: the earlier direct speaker-matching study found that multi-conversation windows
+were unreliable, so QA and memory-contamination results must be compared with the
+single-audio baseline before adopting it.
+
+Initial Mosaic bundle-0 smoke test (first 6 chunks, history growing from 0 to 5): all six
+prompts, including the full five-reference window, ran successfully and stopped normally,
+and the execution guard kept
+every turn at 5 memory calls. The executed semantic/episodic writes described the current
+chunk rather than copying history. The model reused `Speaker A`/`Speaker B` consistently
+across this same-pair sequence, but recovered no real names; this is only a plumbing and
+prompt-boundary check, not evidence of an accuracy improvement. One four-history turn
+emitted 8 calls before the runner discarded the last 3, confirming that the hard execution
+cap is still necessary.
+
 ## Stage 3 — Error probe (where do the failures come from?)
 
 Same behavioral probe as the text arm (`diagnostic/probe_errors.py`: re-answer each
