@@ -64,6 +64,45 @@ requested `xN` label.
 | interf_SNR5_x3 | 2.19x | 1056 | 65.2% | 53.6% | 40.7% | 45.1% | 17.1% | 26.9% |
 | interf_SNR5_x4 | 3.12x | 1056 | 65.2% | 33.5% | 26.9% | 30.7% | 9.0% | 53.3% |
 
+### Group 1 by QA type
+
+![Bazinga noise/compression probe metrics by QA type](../diagnostic/figures_ablation/group1_seamless_season01_noise_compression/fig_qa_type_probe_heatmap.png)
+
+| QA type | Variant | #QA | T | C | S | E2E | Self-corr / T✗ | Construction loss / T✓ |
+|---|---|---|---|---|---|---|---|---|
+| Named Attribution QA | Clean | 640 | 91.6% | 83.0% | 60.9% | 64.2% | 42.6% | 13.3% |
+| Named Attribution QA | Clean_x2 | 160 | 91.9% | 74.4% | 48.8% | 53.1% | 38.5% | 22.4% |
+| Named Attribution QA | Clean_x4 | 160 | 91.9% | 65.0% | 50.6% | 53.8% | 30.8% | 32.0% |
+| Named Attribution QA | Clean_x5 | 160 | 91.9% | 65.0% | 44.4% | 50.0% | 7.7% | 29.9% |
+| Named Attribution QA | BG_SNR5 | 480 | 88.1% | 75.8% | 57.5% | 60.2% | 29.8% | 18.0% |
+| Named Attribution QA | BG_SNR5_x3 | 640 | 88.0% | 70.6% | 50.0% | 52.7% | 26.0% | 23.3% |
+| Named Attribution QA | BG_SNR5_x4 | 640 | 88.1% | 44.4% | 35.8% | 38.3% | 21.1% | 52.5% |
+| Named Attribution QA | BG_SNR0 | 640 | 73.4% | 74.8% | 52.3% | 53.4% | 32.9% | 10.0% |
+| Named Attribution QA | BG_SNR0_x3 | 640 | 73.8% | 61.6% | 47.7% | 50.2% | 23.8% | 25.0% |
+| Named Attribution QA | BG_SNR0_x4 | 640 | 73.8% | 42.8% | 30.6% | 33.0% | 15.5% | 47.5% |
+| Named Attribution QA | interf_SNR10 | 640 | 73.3% | 68.8% | 50.2% | 51.9% | 33.9% | 18.6% |
+| Named Attribution QA | interf_SNR10_x3 | 640 | 73.1% | 63.1% | 45.2% | 46.7% | 34.3% | 26.3% |
+| Named Attribution QA | interf_SNR10_x4 | 640 | 73.1% | 49.2% | 34.2% | 37.8% | 26.2% | 42.3% |
+| Named Attribution QA | interf_SNR5 | 640 | 55.9% | 54.8% | 41.6% | 40.9% | 22.3% | 19.6% |
+| Named Attribution QA | interf_SNR5_x3 | 640 | 55.6% | 47.2% | 32.8% | 35.2% | 17.3% | 28.9% |
+| Named Attribution QA | interf_SNR5_x4 | 640 | 55.9% | 30.3% | 21.7% | 24.7% | 9.2% | 53.1% |
+| Content QA | Clean | 416 | 98.1% | 92.1% | 79.3% | 79.3% | 50.0% | 7.1% |
+| Content QA | Clean_x2 | 104 | 98.1% | 89.4% | 69.2% | 67.3% | 50.0% | 9.8% |
+| Content QA | Clean_x4 | 104 | 98.1% | 77.9% | 66.3% | 68.3% | 50.0% | 21.6% |
+| Content QA | Clean_x5 | 104 | 98.1% | 76.9% | 60.6% | 70.2% | 50.0% | 22.5% |
+| Content QA | BG_SNR5 | 312 | 96.2% | 92.6% | 77.2% | 76.0% | 100.0% | 7.7% |
+| Content QA | BG_SNR5_x3 | 416 | 96.4% | 82.0% | 68.5% | 74.0% | 80.0% | 18.0% |
+| Content QA | BG_SNR5_x4 | 416 | 96.2% | 50.0% | 43.8% | 47.1% | 37.5% | 49.5% |
+| Content QA | BG_SNR0 | 416 | 89.4% | 87.0% | 75.0% | 75.2% | 61.4% | 9.9% |
+| Content QA | BG_SNR0_x3 | 416 | 89.4% | 72.4% | 62.0% | 67.1% | 40.9% | 23.9% |
+| Content QA | BG_SNR0_x4 | 416 | 89.4% | 50.0% | 41.6% | 48.8% | 27.3% | 47.3% |
+| Content QA | interf_SNR10 | 416 | 91.1% | 82.0% | 70.7% | 71.9% | 45.9% | 14.5% |
+| Content QA | interf_SNR10_x3 | 416 | 91.3% | 76.7% | 64.4% | 65.4% | 55.6% | 21.3% |
+| Content QA | interf_SNR10_x4 | 416 | 91.8% | 60.3% | 52.4% | 56.7% | 35.3% | 37.4% |
+| Content QA | interf_SNR5 | 416 | 79.8% | 71.4% | 57.7% | 63.5% | 22.6% | 16.3% |
+| Content QA | interf_SNR5_x3 | 416 | 79.8% | 63.5% | 52.9% | 60.3% | 16.7% | 24.7% |
+| Content QA | interf_SNR5_x4 | 416 | 79.3% | 38.5% | 34.9% | 39.9% | 8.1% | 53.6% |
+
 Key observations:
 
 - Interfering speech is more damaging than background noise at matched SNR.
@@ -73,6 +112,9 @@ Key observations:
   questions during construction: BG-SNR5 x4 has 51.2% memory loss, and interfering-SNR5
   x4 has 53.3%.
 - Retrieval commonly removes another 10–18 percentage points between C and S.
+- Content QA is consistently easier than Named Attribution QA. Under clean audio, E2E is
+  79.3% for content versus 64.2% for attribution; under interfering-SNR5 x4, it is 39.9%
+  versus 24.7%.
 
 ## Group 2 — Season01 pipeline ablation
 
@@ -85,6 +127,21 @@ Output: `group2_seamless_season01_pipeline_ablation`
 | ASR+local_diarization+globaltracking (new prompt) | 1.77x | 1056 | 42.4% | 84.3% | 61.7% | 63.6% | 79.9% | 9.8% |
 | ASR+local_diarization | 1.82x | 1056 | 44.3% | 54.3% | 41.9% | 44.5% | 42.0% | 30.3% |
 
+### Group 2 by QA type
+
+![Bazinga pipeline-ablation probe metrics by QA type](../diagnostic/figures_ablation/group2_seamless_season01_pipeline_ablation/fig_qa_type_probe_heatmap.png)
+
+| QA type | Variant | #QA | T | C | S | E2E | Self-corr / T✗ | Construction loss / T✓ |
+|---|---|---|---|---|---|---|---|---|
+| Named Attribution QA | ASR+local_diarization+globaltracking+name_extraction(Full) | 640 | 91.6% | 83.0% | 60.9% | 64.2% | 42.6% | 13.3% |
+| Named Attribution QA | ASR+local_diarization+globaltracking | 640 | 8.1% | 49.1% | 36.9% | 38.3% | 47.8% | 36.5% |
+| Named Attribution QA | ASR+local_diarization+globaltracking (new prompt) | 640 | 8.1% | 80.9% | 53.0% | 55.9% | 80.3% | 11.5% |
+| Named Attribution QA | ASR+local_diarization | 640 | 11.9% | 44.4% | 30.3% | 33.4% | 41.1% | 31.6% |
+| Content QA | ASR+local_diarization+globaltracking+name_extraction(Full) | 416 | 98.1% | 92.1% | 79.3% | 79.3% | 50.0% | 7.1% |
+| Content QA | ASR+local_diarization+globaltracking | 416 | 95.2% | 76.7% | 64.4% | 67.1% | 45.0% | 21.7% |
+| Content QA | ASR+local_diarization+globaltracking (new prompt) | 416 | 95.2% | 89.4% | 75.2% | 75.5% | 70.0% | 9.6% |
+| Content QA | ASR+local_diarization | 416 | 94.2% | 69.5% | 59.6% | 61.5% | 62.5% | 30.1% |
+
 Key observations:
 
 - Explicit name extraction remains the strongest pipeline component: the full system is
@@ -92,6 +149,9 @@ Key observations:
 - The anonymous-speaker prompt corrects 79.9% of questions that its anonymous transcript
   cannot answer while losing only 9.8% of transcript-answerable questions.
 - Global tracking improves E2E by about five points over local diarization alone.
+- Removing name extraction devastates the attribution T-probe (91.6% to 8.1%) but barely
+  changes content T-probe accuracy (98.1% to 95.2%). The new prompt recovers attribution
+  during construction to C = 80.9% and E2E = 55.9%.
 
 ## Group 3 — PerLTQA: noise and audio-native memory
 
@@ -289,4 +349,6 @@ Each invocation writes `fig_summary_table`, `fig_probe_bars`, `fig_cascade`,
 `fig_memory_dynamics`, and `fig_confusion_counts` as PNG and PDF, plus `metrics.json`
 and `metrics.md`. Groups 1, 7, and 8 additionally write
 `fig_noise_compression_relative`, which plots the conditional self-correction and
-construction-loss rates across the no-compression and compressed settings.
+construction-loss rates across the no-compression and compressed settings. The two
+Bazinga/TBBT groups (1 and 2) additionally write `fig_qa_type_probe_heatmap` and
+`metrics_by_qa_type.{md,json}` for Named Attribution QA versus Content QA.
