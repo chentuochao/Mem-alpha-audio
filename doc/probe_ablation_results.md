@@ -40,6 +40,11 @@ transcript stage, so T-probe, self-correction, and memory loss are undefined (`n
 
 Output: `group1_seamless_season01_noise_compression`
 
+![Season01 relative self-correction and construction-loss curves](../diagnostic/figures_ablation/group1_seamless_season01_noise_compression/fig_noise_compression_relative.png)
+
+The x-axis uses the measured compression ratio from `compression.json`, not the
+requested `xN` label.
+
 | Variant | Comp ratio | #QA | T-probe | C-probe | S-probe | E2E | Self-corr / T✗ | Mem-loss / T✓ |
 |---|---|---|---|---|---|---|---|---|
 | Clean | 1.79x | 1056 | 94.1% | 86.6% | 68.2% | 70.2% | 43.5% | 10.8% |
@@ -178,24 +183,34 @@ Key observations:
 
 Output: `group7_perltqa_snr_compression`
 
+![PerLTQA relative self-correction and construction-loss curves](../diagnostic/figures_ablation/group7_perltqa_snr_compression/fig_noise_compression_relative.png)
+
+The x-axis uses the measured compression ratio from `compression.json`.
+
 | Variant | Comp ratio | #QA | T-probe | C-probe | S-probe | E2E | Self-corr / T✗ | Mem-loss / T✓ |
 |---|---|---|---|---|---|---|---|---|
+| Clean no comp | 2.54x | 2436 | 85.1% | 69.0% | 63.5% | 64.2% | 23.9% | 23.0% |
 | Clean x3 | 3.78x | 609 | 84.7% | 63.9% | 59.3% | 60.4% | 25.8% | 29.3% |
 | Clean x5 | 4.99x | 609 | 84.7% | 55.8% | 51.9% | 56.2% | 24.7% | 38.6% |
 | Clean x8 | 7.81x | 609 | 85.1% | 43.7% | 38.8% | 46.6% | 22.0% | 52.5% |
+| SNR5 no comp | 2.48x | 609 | 72.9% | 56.0% | 51.9% | 56.7% | 11.5% | 27.5% |
 | SNR5 x3 | 3.66x | 609 | 73.7% | 53.7% | 49.9% | 52.4% | 14.4% | 32.3% |
 | SNR5 x5 | 5.12x | 609 | 73.7% | 45.2% | 43.0% | 50.6% | 10.0% | 42.3% |
 | SNR5 x8 | 8.46x | 609 | 73.7% | 33.2% | 29.7% | 40.1% | 3.8% | 56.3% |
+| SNR0 no comp | 2.25x | 609 | 37.3% | 31.0% | 28.7% | 34.5% | 8.4% | 30.8% |
 | SNR0 x3 | 3.58x | 609 | 37.3% | 28.6% | 24.5% | 33.5% | 7.1% | 35.2% |
 | SNR0 x5 | 5.24x | 609 | 37.4% | 23.8% | 20.4% | 30.9% | 6.6% | 47.4% |
 | SNR0 x8 | 10.25x | 609 | 37.4% | 15.9% | 14.1% | 22.3% | 2.6% | 61.8% |
 
 Key observations:
 
+- Without explicit compression, noise already reduces E2E from 64.2% clean to 56.7% at
+  SNR5 and 34.5% at SNR0.
 - At matched requested ratios, E2E falls consistently from clean to SNR5 to SNR0: at x3
   it is 60.4%, 52.4%, and 33.5%; at x8 it is 46.6%, 40.1%, and 22.3%.
 - T is constant within each SNR family, while conditional memory loss increases with
-  compression. At x8 it reaches 52.5% clean, 56.3% at SNR5, and 61.8% at SNR0.
+  compression. From no compression to x8, it rises from 23.0% to 52.5% clean, from
+  27.5% to 56.3% at SNR5, and from 30.8% to 61.8% at SNR0.
 - Self-correction becomes rare under combined severe noise and compression: only 2.6% of
   T failures are recovered for SNR0 x8.
 
@@ -203,16 +218,23 @@ Key observations:
 
 Output: `group8_mosaic_snr_compression`
 
+![Mosaic relative self-correction and construction-loss curves](../diagnostic/figures_ablation/group8_mosaic_snr_compression/fig_noise_compression_relative.png)
+
+The x-axis uses the measured compression ratio from `compression.json`.
+
 | Variant | Comp ratio | #QA | T-probe | C-probe | S-probe | E2E | Self-corr / T✗ | Mem-loss / T✓ |
 |---|---|---|---|---|---|---|---|---|
+| Clean no comp | 3.41x | 100 | 88.0% | 81.0% | 69.0% | 63.0% | 58.3% | 15.9% |
 | Clean x2 | 3.64x | 100 | 88.0% | 80.0% | 62.0% | 57.0% | 41.7% | 14.8% |
 | Clean x4 | 5.19x | 100 | 88.0% | 69.0% | 58.0% | 44.0% | 58.3% | 29.5% |
 | Clean x6 | 6.82x | 100 | 88.0% | 67.0% | 52.0% | 48.0% | 50.0% | 30.7% |
 | Clean x8 | 10.21x | 100 | 88.0% | 56.0% | 46.0% | 42.0% | 58.3% | 44.3% |
+| SNR10 no comp | 3.27x | 100 | 83.0% | 71.0% | 60.0% | 55.0% | 5.9% | 15.7% |
 | SNR10 x2 | 3.60x | 100 | 83.0% | 73.0% | 61.0% | 56.0% | 11.8% | 14.5% |
 | SNR10 x4 | 5.00x | 100 | 83.0% | 67.0% | 53.0% | 49.0% | 5.9% | 20.5% |
 | SNR10 x6 | 6.36x | 100 | 83.0% | 66.0% | 50.0% | 44.0% | 17.6% | 24.1% |
 | SNR10 x8 | 10.70x | 100 | 83.0% | 47.0% | 34.0% | 35.0% | 5.9% | 44.6% |
+| SNR5 no comp | 3.35x | 100 | 72.0% | 56.0% | 44.0% | 41.0% | 14.3% | 27.8% |
 | SNR5 x2 | 3.38x | 100 | 72.0% | 63.0% | 49.0% | 44.0% | 17.9% | 19.4% |
 | SNR5 x4 | 5.45x | 100 | 72.0% | 55.0% | 51.0% | 48.0% | 3.6% | 25.0% |
 | SNR5 x6 | 7.63x | 100 | 72.0% | 51.0% | 45.0% | 40.0% | 3.6% | 30.6% |
@@ -220,7 +242,8 @@ Output: `group8_mosaic_snr_compression`
 
 Key observations:
 
-- At x2, clean and SNR10 are close in E2E (57% and 56%), whereas SNR5 falls to 44%.
+- Without explicit compression, E2E is 63% clean, 55% at SNR10, and 41% at SNR5.
+- At x2, clean and SNR10 are close in E2E (57% and 56%), whereas SNR5 is 44%.
 - Conditional memory loss increases with compression in every condition. At x8 it is
   44.3% clean, 44.6% at SNR10, and 59.7% at SNR5.
 - SNR5 x8 overshoots its nominal target substantially, reaching 17.69x measured
@@ -264,4 +287,6 @@ Or pass folders directly:
 
 Each invocation writes `fig_summary_table`, `fig_probe_bars`, `fig_cascade`,
 `fig_memory_dynamics`, and `fig_confusion_counts` as PNG and PDF, plus `metrics.json`
-and `metrics.md`.
+and `metrics.md`. Groups 1, 7, and 8 additionally write
+`fig_noise_compression_relative`, which plots the conditional self-correction and
+construction-loss rates across the no-compression and compressed settings.
