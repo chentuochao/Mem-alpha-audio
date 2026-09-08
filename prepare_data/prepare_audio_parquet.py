@@ -17,6 +17,7 @@ import argparse
 import glob
 import json
 import os
+import re
 import string
 import sys
 
@@ -51,6 +52,19 @@ def load_time_maps(time_info_path: str) -> dict:
         time_maps[keyname] = item["session_timeline_date"]
     return time_maps
 
+
+def _dialog_path_sort_key(path: str, time_maps: dict) -> tuple:
+    """Sort sessions by timeline and chunks by numeric CHUNK id.
+
+    Plain lexical ordering puts ``CHUNK_10`` before ``CHUNK_2`` and, for AMI,
+    puts all ES meetings before IS even when the timeline says otherwise.
+    """
+    session_name = os.path.basename(os.path.dirname(os.path.dirname(path)))
+    chunk_name = os.path.basename(os.path.dirname(path))
+    match = re.search(r"(\d+)$", chunk_name)
+    chunk_index = int(match.group(1)) if match else float("inf")
+    return (time_maps.get(session_name, "9999-12-31 23:59"), session_name, chunk_index)
+
 def load_chunks_gt(
     data_dir: str,
     output_root: str = None,
@@ -59,9 +73,8 @@ def load_chunks_gt(
 ) -> tuple[list[str], list[str]]:
     time_maps = load_time_maps(time_info_path)
 
-    subfolders = sorted(
-        glob.glob(os.path.join(data_dir, "*", "*", "parsed_dialog_gt.json"))
-    )
+    subfolders = glob.glob(os.path.join(data_dir, "*", "*", "parsed_dialog_gt.json"))
+    subfolders.sort(key=lambda path: _dialog_path_sort_key(path, time_maps))
     # Single-season filter (matches step3): keep only chunks whose path contains
     # the season substring (e.g. "Season03"). None/empty = keep all.
     if season_filter:
@@ -135,9 +148,8 @@ def load_chunks_pred(
     time_maps = load_time_maps(time_info_path)
     print(f"Loaded speaker name map with {len(speaker_name_map)} entries")
 
-    subfolders = sorted(
-        glob.glob(os.path.join(data_dir, "*", "*", "parsed_dialog_pred.json"))
-    )
+    subfolders = glob.glob(os.path.join(data_dir, "*", "*", "parsed_dialog_pred.json"))
+    subfolders.sort(key=lambda path: _dialog_path_sort_key(path, time_maps))
     # Single-season filter (matches step3): keep only chunks whose path contains
     # the season substring. None/empty = keep all.
     if season_filter:
@@ -222,6 +234,12 @@ def main():
              "stamped in extracted_speaker_name.json; None = all seasons.",
     )
     parser.add_argument(
+        "--suffix", type=str, default=None,
+        help="Extra dataset tag appended to the parquet filename, for example "
+             "'AMI_ES_IS_mix_headset' -> "
+             "dataset_pred_name_AMI_ES_IS_mix_headset.parquet.",
+    )
+    parser.add_argument(
         "--time_info_path", type=str, default=DEFAULT_TIME_INFO_PATH,
         help=f"Session timeline JSON (default: {DEFAULT_TIME_INFO_PATH}). For "
              "PerLTQA pass outputs/perltqa_data/perltqa_session_timeline.json "
@@ -243,6 +261,7 @@ def main():
     #     season = read_embedded_season(args.data_dir)
 
     season_suffix = f"_{season}" if season else ""
+    extra_suffix = f"_{args.suffix}" if args.suffix else ""
     os.makedirs(args.output_root, exist_ok=True)
     if args.use_gt_name:
         chunks, chunk_folders = load_chunks_gt(
@@ -250,7 +269,8 @@ def main():
             season_filter=season, time_info_path=args.time_info_path,
         )
         output_path = os.path.join(
-            args.output_root, f"dataset_gt_name{season_suffix}.parquet"
+            args.output_root,
+            f"dataset_gt_name{season_suffix}{extra_suffix}.parquet",
         )
     else:
         chunks, chunk_folders = load_chunks_pred(
@@ -258,7 +278,8 @@ def main():
             season_filter=season, time_info_path=args.time_info_path,
         )
         output_path = os.path.join(
-            args.output_root, f"dataset_pred_name{season_suffix}.parquet"
+            args.output_root,
+            f"dataset_pred_name{season_suffix}{extra_suffix}.parquet",
         )
     print(f"Loaded {len(chunks)} chunks")
 

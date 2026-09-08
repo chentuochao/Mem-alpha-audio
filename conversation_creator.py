@@ -54,6 +54,12 @@ def get_out_dir(agent_config, args, batch_idx):
     if getattr(args, 'anon_speaker', False):
         out_dir = out_dir + "_anonspk"
 
+    # Optional experiment suffix attached to the run-directory basename. Unlike
+    # rollout_label (a nested directory), this produces e.g. `..._history5/0`.
+    run_dir_suffix = getattr(args, 'run_dir_suffix', None) or os.environ.get('RUN_DIR_SUFFIX')
+    if run_dir_suffix:
+        out_dir = out_dir + f"_{run_dir_suffix}"
+
     # Add rollout label as a subdirectory (e.g. .../<name>/seed1/<batch_idx>) so
     # per-seed/rollout runs are grouped under one parent instead of a suffix.
     if args.rollout_label is not None:
@@ -243,6 +249,28 @@ class ConversationCreator():
             raise NotImplementedError
 
         return all_chunks
+
+    def audio_chunks(self):
+        """Per-row list of audio-slice descriptors, index-aligned with `chunks()`.
+
+        The column is written by prepare_data/add_audio_chunks.py; each entry is
+        {conv_id, chunk_id, chunk_folder, audio_file, start_sec, end_sec,
+         duration_sec, timestamp, speakers}. Used by the audio-native memory
+         construction (run_memory_construction_audio.py).
+        """
+        if 'audio_chunks' not in self.data.columns:
+            raise ValueError(
+                "This parquet has no `audio_chunks` column. Build it first:\n"
+                "  PYTHONPATH=. python prepare_data/add_audio_chunks.py "
+                "--parquet <parquet> --step1_dir <step1 tree> --time_info_path <timeline>"
+            )
+
+        all_audio_chunks = []
+        for idx, row in self.data.iterrows():
+            value = row['audio_chunks']
+            audio_data = json.loads(value) if isinstance(value, str) else list(value)
+            all_audio_chunks.append(audio_data)
+        return all_audio_chunks
 
     def get_query_and_answer(self):
 

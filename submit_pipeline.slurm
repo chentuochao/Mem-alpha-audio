@@ -13,18 +13,22 @@
 # COMPRESSION_STRATEGY env var (positional wins if both are set):
 #   sbatch submit_pipeline.slurm outputs/bazinga_data/Season1_gt.parquet \
 #          seamlessinteraction_options outputs/step3_anony/qas/ x3
-#   sbatch --export=ALL,COMPRESSION_STRATEGY=x3 \
+#   COMPRESSION_STRATEGY=x3 sbatch \
 #          submit_pipeline.slurm outputs/bazinga_data/Season1_gt.parquet
 #
 # Override the reward model (default: Qwen3.6-27B launcher):
-#   sbatch --export=ALL,VLLM_SCRIPT=./launch_vllm.sh submit_pipeline.slurm <parquet>
+#   VLLM_SCRIPT=./launch_vllm.sh sbatch submit_pipeline.slurm <parquet>
 #
-# Seed-variance run (forwarded to run_pipeline.sh via --export=ALL):
+# Seed-variance run (forwarded to run_pipeline.sh via the default --export=ALL).
+# NOTE: set these in sbatch's own environment as shown below. Do NOT use
+# `sbatch --export=ALL,VAR=value` here: that flag makes slurmd rebuild the login
+# environment on the compute node and the job ends up held with
+# "user_env_retrieval_failed_requeued_held".
 #   SEED            seed for step 1 memory construction
 #   MEM_TEMPERATURE sampling temperature (must be > 0 for seeds to diverge;
 #                   the default config decodes greedily and ignores the seed)
 #   ROLLOUT_LABEL   output-folder postfix (_rollout_<label>) so seeds don't clash
-#   sbatch --export=ALL,SEED=1,MEM_TEMPERATURE=0.7,ROLLOUT_LABEL=seed1 \
+#   SEED=1 MEM_TEMPERATURE=0.7 ROLLOUT_LABEL=seed1 sbatch \
 #          submit_pipeline.slurm outputs/bazinga_data/Season1_gt.parquet
 # =============================================================================
 #SBATCH --job-name=mem-pipeline
@@ -110,11 +114,19 @@ trap cleanup EXIT
 # and points step2 at memory_server via the agent config's external_model_url.
 # ANON_SPEAKER=true selects the anonymized-speaker variant (registry-in-core
 # prompt + post-hoc name substitution); anything else uses the normal pipeline.
-case "${ANON_SPEAKER:-}" in
-    true|True|TRUE|1|yes) PIPELINE_SCRIPT="run_pipeline_speaker_name.sh" ;;
-    *)                    PIPELINE_SCRIPT="run_pipeline.sh" ;;
+# AUDIO_NATIVE=true selects the audio-native arm (Qwen3-Omni reads the chunk audio
+# instead of the diar+ASR transcript); the parquet must then carry an `audio_chunks`
+# column (prepare_data/add_audio_chunks.py). It takes precedence over ANON_SPEAKER.
+case "${AUDIO_NATIVE:-}" in
+    true|True|TRUE|1|yes) PIPELINE_SCRIPT="run_pipeline_audio.sh" ;;
+    *)
+        case "${ANON_SPEAKER:-}" in
+            true|True|TRUE|1|yes) PIPELINE_SCRIPT="run_pipeline_speaker_name.sh" ;;
+            *)                    PIPELINE_SCRIPT="run_pipeline.sh" ;;
+        esac
+        ;;
 esac
-echo "pipeline=${PIPELINE_SCRIPT}  anon_speaker=${ANON_SPEAKER:-false}"
+echo "pipeline=${PIPELINE_SCRIPT}  anon_speaker=${ANON_SPEAKER:-false}  audio_native=${AUDIO_NATIVE:-false}"
 CUDA_VISIBLE_DEVICES=0 \
 QWEN_URL="http://localhost:${VLLM_PORT}/v1" \
 QWEN_MODEL_NAME="qwen3-32b" \

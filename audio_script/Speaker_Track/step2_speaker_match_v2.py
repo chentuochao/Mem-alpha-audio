@@ -48,7 +48,7 @@ from audio_script.Speaker_Track.speaker_pool import (
     build_linker,
 )
 
-NEW_FORMAT_DATASETS = ["bazinga", "perltqa", "mosaic"]
+NEW_FORMAT_DATASETS = ["bazinga", "perltqa", "mosaic", "ami"]
 
 
 def merge_adjacent_same_speaker(turns: List[Dict]) -> List[Dict]:
@@ -735,19 +735,30 @@ def main():
                 dialog_pred.append(sent)
 
         dataset = entry.get("dataset")
-        if dataset in ("perltqa", "mosaic"):
-            # PerLTQA / Mix_Mosaic GT is ALREADY turn-annotated
-            # (transcript_gt.json = {speaker: [{speaker, start, end, text}, ...]}).
+        if dataset in ("perltqa", "mosaic", "ami"):
+            # PerLTQA / Mix_Mosaic / AMI GT is ALREADY turn-annotated.
+            # AMI uses the canonical transcript ``word`` key; PerLTQA and
+            # Mix_Mosaic use the parsed-dialog ``text`` key.
             # Each entry is a turn, so we build dialog_gt directly — no
             # word->turn merge (parse_transcript_morespeakers).
             with open(entry["transcript_path"], "r") as f:
                 trans_data = json.load(f)
-            dialog_gt = [
-                {"speaker": spk,
-                 "start": t["start"], "end": t["end"],
-                 "text": t.get("text", t.get("word", ""))}
-                for spk, turns in trans_data.items() for t in turns
-            ]
+            transcript_key = "word" if dataset == "ami" else "text"
+            provenance_keys = (
+                "source_turn_index", "source_turn_id", "absolute_start",
+                "absolute_end",
+            )
+            dialog_gt = []
+            for spk, turns in trans_data.items():
+                for t in turns:
+                    item = {
+                        "speaker": spk,
+                        "start": t["start"],
+                        "end": t["end"],
+                        "text": t[transcript_key],
+                    }
+                    item.update({key: t[key] for key in provenance_keys if key in t})
+                    dialog_gt.append(item)
         elif dataset == "bazinga":
             # Bazinga GT is word-level ({speaker: [{word, start, end, ...}]});
             # merge words into turns via the annotator.
@@ -763,12 +774,15 @@ def main():
                 dialog_gt.extend(json.load(f))
             with open(entry["transcript2_path"], "r") as f:
                 dialog_gt.extend(json.load(f))
-        dialog_gt.sort(key=lambda x: x["start"])
+        dialog_gt.sort(key=lambda x: (x["start"], x.get("source_turn_index", 0)))
         if dataset == "mosaic":
             # After the flatten+sort, a speaker's consecutive segments show up
             # as adjacent same-speaker turns — fold them back into single turns.
             dialog_gt = merge_adjacent_same_speaker(dialog_gt)
 
+        if dataset == "ami":
+            for turn_index, turn in enumerate(dialog_gt):
+                turn["turn_id"] = f"{spk_pair}_C{int(entry['chunk_id']):03d}_T{turn_index:03d}"
         dialog_gt_json = parse_turn(dialog_gt)
         # print_turns(dialog_gt_json)
 

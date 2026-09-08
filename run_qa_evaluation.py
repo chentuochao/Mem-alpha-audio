@@ -92,6 +92,9 @@ def parse_args():
     parser.add_argument("--batch_size", type=int, default=32, help="Batch size for batch processing")
     parser.add_argument("--agentic_search", action="store_true", help="Use agentic memory search instead of simple batch processing")
     parser.add_argument("--rollout_label", type=str, default=None, help="Label to append to output directory path, e.g., rollout_1")
+    parser.add_argument("--run_dir_suffix", type=str, default=None,
+                        help="Suffix attached to the run-directory basename, e.g. history5. "
+                             "Must match memory construction.")
     parser.add_argument(
         "--compression_strategy",
         type=str,

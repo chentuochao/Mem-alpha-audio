@@ -28,8 +28,10 @@ METHOD="${METHOD:-vibevoice}"
 RAW_DATA_PATH="${RAW_DATA_PATH:-/checkpoint/seamless/tuochao/data/bazinga/data/TheBigBangTheory}"
 
 # Seasons to process, in order. The FIRST entry gets --update_pool (builds the
-# initial pool/state); the rest reuse it frozen.
-SEASONS=("Season01" "Season02" "Season03")
+# initial pool/state); the rest reuse it frozen. Override with a space-separated
+# list, e.g. SEASONS="Season01 Season02". Step1 matches these as substrings of
+# the episode id, so "Season01.Episode01" also works for a single-episode run.
+read -r -a SEASONS <<< "${SEASONS:-Season01 Season02 Season03}"
 
 # Per-phase enable switches (set to 0 to skip a phase).
 RUN_STEP1="${RUN_STEP1:-1}"
@@ -53,13 +55,22 @@ ASR_MODEL_PATH="/checkpoint/seamless/tuochao/Models/huggingface/multitalker-para
 MAX_NUM_OF_SPKS=4
 # ── Step1 (VibeVoice backend) ────────────────────────────────────────
 VV_MODEL_PATH="microsoft/VibeVoice-ASR"
-MAX_NEW_TOKENS=8192            # ~8x the busiest real chunk; caps runaway generation
-TEMPERATURE=0.0
-TOP_P=1.0
-NUM_BEAMS=1
-REPETITION_PENALTY=1.2         # >1 breaks repetition loops so the model emits EOS (1.0 = off)
-NO_REPEAT_NGRAM_SIZE=0         # block repeated n-grams of this size (0 = off)
-ATTN_IMPL="auto"   # auto | flash_attention_2 | sdpa | eager
+MAX_NEW_TOKENS="${MAX_NEW_TOKENS:-8192}"   # ~8x the busiest real chunk; caps runaway generation
+TEMPERATURE="${TEMPERATURE:-0.0}"
+TOP_P="${TOP_P:-1.0}"
+NUM_BEAMS="${NUM_BEAMS:-1}"
+# Keep this at 1.0. >1 penalizes the JSON scaffold tokens that MUST repeat once
+# per segment ("Speaker", "Content", the speaker-id digits), which pushes the
+# model into emitting fewer, longer segments that merge several speakers' turns
+# into one Content with "\n" between them — all tagged with a single speaker id.
+# Measured on Friends S01E01 CHUNK_0 (6 GT speakers): 1.0 -> 4 speakers /
+# 15 segments / 0 merged; 1.2 -> 1 speaker / 7 segments / 2 merged. It hurts
+# TBBT too (3 GT speakers: 1.0 -> 3, 1.2 -> 2), just less visibly.
+# Raise it only for noisy audio that degenerates into repetition loops and never
+# emits EOS; prefer NO_REPEAT_NGRAM_SIZE for that, it doesn't distort diarization.
+REPETITION_PENALTY="${REPETITION_PENALTY:-1.0}"
+NO_REPEAT_NGRAM_SIZE="${NO_REPEAT_NGRAM_SIZE:-0}"   # block repeated n-grams of this size (0 = off)
+ATTN_IMPL="${ATTN_IMPL:-auto}"   # auto | flash_attention_2 | sdpa | eager
 
 # ── Step2 (speaker matching) ─────────────────────────────────────────
 ENV_MEM="mem"

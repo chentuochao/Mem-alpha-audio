@@ -5,9 +5,10 @@
 # original standalone behavior (GPU 1, port 8002).
 export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-1}"
 PORT="${PORT:-8002}"
+MODEL="${MODEL:-Qwen/Qwen3-32B}"
 
 python -m vllm.entrypoints.openai.api_server \
-    --model Qwen/Qwen3-32B \
+    --model "$MODEL" \
     --served-model-name qwen3-32b \
     --host 0.0.0.0 \
     --port "$PORT" \

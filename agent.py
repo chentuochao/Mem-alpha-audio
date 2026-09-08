@@ -1069,6 +1069,16 @@ Please only return the query, no other text."""
         success = False
         name = function_call["name"]
         arguments = None
+
+        # A generation cut off by max_new_tokens leaves the last call's arguments
+        # unterminated. repair_json() happily completes it, so a fragment like
+        # '{"memory_type": "episodic_memory", "content": "At timestamp 2023-05-'
+        # used to be stored as a real memory item. Drop such calls instead, so a
+        # binding output cap shows up as lost writes rather than corrupt memory.
+        if isinstance(function_call["arguments"], str) and not function_call["arguments"].rstrip().endswith("}"):
+            result_str = f"[tool {name} error] Truncated arguments (generation cut off); call dropped"
+            return (name, None, result_str) if return_arguments else result_str
+
         try:
             if isinstance(function_call["arguments"], str):
                 # Repair JSON before parsing

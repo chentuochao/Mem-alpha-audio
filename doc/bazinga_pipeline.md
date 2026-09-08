@@ -461,14 +461,14 @@ export PYTHONPATH=/storage/home/tuochao/Mem-alpha-audio
 
 python -m prepare_data.prepare_parquet_from_step3 \
   --data_dir outputs/step3_anony/Friends \
-  --season_filter Season01 --suffix Anony \
+  --season_filter Season01 --suffix Friends_Anony \
   --time_info_path outputs/bazinga_data/Friends_all_seasons_session_timeline.json
 # -> outputs/step3_anony/Friends/dataset_pred_name_Season01_Anony.parquet
 
 # gold-name counterpart (see the caveat below before using it)
 python -m prepare_data.prepare_parquet_from_step3 \
   --data_dir outputs/step3_anony/Friends \
-  --season_filter Season01 --suffix Anony \
+  --season_filter Season01 --suffix Friends_Anony \
   --time_info_path outputs/bazinga_data/Friends_all_seasons_session_timeline.json \
   --use_gt_name
 # -> outputs/step3_anony/Friends/dataset_gt_name_Season01_Anony.parquet
@@ -634,11 +634,7 @@ The probe needs `memory_server.py` on port 5005 *and* the reward-model vLLM on
 ```
 
 ```bash
-bash diagnostic/run_probe_errors.sh \
-  agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_Season01_Anony_no_thinking_tokens_2048 \
-  outputs/step3_anony/Friends \
-  outputs/step3_anony/Friends_Anony_QA/friends_s1_qa_anony.jsonl \
-  outputs/step3_anony/Friends/dataset_gt_name_Season01_Anony.parquet
+RUN_GOLDEN=1 bash diagnostic/run_probe_errors.sh   agents/qwen3.6-27b_Qwen_Qwen3.6-27B_seamlessinteraction_options_dataset_pred_name_Season01_Friends_Anony_no_thinking_tokens_2048/   outputs/step3_anony/Friends   outputs/step3_anony/Friends_Anony_QA/friends_qa_strict_validated_anony.jsonl   outputs/step3_anony/Friends/dataset_gt_name_Season01_Friends_Anony.parquet
 ```
 
 `DATA_ROOT` is the step3 tree, which holds both `parsed_dialog_gt.json` and

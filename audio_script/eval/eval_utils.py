@@ -42,12 +42,21 @@ def parse_turn(turns):
         end = utt["end"]
         text = utt["text"]
         text = remove_first_punction(text.strip())
-        dialog.append({
+        parsed = {
             "speaker": utt["speaker"],
             "start": start,
             "end": end,
             "text": text
-        })
+        }
+        # Keep compact source provenance needed to map QA evidence back to the
+        # original recording after Step 1 has made timestamps chunk-relative.
+        for key in (
+            "source_turn_index", "source_turn_id", "absolute_start",
+            "absolute_end", "turn_id",
+        ):
+            if key in utt:
+                parsed[key] = utt[key]
+        dialog.append(parsed)
     return dialog
 
 

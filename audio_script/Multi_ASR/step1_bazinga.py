@@ -201,6 +201,9 @@ def process_episode(
             "dataset": dataset_name,
             "conv_id": conv_id,
             "chunk_id": chunk_id,
+            "sample_rate": SR,
+            "chunk_start_sec": chunk_start_sec,
+            "chunk_end_sec": float(end_sample) / SR,
             "audio_file": sample.get("audio_path"),
             "txt_path": sample.get("txt_path"),
             "speakers": list(speaker_transcripts.keys()),
@@ -212,6 +215,9 @@ def process_episode(
             "time_stamp": [start_sample, end_sample],
             **backend.extra_manifest(),
         }
+        for key in ("series_id", "audio_type", "source_transcript_path"):
+            if sample.get(key) is not None:
+                sample_info[key] = sample[key]
 
         save_chunk_outputs(
             chunk_dir=chunk_dir,
